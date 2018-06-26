@@ -1,5 +1,5 @@
 /* SCROLL */
-$('#view-work').on('click', function() {
+$('#view-more').on('click', function() {
     const images = $('#main-content').position().top;
 
     $('html, body').animate({

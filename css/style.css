@@ -143,6 +143,7 @@ nav {
 
 .scontent {
   background: #333;
+  display: flex;
 }
 
 .ptext {

@@ -183,13 +183,34 @@ nav {
   background: rgb(19, 12, 8); /* THISIS IN HEADER COLOR */
 }
 
+.mdl-contact{
+  background: #2c14af;
+}
+
+.mdl-about{
+  background: #e60321;
+}
+
 .content {
+  min-height: 100vh;
+  margin: auto;
   background: #fff;
   padding: 20px;
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
   line-height: 1em;
+}
+
+.inner-content {
+  width: 60%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 786px) {
+  .inner-content {
+    width: 98%;
+  }
 }
 
 .content h3 {
@@ -271,7 +292,7 @@ nav {
   }
 }
 
-.privacy-content hr {
+hr{
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
@@ -287,6 +308,77 @@ nav {
 .last-text {
   font-size: 0.7rem;
 }
+
+/* CONTACT STYLE */
+.greeting {
+  margin: 50px 0 20px 0;
+  font-size: 4rem;
+  text-align: left;
+}
+
+.greeting-inner {
+  display: block;
+  color: #ddd;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.social-media {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
+
+.social-media li {
+  height: 5rem;
+  width: 30%;
+  margin: 20px 0;
+  transition: 200ms;
+}
+
+.social-media:hover li {
+  opacity: 0.5;
+  transition: 200ms;
+}
+
+.social-media li:hover {
+  opacity: 1;
+  transition: 200ms;
+}
+
+.social-icon {
+  height: 80px;
+  width: 80px;
+  opacity: 0.3;
+}
+
+.sms {
+  display: none;
+}
+
+.info section{
+  margin-top: 40px;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.map-zone{
+  margin: auto;
+}
+
+
+/* ABOUT */
+.inner-link{
+  text-decoration: underline;
+  font-weight: 600;
+  color: #555;
+}
+
 
 /*  FOOTER */
 

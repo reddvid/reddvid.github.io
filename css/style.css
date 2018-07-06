@@ -28,16 +28,16 @@ body {
 }
 
 .inner-text {
-  position: absolute;
+  position: relative;
   width: 60%;
   margin: auto;
   left: 0;
   right: 0;
-  top: 50%;
+  top: calc(100vh / 2);
   font-weight: 600;
   text-align: center;
   color: #fff;
-  font-size: 7rem;
+  font-size: calc(14vw);
 }
 
 .intro-text {
@@ -141,15 +141,19 @@ nav {
   transition: 300ms;
 }
 
-.scontent {
+.lcontent {
   background: #333;
+  display: flex;
+}
+
+.rcontent {
+  background: #444;
   display: flex;
 }
 
 .ptext {
   display: flex;
   flex: 0 1 40vw;
-  height: 50vh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -159,7 +163,7 @@ nav {
 }
 
 .pimg {
-  background: url("/images/heromain.jpg");
+  display: flex;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,10 +172,49 @@ nav {
   margin: 0;
 }
 
+.pimg.ece {
+  background: url("/images/heromain.jpg");
+}
+
+.pimg.code {
+  background: url("/images/code.jpg");
+}
+
 .section-text {
   top: 50%;
   bottom: 0;
   width: 80%;
+}
+
+
+@media only screen and (max-width: 786px) {
+  .lcontent, .rcontent{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .lcontent.ece {
+    background: url("/images/heromain.jpg");
+  }
+
+  .rcontent.code {
+    background: url("/images/code.jpg");
+  }
+
+  .pimg {
+    display: none;
+  }
+
+  .ptext {
+    display: block;
+    margin: 120px auto;
+  }
+
+  .section-text {
+    margin: auto;
+  }
 }
 
 /* APPS LIST */
@@ -183,11 +226,11 @@ nav {
   background: rgb(19, 12, 8); /* THISIS IN HEADER COLOR */
 }
 
-.mdl-contact{
+.mdl-contact {
   background: #2c14af;
 }
 
-.mdl-about{
+.mdl-about {
   background: #e60321;
 }
 
@@ -292,7 +335,7 @@ nav {
   }
 }
 
-hr{
+hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
@@ -361,24 +404,22 @@ hr{
   display: none;
 }
 
-.info section{
+.info section {
   margin-top: 40px;
   font-size: 1rem;
   line-height: 1.8rem;
 }
 
-.map-zone{
+.map-zone {
   margin: auto;
 }
 
-
 /* ABOUT */
-.inner-link{
+.inner-link {
   text-decoration: underline;
   font-weight: 600;
   color: #555;
 }
-
 
 /*  FOOTER */
 
@@ -388,11 +429,12 @@ footer {
 }
 
 footer ul {
-  width: 300px;
+  width: 160px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
   text-align: center;
+  transition: 200ms;
 }
 
 footer ul:hover li {
@@ -407,11 +449,11 @@ footer ul li:hover {
 
 footer ul li {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 footer ul li a img {
-  height: 30px;
+  height: 16px;
 }
 
 .copyright-text {

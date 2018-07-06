@@ -33,18 +33,25 @@
 
 
     <div id="main-content">
-        <div class="scontent">
+        <div class="lcontent ece">
             <div class="ptext">
                 <div class="section-text">
                     <h2>ECE</h2>
                     <h4>Working as an RF Engineer in the Broadcasting field</h4>
                 </div>
             </div>
-            <div class="pimg"></div>
+            <div class="pimg ece"></div>
+        </div>
+        <div class="rcontent code">
+            <div class="pimg code"></div>
+            <div class="ptext">
+                <div class="section-text">
+                    <h2>Dev</h2>
+                    <h4>UWP apps developer and now venturing into web development</h4>
+                </div>
+            </div>
         </div>
     </div>
-
-
 
     <footer>
         <div w3-include-html="footer.html"></div>
@@ -52,7 +59,22 @@
 
     <script>
         includeHTML();
+
+        styleHeader();
+
+        // Add style to selected header
+        function myFunction() {
+            var element = document.getElementById("main-menu");
+            element.ADdc("mystyle");
+        } 
     </script>
+
+    <style>
+        .mystyle:first-child li a {
+            text-decoration: none;
+            color: #f00;
+        }
+    </style>
 
 </body>
 

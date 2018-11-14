@@ -263,7 +263,7 @@ nav {
 .appgrid {
   margin: auto;
   display: flex;
-  max-width: 1200px;
+  max-width: 1100px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -429,7 +429,7 @@ footer {
 }
 
 footer ul {
-  width: 160px;
+  width: 180px;
   margin: 0 auto;
   padding: 0;
   list-style: none;

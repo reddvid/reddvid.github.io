@@ -27,13 +27,21 @@ body {
   min-height: 100%;
 }
 
+img.imgProfile {
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  padding: 0;
+  margin: 0 auto;
+}
+
 .inner-text {
   position: relative;
-  width: 60%;
+  width: 80vw;
   margin: auto;
-  left: 0;
-  right: 0;
-  top: calc(100vh / 3);
+  top: 80px;
   font-weight: 600;
   text-align: center;
   color: #fff;
@@ -41,10 +49,7 @@ body {
 }
 
 .intro-text {
-  opacity: 0.3;
-  margin: 0;
-  padding: 0;
-  line-height: 0%;
+  font-size: 0.666em;
 }
 
 span {
@@ -53,12 +58,61 @@ span {
 
 .sub-text {
   margin: auto;
-  font-size: 16px;
+  font-size: 0.8rem;
   text-align: center;
   width: inherit;
-  font-style: italic;
   line-height: 1;
 }
+
+/* ADDED SOCIAL LINKS */
+div.links-wrapper {
+  display: inline;
+  margin: -20 auto;
+  text-align: center;
+  overflow: hidden;
+  line-height: 0;
+}
+
+ul.social-links {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  height: 20px;
+}
+
+ul.social-links li {
+  height: 20px;
+  display: inline-block;
+}
+
+ul.social-links li a {
+  color: #fff;
+  padding: 0;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  height: 20px;
+  /* Height * 2 - font size */
+  font-size: 12px;
+}
+
+ul.social-links li a img {
+  height: 20px;
+}
+
+
+ul.social-links:hover li {
+  opacity: 0.5;
+  height: inherit;
+  transition: 200ms;
+}
+
+ul.social-links li:hover {
+  opacity: 1;
+  transition: 200ms;
+}
+
+
 
 /* HEADER */
 
@@ -119,6 +173,7 @@ nav {
     height: 32px;
   }
 }
+
 /* END HEADER */
 
 .button-container {
@@ -188,13 +243,15 @@ nav {
 
 
 @media only screen and (max-width: 786px) {
-  .lcontent, .rcontent{
+
+  .lcontent,
+  .rcontent {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  
+
   .lcontent.ece {
     background: url("/images/heromain.jpg");
   }
@@ -223,7 +280,8 @@ nav {
 }
 
 .mdl-privacy {
-  background: rgb(19, 12, 8); /* THISIS IN HEADER COLOR */
+  background: rgb(19, 12, 8);
+  /* THISIS IN HEADER COLOR */
 }
 
 .mdl-contact {
@@ -428,9 +486,19 @@ footer {
   margin-top: 40px !important;
 }
 
+div.social-links-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
 footer ul {
-  width: 180px;
-  margin: 0 auto;
+  display: inline-block;
+  width: 240px;
+  text-decoration: none;
+  margin: 0 auto 20px auto;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -448,8 +516,15 @@ footer ul li:hover {
 }
 
 footer ul li {
-  display: inline-block;
-  padding: 0px 5px;
+  display: inline;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
 }
 
 footer ul li a img {
@@ -457,9 +532,10 @@ footer ul li a img {
 }
 
 .copyright-text {
+  margin: 20px auto 60px auto;
   text-align: center;
+  overflow: hidden;
   font-size: 0.7rem;
-  padding: 20px 0;
   color: #aaa;
 }
 
@@ -473,16 +549,25 @@ footer ul li a img {
 /* The side navigation menu */
 .sidenav {
   text-align: center;
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
@@ -537,6 +622,7 @@ footer ul li a img {
   .sidenav {
     padding-top: 15px;
   }
+
   .sidenav a {
     font-size: 18px;
   }

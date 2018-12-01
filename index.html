@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
@@ -35,45 +36,50 @@
 <body>
     <div class="phero">
         <div class="nav-wrapper" w3-include-html="header.html"></div>
+        
         <div class="inner-text">
-            <span class="intro-text">iam</span>David
+            <img src="/images/2x1.png" class="imgProfile" />
+            <span class="intro-text">reddvid</span>
             <p class="sub-text">
-                Electronics Engineer. Tech enthusiast. Musician. Tryhard web and software developer. Creative and a learn-it-all.
+                Electronics Engineer & Software Developer
             </p>
+            <div class="links-wrapper">
+                <ul class="social-links">                   
+                    <li>
+                        <a target="_blank" href="https://www.twitter.com/reddvid">
+                            <img class="social-item" src="images/tw.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/reddvidapps">
+                            <img class="social-item" src="images/fb.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/reddvid">
+                            <img class="social-item" src="images/insta.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.github.com/reddvid">
+                            <img class="social-item" src="images/git.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/reddvid">
+                            <img class="social-item" src="images/lin.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <div class="button-container">
-            <a href="#me" class="btn" id="view-more">
-                <img class="btn-icon" src="/images/icon_downarrow.png" alt="icon">
-            </a>
-        </div>
+       
     </div>
 
 
-    <div id="main-content">
-        <div class="lcontent ece">
-            <div class="ptext">
-                <div class="section-text">
-                    <h2>ECE</h2>
-                    <h4>Working as an RF Engineer in the Broadcasting field</h4>
-                </div>
-            </div>
-            <div class="pimg ece"></div>
-        </div>
-        <div class="rcontent code">
-            <div class="pimg code"></div>
-            <div class="ptext">
-                <div class="section-text">
-                    <h2>Dev</h2>
-                    <h4>UWP apps developer and now venturing into web development</h4>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <footer>
-        <div w3-include-html="footer.html"></div>
-    </footer>
+   
 
     <script>
         includeHTML();
@@ -84,7 +90,7 @@
         function myFunction() {
             var element = document.getElementById("main-menu");
             element.ADdc("mystyle");
-        } 
+        }
     </script>
 
     <style>

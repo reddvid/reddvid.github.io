@@ -7,6 +7,8 @@ $('#view-more').on('click', function() {
     }, 900);
 });
 
+
+
 /* OPEN NAV */
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";

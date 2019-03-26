@@ -24,15 +24,19 @@
             height: 100%;
         }
 
-        .kao {
-            margin-top: 4px;
-            font-size: 2em;
+        .kao img {
+            max-width: 25%;
+            height: auto;
+            animation: shake 1.5s;
+
+            /* When the animation is finished, start again */
+            animation-iteration-count: infinite;
         }
 
         .phn {
-            margin-top: 20vh;
+            display: absolute;
+            top: 20px;
             width: 60%;
-            z-index: 1;
         }
 
         .cntdwn {
@@ -48,13 +52,58 @@
             background: rgba(250, 18, 18, 0.2);
         }
 
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+            }
+
+            90% {
+                transform: translate(1px, 2px) rotate(0deg);
+            }
+
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="main-wrapper">
         <div class="kao">
-            ༼ つ ◕_◕ ༽つ
+            <img src="/images/kolot.png" id="kolot">
         </div>
         <img src="https://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a50-sm-a505f-ds-1.jpg" alt="samsungA50"
             class="phn">
@@ -84,13 +133,15 @@
             // Display the result in the element with id="demo"
             document.getElementById("cd-text").innerHTML = days + "D" + hours + "H" +
                 minutes + "M" + seconds;
-m
+
             // If the count down is finished, write some text 
             if (distance < 0) {
                 clearInterval(x);
                 document.getElementById("text").innerHTML = "GOT IT!";
             }
         }, 1000);
+
+        var kolotFace = document.getElementById("kolot");
     </script>
 </body>
 

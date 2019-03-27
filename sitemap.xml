@@ -2,7 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-<<<<<<< HEAD
     <url>
       <loc>https://reddvid.github.io/2014/first/</loc>
       
@@ -126,54 +125,3 @@
     </url>
   
 </urlset>
-=======
-  <url>
-    <loc>https://reddvid.github.io/apps/</loc>
-    <lastmod>2019-03-27T11:29:43+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/projects/success/</loc>
-    <lastmod>2019-03-27T11:29:43+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/about-me/</loc>
-    <lastmod>2019-03-27T11:28:48+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/posts/first/</loc>
-    <lastmod>2019-03-24T21:38:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/</loc>
-    <lastmod>2019-03-27T11:29:43+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/posts/</loc>
-    <lastmod>2019-03-24T21:38:01+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/projects/</loc>
-    <lastmod>2019-03-27T11:29:43+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://reddvid.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
->>>>>>> a243d58b7f6e65384978f022042e49a5a8a12b68

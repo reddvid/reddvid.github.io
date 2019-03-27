@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Projects on Red David Blog</title>
     <link>https://reddvid.github.io/projects/</link>
     <description>Recent content in Projects on Red David Blog</description>
-=======
-    <title>Projects on David Ballesteros</title>
-    <link>https://reddvid.github.io/projects/</link>
-    <description>Recent content in Projects on David Ballesteros</description>
->>>>>>> a243d58b7f6e65384978f022042e49a5a8a12b68
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Mar 2019 11:29:43 +0800</lastBuildDate>

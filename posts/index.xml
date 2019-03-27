@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<<<<<<< HEAD
   <channel>
     <title>Posts on Red David Blog</title>
     <link>https://reddvid.github.io/posts/</link>
@@ -22,3 +23,27 @@
     
   </channel>
 </rss>
+=======
+    <channel>
+        <title>Posts on David Ballesteros</title>
+        <link>https://reddvid.github.io/posts/</link>
+        <description>Recent content in Posts on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 24 Mar 2019 21:38:01 +0800</lastBuildDate>
+        <atom:link href="https://reddvid.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>First</title>
+            <link>https://reddvid.github.io/posts/first/</link>
+            <pubDate>Sun, 24 Mar 2019 21:38:01 +0800</pubDate>
+            
+            <guid>https://reddvid.github.io/posts/first/</guid>
+            <description>###Hello Friend</description>
+            <content type="html"><![CDATA[<p>###Hello Friend</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
+>>>>>>> a243d58b7f6e65384978f022042e49a5a8a12b68

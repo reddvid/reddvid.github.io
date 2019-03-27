@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-129071597-1');
+    </script>
+    
+    <script src="js/main.js"></script>
+    <link rel="icon" href="favicon.ico">
+    <title>RPN Live Streaming - Red David</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Qucksand:500" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal site for apps and others">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="David Ballesteros">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="menu-icon">
+                <img class="menu-icon-img" src="images/menu-options.svg">
+            </div>
+
+            <div class="logo">
+                RED DAVID
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a class="active_hlink" href="">Home</a>
+                    </li>
+                    <li id="btn-works">
+                        <a class="hlink">My works</a>
+                        <div class="dropdown-content">
+                            <a href="livestream.html" class="hlink" href="#">Windows 10 apps</a>
+                            <a class="hlink" href="#">RPN Livestream</a>
+                            <a class="hlink" href="#">GF's page</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="privacy.html" class="hlink">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hlink">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="content">
+        <div class="flex-container">
+            <a class="radio_station" onclick="menuItemClick('batac')" href="#">DZRL BATAC</a>
+        </div>
+
+    </div>
+
+    <div id="player">
+        <script id="player_element" type="text/javascript"></script>
+        <script type="text/javascript" src="http://static.radioforge.com/radio2014/html5.js">
+        </script>
+    </div>
+    </div>
+    
+
+    <script type="text/javascript">
+
+        // Menu-toggle button
+        $(document).ready(function () {
+            $(".menu-icon").on("click", function () {
+                $("nav ul").toggleClass("showing");
+            });
+        });
+
+        // Scrolling Effect
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        });
+
+
+    </script>
+
+</body>
+
+</html>

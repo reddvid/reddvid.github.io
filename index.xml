@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Red David Blog on Red David Blog</title>
     <link>https://reddvid.github.io/</link>
     <description>Recent content in Red David Blog on Red David Blog</description>
@@ -18,6 +19,17 @@
       <description>&lt;p&gt;###Hello Friend&lt;/p&gt;
 </description>
     </item>
+=======
+    <title>David Ballesteros</title>
+    <link>https://reddvid.github.io/</link>
+    <description>Recent content on David Ballesteros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Mar 2019 11:29:43 +0800</lastBuildDate>
+    
+	<atom:link href="https://reddvid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+>>>>>>> a243d58b7f6e65384978f022042e49a5a8a12b68
     
     <item>
       <title>Success</title>
@@ -25,6 +37,7 @@
       <pubDate>Wed, 27 Mar 2019 11:29:43 +0800</pubDate>
       
       <guid>https://reddvid.github.io/projects/success/</guid>
+<<<<<<< HEAD
       <description>&lt;p&gt;New blog built with Hugo now hosted by GitHub Pages.&lt;/p&gt;
 
 &lt;p&gt;After few failed attempts, commits and removes, it&amp;rsquo;s time to tinker and finalize the pages from the older blog and from Wordpress blog.&lt;/p&gt;
@@ -41,6 +54,20 @@
       <guid>https://reddvid.github.io/about/</guid>
       <description>&lt;p&gt;Coming soon&lt;/p&gt;
 </description>
+=======
+      <description>New blog built with Hugo now hosted by GitHub Pages.
+After few failed attempts, commits and removes, it&amp;rsquo;s time to tinker and finalize the pages from the older blog and from Wordpress blog.
+New line</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://reddvid.github.io/posts/first/</link>
+      <pubDate>Sun, 24 Mar 2019 21:38:01 +0800</pubDate>
+      
+      <guid>https://reddvid.github.io/posts/first/</guid>
+      <description>###Hello Friend</description>
+>>>>>>> a243d58b7f6e65384978f022042e49a5a8a12b68
     </item>
     
   </channel>

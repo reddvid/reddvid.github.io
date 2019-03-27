@@ -1,40 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Red David Blog</title>
-    <link>/</link>
-    <description>Recent content on Red David Blog</description>
+    <title>Red David Blog on Red David Blog</title>
+    <link>https://reddvid.github.io/</link>
+    <description>Recent content in Red David Blog on Red David Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2019 21:38:01 +0800</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>First</title>
-      <link>/posts/first/</link>
-      <pubDate>Sun, 24 Mar 2019 21:38:01 +0800</pubDate>
+      <title>Creating a New Theme</title>
+      <link>https://reddvid.github.io/2014/first/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>/posts/first/</guid>
-      <description>###Hello Friend</description>
+      <guid>https://reddvid.github.io/2014/first/</guid>
+      <description>&lt;p&gt;###Hello Friend&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Hello Friend</title>
-      <link>/posts/hello/</link>
-      <pubDate>Wed, 17 Sep 1986 00:00:00 +0000</pubDate>
+      <title>Success</title>
+      <link>https://reddvid.github.io/projects/success/</link>
+      <pubDate>Wed, 27 Mar 2019 11:29:43 +0800</pubDate>
       
-      <guid>/posts/hello/</guid>
-      <description> &amp;ldquo;Hello, friend?&amp;rdquo; That&amp;rsquo;s lame. Maybe I should give you a name&amp;hellip;
-But that&amp;rsquo;s a slippery slope.
-You&amp;rsquo;re only in my head.
-We have to remember that&amp;hellip;
-Shit.
-It&amp;rsquo;s actually happened.
-I&amp;rsquo;m talking to an imaginary person.
-— Mr. Robot S01E01
- </description>
+      <guid>https://reddvid.github.io/projects/success/</guid>
+      <description>&lt;p&gt;New blog built with Hugo now hosted by GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;After few failed attempts, commits and removes, it&amp;rsquo;s time to tinker and finalize the pages from the older blog and from Wordpress blog.&lt;/p&gt;
+
+&lt;p&gt;New line&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://reddvid.github.io/about/</link>
+      <pubDate>Wed, 27 Mar 2019 11:28:48 +0800</pubDate>
+      
+      <guid>https://reddvid.github.io/about/</guid>
+      <description>&lt;p&gt;Coming soon&lt;/p&gt;
+</description>
     </item>
     
   </channel>

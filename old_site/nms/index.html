@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Auto Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>NMS Auto Text</h1>
+        <div id="inputs">
+            <form>
+                <input onchange="validate();" id="son" name="mod" type="radio" value="son">Sign On<br>
+                <input onchange="validate();" id="soff" name="mod" type="radio" value="soff">Sign Off<br>
+                <br>
+                Forward Power:<br>
+                <input id="fwd" type="text" placeholder="59.6">&nbsp;kW<br>
+                Reflected Power:<br>
+                <input id="ref" type="text" placeholder="50">&nbsp;W<br>
+                <br>
+                <span id="vswr">VSWR: </span>
+
+                <br>
+                <br>
+
+            </form>
+            <button type="button" id="wowbtn" onclick="validate()">Generate</button>
+        </div>
+
+        <div id="preview">
+            <h3>Preview:</h3>
+            <div id="textpreview">
+
+            </div>
+            <button type="button" id="wowbtn" class="copysmall">Copy</button>
+
+        </div>
+
+    </div>
+
+     <script src="script.js"></script>
+</body>
+
+</html>

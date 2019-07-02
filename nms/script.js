@@ -88,7 +88,7 @@ function getYesterday() {
 function generateContent(x, f, r) {
     var greeting = (x == "son") ? "Morning" : "Evening";
     var day = (x == "son") ? dateToday : dateYesterday;
-    var data = (x == "son") ? "TX On: 0500H\nSign On: 0530H" : "TX Off: 0000H\nSign Off: 0005H";
+    var data = (x == "son") ? "TX On: 0500H\nSign On: 0530H" : "Sign Off: 0000H\nTX Off: 0005H";
     document.getElementById("textpreview").innerText =
         "Good " + greeting + " Team\nDate: " +
         day + "\nStation: DZKB-TV (TV-9 Manila)\n" +

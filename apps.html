@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html>
 
-<head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-129071597-1');
-</script>
-
+<head>
+    <title>David "Red" Ballesteros</title>
+    <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="icon" href="favicon.ico">
-    <script src="js/main.js"></script>
-    <title>Windows 10 Apps - Red David</title>
-    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Red David">
+    <meta property="og:url" content="https://reddvid.github.io/">
+    <meta property="og:image" content="http://www.reddvid.xyz/images/code.jpg">
+    <meta property="profile:first_name" content="David">
+    <meta property="profile:last_name" content="Ballesteros">
+    <meta property="profile:gender" content="male">
+    <meta property="profile:username" content="reddvid14">
+
+    <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-129071597-1');
+    </script>
 </head>
 
 <body>
     <div class="mdl-design">
         <div class="nav-wrapper" w3-include-html="header.html"></div>
         <div class="content">
-
             <h3>Windows 10 Apps</h3>
-
             <div class="appgrid">
-
-                <div onclick="itemClick('9nblggh41btt')" class="item-wrapper">
+                <div onclick="app_click('9nblggh41btt')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/rf-tools-new.png">
+                        <img src="images/icons/rftools.png">
                     </div>
                     <h5>RF Tools</h5>
                     <p>
@@ -41,9 +54,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9nblggh4rp95')" class="item-wrapper">
+                <div onclick="app_click('9nblggh4rp95')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/steemidfinder.png">
+                        <img src="images/icons/steamidviewer.png">
                     </div>
                     <h5>Steam ID Viewer</h5>
                     <p>
@@ -53,9 +66,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9NPLBP33N95T')" class="item-wrapper">
+                <div onclick="app_click('9NPLBP33N95T')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/subquests.png">
+                        <img src="images/icons/subquests.png">
                     </div>
                     <h5>SubQuests</h5>
                     <p>
@@ -66,9 +79,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9nblggh5gft6')" class="item-wrapper">
+                <div onclick="app_click('9nblggh5gft6')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/zipcodeph.png">
+                        <img src="images/icons/zipcodeph.png">
                     </div>
                     <h5>ZIP Code PH</h5>
                     <p>
@@ -79,9 +92,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9PMSR1QHK32F')" class="item-wrapper">
+                <div onclick="app_click('9PMSR1QHK32F')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/eachtime.jpg">
+                        <img src="images/icons/eachtime.png">
                     </div>
                     <h5>Each Time</h5>
                     <p>
@@ -92,9 +105,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9P650NF68J50')" class="item-wrapper">
+                <div onclick="app_click('9P650NF68J50')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/IconFinder2.png">
+                        <img src="images/icons/iconfinder.png">
                     </div>
                     <h5>Symbol Icon Finder</h5>
                     <p>
@@ -103,9 +116,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9NTXWHLBH9JB')" class="item-wrapper">
+                <div onclick="app_click('9NTXWHLBH9JB')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/logiexport.png">
+                        <img src="images/icons/logiexport.png">
                     </div>
                     <h5>Logitech Profiles Manager</h5>
                     <p>
@@ -113,9 +126,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9nvl993hgmtx')" class="item-wrapper">
+                <div onclick="app_click('9nvl993hgmtx')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/PHConsti-Full.png">
+                        <img src="images/icons/phconsti.png">
                     </div>
                     <h5>1987 PH Constitution</h5>
                     <p>
@@ -126,9 +139,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9p4n369p108d')" class="item-wrapper">
+                <div onclick="app_click('9p4n369p108d')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/BagongTipan.png">
+                        <img src="images/icons/bagongtipan.png">
                     </div>
                     <h5>Ang Bagong Tipan</h5>
                     <p>
@@ -136,9 +149,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9NBLGGH4R7MS')" class="item-wrapper">
+                <div onclick="app_click('9NBLGGH4R7MS')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/mtv.png">
+                        <img src="images/icons/manilatrafficnav.png">
                     </div>
                     <h5>Manila Traffic Navigator</h5>
                     <p>
@@ -147,9 +160,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9pbwj21r2mzn')" class="item-wrapper">
+                <div onclick="app_click('9pbwj21r2mzn')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/simnetph.png">
+                        <img src="images/icons/simnetph.png">
                     </div>
                     <h5>SIM Net PH</h5>
                     <p>
@@ -157,9 +170,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9nblggh4pttp')" class="item-wrapper">
+                <div onclick="app_click('9nblggh4pttp')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/seethroughtiles.png">
+                        <img src="images/icons/seethrough.png">
                     </div>
                     <h5>See-Through Tiles</h5>
                     <p>
@@ -167,9 +180,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9nblgggzgk43')" class="item-wrapper">
+                <div onclick="app_click('9nblgggzgk43')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/theprayerbook.png">
+                        <img src="images/icons/prayerbook.png">
                     </div>
                     <h5>The Prayer Book</h5>
                     <p>
@@ -180,9 +193,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9nblggh4qlv0')" class="item-wrapper">
+                <div onclick="app_click('9nblggh4qlv0')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/urltosms.png">
+                        <img src="images/icons/urltosms.png">
                     </div>
                     <h5>URLtoSMS</h5>
                     <p>
@@ -190,9 +203,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9PHL469C0Z20')" class="item-wrapper">
+                <div onclick="app_click('9PHL469C0Z20')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/rpnsplash.png">
+                        <img src="images/icons/rpnradio.png">
                     </div>
                     <h5>RPN Internet Radio</h5>
                     <p>
@@ -200,9 +213,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9NBLGGH4R4F5')" class="item-wrapper">
+                <div onclick="app_click('9NBLGGH4R4F5')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/ud.png">
+                        <img src="images/icons/urbandictionary.png">
                     </div>
                     <h5>Urban Dict10nary</h5>
                     <p>
@@ -211,9 +224,9 @@
                     </p>
                 </div>
 
-                 <div onclick="itemClick('9PMFN8938CX5')" class="item-wrapper">
+                <div onclick="app_click('9PMFN8938CX5')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/btsharer.png">
+                        <img src="images/icons/btsharer.png">
                     </div>
                     <h5>BTSharer</h5>
                     <p>
@@ -221,9 +234,9 @@
                     </p>
                 </div>
 
-                <div onclick="itemClick('9P9F9D77ZB0N')" class="item-wrapper">
+                <div onclick="app_click('9P9F9D77ZB0N')" class="item-wrapper">
                     <div class="grid-item">
-                        <img src="images/yourphonetray.png">
+                        <img src="images/icons/yourphonetray.png">
                     </div>
                     <h5>Your Phone Tray</h5>
                     <p>
@@ -235,16 +248,14 @@
         </div>
     </div>
 
-
-
     <footer>
         <div w3-include-html="footer.html"></div>
     </footer>
 
+    <script src="js/main.js"></script>
     <script>
-        includeHTML();
+        show_html();
     </script>
-
 </body>
 
 

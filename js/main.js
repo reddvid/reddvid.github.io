@@ -8,7 +8,7 @@ function close_menu() {
 } 
 
 /* APPS CLICK */
-function itemClick(appId) {
+function app_click(appId) {
     window.open('https://www.microsoft.com/store/apps/' + appId, '_blank');
 }
 
@@ -23,7 +23,7 @@ function menuItemClick(station) {
   
 }
 
-function showHeader() {
+function show_html() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
   z = document.getElementsByTagName("*");
@@ -40,7 +40,7 @@ function showHeader() {
                   if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
                   /*remove the attribute, and call this function once more:*/
                   elmnt.removeAttribute("w3-include-html");
-                  showHeader();
+                  show_html();
               }
           }
           xhttp.open("GET", file, true);

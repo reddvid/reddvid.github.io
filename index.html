@@ -2,19 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-129071597-1');
-    </script>
-
+    <title>David "Red" Ballesteros</title>
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -28,13 +16,24 @@
     <meta property="profile:gender" content="male">
     <meta property="profile:username" content="reddvid14">
 
-    <title>David "Red" Ballesteros</title>
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-129071597-1');
+    </script>
 </head>
 
 <body>
@@ -42,7 +41,7 @@
         <div class="nav-wrapper" w3-include-html="header.html"></div>
         <div class="inner-text">
             <img src="/images/david_.jpg" class="img-profile" />
-            <span class="intro-text">David Ballesteros</span>
+            <div class="intro-text">David Ballesteros</div>
             <p class="sub-text">
                 Electronics Engineer
             </p>
@@ -69,16 +68,8 @@
 
     <script src="js/main.js"></script>
     <script>
-        showHeader();
-        styleHeader();
+        show_html();
     </script>
-
-    <style>
-        .mystyle:first-child li a {
-            text-decoration: none;
-            color: #f00;
-        }
-    </style>
 </body>
 
 </html>

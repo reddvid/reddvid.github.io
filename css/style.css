@@ -65,7 +65,9 @@ body {
 }
 
 .intro-text {
-  font-size: 0.666em;
+  margin: 20px auto;
+  font-size: 3rem;
+  line-height: 50px;
 }
 
 span {
@@ -73,12 +75,12 @@ span {
 }
 
 .sub-text {
-  margin: auto;
+  margin: 10px auto;
   font-size: 1rem;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   width: inherit;
-  line-height: 1.5rem;
+  line-height: 1rem;
 }
 
 /* ADDED SOCIAL LINKS */
@@ -133,6 +135,7 @@ ul.social-links li:hover {
   float: right;
   display: none;
   vertical-align: middle;
+  padding: 10px;
 }
 
 nav {
@@ -146,7 +149,7 @@ nav {
 
 #topnav {
   text-align: center;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 100%;
   align-items: center;
 }
@@ -171,7 +174,12 @@ nav {
   margin: 0 20px;
 }
 
-@media only screen and (max-width: 768px) {
+.mystyle:first-child li a {
+  text-decoration: none;
+  color: #f00;
+}
+
+@media only screen and (max-width: 580px) {
   #menu-icon {
     display: block;
     cursor: pointer;
@@ -185,6 +193,7 @@ nav {
     height: 32px;
   }
 }
+
 /* END HEADER */
 
 /* SIDE NAV */
@@ -198,7 +207,7 @@ nav {
   left: 0;
   background-color: rgba(248, 248, 248, 0.95);
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-top: 70px;
   transition: 0.5s;
 }
 
@@ -207,12 +216,12 @@ nav {
   text-decoration: none;
   color: #333;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.12rem;
   cursor: pointer;
   display: block;
-  margin: 20px 0;
+  margin: 0px 0;
   transition: 0.3s;
 }
 
@@ -226,9 +235,9 @@ nav {
   color: rgb(202, 12, 12);
   left: 0;
   right: 0;
-  margin: auto;
+  margin-top: 0px;
   margin-bottom: 60px;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -386,10 +395,11 @@ nav {
   text-align: center;
 }
 
+ /*  APPS  */
 .appgrid {
   margin: auto;
   display: flex;
-  max-width: 1100px;
+  max-width: 90vw;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -401,14 +411,17 @@ nav {
 
 .item-wrapper {
   cursor: pointer;
-  height: 200px;
-  width: 160px;
+  text-align: center;
+  overflow: hidden;
   margin: 10px 5px;
+  width: 160px;
+  border: solid 1px #AAA;
+  border-radius: 5px;
 }
 
 .item-wrapper h5 {
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 10px 20px 0 0;
   font-weight: 600;
   font-size: 0.8rem;
   text-align: left;
@@ -416,7 +429,6 @@ nav {
 
 .item-wrapper p {
   margin: 0;
-  opacity: 0.7;
 }
 
 .item-wrapper p img {
@@ -424,30 +436,25 @@ nav {
 }
 
 .grid-item {
-  background: #1a1a1a;
-  margin: 0;
-  height: 60px;
-  width: 60px;
+  width: 64px;
+  height: 64px;
   transition: 500ms;
   padding: 40px;
+  margin: 0 auto;
 }
 
-.grid-item:hover {
+.item-wrapper:hover {
   background: #0378e6;
   transition: 200ms;
-  padding: 40px;
-  box-shadow: 5px 0px 40px rgba(51, 51, 51, 0.5), -5px 0px 40px rgba(51, 51, 51, 0.5);
+  box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.5), -5px 0px 20px rgba(51, 51, 51, 0.5);
 }
 
 .grid-item img {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
+  width: inherit;
 }
 
 /* PRIVACY CONTENT */
-
+ 
 .privacy-content {
   width: 50%;
   margin: auto;

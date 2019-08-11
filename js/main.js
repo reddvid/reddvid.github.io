@@ -1,22 +1,10 @@
-/* SCROLL */
-$('#view-more').on('click', function() {
-    const images = $('#main-content').position().top;
-
-    $('html, body').animate({
-        scrollTop: images
-    }, 900);
-});
-
-
-
-/* OPEN NAV */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+function open_menu() {
+    document.getElementById("sidenav").style.width = "100%";
 }
 
 /* CLOSE NAV */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+function close_menu() {
+    document.getElementById("sidenav").style.width = "0";
 } 
 
 /* APPS CLICK */
@@ -35,7 +23,7 @@ function menuItemClick(station) {
   
 }
 
-function includeHTML() {
+function showHeader() {
   var z, i, elmnt, file, xhttp;
   /*loop through a collection of all HTML elements:*/
   z = document.getElementsByTagName("*");
@@ -52,7 +40,7 @@ function includeHTML() {
                   if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
                   /*remove the attribute, and call this function once more:*/
                   elmnt.removeAttribute("w3-include-html");
-                  includeHTML();
+                  showHeader();
               }
           }
           xhttp.open("GET", file, true);

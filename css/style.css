@@ -5,10 +5,9 @@ body {
   height: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  font-size: 16px;
-  background: #555;
+  background: #eee;
   color: #333;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   transition: 500ms;
 }
@@ -22,19 +21,37 @@ body {
   background-attachment: fixed;
 }
 
+.social-icon-fp {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.2s ease;
+  font-size: 2.0rem;
+}
+
+#front-social {
+  margin-top: -30px;
+}
+
+.social-icon-fp:hover {
+  color: #dd0c1f;
+  transition: color 0.2s ease;
+}
+
 .phero {
-  background-image: url("/images/new-bg.jpg");
+  /* background-image: url("/images/new-bg.jpg"); */
   min-height: 100%;
 }
 
-img.imgProfile {
+.img-profile {
   object-fit: cover;
   display: block;
   border-radius: 50%;
-  height: 240px;
-  width: 240px;
+  height: 15rem;
+  width: 15rem;
   padding: 0;
   margin: 0 auto;
+  box-shadow: 0px 2px 15px rgb(109, 109, 109);
 }
 
 .inner-text {
@@ -44,8 +61,7 @@ img.imgProfile {
   top: 80px;
   font-weight: 600;
   text-align: center;
-  color: #fff;
-  font-size: calc(14vw);
+  font-size: 4rem;
 }
 
 .intro-text {
@@ -58,13 +74,15 @@ span {
 
 .sub-text {
   margin: auto;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
   width: inherit;
-  line-height: 1;
+  line-height: 1.5rem;
 }
 
 /* ADDED SOCIAL LINKS */
+
 div.links-wrapper {
   display: inline;
   margin: -20 auto;
@@ -92,14 +110,12 @@ ul.social-links li a {
   margin: 0;
   text-decoration: none;
   height: 20px;
-  /* Height * 2 - font size */
   font-size: 12px;
 }
 
 ul.social-links li a img {
   height: 20px;
 }
-
 
 ul.social-links:hover li {
   opacity: 0.5;
@@ -112,60 +128,56 @@ ul.social-links li:hover {
   transition: 200ms;
 }
 
-
-
 /* HEADER */
+#menu-icon {
+  float: right;
+  display: none;
+  vertical-align: middle;
+}
 
 nav {
   padding: 12px;
   height: 50.4px;
 }
 
-.menu ul {
-  background: transparent;
-  padding: 0;
+.btn-ham {
+  color: #333;
+}
+
+#topnav {
   text-align: center;
-  color: #eee;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
 }
 
-.menu ul li {
-  display: inline;
-  padding: 0 20px;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.12rem;
-  cursor: pointer;
-}
-
-.menu ul li a {
+.nav-item {
   text-decoration: none;
-  color: #fff;
+  text-transform: uppercase;
+  font-weight: 650;
+  font-size: 0.8rem;
+  color: #333;
+  transition: color 0.2s ease;
+  margin: 0 20px;
 }
 
-.menu-icon {
-  float: right;
-  display: none;
-  vertical-align: middle;
-}
-
-.ham-menu {
-  height: 28px;
-  margin-right: 10px !important;
-  width: 24px;
-}
-
-.ham-menu:hover {
-  opacity: 0.6;
+.nav-item:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 650;
+  font-size: 0.8rem;
+  color: #dd0c1f;
+  transition: color 0.2s ease;
+  margin: 0 20px;
 }
 
 @media only screen and (max-width: 768px) {
-  .menu-icon {
+  #menu-icon {
     display: block;
     cursor: pointer;
   }
 
-  .menu {
+  #topnav {
     display: none;
   }
 
@@ -173,8 +185,64 @@ nav {
     height: 32px;
   }
 }
-
 /* END HEADER */
+
+/* SIDE NAV */
+#sidenav {
+  text-align: center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(248, 248, 248, 0.95);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+#sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.12rem;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0;
+  transition: 0.3s;
+}
+
+#sidenav a:hover {
+  color: #dd0c1f;
+}
+
+#sidenav .btn-close {
+  position: absolute;
+  top: 12px;
+  color: rgb(202, 12, 12);
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 60px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media screen and (max-height: 450px) {
+  #sidenav {
+    padding-top: 15px;
+  }
+
+  #sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* END SIDE NAV BAR */
 
 .button-container {
   position: absolute;
@@ -241,7 +309,6 @@ nav {
   width: 80%;
 }
 
-
 @media only screen and (max-width: 786px) {
 
   .lcontent,
@@ -275,6 +342,7 @@ nav {
 }
 
 /* APPS LIST */
+
 .mdl-design {
   background: #0378e6;
 }
@@ -368,8 +436,7 @@ nav {
   background: #0378e6;
   transition: 200ms;
   padding: 40px;
-  box-shadow: 5px 0px 40px rgba(51, 51, 51, 0.5),
-    -5px 0px 40px rgba(51, 51, 51, 0.5);
+  box-shadow: 5px 0px 40px rgba(51, 51, 51, 0.5), -5px 0px 40px rgba(51, 51, 51, 0.5);
 }
 
 .grid-item img {
@@ -380,6 +447,7 @@ nav {
 }
 
 /* PRIVACY CONTENT */
+
 .privacy-content {
   width: 50%;
   margin: auto;
@@ -411,6 +479,7 @@ hr {
 }
 
 /* CONTACT STYLE */
+
 .greeting {
   margin: 50px 0 20px 0;
   font-size: 4rem;
@@ -452,12 +521,6 @@ hr {
   transition: 200ms;
 }
 
-.social-icon {
-  height: 80px;
-  width: 80px;
-  opacity: 0.3;
-}
-
 .sms {
   display: none;
 }
@@ -473,6 +536,7 @@ hr {
 }
 
 /* ABOUT */
+
 .inner-link {
   text-decoration: underline;
   font-weight: 600;
@@ -543,87 +607,4 @@ footer ul li a img {
   color: #aaa;
   margin-right: 20px !important;
   text-decoration: none;
-}
-
-/* SIDE NAV */
-/* The side navigation menu */
-.sidenav {
-  text-align: center;
-  height: 100%;
-  /* 100% Full-height */
-  width: 0;
-  /* 0 width - change this with JavaScript */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Stay on top */
-  top: 0;
-  /* Stay at the top */
-  left: 0;
-  background-color: #111;
-  /* Black*/
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 60px;
-  /* Place content 60px from the top */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.12rem;
-  cursor: pointer;
-  display: block;
-  margin: 20px 0;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 12px;
-  color: rgb(202, 12, 12);
-  left: 0;
-  right: 0;
-  margin: auto;
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-/* Position and style the close button (top right corner)
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 1rem;
-  text-align: center;
-}
- */
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left 0.5s;
-  padding: 20px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
 }

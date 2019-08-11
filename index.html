@@ -6,11 +6,18 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-129071597-1');
     </script>
+
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Red David">
@@ -21,11 +28,8 @@
     <meta property="profile:gender" content="male">
     <meta property="profile:username" content="reddvid14">
 
-    <link rel="icon" href="favicon.ico">
-    <script src="js/main.js"></script>
     <title>David "Red" Ballesteros</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -37,59 +41,36 @@
     <div class="phero">
         <div class="nav-wrapper" w3-include-html="header.html"></div>
         <div class="inner-text">
-            <img src="/images/2x1.png" class="imgProfile" />
-            <span class="intro-text">reddvid</span>
+            <img src="/images/david_.jpg" class="img-profile" />
+            <span class="intro-text">David Ballesteros</span>
             <p class="sub-text">
-                Electronics Engineer & Software Developer
+                Electronics Engineer
             </p>
-            <div class="links-wrapper">
-                <ul class="social-links">
-                    <li>
-                        <a target="_blank" href="https://www.twitter.com/reddvid">
-                            <img class="social-item" src="images/tw.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/reddvidapps">
-                            <img class="social-item" src="images/fb.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/reddvid">
-                            <img class="social-item" src="images/insta.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.github.com/reddvid">
-                            <img class="social-item" src="images/git.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/reddvid">
-                            <img class="social-item" src="images/lin.png">
-                        </a>
-                    </li>
-                </ul>
+            <p class="sub-text">
+                Desktop Software Programmer
+            </p>
+            <div id="front-social">
+                <!-- front page social links-->
+                <a class="social-icon-fp" href="mailto:me@reddvid.xyz" target="_blank" rel="noopener">
+                    <i class="fas fa-at"></i>
+                </a>
+                <a class="social-icon-fp" href="https://twitter.com/in/reddvid/" target="_blank" rel="noopener">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="social-icon-fp" href="https://linkedin.com/in/reddvid/" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="social-icon-fp" href="https://github.com/in/reddvid/" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
         </div>
-
-
     </div>
 
-
-
-
-
+    <script src="js/main.js"></script>
     <script>
-        includeHTML();
-
+        showHeader();
         styleHeader();
-
-        // Add style to selected header
-        function myFunction() {
-            var element = document.getElementById("main-menu");
-            element.ADdc("mystyle");
-        }
     </script>
 
     <style>
@@ -98,7 +79,6 @@
             color: #f00;
         }
     </style>
-
 </body>
 
 </html>

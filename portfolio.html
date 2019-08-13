@@ -39,10 +39,11 @@
 
 <body>
     <div id="app-wrapper" class="mdl-design">
-        <div class="nav-wrapper" w3-include-html="header.html"></div>
-        <div class="content">
+        <div class="nav-wrapper" w3-include-html="header.html" id="port-nav"></div>
+        <div class="content" id="content">
             <h3>Windows 10 Apps</h3>
-            <h5>These apps are available in the <a href="ms-windows-store:publisher?name=Red David">Microsoft Store</a>
+            <h5>These apps are available in the <a class="inner-link"
+                 href="ms-windows-store:publisher?name=Red David">Microsoft Store</a>
                 for your Windows 10 devices.</h5>
             <div class="appgrid">
                 <div onclick="app_click('9nblggh41btt')" class="item-wrapper">

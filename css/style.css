@@ -12,15 +12,6 @@ body {
   transition: 500ms;
 }
 
-.phero,
-.pimg1 {
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 #front-social {
   margin-top: -30px;
 }
@@ -41,6 +32,7 @@ body {
 .phero {
   /* background-image: url("/images/new-bg.jpg"); */
   min-height: 100%;
+  overflow-y: hidden;
 }
 
 .img-profile {
@@ -139,8 +131,12 @@ ul.social-links li:hover {
 }
 
 nav {
-  padding: 12px;
-  height: 50.4px;
+  padding: 20px;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background: rgba(238, 238, 238, 0.95);
 }
 
 .btn-ham {
@@ -149,9 +145,23 @@ nav {
 
 #topnav {
   text-align: center;
+  display: inline;
   margin: 10px auto;
-  width: 100%;
+  margin-left: 300px;
   align-items: center;
+}
+
+#name-item {
+  color: #dd0c1f;
+  font-weight: 750;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#name-item:hover {
+  color: #333;
+  transition: color 0.2s ease;
 }
 
 .nav-item {
@@ -185,8 +195,13 @@ nav {
     cursor: pointer;
   }
 
+  #name-item {
+    display: block;
+    text-align: center;
+  }
+
   #topnav {
-    display: none;
+    display: block;
   }
 
   nav {
@@ -689,19 +704,36 @@ hr {
 }
 
 /* ABOUT */
-#abt-content {
+#abt-content,
+#abt-sub {
   display: flex;
   padding: 40px;
-  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 0px;
 }
 
-#abt-content p {
-  margin: 10 auto;
+#abt-sub {
+  margin-bottom: 100px;
 }
 
 #abt-main {
   width: auto;
-  top: 0px;
+  top: 30px;
+  margin-bottom: 40px;
+  flex: 2;
+  align-self: flex-start;
+  align-content: flex-start;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+}
+
+#abt-main .intro-text {
+  font-size: 2rem;
+  margin: 0 auto;
 }
 
 h3.greeting.about {
@@ -710,8 +742,26 @@ h3.greeting.about {
 }
 
 #abt-details {
-  flex: 2 0 0;
+  flex: 3;
+  align-self: flex-start;
   margin-left: 20px;
+}
+
+#abt-sub {
+  padding-top: 0px;
+}
+
+#abt-sub .greeting {
+  font-size: 1.2rem;
+}
+
+#abt-bg,
+#abt-bio {
+  flex: 1;
+}
+
+#abt-bg {
+  margin-right: 20px;
 }
 
 .about-section {
@@ -719,8 +769,17 @@ h3.greeting.about {
 }
 
 @media only screen and (max-width: 786px) {
-  #abt-content {
+
+  #abt-content,
+  #abt-sub {
+    width: 90%;
     flex-direction: column;
+  }
+
+  #abt-details,
+  #abt-bio,
+  #abt-bg {
+    margin: 0 auto;
   }
 
   h3 .about {
@@ -780,4 +839,8 @@ div.social-links-wrapper {
   color: #aaa;
   margin-right: 20px !important;
   text-decoration: none;
+}
+
+#content {
+  padding-top: 50px;
 }

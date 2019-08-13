@@ -51,6 +51,12 @@ function setButtonEvents(appId) {
     var view_in_ms = document.getElementById("btn-full");
     var btn_dl = document.getElementById("btn-download");
 
+    if (document.body.clientWidth >= 780) {
+        btn_dl.style.display = "inline";
+    } else {
+        btn_dl.style.display = "block";
+    }
+
     if (!navigator.userAgent.includes("Windows NT 10")) {
         btn_dl.style.display = "none";
     }

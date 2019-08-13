@@ -58,7 +58,7 @@ body {
   position: relative;
   width: 80vw;
   margin: auto;
-  top: 80px;
+  top: 180px;
   font-weight: 600;
   text-align: center;
   font-size: 4rem;
@@ -179,7 +179,7 @@ nav {
   color: #f00;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 786px) {
   #menu-icon {
     display: block;
     cursor: pointer;
@@ -205,24 +205,25 @@ nav {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(248, 248, 248, 0.95);
+  background: rgb(167, 40, 14);
+  background: linear-gradient(154deg, rgba(167, 40, 14, 1) 0%, rgba(100, 181, 252, 0.9906337535014006) 0%, rgba(151, 180, 255, 1) 0%, rgba(221, 12, 31, 1) 100%);
   overflow-x: hidden;
   padding-top: 70px;
-  transition: 0.5s;
+  transition: 0.35s ease-in-out;
 }
 
 #sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 8px;
   text-decoration: none;
   color: #333;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.12rem;
   cursor: pointer;
   display: block;
   margin: 0px 0;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #sidenav a:hover {
@@ -235,8 +236,6 @@ nav {
   color: rgb(202, 12, 12);
   left: 0;
   right: 0;
-  margin-top: 0px;
-  margin-bottom: 60px;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -370,9 +369,10 @@ nav {
 */
 
 .content {
-  min-height: 100vh;
   margin: auto;
   padding: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
@@ -475,7 +475,7 @@ nav {
 }
 
 #info-area {
-  height: 280px;
+  height: 300px;
   max-height: 600px;
   width: 80%;
   padding: 40px;
@@ -487,7 +487,7 @@ nav {
   position: absolute;
   box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.4),
     -5px 0px 20px rgba(51, 51, 51, 0.4);
-  display: block;
+  display: none;
 }
 
 #app-icon {
@@ -501,17 +501,17 @@ nav {
   position: inherit;
   text-align: left;
   line-height: 1em;
-  margin: 10px 0px 0 20px;
+  margin: 0px 0px 0 20px;
 }
 
 #app-desc {
   display: inline;
   position: inherit;
-  margin: 60px 40px 20px 20px;
-  max-height: 180px;
-  overflow-y: hidden; text-align: left;
+  margin: 50px 40px 20px 20px;
+  overflow-y: hidden;
+  text-align: left;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
 }
 
 .info-btn {
@@ -519,6 +519,7 @@ nav {
   font-size: 1rem;
   display: inline;
   padding: 10px 20px;
+  transition: 0.2s ease;
 }
 
 .info-btn.view {
@@ -536,21 +537,23 @@ nav {
 
 .info-btn:hover {
   background: #999;
+  box-shadow: 5px 0px 10px rgba(51, 51, 51, 0.2),
+    -5px 0px 10px rgba(51, 51, 51, 0.2);
+  transition: 0.2s ease;
 }
 
 .info-btn.view:hover {
   background: #2b90ee;
 }
 
-
 @media only screen and (max-width: 786px) {
   #info-area {
     height: 80%;
     width: 100%;
-    padding: 40px;
+    padding: 20px;
     overflow: hidden;
     margin: 0px;
-    top: 5%;
+    top: 50;
     left: 0;
   }
 
@@ -560,6 +563,40 @@ nav {
     height: 4rem;
     padding: 40px;
     background: #0378e6;
+  }
+
+  #app-name {
+    display: block;
+    font-weight: 750;
+    font-size: 1.8rem;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+  }
+
+  #app-desc {
+    display: block;
+    position: relative;
+    overflow-y: hidden;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  #btn-wrapper {
+    display: block;
+    margin: 0px 20px;
+  }
+
+  .info-btn {
+    background: #aaa;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    transition: 0.2s ease;
   }
 }
 

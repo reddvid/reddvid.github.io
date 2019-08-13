@@ -475,14 +475,13 @@ nav {
 }
 
 #info-area {
-  height: 300px;
   max-height: 600px;
-  width: 80%;
-  padding: 40px;
+  padding: 30px;
   overflow: hidden;
-  margin: 20px;
-  top: 20%;
-  left: 3%;
+  top: 25%;
+  bottom: 35%;
+  left: 27%;
+  right: 27%;
   background: #dedede;
   position: absolute;
   box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.4),
@@ -546,6 +545,17 @@ nav {
 
 .info-btn.view:hover {
   background: #2b90ee;
+}
+
+@media only screen and (max-width: 1320px) {
+  #info-area {
+    top: 25%;
+    bottom: 35%;
+    left: 12%;
+    right: 12%;
+    background: #dedede;
+    position: absolute;
+  }
 }
 
 @media only screen and (max-width: 786px) {

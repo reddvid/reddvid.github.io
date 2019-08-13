@@ -31,15 +31,11 @@ function app_click(appId) {
     var app_list = JSON.parse(request.responseText);
 
     for (var i = 0; i < app_list.length; i++) {
-        console.log(i);
         var item = app_list[i];
-        if (item["appid"].toLower() == appId) {
-
-            console.log(item["name"]);
-            console.log(item["description"]);
+        if (item["appid"].toLowerCase() == appId.toLowerCase()) {
             app_name.innerText = item["name"];
             app_desc.innerText = item["description"];
-
+            app_icon.src = "../../images/icons/" + item["icon"];
             break;
         }
     }

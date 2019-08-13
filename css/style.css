@@ -156,7 +156,7 @@ nav {
 }
 
 #topnav {
-  display: inline; float: right;
+  float: right;
 }
 
 #name-item {
@@ -181,7 +181,10 @@ nav {
   font-size: 0.8rem;
   color: #333;
   transition: color 0.2s ease;
-  margin: 0 20px;
+}
+
+.port {
+  margin: 0 40px;
 }
 
 .nav-item:hover {

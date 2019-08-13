@@ -43,7 +43,24 @@ function app_click(appId) {
     document.getElementById("app-info").style.display = "block";
     document.getElementById("info-area").style.display = "block";
 
+    setButtonEvents(appId);
     // window.open('https://www.microsoft.com/store/apps/' + appId, '_blank');
+}
+
+function setButtonEvents(appId) {
+    var view_in_ms = document.getElementById("btn-full");
+    var btn_dl = document.getElementById("btn-download");
+
+    if (!navigator.userAgent.includes("Windows NT 10")) {
+        btn_dl.style.display = "none";
+    }
+
+    view_in_ms.onclick = function () {
+        window.open('https://www.microsoft.com/store/apps/' + appId, '_blank');
+    };
+    btn_dl.onclick = function () {
+        window.open('ms-windows-store:pdp?productid=' + appId, '_blank');
+    };
 }
 
 function show_html() {

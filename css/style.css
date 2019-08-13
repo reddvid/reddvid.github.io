@@ -475,7 +475,8 @@ nav {
 }
 
 #info-area {
-  height: 60%;
+  height: 280px;
+  max-height: 600px;
   width: 80%;
   padding: 40px;
   overflow: hidden;
@@ -484,8 +485,9 @@ nav {
   left: 3%;
   background: #dedede;
   position: absolute;
-  box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.2), -5px 0px 20px rgba(51, 51, 51, 0.2);
-  display: none;
+  box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.4),
+    -5px 0px 20px rgba(51, 51, 51, 0.4);
+  display: block;
 }
 
 #app-icon {
@@ -497,14 +499,70 @@ nav {
 #app-name {
   display: inline;
   position: inherit;
-  margin: 10px 20px;
+  text-align: left;
+  line-height: 1em;
+  margin: 10px 0px 0 20px;
 }
 
 #app-desc {
   display: inline;
   position: inherit;
-  margin: 50px 20px;
+  margin: 60px 40px 20px 20px;
+  max-height: 180px;
+  overflow-y: hidden; text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
+
+.info-btn {
+  background: #aaa;
+  font-size: 1rem;
+  display: inline;
+  padding: 10px 20px;
+}
+
+.info-btn.view {
+  font-weight: 600;
+  padding: 10px 30px;
+  background: #0378e6;
+}
+
+#btn-wrapper {
+  cursor: pointer;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.info-btn:hover {
+  background: #999;
+}
+
+.info-btn.view:hover {
+  background: #2b90ee;
+}
+
+
+@media only screen and (max-width: 786px) {
+  #info-area {
+    height: 80%;
+    width: 100%;
+    padding: 40px;
+    overflow: hidden;
+    margin: 0px;
+    top: 5%;
+    left: 0;
+  }
+
+  #app-icon {
+    display: block;
+    margin: auto;
+    height: 4rem;
+    padding: 40px;
+    background: #0378e6;
+  }
+}
+
 
 /* END APPS PAGE */
 /* PRIVACY CONTENT */

@@ -17,7 +17,7 @@
     "name": "Manila Traffic Navigator",
     "appid": "9NBLGGH4R7MS",
     "icon": "manilatrafficnav.png",
-    "description": "test"
+    "description": "This is an unofficial MMDA Traffic Navigator app for Windows 10.\n\nGet the latest traffic status of the top main roads in Metro Manila:\nEDSA, C5, Espana, Commonwealth, Quezon Ave, Roxas Blvd, SLEX, NLEX"
 }, {
     "name": "Your Phone Tray",
     "appid": "9P9F9D77ZB0N",
@@ -42,50 +42,50 @@
     "name": "Each Time",
     "appid": "9PMSR1QHK32F",
     "icon": "eachtime.png",
-    "description": "test"
+    "description": "Keep each count of your activity with this nifty app.\n\nCreate a list of your routines and track how many times you did your activities at the end of the week or month."
 }, {
     "name": "Logitech Profiles Manager",
     "appid": "9NTXWHLBH9JB",
     "icon": "logiexport.png",
-    "description": "test"
+    "description": "Simple app to export and backup your Logitech Gaming profiles by batch and compress them in a zip file."
 }, {
     "name": "1987 PH Constitution",
     "appid": "9nvl993hgmtx",
     "icon": "phconsti.png",
-    "description": "test"
+    "description": "The complete 1987 Philippine Constitution right on your fingertips. Read anywhere you want for a quick reference."
 }, {
     "name": "The Prayer Book",
     "appid": "9nblgggzgk43",
     "icon": "prayerbook.png",
-    "description": "test"
+    "description": "The Prayer Book is a collection of prayers on the go.\n\nIt includes prayers for:\n- Families\n- Professionals\n- Teenagers\n- Seasonal"
 }, {
     "name": "SIM Net PH",
     "appid": "9pbwj21r2mzn",
     "icon": "simnetph.png",
-    "description": "test"
+    "description": "FIL: Globe, Smart o Sun ba ang ka-text o ka-talk mo? HIndi ka sure? Sa app na ito pwede mo malaman ang cellular network ng mga contacts mo sa isang sync lang. Pwede mo rin gamitin ang app na ito upang ma-check ang mga number na wala sa contacts list mo sa pamamagitan ng pag-input ng digits sa app na ito.\n\nEN: Is your textmate or callmate using a Globe, Smart or Sun SIM? This app enables you check the cellular networks your contacts list are using with a single sync button. You can also manually enter a number to check which network the person is using."
 }, {
     "name": "Symbol Icon Finder",
     "appid": "9P650NF68J50",
     "icon": "iconfinder.png",
-    "description": "test"
+    "description": "A faster and easier way to find Segoe MDL2 Icons for your UWP app.\n\nCopy xaml and C# codes pre-made for you"
 }, {
     "name": "Resistor Decode",
     "appid": "9NBLGGH4V3TZ",
     "icon": "resistordecoder.png",
-    "description": "test"
+    "description": "Decode your carbon-composition resistor color codes using this simple tool.\nYou can decode 3-bands, 4-bands, 5-bands and 6-bands.\n\n*SMD Resistor decode is currently in development."
 }, {
     "name": "BTSharer",
     "appid": "9PMFN8938CX5",
     "icon": "btsharer.png",
-    "description": "test"
+    "description": "Launch the Bluetooth File Transfer window quickly as opposed to the included icon found in your taskbar."
 }, {
     "name": "See-Through Tiles",
     "appid": "9nblggh4pttp",
     "icon": "seethrough.png",
-    "description": "test"
+    "description": "So, Windows 10 is here. Bringing one of the community's top requests - full screen background. But you can't enjoy that fully because some apps still doesn't include the option to make their Start tile transparent.\n\nThis app brings pinnable transparent tiles for MS Office apps and Facebook Messenger's missing tile name."
 }, {
     "name": "URLtoSMS",
     "appid": "9nblggh4qlv0",
     "icon": "urltosms.png",
-    "description": "test"
+    "description": "The simplest app you can have to manage and handle sms:// uri protocol from a website or link is now here.\n\nNo ads, simple and FREE.\n\nGet web links that contains the sms protocol that automatically fills the recipient and message body on the messaging app."
 }]

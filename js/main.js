@@ -100,3 +100,7 @@ function show_html() {
         }
     }
 }
+
+function dl_cv() {
+    window.open('../../assets/David.pdf', '_blank');
+}

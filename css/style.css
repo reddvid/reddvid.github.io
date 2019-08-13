@@ -205,8 +205,7 @@ nav {
   z-index: 1;
   top: 0;
   left: 0;
-  background: rgb(167, 40, 14);
-  background: linear-gradient(154deg, rgba(167, 40, 14, 1) 0%, rgba(100, 181, 252, 0.9906337535014006) 0%, rgba(151, 180, 255, 1) 0%, rgba(221, 12, 31, 1) 100%);
+  background: rgba(240, 240, 240, 0.95);
   overflow-x: hidden;
   padding-top: 70px;
   transition: 0.35s ease-in-out;
@@ -558,7 +557,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 908px) {
   #info-area {
     height: 80%;
     width: 100%;
@@ -649,7 +648,6 @@ hr {
 /* CONTACT STYLE */
 
 .greeting {
-  margin: 50px 0 20px 0;
   font-size: 4rem;
   text-align: left;
 }
@@ -704,6 +702,43 @@ hr {
 }
 
 /* ABOUT */
+#abt-content {
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+}
+
+#abt-content p {
+  margin: 10 auto;
+}
+
+#abt-main {
+  width: auto;
+  top: 0px;
+}
+
+h3.about.greeting {
+  margin: 20px 0 0 0;
+}
+
+#abt-details {
+  flex: 2 0 0;
+  margin-left: 20px;
+}
+
+.about-section {
+  margin: 0 auto !important;
+}
+
+@media only screen and (max-width: 786px) {
+  #abt-content {
+    flex-direction: column;
+  }
+
+  h3 .about {
+    margin: 20px 0 0 0;
+  }
+}
 
 .inner-link {
   text-decoration: underline;

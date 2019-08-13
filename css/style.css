@@ -188,13 +188,8 @@ nav {
 }
 
 .nav-item:hover {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 650;
-  font-size: 0.8rem;
   color: #dd0c1f;
   transition: color 0.2s ease;
-  margin: 0 20px;
 }
 
 .mystyle:first-child li a {

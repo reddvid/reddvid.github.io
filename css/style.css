@@ -351,14 +351,13 @@ nav {
 }
 
 /* APPS LIST */
-
+/* 
 .mdl-design {
   background: #0378e6;
-}
+} 
 
 .mdl-privacy {
   background: rgb(19, 12, 8);
-  /* THISIS IN HEADER COLOR */
 }
 
 .mdl-contact {
@@ -367,12 +366,12 @@ nav {
 
 .mdl-about {
   background: #e60321;
-}
+} 
+*/
 
 .content {
   min-height: 100vh;
   margin: auto;
-  background: #fff;
   padding: 20px;
   font-size: 20px;
   line-height: 30px;
@@ -393,20 +392,28 @@ nav {
 
 .content h3 {
   text-align: center;
+  font-size: 2rem;
 }
 
- /*  APPS  */
+.content h5 {
+  text-align: center;
+  font-weight: 400;
+}
+
+/*  APPS  */
 .appgrid {
   margin: auto;
   display: flex;
-  max-width: 90vw;
+  max-width: 75vw;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.appgrid a {
-  text-decoration: none;
+@media only screen and (max-width: 786px) {
+  .appgrid {
+    max-width: 90vw;
+  }
 }
 
 .item-wrapper {
@@ -414,28 +421,19 @@ nav {
   text-align: center;
   overflow: hidden;
   margin: 10px 5px;
-  width: 160px;
-  border: solid 1px #AAA;
-  border-radius: 5px;
+  width: 144px;
+  height: 200px !important;
+  border: solid 1px #ddd;
 }
 
 .item-wrapper h5 {
-  padding: 0;
-  margin: 10px 20px 0 0;
+  padding: 0 20px;
+  margin: -10px 0px 40px 0px;
   font-weight: 600;
-  font-size: 0.8rem;
-  text-align: left;
+  text-align: center;
 }
 
-.item-wrapper p {
-  margin: 0;
-}
-
-.item-wrapper p img {
-  height: 20px;
-}
-
-.grid-item {
+.item-wrapper img {
   width: 64px;
   height: 64px;
   transition: 500ms;
@@ -443,18 +441,74 @@ nav {
   margin: 0 auto;
 }
 
+.item-wrapper img::before {
+  width: 16px;
+  content: " ";
+  position: absolute;
+  background: red;
+  left: -16px;
+  top: -6px;
+  height: 20px;
+}
+
 .item-wrapper:hover {
   background: #0378e6;
+  border: solid 1px #888;
   transition: 200ms;
-  box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.5), -5px 0px 20px rgba(51, 51, 51, 0.5);
+  box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.2), -5px 0px 20px rgba(51, 51, 51, 0.2);
 }
 
 .grid-item img {
   width: inherit;
 }
 
+/*INFO*/
+#app-info {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background: rgba(27, 27, 27, 0.3);
+  position: absolute;
+  display: none;
+}
+
+#info-area {
+  height: 60%;
+  width: 80%;
+  padding: 40px;
+  overflow: hidden;
+  margin: 20px;
+  top: 20%;
+  left: 3%;
+  background: #dedede;
+  position: absolute;
+  box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.2), -5px 0px 20px rgba(51, 51, 51, 0.2);
+  display: none;
+}
+
+.app-icon {
+  height: 8rem;
+  padding: 40px;
+  background: #0378e6;
+}
+
+#app-name {
+  display: inline;
+  position: inherit;
+  margin: 10px 20px;
+}
+
+#app-desc {
+  display: inline;
+  position: inherit;
+  margin: 50px 20px;
+}
+
+/* END APPS PAGE */
 /* PRIVACY CONTENT */
- 
+
 .privacy-content {
   width: 50%;
   margin: auto;

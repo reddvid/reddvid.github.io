@@ -1,63 +1,91 @@
-{
-    "apps" : [{
-            "name": "RF Tools",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "Steam ID Viewer",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "ZIP Code PH",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "Manila Traffic Navigator",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "Your Phone Tray",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "Tagalog Bible",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "RPN Internet Radio",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "SubQuests",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "Each Time",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "Logitech Profiles Manager",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "1987 PH Constitution",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        },
-        {
-            "name": "The Prayer Book",
-            "appid": "9nblggh41btt",
-            "icon": "rftools.png"
-        }
-    ]
-}
+[{
+    "name": "RF Tools",
+    "appid": "9nblggh41btt",
+    "icon": "rftools.png",
+    "description": ""
+}, {
+    "name": "Steam ID Viewer",
+    "appid": "9nblggh4rp95",
+    "icon": "steamidviewer.png",
+    "description": ""
+}, {
+    "name": "ZIP Code PH",
+    "appid": "9nblggh5gft6",
+    "icon": "zipcodeph.png",
+    "description": ""
+}, {
+    "name": "Manila Traffic Navigator",
+    "appid": "9NBLGGH4R7MS",
+    "icon": "manilatrafficnav.png",
+    "description": ""
+}, {
+    "name": "Your Phone Tray",
+    "appid": "9P9F9D77ZB0N",
+    "icon": "yourphonetray.png",
+    "description": ""
+}, {
+    "name": "Tagalog Bible",
+    "appid": "9p4n369p108d",
+    "icon": "bagongtipan.png",
+    "description": ""
+}, {
+    "name": "RPN Internet Radio",
+    "appid": "9PHL469C0Z20",
+    "icon": "rpnradio.png",
+    "description": ""
+}, {
+    "name": "SubQuests",
+    "appid": "9NPLBP33N95T",
+    "icon": "subquests.png",
+    "description": ""
+}, {
+    "name": "Each Time",
+    "appid": "9PMSR1QHK32F",
+    "icon": "eachtime.png",
+    "description": ""
+}, {
+    "name": "Logitech Profiles Manager",
+    "appid": "9NTXWHLBH9JB",
+    "icon": "logiexport.png",
+    "description": ""
+}, {
+    "name": "1987 PH Constitution",
+    "appid": "9nvl993hgmtx",
+    "icon": "phconsti.png",
+    "description": ""
+}, {
+    "name": "The Prayer Book",
+    "appid": "9nblgggzgk43",
+    "icon": "prayerbook.png",
+    "description": ""
+}, {
+    "name": "SIM Net PH",
+    "appid": "9pbwj21r2mzn",
+    "icon": "simnetph.png",
+    "description": ""
+}, {
+    "name": "Symbol Icon Finder",
+    "appid": "9P650NF68J50",
+    "icon": "iconfinder.png",
+    "description": ""
+}, {
+    "name": "Resistor Decode",
+    "appid": "9NBLGGH4V3TZ",
+    "icon": "resistordecoder.png",
+    "description": ""
+}, {
+    "name": "BTSharer",
+    "appid": "9nblggh41btt",
+    "icon": "rftools.png",
+    "description": ""
+}, {
+    "name": "See-Through Tiles",
+    "appid": "9nblggh41btt",
+    "icon": "seethrough.png",
+    "description": ""
+}, {
+    "name": "URLtoSMS",
+    "appid": "9nblggh41btt",
+    "icon": "urltosms.png",
+    "description": ""
+}]

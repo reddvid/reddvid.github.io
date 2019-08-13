@@ -501,13 +501,15 @@ nav {
   position: inherit;
   text-align: left;
   line-height: 1em;
+  font-weight: 700;
+  font-size: 2rem;
   margin: 0px 0px 0 20px;
 }
 
 #app-desc {
   display: inline;
   position: inherit;
-  margin: 50px 40px 20px 20px;
+  margin: 40px 40px 20px 20px;
   overflow-y: hidden;
   text-align: left;
   font-size: 1rem;

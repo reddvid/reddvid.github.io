@@ -29,7 +29,6 @@ body {
   transition: color 0.2s ease;
 }
 
-
 .phero {
   /* background-image: url("/images/new-bg.jpg"); */
   min-height: 100%;
@@ -213,8 +212,9 @@ nav {
 
   #topnav {
     display: block;
+    float: inherit;
     margin: 0 auto;
-    margin-left: 0;
+    text-align: center;
   }
 
   nav {
@@ -687,7 +687,7 @@ hr {
 #abt-main {
   width: auto;
   flex: 2;
-  margin-top: 80px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -698,7 +698,7 @@ hr {
 
 #abt-main .intro-text {
   font-size: 2rem;
-  margin: 0 auto;
+  margin: 20px auto 0px auto;
 }
 
 #abt-main #front-social {

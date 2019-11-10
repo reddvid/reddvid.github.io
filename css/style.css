@@ -776,6 +776,15 @@ h3.greeting.about {
 }
 
 @media only screen and (max-width: 786px) {
+  #abt-content {
+    padding: 0;
+    padding-top: 50px;
+  }
+
+  #abt-sub  {
+    padding: 0;
+  }
+
   #abt-main {
     top: 40px;
   }

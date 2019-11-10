@@ -102,7 +102,7 @@ function show_html() {
 }
 
 function dl_cv() {
-    window.open('../../assets/David.pdf', '_blank');
+    window.open('https://1drv.ms/b/s!AngBQuA6rJL-oMhST6Si8ygpQqClng', '_blank');
 }
 
 function hide_name() {

@@ -1,91 +1,121 @@
 [{
-    "name": "RF Tools",
-    "appid": "9nblggh41btt",
-    "icon": "rftools.png",
-    "description": "RF Tools is your swiss-army knife for any Radio Frequency calculations, conversions and reference.\n\nWavelength calculator\nLink Budget calculator\nFresnel Zone calculator\nPath Loss calculator\nResonance calculator\nCoaxial Cable Loss Calculator\nand more."
-}, {
-    "name": "Steam ID Viewer",
-    "appid": "9nblggh4rp95",
-    "icon": "steamidviewer.png",
-    "description": "The simplest, direct-to-the-point Steam ID Viewer app on the Windows Store. Use it to search and convert your ID into other Steam ID forms:\n\nsteamID, steamID3, steamID64, steamID32, etc\n\n*This app is neither related to Steam nor Valve."
-}, {
-    "name": "ZIP Code PH",
-    "appid": "9nblggh5gft6",
-    "icon": "zipcodeph.png",
-    "description": "Missing ZIP Codes when you have to fill out forms for sending mail, letters, packages to the Philippines?\n\nZIP Code PH provides you the complete list of ZIP codes of all municipalities, cities and major places of the Philippines.\n\nYou can take it anywhere you want because it's OFFLINE too!"
-}, {
-    "name": "Manila Traffic Navigator",
-    "appid": "9NBLGGH4R7MS",
-    "icon": "manilatrafficnav.png",
-    "description": "This is an unofficial MMDA Traffic Navigator app for Windows 10.\n\nGet the latest traffic status of the top main roads in Metro Manila:\nEDSA, C5, Espana, Commonwealth, Quezon Ave, Roxas Blvd, SLEX, NLEX"
-}, {
-    "name": "Your Phone Tray",
-    "appid": "9P9F9D77ZB0N",
-    "icon": "yourphonetray.png",
-    "description": "Launch Your Phone app from the system tray (single click) or double click to navigate to messages quickly."
-}, {
-    "name": "Tagalog Bible",
-    "appid": "9p4n369p108d",
-    "icon": "bagongtipan.png",
-    "description": "FIL: Ang Tagalog Bible (Ang Bagong Tipan), ang pinaka-simpleng tagalog bible sa Windows Store. Maaari mo nang mabasa ang magandang balita kahit saan at kahit kailan.\n\nEN: Tagalog Bible (Ang Bagong Tipan), the simplest Tagalog Bible app you can find in the Store. View the Good Word anytime and anywhere you are."
-}, {
-    "name": "RPN Internet Radio",
-    "appid": "9PHL469C0Z20",
-    "icon": "rpnradio.png",
-    "description": "The unofficial app for streaming the reputed AM radio stations of Radio Philippines Network from the Philippines.\n\nListen live for news, talk-shows, interviews, tips, etc right from the app, no need for AM antennas, just have an internet connection and listen on the go.\n\nRPN AM stations are located in various parts of the Philippine archipelago:\nDZRL Batac, DZBS Baguio, DZKI Iriga, DYKC Cebu, DYKB Bacolod, DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKD Dipolog, DXKT Davao, DXXX Zamboanga"
-}, {
-    "name": "SubQuests",
-    "appid": "9NPLBP33N95T",
-    "icon": "subquests.png",
-    "description": "Challenge yourself with Subnetting Questions straight from the simple and useful website www.subnettingquestions.com\n\nThis app scrapes off the questions for you to answer straight from your Windows 10 device.\n\nFeel free to support me by donating thru PayPal or contact me for other ways you can help. Otherwise enjoy the app and good luck Subnetting!"
-}, {
-    "name": "Each Time",
-    "appid": "9PMSR1QHK32F",
-    "icon": "eachtime.png",
-    "description": "Keep each count of your activity with this nifty app.\n\nCreate a list of your routines and track how many times you did your activities at the end of the week or month."
-}, {
-    "name": "Logitech Profiles Manager",
-    "appid": "9NTXWHLBH9JB",
-    "icon": "logiexport.png",
-    "description": "Simple app to export and backup your Logitech Gaming profiles by batch and compress them in a zip file."
-}, {
-    "name": "1987 PH Constitution",
-    "appid": "9nvl993hgmtx",
-    "icon": "phconsti.png",
-    "description": "The complete 1987 Philippine Constitution right on your fingertips. Read anywhere you want for a quick reference."
-}, {
-    "name": "The Prayer Book",
-    "appid": "9nblgggzgk43",
-    "icon": "prayerbook.png",
-    "description": "The Prayer Book is a collection of prayers on the go.\n\nIt includes prayers for:\n- Families\n- Professionals\n- Teenagers\n- Seasonal"
-}, {
-    "name": "SIM Net PH",
-    "appid": "9pbwj21r2mzn",
-    "icon": "simnetph.png",
-    "description": "FIL: Globe, Smart o Sun ba ang ka-text o ka-talk mo? HIndi ka sure? Sa app na ito pwede mo malaman ang cellular network ng mga contacts mo sa isang sync lang. Pwede mo rin gamitin ang app na ito upang ma-check ang mga number na wala sa contacts list mo sa pamamagitan ng pag-input ng digits sa app na ito.\n\nEN: Is your textmate or callmate using a Globe, Smart or Sun SIM? This app enables you check the cellular networks your contacts list are using with a single sync button. You can also manually enter a number to check which network the person is using."
-}, {
-    "name": "Symbol Icon Finder",
-    "appid": "9P650NF68J50",
-    "icon": "iconfinder.png",
-    "description": "A faster and easier way to find Segoe MDL2 Icons for your UWP app.\n\nCopy xaml and C# codes pre-made for you"
-}, {
-    "name": "Resistor Decode",
-    "appid": "9NBLGGH4V3TZ",
-    "icon": "resistordecoder.png",
-    "description": "Decode your carbon-composition resistor color codes using this simple tool.\nYou can decode 3-bands, 4-bands, 5-bands and 6-bands.\n\n*SMD Resistor decode is currently in development."
-}, {
-    "name": "BTSharer",
-    "appid": "9PMFN8938CX5",
-    "icon": "btsharer.png",
-    "description": "Launch the Bluetooth File Transfer window quickly as opposed to the included icon found in your taskbar."
-}, {
-    "name": "See-Through Tiles",
-    "appid": "9nblggh4pttp",
-    "icon": "seethrough.png",
-    "description": "So, Windows 10 is here. Bringing one of the community's top requests - full screen background. But you can't enjoy that fully because some apps still doesn't include the option to make their Start tile transparent.\n\nThis app brings pinnable transparent tiles for MS Office apps and Facebook Messenger's missing tile name."
-}, {
-    "name": "URLtoSMS",
-    "appid": "9nblggh4qlv0",
-    "icon": "urltosms.png",
-    "description": "The simplest app you can have to manage and handle sms:// uri protocol from a website or link is now here.\n\nNo ads, simple and FREE.\n\nGet web links that contains the sms protocol that automatically fills the recipient and message body on the messaging app."
-}]
+        "name": "RF Tools",
+        "appid": "9nblggh41btt",
+        "icon": "rftools.png",
+        "description": "RF Tools is your swiss-army knife for any Radio Frequency calculations, conversions and reference.\n\nWavelength calculator\nLink Budget calculator\nFresnel Zone calculator\nPath Loss calculator\nResonance calculator\nCoaxial Cable Loss Calculator\nand more."
+    },
+    {
+        "name": "Steam ID Viewer",
+        "appid": "9nblggh4rp95",
+        "icon": "steamidviewer.png",
+        "description": "The simplest, direct-to-the-point Steam ID Viewer app on the Windows Store. Use it to search and convert your ID into other Steam ID forms:\n\nsteamID, steamID3, steamID64, steamID32, etc\n\n*This app is neither related to Steam nor Valve."
+    },
+    {
+        "name": "ZIP Code PH",
+        "appid": "9nblggh5gft6",
+        "icon": "zipcodeph.png",
+        "description": "Missing ZIP Codes when you have to fill out forms for sending mail, letters, packages to the Philippines?\n\nZIP Code PH provides you the complete list of ZIP codes of all municipalities, cities and major places of the Philippines.\n\nYou can take it anywhere you want because it's OFFLINE too!"
+    },
+    {
+        "name": "Manila Traffic Navigator",
+        "appid": "9NBLGGH4R7MS",
+        "icon": "manilatrafficnav.png",
+        "description": "This is an unofficial MMDA Traffic Navigator app for Windows 10.\n\nGet the latest traffic status of the top main roads in Metro Manila:\nEDSA, C5, Espana, Commonwealth, Quezon Ave, Roxas Blvd, SLEX, NLEX"
+    },
+    {
+        "name": "Your Phone Tray",
+        "appid": "9P9F9D77ZB0N",
+        "icon": "yourphonetray.png",
+        "description": "Launch Your Phone app from the system tray (single click) or double click to navigate to messages quickly."
+    },
+    {
+        "name": "Tagalog Bible",
+        "appid": "9p4n369p108d",
+        "icon": "bagongtipan.png",
+        "description": "FIL: Ang Tagalog Bible (Ang Bagong Tipan), ang pinaka-simpleng tagalog bible sa Windows Store. Maaari mo nang mabasa ang magandang balita kahit saan at kahit kailan.\n\nEN: Tagalog Bible (Ang Bagong Tipan), the simplest Tagalog Bible app you can find in the Store. View the Good Word anytime and anywhere you are."
+    },
+    {
+        "name": "RPN Internet Radio",
+        "appid": "9PHL469C0Z20",
+        "icon": "rpnradio.png",
+        "description": "The unofficial app for streaming the reputed AM radio stations of Radio Philippines Network from the Philippines.\n\nListen live for news, talk-shows, interviews, tips, etc right from the app, no need for AM antennas, just have an internet connection and listen on the go.\n\nRPN AM stations are located in various parts of the Philippine archipelago:\nDZRL Batac, DZBS Baguio, DZKI Iriga, DYKC Cebu, DYKB Bacolod, DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKD Dipolog, DXKT Davao, DXXX Zamboanga"
+    },
+    {
+        "name": "SubQuests",
+        "appid": "9NPLBP33N95T",
+        "icon": "subquests.png",
+        "description": "Challenge yourself with Subnetting Questions straight from the simple and useful website www.subnettingquestions.com\n\nThis app scrapes off the questions for you to answer straight from your Windows 10 device.\n\nFeel free to support me by donating thru PayPal or contact me for other ways you can help. Otherwise enjoy the app and good luck Subnetting!"
+    },
+    {
+        "name": "Each Time",
+        "appid": "9PMSR1QHK32F",
+        "icon": "eachtime.png",
+        "description": "Keep each count of your activity with this nifty app.\n\nCreate a list of your routines and track how many times you did your activities at the end of the week or month."
+    },
+    {
+        "name": "Logitech Profiles Manager",
+        "appid": "9NTXWHLBH9JB",
+        "icon": "logiexport.png",
+        "description": "Simple app to export and backup your Logitech Gaming profiles by batch and compress them in a zip file."
+    },
+    {
+        "name": "1987 PH Constitution",
+        "appid": "9nvl993hgmtx",
+        "icon": "phconsti.png",
+        "description": "The complete 1987 Philippine Constitution right on your fingertips. Read anywhere you want for a quick reference."
+    },
+    {
+        "name": "The Prayer Book",
+        "appid": "9nblgggzgk43",
+        "icon": "prayerbook.png",
+        "description": "The Prayer Book is a collection of prayers on the go.\n\nIt includes prayers for:\n- Families\n- Professionals\n- Teenagers\n- Seasonal"
+    },
+    {
+        "name": "SIM Net PH",
+        "appid": "9pbwj21r2mzn",
+        "icon": "simnetph.png",
+        "description": "FIL: Globe, Smart o Sun ba ang ka-text o ka-talk mo? HIndi ka sure? Sa app na ito pwede mo malaman ang cellular network ng mga contacts mo sa isang sync lang. Pwede mo rin gamitin ang app na ito upang ma-check ang mga number na wala sa contacts list mo sa pamamagitan ng pag-input ng digits sa app na ito.\n\nEN: Is your textmate or callmate using a Globe, Smart or Sun SIM? This app enables you check the cellular networks your contacts list are using with a single sync button. You can also manually enter a number to check which network the person is using."
+    },
+    {
+        "name": "Symbol Icon Finder",
+        "appid": "9P650NF68J50",
+        "icon": "iconfinder.png",
+        "description": "A faster and easier way to find Segoe MDL2 Icons for your UWP app.\n\nCopy xaml and C# codes pre-made for you"
+    },
+    {
+        "name": "Resistor Decode",
+        "appid": "9NBLGGH4V3TZ",
+        "icon": "resistordecoder.png",
+        "description": "Decode your carbon-composition resistor color codes using this simple tool.\nYou can decode 3-bands, 4-bands, 5-bands and 6-bands.\n\n*SMD Resistor decode is currently in development."
+    },
+    {
+        "name": "BTSharer",
+        "appid": "9PMFN8938CX5",
+        "icon": "btsharer.png",
+        "description": "Launch the Bluetooth File Transfer window quickly as opposed to the included icon found in your taskbar."
+    },
+    {
+        "name": "See-Through Tiles",
+        "appid": "9nblggh4pttp",
+        "icon": "seethrough.png",
+        "description": "So, Windows 10 is here. Bringing one of the community's top requests - full screen background. But you can't enjoy that fully because some apps still doesn't include the option to make their Start tile transparent.\n\nThis app brings pinnable transparent tiles for MS Office apps and Facebook Messenger's missing tile name."
+    },
+    {
+        "name": "URLtoSMS",
+        "appid": "9nblggh4qlv0",
+        "icon": "urltosms.png",
+        "description": "The simplest app you can have to manage and handle sms:// uri protocol from a website or link is now here.\n\nNo ads, simple and FREE.\n\nGet web links that contains the sms protocol that automatically fills the recipient and message body on the messaging app."
+    },
+    {
+        "name": "ZIP Code PH",
+        "appid": "zipcodeph",
+        "icon": "zipcodeph.png",
+        "description": "Missing ZIP Codes when you have to fill out forms for sending mail, letters, packages to the Philippines?\n\nZIP Code PH provides you the complete list of ZIP codes of all municipalities, cities and major places of the Philippines.\n\nYou can take it anywhere you want because it's OFFLINE too!"
+    },
+    {
+        "name": "RPN News & Radio",
+        "appid": "rpnradio",
+        "icon": "rpnradio.png",
+        "description": "The unofficial app for streaming the reputed AM radio stations of Radio Philippines Network from the Philippines.\n\nListen live for news, talk-shows, interviews, tips, etc right from the app, no need for AM antennas, just have an internet connection and listen on the go.\n\nRPN AM stations are located in various parts of the Philippine archipelago:\nDZRL Batac, DZBS Baguio, DZKI Iriga, DYKC Cebu, DYKB Bacolod, DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKD Dipolog, DXKT Davao, DXXX Zamboanga"
+    }
+]

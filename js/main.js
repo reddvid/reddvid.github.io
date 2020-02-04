@@ -47,6 +47,58 @@ function app_click(appId) {
     // window.open('https://www.microsoft.com/store/apps/' + appId, '_blank');
 }
 
+function android_click(appId) {
+    // Load app info
+    var app_name = document.getElementById("app-name");
+    var app_icon = document.getElementById("app-icon");
+    var app_desc = document.getElementById("app-desc");
+
+    console.log(appId);
+    // Get json text
+    var request = new XMLHttpRequest();
+    request.open("GET", "../../assets/apps.json", false);
+    request.send(null)
+    var app_list = JSON.parse(request.responseText);
+
+    for (var i = 0; i < app_list.length; i++) {
+        var item = app_list[i];
+        if (item["appid"].toLowerCase() == appId.toLowerCase()) {
+            app_name.innerText = item["name"];
+            app_desc.innerText = item["description"];
+            app_icon.src = "../../images/icons/" + item["icon"];
+            break;
+        }
+    }
+
+    document.getElementById("app-info").style.display = "block";
+    document.getElementById("info-area").style.display = "block";
+
+    setAndroidButtonEvents(appId);
+    // window.open('https://www.microsoft.com/store/apps/' + appId, '_blank');
+}
+
+function setButtonEvents(appId) {
+    var view_in_ms = document.getElementById("btn-full");
+    var btn_dl = document.getElementById("btn-download");
+
+    if (document.body.clientWidth >= 786) {
+        btn_dl.style.display = "inline";
+    } else {
+        btn_dl.style.display = "block";
+    }
+
+    if (!navigator.userAgent.toLowerCase().indexOf("android")) {
+        btn_dl.style.display = "none";
+    }
+
+    view_in_store.onclick = function() {
+        window.open('"market://details?id=xyz.reddvid.' + appId, '_blank');
+    };
+    btn_dl.onclick = function() {
+        window.open('https://play.google.com/store/apps/details?id=xyz.reddvid.' + appId, '_blank');
+    };
+}
+
 function setButtonEvents(appId) {
     var view_in_ms = document.getElementById("btn-full");
     var btn_dl = document.getElementById("btn-download");
@@ -61,10 +113,10 @@ function setButtonEvents(appId) {
         btn_dl.style.display = "none";
     }
 
-    view_in_ms.onclick = function () {
+    view_in_ms.onclick = function() {
         window.open('https://www.microsoft.com/store/apps/' + appId, '_blank');
     };
-    btn_dl.onclick = function () {
+    btn_dl.onclick = function() {
         window.open('ms-windows-store:pdp?productid=' + appId, '_blank');
     };
 }
@@ -80,7 +132,7 @@ function show_html() {
         if (file) {
             /*make an HTTP request using the attribute value as the file name:*/
             xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
+            xhttp.onreadystatechange = function() {
                 if (this.readyState == 4) {
                     if (this.status == 200) {
                         elmnt.innerHTML = this.responseText;

@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     background: #eee;
     color: #333;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial Nova', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     transition: 500ms;
 }
@@ -378,6 +378,7 @@ nav {
 .content h5 {
     text-align: center;
     font-weight: 400;
+   
 }
 
 
@@ -414,6 +415,7 @@ nav {
     margin: -10px 0px 40px 0px;
     font-weight: 600;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 .item-wrapper img {
@@ -921,4 +923,15 @@ div.social-links-wrapper {
 
 #content {
     padding-top: 50px;
+}
+
+
+/* SOON LIST */
+#soon-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: rgb(150, 1, 1);
 }

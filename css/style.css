@@ -205,6 +205,7 @@ nav {
         display: block;
         cursor: pointer;
     }
+
     #name-item {
         display: block;
         text-align: center;
@@ -212,12 +213,14 @@ nav {
         margin-top: -15px;
         margin-bottom: 5px;
     }
+
     #topnav {
         display: block;
         float: inherit;
         margin: 0 auto;
         text-align: center;
     }
+
     nav {
         height: 32px;
     }
@@ -292,6 +295,7 @@ nav {
 }
 
 @media only screen and (max-width: 786px) {
+
     .lcontent,
     .rcontent {
         background-attachment: fixed;
@@ -299,19 +303,24 @@ nav {
         background-position: center;
         background-repeat: no-repeat;
     }
+
     .lcontent.ece {
         background: url("/images/heromain.jpg");
     }
+
     .rcontent.code {
         background: url("/images/code.jpg");
     }
+
     .pimg {
         display: none;
     }
+
     .ptext {
         display: block;
         margin: 120px auto;
     }
+
     .section-text {
         margin: auto;
     }
@@ -443,22 +452,25 @@ nav {
 #app-info {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     top: 0;
     left: 0;
-    background: rgba(27, 27, 27, 0.3);
+    bottom: 0;
+    right: 0;
+    background: rgba(15, 83, 230, 0.5);
     position: absolute;
     display: none;
 }
 
 #info-area {
+    width: 80vw;
+    min-height: 440px;
+    max-width: 680px;
     max-height: 600px;
     padding: 30px;
-    overflow: hidden;
-    top: 15%;
-    bottom: 35%;
-    left: 27%;
-    right: 27%;
+    top: 200px;
+    margin-left: -400px;
+    left: 50%;
+    right: 0;
     background: #dedede;
     position: absolute;
     box-shadow: 5px 0px 20px rgba(51, 51, 51, 0.4), -5px 0px 20px rgba(51, 51, 51, 0.4);
@@ -478,16 +490,18 @@ nav {
     position: inherit;
     text-align: left;
     line-height: 1em;
+    text-overflow: clip;
     font-weight: 700;
     font-size: 2rem;
     margin: 0px 0px 0 20px;
 }
 
 #app-desc {
-    display: inline;
-    position: inherit;
-    margin: 40px 40px 20px 20px;
-    overflow-y: scroll;
+    display: inline-block;
+    position: absolute;
+    height: 240px;
+    margin: 60px 40px 20px 20px;
+    overflow-y: visible;
     max-height: 240px;
     text-align: left;
     font-size: 1rem;
@@ -528,32 +542,22 @@ nav {
     background: #2b90ee;
 }
 
-@media only screen and (max-width: 1320px) {
-    /* #info-area {
-        top: 25%;
-        bottom: 35%;
-        left: 12%;
-        right: 12%;
-        background: #dedede;
-        position: absolute;
-    } */
-}
 
-@media only screen and (max-width: 908px) {
+@media only screen and (max-width: 1198px) {
     body {
         width: 100%;
+    }
+
+    #info-area {
+        width: 600px;
+        height: 100%;
+        margin-left: -340px;
+        position: absolute;
+        top: 100px;
+        left: 50%;
         overflow-x: hidden;
     }
-    #info-area {
-        display: block;
-        height: 100vh;
-        width: 90vw;
-        padding: 20px;
-        overflow: hidden;
-        margin: 0px auto;
-        top: 10%;
-        left: 0;
-    }
+
     #app-icon {
         display: block;
         margin: auto;
@@ -561,6 +565,7 @@ nav {
         padding: 40px;
         background: #0378e6;
     }
+
     #app-name {
         display: block;
         font-weight: 750;
@@ -569,31 +574,68 @@ nav {
         text-align: center;
         position: relative;
     }
+
     #app-desc {
         display: block;
-        position: relative;
         overflow-y: scroll;
         padding: 0px;
-        margin: 10px auto;
         text-align: left;
         font-size: 1rem;
         line-height: 1.2rem;
+        height: 220px;
     }
+
     #btn-wrapper {
         display: block;
         margin: 0px 20px;
     }
+
     .info-btn {
         background: #aaa;
         font-size: 1rem;
         text-align: center;
-        display: block;
+        display: inline;
         margin: 10px 0;
         padding: 10px 20px;
         transition: 0.2s ease;
     }
 }
 
+@media only screen and (max-width: 1007px) {
+    #info-area {
+        position: absolute;
+        margin-left: -220px;
+        top: 100px;
+        padding: 20px;
+        height: 100vh;
+        width: 400px;
+    }
+    
+    #app-desc {
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+        height: 180px;
+    }
+
+    #btn-wrapper {
+        cursor: pointer;
+        right: 0;
+        left: 0;
+        position: block;
+        text-align: center;
+        display: block;
+    }
+
+    .info-btn {
+        background: #aaa;
+        font-size: 1rem;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+        display: block;
+        transition: 0.2s ease;
+    }
+}
 
 /* END APPS PAGE */
 
@@ -787,29 +829,36 @@ h3.greeting.about {
         padding: 0;
         padding-top: 50px;
     }
+
     #abt-sub {
         padding: 0;
     }
+
     #abt-main {
         top: 40px;
     }
+
     #abt-main .img-profile {
         height: 10rem;
         width: 10rem;
     }
+
     #btn-dl-pdf {
         margin: 20px auto;
     }
+
     #abt-content,
     #abt-sub {
         width: 90%;
         flex-direction: column;
     }
+
     #abt-details,
     #abt-bio,
     #abt-bg {
         margin: 0 auto;
     }
+
     h3 .about {
         margin: 20px 0 0 0;
     }

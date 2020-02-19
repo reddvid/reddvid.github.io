@@ -21,7 +21,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
@@ -41,7 +42,8 @@
         <div class="nav-wrapper" w3-include-html="header.html" id="port-nav"></div>
         <div class="content" id="content">
             <h3>Windows 10 Apps</h3>
-            <h5>These apps are available in the <a class="inner-link" href="ms-windows-store:publisher?name=Red David">Microsoft Store</a> for your Windows 10 devices.
+            <h5>These apps are available in the <a class="inner-link"
+                    href="ms-windows-store:publisher?name=Red David">Microsoft Store</a> for your Windows 10 devices.
             </h5>
             <div class="appgrid">
                 <div onclick="app_click('9nblggh41btt')" class="item-wrapper">
@@ -144,7 +146,7 @@
             <div class="appgrid">
                 <div onclick="android_click('zipcodeph')" class="item-wrapper">
                     <img src="images/icons/zipcodeph.png">
-                    <h5>ZIP Code PH</h5>
+                    <h5>ZIP Code PH (beta)</h5>
                 </div>
 
                 <div onclick="android_click('rpnradio')" class="item-wrapper">
@@ -159,16 +161,18 @@
 
             </div>
 
-            <div id="info-area">
-                <img id="app-icon" src="images/icons/rftools.png" />
-                <p id="app-name">RF Tools</p>
-                <p id="app-desc">App description</p>
-                <div id="ss-wrapper"></div>
-                <div id="btn-wrapper">
-                    <div id="btn-full" class="info-btn view">View full details</div>
-                    <div id="btn-download" class="info-btn view" onclick="hide_info()">Download</div>
-                    <div id="btn-dismiss" class="info-btn dismiss" onclick="hide_info()">Dismiss</div>
-                </div>
+
+        </div>
+
+        <div id="info-area">
+            <img id="app-icon" src="images/icons/rftools.png" />
+            <p id="app-name">RF Tools</p>
+            <p id="app-desc">App description</p>
+            <div id="ss-wrapper"></div>
+            <div id="btn-wrapper">
+                <div id="btn-full" class="info-btn view">View full details</div>
+                <div id="btn-download" class="info-btn view" onclick="hide_info()">Download</div>
+                <div id="btn-dismiss" class="info-btn dismiss" onclick="hide_info()">Dismiss</div>
             </div>
         </div>
     </div>
@@ -180,6 +184,7 @@
     <script src="js/main.js"></script>
     <script>
         show_html();
+        load_json();
     </script>
 </body>
 

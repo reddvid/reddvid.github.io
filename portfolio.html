@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Portfolio - David "Red" Ballesteros</title>
+    <title>David Ballesteros</title>
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -43,8 +43,8 @@
         <div class="content" id="content">
             <h3>Windows 10 Apps</h3>
             <h5>These apps are available in the <a class="inner-link"
-                 href="ms-windows-store:publisher?name=Red David">Microsoft Store</a>
-                for your Windows 10 devices.</h5>
+                    href="ms-windows-store:publisher?name=Red David">Microsoft Store</a> for your Windows 10 devices.
+            </h5>
             <div class="appgrid">
                 <div onclick="app_click('9nblggh41btt')" class="item-wrapper">
                     <img src="images/icons/rftools.png">
@@ -53,7 +53,7 @@
 
                 <div onclick="app_click('9PHL469C0Z20')" class="item-wrapper">
                     <img src="images/icons/rpnradio.png">
-                    <h5>RPN Internet Radio</h5>
+                    <h5>RPN News & Radio</h5>
                 </div>
 
                 <div onclick="app_click('9P9F9D77ZB0N')" class="item-wrapper">
@@ -142,23 +142,38 @@
                 </div>
             </div>
 
-            <div id="app-info" onclick="hide_info()">
+            <h3>Android Apps</h3>
+            <div class="appgrid">
+                <div onclick="android_click('zipcodeph')" class="item-wrapper">
+                    <img src="images/icons/zipcodeph.png">
+                    <h5>ZIP Code PH (beta)</h5>
+                </div>
 
-            </div>
-
-            <div id="info-area">
-                <img id="app-icon" src="images/icons/rftools.png" />
-                <p id="app-name">RF Tools</p>
-                <p id="app-desc">App description</p>
-                <div id="ss-wrapper"></div>
-                <div id="btn-wrapper">
-                    <div id="btn-full" class="info-btn view">View full details</div>
-                    <div id="btn-download" class="info-btn view" onclick="hide_info()">Download</div>
-                    <div id="btn-dismiss" class="info-btn dismiss" onclick="hide_info()">Dismiss</div>
+                <div onclick="android_click('rpnradio')" class="item-wrapper">
+                    <img src="images/icons/rpnradio.png">
+                    <h5>RPN News & Radio</h5>
                 </div>
             </div>
 
             <h3>Other projects</h3>
+
+            <div id="app-info" onclick="hide_info()">
+
+            </div>
+
+
+        </div>
+
+        <div id="info-area">
+            <img id="app-icon" src="images/icons/rftools.png" />
+            <p id="app-name">RF Tools</p>
+            <p id="app-desc">App description</p>
+            <div id="ss-wrapper"></div>
+            <div id="btn-wrapper">
+                <div id="btn-full" class="info-btn view">View full details</div>
+                <div id="btn-download" class="info-btn view" onclick="hide_info()">Download</div>
+                <div id="btn-dismiss" class="info-btn dismiss" onclick="hide_info()">Dismiss</div>
+            </div>
         </div>
     </div>
 
@@ -169,6 +184,7 @@
     <script src="js/main.js"></script>
     <script>
         show_html();
+        load_json();
     </script>
 </body>
 

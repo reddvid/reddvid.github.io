@@ -34,22 +34,22 @@ enableEmoji = true
         identifier = "posts"
         name = "Posts"
         url = "/posts/"
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags/"
-        weight = 2
+        weight = 1      
       [[languages.en.menu.main]]
         identifier = "categories"
         name = "Categories"
         url = "/categories/"
-        weight = 3
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/portfolio/"
+        weight = 3  
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about/"
-        weight = 4     
+        weight = 4        
       [languages.en.params]
         # LoveIt theme version
         version = "0.1.X"
@@ -176,9 +176,10 @@ enableEmoji = true
           Facebook = true
           Linkedin = true
           Whatsapp = true
-          Pinterest = true
+          Messenger = true
+          # Pinterest = true
           # Tumblr = true
-          HackerNews = true
+          # HackerNews = true
           # Reddit = true
           # VK = true
           # Buffer = true

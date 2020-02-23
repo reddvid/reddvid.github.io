@@ -1,10 +1,11 @@
 ---
 title: "RF Tools Gets Multi-Window Support"
-date: 2020-02-23T15:47:52+08:00
+date: 2019-05-12T15:47:52+08:00
 draft: false
 
-tags: ["Stories"]
-featuredimage: 
+categories: ["Stories"]
+tags: ["Apps"]
+featuredimage: "/images/rftools.png"
 ---
 
 UWP SDK recently released a new support for Multi-windowing.

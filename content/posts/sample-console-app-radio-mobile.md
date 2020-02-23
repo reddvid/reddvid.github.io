@@ -4,6 +4,7 @@ date: 2018-02-23T12:57:36+08:00
 draft: true
 
 tags: ["Apps"]
+categories: ["Stories"]
 featuredImage: "/images/radio-mobile-auto.jpg"
 ---
 

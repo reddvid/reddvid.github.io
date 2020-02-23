@@ -3,6 +3,7 @@ title: "RPN News & Radio Gets a New UI"
 date: 2019-03-14T15:28:37+08:00
 draft: false
 
+categories: ["Stories"]
 tags: ["Apps"]
 featuredimage: "/images/rpn-newui.jpg"
 ---

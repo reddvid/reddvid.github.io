@@ -1,0 +1,32 @@
+{{- define "title" }}
+    {{- T "all" | humanize}}{{ T .Section | default .Section | humanize }} | {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+<div class="page home">
+        {{- /* Title */ -}}
+        <h1 class="single-title animated pulse faster" style="text-align: center;">
+            Portfolio
+        </h1>
+
+        {{- /* Posts */ -}}
+        {{- if .Site.Params.home.posts.enable -}}
+            {{- /* Paginate */ -}}
+            {{- $paginator := where .Site.RegularPages "Type" "portfolio" -}}
+            {{- if ne .Site.Params.home.posts.mode.defaultHiddenFromHomePage false -}}
+                {{- $paginator = where $paginator "Params.hiddenfromhomepage" "!=" true -}}
+            {{- else -}}
+                {{- $paginator = where $paginator "Params.hiddenfromhomepage" false -}}
+            {{- end -}}
+            {{- with .Site.Params.home.posts.paginate -}}
+                {{- $paginator = $.Paginate $paginator . -}}
+            {{- else -}}
+                {{- $paginator = $.Paginate $paginator -}}
+            {{- end -}}
+            {{- range $paginator.Pages -}}
+                {{- .Render "summary" -}}
+            {{- end -}}
+            {{- partial "paginator.html" . -}}
+        {{- end -}}
+    </div>
+{{- end -}}

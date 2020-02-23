@@ -1,0 +1,371 @@
+baseURL = "/"
+# [en, zh, ...] determines default content language
+defaultContentLanguage = "en"
+# theme
+theme = "LoveIt"
+
+# whether to use robots.txt
+enableRobotsTXT = true
+# whether to use git commit log to generate lastmod record
+enableGitInfo = false
+# whether to use emoji code
+enableEmoji = true
+
+[languages]
+  [languages.en]
+    weight = 1
+    # language code
+    languageCode = "en"
+    # website title
+    title = "David Ballesteros"
+    # whether to include chinese/japanese/korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # date format
+    dateFormatToUse = "2006-01-02"
+    # Menu Info
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 1      
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories/"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/portfolio/"
+        weight = 3  
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 4        
+      [languages.en.params]
+        # LoveIt theme version
+        version = "0.1.X"
+        # site description
+        description = "About LoveIt Theme"
+        # site keywords
+        keywords = ["Theme", "Hugo"]
+        # site default theme ("light", "dark", "auto")
+        defaultTheme = "auto"
+        # public git repo url to link lastmod git commit only then enableGitInfo is true
+        gitRepo = ""
+        # Header info
+        [languages.en.params.header]
+          # desktop header mode ("fixed", "normal", "auto")
+          desktopMode = "fixed"
+          # mobile header mode ("fixed", "normal", "auto")
+          mobileMode = "auto"
+        # Footer Copyright Info
+        [languages.en.params.footer]
+          # Site creation time
+          since = 2020
+          # ICP info only in China (HTML format is allowed)
+          # icp = ""
+          # license info (HTML format is allowed)
+          license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+        # Home Page Info
+        [languages.en.params.home]
+          # Home Page Profile
+          [languages.en.params.home.profile]
+            enable = true
+            # Gravatar Email for preferred avatar in home page
+            gravatarEmail = ""
+            # URL of avatar shown in home page
+            avatarURL = "images/avatar.jpg"
+            # subtitle shown in home page
+            subtitle = "Electronics Engineer. Software developer."
+            # whether to use typeit animation for subtitle
+            typeit = false
+            # whether to show social links
+            social = true
+          # Home Page Posts
+          [languages.en.params.home.posts]
+            enable = true
+            # special amount of posts in each home posts page
+            paginate = 6
+            # default behavior when you don't set "hiddenFromHomePage" in front matter
+            defaultHiddenFromHomePage = false
+        # Social Info in home page
+        [languages.en.params.social]
+          GitHub = "reddvid"
+          Linkedin = "reddvid"
+          Twitter = "reddvid"
+          Instagram = "reddvid"
+          Email = "me@reddvid.xyz"
+          # Facebook = "reddvid14"
+          # Telegram = "xxxx"
+          # Medium = "xxxx"
+          # Gitlab = "xxxx"
+          # Youtubelegacy = "xxxx"
+          # Youtubecustom = "xxxx"
+          # Youtubechannel = "UC5p7CWPw29oXaW84Hjiao5Q"
+          # Tumblr ="xxxx"
+          # Quora = "xxxx"
+          # Keybase = "xxxx"
+          # Pinterest = "xxxx"
+          # Reddit = "xxxx"
+          # Codepen = "xxxx"
+          # FreeCodeCamp = "xxxx"
+          # Bitbucket = "xxxx"
+          # Stackoverflow = "xxxx"
+          # Weibo = "xxxx"
+          # Odnoklassniki = "xxxx"
+          # VK = "xxxx"
+          # Flickr = "xxxx"
+          # Xing = "xxxx"
+          # Snapchat = "xxxx"
+          Soundcloud = "reddvid"
+          # Spotify = "xxxx"
+          # Bandcamp = "xxxx"
+          # Paypal = "xxxx"
+          # Fivehundredpx = "xxxx"
+          # Mix = "xxxx"
+          # Goodreads = "xxxx"
+          # Lastfm = "xxxx"
+          # Foursquare = "xxxx"
+          # Hackernews = "xxxx"
+          # Kickstarter = "xxxx"
+          # Patreon = "xxxx"
+          # Steam = "reddvid"
+          # Twitch = "xxxx"
+          # Strava = "xxxx"
+          # Skype = "xxxx"
+          # Whatsapp = "xxxx"
+          # Zhihu = "xxxx"
+          # Douban = "xxxx"
+          # Angellist = "xxxx"
+          # Slidershare = "xxxx"
+          # Jsfiddle = "xxxx"
+          # Deviantart = "xxxx"
+          # Behance = "xxxx"
+          # Dribble = "xxxx"
+          # Wordpress = "xxxx"
+          # Vine = "xxxx"
+          # Googlescholar = "xxxx"
+          # Researchgate = "xxxx"
+          # Mastodon = "xxxx"
+          # MastodonPrefix = "https://mastodon.technology/"
+          # Thingiverse = "xxxx"
+          # Devto = "xxxx"
+          # Gitea = "xxxx"
+          # XMPP = "xxxx"
+          # Matrix = "xxxx"
+          # Bilibili = "xxxx"
+        # Page config
+        [languages.en.params.page]
+          # whether to show social share links in post page
+          socialShare = true
+          # whether to show link to Raw Markdown content of the post
+          linkToMarkdown = true
+        # Social Share Links in post page
+        [languages.en.params.share]
+          enable = true
+          Twitter = true
+          Facebook = true
+          Linkedin = true
+          Whatsapp = true
+          Messenger = true
+          # Pinterest = true
+          # Tumblr = true
+          # HackerNews = true
+          # Reddit = true
+          # VK = true
+          # Buffer = true
+          # Xing = true
+          # Line = true
+          # Instapaper = true
+          # Pocket = true
+          # Digg = true
+          # Stumbleupon = true
+          # Flipboard = true
+          # Weibo = true
+          # Renren = true
+          # Myspace = true
+          # Blogger = true
+          # Baidu = true
+          # Odnoklassniki = true
+          # Evernote = true
+          # Skype = true
+          # Trello = true
+          # Mix = true
+        # mathematical formulas (KaTeX)
+        [languages.en.params.math]
+          enable = true
+          # default inline delimiter is $ ... $ and \\( ... \\)
+          inlineLeftDelimiter = ""
+          inlineRightDelimiter = ""
+          # default block delimiter is $$ ... $$ and \\[ ... \\]
+          blockLeftDelimiter = ""
+          blockRightDelimiter = ""
+          # KaTeX extension copy_tex
+          copyTex = true
+          # KaTeX extension mhchem
+          mhchem = true
+        # CSS and JS Files CDN
+        [languages.en.params.cdn]
+          ## for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
+          fontawesomeFreeCSS = ''
+          animateCSS = ''
+          gitalkCSS = ''
+          gitalkJS = ''
+          valineJS = ''
+          lazysizesJS = ''
+          smoothScrollJS = ''
+          sharerJS = ''
+          katexCSS = ''
+          katexJS = ''
+          katexAutoRenderJS = ''
+          katexCopyTexCSS = ''
+          katexCopyTexJS = ''
+          katexMhchemJS = ''
+          mermaidJS = ''
+          echartsJS = ''
+          echartsMacaronsJS = ''
+          typeitJS = ''
+          aplayerCSS = ''
+          aplayerJS = ''
+          metingJS = ''
+        # site verification code for Google/Bing/Yandex/Pinterest/Baidu
+        [languages.en.params.verification]
+          google = ""
+          bing = ""
+          yandex = ""
+          pinterest = ""
+          baidu = ""
+        # Publisher Info just for SEO
+        [languages.en.params.publisher]
+          name = "xxxx"
+          [languages.en.params.publisher.logo]
+            url = "logo.png"
+            width = 127
+            height = 40
+        # Website Log Info just for SEO
+        [languages.en.params.logo]
+          url = "logo.png"
+          width = 127
+          height = 40
+        # Website Image Info just for SEO
+        [languages.en.params.image]
+          url = "cover.png"
+          width = 800
+          height = 600
+        # Comment Config
+        [languages.en.params.comment]
+          enable = true
+          # Disqus Comment Config (https://disqus.com/)
+          [languages.en.params.comment.disqus]
+            # Disqus shortname to use Disqus in posts
+            shortname = "dillonzq"
+          # Gittalk Comment Config (https://github.com/gitalk/gitalk)
+          [languages.en.params.comment.gitalk]
+            owner = ""
+            repo = ""
+            clientId = ""
+            clientSecret = ""
+          # Valine Comment Config (https://github.com/xCss/Valine)
+          [languages.en.params.comment.valine]
+            enable = false
+            appId = ""
+            appKey = ""
+            placeholder = "Your comment ..."
+            notify = false
+            verify = true
+            avatar = "mp"
+            # meta= ""
+            pageSize = 10
+            visitor = true
+            recordIP = true
+          # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
+          [languages.en.params.comment.facebook]
+            enable = false
+            width = "100%"
+            numPosts = 10
+            appId = ""
+            languageCode = "en_US"
+  
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      # 是否在文档中直接使用 HTML 标签
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Author Info
+[author]
+  name = "David Ballesteros"
+  # link = ""
+
+# Sitemap Info
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
+
+# Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# Options to make output .md files
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+# Options to make output .md files
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+# Options to make hugo output files
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]

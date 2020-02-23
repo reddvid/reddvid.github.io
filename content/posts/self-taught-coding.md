@@ -1,7 +1,7 @@
 ---
 title: "A Story of Self-taught Coding"
-date: 2019-08-25T16:22:42+08:00
-lastmod: 2019-08-25T16:22:42+08:00
+date: 2017-08-25T16:22:42+08:00
+lastmod: 2020-02-23T16:22:42+08:00
 draft: false
 author: "David"
 authorLink: ""
@@ -11,7 +11,7 @@ license: ""
 categories: ["Stories"]
 hiddenFromHomePage: false
 
-featuredImage: ""
+featuredImage: "/images/ard-and.jpg"
 featuredImagePreview: ""
 
 toc: true

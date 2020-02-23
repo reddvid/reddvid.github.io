@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apps on David Ballesteros</title>
+    <link>/tags/apps/</link>
+    <description>Recent content in Apps on David Ballesteros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 12 May 2019 15:47:52 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RF Tools Gets Multi-Window Support</title>
+      <link>/rftools-gets-multi-window-support/</link>
+      <pubDate>Sun, 12 May 2019 15:47:52 +0800</pubDate>
+      
+      <guid>/rftools-gets-multi-window-support/</guid>
+      <description>UWP SDK recently released a new support for Multi-windowing.
+&amp;ldquo;UWP multiview&amp;rdquo;Then I though of which of my apps should I implement this with, there&amp;rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.
+This should improve the user&amp;rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.
+&amp;ldquo;RF Tools split view&amp;rdquo;&amp;ldquo;RF Tools multi window&amp;rdquo;You can download the app here</description>
+    </item>
+    
+    <item>
+      <title>RPN News &amp; Radio Gets a New UI</title>
+      <link>/new-ui-rpnradio/</link>
+      <pubDate>Thu, 14 Mar 2019 15:28:37 +0800</pubDate>
+      
+      <guid>/new-ui-rpnradio/</guid>
+      <description>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.
+You can download RPN News &amp;amp; Radio for Windows 10 app here</description>
+    </item>
+    
+  </channel>
+</rss>

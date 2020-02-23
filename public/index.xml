@@ -1,7 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>My New Hugo Site | My New Hugo Site</title>
-        <link>http://example.org/</link>
-        <description>My New Hugo Site | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://example.org/" rel="self" type="application/rss+xml" /></channel>
+        <title>David Ballesteros | David Ballesteros</title>
+        <link>/</link>
+        <description>David Ballesteros | David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 25 Aug 2019 16:22:42 &#43;0800</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml" /><item>
+                <title>Posts</title>
+                <link>/posts/</link>
+                <pubDate>Sun, 25 Aug 2019 16:22:42 &#43;0800</pubDate><guid>/posts/</guid>
+                <description></description>
+            </item></channel>
 </rss>

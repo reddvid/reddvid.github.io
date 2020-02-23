@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stories on David Ballesteros</title>
+    <link>/categories/stories/</link>
+    <description>Recent content in Stories on David Ballesteros</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 25 Aug 2019 16:22:42 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/stories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Story of Self-taught Coding</title>
+      <link>/self-taught-coding/</link>
+      <pubDate>Sun, 25 Aug 2019 16:22:42 +0800</pubDate>
+      
+      <guid>/self-taught-coding/</guid>
+      <description>Started coding using VB.Net and Forms for our final year thesis (which programming was NOT a major). Then while gearing up for board exams, learnt to code and design for Windows Phone 7.5/7.8/8 using XAML, C# &amp;amp; Silverlight.
+Then came Windows 8.1 and WP8.1 on the Univeral App Shared codes, but didn&amp;rsquo;t dive that deep because of some weird Windows 8.1 windowing and such.
+Finally W10 and UWP, still slowly learning and managed to improve my coding skills.</description>
+    </item>
+    
+  </channel>
+</rss>

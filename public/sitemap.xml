@@ -2,6 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>/self-taught-coding/</loc><lastmod>2019-08-25T16:22:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/</loc><lastmod>2019-08-25T16:22:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/</loc><lastmod>2019-08-25T16:22:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/posts/</loc><lastmod>2019-08-25T16:22:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/categories/stories/</loc><lastmod>2019-08-25T16:22:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

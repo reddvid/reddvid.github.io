@@ -2,18 +2,24 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://reddvid.xyz/categories/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/categories/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/tags/covid19/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/posts/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/categories/stories/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/tags/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/tags/coding/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddvid.xyz/posts/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/rebuilding-website-to-hugo/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddvid.xyz/categories/stories/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddvid.xyz/tags/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/portfolio/portfolionew/</loc><lastmod>2020-02-23T14:37:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/portfolio/</loc><lastmod>2020-02-23T14:37:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/about/</loc><lastmod>2020-02-23T13:10:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/</loc><lastmod>2020-02-23T13:10:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/privacy/</loc><lastmod>2020-02-23T13:10:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddvid.xyz/tags/apps/</loc><lastmod>2019-05-12T15:47:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/tags/devices/</loc><lastmod>2020-02-18T16:30:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/new-laptop/</loc><lastmod>2020-02-18T16:30:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/tags/laptops/</loc><lastmod>2020-02-18T16:30:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/tags/apps/</loc><lastmod>2020-01-02T03:02:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddvid.xyz/rpn-android-app/</loc><lastmod>2020-01-02T03:02:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/rftools-gets-multi-window-support/</loc><lastmod>2019-05-12T15:47:52&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/new-ui-rpnradio/</loc><lastmod>2019-03-14T15:28:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/self-taught-coding/</loc><lastmod>2020-02-23T16:22:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

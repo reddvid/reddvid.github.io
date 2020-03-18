@@ -25,11 +25,12 @@ So I gave up and made a basic website with just HTML, CSS, and JS files. It was 
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="prev" href="https://reddvid.xyz/rftools-gets-multi-window-support/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/css/lib/animate/animate.min.css"><script type="application/ld+json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="prev" href="https://reddvid.xyz/new-laptop/" /><link rel="next" href="https://reddvid.xyz/staying-at-home-during-covid19-pandemic/" /><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "headline": "Rebuilding Website with Hugo",
+        "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/reddvid.xyz\/rebuilding-website-to-hugo\/"
@@ -39,7 +40,7 @@ So I gave up and made a basic website with just HTML, CSS, and JS files. It was 
                 "width":  800 ,
                 "height":  600 
             },"genre": "posts","keywords": "Coding","wordcount":  123 ,
-        "url": "https:\/\/reddvid.xyz\/rebuilding-website-to-hugo\/","datePublished": "2020-02-23T21:43:46\x2b08:00","dateModified": "2020-02-23T21:43:46\x2b08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        "url": "https:\/\/reddvid.xyz\/rebuilding-website-to-hugo\/","datePublished": "2020-02-23","dateModified": "2020-02-23","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
                 "name": "xxxx",
                 "logo": {
@@ -48,6 +49,9 @@ So I gave up and made a basic website with just HTML, CSS, and JS files. It was 
                 "width":  127 ,
                 "height":  40 
                 }
+            },"author": {
+                "@type": "Person",
+                "name": "David"
             },"description": ""
     }
     </script></head>
@@ -58,28 +62,27 @@ So I gave up and made a basic website with just HTML, CSS, and JS files. It was 
             window.isDark && document.body.classList.add('dark-theme');
         </script><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
-        <div class="header-title animated bounceIn">
+        <div class="header-title">
             <a href="/">David Ballesteros</a>
         </div>
-        <div class="menu"><a class="menu-item" href="/posts/">Posts</a><a class="menu-item" href="/portfolio/">Portfolio</a><a class="menu-item" href="/about/">About</a><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-rotate-180 fa-fw"></i>
-            </a>
-        </div>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">Posts</a><a class="menu-item" href="/portfolio/" rel="noopener noreffer">Portfolio</a><a class="menu-item" href="/about/" rel="noopener noreffer">About</a><span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
     </div>
 </header><header class="mobile" id="header-mobile">
     <div class="header-wrapper">
         <div class="header-container">
-            <div class="header-title animated bounceIn">
+            <div class="header-title">
                 <a href="/">David Ballesteros</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/portfolio/" title="">Portfolio</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-rotate-180 fa-fw"></i>
-            </a>
-        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">Posts</a><a class="menu-item" href="/portfolio/" title="" rel="noopener noreffer">Portfolio</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
     </div>
 </header>
 
@@ -89,21 +92,22 @@ So I gave up and made a basic website with just HTML, CSS, and JS files. It was 
 </script>
 <main class="main">
                 <div class="container"><article class="page single"><h1 class="single-title animated flipInX">Rebuilding Website with Hugo</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author">
-                    <a class="author" href="/" rel="author" target="_blank">
-                        <i class="fas fa-user-circle fa-fw"></i>David
-                    </a>
-                </span>&nbsp;<span class="post-category">included in&nbsp;
-                            <span>
-                                <a href="/categories/stories">
-                                    <i class="far fa-folder fa-fw"></i>Stories
-                                </a>
-                            </span></span></div>
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>David</a>
+</span>&nbsp;
+                    <span class="post-category">included in<a href="/categories/stories">
+                                <i class="far fa-folder fa-fw"></i>Stories
+                            </a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-02-23>2020-02-23</time>&nbsp;
                 <i class="fas fa-pencil-alt fa-fw"></i>about 123 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>1 min&nbsp;</div>
-        </div><div class="featured-image"><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/hugo.png" alt="featured image" title="featured image" class="lazyload">
-</div><div class="content"><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/hugo.png, /images/hugo.png 1.5x, /images/hugo.png 2x"
+        data-src="/images/hugo.png"
+        alt=""
+        title="" /></div><div class="content" id="content"><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
 <p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
 <p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
 </div><div class="post-footer" id="post-footer">
@@ -116,49 +120,46 @@ So I gave up and made a basic website with just HTML, CSS, and JS files. It was 
         </div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="https://reddvid.xyz/rebuilding-website-to-hugo/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/rebuilding-website-to-hugo/index.md" target="_blank">Read Markdown</a>
                         </span></div>
-            <div class="post-info-share"><span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/" data-title="Rebuilding Website with Hugo" data-via="reddvid" data-hashtags="Coding"><i class="fab fa-twitter fa-fw"></i>
-</a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/" data-hashtag="Coding"><i class="fab fa-facebook-square fa-fw"></i>
-</a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/"><i class="fab fa-linkedin fa-fw"></i>
-</a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/" data-title="Rebuilding Website with Hugo" data-web><i class="fab fa-whatsapp fa-fw"></i>
-</a></span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/" data-title="Rebuilding Website with Hugo" data-via="reddvid" data-hashtags="Coding"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/" data-hashtag="Coding"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://reddvid.xyz/rebuilding-website-to-hugo/" data-title="Rebuilding Website with Hugo" data-web><i class="fab fa-whatsapp fa-fw"></i></a></span>
+            </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section><span>
-                        <a href="/tags/coding">
-                            <i class="fas fa-tag fa-fw"></i>Coding
-                        </a>
-                    </span>&nbsp;</section>
+        <section><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/coding">Coding</a></section>
         <section>
             <span><a href="javascript:window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="https://reddvid.xyz/rftools-gets-multi-window-support/" class="prev" rel="prev" title="RF Tools Gets Multi-Window Support"><i class="fas fa-angle-left fa-fw"></i>RF Tools Gets Multi-Window Support</a></div>
+    <div class="post-nav"><a href="/new-laptop/" class="prev" rel="prev" title="I Got Myself a New Laptop"><i class="fas fa-angle-left fa-fw"></i>I Got Myself a New Laptop</a>
+            <a href="/staying-at-home-during-covid19-pandemic/" class="next" rel="next" title="Staying at Home During the COVID-19 Pandemic">Staying at Home During the COVID-19 Pandemic<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 <div class="comment"></div>
     </article></div>
             </main><footer class="footer" >
-    <div class="copyright" style="font-size: 0.7rem;"><div class="copyright-line" >Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> and <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt</a> theme
+    <div class="copyright" style="font-size: 0.7rem;"><div class="copyright-line" >%!(EXTRA string=<a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a>) and <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt</a> theme
         </div>
 
         <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">David Ballesteros</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>&nbsp;|&nbsp;<span class="author"><a href="/privacy/" >Privacy Policy</a></span></div>
     </div>
 </footer>
 </div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
-            <span>&nbsp;</span>
+            <i class="fas fa-chevron-up fa-fw"></i>
         </a><script>
-        document.addEventListener("DOMContentLoaded", function () {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$", right: "$", display: false },
-                    { left: "$$", right: "$$", display: true },
-                    { left: "\\(", right: "\\)", display: false },
-                    { left: "\\[", right: "\\]", display: true },]
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('content'), {
+                selector: '.lightgallery',
+                speed: 400,
+                hideBarsDelay: 2000,
+                thumbnail: true,
+                exThumbImage: 'data-thumbnail',
+                thumbWidth: 80,
+                thumbContHeight: 80,
             });
         });
-    </script><link rel="stylesheet" href="/css/lib/katex/katex.min.css"><link rel="stylesheet" href="/css/lib/katex/copy-tex.min.css"><script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/js/lib/sharer/sharer.min.js"></script><script src="/js/lib/lazysizes/lazysizes.min.js"></script><script src="/js/lib/katex/katex.min.js"></script><script src="/js/lib/katex/auto-render.min.js"></script><script src="/js/lib/katex/copy-tex.min.js"></script><script src="/js/lib/katex/mhchem.min.js"></script><script src=/js/theme.min.js></script></body>
+    </script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/js/theme.min.js"></script></body>
 </html>

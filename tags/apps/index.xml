@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 12 May 2019 15:47:52 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 03:02:48 +0800</lastBuildDate>
     
 	<atom:link href="https://reddvid.xyz/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RPN Android App</title>
+      <link>https://reddvid.xyz/rpn-android-app/</link>
+      <pubDate>Thu, 02 Jan 2020 03:02:48 +0800</pubDate>
+      
+      <guid>https://reddvid.xyz/rpn-android-app/</guid>
+      <description>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.
+Finally opt-in and registered to Google Play platform and chose RPN News &amp;amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.
+Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.</description>
+    </item>
     
     <item>
       <title>RF Tools Gets Multi-Window Support</title>
@@ -19,9 +30,9 @@
       
       <guid>https://reddvid.xyz/rftools-gets-multi-window-support/</guid>
       <description>UWP SDK recently released a new support for Multi-windowing.
-&amp;ldquo;UWP multiview&amp;rdquo;Then I though of which of my apps should I implement this with, there&amp;rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.
+Then I though of which of my apps should I implement this with, there&amp;rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.
 This should improve the user&amp;rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.
-&amp;ldquo;RF Tools split view&amp;rdquo;&amp;ldquo;RF Tools multi window&amp;rdquo;You can download the app here</description>
+You can download the app here</description>
     </item>
     
     <item>

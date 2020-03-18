@@ -6,7 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 23 Feb 2020 13:10:38 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/" rel="self" type="application/rss+xml" /><item>
                 <title>Posts</title>
                 <link>https://reddvid.xyz/posts/</link>
-                <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate><guid>https://reddvid.xyz/posts/</guid>
+                <pubDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</pubDate><guid>https://reddvid.xyz/posts/</guid>
                 <description></description>
             </item><item>
                 <title>Portfolios</title>
@@ -17,9 +17,14 @@
                 <title>About</title>
                 <link>https://reddvid.xyz/about/</link>
                 <pubDate>Sun, 23 Feb 2020 13:10:38 &#43;0800</pubDate><guid>https://reddvid.xyz/about/</guid>
-                <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddvid.xyz/svg/loading.min.svg&#34; data-sizes=&#34;auto&#34; data-src=&#34;https://reddvid.xyz/images/about-hero.jpg&#34; alt=&#34;Macapagal Bridge, Butuan City - 2019&#34; title=&#34;Macapagal Bridge, Butuan City - 2019&#34; class=&#34;lazyload&#34;&gt;
-&lt;figcaption class=&#34;image-caption&#34;&gt;Macapagal Bridge, Butuan City - 2019&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;/p&gt;
+                <description>&lt;p&gt;&lt;img
+        class=&#34;lazyload&#34;
+        src=&#34;https://reddvid.xyz/svg/loading.small.min.svg&#34;
+        data-sizes=&#34;auto&#34;
+        data-srcset=&#34;https://reddvid.xyz/images/about-hero.jpg, 1.5x, 2x&#34;
+        data-src=&#34;&#34;
+        alt=&#34;Macapagal Bridge, Butuan City - 2019&#34;
+        title=&#34;Macapagal Bridge, Butuan City - 2019&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Hi! I am David. I am an electronics engineer and a software programmer.&lt;/p&gt;
 &lt;p&gt;I work in broadcast field for more than 5 years. I code and develop apps on my rest days.&lt;/p&gt;
 &lt;p&gt;I manage RPN Radio CMS website and other digital media (e.g. live stream, social media, cPanel).&lt;/p&gt;

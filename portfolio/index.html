@@ -24,7 +24,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="alternate" href="/portfolio/index.xml" type="application/rss+xml" title="David Ballesteros">
-    <link rel="feed" href="/portfolio/index.xml" type="application/rss+xml" title="David Ballesteros"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/css/lib/animate/animate.min.css"></head>
+    <link rel="feed" href="/portfolio/index.xml" type="application/rss+xml" title="David Ballesteros"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/css/style.min.css"></head>
     <body><script>
             if (!window.localStorage || !window.localStorage.getItem('theme')) {window.isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;} else {
                 window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
@@ -32,28 +32,27 @@
             window.isDark && document.body.classList.add('dark-theme');
         </script><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
-        <div class="header-title animated bounceIn">
+        <div class="header-title">
             <a href="/">David Ballesteros</a>
         </div>
-        <div class="menu"><a class="menu-item" href="/posts/">Posts</a><a class="menu-item active" href="/portfolio/">Portfolio</a><a class="menu-item" href="/about/">About</a><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-rotate-180 fa-fw"></i>
-            </a>
-        </div>
+        <div class="menu"><a class="menu-item" href="/posts/" rel="noopener noreffer">Posts</a><a class="menu-item active" href="/portfolio/" rel="noopener noreffer">Portfolio</a><a class="menu-item" href="/about/" rel="noopener noreffer">About</a><span class="menu-item">|</span>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
     </div>
 </header><header class="mobile" id="header-mobile">
     <div class="header-wrapper">
         <div class="header-container">
-            <div class="header-title animated bounceIn">
+            <div class="header-title">
                 <a href="/">David Ballesteros</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/portfolio/" title="">Portfolio</a><a class="menu-item" href="/about/" title="">About</a><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-rotate-180 fa-fw"></i>
-            </a>
-        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="" rel="noopener noreffer">Posts</a><a class="menu-item" href="/portfolio/" title="" rel="noopener noreffer">Portfolio</a><a class="menu-item" href="/about/" title="" rel="noopener noreffer">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
     </div>
 </header>
 
@@ -64,37 +63,42 @@
 <main class="main">
                 <div class="container"><div class="page home"><h1 class="single-title animated pulse faster" style="text-align: center;">
             Portfolio
-        </h1><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview"><img src="/svg/loading.min.svg" data-sizes="auto" data-src="/images/ard-and.jpg" alt="featured image" title="featured image" class="lazyload">
-</div><h1 class="single-title" itemprop="name headline">
-        <a href="https://reddvid.xyz/portfolio/portfolionew/">Portfolio new</a>
-    </h1><div class="post-meta"><span class="post-author">
-            <a class="author" href="/" rel="author" target="_blank">
-                <i class="fas fa-user-circle fa-fw"></i>David
-            </a>
-        </span>&nbsp;<span class="post-publish">
+        </h1><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-sizes="auto"
+        data-srcset="/images/ard-and.jpg, /images/ard-and.jpg 1.5x, /images/ard-and.jpg 2x"
+        data-src="/images/ard-and.jpg"
+        alt=""
+        title="" /></div><h1 class="single-title" itemprop="name headline">
+        <a href="/portfolio/portfolionew/">Portfolio new</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>David</a>
+</span>&nbsp;<span class="post-publish">
             published on&nbsp;<time datetime=2020-02-23>2020-02-23</time>
         </span></div><div class="content">Coming soon!</div><div class="post-footer">
-        <a href="https://reddvid.xyz/portfolio/portfolionew/">Read More</a></div>
+        <a href="/portfolio/portfolionew/">Read More</a></div>
 </article>
 </div></div>
             </main><footer class="footer" >
-    <div class="copyright" style="font-size: 0.7rem;"><div class="copyright-line" >Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a> and <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt</a> theme
+    <div class="copyright" style="font-size: 0.7rem;"><div class="copyright-line" >%!(EXTRA string=<a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a>) and <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt</a> theme
         </div>
 
         <div class="copyright-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">David Ballesteros</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>&nbsp;|&nbsp;<span class="author"><a href="/privacy/" >Privacy Policy</a></span></div>
     </div>
 </footer>
 </div><a href="#" class="dynamic-to-top animated faster" id="dynamic-to-top">
-            <span>&nbsp;</span>
+            <i class="fas fa-chevron-up fa-fw"></i>
         </a><script>
-        document.addEventListener("DOMContentLoaded", function () {
-            renderMathInElement(document.body, {
-                delimiters: [
-                    { left: "$", right: "$", display: false },
-                    { left: "$$", right: "$$", display: true },
-                    { left: "\\(", right: "\\)", display: false },
-                    { left: "\\[", right: "\\]", display: true },]
+        document.addEventListener('DOMContentLoaded', function () {
+            lightGallery(document.getElementById('content'), {
+                selector: '.lightgallery',
+                speed: 400,
+                hideBarsDelay: 2000,
+                thumbnail: true,
+                exThumbImage: 'data-thumbnail',
+                thumbWidth: 80,
+                thumbContHeight: 80,
             });
         });
-    </script><link rel="stylesheet" href="/css/lib/katex/katex.min.css"><link rel="stylesheet" href="/css/lib/katex/copy-tex.min.css"><script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/js/lib/lazysizes/lazysizes.min.js"></script><script src="/js/lib/katex/katex.min.js"></script><script src="/js/lib/katex/auto-render.min.js"></script><script src="/js/lib/katex/copy-tex.min.js"></script><script src="/js/lib/katex/mhchem.min.js"></script><script src=/js/theme.min.js></script></body>
+    </script><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script src="/lib/smooth-scroll/smooth-scroll.polyfills.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/lg-zoom.min.js"></script><script src="/js/theme.min.js"></script></body>
 </html>

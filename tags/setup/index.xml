@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Setup - Tag - Red David</title>
+        <link>https://reddvid.xyz/tags/setup/</link>
+        <description>Setup - Tag - Red David</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 01 Jul 2020 00:12:29 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/tags/setup/" rel="self" type="application/rss+xml" /><item>
+    <title>Story of my Logitech Mice</title>
+    <link>https://reddvid.xyz/story-of-owning-logitech-mice/</link>
+    <pubDate>Wed, 01 Jul 2020 00:12:29 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/story-of-owning-logitech-mice/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
+            </div>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.]]></description>
+</item></channel>
+</rss>

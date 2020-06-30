@@ -1,70 +1,61 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>David Ballesteros | David Ballesteros</title>
+        <title>Red David</title>
         <link>https://reddvid.xyz/</link>
-        <description>David Ballesteros | David Ballesteros</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 23 Feb 2020 13:10:38 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/" rel="self" type="application/rss+xml" /><item>
-                <title>Posts</title>
-                <link>https://reddvid.xyz/posts/</link>
-                <pubDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</pubDate><guid>https://reddvid.xyz/posts/</guid>
-                <description></description>
-            </item><item>
-                <title>Portfolios</title>
-                <link>https://reddvid.xyz/portfolio/</link>
-                <pubDate>Sun, 23 Feb 2020 14:37:36 &#43;0800</pubDate><guid>https://reddvid.xyz/portfolio/</guid>
-                <description></description>
-            </item><item>
-                <title>About</title>
-                <link>https://reddvid.xyz/about/</link>
-                <pubDate>Sun, 23 Feb 2020 13:10:38 &#43;0800</pubDate><guid>https://reddvid.xyz/about/</guid>
-                <description>&lt;p&gt;&lt;img
-        class=&#34;lazyload&#34;
-        src=&#34;https://reddvid.xyz/svg/loading.small.min.svg&#34;
-        data-sizes=&#34;auto&#34;
-        data-srcset=&#34;https://reddvid.xyz/images/about-hero.jpg, 1.5x, 2x&#34;
-        data-src=&#34;&#34;
-        alt=&#34;Macapagal Bridge, Butuan City - 2019&#34;
-        title=&#34;Macapagal Bridge, Butuan City - 2019&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Hi! I am David. I am an electronics engineer and a software programmer.&lt;/p&gt;
-&lt;p&gt;I work in broadcast field for more than 5 years. I code and develop apps on my rest days.&lt;/p&gt;
-&lt;p&gt;I manage RPN Radio CMS website and other digital media (e.g. live stream, social media, cPanel).&lt;/p&gt;
-&lt;p&gt;I am also an experienced object-oriented programming using C#. I also happen to know XAML, SQL, and Git. I use Visual Studio, VS Code, and Illustrator/Figma to design app logos, UI mockups, and promo images.&lt;/p&gt;
-&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
-&lt;p&gt;I started coding in college for our project study, RFID Gate System. We used VB.Net for the software and C++ for the Arduino microprocessor. After that, I got started in Windows Phone App development and learned C#, XAML, and Git. The first apps I created were mostly for personal-use until I registered and submitted one to the Windows Store.&lt;/p&gt;
-&lt;p&gt;Then I started coding apps which helped me simplify the jobs I do - from monitoring and reporting data and statistics to automating web interactions. What started as a hobby became a small source of income. I have more than a dozen apps available right now in the Windows 10 Store.&lt;/p&gt;
-&lt;p&gt;And right now, I am learning web development and looking forward to get a Microsoft Certification.&lt;/p&gt;
-&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
-&lt;p&gt;Born and raised in a small town in Pangasinan, Philippines on 14th of June, 1992.&lt;/p&gt;
-&lt;p&gt;I can speak Filipino (Tagalog), and English (spoken: 8, written: 9). I can also speak in my local dialect, Pangasinan.&lt;/p&gt;
-&lt;p&gt;I took up Electronics Engineering as my bachelor&amp;rsquo;s degree in 2008 from Colegio de Dagupan. Where among engineering subjects, there were those which tackled: Turbo C/C++, Arduino, HTML and web, and Java. There were projects that also needed coding: LED Matrix using Great Cow BASIC.&lt;/p&gt;
-&lt;p&gt;I graduated and passed the Electronics Engineering board exams in 2013.&lt;/p&gt;
-</description>
-            </item><item>
-                <title>Privacy Policy for Red David Apps</title>
-                <link>https://reddvid.xyz/privacy/</link>
-                <pubDate>Sun, 23 Feb 2020 13:10:38 &#43;0800</pubDate><guid>https://reddvid.xyz/privacy/</guid>
-                <description>&lt;p&gt;We built the suite of apps for Windows (UWP, WinForms, and/or WPF) as a commercial. These services were provided by Red David and is intended for use as is.&lt;/p&gt;
-&lt;p&gt;This page is used to inform website visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use our services.&lt;/p&gt;
-&lt;p&gt;If you choose to use any of our services, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the service. We will not use or share your information with anyone except as described in this Privacy Policy.&lt;/p&gt;
-&lt;p&gt;The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Red David Apps unless otherwise defined in this Privacy Policy.&lt;/p&gt;
-&lt;h3 id=&#34;information-collection-and-use&#34;&gt;Information Collection and Use&lt;/h3&gt;
-&lt;p&gt;For a better experience, while using our Service, the app or service may require you to provide us with certain personally identifiable information, including but not limited to contacts list, username/s, location, and/or notifications. The information that we request is retained on your device and is not collected by us in any way.&lt;/p&gt;
-&lt;p&gt;The app does use third party services that may collect information used to identify you.&lt;/p&gt;
-&lt;h3 id=&#34;log-data&#34;&gt;Log Data&lt;/h3&gt;
-&lt;p&gt;We want to inform you that whenever you use our services, in a case of an error in the app, we collect data and information (through third party products) on your phone called Log Data (Stack Trace). This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.&lt;/p&gt;
-&lt;h3 id=&#34;cookies&#34;&gt;Cookies&lt;/h3&gt;
-&lt;p&gt;Cookies are files with small amount of data that is commonly used as an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your device internal memory.&lt;/p&gt;
-&lt;p&gt;Our Services does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and to improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of the Service.&lt;/p&gt;
-&lt;h3 id=&#34;security&#34;&gt;Security&lt;/h3&gt;
-&lt;p&gt;We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.&lt;/p&gt;
-&lt;h3 id=&#34;links-to-other-sites&#34;&gt;Links to Other Sites&lt;/h3&gt;
-&lt;p&gt;Red David Apps and Services may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.&lt;/p&gt;
-&lt;h3 id=&#34;changes-to-this-privacy-policy&#34;&gt;Changes to This Privacy Policy&lt;/h3&gt;
-&lt;p&gt;We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.&lt;/p&gt;
-&lt;h3 id=&#34;contact-us&#34;&gt;Contact Us&lt;/h3&gt;
-&lt;p&gt;If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact me.&lt;/p&gt;
-&lt;p&gt;This privacy policy page was created at &lt;a href=&#34;https://privacypolicytemplate.net&#34; target=&#34;_blank&#34;&gt;privacypolicytemplate.net&lt;/a&gt; and modified/generated by
-&lt;a href=&#34;https://app-privacy-policy-generator.firebaseapp.com/&#34; target=&#34;_blank&#34;&gt;App Privacy Policy Generator&lt;/a&gt;&lt;/p&gt;
-</description>
-            </item></channel>
+        <description>Red David&#39;s blog using Hugo.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 01 Jul 2020 00:12:29 &#43;0800</lastBuildDate>
+            <atom:link href="https://reddvid.xyz/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Story of my Logitech Mice</title>
+    <link>https://reddvid.xyz/story-of-owning-logitech-mice/</link>
+    <pubDate>Wed, 01 Jul 2020 00:12:29 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/story-of-owning-logitech-mice/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
+            </div>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.]]></description>
+</item><item>
+    <title>Rebuilding Website with Hugo</title>
+    <link>https://reddvid.xyz/rebuilding-website-to-hugo/</link>
+    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/rebuilding-website-to-hugo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hugo.png" referrerpolicy="no-referrer">
+            </div>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.
+So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.]]></description>
+</item><item>
+    <title>RF Tools Gets Multi-Window Support</title>
+    <link>https://reddvid.xyz/rftools-gets-multi-window-support/</link>
+    <pubDate>Sun, 12 May 2019 15:47:52 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/rftools-gets-multi-window-support/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/rftools.png" referrerpolicy="no-referrer">
+            </div>UWP SDK recently released a new support for Multi-windowing.
+Then I though of which of my apps should I implement this with, there&rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.
+This should improve the user&rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.
+You can download the app here]]></description>
+</item><item>
+    <title>RPN News &amp; Radio Gets a New UI</title>
+    <link>https://reddvid.xyz/new-ui-rpnradio/</link>
+    <pubDate>Thu, 14 Mar 2019 15:28:37 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/new-ui-rpnradio/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/rpn-newui.jpg" referrerpolicy="no-referrer">
+            </div>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.
+You can download RPN News &amp; Radio for Windows 10 app here]]></description>
+</item><item>
+    <title>A Story of Self-taught Coding</title>
+    <link>https://reddvid.xyz/self-taught-coding/</link>
+    <pubDate>Fri, 25 Aug 2017 16:22:42 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/self-taught-coding/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/ard-and.jpg" referrerpolicy="no-referrer">
+            </div>Started coding using VB.Net and Forms for our final year thesis (which programming was NOT a major). Then while gearing up for board exams, learnt to code and design for Windows Phone 7.5/7.8/8 using XAML, C# &amp; Silverlight.
+Then came Windows 8.1 and WP8.1 on the Univeral App Shared codes, but didn&rsquo;t dive that deep because of some weird Windows 8.1 windowing and such.
+Finally W10 and UWP, still slowly learning and managed to improve my coding skills.]]></description>
+</item></channel>
 </rss>

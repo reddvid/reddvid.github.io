@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Coding on David Ballesteros</title>
-    <link>https://reddvid.xyz/tags/coding/</link>
-    <description>Recent content in Coding on David Ballesteros</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 23 Feb 2020 21:43:46 +0800</lastBuildDate>
-    
-	<atom:link href="https://reddvid.xyz/tags/coding/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Rebuilding Website with Hugo</title>
-      <link>https://reddvid.xyz/rebuilding-website-to-hugo/</link>
-      <pubDate>Sun, 23 Feb 2020 21:43:46 +0800</pubDate>
-      
-      <guid>https://reddvid.xyz/rebuilding-website-to-hugo/</guid>
-      <description>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.
-So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Coding - Tag - Red David</title>
+        <link>https://reddvid.xyz/tags/coding/</link>
+        <description>Coding - Tag - Red David</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/tags/coding/" rel="self" type="application/rss+xml" /><item>
+    <title>Rebuilding Website with Hugo</title>
+    <link>https://reddvid.xyz/rebuilding-website-to-hugo/</link>
+    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/rebuilding-website-to-hugo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hugo.png" referrerpolicy="no-referrer">
+            </div>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.
+So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.]]></description>
+</item></channel>
 </rss>

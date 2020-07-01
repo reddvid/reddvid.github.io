@@ -9,4 +9,5 @@ Finally W10 and UWP, still slowly learning and managed to improve my coding skil
 
 Most of my WP7/8 apps were unpublished due to failure to update them, but right now a set of Windows 10 Apps is available for download. I have yet to get my own domain though.
 
-And since, Windows (dev) has no feature to share a publisher link, I'd share my Facebook page: https://lnkd.in/fDtDwbX
+And since, Windows (dev) has no feature to share a publisher link, I'd share my Facebook page: https://facebook.com/reddavidapps
+

@@ -8,7 +8,7 @@ As I mentioned on my previous blog post <a href="/story-of-owning-logitech-mice/
 <br/>
 
 # What's in the box?
-The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, an Duracell AA battery, and a USB extension cord.
+The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.
 
 <img src="/images/07-20/g304/box.jpg" style="display:block;margin-left:auto;margin-right:auto;width:60%;">
 

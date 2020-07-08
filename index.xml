@@ -3,9 +3,20 @@
         <title>Red David</title>
         <link>https://reddvid.xyz/</link>
         <description>Red David&#39;s blog using Hugo.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</lastBuildDate>
             <atom:link href="https://reddvid.xyz/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Your Phone Tray V2</title>
+    <link>https://reddvid.xyz/your-phone-tray-v2/</link>
+    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/your-phone-tray-v2/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div>Your Phone Tray UWP app just got updated.
+Version 2.0 brings few UI changes, some improvements and a breaking change.
+Improvements To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up) You can also see a new menu item Enable Ctrl+Y Hotkey. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app.]]></description>
+</item><item>
     <title>Logitech G304 Review</title>
     <link>https://reddvid.xyz/g304-review/</link>
     <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>

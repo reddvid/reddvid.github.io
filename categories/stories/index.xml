@@ -35,6 +35,17 @@ As I mentioned on my previous blog post here, this is my 4th mouse and my first 
                 <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
             </div>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.]]></description>
 </item><item>
+    <title>Staying at Home During the COVID-19 Pandemic</title>
+    <link>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</link>
+    <pubDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/at-home.jpg" referrerpolicy="no-referrer">
+            </div>When the sudden rise of Covid-19 cases here in the Philippines, the government was urged to implement a community quarantine - which was a lockdown - public transportation is suspended, non-essential businesses must be closed or simply everyone should stay at home.
+But working on a media and broadcasting field, yet being the transmitter engineers, we can&rsquo;t help but think: Uhm, how about us?
+Unfortunately, it took almost 2 days to formulize measures for us; don&rsquo;t get me wrong, we wanted to be safe, but being the essential skeletal personnel in the operations of news source, and in my own opinion, we had to keep the broadcast on-air.]]></description>
+</item><item>
     <title>Rebuilding Website with Hugo</title>
     <link>https://reddvid.xyz/rebuilding-website-to-hugo/</link>
     <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
@@ -44,6 +55,27 @@ As I mentioned on my previous blog post here, this is my 4th mouse and my first 
                 <img src="/images/hugo.png" referrerpolicy="no-referrer">
             </div>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.
 So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.]]></description>
+</item><item>
+    <title>I Got Myself a New Laptop</title>
+    <link>https://reddvid.xyz/new-laptop/</link>
+    <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/new-laptop/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div>Last February 15, I got myself a new Acer laptop. It is an Acer Nitro 5 laptop sporting an AMD Ryzen 3550H with RX560X Graphics. This makes my 3rd Acer laptop in a span of 8+ years and my first ever AMD on a laptop (had an AMD Athlon X2 PC before).
+This laptop costs Php34,999 and we could not find a promo since every store follows the retail price. Although, the laptop was on promo with having an included a single stick of 8GB DDR4 memory (upgraded from 4GB), 128GB SSD (m.]]></description>
+</item><item>
+    <title>RPN Android App</title>
+    <link>https://reddvid.xyz/rpn-android-app/</link>
+    <pubDate>Thu, 02 Jan 2020 03:02:48 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/rpn-android-app/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/rpn-android.png" referrerpolicy="no-referrer">
+            </div>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.
+Finally opt-in and registered to Google Play platform and chose RPN News &amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.
+Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.]]></description>
 </item><item>
     <title>RF Tools Gets Multi-Window Support</title>
     <link>https://reddvid.xyz/rftools-gets-multi-window-support/</link>

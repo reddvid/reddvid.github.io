@@ -1,27 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Covid19 on David Ballesteros</title>
-    <link>https://reddvid.xyz/tags/covid19/</link>
-    <description>Recent content in Covid19 on David Ballesteros</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 19 Mar 2020 01:28:20 +0800</lastBuildDate>
-    
-	<atom:link href="https://reddvid.xyz/tags/covid19/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Staying at Home During the COVID-19 Pandemic</title>
-      <link>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</link>
-      <pubDate>Thu, 19 Mar 2020 01:28:20 +0800</pubDate>
-      
-      <guid>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</guid>
-      <description>When the sudden rise of Covid-19 cases here in the Philippines, the government was urged to implement a community quarantine - which was a lockdown - public transportation is suspended, non-essential businesses must be closed or simply everyone should stay at home.
-But working on a media and broadcasting field, yet being the transmitter engineers, we can&amp;rsquo;t help but think: Uhm, how about us?
-Unfortunately, it took almost 2 days to formulize measures for us; don&amp;rsquo;t get me wrong, we wanted to be safe, but being the essential skeletal personnel in the operations of news source, and in my own opinion, we had to keep the broadcast on-air.</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Covid19 - Tag - Red David</title>
+        <link>https://reddvid.xyz/tags/covid19/</link>
+        <description>Covid19 - Tag - Red David</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/tags/covid19/" rel="self" type="application/rss+xml" /><item>
+    <title>Staying at Home During the COVID-19 Pandemic</title>
+    <link>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</link>
+    <pubDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/at-home.jpg" referrerpolicy="no-referrer">
+            </div>When the sudden rise of Covid-19 cases here in the Philippines, the government was urged to implement a community quarantine - which was a lockdown - public transportation is suspended, non-essential businesses must be closed or simply everyone should stay at home.
+But working on a media and broadcasting field, yet being the transmitter engineers, we can&rsquo;t help but think: Uhm, how about us?
+Unfortunately, it took almost 2 days to formulize measures for us; don&rsquo;t get me wrong, we wanted to be safe, but being the essential skeletal personnel in the operations of news source, and in my own opinion, we had to keep the broadcast on-air.]]></description>
+</item></channel>
 </rss>

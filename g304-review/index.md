@@ -15,7 +15,7 @@ The box contains the wireless mouse itself, the usual manuals, Logitech Gaming p
 <br/>
 
 # Let's get Physical!
-The mouse has no RGB lighting but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.
+The mouse has no RGB strip like it's cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.
 
 <img src="/images/07-20/g304/inside.jpg" style="display:block;margin-left:auto;margin-right:auto;width:80%;">
 

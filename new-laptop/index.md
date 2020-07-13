@@ -73,3 +73,4 @@ Right now, I am thinking of upgrading to nVMe, to a higher 2.5" SSD and 32GB RAM
 #### <a href="https://buymeacoffee.com/reddavid">Buy me a coffee</a> or <a href="https://paypal.me/reddvid">chip-in for my next upgrade</a>
 
 <strong>Thank you</strong>
+

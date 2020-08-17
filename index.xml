@@ -3,9 +3,19 @@
         <title>Red David</title>
         <link>https://reddvid.xyz/</link>
         <description>Red David&#39;s blog using Hugo.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</lastBuildDate>
             <atom:link href="https://reddvid.xyz/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>New Keeb in Town</title>
+    <link>https://reddvid.xyz/new-keeb/</link>
+    <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/new-keeb/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.
+I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.]]></description>
+</item><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddvid.xyz/zipcodeph-new-ui/</link>
     <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
@@ -100,15 +110,5 @@ Obviously, this is unofficial and not backed by my employers. I believe having t
 Then I though of which of my apps should I implement this with, there&rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.
 This should improve the user&rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.
 You can download the app here]]></description>
-</item><item>
-    <title>RPN News &amp; Radio Gets a New UI</title>
-    <link>https://reddvid.xyz/new-ui-rpnradio/</link>
-    <pubDate>Thu, 14 Mar 2019 15:28:37 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddvid.xyz/new-ui-rpnradio/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/rpn-newui.jpg" referrerpolicy="no-referrer">
-            </div>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.
-You can download RPN News &amp; Radio for Windows 10 app here]]></description>
 </item></channel>
 </rss>

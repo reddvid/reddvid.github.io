@@ -2,14 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://reddvid.xyz/categories/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddvid.xyz/tags/mechanical-keyboard/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddvid.xyz/new-keeb/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddvid.xyz/posts/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddvid.xyz/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddvid.xyz/tags/setup/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddvid.xyz/categories/stories/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddvid.xyz/tags/</loc><lastmod>2020-08-17T19:56:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddvid.xyz/tags/apps/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddvid.xyz/categories/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddvid.xyz/categories/coding/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddvid.xyz/tags/fluent-design/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddvid.xyz/posts/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddvid.xyz/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddvid.xyz/categories/stories/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddvid.xyz/tags/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddvid.xyz/tags/uwp/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddvid.xyz/zipcodeph-new-ui/</loc><lastmod>2020-08-16T22:39:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddvid.xyz/your-phone-tray-v2/</loc><lastmod>2020-07-13T17:12:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -17,7 +20,6 @@
             <loc>https://reddvid.xyz/tags/logitech/</loc><lastmod>2020-07-13T17:12:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/g304-review/</loc><lastmod>2020-07-13T17:12:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/categories/reviews/</loc><lastmod>2020-07-13T17:12:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddvid.xyz/tags/setup/</loc><lastmod>2020-07-13T17:12:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/tags/electronics/</loc><lastmod>2020-07-13T17:12:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/story-of-owning-logitech-mice/</loc><lastmod>2020-07-13T17:12:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddvid.xyz/tags/covid19/</loc><lastmod>2020-07-11T00:26:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

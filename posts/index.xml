@@ -3,7 +3,19 @@
         <title>All Posts - Red David</title>
         <link>https://reddvid.xyz/posts/</link>
         <description>All Posts | Red David</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Finally! Logitech C922</title>
+    <link>https://reddvid.xyz/the_c922/</link>
+    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddvid.xyz/the_c922/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.
+Honestly, I bought the camera in a slightly higher price due to the model being out of stock in major stores and just got from a &ldquo;hoarder&rdquo; in Facebook marketplace. :) Harsh but true.
+Let&rsquo;s get into my short blog/review/impression about this industry-standard in semi-professional streaming.
+Wait You might ask, why only now?]]></description>
+</item><item>
     <title>New Keeb in Town</title>
     <link>https://reddvid.xyz/new-keeb/</link>
     <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
@@ -96,17 +108,5 @@ This laptop costs Php34,999 and we could not find a promo since every store foll
             </div>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.
 Finally opt-in and registered to Google Play platform and chose RPN News &amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.
 Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.]]></description>
-</item><item>
-    <title>RF Tools Gets Multi-Window Support</title>
-    <link>https://reddvid.xyz/rftools-gets-multi-window-support/</link>
-    <pubDate>Sun, 12 May 2019 15:47:52 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddvid.xyz/rftools-gets-multi-window-support/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/rftools.png" referrerpolicy="no-referrer">
-            </div>UWP SDK recently released a new support for Multi-windowing.
-Then I though of which of my apps should I implement this with, there&rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.
-This should improve the user&rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.
-You can download the app here]]></description>
 </item></channel>
 </rss>

@@ -21,7 +21,7 @@ You might ask, why only now? At first, I never really thought of having a good w
 </figure>
 <br/>
 
-The C270 suited my needs - stream just now and then, and it's just right for video calls and conferencing. The only problem with the one is it has a bad exposure. I used the C270 for almost 3 months until I got the money to buy this beast of a camera.
+The C270 suited my needs - stream just now and then, and it's just right for video calls and conferencing. The only problem with this one is it has a bad exposure. I used the C270 for almost 3 months until I got the money to buy the beast of a camera, that is the C922.
 
 <br/>
 

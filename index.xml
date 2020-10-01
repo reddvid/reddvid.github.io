@@ -2,7 +2,7 @@
     <channel>
         <title>Red David</title>
         <link>https://reddvid.xyz/</link>
-        <description>Red David&#39;s blog using Hugo.</description>
+        <description>Red David&#39;s blog powered by Hugo.</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</lastBuildDate>
             <atom:link href="https://reddvid.xyz/index.xml" rel="self" type="application/rss+xml" />
         <item>

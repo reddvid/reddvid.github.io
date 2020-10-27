@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://reddvid.xyz/sitemap.xml
+Sitemap: https://reddavid.me/sitemap.xml

@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Red David</title>
-        <link>https://reddvid.xyz/posts/</link>
+        <link>https://reddavid.me/posts/</link>
         <description>All Posts | Red David</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</lastBuildDate><atom:link href="https://reddvid.xyz/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Finally! Logitech C922</title>
-    <link>https://reddvid.xyz/the_c922/</link>
+    <link>https://reddavid.me/the-logitech-c922/</link>
     <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/the_c922/</guid>
+    <guid>https://reddavid.me/the-logitech-c922/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.
@@ -17,30 +17,30 @@ Let&rsquo;s get into my short blog/review/impression about this industry-standar
 Wait You might ask, why only now?]]></description>
 </item><item>
     <title>New Keeb in Town</title>
-    <link>https://reddvid.xyz/new-keeb/</link>
+    <link>https://reddavid.me/new-keeb/</link>
     <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/new-keeb/</guid>
+    <guid>https://reddavid.me/new-keeb/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.
 I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.]]></description>
 </item><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
-    <link>https://reddvid.xyz/zipcodeph-new-ui/</link>
+    <link>https://reddavid.me/zipcodeph-new-ui/</link>
     <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/zipcodeph-new-ui/</guid>
+    <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image2.png" referrerpolicy="no-referrer">
             </div>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium. Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.
 Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble.]]></description>
 </item><item>
     <title>Your Phone Tray V2</title>
-    <link>https://reddvid.xyz/your-phone-tray-v2/</link>
+    <link>https://reddavid.me/your-phone-tray-v2/</link>
     <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/your-phone-tray-v2/</guid>
+    <guid>https://reddavid.me/your-phone-tray-v2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div>Your Phone Tray UWP app just got updated.
@@ -48,10 +48,10 @@ Version 2.0 brings few UI changes, some improvements and a breaking change.
 Improvements To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up) You can also see a new menu item Enable Ctrl+Y Hotkey. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app.]]></description>
 </item><item>
     <title>Logitech G304 Review</title>
-    <link>https://reddvid.xyz/g304-review/</link>
+    <link>https://reddavid.me/g304-review/</link>
     <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/g304-review/</guid>
+    <guid>https://reddavid.me/g304-review/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div>So this is my short and honest review of the G304 wireless mouse.
@@ -59,19 +59,19 @@ As I mentioned on my previous blog post here, this is my 4th mouse and my first 
 What&rsquo;s in the box? The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.]]></description>
 </item><item>
     <title>Story of my Logitech Mice</title>
-    <link>https://reddvid.xyz/story-of-owning-logitech-mice/</link>
+    <link>https://reddavid.me/story-of-owning-logitech-mice/</link>
     <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/story-of-owning-logitech-mice/</guid>
+    <guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
             </div>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.]]></description>
 </item><item>
     <title>Staying at Home During the COVID-19 Pandemic</title>
-    <link>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</link>
+    <link>https://reddavid.me/staying-at-home-during-covid19-pandemic/</link>
     <pubDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/staying-at-home-during-covid19-pandemic/</guid>
+    <guid>https://reddavid.me/staying-at-home-during-covid19-pandemic/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/at-home.jpg" referrerpolicy="no-referrer">
             </div>When the sudden rise of Covid-19 cases here in the Philippines, the government was urged to implement a community quarantine - which was a lockdown - public transportation is suspended, non-essential businesses must be closed or simply everyone should stay at home.
@@ -79,30 +79,30 @@ But working on a media and broadcasting field, yet being the transmitter enginee
 Unfortunately, it took almost 2 days to formulize measures for us; don&rsquo;t get me wrong, we wanted to be safe, but being the essential skeletal personnel in the operations of news source, and in my own opinion, we had to keep the broadcast on-air.]]></description>
 </item><item>
     <title>Rebuilding Website with Hugo</title>
-    <link>https://reddvid.xyz/rebuilding-website-to-hugo/</link>
+    <link>https://reddavid.me/rebuilding-website-to-hugo/</link>
     <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/rebuilding-website-to-hugo/</guid>
+    <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hugo.png" referrerpolicy="no-referrer">
             </div>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.
 So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.]]></description>
 </item><item>
     <title>I Got Myself a New Laptop</title>
-    <link>https://reddvid.xyz/new-laptop/</link>
+    <link>https://reddavid.me/new-laptop/</link>
     <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/new-laptop/</guid>
+    <guid>https://reddavid.me/new-laptop/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div>Last February 15, I got myself a new Acer laptop. It is an Acer Nitro 5 laptop sporting an AMD Ryzen 3550H with RX560X Graphics. This makes my 3rd Acer laptop in a span of 8+ years and my first ever AMD on a laptop (had an AMD Athlon X2 PC before).
 This laptop costs Php34,999 and we could not find a promo since every store follows the retail price. Although, the laptop was on promo with having an included a single stick of 8GB DDR4 memory (upgraded from 4GB), 128GB SSD (m.]]></description>
 </item><item>
     <title>RPN Android App</title>
-    <link>https://reddvid.xyz/rpn-android-app/</link>
+    <link>https://reddavid.me/rpn-android-app/</link>
     <pubDate>Thu, 02 Jan 2020 03:02:48 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddvid.xyz/rpn-android-app/</guid>
+    <guid>https://reddavid.me/rpn-android-app/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/rpn-android.png" referrerpolicy="no-referrer">
             </div>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.

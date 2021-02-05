@@ -1,0 +1,36 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Software development - Tag - Red David&#39;s Blog</title>
+        <link>https://reddavid.me/tags/software-development/</link>
+        <description>Software development - Tag - Red David&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/software-development/" rel="self" type="application/rss+xml" /><item>
+    <title>Developing for Apple Soon</title>
+    <link>https://reddavid.me/developing-for-apple-soon/</link>
+    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/developing-for-apple-soon/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
+<p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
+<p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
+<figure class="image">
+
+<figcaption><em>Yellow iPhone 11</em></figcaption>
+</figure>
+<br/>
+<h1 id="developing-for-ios-soon">Developing for iOS soon</h1>
+<p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
+<p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
+<figure class="image">
+
+<figcaption><em>iOS 14 App Library (is that TikTok? 😅)</em></figcaption>
+</figure>
+<br/>
+<p>So, to test things out, I would be putting my app <a href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
+<h1 id="for-the-meantime">For the meantime&hellip;</h1>
+<p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
+<p>See you soon!</p>
+]]></description>
+</item></channel>
+</rss>

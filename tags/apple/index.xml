@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Apple - Tag - Red David</title>
+        <title>Apple - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/apple/</link>
-        <description>Apple - Tag - Red David</description>
+        <description>Apple - Tag - Red David Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/apple/" rel="self" type="application/rss+xml" /><item>
     <title>Developing for Apple Soon</title>
     <link>https://reddavid.me/developing-for-apple-soon/</link>

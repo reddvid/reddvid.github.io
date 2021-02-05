@@ -1,20 +1,7 @@
 # 2020 Review
 
 
-<style>
 
-div#gallery-2021 {
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-div#gallery-2021 a {
-  width: 30%;
-  margin: 2px;
-}
-
-</style>
 
 Huh, who knew? That we can get through the sh*tty year that is 2020. 🤔 And for last time (and maybe first?), let's take a look back to what happened with Red David's life in last year (SPOILER: not so much, like most of us I guess).
 
@@ -30,6 +17,21 @@ This place has been a must-travel not just for us both but for most of Pinoys. T
 Our stay was short but it was worth-while. From walking along the beach, taking "artistic" photos, watch the sunset enjoyed a quite weekday evening, and chilled during the weekend evening when the "bands" and music will fill up the place. We also had henna tattoos, got a massage, and just tried to taste all the food.
 
 Here are some of the photos we took during our short stay:
+
+<style>
+
+div#gallery-2021 {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#gallery-2021 a {
+  width: 30%;
+  margin: 2px;
+}
+
+</style>
 
 <div id="gallery-2021">
 {{< image src="/images/01-21/year-in-review/i-love-puerto-galera.jpg" alt="I 🤍 Puerto Galera" >}}

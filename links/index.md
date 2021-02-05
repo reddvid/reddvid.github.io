@@ -1,4 +1,4 @@
-# Red David Links
+# Links
 
 
 <h1 style="text-align: center; margin: 2em; margin-bottom: 1em;">Quick Links</h1>

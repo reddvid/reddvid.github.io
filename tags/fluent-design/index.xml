@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Fluent Design - Tag - Red David&#39;s Blog</title>
+        <title>Fluent Design - Tag - Red David</title>
         <link>https://reddavid.me/tags/fluent-design/</link>
-        <description>Fluent Design - Tag - Red David&#39;s Blog</description>
+        <description>Fluent Design - Tag - Red David</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/fluent-design/" rel="self" type="application/rss+xml" /><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddavid.me/zipcodeph-new-ui/</link>

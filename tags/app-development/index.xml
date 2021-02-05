@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>App development - Tag - Red David&#39;s Blog</title>
+        <title>App development - Tag - Red David</title>
         <link>https://reddavid.me/tags/app-development/</link>
-        <description>App development - Tag - Red David&#39;s Blog</description>
+        <description>App development - Tag - Red David</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/app-development/" rel="self" type="application/rss+xml" /><item>
     <title>RPN Radio: Streaming App for Android</title>
     <link>https://reddavid.me/rpnradio-android/</link>

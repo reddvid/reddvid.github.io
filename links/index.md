@@ -49,11 +49,10 @@
 <div id="device"></div>
 
 <script>
-document.getElementById("win-store").display = none; 
+document.getElementById("list").children[4].style.display = "none"; 
 if (navigator.userAgent.includes("Windows NT 10"))
 {
- // some code..
- document.getElementById("win-store").display = block; 
+    document.getElementById("list").children[4].style.display = "block"; 
 }
 </script>
 

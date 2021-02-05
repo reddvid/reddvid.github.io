@@ -76,6 +76,34 @@
 <p>Check out <a href="/zipcodeph-new-ui/">this old blog post</a> about the Windows 10 app.</p>
 ]]></description>
 </item><item>
+    <title>RPN Radio: Streaming App for Android</title>
+    <link>https://reddavid.me/rpnradio-android/</link>
+    <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-android/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
+<h1 id="am-radio-in-your-pocket">AM Radio in your Pocket</h1>
+<p>Choose from RPN&rsquo;s <a href="https://rpnradio.com/" target="_blank">(Radio Philippines Network)</a> 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.</p>
+<h1 id="development">Development</h1>
+<p>I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure <a href="https://developer.android.com/guide">Android Java code</a>.</p>
+<h1 id="app-description">App Description</h1>
+<blockquote>
+<p>RPN&rsquo;s 12 radio stations are situated among the three major parts of the Philippines - in Luzon, we have DZRL Batac and DZBS Baguio that will give you the latest news, updates, music and other events happening in the North in Ilocano; and DZKI Iriga to offer them in Rinkonada Bikol and/or Bikolano. Next in Visayas, DYKC Cebu and DYKB Bacolod operates in the heart of Cebu City and neighboring Bacolod City, respectively. DYKC Cebu provides an programming format that will surely make all Cebuanos and Bisaya all around the world miss home. While DYKB Bacolod gives you the most important news and talkshows in Hiligaynon and/or Ilonggo. Lastly, Mindanao holds most of our stations : DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKP Pagadian, DXXX Zamboanga, and DXKT Davao.</p>
+</blockquote>
+<h1 id="screenshots">Screenshots</h1>
+<figure class="image">
+
+
+<figcaption><em>RPN Radio App for Android</em></figcaption>
+</figure>
+<br/>
+<h1 id="download">Download</h1>
+<p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
+<p>The app will be available soon on iOS.</p>
+]]></description>
+</item><item>
     <title>Finally! Logitech C922</title>
     <link>https://reddavid.me/the-logitech-c922/</link>
     <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
@@ -351,18 +379,6 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p>We still don&rsquo;t know how will this affect our monetary status. But we are pretty sure our savings will be affected. If you can, you can help me stay safe and secure at home:</p>
 <p>Donate maybe? 🙂 Thank you.</p>
 <h4 id="a-hrefhttpspaypalmereddvid-target_blanksmall-help-for-your-boya"><a href="https://paypal.me/reddvid" target="_blank">Small help for your boy</a></h4>
-]]></description>
-</item><item>
-    <title>Rebuilding Website with Hugo</title>
-    <link>https://reddavid.me/rebuilding-website-to-hugo/</link>
-    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/hugo.png" referrerpolicy="no-referrer">
-            </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
-<p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
-<p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
 ]]></description>
 </item></channel>
 </rss>

@@ -1,7 +1,8 @@
 # Links
 
 
-<h1 style="text-align: center; margin: 2em; margin-bottom: 1em;">Quick Links</h1>
+<img src="/images/avatar.jpg" style="border-radius: 200px; margin-left: auto; margin-right: auto; width: 20%; display: block; margin-top: 2em;"/>
+<p style="text-align: center; margin-bottom: 2em; margin-top: 5px; font-weight: 500;">@reddvid</p>
 
 <style>
  ul#list {

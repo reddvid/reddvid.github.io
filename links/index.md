@@ -5,35 +5,34 @@
 
 <style>
  ul#list {
-     list-style-type: none;    
-     text-align: center;
-     padding: 0;
+    list-style-type: none;    
+    text-align: center;
+    padding: 0;
  }
 
  #list>li {
-     margin: 12px 20px !important;
-     background: #5e6067;
-     border: 2px solid #5E6067;
-     box-shadow: 0px 0px 15px #121212;
+    margin: 12px 20px !important;
+    background: rgba(200, 200, 200, 0.3);
+    border: 2px solid transparent;
+    box-shadow: 1px 1px 5px rgba(100, 100, 100, 0.5);
  }
 
  #list>li:hover {
-     background: #292A2D;
-     border: 2px solid #56B2D4;
+    background: rgba(200, 200, 200, 0.2);
+    border: 2px solid #56B2D4;
  }
 
  #list>li>a
  {
-     display: block;
-     width: 100%;
-     height: 100%;
-     border-radius: 10px;
-     font-size: 1.0rem;
-     line-height: 4rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.0rem;
+    padding: 10px 0;
  }
 
  #list>li>a:hover {
- color: #56B2D4;
+    color: #56B2D4;
  }
 </style>
 
@@ -47,7 +46,7 @@
 <li><a href="https://www.buymeacoffee.com/RedDavid">Buy me a <strike>coffee</strike> beer</a></li>
 </ul>
 
-<div id="device"></div>
+
 
 <script>
 document.getElementById("list").children[4].style.display = "none"; 

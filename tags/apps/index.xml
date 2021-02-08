@@ -1,4 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Apps - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/apps/</link>
@@ -9,6 +10,29 @@
     <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/developing-for-apple-soon/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
+<p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
+<p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
+<figure class="image">
+
+<figcaption><em>Yellow iPhone 11</em></figcaption>
+</figure>
+<br/>
+<h1 id="developing-for-ios-soon">Developing for iOS soon</h1>
+<p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
+<p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
+<figure class="image">
+
+<figcaption><em>iOS 14 App Library (is that TikTok? 😅)</em></figcaption>
+</figure>
+<br/>
+<p>So, to test things out, I would be putting my app <a href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
+<h1 id="for-the-meantime">For the meantime&hellip;</h1>
+<p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
+<p>See you soon!</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">
             </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
@@ -32,12 +56,50 @@
 <p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
 <p>See you soon!</p>
 ]]></description>
+   
 </item><item>
     <title>ZIP Code PH for Android gets Dark Mode</title>
     <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
     <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><h1 id="the-pandemic-and-night-owls">The Pandemic and Night Owls</h1>
+<p>My app, ZIP Code PH, has been available on Google Play Store for more than a year now and because of the pandemic, more and more people are staying at home and are mostly <a href="https://en.wikipedia.org/wiki/Night_owl_(person)">night-owls</a>.</p>
+<p>And app and software developers are now giving their projects dark mode - not just to follow accessibility standards but offer an option for people to reduce or avoid eye strain.</p>
+<h1 id="heres-dark-mode-for-ya">Here&rsquo;s Dark Mode for ya</h1>
+<p>So here I am, picking up again on coding (for my apps) and started giving some apps a dark flavor. It almost took me a month to develop and test since available Xamarin Forms documentation didn&rsquo;t suit my liking.</p>
+<h1 id="quick-app-features">Quick App Features</h1>
+<ul>
+<li>Toggle light and dark mode</li>
+<li>Quick search Philippine ZIP codes</li>
+<li>Favorite (Bookmark) selected ZIP codes for easy reference</li>
+</ul>
+<h1 id="screenshots">Screenshots</h1>
+<p>See for yourself the light and dark mode for the app below.</p>
+<figure class="image">
+
+<span style="margin: 0 10px"></span>
+
+<figcaption><em>ZIP Code PH - Main Menu</em></figcaption>
+</figure>
+<br/>
+<figure class="image">
+
+<span style="margin: 0 10px"></span>
+
+<figcaption><em>ZIP Code PH - List</em></figcaption>
+</figure>
+<br/>
+<p>I chose <code>#222222</code> as the background color for darkmode so it is easier in the eyes (at least for me and some design posts I read somewhere). If someone requests an option for a darker color, I&rsquo;d be glad to add it. (Themes, maybe? 🤔)</p>
+<h1 id="make-me-happy">Make me happy</h1>
+<p>Yes, please. Make me happy by downloading the app, write a review and give a rating of 5 stars. The app is available for Android, on <a href="https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103245343">Huawei App Gallery.</a></p>
+<p>It is free to download, I hope you welcome ads that earns a me a little. Thank you and until next app!</p>
+<p><a href='https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'></a></p>
+<h1 id="looking-for-a-windows-10-version">Looking for a Windows 10 version?</h1>
+<p>Check out <a href="/zipcodeph-new-ui/">this old blog post</a> about the Windows 10 app.</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">
             </div><h1 id="the-pandemic-and-night-owls">The Pandemic and Night Owls</h1>
@@ -75,12 +137,35 @@
 <h1 id="looking-for-a-windows-10-version">Looking for a Windows 10 version?</h1>
 <p>Check out <a href="/zipcodeph-new-ui/">this old blog post</a> about the Windows 10 app.</p>
 ]]></description>
+   
 </item><item>
     <title>RPN Radio: Streaming App for Android</title>
     <link>https://reddavid.me/rpnradio-android/</link>
     <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/rpnradio-android/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
+<h1 id="am-radio-in-your-pocket">AM Radio in your Pocket</h1>
+<p>Choose from RPN&rsquo;s <a href="https://rpnradio.com/" target="_blank">(Radio Philippines Network)</a> 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.</p>
+<h1 id="development">Development</h1>
+<p>I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure <a href="https://developer.android.com/guide">Android Java code</a>.</p>
+<h1 id="app-description">App Description</h1>
+<blockquote>
+<p>RPN&rsquo;s 12 radio stations are situated among the three major parts of the Philippines - in Luzon, we have DZRL Batac and DZBS Baguio that will give you the latest news, updates, music and other events happening in the North in Ilocano; and DZKI Iriga to offer them in Rinkonada Bikol and/or Bikolano. Next in Visayas, DYKC Cebu and DYKB Bacolod operates in the heart of Cebu City and neighboring Bacolod City, respectively. DYKC Cebu provides an programming format that will surely make all Cebuanos and Bisaya all around the world miss home. While DYKB Bacolod gives you the most important news and talkshows in Hiligaynon and/or Ilonggo. Lastly, Mindanao holds most of our stations : DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKP Pagadian, DXXX Zamboanga, and DXKT Davao.</p>
+</blockquote>
+<h1 id="screenshots">Screenshots</h1>
+<figure class="image">
+
+
+<figcaption><em>RPN Radio App for Android</em></figcaption>
+</figure>
+<br/>
+<h1 id="download">Download</h1>
+<p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
+<p>The app will be available soon on iOS.</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">
             </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
@@ -103,12 +188,40 @@
 <p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
 <p>The app will be available soon on iOS.</p>
 ]]></description>
+   
 </item><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddavid.me/zipcodeph-new-ui/</link>
     <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image2.png" referrerpolicy="no-referrer">
+            </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
+Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.</p>
+<p>Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&rsquo;s App settings panel as seen <a href="https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style" target="_blank">here on his Dribbble post</a>.</p>
+<p>I started coding at once, cleaning up some codes on the app beginning with the UI. And came up with the final layout.</p>
+<p>Here are some screenshots of the updated app version 4.
+</br></p>
+<figure class="image">
+
+  <figcaption><em>version 4.0, clean and refreshed Fluent Design UI</em></figcaption>
+</figure>
+</br>
+<figure class="image">
+
+  <figcaption><em>Favorites panel - Dark mode</em></figcaption>
+</figure>
+</br>
+<figure class="image">
+
+  <figcaption><em>Search places - Light mode</em></figcaption>
+</figure>
+</br>
+<p>You can check the <em>free</em> app here in the Microsoft Store.
+</br>
+<a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image2.png" referrerpolicy="no-referrer">
             </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
@@ -136,12 +249,25 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 </br>
 <a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
 ]]></description>
+   
 </item><item>
     <title>Your Phone Tray V2</title>
     <link>https://reddavid.me/your-phone-tray-v2/</link>
     <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/your-phone-tray-v2/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Your Phone Tray UWP app just got updated.</p>
+<p>Version 2.0 brings few UI changes, some improvements and a breaking change.</p>
+<h3 id="improvements">Improvements</h3>
+<p>To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
+</p>
+<p>You can also see a new menu item <strong>Enable Ctrl+Y Hotkey</strong>. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.</p>
+<h3 id="breaking-change">Breaking change</h3>
+<p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
+<p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div><p>Your Phone Tray UWP app just got updated.</p>
@@ -154,12 +280,21 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
 <p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
 ]]></description>
+   
 </item><item>
     <title>RPN Android App</title>
     <link>https://reddavid.me/rpn-android-app/</link>
     <pubDate>Thu, 02 Jan 2020 03:02:48 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/rpn-android-app/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/images/rpn-android.png" referrerpolicy="no-referrer">
+            </div><p>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.</p>
+<p>Finally opt-in and registered to Google Play platform and chose RPN News &amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.</p>
+<p>Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.</p>
+<p>Also, there are some adjustments I needed to learn in using Xamarin Forms, and had to merge several projects to create both the news and radio part of the app. Thanks to open source!</p>
+<p>There are still bugs, I know, but help by checking the app <a href="https://play.google.com/store/apps/details?id=xyz.reddvid.rpnradio" taget="_blank">here</a></p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/rpn-android.png" referrerpolicy="no-referrer">
             </div><p>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.</p>
@@ -168,12 +303,23 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p>Also, there are some adjustments I needed to learn in using Xamarin Forms, and had to merge several projects to create both the news and radio part of the app. Thanks to open source!</p>
 <p>There are still bugs, I know, but help by checking the app <a href="https://play.google.com/store/apps/details?id=xyz.reddvid.rpnradio" taget="_blank">here</a></p>
 ]]></description>
+   
 </item><item>
     <title>RF Tools Gets Multi-Window Support</title>
     <link>https://reddavid.me/rftools-gets-multi-window-support/</link>
     <pubDate>Sun, 12 May 2019 15:47:52 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/rftools-gets-multi-window-support/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/images/rftools.png" referrerpolicy="no-referrer">
+            </div><p>UWP SDK recently released a new support for Multi-windowing.</p>
+<p></p>
+<p>Then I though of which of my apps should I implement this with, there&rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.</p>
+<p>This should improve the user&rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.</p>
+<p></p>
+<p></p>
+<p>You can <a href="https://www.microsoft.com/en-us/p/rf-tools/9nblggh41btt" target="_blank">download the app here</a></p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/rftools.png" referrerpolicy="no-referrer">
             </div><p>UWP SDK recently released a new support for Multi-windowing.</p>
@@ -184,16 +330,23 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p></p>
 <p>You can <a href="https://www.microsoft.com/en-us/p/rf-tools/9nblggh41btt" target="_blank">download the app here</a></p>
 ]]></description>
+   
 </item><item>
     <title>RPN News &amp; Radio Gets a New UI</title>
     <link>https://reddavid.me/new-ui-rpnradio/</link>
     <pubDate>Thu, 14 Mar 2019 15:28:37 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/new-ui-rpnradio/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/images/rpn-newui.jpg" referrerpolicy="no-referrer">
+            </div><p>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.</p>
+<p><a href="https://www.microsoft.com/en-ph/p/rpn-news-radio/9phl469c0z20?rtc=1" target="_blank">You can download RPN News &amp; Radio for Windows 10 app here</a></p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/rpn-newui.jpg" referrerpolicy="no-referrer">
             </div><p>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.</p>
 <p><a href="https://www.microsoft.com/en-ph/p/rpn-news-radio/9phl469c0z20?rtc=1" target="_blank">You can download RPN News &amp; Radio for Windows 10 app here</a></p>
 ]]></description>
+   
 </item></channel>
 </rss>

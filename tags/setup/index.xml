@@ -1,4 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Setup - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/setup/</link>
@@ -9,6 +10,93 @@
     <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/the-logitech-c922/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>
+<p>Honestly, I bought the camera in a slightly higher price due to the model being out of stock in major stores and just got from a &ldquo;hoarder&rdquo; in Facebook marketplace. :) Harsh but true.</p>
+<p>Let&rsquo;s get into my short blog/review/impression about this industry-standard in semi-professional streaming.</p>
+<br/>
+<h1 id="wait">Wait</h1>
+<p>You might ask, why only now? At first, I never really thought of having a good webcam as a small streamer, and I also have this app on my Android phone which makes my Nokia 7 Plus pose as a webcam. Then, I wanted the camera to be positioned well, so I bought a cheaper Logitech, the C270.</p>
+<figure class="image">
+
+  <figcaption><em>Logitech C270 Webcam</em></figcaption>
+</figure>
+<br/>
+<p>The C270 suited my needs - stream just now and then, and it&rsquo;s just right for video calls and conferencing. The only problem with this one is it has a bad exposure. I used the C270 for almost 3 months until I got the money to buy the beast of a camera, that is the C922.</p>
+<br/>
+<h1 id="lets-see-922-it">Let&rsquo;s See (922) It</h1>
+<p>I opened a brand new Logitech C922 way way before but it wasn&rsquo;t mine, so I already know the contents (alibi for not having pictures after unboxing 😂). And I also tried the unit itself so I knew the quality it brings.</p>
+<p>The box contains the C922 camera, a table-top tripod, manuals and a sheet containing the free 3-month XSplit Premium codes (Again, sorry for not having pictures).</p>
+<figure class="image">
+
+  <figcaption><em>Logitech C922 Box</em></figcaption>
+</figure>
+<br/>
+<h1 id="quick-marketing-specs">Quick (marketing) specs</h1>
+<p>I won&rsquo;t dive deep into the webcam&rsquo;s specifications like weight and dimensions but here are the common &ldquo;marketing&rdquo; specs that will actually make you consider buying one:</p>
+<ul>
+<li>Capture 1080p @ 30fps, or</li>
+<li>720p @ 60fps</li>
+<li>Auto focus</li>
+<li>Wide Field of View</li>
+<li>Advanced camera software</li>
+</ul>
+<br/>
+<h1 id="ha-mountable">Ha! Mountable</h1>
+<p>The C922 has a screw hole for mounting onto a tripod. The tripod can be extended up to 18.5cm. Here&rsquo;s the closed tripod in three max lengths (with regards to the feet extensions).</p>
+<figure class="image">
+
+
+
+
+<figcaption><em>Logitech C922 Tripod Screw Hole and Lengths</em></figcaption>
+</figure>
+<br/>
+<p>The tripod, without and with the webcam.</p>
+<figure class="image">
+
+
+  <figcaption><em>Logitech C922 Tripod</em></figcaption>
+</figure>
+<br/>
+<p>The C922 also has a built-in microphone but most people, including me, advice to use an external mic instead.</p>
+<br/>
+<h1 id="logitech-capture">Logitech Capture</h1>
+<p>Upon connecting the webcam to my PC, Logitech prompted to install the companion software - Logitech Capture. The software is advanced enough for my needs - I can zoom and pan, flip the captured video horizontally and/or vertically, choose to prefer exposure or framerate, and most importantly the capture resolutions.</p>
+<figure class="image">
+
+  <figcaption><em>Logitech Capture Software</em></figcaption>
+</figure>
+<br/>
+<p>The software provides templates for typical sizes: FHD, 720p, and 360p; Portrait: 1080x1920, 720x1280, 360x640; and Squares: 1080x1080, 720x720, and 360x360.</p>
+<figure class="image">
+
+  <figcaption><em>Logitech Capture Software - Resolution Options</em></figcaption>
+</figure>
+<br/>
+<p>The software also allows you to add effects, text, etc with the Effects menu: Watermark, Text Overlay, Scene effects, Color borders, and Transitions for 2 scenes.</p>
+<figure class="image">
+
+  <figcaption><em>Logitech Capture Software - Effects Options</em></figcaption>
+</figure>
+<br/>
+<h1 id="minor-issues">Minor Issues</h1>
+<p>There are a couple of issues for me, the first one really makes me annoyed is that I cannot turn off the hotkeys for the software and I have a frameless monitor which mounting the camera is a pain in the a$$ to keep it from covering up the display - even for just a centimeter.</p>
+<figure class="image">
+
+  <figcaption><em>Mounting Issue on a Frameless Monitor</em></figcaption>
+</figure>
+<br/>
+<h1 id="its-great">It&rsquo;s Great!</h1>
+<p>Overall, I am happy with the C922 webcam - my loved ones can see me clearly during video calls. And I thank everybody for supporting me on my <a href="https://fb.gg/RedDavidGG/" target="_blank">stream</a>, visiting my website, and checking my Windows 10 apps.</p>
+<figure class="image">
+
+  <figcaption><em>Mounting is Just Right</em></figcaption>
+</figure>
+<br/>
+<p>To finish this blog post, let&rsquo;s all stay safe during the pandemic - and even after the pandemic.</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>
@@ -96,12 +184,61 @@
 <br/>
 <p>To finish this blog post, let&rsquo;s all stay safe during the pandemic - and even after the pandemic.</p>
 ]]></description>
+   
 </item><item>
     <title>New Keeb in Town</title>
     <link>https://reddavid.me/new-keeb/</link>
     <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/new-keeb/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
+<p>I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.</p>
+<p>The G810 was a stay-at-home keyboard for my laptop and the G403 lives in the office. And guess what, both are defective with unresponsive and ghosting keys, respectively. I thought of delaying buying a new one for &ldquo;budget&rdquo; reasons but coding with keyboard issues is a definitely a pain in the ass with constant deleting doubling keys and characters. I am looking for several &ldquo;budget&rdquo; keyboards out there, including the TNC Icarus one with Cherry MXs but the delivery time was so bad that I had to settle down with this one.</p>
+<p>Coming from Logitech, I almost passed on this one for its &ldquo;gamer&rdquo; font which I don&rsquo;t think is <em>clean</em> for my desk, but my wallet said &ldquo;it&rsquo;s okay, you can live with that&rdquo;.</p>
+<p>I bought one with brown switches since the old ones I had had Romer-Gs with a &ldquo;mushy-tactile&rdquo; feel on keypress so I don&rsquo;t have to worry much about them on the long run.</p>
+</br>
+<h1>My thoughts</h1>
+<p>The box looks premium with minimal print of the logo and keyboard model on the center.</p>
+<figure class="image">
+
+  <figcaption><em>Keyboard box</em></figcaption>
+</figure>
+</br>
+<p>Inside the box was the keyboard wrapped in plastic? with a keyboard cover made of plastic again, on top. It also came with 4 extra switches and a switch puller.</p>
+<figure class="image">
+
+  <figcaption><em>Inside the box</em></figcaption>
+</figure>
+</br>
+<figure class="image">
+
+  <figcaption><em>Extra switches with puller</em></figcaption>
+</figure>
+</br>
+<p>The keyboard has a TKL layout, with software-customizable RGB setting, and replaceable switches (modular). It costs php2,500, slightly costier than their Tecware Phantoms - I&rsquo;m yet to investigate why.</p>
+<figure class="image">
+
+  <figcaption><em>Tecware RGB software</em></figcaption>
+</figure>
+</br>
+<p>About the &ldquo;gamer&rdquo; font I hated, this game with a cleaner font. Surprised am I! Though the printing of the keycaps has the &ldquo;stencil&rdquo; cut beneath that the LED does not shine that much. Guess I&rsquo;m okay after all. Some function keys, has this cheap white printing that I fear them to get scraped off some time soon.</p>
+<figure class="image">
+
+  <figcaption><em>The keyboard itself</em></figcaption>
+</figure>
+</br>
+<p>The RGB lighting is good with bunch of built-in modes which can be visualized and edited using their software. Here&rsquo;s what it looks like in an unlit office desk.</p>
+<figure class="image">
+
+  <figcaption><em>RGB lighting in unlit room</em></figcaption>
+</figure>
+</br>
+<p>I went ahead for a typing test and got a 76wpm results with no mistyped words. But let&rsquo;s see how long this budget badboy keyboard lasts.</p>
+<p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
+<p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
@@ -150,12 +287,42 @@
 <p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
 <p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
 ]]></description>
+   
 </item><item>
     <title>Logitech G304 Review</title>
     <link>https://reddavid.me/g304-review/</link>
     <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/g304-review/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
+<p>As I mentioned on my previous blog post <a href="/story-of-owning-logitech-mice/">here</a>, this is my 4th mouse and my first gaming? wireless mouse. I ordered it online from DataBlitz for $39, and was delivered quickly in 2 days.</p>
+<br/>
+<h1 id="whats-in-the-box">What&rsquo;s in the box?</h1>
+<p>The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.</p>
+
+<br/>
+<h1 id="lets-get-physical">Let&rsquo;s get Physical!</h1>
+<p>The mouse has no RGB strip like it&rsquo;s cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.</p>
+
+<p>I currently use an Energizer Lithium AA battery which I believe is lighter but I still keep the free battery whenever I need a heavier setup.</p>
+
+<p>The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.</p>
+
+<p>The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - <a href="https://fb.gg/RedDavidGG/">https://fb.gg/RedDavidGG/</a>)</p>
+ 
+
+<br/>
+<h1 id="reliability">Reliability</h1>
+<p>I used this since day one - June 2 - and I only got a hiccup once during a Dota 2 game which made me switch to wired, and since then I used this as a daily driver and on my games. Lately, I am playing Minecraft a lot, some Dota 2, CS:GO, some Valorant, Metro Exodus, just finished Mafia II: Definitive Edition, C&amp;C Yuri&rsquo;s Revenge.</p>
+<br/>
+<h1 id="verdict-at-last">Verdict, at last</h1>
+<p>My overall experience using the same shape of a mouse will be just comfortable throughout my day - office job and being a small-time streamer. It also frees your hand positions by not limited by a wired mouse. Despite it not having an RGB, I would suggest this for small-handed people, for those who travel a lot and for gamers and streamers looking for a budget wireless gaming mouse.</p>
+<br/>
+<h1 id="more-info">More info?</h1>
+<p>Since I don&rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja <a href="https://www.rocketjumpninja.com/products/mouse/logitech-g305" target="_blank">here</a>.</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
@@ -185,12 +352,33 @@
 <h1 id="more-info">More info?</h1>
 <p>Since I don&rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja <a href="https://www.rocketjumpninja.com/products/mouse/logitech-g305" target="_blank">here</a>.</p>
 ]]></description>
+   
 </item><item>
     <title>Story of my Logitech Mice</title>
     <link>https://reddavid.me/story-of-owning-logitech-mice/</link>
     <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
+            </div><p>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.</p>
+<p>This is my &ldquo;short&rdquo; history on my Logitech mouse shopping and usage. Here it goes:</p>
+<p>If I recall correctly, my first mouse from Logitech was the G302, it has the odd shape but it just fits nicely in my hand. I used it for almost 2 years until it went &ldquo;double-clicking&rdquo; due to playing Dota 2. I just scavenged some old A4tech mouse and took out the switches (Huanos?) to replace one on the G302. The G302 still works today but it has this rattling noise due to the broken plastics inside.</p>
+<p></p>
+<p>Then I bought a G203, a smaller mouse sporting with the new logo. I bought this to have an RGB mouse. This is when I started to jump on the &ldquo;Logitech mouse hype&rdquo;.</p>
+<p></p>
+<p>Being on the &ldquo;hype train&rdquo;, I impulse bought a G403 when it became available in my country despite my current G203 still works. The G403 was not comfortable for my hand - well, the shops before don&rsquo;t have demo units - so I bought another G203 as I gave the old one to my GF for office use. The G403 is stored for now.</p>
+<p></p>
+<p>After some time, GF&rsquo;s workplace decided to renovate so I took the G203 back and decided to &ldquo;mod&rdquo; it and cut the wire too short making it unroutable to my home setup. This older G203 is now in my &ldquo;junk box&rdquo;.</p>
+<p>I think all through the year 2019, I was looking to buy their wireless mouse - the G304. It has the same shape as the G203 and has the new HERO sensor. And that one time when I decided to finally buy one, I first asked a salesperson if there were any Logitech promos and I was told that the G Pro was 50% off. Without hesitation, I bought it instead of the G304.</p>
+<p></p>
+<p>The G Pro is physically the same as G203 but has a braided cable, stiffer mouse wheel, and sporting the PMW3366 optical gaming sensor. I use this in the office with a cheap mouse bungee to keep the wire neat.</p>
+<p>Fast forward March 2020, city-wide was on lockdown, knowing that I would be staying in the office for quite some time, I lend my laptop to my GF for her to use. I also lend her the (working) G203.</p>
+<p>After some time staying in the office, I decided to neat up my desk and I found it a hassle for wires (with dual monitors, keyboards, USB cords, and whatnot) so I thought, &ldquo;It&rsquo;s time to check that G304 I wished for the longest time. And there&rsquo;s a sale incoming too.&rdquo;</p>
+<p></p>
+<p>I checked Lazada but I was skeptical to buy electronics from them – to avoid the hassle process of returning a defective product. This is when I learned that my &ldquo;favorite&rdquo; gaming store I bought my previous Logitech mice has a &ldquo;better&rdquo; website and I checked the G304 and it was cheaper compared to its store retail price. I bought it as a gift for myself this June.</p>
+<p>Here on my desk right now is the G304 and the G Pro. I use the G304 for daily work and casual games and the G Pro for FPS and competitive gaming. I will be posting my review for the G304 soon. And sorry for the lack of better pictures of my mice.</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
             </div><p>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.</p>
@@ -211,5 +399,6 @@
 <p>I checked Lazada but I was skeptical to buy electronics from them – to avoid the hassle process of returning a defective product. This is when I learned that my &ldquo;favorite&rdquo; gaming store I bought my previous Logitech mice has a &ldquo;better&rdquo; website and I checked the G304 and it was cheaper compared to its store retail price. I bought it as a gift for myself this June.</p>
 <p>Here on my desk right now is the G304 and the G Pro. I use the G304 for daily work and casual games and the G Pro for FPS and competitive gaming. I will be posting my review for the G304 soon. And sorry for the lack of better pictures of my mice.</p>
 ]]></description>
+   
 </item></channel>
 </rss>

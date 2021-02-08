@@ -1,4 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Coding - Category - Red David Blog</title>
         <link>https://reddavid.me/categories/coding/</link>
@@ -9,6 +10,33 @@
     <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image2.png" referrerpolicy="no-referrer">
+            </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
+Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.</p>
+<p>Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&rsquo;s App settings panel as seen <a href="https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style" target="_blank">here on his Dribbble post</a>.</p>
+<p>I started coding at once, cleaning up some codes on the app beginning with the UI. And came up with the final layout.</p>
+<p>Here are some screenshots of the updated app version 4.
+</br></p>
+<figure class="image">
+
+  <figcaption><em>version 4.0, clean and refreshed Fluent Design UI</em></figcaption>
+</figure>
+</br>
+<figure class="image">
+
+  <figcaption><em>Favorites panel - Dark mode</em></figcaption>
+</figure>
+</br>
+<figure class="image">
+
+  <figcaption><em>Search places - Light mode</em></figcaption>
+</figure>
+</br>
+<p>You can check the <em>free</em> app here in the Microsoft Store.
+</br>
+<a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image2.png" referrerpolicy="no-referrer">
             </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
@@ -36,5 +64,6 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 </br>
 <a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
 ]]></description>
+   
 </item></channel>
 </rss>

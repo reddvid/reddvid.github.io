@@ -1,4 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Coding - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/coding/</link>
@@ -9,11 +10,18 @@
     <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/images/hugo.png" referrerpolicy="no-referrer">
+            </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
+<p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
+<p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hugo.png" referrerpolicy="no-referrer">
             </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
 <p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
 <p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
 ]]></description>
+   
 </item></channel>
 </rss>

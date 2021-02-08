@@ -16,7 +16,7 @@ For a better experience, while using our Service, the app or service may require
 The app does use third party services that may collect information used to identify you.
 
 ### Log Data
-We want to inform you that whenever you use our services, in a case of an error in the app, we collect data and information (through third party products) on your phone called Log Data (Stack Trace). This Log Data may include information such as your device Rubiknet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
+We want to inform you that whenever you use our services, in a case of an error in the app, we collect data and information (through third party products) on your phone called Log Data (Stack Trace). This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
 
 ### Cookies
 Cookies are files with small amount of data that is commonly used as an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your device internal memory.

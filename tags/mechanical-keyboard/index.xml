@@ -1,4 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Mechanical Keyboard - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/mechanical-keyboard/</link>
@@ -9,6 +10,54 @@
     <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/new-keeb/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/featured-image.jpg" referrerpolicy="no-referrer">
+            </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
+<p>I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.</p>
+<p>The G810 was a stay-at-home keyboard for my laptop and the G403 lives in the office. And guess what, both are defective with unresponsive and ghosting keys, respectively. I thought of delaying buying a new one for &ldquo;budget&rdquo; reasons but coding with keyboard issues is a definitely a pain in the ass with constant deleting doubling keys and characters. I am looking for several &ldquo;budget&rdquo; keyboards out there, including the TNC Icarus one with Cherry MXs but the delivery time was so bad that I had to settle down with this one.</p>
+<p>Coming from Logitech, I almost passed on this one for its &ldquo;gamer&rdquo; font which I don&rsquo;t think is <em>clean</em> for my desk, but my wallet said &ldquo;it&rsquo;s okay, you can live with that&rdquo;.</p>
+<p>I bought one with brown switches since the old ones I had had Romer-Gs with a &ldquo;mushy-tactile&rdquo; feel on keypress so I don&rsquo;t have to worry much about them on the long run.</p>
+</br>
+<h1>My thoughts</h1>
+<p>The box looks premium with minimal print of the logo and keyboard model on the center.</p>
+<figure class="image">
+
+  <figcaption><em>Keyboard box</em></figcaption>
+</figure>
+</br>
+<p>Inside the box was the keyboard wrapped in plastic? with a keyboard cover made of plastic again, on top. It also came with 4 extra switches and a switch puller.</p>
+<figure class="image">
+
+  <figcaption><em>Inside the box</em></figcaption>
+</figure>
+</br>
+<figure class="image">
+
+  <figcaption><em>Extra switches with puller</em></figcaption>
+</figure>
+</br>
+<p>The keyboard has a TKL layout, with software-customizable RGB setting, and replaceable switches (modular). It costs php2,500, slightly costier than their Tecware Phantoms - I&rsquo;m yet to investigate why.</p>
+<figure class="image">
+
+  <figcaption><em>Tecware RGB software</em></figcaption>
+</figure>
+</br>
+<p>About the &ldquo;gamer&rdquo; font I hated, this game with a cleaner font. Surprised am I! Though the printing of the keycaps has the &ldquo;stencil&rdquo; cut beneath that the LED does not shine that much. Guess I&rsquo;m okay after all. Some function keys, has this cheap white printing that I fear them to get scraped off some time soon.</p>
+<figure class="image">
+
+  <figcaption><em>The keyboard itself</em></figcaption>
+</figure>
+</br>
+<p>The RGB lighting is good with bunch of built-in modes which can be visualized and edited using their software. Here&rsquo;s what it looks like in an unlit office desk.</p>
+<figure class="image">
+
+  <figcaption><em>RGB lighting in unlit room</em></figcaption>
+</figure>
+</br>
+<p>I went ahead for a typing test and got a 76wpm results with no mistyped words. But let&rsquo;s see how long this budget badboy keyboard lasts.</p>
+<p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
+<p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
+]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
             </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
@@ -57,5 +106,6 @@
 <p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
 <p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
 ]]></description>
+   
 </item></channel>
 </rss>

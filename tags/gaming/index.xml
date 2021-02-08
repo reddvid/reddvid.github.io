@@ -1,5 +1,5 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
-xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Gaming - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/gaming/</link>
@@ -8,7 +8,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>Logitech G304 Review</title>
     <link>https://reddavid.me/g304-review/</link>
     <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/g304-review/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">

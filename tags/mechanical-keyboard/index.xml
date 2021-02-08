@@ -1,5 +1,5 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
-xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Mechanical Keyboard - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/mechanical-keyboard/</link>
@@ -8,7 +8,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>New Keeb in Town</title>
     <link>https://reddavid.me/new-keeb/</link>
     <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/new-keeb/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">

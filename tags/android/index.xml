@@ -1,5 +1,5 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
-xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Android - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/android/</link>
@@ -8,7 +8,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>ZIP Code PH for Android gets Dark Mode</title>
     <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
     <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">
@@ -89,7 +91,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>RPN Radio: Streaming App for Android</title>
     <link>https://reddavid.me/rpnradio-android/</link>
     <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/rpnradio-android/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">

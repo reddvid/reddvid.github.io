@@ -1,5 +1,5 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
-xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Apps - Tag - Red David Blog</title>
         <link>https://reddavid.me/tags/apps/</link>
@@ -8,7 +8,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>Developing for Apple Soon</title>
     <link>https://reddavid.me/developing-for-apple-soon/</link>
     <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/developing-for-apple-soon/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">
@@ -61,7 +63,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>ZIP Code PH for Android gets Dark Mode</title>
     <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
     <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">
@@ -142,7 +146,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>RPN Radio: Streaming App for Android</title>
     <link>https://reddavid.me/rpnradio-android/</link>
     <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/rpnradio-android/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.png" referrerpolicy="no-referrer">
@@ -193,7 +199,9 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddavid.me/zipcodeph-new-ui/</link>
     <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image2.png" referrerpolicy="no-referrer">
@@ -254,7 +262,9 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
     <title>Your Phone Tray V2</title>
     <link>https://reddavid.me/your-phone-tray-v2/</link>
     <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/your-phone-tray-v2/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/featured-image.jpg" referrerpolicy="no-referrer">
@@ -285,7 +295,9 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
     <title>RPN Android App</title>
     <link>https://reddavid.me/rpn-android-app/</link>
     <pubDate>Thu, 02 Jan 2020 03:02:48 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/rpn-android-app/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/images/rpn-android.png" referrerpolicy="no-referrer">
@@ -308,7 +320,9 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
     <title>RF Tools Gets Multi-Window Support</title>
     <link>https://reddavid.me/rftools-gets-multi-window-support/</link>
     <pubDate>Sun, 12 May 2019 15:47:52 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/rftools-gets-multi-window-support/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/images/rftools.png" referrerpolicy="no-referrer">
@@ -335,7 +349,9 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
     <title>RPN News &amp; Radio Gets a New UI</title>
     <link>https://reddavid.me/new-ui-rpnradio/</link>
     <pubDate>Thu, 14 Mar 2019 15:28:37 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>
+        David
+    </author>
     <guid>https://reddavid.me/new-ui-rpnradio/</guid>
     <content:encoded><![CDATA[<div class="featured-image">
                 <img src="/images/rpn-newui.jpg" referrerpolicy="no-referrer">

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Red David Blog</title>
+    <link>https://reddavid.me/categories/coding/</link>
+    <description>Recent content in Coding on Red David Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 16 Aug 2020 22:02:34 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/feed.rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ZIP Code PH Gets Refreshed UI</title>
+      <link>https://reddavid.me/zipcodeph-new-ui/</link>
+      <pubDate>Sun, 16 Aug 2020 22:02:34 +0800</pubDate>
+      
+      <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
+      <description>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium. Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.
+Then one time, I just found the urge to update it after seeing Michael West&amp;rsquo;s concept layouts over Dribbble.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apps on Red David Blog</title>
+    <link>https://reddavid.me/tags/apps/</link>
+    <description>Recent content in Apps on Red David Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 06 Feb 2021 00:40:14 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/apps/feed.rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing for Apple Soon</title>
+      <link>https://reddavid.me/developing-for-apple-soon/</link>
+      <pubDate>Sat, 06 Feb 2021 00:40:14 +0800</pubDate>
+      
+      <guid>https://reddavid.me/developing-for-apple-soon/</guid>
+      <description>Apple User -&amp;gt; Me Yes, I gave in to use an Apple device. Well, I&amp;rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&amp;rsquo;s kiss. That&amp;rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.
+I loaned for an iPhone 11 since the iPhone 12 is expensive and I like the 11&amp;rsquo;s grip instead of the sharp edges of the new design.</description>
+    </item>
+    
+    <item>
+      <title>ZIP Code PH for Android gets Dark Mode</title>
+      <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
+      <pubDate>Fri, 05 Feb 2021 23:17:22 +0800</pubDate>
+      
+      <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
+      <description>The Pandemic and Night Owls My app, ZIP Code PH, has been available on Google Play Store for more than a year now and because of the pandemic, more and more people are staying at home and are mostly night-owls.
+And app and software developers are now giving their projects dark mode - not just to follow accessibility standards but offer an option for people to reduce or avoid eye strain.</description>
+    </item>
+    
+    <item>
+      <title>RPN Radio: Streaming App for Android</title>
+      <link>https://reddavid.me/rpnradio-android/</link>
+      <pubDate>Wed, 03 Feb 2021 01:25:58 +0800</pubDate>
+      
+      <guid>https://reddavid.me/rpnradio-android/</guid>
+      <description>This should just be a short post to promote and showcase this Android app I developed for my job.
+AM Radio in your Pocket Choose from RPN&amp;rsquo;s (Radio Philippines Network) 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.
+Development I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure Android Java code.</description>
+    </item>
+    
+    <item>
+      <title>ZIP Code PH Gets Refreshed UI</title>
+      <link>https://reddavid.me/zipcodeph-new-ui/</link>
+      <pubDate>Sun, 16 Aug 2020 22:02:34 +0800</pubDate>
+      
+      <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
+      <description>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium. Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.
+Then one time, I just found the urge to update it after seeing Michael West&amp;rsquo;s concept layouts over Dribbble.</description>
+    </item>
+    
+    <item>
+      <title>Your Phone Tray V2</title>
+      <link>https://reddavid.me/your-phone-tray-v2/</link>
+      <pubDate>Wed, 08 Jul 2020 21:18:31 +0800</pubDate>
+      
+      <guid>https://reddavid.me/your-phone-tray-v2/</guid>
+      <description>Your Phone Tray UWP app just got updated.
+Version 2.0 brings few UI changes, some improvements and a breaking change.
+Improvements To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up) You can also see a new menu item Enable Ctrl+Y Hotkey. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app.</description>
+    </item>
+    
+    <item>
+      <title>RPN Android App</title>
+      <link>https://reddavid.me/rpn-android-app/</link>
+      <pubDate>Thu, 02 Jan 2020 03:02:48 +0800</pubDate>
+      
+      <guid>https://reddavid.me/rpn-android-app/</guid>
+      <description>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.
+Finally opt-in and registered to Google Play platform and chose RPN News &amp;amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.
+Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.</description>
+    </item>
+    
+    <item>
+      <title>RF Tools Gets Multi-Window Support</title>
+      <link>https://reddavid.me/rftools-gets-multi-window-support/</link>
+      <pubDate>Sun, 12 May 2019 15:47:52 +0800</pubDate>
+      
+      <guid>https://reddavid.me/rftools-gets-multi-window-support/</guid>
+      <description>UWP SDK recently released a new support for Multi-windowing.
+Then I though of which of my apps should I implement this with, there&amp;rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.
+This should improve the user&amp;rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.
+You can download the app here</description>
+    </item>
+    
+    <item>
+      <title>RPN News &amp; Radio Gets a New UI</title>
+      <link>https://reddavid.me/new-ui-rpnradio/</link>
+      <pubDate>Thu, 14 Mar 2019 15:28:37 +0800</pubDate>
+      
+      <guid>https://reddavid.me/new-ui-rpnradio/</guid>
+      <description>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.
+You can download RPN News &amp;amp; Radio for Windows 10 app here</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -10,6 +10,7 @@
     <li>Neng Crochet</li>
     <li>Kestler Fernandez</li>
     <li>Mark Kevin Lamsen</li>
+    <li>Lloyd Nolasco</li>
     <li>Jairus Gabres</li>
 </ul>
 

@@ -2,7 +2,7 @@
 version="2.0" 
 xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Red David Blog</title>
+        <title>Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/</link>
         <description>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</description>
         <content:encoded>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</content:encoded>

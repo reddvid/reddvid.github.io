@@ -6,9 +6,186 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         <link>https://reddavid.me/</link>
         <description>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</description>
         <content:encoded>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</content:encoded>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</lastBuildDate>
             <atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Tune In RPN Radio Update</title>
+    <link>https://reddavid.me/tunein-update/</link>
+    <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate>
+    <author>
+        David
+    </author>
+    <guid>https://reddavid.me/tunein-update/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
+            </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
+<h1 id="mainpage-and-mobile-first-design">MainPage and Mobile-First Design</h1>
+<p>The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a></p>
+<p>Then I cleaned up my CSS file to make the whole website <a href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00" target="_blank">&ldquo;mobile-first&rdquo;.</a>
+<br/>
+<br/></p>
+<h1 id="now-playing-station-pages">Now Playing Station Pages</h1>
+<p>The tune-in or now playing page received most of the update. I&rsquo;ve broken some of them below:</p>
+<h2 id="back-button">Back Button</h2>
+<p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
+<p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
+<pre><code>function goBack() {
+  if (isNavOpen) {
+    closeNav();
+  }
+  else if (document.referrer == "") {
+    window.location.href = "https://tunein.rpnradio.com/";
+  }
+  else {
+    window.history.back();
+  }
+}; </code></pre>
+<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
+<p>Now the back button takes you to home page when started with a station page.</p>
+<h2 id="navigation-menu">Navigation Menu</h2>
+<p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
+<p>Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.
+<br/>
+<br/></p>
+<h1 id="security">Security</h1>
+<p>The website was also SSL-enabled - <a href="https://www.websecurity.digicert.com/security-topics/https-everywhere" target="_blank">HTTPS Everywhere.</a></p>
+<p>This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.
+<br/>
+<br/></p>
+<h1 id="open-graph-metadata">Open Graph Metadata</h1>
+<p>Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.</p>
+<p>Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:</p>
+<figure class="image">
+
+<figcaption><em>Facebook Open Graph Preview</em></figcaption>
+<br/>
+
+<figcaption><em>Twitter Open Graph Preview</em></figcaption>
+</figure>
+Creating the metadata tags was made easy by using <a href="https://metatags.io/" target="_blank">Metatags.io</a>.
+<br/>
+<br/>
+<h1 id="site-icons">Site Icons</h1>
+<p>I went on to also update the website&rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:</p>
+<figure>
+
+<figcaption><em>Website Favicon</em></figcaption>
+</figure>
+<br/>
+<h1 id="google-ads">Google Ads</h1>
+<p>I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.</p>
+<p>We all hate ads but this is the only modest way to profit for most websites.
+<br/>
+<br/></p>
+<h1 id="htaccess-to-remove-html">.htaccess to Remove .html</h1>
+<p>I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: <pre><small>tunein.rpnradio.com/batac.html</small></pre>
+Some rules were added to the .htaccess file to make it <pre><small>tunein.rpnradio.com/batac</small></pre></p>
+<p>.htaccess file:</p>
+<pre><code>RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+</code></pre>
+<br/>
+<h1 id="footer-finally">Footer Finally</h1>
+<p>I added a subtle footer to the whole website. That&rsquo;s it. :)
+<br/>
+<br/></p>
+<h1 id="final-words">Final Words</h1>
+<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
+<p>You can visit the website here: <a href="https://tunein./rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
+<p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
+]]></content:encoded>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
+            </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
+<h1 id="mainpage-and-mobile-first-design">MainPage and Mobile-First Design</h1>
+<p>The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a></p>
+<p>Then I cleaned up my CSS file to make the whole website <a href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00" target="_blank">&ldquo;mobile-first&rdquo;.</a>
+<br/>
+<br/></p>
+<h1 id="now-playing-station-pages">Now Playing Station Pages</h1>
+<p>The tune-in or now playing page received most of the update. I&rsquo;ve broken some of them below:</p>
+<h2 id="back-button">Back Button</h2>
+<p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
+<p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
+<pre><code>function goBack() {
+  if (isNavOpen) {
+    closeNav();
+  }
+  else if (document.referrer == "") {
+    window.location.href = "https://tunein.rpnradio.com/";
+  }
+  else {
+    window.history.back();
+  }
+}; </code></pre>
+<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
+<p>Now the back button takes you to home page when started with a station page.</p>
+<h2 id="navigation-menu">Navigation Menu</h2>
+<p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
+<p>Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.
+<br/>
+<br/></p>
+<h1 id="security">Security</h1>
+<p>The website was also SSL-enabled - <a href="https://www.websecurity.digicert.com/security-topics/https-everywhere" target="_blank">HTTPS Everywhere.</a></p>
+<p>This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.
+<br/>
+<br/></p>
+<h1 id="open-graph-metadata">Open Graph Metadata</h1>
+<p>Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.</p>
+<p>Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:</p>
+<figure class="image">
+
+<figcaption><em>Facebook Open Graph Preview</em></figcaption>
+<br/>
+
+<figcaption><em>Twitter Open Graph Preview</em></figcaption>
+</figure>
+Creating the metadata tags was made easy by using <a href="https://metatags.io/" target="_blank">Metatags.io</a>.
+<br/>
+<br/>
+<h1 id="site-icons">Site Icons</h1>
+<p>I went on to also update the website&rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:</p>
+<figure>
+
+<figcaption><em>Website Favicon</em></figcaption>
+</figure>
+<br/>
+<h1 id="google-ads">Google Ads</h1>
+<p>I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.</p>
+<p>We all hate ads but this is the only modest way to profit for most websites.
+<br/>
+<br/></p>
+<h1 id="htaccess-to-remove-html">.htaccess to Remove .html</h1>
+<p>I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: <pre><small>tunein.rpnradio.com/batac.html</small></pre>
+Some rules were added to the .htaccess file to make it <pre><small>tunein.rpnradio.com/batac</small></pre></p>
+<p>.htaccess file:</p>
+<pre><code>RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+</code></pre>
+<br/>
+<h1 id="footer-finally">Footer Finally</h1>
+<p>I added a subtle footer to the whole website. That&rsquo;s it. :)
+<br/>
+<br/></p>
+<h1 id="final-words">Final Words</h1>
+<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
+<p>You can visit the website here: <a href="https://tunein./rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
+<p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
+]]></description>
+   
+</item><item>
     <title>Developing for Apple Soon</title>
     <link>https://reddavid.me/developing-for-apple-soon/</link>
     <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
@@ -889,55 +1066,6 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <br/>
 <h1 id="more-info">More info?</h1>
 <p>Since I don&rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja <a href="https://www.rocketjumpninja.com/products/mouse/logitech-g305" target="_blank">here</a>.</p>
-]]></description>
-   
-</item><item>
-    <title>Story of my Logitech Mice</title>
-    <link>https://reddavid.me/story-of-owning-logitech-mice/</link>
-    <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate>
-    <author>
-        David
-    </author>
-    <guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
-            </div><p>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.</p>
-<p>This is my &ldquo;short&rdquo; history on my Logitech mouse shopping and usage. Here it goes:</p>
-<p>If I recall correctly, my first mouse from Logitech was the G302, it has the odd shape but it just fits nicely in my hand. I used it for almost 2 years until it went &ldquo;double-clicking&rdquo; due to playing Dota 2. I just scavenged some old A4tech mouse and took out the switches (Huanos?) to replace one on the G302. The G302 still works today but it has this rattling noise due to the broken plastics inside.</p>
-<p></p>
-<p>Then I bought a G203, a smaller mouse sporting with the new logo. I bought this to have an RGB mouse. This is when I started to jump on the &ldquo;Logitech mouse hype&rdquo;.</p>
-<p></p>
-<p>Being on the &ldquo;hype train&rdquo;, I impulse bought a G403 when it became available in my country despite my current G203 still works. The G403 was not comfortable for my hand - well, the shops before don&rsquo;t have demo units - so I bought another G203 as I gave the old one to my GF for office use. The G403 is stored for now.</p>
-<p></p>
-<p>After some time, GF&rsquo;s workplace decided to renovate so I took the G203 back and decided to &ldquo;mod&rdquo; it and cut the wire too short making it unroutable to my home setup. This older G203 is now in my &ldquo;junk box&rdquo;.</p>
-<p>I think all through the year 2019, I was looking to buy their wireless mouse - the G304. It has the same shape as the G203 and has the new HERO sensor. And that one time when I decided to finally buy one, I first asked a salesperson if there were any Logitech promos and I was told that the G Pro was 50% off. Without hesitation, I bought it instead of the G304.</p>
-<p></p>
-<p>The G Pro is physically the same as G203 but has a braided cable, stiffer mouse wheel, and sporting the PMW3366 optical gaming sensor. I use this in the office with a cheap mouse bungee to keep the wire neat.</p>
-<p>Fast forward March 2020, city-wide was on lockdown, knowing that I would be staying in the office for quite some time, I lend my laptop to my GF for her to use. I also lend her the (working) G203.</p>
-<p>After some time staying in the office, I decided to neat up my desk and I found it a hassle for wires (with dual monitors, keyboards, USB cords, and whatnot) so I thought, &ldquo;It&rsquo;s time to check that G304 I wished for the longest time. And there&rsquo;s a sale incoming too.&rdquo;</p>
-<p></p>
-<p>I checked Lazada but I was skeptical to buy electronics from them – to avoid the hassle process of returning a defective product. This is when I learned that my &ldquo;favorite&rdquo; gaming store I bought my previous Logitech mice has a &ldquo;better&rdquo; website and I checked the G304 and it was cheaper compared to its store retail price. I bought it as a gift for myself this June.</p>
-<p>Here on my desk right now is the G304 and the G Pro. I use the G304 for daily work and casual games and the G Pro for FPS and competitive gaming. I will be posting my review for the G304 soon. And sorry for the lack of better pictures of my mice.</p>
-]]></content:encoded>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
-            </div><p>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.</p>
-<p>This is my &ldquo;short&rdquo; history on my Logitech mouse shopping and usage. Here it goes:</p>
-<p>If I recall correctly, my first mouse from Logitech was the G302, it has the odd shape but it just fits nicely in my hand. I used it for almost 2 years until it went &ldquo;double-clicking&rdquo; due to playing Dota 2. I just scavenged some old A4tech mouse and took out the switches (Huanos?) to replace one on the G302. The G302 still works today but it has this rattling noise due to the broken plastics inside.</p>
-<p></p>
-<p>Then I bought a G203, a smaller mouse sporting with the new logo. I bought this to have an RGB mouse. This is when I started to jump on the &ldquo;Logitech mouse hype&rdquo;.</p>
-<p></p>
-<p>Being on the &ldquo;hype train&rdquo;, I impulse bought a G403 when it became available in my country despite my current G203 still works. The G403 was not comfortable for my hand - well, the shops before don&rsquo;t have demo units - so I bought another G203 as I gave the old one to my GF for office use. The G403 is stored for now.</p>
-<p></p>
-<p>After some time, GF&rsquo;s workplace decided to renovate so I took the G203 back and decided to &ldquo;mod&rdquo; it and cut the wire too short making it unroutable to my home setup. This older G203 is now in my &ldquo;junk box&rdquo;.</p>
-<p>I think all through the year 2019, I was looking to buy their wireless mouse - the G304. It has the same shape as the G203 and has the new HERO sensor. And that one time when I decided to finally buy one, I first asked a salesperson if there were any Logitech promos and I was told that the G Pro was 50% off. Without hesitation, I bought it instead of the G304.</p>
-<p></p>
-<p>The G Pro is physically the same as G203 but has a braided cable, stiffer mouse wheel, and sporting the PMW3366 optical gaming sensor. I use this in the office with a cheap mouse bungee to keep the wire neat.</p>
-<p>Fast forward March 2020, city-wide was on lockdown, knowing that I would be staying in the office for quite some time, I lend my laptop to my GF for her to use. I also lend her the (working) G203.</p>
-<p>After some time staying in the office, I decided to neat up my desk and I found it a hassle for wires (with dual monitors, keyboards, USB cords, and whatnot) so I thought, &ldquo;It&rsquo;s time to check that G304 I wished for the longest time. And there&rsquo;s a sale incoming too.&rdquo;</p>
-<p></p>
-<p>I checked Lazada but I was skeptical to buy electronics from them – to avoid the hassle process of returning a defective product. This is when I learned that my &ldquo;favorite&rdquo; gaming store I bought my previous Logitech mice has a &ldquo;better&rdquo; website and I checked the G304 and it was cheaper compared to its store retail price. I bought it as a gift for myself this June.</p>
-<p>Here on my desk right now is the G304 and the G Pro. I use the G304 for daily work and casual games and the G Pro for FPS and competitive gaming. I will be posting my review for the G304 soon. And sorry for the lack of better pictures of my mice.</p>
 ]]></description>
    
 </item></channel>

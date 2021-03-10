@@ -145,3 +145,6 @@ How did your 2020 go? Tag me on your story.
 <br/>
 <br/>
 
+<small>📷 credits: <a href="https://wsiltv.com/2021/01/01/town-says-goodbye-to-2020-with-dumpster-fire/">Dumpster Fire 2020 </a></small>
+
+

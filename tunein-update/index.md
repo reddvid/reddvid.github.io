@@ -5,7 +5,7 @@ I updated the tune-in website for RPN. This post will detail the changes, what's
 
 # MainPage and Mobile-First Design
 
-The main page got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a>
+The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a>
 
 Then I cleaned up my CSS file to make the whole website <a href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00" target="_blank">"mobile-first".</a>
 <br/>

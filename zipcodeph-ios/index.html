@@ -167,14 +167,14 @@ And luckily, the workplace has acquired a mac mini to cater Apple users for our 
 <p>I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&rsquo;t consume a lot of code-behind.</p>
 <p>The Main Page took a lot of iterations but below is the final view (as of this writing):</p>
 <figure class="image">
-<img src="/images/03-21/zipcodeph-ios/mainpage.png" style="display:block;margin-left:auto;margin-right:auto;width:40%;">
+<img src="/images/03-21/zipcodeph-ios/mainpage.png" style="display:block;margin-left:auto;margin-right:auto;width:40%;" alt="ZIP Code PH iOS Main Page Screenshot">
 <figcaption><em>Main Page</em></figcaption>
 </figure>
 <br/>
 <p>The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks <a href="https://unsplash.com/" target="_blank">Unsplash!</a>)</p>
 <figure class="image">
-<img src="/images/03-21/zipcodeph-ios/about-1.png" style="display:inline;margin-left:auto;margin-right:auto;width:40%;">
-<img src="/images/03-21/zipcodeph-ios/about-2.png" style="display:inline;margin-left:auto;margin-right:auto;width:40%;">
+<img src="/images/03-21/zipcodeph-ios/about-1.png" style="display:inline;margin-left:auto;margin-right:auto;width:40%;" alt="ZIP Code PH iOS About Page Screenshot">
+<img src="/images/03-21/zipcodeph-ios/about-2.png" style="display:inline;margin-left:auto;margin-right:auto;width:40%;" alt="ZIP Code PH iOS About Page Screenshot 2">
 <figcaption><em>Help & About Page</em></figcaption>
 </figure>
 <br/>
@@ -182,7 +182,7 @@ And luckily, the workplace has acquired a mac mini to cater Apple users for our 
 <p>Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.</p>
 <p>I didn&rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:</p>
 <figure class="image">
-<img src="/images/03-21/zipcodeph-ios/searchbar.png" style="display:inline;margin-left:auto;margin-right:auto;width:60%;">
+<img src="/images/03-21/zipcodeph-ios/searchbar.png" style="display:inline;margin-left:auto;margin-right:auto;width:60%;" alt="ZIP Code PH iOS Search Bar Screenshot">
 <figcaption><em>iOS Search Bar</em></figcaption>
 </figure>
 <br/>
@@ -247,7 +247,7 @@ And luckily, the workplace has acquired a mac mini to cater Apple users for our 
                     .foregroundColor(.gray)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 8)
-                
+
                 if isEditing &amp;&amp; !self.text.isEmpty {
                     Button(action: {
                         self.text = &#34;&#34;
@@ -263,7 +263,7 @@ And luckily, the workplace has acquired a mac mini to cater Apple users for our 
         .onTapGesture {
             self.isEditing = true
         }
-    
+
     if isEditing {
         Button(action: {
             print(self.$text)
@@ -291,7 +291,7 @@ And luckily, the workplace has acquired a mac mini to cater Apple users for our 
 <h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
 <p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
 <figure class="image">
-<img src="/images/03-21/zipcodeph-ios/area.png" style="display:inline;margin-left:auto;margin-right:auto;width:40%;">
+<img src="/images/03-21/zipcodeph-ios/area.png" style="display:inline;margin-left:auto;margin-right:auto;width:40%;" alt="ZIP Code PH iOS City and Area Page Screenshot">
 <figcaption><em>City and Area Pages</em></figcaption>
 </figure>
 <br/>
@@ -328,59 +328,59 @@ div#gallery-zipcodephios a {
             data-sizes="auto"
             alt="Light and Dark Mode" />
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Favorites Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
             data-src="/images/03-21/zipcodeph-ios/gallery/favorites.png"
             data-srcset="/images/03-21/zipcodeph-ios/gallery/favorites.png, /images/03-21/zipcodeph-ios/gallery/favorites.png 1.5x, /images/03-21/zipcodeph-ios/gallery/favorites.png 2x"
             data-sizes="auto"
-            alt="Light and Dark Mode" />
+            alt="Favorites Page" />
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Search Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
             data-src="/images/03-21/zipcodeph-ios/gallery/search.png"
             data-srcset="/images/03-21/zipcodeph-ios/gallery/search.png, /images/03-21/zipcodeph-ios/gallery/search.png 1.5x, /images/03-21/zipcodeph-ios/gallery/search.png 2x"
             data-sizes="auto"
-            alt="Light and Dark Mode" />
+            alt="Search Page" />
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Trivias" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
             data-src="/images/03-21/zipcodeph-ios/gallery/trivia.png"
             data-srcset="/images/03-21/zipcodeph-ios/gallery/trivia.png, /images/03-21/zipcodeph-ios/gallery/trivia.png 1.5x, /images/03-21/zipcodeph-ios/gallery/trivia.png 2x"
             data-sizes="auto"
-            alt="Light and Dark Mode" />
+            alt="Trivias" />
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="NCR and Luzon" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
             data-src="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png"
             data-srcset="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png, /images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png 1.5x, /images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png 2x"
             data-sizes="auto"
-            alt="Light and Dark Mode" />
+            alt="NCR and Luzon" />
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Visayas" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
             data-src="/images/03-21/zipcodeph-ios/gallery/visayas.png"
             data-srcset="/images/03-21/zipcodeph-ios/gallery/visayas.png, /images/03-21/zipcodeph-ios/gallery/visayas.png 1.5x, /images/03-21/zipcodeph-ios/gallery/visayas.png 2x"
             data-sizes="auto"
-            alt="Light and Dark Mode" />
+            alt="Visayas" />
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Mindanao" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
         <img
             class="lazyload"
             src="/svg/loading.min.svg"
             data-src="/images/03-21/zipcodeph-ios/gallery/mindanao.png"
             data-srcset="/images/03-21/zipcodeph-ios/gallery/mindanao.png, /images/03-21/zipcodeph-ios/gallery/mindanao.png 1.5x, /images/03-21/zipcodeph-ios/gallery/mindanao.png 2x"
             data-sizes="auto"
-            alt="Light and Dark Mode" />
+            alt="Mindanao" />
     </a>
 </div>
 <h1 id="you-can-get-it-soon">You Can Get it Soon</h1>

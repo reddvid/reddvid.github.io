@@ -19,7 +19,8 @@ The back button got a lot of love with some logic. At first, the button always t
 
 Now, it's got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.
 
-<pre><code>function goBack() {
+```javascript
+function goBack() {
   if (isNavOpen) {
     closeNav();
   }
@@ -29,7 +30,8 @@ Now, it's got a javascript code that checks for an open navigation menu, and whe
   else {
     window.history.back();
   }
-}; </code></pre>
+};
+```
 
 This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.
 

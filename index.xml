@@ -107,7 +107,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
                     .foregroundColor(.gray)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 8)
-                
+
                 if isEditing &amp;&amp; !self.text.isEmpty {
                     Button(action: {
                         self.text = &#34;&#34;
@@ -123,7 +123,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/">
         .onTapGesture {
             self.isEditing = true
         }
-    
+
     if isEditing {
         Button(action: {
             print(self.$text)
@@ -182,22 +182,22 @@ div#gallery-zipcodephios a {
 <a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Favorites Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Search Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Trivias" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="NCR and Luzon" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Visayas" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Mindanao" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
         
     </a>
 </div>
@@ -302,7 +302,7 @@ div#gallery-zipcodephios a {
                     .foregroundColor(.gray)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 8)
-                
+
                 if isEditing &amp;&amp; !self.text.isEmpty {
                     Button(action: {
                         self.text = &#34;&#34;
@@ -318,7 +318,7 @@ div#gallery-zipcodephios a {
         .onTapGesture {
             self.isEditing = true
         }
-    
+
     if isEditing {
         Button(action: {
             print(self.$text)
@@ -377,22 +377,22 @@ div#gallery-zipcodephios a {
 <a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Favorites Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Search Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Trivias" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="NCR and Luzon" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Visayas" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
         
     </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Mindanao" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
         
     </a>
 </div>
@@ -428,18 +428,35 @@ div#gallery-zipcodephios a {
 <h2 id="back-button">Back Button</h2>
 <p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
 <p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
-<pre><code>function goBack() {
-  if (isNavOpen) {
-    closeNav();
-  }
-  else if (document.referrer == "") {
-    window.location.href = "https://tunein.rpnradio.com/";
-  }
-  else {
-    window.history.back();
-  }
-}; </code></pre>
-<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">closeNav</span><span class="p">();</span>
+  <span class="p">}</span>
+  <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">else</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
 <p>Now the back button takes you to home page when started with a station page.</p>
 <h2 id="navigation-menu">Navigation Menu</h2>
 <p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
@@ -512,18 +529,35 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h2 id="back-button">Back Button</h2>
 <p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
 <p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
-<pre><code>function goBack() {
-  if (isNavOpen) {
-    closeNav();
-  }
-  else if (document.referrer == "") {
-    window.location.href = "https://tunein.rpnradio.com/";
-  }
-  else {
-    window.history.back();
-  }
-}; </code></pre>
-<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">closeNav</span><span class="p">();</span>
+  <span class="p">}</span>
+  <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">else</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
 <p>Now the back button takes you to home page when started with a station page.</p>
 <h2 id="navigation-menu">Navigation Menu</h2>
 <p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>

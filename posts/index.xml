@@ -4,7 +4,406 @@
         <title>All Posts - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/posts/</link>
         <description>All Posts | Red David | Coding, Tech, Gaming, and Music</description>      
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>ZIP Code PH for iOS</title>
+    <link>https://reddavid.me/zipcodeph-ios/</link>
+    <pubDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</pubDate>
+    <author>
+        David
+    </author>
+    <guid>https://reddavid.me/zipcodeph-ios/</guid>
+    <content:encoded><![CDATA[<div class="featured-image">
+                <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
+            </div><h1 id="lets-go">Let&rsquo;s Go</h1>
+<p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
+<p>Using a mac, is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language and built some UI mockups.</p>
+<p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
+<h1 id="development">Development</h1>
+<h2 id="main-and-about-page">Main and About Page</h2>
+<p>I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&rsquo;t consume a lot of code-behind.</p>
+<p>The Main Page took a lot of iterations but below is the final view (as of this writing):</p>
+<figure class="image">
+
+<figcaption><em>Main Page</em></figcaption>
+</figure>
+<br/>
+<p>The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks <a href="https://unsplash.com/" target="_blank">Unsplash!</a>)</p>
+<figure class="image">
+
+
+<figcaption><em>Help & About Page</em></figcaption>
+</figure>
+<br/>
+<h2 id="search-page">Search Page</h2>
+<p>Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.</p>
+<p>I didn&rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:</p>
+<figure class="image">
+
+<figcaption><em>iOS Search Bar</em></figcaption>
+</figure>
+<br/>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">HStack {
+    TextField(&#34;Search ZIP Code PH&#34;, text: $text)
+        .padding(7)
+        .padding(.horizontal, 25)
+        .background(Color(.systemGray6))
+        .cornerRadius(8)
+        .overlay(
+            HStack {
+                Image(systemName: &#34;magnifyingglass&#34;)
+                    .foregroundColor(.gray)
+                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 8)
+                
+                if isEditing &amp;&amp; !self.text.isEmpty {
+                    Button(action: {
+                        self.text = &#34;&#34;
+                    }) {
+                        Image(systemName: &#34;multiply.circle.fill&#34;)
+                            .foregroundColor(.gray)
+                            .padding(.trailing, 8)
+                    }
+                }
+            }
+        )
+        .padding(.horizontal, 20)
+        .onTapGesture {
+            self.isEditing = true
+        }
+    
+    if isEditing {
+        Button(action: {
+            print(self.$text)
+            self.isEditing = false
+            self.text = &#34;&#34;
+            // Dismiss the keyboard
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+        }) {
+            Text(&#34;Cancel&#34;)
+        }
+        .padding(.leading, -10)
+        .padding(.trailing, 10)
+        .transition(.move(edge: .trailing))
+        .animation(.easeInOut)
+    }
+}
+</code></pre></td></tr></table>
+</div>
+</div><br/>
+<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
+  <source src="/videos/03-21/zipcodeph-ios/searchpage.mp4" type="video/mp4">
+</video>
+<br/>
+<p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
+<h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
+<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
+<figure class="image">
+
+<figcaption><em>City and Area Pages</em></figcaption>
+</figure>
+<br/>
+<h2 id="favorites">Favorites</h2>
+<p>Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.</p>
+<p>After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)</p>
+<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
+  <source src="/videos/03-21/zipcodeph-ios/favorite.mp4" type="video/mp4">
+</video>
+<br/>
+<h1 id="showcase">Showcase</h1>
+<p>Below are the app showcase which you can see on the App Store as soon as the app is available</p>
+<style>
+
+div#gallery-zipcodephios {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#gallery-zipcodephios a {
+  width: 20%;
+  margin: 5px;
+}
+
+</style>
+<div id="gallery-zipcodephios">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
+        
+    </a>
+</div>
+<h1 id="you-can-get-it-soon">You Can Get it Soon</h1>
+<p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
+<p>For the meantime, the app is still available for Android and Windows 10.</p>
+<p>You can check the blog posts here for the download links:
+<br/>
+<a href="/zipcodeph-android-dark-mode/">ZIP Code PH for Android gets Dark Mode
+</a>
+<br/>
+<a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
+]]></content:encoded>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
+            </div><h1 id="lets-go">Let&rsquo;s Go</h1>
+<p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
+<p>Using a mac, is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language and built some UI mockups.</p>
+<p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
+<h1 id="development">Development</h1>
+<h2 id="main-and-about-page">Main and About Page</h2>
+<p>I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&rsquo;t consume a lot of code-behind.</p>
+<p>The Main Page took a lot of iterations but below is the final view (as of this writing):</p>
+<figure class="image">
+
+<figcaption><em>Main Page</em></figcaption>
+</figure>
+<br/>
+<p>The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks <a href="https://unsplash.com/" target="_blank">Unsplash!</a>)</p>
+<figure class="image">
+
+
+<figcaption><em>Help & About Page</em></figcaption>
+</figure>
+<br/>
+<h2 id="search-page">Search Page</h2>
+<p>Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.</p>
+<p>I didn&rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:</p>
+<figure class="image">
+
+<figcaption><em>iOS Search Bar</em></figcaption>
+</figure>
+<br/>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">HStack {
+    TextField(&#34;Search ZIP Code PH&#34;, text: $text)
+        .padding(7)
+        .padding(.horizontal, 25)
+        .background(Color(.systemGray6))
+        .cornerRadius(8)
+        .overlay(
+            HStack {
+                Image(systemName: &#34;magnifyingglass&#34;)
+                    .foregroundColor(.gray)
+                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 8)
+                
+                if isEditing &amp;&amp; !self.text.isEmpty {
+                    Button(action: {
+                        self.text = &#34;&#34;
+                    }) {
+                        Image(systemName: &#34;multiply.circle.fill&#34;)
+                            .foregroundColor(.gray)
+                            .padding(.trailing, 8)
+                    }
+                }
+            }
+        )
+        .padding(.horizontal, 20)
+        .onTapGesture {
+            self.isEditing = true
+        }
+    
+    if isEditing {
+        Button(action: {
+            print(self.$text)
+            self.isEditing = false
+            self.text = &#34;&#34;
+            // Dismiss the keyboard
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+        }) {
+            Text(&#34;Cancel&#34;)
+        }
+        .padding(.leading, -10)
+        .padding(.trailing, 10)
+        .transition(.move(edge: .trailing))
+        .animation(.easeInOut)
+    }
+}
+</code></pre></td></tr></table>
+</div>
+</div><br/>
+<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
+  <source src="/videos/03-21/zipcodeph-ios/searchpage.mp4" type="video/mp4">
+</video>
+<br/>
+<p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
+<h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
+<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
+<figure class="image">
+
+<figcaption><em>City and Area Pages</em></figcaption>
+</figure>
+<br/>
+<h2 id="favorites">Favorites</h2>
+<p>Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.</p>
+<p>After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)</p>
+<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
+  <source src="/videos/03-21/zipcodeph-ios/favorite.mp4" type="video/mp4">
+</video>
+<br/>
+<h1 id="showcase">Showcase</h1>
+<p>Below are the app showcase which you can see on the App Store as soon as the app is available</p>
+<style>
+
+div#gallery-zipcodephios {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#gallery-zipcodephios a {
+  width: 20%;
+  margin: 5px;
+}
+
+</style>
+<div id="gallery-zipcodephios">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
+        
+    </a>
+</div>
+<h1 id="you-can-get-it-soon">You Can Get it Soon</h1>
+<p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
+<p>For the meantime, the app is still available for Android and Windows 10.</p>
+<p>You can check the blog posts here for the download links:
+<br/>
+<a href="/zipcodeph-android-dark-mode/">ZIP Code PH for Android gets Dark Mode
+</a>
+<br/>
+<a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
+]]></description>
+   
+</item><item>
     <title>Tune In RPN Radio Update</title>
     <link>https://reddavid.me/tunein-update/</link>
     <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate>
@@ -995,73 +1394,6 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <h3 id="breaking-change">Breaking change</h3>
 <p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
 <p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
-]]></description>
-   
-</item><item>
-    <title>Logitech G304 Review</title>
-    <link>https://reddavid.me/g304-review/</link>
-    <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
-    <guid>https://reddavid.me/g304-review/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/g304.jpg" referrerpolicy="no-referrer">
-            </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
-<p>As I mentioned on my previous blog post <a href="/story-of-owning-logitech-mice/">here</a>, this is my 4th mouse and my first gaming? wireless mouse. I ordered it online from DataBlitz for $39, and was delivered quickly in 2 days.</p>
-<br/>
-<h1 id="whats-in-the-box">What&rsquo;s in the box?</h1>
-<p>The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.</p>
-
-<br/>
-<h1 id="lets-get-physical">Let&rsquo;s get Physical!</h1>
-<p>The mouse has no RGB strip like it&rsquo;s cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.</p>
-
-<p>I currently use an Energizer Lithium AA battery which I believe is lighter but I still keep the free battery whenever I need a heavier setup.</p>
-
-<p>The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.</p>
-
-<p>The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - <a href="https://fb.gg/RedDavidGG/">https://fb.gg/RedDavidGG/</a>)</p>
- 
-
-<br/>
-<h1 id="reliability">Reliability</h1>
-<p>I used this since day one - June 2 - and I only got a hiccup once during a Dota 2 game which made me switch to wired, and since then I used this as a daily driver and on my games. Lately, I am playing Minecraft a lot, some Dota 2, CS:GO, some Valorant, Metro Exodus, just finished Mafia II: Definitive Edition, C&amp;C Yuri&rsquo;s Revenge.</p>
-<br/>
-<h1 id="verdict-at-last">Verdict, at last</h1>
-<p>My overall experience using the same shape of a mouse will be just comfortable throughout my day - office job and being a small-time streamer. It also frees your hand positions by not limited by a wired mouse. Despite it not having an RGB, I would suggest this for small-handed people, for those who travel a lot and for gamers and streamers looking for a budget wireless gaming mouse.</p>
-<br/>
-<h1 id="more-info">More info?</h1>
-<p>Since I don&rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja <a href="https://www.rocketjumpninja.com/products/mouse/logitech-g305" target="_blank">here</a>.</p>
-]]></content:encoded>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/g304.jpg" referrerpolicy="no-referrer">
-            </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
-<p>As I mentioned on my previous blog post <a href="/story-of-owning-logitech-mice/">here</a>, this is my 4th mouse and my first gaming? wireless mouse. I ordered it online from DataBlitz for $39, and was delivered quickly in 2 days.</p>
-<br/>
-<h1 id="whats-in-the-box">What&rsquo;s in the box?</h1>
-<p>The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.</p>
-
-<br/>
-<h1 id="lets-get-physical">Let&rsquo;s get Physical!</h1>
-<p>The mouse has no RGB strip like it&rsquo;s cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.</p>
-
-<p>I currently use an Energizer Lithium AA battery which I believe is lighter but I still keep the free battery whenever I need a heavier setup.</p>
-
-<p>The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.</p>
-
-<p>The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - <a href="https://fb.gg/RedDavidGG/">https://fb.gg/RedDavidGG/</a>)</p>
- 
-
-<br/>
-<h1 id="reliability">Reliability</h1>
-<p>I used this since day one - June 2 - and I only got a hiccup once during a Dota 2 game which made me switch to wired, and since then I used this as a daily driver and on my games. Lately, I am playing Minecraft a lot, some Dota 2, CS:GO, some Valorant, Metro Exodus, just finished Mafia II: Definitive Edition, C&amp;C Yuri&rsquo;s Revenge.</p>
-<br/>
-<h1 id="verdict-at-last">Verdict, at last</h1>
-<p>My overall experience using the same shape of a mouse will be just comfortable throughout my day - office job and being a small-time streamer. It also frees your hand positions by not limited by a wired mouse. Despite it not having an RGB, I would suggest this for small-handed people, for those who travel a lot and for gamers and streamers looking for a budget wireless gaming mouse.</p>
-<br/>
-<h1 id="more-info">More info?</h1>
-<p>Since I don&rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja <a href="https://www.rocketjumpninja.com/products/mouse/logitech-g305" target="_blank">here</a>.</p>
 ]]></description>
    
 </item></channel>

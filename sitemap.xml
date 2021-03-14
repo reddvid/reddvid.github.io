@@ -2,24 +2,29 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://reddavid.me/tags/apple/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/apps/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/coding/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/ios/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/posts/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/software-development/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/swiftui/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/zipcodeph-ios/</loc><lastmod>2021-03-15T00:32:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/android/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/tags/apps/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://reddavid.me/categories/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/categories/coding/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://reddavid.me/posts/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://reddavid.me/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/tags/rpn/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/tags/rpn-radio/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/categories/stories/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
-            <loc>https://reddavid.me/tags/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/tunein-update/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/categories/web-development/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/tags/webapp/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/tags/website/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://reddavid.me/starwall/</loc><lastmod>2021-02-12T21:59:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://reddavid.me/tags/apple/</loc><lastmod>2021-02-06T00:40:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/developing-for-apple-soon/</loc><lastmod>2021-02-06T00:40:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddavid.me/tags/ios/</loc><lastmod>2021-02-06T00:40:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/software-development/</loc><lastmod>2021-02-06T00:40:14&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/development/</loc><lastmod>2021-02-05T23:17:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/software/</loc><lastmod>2021-02-05T23:17:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -47,7 +52,6 @@
             <loc>https://reddavid.me/story-of-owning-logitech-mice/</loc><lastmod>2020-07-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/covid19/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/staying-at-home-during-covid19-pandemic/</loc><lastmod>2020-03-19T01:28:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddavid.me/tags/coding/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/rebuilding-website-to-hugo/</loc><lastmod>2020-02-23T21:43:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/portfolio/</loc><lastmod>2020-02-23T14:37:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/about/</loc><lastmod>2020-02-23T13:10:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

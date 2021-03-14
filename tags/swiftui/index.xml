@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
     xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Coding - Tag - Red David | Coding, Tech, Gaming, and Music</title>
-        <link>https://reddavid.me/tags/coding/</link>
-        <description>Coding - Tag - Red David | Coding, Tech, Gaming, and Music</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/coding/" rel="self" type="application/rss+xml" /><item>
+        <title>SwiftUI - Tag - Red David | Coding, Tech, Gaming, and Music</title>
+        <link>https://reddavid.me/tags/swiftui/</link>
+        <description>SwiftUI - Tag - Red David | Coding, Tech, Gaming, and Music</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/swiftui/" rel="self" type="application/rss+xml" /><item>
     <title>ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
     <pubDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</pubDate>
@@ -401,27 +401,6 @@ div#gallery-zipcodephios a {
 </a>
 <br/>
 <a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
-]]></description>
-   
-</item><item>
-    <title>Rebuilding Website with Hugo</title>
-    <link>https://reddavid.me/rebuilding-website-to-hugo/</link>
-    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
-    <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/hugo.png" referrerpolicy="no-referrer">
-            </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
-<p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
-<p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
-]]></content:encoded>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/hugo.png" referrerpolicy="no-referrer">
-            </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
-<p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
-<p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
 ]]></description>
    
 </item></channel>

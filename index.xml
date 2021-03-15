@@ -3,9 +3,35 @@
         <title>Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/</link>
         <description>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</lastBuildDate>
             <atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Upgrade! Samsung 970 EVO Plus</title>
+    <link>https://reddavid.me/samsung-evo/</link>
+    <pubDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/samsung-evo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/970-evo-plus.webp" referrerpolicy="no-referrer">
+            </div><p>Here we go again folks! Another PC upgrade, this time we take our storage to the next level.</p>
+<h1 id="top-player">Top Player</h1>
+<p>I just bought a Samsung 970 EVO Plus, 1TB for my &ldquo;coding needs&rdquo;. I recently experience a throttle while using my current XPG 500GB - I have been using some Virtual Machines lately to test out some things, and the SSD space gets loaded up quickly.</p>
+<p>The SSD costs me around US$100 and failed to get a cheaper one since I am not paying the whole price - again, I got this for credit. 😅</p>
+<h1 id="samsung-why">Samsung, why?</h1>
+<p>Samsung has been the top brand for SSDs and I can say this myself since personally, I used an 860 EVO in the past for my laptop. And even though my current XPG SSD does it&rsquo;s job, I needed an storage upgrade and it&rsquo;s time to get this one.</p>
+<p>The technical specs and comparison is available in the internet which you can visit on PCWorld, <a href="https://www.pcworld.com/article/3334876/samsung-970-evo-plus-review-samsungs-entry-level-nvme-ssd-is-faster-and-cheaper.html" target="_blank" rel="noopener noreferrer">Samsung 970 EVO Plus review</a></p>
+<h1 id="take-a-look">Take a Look</h1>
+<p>I forgot to take pictures to avoid the SSD from picking up some static from my desk mat. But I did take a picture of the box before installing it on the system.</p>
+<figure class="image">
+
+<figcaption><em>Samsung 970 EVO Plus</em></figcaption>
+
+<figcaption><em>Taskbar</em></figcaption>
+</figure>
+<br/>
+<p>This is not to flaunt the things I have, I&rsquo;m just trying to share my thoughts and share which can help my daily activities like coding, and file and graphics processing.</p>
+]]></description>
+</item><item>
     <title>Flutter Coding</title>
     <link>https://reddavid.me/flutter-coding/</link>
     <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
@@ -713,39 +739,6 @@ div#gallery-2021 a {
 <p>I went ahead for a typing test and got a 76wpm results with no mistyped words. But let&rsquo;s see how long this budget badboy keyboard lasts.</p>
 <p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
 <p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
-]]></description>
-</item><item>
-    <title>ZIP Code PH Gets Refreshed UI</title>
-    <link>https://reddavid.me/zipcodeph-new-ui/</link>
-    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
-            </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
-Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.</p>
-<p>Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&rsquo;s App settings panel as seen <a href="https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style" target="_blank">here on his Dribbble post</a>.</p>
-<p>I started coding at once, cleaning up some codes on the app beginning with the UI. And came up with the final layout.</p>
-<p>Here are some screenshots of the updated app version 4.
-</br></p>
-<figure class="image">
-
-  <figcaption><em>version 4.0, clean and refreshed Fluent Design UI</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Favorites panel - Dark mode</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Search places - Light mode</em></figcaption>
-</figure>
-</br>
-<p>You can check the <em>free</em> app here in the Microsoft Store.
-</br>
-<a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
 ]]></description>
 </item></channel>
 </rss>

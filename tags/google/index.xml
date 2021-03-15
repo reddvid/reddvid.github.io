@@ -1,0 +1,56 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Google - Tag - Red David | Coding, Tech, Gaming, and Music</title>
+        <link>https://reddavid.me/tags/google/</link>
+        <description>Google - Tag - Red David | Coding, Tech, Gaming, and Music</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/google/" rel="self" type="application/rss+xml" /><item>
+    <title>Flutter Coding</title>
+    <link>https://reddavid.me/flutter-coding/</link>
+    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/flutter-coding/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/android-love-flutter.png" referrerpolicy="no-referrer">
+            </div><p>I&rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.</p>
+<p>As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.</p>
+<p>Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &ldquo;native world&rdquo;.</p>
+<h1 id="android-and-bad-java-code">Android and Bad (Java) Code</h1>
+<p>The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.</p>
+<p>To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.</p>
+<p>Ever since March started, I started reading about Flutter and did some basic UI.</p>
+<p>But first, let me tell you how I installed Flutter on Windows.</p>
+<h1 id="pre-installation-pre-requisites">Pre-installation (Pre-requisites?)</h1>
+<ul>
+<li>Make sure you have Git on your device. I installed Git for Windows</li>
+<li>I&rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.</li>
+<li>Some Android SDKs and;</li>
+<li>Google Chrome browser.</li>
+</ul>
+<h1 id="installation">Installation</h1>
+<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of  <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
+<p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
+<p>Ran <code>flutter doctor</code> until all requirements are check out</p>
+<h1 id="ide-wait">IDE, wait&hellip;</h1>
+<p>My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.</p>
+<p>Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!</p>
+<p>Even though <code>flutter doctor</code> checked everything, I was disappointed that I can&rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.</p>
+<figure class="image">
+
+<figcaption><em>New Flutter Project</em></figcaption>
+</figure>
+<br/>
+<p>Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.</p>
+<p>Coming from XAML, where everything seems &ldquo;as is&rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅</p>
+<figure class="image">
+
+<figcaption><em>Flutter UI Code</em></figcaption>
+</figure>
+<br/>
+<h1 id="beginning">Beginning</h1>
+<p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
+<p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
+<p>Ever since  February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
+<p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
+]]></description>
+</item></channel>
+</rss>

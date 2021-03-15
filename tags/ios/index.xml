@@ -1,5 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>iOS - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/ios/</link>
@@ -8,210 +7,13 @@
     <title>ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
     <pubDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-ios/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
-            </div><h1 id="lets-go">Let&rsquo;s Go</h1>
-<p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
-<p>Using a mac, is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language and built some UI mockups.</p>
-<p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
-<h1 id="development">Development</h1>
-<h2 id="main-and-about-page">Main and About Page</h2>
-<p>I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&rsquo;t consume a lot of code-behind.</p>
-<p>The Main Page took a lot of iterations but below is the final view (as of this writing):</p>
-<figure class="image">
-
-<figcaption><em>Main Page</em></figcaption>
-</figure>
-<br/>
-<p>The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks <a href="https://unsplash.com/" target="_blank">Unsplash!</a>)</p>
-<figure class="image">
-
-
-<figcaption><em>Help & About Page</em></figcaption>
-</figure>
-<br/>
-<h2 id="search-page">Search Page</h2>
-<p>Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.</p>
-<p>I didn&rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:</p>
-<figure class="image">
-
-<figcaption><em>iOS Search Bar</em></figcaption>
-</figure>
-<br/>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">HStack {
-    TextField(&#34;Search ZIP Code PH&#34;, text: $text)
-        .padding(7)
-        .padding(.horizontal, 25)
-        .background(Color(.systemGray6))
-        .cornerRadius(8)
-        .overlay(
-            HStack {
-                Image(systemName: &#34;magnifyingglass&#34;)
-                    .foregroundColor(.gray)
-                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 8)
-
-                if isEditing &amp;&amp; !self.text.isEmpty {
-                    Button(action: {
-                        self.text = &#34;&#34;
-                    }) {
-                        Image(systemName: &#34;multiply.circle.fill&#34;)
-                            .foregroundColor(.gray)
-                            .padding(.trailing, 8)
-                    }
-                }
-            }
-        )
-        .padding(.horizontal, 20)
-        .onTapGesture {
-            self.isEditing = true
-        }
-
-    if isEditing {
-        Button(action: {
-            print(self.$text)
-            self.isEditing = false
-            self.text = &#34;&#34;
-            // Dismiss the keyboard
-            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-        }) {
-            Text(&#34;Cancel&#34;)
-        }
-        .padding(.leading, -10)
-        .padding(.trailing, 10)
-        .transition(.move(edge: .trailing))
-        .animation(.easeInOut)
-    }
-}
-</code></pre></td></tr></table>
-</div>
-</div><br/>
-<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
-  <source src="/videos/03-21/zipcodeph-ios/searchpage.mp4" type="video/mp4">
-</video>
-<br/>
-<p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
-<h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
-<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
-<figure class="image">
-
-<figcaption><em>City and Area Pages</em></figcaption>
-</figure>
-<br/>
-<h2 id="favorites">Favorites</h2>
-<p>Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.</p>
-<p>After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)</p>
-<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
-  <source src="/videos/03-21/zipcodeph-ios/favorite.mp4" type="video/mp4">
-</video>
-<br/>
-<h1 id="showcase">Showcase</h1>
-<p>Below are the app showcase which you can see on the App Store as soon as the app is available</p>
-<style>
-
-div#gallery-zipcodephios {
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-div#gallery-zipcodephios a {
-  width: 20%;
-  margin: 5px;
-}
-
-</style>
-<div id="gallery-zipcodephios">
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Favorites Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Search Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Trivias" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="NCR and Luzon" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Visayas" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Mindanao" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
-        
-    </a>
-</div>
-<h1 id="you-can-get-it-soon">You Can Get it Soon</h1>
-<p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
-<p>For the meantime, the app is still available for Android and Windows 10.</p>
-<p>You can check the blog posts here for the download links:
-<br/>
-<a href="/zipcodeph-android-dark-mode/">ZIP Code PH for Android gets Dark Mode
-</a>
-<br/>
-<a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
             </div><h1 id="lets-go">Let&rsquo;s Go</h1>
 <p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
-<p>Using a mac, is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language and built some UI mockups.</p>
+<p>Using a Mac is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.</p>
 <p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
 <h1 id="development">Development</h1>
 <h2 id="main-and-about-page">Main and About Page</h2>
@@ -286,51 +88,51 @@ div#gallery-zipcodephios a {
 </span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">HStack {
-    TextField(&#34;Search ZIP Code PH&#34;, text: $text)
-        .padding(7)
-        .padding(.horizontal, 25)
-        .background(Color(.systemGray6))
-        .cornerRadius(8)
-        .overlay(
-            HStack {
-                Image(systemName: &#34;magnifyingglass&#34;)
-                    .foregroundColor(.gray)
-                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 8)
-
-                if isEditing &amp;&amp; !self.text.isEmpty {
-                    Button(action: {
-                        self.text = &#34;&#34;
-                    }) {
-                        Image(systemName: &#34;multiply.circle.fill&#34;)
-                            .foregroundColor(.gray)
-                            .padding(.trailing, 8)
-                    }
-                }
-            }
-        )
-        .padding(.horizontal, 20)
-        .onTapGesture {
-            self.isEditing = true
-        }
-
-    if isEditing {
-        Button(action: {
-            print(self.$text)
-            self.isEditing = false
-            self.text = &#34;&#34;
-            // Dismiss the keyboard
-            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-        }) {
-            Text(&#34;Cancel&#34;)
-        }
-        .padding(.leading, -10)
-        .padding(.trailing, 10)
-        .transition(.move(edge: .trailing))
-        .animation(.easeInOut)
-    }
-}
+<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
+    <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">background</span><span class="p">(</span><span class="n">Color</span><span class="p">(.</span><span class="n">systemGray6</span><span class="p">))</span>
+        <span class="p">.</span><span class="n">cornerRadius</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">overlay</span><span class="p">(</span>
+            <span class="n">HStack</span> <span class="p">{</span>
+                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;magnifyingglass&#34;</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+                
+                <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
+                    <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+                    <span class="p">})</span> <span class="p">{</span>
+                        <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;multiply.circle.fill&#34;</span><span class="p">)</span>
+                            <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+                            <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
+        <span class="p">}</span>
+    
+    <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
+        <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+            <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">false</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+            <span class="c1">// Dismiss the keyboard</span>
+            <span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">sendAction</span><span class="p">(</span><span class="k">#selector</span><span class="p">(</span><span class="n">UIResponder</span><span class="p">.</span><span class="n">resignFirstResponder</span><span class="p">),</span> <span class="n">to</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">from</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="k">for</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+        <span class="p">})</span> <span class="p">{</span>
+            <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Cancel&#34;</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">transition</span><span class="p">(.</span><span class="n">move</span><span class="p">(</span><span class="n">edge</span><span class="p">:</span> <span class="p">.</span><span class="n">trailing</span><span class="p">))</span>
+        <span class="p">.</span><span class="n">animation</span><span class="p">(.</span><span class="n">easeInOut</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><br/>
@@ -340,7 +142,7 @@ div#gallery-zipcodephios a {
 <br/>
 <p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
 <h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
-<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
+<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
 <figure class="image">
 
 <figcaption><em>City and Area Pages</em></figcaption>
@@ -402,38 +204,12 @@ div#gallery-zipcodephios a {
 <br/>
 <a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
 ]]></description>
-   
 </item><item>
     <title>Developing for Apple Soon</title>
     <link>https://reddavid.me/developing-for-apple-soon/</link>
     <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/developing-for-apple-soon/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
-            </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
-<p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
-<p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
-<figure class="image">
-
-<figcaption><em>Yellow iPhone 11</em></figcaption>
-</figure>
-<br/>
-<h1 id="developing-for-ios-soon">Developing for iOS soon</h1>
-<p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
-<p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
-<figure class="image">
-
-<figcaption><em>iOS 14 App Library (is that TikTok? 😅)</em></figcaption>
-</figure>
-<br/>
-<p>So, to test things out, I would be putting my app <a href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
-<h1 id="for-the-meantime">For the meantime&hellip;</h1>
-<p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
-<p>See you soon!</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
             </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
@@ -457,6 +233,5 @@ div#gallery-zipcodephios a {
 <p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
 <p>See you soon!</p>
 ]]></description>
-   
 </item></channel>
 </rss>

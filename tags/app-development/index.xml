@@ -1,5 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>App development - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/app-development/</link>
@@ -8,32 +7,8 @@
     <title>RPN Radio: Streaming App for Android</title>
     <link>https://reddavid.me/rpnradio-android/</link>
     <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/rpnradio-android/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/rpnradio.png" referrerpolicy="no-referrer">
-            </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
-<h1 id="am-radio-in-your-pocket">AM Radio in your Pocket</h1>
-<p>Choose from RPN&rsquo;s <a href="https://rpnradio.com/" target="_blank">(Radio Philippines Network)</a> 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.</p>
-<h1 id="development">Development</h1>
-<p>I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure <a href="https://developer.android.com/guide">Android Java code</a>.</p>
-<h1 id="app-description">App Description</h1>
-<blockquote>
-<p>RPN&rsquo;s 12 radio stations are situated among the three major parts of the Philippines - in Luzon, we have DZRL Batac and DZBS Baguio that will give you the latest news, updates, music and other events happening in the North in Ilocano; and DZKI Iriga to offer them in Rinkonada Bikol and/or Bikolano. Next in Visayas, DYKC Cebu and DYKB Bacolod operates in the heart of Cebu City and neighboring Bacolod City, respectively. DYKC Cebu provides an programming format that will surely make all Cebuanos and Bisaya all around the world miss home. While DYKB Bacolod gives you the most important news and talkshows in Hiligaynon and/or Ilonggo. Lastly, Mindanao holds most of our stations : DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKP Pagadian, DXXX Zamboanga, and DXKT Davao.</p>
-</blockquote>
-<h1 id="screenshots">Screenshots</h1>
-<figure class="image">
-
-
-<figcaption><em>RPN Radio App for Android</em></figcaption>
-</figure>
-<br/>
-<h1 id="download">Download</h1>
-<p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
-<p>The app will be available soon on iOS.</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpnradio.png" referrerpolicy="no-referrer">
             </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
@@ -56,6 +31,5 @@
 <p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
 <p>The app will be available soon on iOS.</p>
 ]]></description>
-   
 </item></channel>
 </rss>

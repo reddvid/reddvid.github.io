@@ -1,5 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Gaming - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/gaming/</link>
@@ -8,39 +7,8 @@
     <title>Logitech G304 Review</title>
     <link>https://reddavid.me/g304-review/</link>
     <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/g304-review/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/g304.jpg" referrerpolicy="no-referrer">
-            </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
-<p>As I mentioned on my previous blog post <a href="/story-of-owning-logitech-mice/">here</a>, this is my 4th mouse and my first gaming? wireless mouse. I ordered it online from DataBlitz for $39, and was delivered quickly in 2 days.</p>
-<br/>
-<h1 id="whats-in-the-box">What&rsquo;s in the box?</h1>
-<p>The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.</p>
-
-<br/>
-<h1 id="lets-get-physical">Let&rsquo;s get Physical!</h1>
-<p>The mouse has no RGB strip like it&rsquo;s cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.</p>
-
-<p>I currently use an Energizer Lithium AA battery which I believe is lighter but I still keep the free battery whenever I need a heavier setup.</p>
-
-<p>The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.</p>
-
-<p>The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - <a href="https://fb.gg/RedDavidGG/">https://fb.gg/RedDavidGG/</a>)</p>
- 
-
-<br/>
-<h1 id="reliability">Reliability</h1>
-<p>I used this since day one - June 2 - and I only got a hiccup once during a Dota 2 game which made me switch to wired, and since then I used this as a daily driver and on my games. Lately, I am playing Minecraft a lot, some Dota 2, CS:GO, some Valorant, Metro Exodus, just finished Mafia II: Definitive Edition, C&amp;C Yuri&rsquo;s Revenge.</p>
-<br/>
-<h1 id="verdict-at-last">Verdict, at last</h1>
-<p>My overall experience using the same shape of a mouse will be just comfortable throughout my day - office job and being a small-time streamer. It also frees your hand positions by not limited by a wired mouse. Despite it not having an RGB, I would suggest this for small-handed people, for those who travel a lot and for gamers and streamers looking for a budget wireless gaming mouse.</p>
-<br/>
-<h1 id="more-info">More info?</h1>
-<p>Since I don&rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja <a href="https://www.rocketjumpninja.com/products/mouse/logitech-g305" target="_blank">here</a>.</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/g304.jpg" referrerpolicy="no-referrer">
             </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
@@ -70,6 +38,5 @@
 <h1 id="more-info">More info?</h1>
 <p>Since I don&rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja <a href="https://www.rocketjumpninja.com/products/mouse/logitech-g305" target="_blank">here</a>.</p>
 ]]></description>
-   
 </item></channel>
 </rss>

@@ -38,7 +38,7 @@ Then I cleaned up my CSS file to make the whole website &ldquo;mobile-first&rdqu
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/reddavid.me\/tunein-update\/"
-        },"image": ["https:\/\/reddavid.me\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Apps, Website, RPN, RPN Radio, Android, Webapp","wordcount":  640 ,
+        },"image": ["https:\/\/reddavid.me\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Apps, Website, RPN, RPN Radio, Android, Webapp","wordcount":  629 ,
         "url": "https:\/\/reddavid.me\/tunein-update\/","datePublished": "2021-02-16T20:30:09+08:00","dateModified": "2021-02-16T20:30:09+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/reddavid.me\/images\/avatar.jpg"},"author": {
@@ -147,8 +147,8 @@ Then I cleaned up my CSS file to make the whole website &ldquo;mobile-first&rdqu
 <main class="main">
             <div class="container"><article class="page single"><h1 class="single-title" style="text-align: left;">Tune In RPN Radio Update</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>David</a></span>&nbsp;<span class="post-category">included in <a href="/categories/stories/"><i class="far fa-folder fa-fw"></i>Stories</a>&nbsp;<a href="/categories/web-development/"><i class="far fa-folder fa-fw"></i>Web Development</a>&nbsp;<a href="/categories/coding/"><i class="far fa-folder fa-fw"></i>Coding</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="Feb 16, 2021">Feb 16, 2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;640 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;<span id="/tunein-update/" class="leancloud_visitors" data-flag-title="Tune In RPN Radio Update">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="Feb 16, 2021">Feb 16, 2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;629 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;3 minutes&nbsp;<span id="/tunein-update/" class="leancloud_visitors" data-flag-title="Tune In RPN Radio Update">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="featured-image"><img
@@ -169,35 +169,18 @@ Then I cleaned up my CSS file to make the whole website &ldquo;mobile-first&rdqu
 <h2 id="back-button">Back Button</h2>
 <p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
 <p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">closeNav</span><span class="p">();</span>
-  <span class="p">}</span>
-  <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="k">else</span> <span class="p">{</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
-  <span class="p">}</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
+<pre><code>function goBack() {
+  if (isNavOpen) {
+    closeNav();
+  }
+  else if (document.referrer == "") {
+    window.location.href = "https://tunein.rpnradio.com/";
+  }
+  else {
+    window.history.back();
+  }
+}; </code></pre>
+<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
 <p>Now the back button takes you to home page when started with a station page.</p>
 <h2 id="navigation-menu">Navigation Menu</h2>
 <p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
@@ -284,8 +267,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
     <div class="post-nav"><a href="/developing-for-apple-soon/" class="prev" rel="prev" title="Developing for Apple Soon"><i class="fas fa-angle-left fa-fw"></i>Developing for Apple Soon</a>
             <a href="/zipcodeph-ios/" class="next" rel="next" title="ZIP Code PH for iOS">ZIP Code PH for iOS<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
-<div id="comments">
-        <h2 style="margin: 0 auto; text-align: left; margin-bottom: 10px;">Comments</h2><div id="valine" class="comment"></div><noscript>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
             </noscript></div></article></div>
         </main><footer class="footer">

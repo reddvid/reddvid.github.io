@@ -1,221 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" 
-version="2.0" 
-xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/</link>
         <description>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</description>
-        <content:encoded>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</content:encoded>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</lastBuildDate>
             <atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
     <pubDate>Mon, 15 Mar 2021 00:32:11 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-ios/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
-            </div><h1 id="lets-go">Let&rsquo;s Go</h1>
-<p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
-<p>Using a mac, is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language and built some UI mockups.</p>
-<p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
-<h1 id="development">Development</h1>
-<h2 id="main-and-about-page">Main and About Page</h2>
-<p>I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&rsquo;t consume a lot of code-behind.</p>
-<p>The Main Page took a lot of iterations but below is the final view (as of this writing):</p>
-<figure class="image">
-
-<figcaption><em>Main Page</em></figcaption>
-</figure>
-<br/>
-<p>The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks <a href="https://unsplash.com/" target="_blank">Unsplash!</a>)</p>
-<figure class="image">
-
-
-<figcaption><em>Help & About Page</em></figcaption>
-</figure>
-<br/>
-<h2 id="search-page">Search Page</h2>
-<p>Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.</p>
-<p>I didn&rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:</p>
-<figure class="image">
-
-<figcaption><em>iOS Search Bar</em></figcaption>
-</figure>
-<br/>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">HStack {
-    TextField(&#34;Search ZIP Code PH&#34;, text: $text)
-        .padding(7)
-        .padding(.horizontal, 25)
-        .background(Color(.systemGray6))
-        .cornerRadius(8)
-        .overlay(
-            HStack {
-                Image(systemName: &#34;magnifyingglass&#34;)
-                    .foregroundColor(.gray)
-                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 8)
-
-                if isEditing &amp;&amp; !self.text.isEmpty {
-                    Button(action: {
-                        self.text = &#34;&#34;
-                    }) {
-                        Image(systemName: &#34;multiply.circle.fill&#34;)
-                            .foregroundColor(.gray)
-                            .padding(.trailing, 8)
-                    }
-                }
-            }
-        )
-        .padding(.horizontal, 20)
-        .onTapGesture {
-            self.isEditing = true
-        }
-
-    if isEditing {
-        Button(action: {
-            print(self.$text)
-            self.isEditing = false
-            self.text = &#34;&#34;
-            // Dismiss the keyboard
-            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-        }) {
-            Text(&#34;Cancel&#34;)
-        }
-        .padding(.leading, -10)
-        .padding(.trailing, 10)
-        .transition(.move(edge: .trailing))
-        .animation(.easeInOut)
-    }
-}
-</code></pre></td></tr></table>
-</div>
-</div><br/>
-<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
-  <source src="/videos/03-21/zipcodeph-ios/searchpage.mp4" type="video/mp4">
-</video>
-<br/>
-<p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
-<h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
-<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
-<figure class="image">
-
-<figcaption><em>City and Area Pages</em></figcaption>
-</figure>
-<br/>
-<h2 id="favorites">Favorites</h2>
-<p>Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.</p>
-<p>After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)</p>
-<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
-  <source src="/videos/03-21/zipcodeph-ios/favorite.mp4" type="video/mp4">
-</video>
-<br/>
-<h1 id="showcase">Showcase</h1>
-<p>Below are the app showcase which you can see on the App Store as soon as the app is available</p>
-<style>
-
-div#gallery-zipcodephios {
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-div#gallery-zipcodephios a {
-  width: 20%;
-  margin: 5px;
-}
-
-</style>
-<div id="gallery-zipcodephios">
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Favorites Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Search Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Trivias" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="NCR and Luzon" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Visayas" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Mindanao" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
-        
-    </a>
-</div>
-<h1 id="you-can-get-it-soon">You Can Get it Soon</h1>
-<p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
-<p>For the meantime, the app is still available for Android and Windows 10.</p>
-<p>You can check the blog posts here for the download links:
-<br/>
-<a href="/zipcodeph-android-dark-mode/">ZIP Code PH for Android gets Dark Mode
-</a>
-<br/>
-<a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
             </div><h1 id="lets-go">Let&rsquo;s Go</h1>
 <p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
-<p>Using a mac, is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language and built some UI mockups.</p>
+<p>Using a Mac is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.</p>
 <p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
 <h1 id="development">Development</h1>
 <h2 id="main-and-about-page">Main and About Page</h2>
@@ -290,51 +90,51 @@ div#gallery-zipcodephios a {
 </span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">HStack {
-    TextField(&#34;Search ZIP Code PH&#34;, text: $text)
-        .padding(7)
-        .padding(.horizontal, 25)
-        .background(Color(.systemGray6))
-        .cornerRadius(8)
-        .overlay(
-            HStack {
-                Image(systemName: &#34;magnifyingglass&#34;)
-                    .foregroundColor(.gray)
-                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 8)
-
-                if isEditing &amp;&amp; !self.text.isEmpty {
-                    Button(action: {
-                        self.text = &#34;&#34;
-                    }) {
-                        Image(systemName: &#34;multiply.circle.fill&#34;)
-                            .foregroundColor(.gray)
-                            .padding(.trailing, 8)
-                    }
-                }
-            }
-        )
-        .padding(.horizontal, 20)
-        .onTapGesture {
-            self.isEditing = true
-        }
-
-    if isEditing {
-        Button(action: {
-            print(self.$text)
-            self.isEditing = false
-            self.text = &#34;&#34;
-            // Dismiss the keyboard
-            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-        }) {
-            Text(&#34;Cancel&#34;)
-        }
-        .padding(.leading, -10)
-        .padding(.trailing, 10)
-        .transition(.move(edge: .trailing))
-        .animation(.easeInOut)
-    }
-}
+<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
+    <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">background</span><span class="p">(</span><span class="n">Color</span><span class="p">(.</span><span class="n">systemGray6</span><span class="p">))</span>
+        <span class="p">.</span><span class="n">cornerRadius</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">overlay</span><span class="p">(</span>
+            <span class="n">HStack</span> <span class="p">{</span>
+                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;magnifyingglass&#34;</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+                
+                <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
+                    <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+                    <span class="p">})</span> <span class="p">{</span>
+                        <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;multiply.circle.fill&#34;</span><span class="p">)</span>
+                            <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+                            <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
+        <span class="p">}</span>
+    
+    <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
+        <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+            <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">false</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+            <span class="c1">// Dismiss the keyboard</span>
+            <span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">sendAction</span><span class="p">(</span><span class="k">#selector</span><span class="p">(</span><span class="n">UIResponder</span><span class="p">.</span><span class="n">resignFirstResponder</span><span class="p">),</span> <span class="n">to</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">from</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="k">for</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+        <span class="p">})</span> <span class="p">{</span>
+            <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Cancel&#34;</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">transition</span><span class="p">(.</span><span class="n">move</span><span class="p">(</span><span class="n">edge</span><span class="p">:</span> <span class="p">.</span><span class="n">trailing</span><span class="p">))</span>
+        <span class="p">.</span><span class="n">animation</span><span class="p">(.</span><span class="n">easeInOut</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><br/>
@@ -344,7 +144,7 @@ div#gallery-zipcodephios a {
 <br/>
 <p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
 <h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
-<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
+<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
 <figure class="image">
 
 <figcaption><em>City and Area Pages</em></figcaption>
@@ -406,116 +206,12 @@ div#gallery-zipcodephios a {
 <br/>
 <a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
 ]]></description>
-   
 </item><item>
     <title>Tune In RPN Radio Update</title>
     <link>https://reddavid.me/tunein-update/</link>
     <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/tunein-update/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
-            </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
-<h1 id="mainpage-and-mobile-first-design">MainPage and Mobile-First Design</h1>
-<p>The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a></p>
-<p>Then I cleaned up my CSS file to make the whole website <a href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00" target="_blank">&ldquo;mobile-first&rdquo;.</a>
-<br/>
-<br/></p>
-<h1 id="now-playing-station-pages">Now Playing Station Pages</h1>
-<p>The tune-in or now playing page received most of the update. I&rsquo;ve broken some of them below:</p>
-<h2 id="back-button">Back Button</h2>
-<p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
-<p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">closeNav</span><span class="p">();</span>
-  <span class="p">}</span>
-  <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="k">else</span> <span class="p">{</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
-  <span class="p">}</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
-<p>Now the back button takes you to home page when started with a station page.</p>
-<h2 id="navigation-menu">Navigation Menu</h2>
-<p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
-<p>Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.
-<br/>
-<br/></p>
-<h1 id="security">Security</h1>
-<p>The website was also SSL-enabled - <a href="https://www.websecurity.digicert.com/security-topics/https-everywhere" target="_blank">HTTPS Everywhere.</a></p>
-<p>This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.
-<br/>
-<br/></p>
-<h1 id="open-graph-metadata">Open Graph Metadata</h1>
-<p>Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.</p>
-<p>Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:</p>
-<figure class="image">
-
-<figcaption><em>Facebook Open Graph Preview</em></figcaption>
-<br/>
-
-<figcaption><em>Twitter Open Graph Preview</em></figcaption>
-</figure>
-Creating the metadata tags was made easy by using <a href="https://metatags.io/" target="_blank">Metatags.io</a>.
-<br/>
-<br/>
-<h1 id="site-icons">Site Icons</h1>
-<p>I went on to also update the website&rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:</p>
-<figure>
-
-<figcaption><em>Website Favicon</em></figcaption>
-</figure>
-<br/>
-<h1 id="google-ads">Google Ads</h1>
-<p>I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.</p>
-<p>We all hate ads but this is the only modest way to profit for most websites.
-<br/>
-<br/></p>
-<h1 id="htaccess-to-remove-html">.htaccess to Remove .html</h1>
-<p>I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: <pre><small>tunein.rpnradio.com/batac.html</small></pre>
-Some rules were added to the .htaccess file to make it <pre><small>tunein.rpnradio.com/batac</small></pre></p>
-<p>.htaccess file:</p>
-<pre><code>RewriteEngine On 
-RewriteCond %{HTTPS} off 
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
-</code></pre>
-<br/>
-<h1 id="footer-finally">Footer Finally</h1>
-<p>I added a subtle footer to the whole website. That&rsquo;s it. :)
-<br/>
-<br/></p>
-<h1 id="final-words">Final Words</h1>
-<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
-<p>You can visit the website here: <a href="https://tunein./rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
-<p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
             </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
@@ -529,35 +225,18 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h2 id="back-button">Back Button</h2>
 <p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
 <p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">closeNav</span><span class="p">();</span>
-  <span class="p">}</span>
-  <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="k">else</span> <span class="p">{</span>
-    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
-  <span class="p">}</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
+<pre><code>function goBack() {
+  if (isNavOpen) {
+    closeNav();
+  }
+  else if (document.referrer == "") {
+    window.location.href = "https://tunein.rpnradio.com/";
+  }
+  else {
+    window.history.back();
+  }
+}; </code></pre>
+<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
 <p>Now the back button takes you to home page when started with a station page.</p>
 <h2 id="navigation-menu">Navigation Menu</h2>
 <p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
@@ -617,38 +296,12 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <p>You can visit the website here: <a href="https://tunein./rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
 <p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
 ]]></description>
-   
 </item><item>
     <title>Developing for Apple Soon</title>
     <link>https://reddavid.me/developing-for-apple-soon/</link>
     <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/developing-for-apple-soon/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
-            </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
-<p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
-<p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
-<figure class="image">
-
-<figcaption><em>Yellow iPhone 11</em></figcaption>
-</figure>
-<br/>
-<h1 id="developing-for-ios-soon">Developing for iOS soon</h1>
-<p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
-<p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
-<figure class="image">
-
-<figcaption><em>iOS 14 App Library (is that TikTok? 😅)</em></figcaption>
-</figure>
-<br/>
-<p>So, to test things out, I would be putting my app <a href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
-<h1 id="for-the-meantime">For the meantime&hellip;</h1>
-<p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
-<p>See you soon!</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
             </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
@@ -672,52 +325,12 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
 <p>See you soon!</p>
 ]]></description>
-   
 </item><item>
     <title>ZIP Code PH for Android gets Dark Mode</title>
     <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
     <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph-android.png" referrerpolicy="no-referrer">
-            </div><h1 id="the-pandemic-and-night-owls">The Pandemic and Night Owls</h1>
-<p>My app, ZIP Code PH, has been available on Google Play Store for more than a year now and because of the pandemic, more and more people are staying at home and are mostly <a href="https://en.wikipedia.org/wiki/Night_owl_(person)">night-owls</a>.</p>
-<p>And app and software developers are now giving their projects dark mode - not just to follow accessibility standards but offer an option for people to reduce or avoid eye strain.</p>
-<h1 id="heres-dark-mode-for-ya">Here&rsquo;s Dark Mode for ya</h1>
-<p>So here I am, picking up again on coding (for my apps) and started giving some apps a dark flavor. It almost took me a month to develop and test since available Xamarin Forms documentation didn&rsquo;t suit my liking.</p>
-<h1 id="quick-app-features">Quick App Features</h1>
-<ul>
-<li>Toggle light and dark mode</li>
-<li>Quick search Philippine ZIP codes</li>
-<li>Favorite (Bookmark) selected ZIP codes for easy reference</li>
-</ul>
-<h1 id="screenshots">Screenshots</h1>
-<p>See for yourself the light and dark mode for the app below.</p>
-<figure class="image">
-
-<span style="margin: 0 10px"></span>
-
-<figcaption><em>ZIP Code PH - Main Menu</em></figcaption>
-</figure>
-<br/>
-<figure class="image">
-
-<span style="margin: 0 10px"></span>
-
-<figcaption><em>ZIP Code PH - List</em></figcaption>
-</figure>
-<br/>
-<p>I chose <code>#222222</code> as the background color for darkmode so it is easier in the eyes (at least for me and some design posts I read somewhere). If someone requests an option for a darker color, I&rsquo;d be glad to add it. (Themes, maybe? 🤔)</p>
-<h1 id="make-me-happy">Make me happy</h1>
-<p>Yes, please. Make me happy by downloading the app, write a review and give a rating of 5 stars. The app is available for Android, on <a href="https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103245343">Huawei App Gallery.</a></p>
-<p>It is free to download, I hope you welcome ads that earns a me a little. Thank you and until next app!</p>
-<p><a href='https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'></a></p>
-<h1 id="looking-for-a-windows-10-version">Looking for a Windows 10 version?</h1>
-<p>Check out <a href="/zipcodeph-new-ui/">this old blog post</a> about the Windows 10 app.</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-android.png" referrerpolicy="no-referrer">
             </div><h1 id="the-pandemic-and-night-owls">The Pandemic and Night Owls</h1>
@@ -755,37 +368,12 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h1 id="looking-for-a-windows-10-version">Looking for a Windows 10 version?</h1>
 <p>Check out <a href="/zipcodeph-new-ui/">this old blog post</a> about the Windows 10 app.</p>
 ]]></description>
-   
 </item><item>
     <title>RPN Radio: Streaming App for Android</title>
     <link>https://reddavid.me/rpnradio-android/</link>
     <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/rpnradio-android/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/rpnradio.png" referrerpolicy="no-referrer">
-            </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
-<h1 id="am-radio-in-your-pocket">AM Radio in your Pocket</h1>
-<p>Choose from RPN&rsquo;s <a href="https://rpnradio.com/" target="_blank">(Radio Philippines Network)</a> 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.</p>
-<h1 id="development">Development</h1>
-<p>I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure <a href="https://developer.android.com/guide">Android Java code</a>.</p>
-<h1 id="app-description">App Description</h1>
-<blockquote>
-<p>RPN&rsquo;s 12 radio stations are situated among the three major parts of the Philippines - in Luzon, we have DZRL Batac and DZBS Baguio that will give you the latest news, updates, music and other events happening in the North in Ilocano; and DZKI Iriga to offer them in Rinkonada Bikol and/or Bikolano. Next in Visayas, DYKC Cebu and DYKB Bacolod operates in the heart of Cebu City and neighboring Bacolod City, respectively. DYKC Cebu provides an programming format that will surely make all Cebuanos and Bisaya all around the world miss home. While DYKB Bacolod gives you the most important news and talkshows in Hiligaynon and/or Ilonggo. Lastly, Mindanao holds most of our stations : DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKP Pagadian, DXXX Zamboanga, and DXKT Davao.</p>
-</blockquote>
-<h1 id="screenshots">Screenshots</h1>
-<figure class="image">
-
-
-<figcaption><em>RPN Radio App for Android</em></figcaption>
-</figure>
-<br/>
-<h1 id="download">Download</h1>
-<p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
-<p>The app will be available soon on iOS.</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpnradio.png" referrerpolicy="no-referrer">
             </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
@@ -808,131 +396,12 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
 <p>The app will be available soon on iOS.</p>
 ]]></description>
-   
 </item><item>
     <title>2020 Review</title>
     <link>https://reddavid.me/2020-review/</link>
     <pubDate>Wed, 06 Jan 2021 13:27:12 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/2020-review/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/bye-2020.jpg" referrerpolicy="no-referrer">
-            </div><p>Huh, who knew? That we can get through the sh*tty year that is 2020. 🤔 And for last time (and maybe first?), let&rsquo;s take a look back to what happened with Red David&rsquo;s life in last year (SPOILER: not so much, like most of us I guess).</p>
-<h1 id="january">January</h1>
-<h2 id="puerto-galera-2nd-week">Puerto Galera, 2nd week</h2>
-<p>New Year, New Decade! We expected a lot in 2020 coming from 2019. It started out pretty much a normal month. We would have the time to travel out of town,</p>
-<p>It is always a good feeling when you can travel on the first month of the year, so that&rsquo;s what we did. So my girlfriend and I went to Puerto Galera, Mindoro and rented a place to stay for 3 days and 2 nights.</p>
-<p>This place has been a must-travel not just for us both but for most of Pinoys. The white sand beach makes this place present on everybody&rsquo;s bucket list.</p>
-<p>Our stay was short but it was worth-while. From walking along the beach, taking &ldquo;artistic&rdquo; photos, watch the sunset enjoyed a quite weekday evening, and chilled during the weekend evening when the &ldquo;bands&rdquo; and music will fill up the place. We also had henna tattoos, got a massage, and just tried to taste all the food.</p>
-<p>Here are some of the photos we took during our short stay:</p>
-<style>
-
-div#gallery-2021 {
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-div#gallery-2021 a {
-  width: 30%;
-  margin: 2px;
-}
-
-</style>
-<div id="gallery-2021">
-<a class="lightgallery" href="/images/01-21/year-in-review/i-love-puerto-galera.jpg" title="I 🤍 Puerto Galera" data-thumbnail="/images/01-21/year-in-review/i-love-puerto-galera.jpg">
-        
-    </a>
-<a class="lightgallery" href="/images/01-21/year-in-review/puerto-galera-breakfast.jpg" title="Toast and fried breakfast" data-thumbnail="/images/01-21/year-in-review/puerto-galera-breakfast.jpg">
-        
-    </a>
-<a class="lightgallery" href="/images/01-21/year-in-review/lunch-at-puerto-galera.jpg" title="Healthy lunch" data-thumbnail="/images/01-21/year-in-review/lunch-at-puerto-galera.jpg">
-        
-    </a>
-<a class="lightgallery" href="/images/01-21/year-in-review/puerto-galera-no-smoking.jpg" title="No smoking beyond the point" data-thumbnail="/images/01-21/year-in-review/puerto-galera-no-smoking.jpg">
-        
-    </a>
-<a class="lightgallery" href="/images/01-21/year-in-review/puerto-galera-sand-castle.jpg" title="Puerto Galera sand castle" data-thumbnail="/images/01-21/year-in-review/puerto-galera-sand-castle.jpg">
-        
-    </a>
-<a class="lightgallery" href="/images/01-21/year-in-review/puerto-galera-sunset.jpg" title="Sunset at Puerto Galera" data-thumbnail="/images/01-21/year-in-review/puerto-galera-sunset.jpg">
-        
-    </a>
-</div>
-<h2 id="taal-volcano-eruption">Taal Volcano Eruption</h2>
-<p>Ok hold on, this wasn&rsquo;t a part of our trip but as we are leaving the port to return to Metro Manila, we found out that Taal Volcano erupted (which was located in Batangas) but thankfully the eruption was slow that we weren&rsquo;t stranded along the way. But this news may be the start of something awful through 2020.</p>
-<p>The volcano spewed a lot of volcanic ash that towns and cities, including Metro Manila.</p>
-<h2 id="trip-to-bgc-last-week">Trip to BGC, last week</h2>
-<p>This should be the last week of January and the KPop group Winner was doing a tour in Manila. I am not a KPop fan but my sister is that the 3 girls in our family went to SM Mall of Asia to watch them.</p>
-<figure class="image">
-
-<figcaption><em>Baclaran Church</em></figcaption>
-</figure>
-<p style="font-size:0.7em;">Photo by <a href="https://unsplash.com/@ruelonguitars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ruel Del Jamorol</a> on <a href="https://unsplash.com/s/photos/baclaran?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-<p>The next day, we went to visit Baclaran church to give thanks to the Lord and went straight the infamous <a href="https://megaworld-lifestylemalls.com/mall/mckinley-hill/">Venice Grand Canal Mall</a> in Taguig, a Venice-inspired open-air mall.</p>
-<figure class="image">
-
-<figcaption><em>Venice Grand Canal Mall in Taguig</em></figcaption>
-</figure>
-<p>After exhausting the whole place, we went down to Bonifacio High Grounds which is not that far from the canal mall. We just walked around the place, took some photos, and tried to visit a museum but unfortunately they were already closed.</p>
-<br/>
-<h1 id="february">February</h1>
-<h2 id="valentines-day-and-a-new-laptop">Valentine&rsquo;s Day and a New Laptop</h2>
-<p>Hmmm, nothing much happened this month, just the usual Valentine&rsquo;s date on the 14th. We just went to this semi-high end restaurant and ordered some pizza, pasta, and wine.</p>
-<p>I also got a new laptop, my third Acer laptop - been an Acer user since 2011-ish because of it&rsquo;s ok specs at a lower price. I blogged about that laptop here: <a href="/new-laptop/">I Got Myself a New Laptop</a></p>
-<br/>
-<h1 id="march">March</h1>
-<h2 id="more-like-march-ing-towards-a-global-pandemic">more like MARCH-ing Towards a Global Pandemic</h2>
-<p>Oh how it started so well until a <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">new unknown deadly virus broke out of Wuhan, China.</a></p>
-<p>It seemed the world has stopped due to lockdowns, and despite the technological advancement we have since the last decade, we still took too long for a cure.</p>
-<p>These, I think, are the times we don&rsquo;t want to talk about anymore.</p>
-<br/>
-<h1 id="april---november">April - November</h1>
-<p>I&rsquo;ll sumamrize these months here, since we all have been in lock down and stayed in our homes. But luckily for us, our occupation allowed us to still make a living and let us stay in.</p>
-<p>Within these months, the government has been extending and extending the quarantine every 30 days - they just fear for public panic if they announce a definite lockdown for a year.</p>
-<p>I went busy during these time, did some web and app development, went on to stream some games on <a href="https://facebook.gg/RedDavidGG" target="_blank">Facebook Gaming</a> and took some online courses <a href="https://linkedin.com/in/reddvid/" target="_blank">(view my LinkedIn profile here).</a></p>
-<p>With all of these, I upgraded (again) my peripherals for my convenience (sorry Girlfried, 😂). I bought a over-the-head headset and an earbuds, for better Zoom meetings and streaming - the JBL Quantum 200 and the HyperX Cloud earbuds. I also got myself a wireless Logitech gaming mouse, the G304, which I reviewed <a href="/g304-review/">here</a> and a Tecware mechanical keyboard TKL, which you can read more about <a href="/new-keeb/">here.</a></p>
-<figure class="image">
-
-<figcaption><em>JBL Quantum 200 (pardon the mess)</em></figcaption>
-</figure>
-<figure class="image">
-
-<figcaption><em>Logitech G304</em></figcaption>
-</figure>
-<figure class="image">
-
-<figcaption><em>Tecware Elite TKL</em></figcaption>
-</figure>
-<p>I also went on to upgrade my work PC&rsquo;s SSD for a better brand and higher storage, cheaper though - the XPG 8200. Also bought a JBL Go3 bluetooth speaker, and the Logitech C922 webcam, also for Zoom meetings 🤣. I blogged about the camera here: <a href="/the-logitech-c922/">Finally! Logitech C922</a></p>
-<figure class="image">
-
-<figcaption><em>Logitech C922</em></figcaption>
-</figure>
-<br/>
-<br/>
-<h1 id="december">December</h1>
-<h2 id="christmas-and-new-years-eve">Christmas and New Year&rsquo;s Eve</h2>
-<p>This might be the hardest Christmas and New Year we&rsquo;ve all faced and celebrated, but lucky enough, I had the chance to take a break from the rat race and went home to celebrate the holidays with the family together with my father whom was also stuck in his workplace city due to quarantine and lockdown.</p>
-<p>The shopping continues, I got myself the Razer Hammerhead Wireless earbuds and a yellow iPhone 11 for Christmas. I did not post a blog about the wireless earbuds since the unit I got was faulty (had it replaced now). And I prefer not to flaunt my new iPhone since there&rsquo;s nothing special about it, my ultimate goal of buying one is to <a href="/developing-for-apple-soon/">develop apps for iOS.</a></p>
-<figure class="image">
-
-<figcaption><em>Razer BT Earbuds and Yellow iPhone 11</em></figcaption>
-</figure>
-<br/>
-<br/>
-<h1 id="hows-your-2020">How&rsquo;s Your 2020?</h1>
-<p>This year had been a mix of emotions but mostly depressing. We still coping to the new normal, keeping safe, and I know we all miss socializing.</p>
-<p>This might look like a tech shopping spree for me but I also grew my Facebook page from 261 to 940 this year. Played and streamed some good games - MINECRAFT!</p>
-<p>Read a few books, got certificates from online courses, and especially I am still alive and healthy.</p>
-<p>How did your 2020 go? Tag me on your story.
-<br/>
-<br/>
-<br/></p>
-<p><small>📷 credits: <a href="https://wsiltv.com/2021/01/01/town-says-goodbye-to-2020-with-dumpster-fire/">Dumpster Fire 2020 </a></small></p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/bye-2020.jpg" referrerpolicy="no-referrer">
             </div><p>Huh, who knew? That we can get through the sh*tty year that is 2020. 🤔 And for last time (and maybe first?), let&rsquo;s take a look back to what happened with Red David&rsquo;s life in last year (SPOILER: not so much, like most of us I guess).</p>
@@ -1049,102 +518,12 @@ div#gallery-2021 a {
 <br/></p>
 <p><small>📷 credits: <a href="https://wsiltv.com/2021/01/01/town-says-goodbye-to-2020-with-dumpster-fire/">Dumpster Fire 2020 </a></small></p>
 ]]></description>
-   
 </item><item>
     <title>Finally! Logitech C922</title>
     <link>https://reddavid.me/the-logitech-c922/</link>
     <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/the-logitech-c922/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/logitech-c922.jpg" referrerpolicy="no-referrer">
-            </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>
-<p>Honestly, I bought the camera in a slightly higher price due to the model being out of stock in major stores and just got from a &ldquo;hoarder&rdquo; in Facebook marketplace. :) Harsh but true.</p>
-<p>Let&rsquo;s get into my short blog/review/impression about this industry-standard in semi-professional streaming.</p>
-<br/>
-<h1 id="wait">Wait</h1>
-<p>You might ask, why only now? At first, I never really thought of having a good webcam as a small streamer, and I also have this app on my Android phone which makes my Nokia 7 Plus pose as a webcam. Then, I wanted the camera to be positioned well, so I bought a cheaper Logitech, the C270.</p>
-<figure class="image">
-
-  <figcaption><em>Logitech C270 Webcam</em></figcaption>
-</figure>
-<br/>
-<p>The C270 suited my needs - stream just now and then, and it&rsquo;s just right for video calls and conferencing. The only problem with this one is it has a bad exposure. I used the C270 for almost 3 months until I got the money to buy the beast of a camera, that is the C922.</p>
-<br/>
-<h1 id="lets-see-922-it">Let&rsquo;s See (922) It</h1>
-<p>I opened a brand new Logitech C922 way way before but it wasn&rsquo;t mine, so I already know the contents (alibi for not having pictures after unboxing 😂). And I also tried the unit itself so I knew the quality it brings.</p>
-<p>The box contains the C922 camera, a table-top tripod, manuals and a sheet containing the free 3-month XSplit Premium codes (Again, sorry for not having pictures).</p>
-<figure class="image">
-
-  <figcaption><em>Logitech C922 Box</em></figcaption>
-</figure>
-<br/>
-<h1 id="quick-marketing-specs">Quick (marketing) specs</h1>
-<p>I won&rsquo;t dive deep into the webcam&rsquo;s specifications like weight and dimensions but here are the common &ldquo;marketing&rdquo; specs that will actually make you consider buying one:</p>
-<ul>
-<li>Capture 1080p @ 30fps, or</li>
-<li>720p @ 60fps</li>
-<li>Auto focus</li>
-<li>Wide Field of View</li>
-<li>Advanced camera software</li>
-</ul>
-<br/>
-<h1 id="ha-mountable">Ha! Mountable</h1>
-<p>The C922 has a screw hole for mounting onto a tripod. The tripod can be extended up to 18.5cm. Here&rsquo;s the closed tripod in three max lengths (with regards to the feet extensions).</p>
-<figure class="image">
-
-
-
-
-<figcaption><em>Logitech C922 Tripod Screw Hole and Lengths</em></figcaption>
-</figure>
-<br/>
-<p>The tripod, without and with the webcam.</p>
-<figure class="image">
-
-
-  <figcaption><em>Logitech C922 Tripod</em></figcaption>
-</figure>
-<br/>
-<p>The C922 also has a built-in microphone but most people, including me, advice to use an external mic instead.</p>
-<br/>
-<h1 id="logitech-capture">Logitech Capture</h1>
-<p>Upon connecting the webcam to my PC, Logitech prompted to install the companion software - Logitech Capture. The software is advanced enough for my needs - I can zoom and pan, flip the captured video horizontally and/or vertically, choose to prefer exposure or framerate, and most importantly the capture resolutions.</p>
-<figure class="image">
-
-  <figcaption><em>Logitech Capture Software</em></figcaption>
-</figure>
-<br/>
-<p>The software provides templates for typical sizes: FHD, 720p, and 360p; Portrait: 1080x1920, 720x1280, 360x640; and Squares: 1080x1080, 720x720, and 360x360.</p>
-<figure class="image">
-
-  <figcaption><em>Logitech Capture Software - Resolution Options</em></figcaption>
-</figure>
-<br/>
-<p>The software also allows you to add effects, text, etc with the Effects menu: Watermark, Text Overlay, Scene effects, Color borders, and Transitions for 2 scenes.</p>
-<figure class="image">
-
-  <figcaption><em>Logitech Capture Software - Effects Options</em></figcaption>
-</figure>
-<br/>
-<h1 id="minor-issues">Minor Issues</h1>
-<p>There are a couple of issues for me, the first one really makes me annoyed is that I cannot turn off the hotkeys for the software and I have a frameless monitor which mounting the camera is a pain in the a$$ to keep it from covering up the display - even for just a centimeter.</p>
-<figure class="image">
-
-  <figcaption><em>Mounting Issue on a Frameless Monitor</em></figcaption>
-</figure>
-<br/>
-<h1 id="its-great">It&rsquo;s Great!</h1>
-<p>Overall, I am happy with the C922 webcam - my loved ones can see me clearly during video calls. And I thank everybody for supporting me on my <a href="https://fb.gg/RedDavidGG/" target="_blank">stream</a>, visiting my website, and checking my Windows 10 apps.</p>
-<figure class="image">
-
-  <figcaption><em>Mounting is Just Right</em></figcaption>
-</figure>
-<br/>
-<p>To finish this blog post, let&rsquo;s all stay safe during the pandemic - and even after the pandemic.</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/logitech-c922.jpg" referrerpolicy="no-referrer">
             </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>
@@ -1232,63 +611,12 @@ div#gallery-2021 a {
 <br/>
 <p>To finish this blog post, let&rsquo;s all stay safe during the pandemic - and even after the pandemic.</p>
 ]]></description>
-   
 </item><item>
     <title>New Keeb in Town</title>
     <link>https://reddavid.me/new-keeb/</link>
     <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/new-keeb/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/tecware.jpg" referrerpolicy="no-referrer">
-            </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
-<p>I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.</p>
-<p>The G810 was a stay-at-home keyboard for my laptop and the G403 lives in the office. And guess what, both are defective with unresponsive and ghosting keys, respectively. I thought of delaying buying a new one for &ldquo;budget&rdquo; reasons but coding with keyboard issues is a definitely a pain in the ass with constant deleting doubling keys and characters. I am looking for several &ldquo;budget&rdquo; keyboards out there, including the TNC Icarus one with Cherry MXs but the delivery time was so bad that I had to settle down with this one.</p>
-<p>Coming from Logitech, I almost passed on this one for its &ldquo;gamer&rdquo; font which I don&rsquo;t think is <em>clean</em> for my desk, but my wallet said &ldquo;it&rsquo;s okay, you can live with that&rdquo;.</p>
-<p>I bought one with brown switches since the old ones I had had Romer-Gs with a &ldquo;mushy-tactile&rdquo; feel on keypress so I don&rsquo;t have to worry much about them on the long run.</p>
-</br>
-<h1>My thoughts</h1>
-<p>The box looks premium with minimal print of the logo and keyboard model on the center.</p>
-<figure class="image">
-
-  <figcaption><em>Keyboard box</em></figcaption>
-</figure>
-</br>
-<p>Inside the box was the keyboard wrapped in plastic? with a keyboard cover made of plastic again, on top. It also came with 4 extra switches and a switch puller.</p>
-<figure class="image">
-
-  <figcaption><em>Inside the box</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Extra switches with puller</em></figcaption>
-</figure>
-</br>
-<p>The keyboard has a TKL layout, with software-customizable RGB setting, and replaceable switches (modular). It costs php2,500, slightly costier than their Tecware Phantoms - I&rsquo;m yet to investigate why.</p>
-<figure class="image">
-
-  <figcaption><em>Tecware RGB software</em></figcaption>
-</figure>
-</br>
-<p>About the &ldquo;gamer&rdquo; font I hated, this game with a cleaner font. Surprised am I! Though the printing of the keycaps has the &ldquo;stencil&rdquo; cut beneath that the LED does not shine that much. Guess I&rsquo;m okay after all. Some function keys, has this cheap white printing that I fear them to get scraped off some time soon.</p>
-<figure class="image">
-
-  <figcaption><em>The keyboard itself</em></figcaption>
-</figure>
-</br>
-<p>The RGB lighting is good with bunch of built-in modes which can be visualized and edited using their software. Here&rsquo;s what it looks like in an unlit office desk.</p>
-<figure class="image">
-
-  <figcaption><em>RGB lighting in unlit room</em></figcaption>
-</figure>
-</br>
-<p>I went ahead for a typing test and got a 76wpm results with no mistyped words. But let&rsquo;s see how long this budget badboy keyboard lasts.</p>
-<p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
-<p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/tecware.jpg" referrerpolicy="no-referrer">
             </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
@@ -1337,42 +665,12 @@ div#gallery-2021 a {
 <p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
 <p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
 ]]></description>
-   
 </item><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddavid.me/zipcodeph-new-ui/</link>
     <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
-            </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
-Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.</p>
-<p>Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&rsquo;s App settings panel as seen <a href="https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style" target="_blank">here on his Dribbble post</a>.</p>
-<p>I started coding at once, cleaning up some codes on the app beginning with the UI. And came up with the final layout.</p>
-<p>Here are some screenshots of the updated app version 4.
-</br></p>
-<figure class="image">
-
-  <figcaption><em>version 4.0, clean and refreshed Fluent Design UI</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Favorites panel - Dark mode</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Search places - Light mode</em></figcaption>
-</figure>
-</br>
-<p>You can check the <em>free</em> app here in the Microsoft Store.
-</br>
-<a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
             </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
@@ -1400,27 +698,12 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 </br>
 <a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
 ]]></description>
-   
 </item><item>
     <title>Your Phone Tray V2</title>
     <link>https://reddavid.me/your-phone-tray-v2/</link>
     <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
-    <author>
-        David
-    </author>
+    <author>Author</author>
     <guid>https://reddavid.me/your-phone-tray-v2/</guid>
-    <content:encoded><![CDATA[<div class="featured-image">
-                <img src="/images/feat/your-phone.jpg" referrerpolicy="no-referrer">
-            </div><p>Your Phone Tray UWP app just got updated.</p>
-<p>Version 2.0 brings few UI changes, some improvements and a breaking change.</p>
-<h3 id="improvements">Improvements</h3>
-<p>To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
-</p>
-<p>You can also see a new menu item <strong>Enable Ctrl+Y Hotkey</strong>. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.</p>
-<h3 id="breaking-change">Breaking change</h3>
-<p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
-<p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
-]]></content:encoded>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/your-phone.jpg" referrerpolicy="no-referrer">
             </div><p>Your Phone Tray UWP app just got updated.</p>
@@ -1433,6 +716,5 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
 <p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
 ]]></description>
-   
 </item></channel>
 </rss>

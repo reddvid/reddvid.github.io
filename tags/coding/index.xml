@@ -3,15 +3,20 @@
         <title>Coding - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/coding/</link>
         <description>Coding - Tag - Red David | Coding, Tech, Gaming, and Music</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 14 Mar 2021 00:32:11 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/coding/" rel="self" type="application/rss+xml" /><item>
-    <title>ZIP Code PH for iOS</title>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/coding/" rel="self" type="application/rss+xml" /><item>
+    <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
-    <pubDate>Sun, 14 Mar 2021 00:32:11 &#43;0800</pubDate>
+    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
-            </div><h1 id="lets-go">Let&rsquo;s Go</h1>
+            </div><h1 id="update-now-available">Update: Now Available</h1>
+<p>You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.</p>
+<p>Get the app below: <br/>
+<a href="https://apps.apple.com/us/app/zip-code-ph/id1555921863?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
+<hr/>
+<h1 id="lets-go">Let&rsquo;s Go</h1>
 <p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
 <p>Using a Mac is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.</p>
 <p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
@@ -194,7 +199,8 @@ div#gallery-zipcodephios a {
         
     </a>
 </div>
-<h1 id="you-can-get-it-soon">You Can Get it Soon</h1>
+<h1 id="now-available-you-can-get-it-soon">(Now Available) You Can Get it Soon</h1>
+<p><a href="https://apple.co/3lrnrBO" target="_blank">Get the app</a></p>
 <p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
 <p>For the meantime, the app is still available for Android and Windows 10.</p>
 <p>You can check the blog posts here for the download links:

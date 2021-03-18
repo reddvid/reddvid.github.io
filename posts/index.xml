@@ -3,64 +3,35 @@
         <title>All Posts - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/posts/</link>
         <description>All Posts | Red David | Coding, Tech, Gaming, and Music</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Flutter Coding</title>
-    <link>https://reddavid.me/flutter-coding/</link>
-    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>App Landing Page for ZIP Code PH</title>
+    <link>https://reddavid.me/zipcodeph-applandingpage/</link>
+    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>https://reddavid.me/flutter-coding/</guid>
+    <guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/android-love-flutter.png" referrerpolicy="no-referrer">
-            </div><p>I&rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.</p>
-<p>As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.</p>
-<p>Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &ldquo;native world&rdquo;.</p>
-<h1 id="android-and-bad-java-code">Android and Bad (Java) Code</h1>
-<p>The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.</p>
-<p>To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.</p>
-<p>Ever since March started, I started reading about Flutter and did some basic UI.</p>
-<p>But first, let me tell you how I installed Flutter on Windows.</p>
-<h1 id="pre-installation-pre-requisites">Pre-installation (Pre-requisites?)</h1>
-<ul>
-<li>Make sure you have Git on your device. I installed Git for Windows</li>
-<li>I&rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.</li>
-<li>Some Android SDKs and;</li>
-<li>Google Chrome browser.</li>
-</ul>
-<h1 id="installation">Installation</h1>
-<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of  <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
-<p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
-<p>Ran <code>flutter doctor</code> until all requirements are check out</p>
-<h1 id="ide-wait">IDE, wait&hellip;</h1>
-<p>My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.</p>
-<p>Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!</p>
-<p>Even though <code>flutter doctor</code> checked everything, I was disappointed that I can&rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.</p>
-<figure class="image">
-
-<figcaption><em>New Flutter Project</em></figcaption>
-</figure>
-<br/>
-<p>Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.</p>
-<p>Coming from XAML, where everything seems &ldquo;as is&rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅</p>
-<figure class="image">
-
-<figcaption><em>Flutter UI Code</em></figcaption>
-</figure>
-<br/>
-<h1 id="beginning">Beginning</h1>
-<p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
-<p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
-<p>Ever since  February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
-<p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
+                <img src="/images/feat/zipcodeph-applanding.png" referrerpolicy="no-referrer">
+            </div><p>Now that ZIP Code PH is available for both Android and iOS, I wanted to build a landing page for it.</p>
+<h1 id="inspiration">Inspiration</h1>
+<p>I viewed some designs online and found inspiration from <a href="https://get-thrive.app/" target="_blank">Thrive</a>, which I never heard of - thanks anyway!</p>
+<h1 id="launch-and-land">Launch and Land</h1>
+<p>The webpage is available <a href="https://reddavid.me/zipcodeph-app" target="_blank">HERE</a>. The page is still a link to my website but will soon acquire a domain for it soon. Also, the page is still a basic design but complete with the download links, which I will improve soon.</p>
+<p>Will keep you updated!</p>
 ]]></description>
 </item><item>
-    <title>ZIP Code PH for iOS</title>
+    <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
-    <pubDate>Sun, 14 Mar 2021 00:32:11 &#43;0800</pubDate>
+    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate>
     <author>Author</author>
     <guid>https://reddavid.me/zipcodeph-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
-            </div><h1 id="lets-go">Let&rsquo;s Go</h1>
+            </div><h1 id="update-now-available">Update: Now Available</h1>
+<p>You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.</p>
+<p>Get the app below: <br/>
+<a href="https://apps.apple.com/us/app/zip-code-ph/id1555921863?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
+<hr/>
+<h1 id="lets-go">Let&rsquo;s Go</h1>
 <p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
 <p>Using a Mac is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.</p>
 <p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
@@ -243,7 +214,8 @@ div#gallery-zipcodephios a {
         
     </a>
 </div>
-<h1 id="you-can-get-it-soon">You Can Get it Soon</h1>
+<h1 id="now-available-you-can-get-it-soon">(Now Available) You Can Get it Soon</h1>
+<p><a href="https://apple.co/3lrnrBO" target="_blank">Get the app</a></p>
 <p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
 <p>For the meantime, the app is still available for Android and Windows 10.</p>
 <p>You can check the blog posts here for the download links:
@@ -252,6 +224,81 @@ div#gallery-zipcodephios a {
 </a>
 <br/>
 <a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
+]]></description>
+</item><item>
+    <title>Upgrade! Samsung 970 EVO Plus</title>
+    <link>https://reddavid.me/samsung-evo/</link>
+    <pubDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/samsung-evo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/970-evo-plus.webp" referrerpolicy="no-referrer">
+            </div><p>Here we go again folks! Another PC upgrade, this time we take our storage to the next level.</p>
+<h1 id="top-player">Top Player</h1>
+<p>I just bought a Samsung 970 EVO Plus, 1TB for my &ldquo;coding needs&rdquo;. I recently experience a throttle while using my current XPG 500GB - I have been using some Virtual Machines lately to test out some things, and the SSD space gets loaded up quickly.</p>
+<p>The SSD costs me around US$100 and failed to get a cheaper one since I am not paying the whole price - again, I got this for credit. 😅</p>
+<h1 id="samsung-why">Samsung, why?</h1>
+<p>Samsung has been the top brand for SSDs and I can say this myself since personally, I used an 860 EVO in the past for my laptop. And even though my current XPG SSD does it&rsquo;s job, I needed an storage upgrade and it&rsquo;s time to get this one.</p>
+<p>The technical specs and comparison is available in the internet which you can visit on PCWorld, <a href="https://www.pcworld.com/article/3334876/samsung-970-evo-plus-review-samsungs-entry-level-nvme-ssd-is-faster-and-cheaper.html" target="_blank" rel="noopener noreferrer">Samsung 970 EVO Plus review</a></p>
+<h1 id="take-a-look">Take a Look</h1>
+<p>I forgot to take pictures to avoid the SSD from picking up some static from my desk mat. But I did take a picture of the box before installing it on the system.</p>
+<figure class="image">
+
+<figcaption><em>Samsung 970 EVO Plus</em></figcaption>
+
+<figcaption><em>Taskbar</em></figcaption>
+</figure>
+<br/>
+<p>This is not to flaunt the things I have, I&rsquo;m just trying to share my thoughts and share which can help my daily activities like coding, and file and graphics processing.</p>
+]]></description>
+</item><item>
+    <title>Flutter Coding</title>
+    <link>https://reddavid.me/flutter-coding/</link>
+    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/flutter-coding/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/android-love-flutter.png" referrerpolicy="no-referrer">
+            </div><p>I&rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.</p>
+<p>As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.</p>
+<p>Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &ldquo;native world&rdquo;.</p>
+<h1 id="android-and-bad-java-code">Android and Bad (Java) Code</h1>
+<p>The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.</p>
+<p>To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.</p>
+<p>Ever since March started, I started reading about Flutter and did some basic UI.</p>
+<p>But first, let me tell you how I installed Flutter on Windows.</p>
+<h1 id="pre-installation-pre-requisites">Pre-installation (Pre-requisites?)</h1>
+<ul>
+<li>Make sure you have Git on your device. I installed Git for Windows</li>
+<li>I&rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.</li>
+<li>Some Android SDKs and;</li>
+<li>Google Chrome browser.</li>
+</ul>
+<h1 id="installation">Installation</h1>
+<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of  <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
+<p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
+<p>Ran <code>flutter doctor</code> until all requirements are check out</p>
+<h1 id="ide-wait">IDE, wait&hellip;</h1>
+<p>My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.</p>
+<p>Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!</p>
+<p>Even though <code>flutter doctor</code> checked everything, I was disappointed that I can&rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.</p>
+<figure class="image">
+
+<figcaption><em>New Flutter Project</em></figcaption>
+</figure>
+<br/>
+<p>Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.</p>
+<p>Coming from XAML, where everything seems &ldquo;as is&rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅</p>
+<figure class="image">
+
+<figcaption><em>Flutter UI Code</em></figcaption>
+</figure>
+<br/>
+<h1 id="beginning">Beginning</h1>
+<p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
+<p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
+<p>Ever since  February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
+<p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
 ]]></description>
 </item><item>
     <title>Tune In RPN Radio Update</title>
@@ -657,93 +704,6 @@ div#gallery-2021 a {
 </figure>
 <br/>
 <p>To finish this blog post, let&rsquo;s all stay safe during the pandemic - and even after the pandemic.</p>
-]]></description>
-</item><item>
-    <title>New Keeb in Town</title>
-    <link>https://reddavid.me/new-keeb/</link>
-    <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/new-keeb/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/tecware.jpg" referrerpolicy="no-referrer">
-            </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
-<p>I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.</p>
-<p>The G810 was a stay-at-home keyboard for my laptop and the G403 lives in the office. And guess what, both are defective with unresponsive and ghosting keys, respectively. I thought of delaying buying a new one for &ldquo;budget&rdquo; reasons but coding with keyboard issues is a definitely a pain in the ass with constant deleting doubling keys and characters. I am looking for several &ldquo;budget&rdquo; keyboards out there, including the TNC Icarus one with Cherry MXs but the delivery time was so bad that I had to settle down with this one.</p>
-<p>Coming from Logitech, I almost passed on this one for its &ldquo;gamer&rdquo; font which I don&rsquo;t think is <em>clean</em> for my desk, but my wallet said &ldquo;it&rsquo;s okay, you can live with that&rdquo;.</p>
-<p>I bought one with brown switches since the old ones I had had Romer-Gs with a &ldquo;mushy-tactile&rdquo; feel on keypress so I don&rsquo;t have to worry much about them on the long run.</p>
-</br>
-<h1>My thoughts</h1>
-<p>The box looks premium with minimal print of the logo and keyboard model on the center.</p>
-<figure class="image">
-
-  <figcaption><em>Keyboard box</em></figcaption>
-</figure>
-</br>
-<p>Inside the box was the keyboard wrapped in plastic? with a keyboard cover made of plastic again, on top. It also came with 4 extra switches and a switch puller.</p>
-<figure class="image">
-
-  <figcaption><em>Inside the box</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Extra switches with puller</em></figcaption>
-</figure>
-</br>
-<p>The keyboard has a TKL layout, with software-customizable RGB setting, and replaceable switches (modular). It costs php2,500, slightly costier than their Tecware Phantoms - I&rsquo;m yet to investigate why.</p>
-<figure class="image">
-
-  <figcaption><em>Tecware RGB software</em></figcaption>
-</figure>
-</br>
-<p>About the &ldquo;gamer&rdquo; font I hated, this game with a cleaner font. Surprised am I! Though the printing of the keycaps has the &ldquo;stencil&rdquo; cut beneath that the LED does not shine that much. Guess I&rsquo;m okay after all. Some function keys, has this cheap white printing that I fear them to get scraped off some time soon.</p>
-<figure class="image">
-
-  <figcaption><em>The keyboard itself</em></figcaption>
-</figure>
-</br>
-<p>The RGB lighting is good with bunch of built-in modes which can be visualized and edited using their software. Here&rsquo;s what it looks like in an unlit office desk.</p>
-<figure class="image">
-
-  <figcaption><em>RGB lighting in unlit room</em></figcaption>
-</figure>
-</br>
-<p>I went ahead for a typing test and got a 76wpm results with no mistyped words. But let&rsquo;s see how long this budget badboy keyboard lasts.</p>
-<p>That&rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.</p>
-<p>Also, my apps are still available in the <a href="ms-windows-store:publisher?name=Red David" target="_blank">Microsoft Store</a> and some in the <a href="https://play.google.com/store/apps/dev?id=5465762079490576029" target="_blank">Google Play Store</a>, where I mostly get my funds for buying these stuff. You can always check them out, they&rsquo;re free to download and use, you don&rsquo;t have to buy or pay the the listed price - unless you want to.</p>
-]]></description>
-</item><item>
-    <title>ZIP Code PH Gets Refreshed UI</title>
-    <link>https://reddavid.me/zipcodeph-new-ui/</link>
-    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
-            </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
-Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.</p>
-<p>Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&rsquo;s App settings panel as seen <a href="https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style" target="_blank">here on his Dribbble post</a>.</p>
-<p>I started coding at once, cleaning up some codes on the app beginning with the UI. And came up with the final layout.</p>
-<p>Here are some screenshots of the updated app version 4.
-</br></p>
-<figure class="image">
-
-  <figcaption><em>version 4.0, clean and refreshed Fluent Design UI</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Favorites panel - Dark mode</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Search places - Light mode</em></figcaption>
-</figure>
-</br>
-<p>You can check the <em>free</em> app here in the Microsoft Store.
-</br>
-<a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
 ]]></description>
 </item></channel>
 </rss>

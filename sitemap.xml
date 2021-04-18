@@ -2,14 +2,22 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://reddavid.me/categories/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/facebook/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/facebook-gaming/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/gaming/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/minecraft/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/posts/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/shockbyte/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/smp/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/stories/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/minecraft-smp-season-2/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/</loc><lastmod>2021-04-18T02:52:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/categories/app-development/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/tags/app-landing-page/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/zipcodeph-applandingpage/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/tags/apps/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://reddavid.me/categories/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://reddavid.me/posts/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://reddavid.me/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://reddavid.me/tags/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/tags/web-design/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/categories/web-development/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/tags/website/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
@@ -25,7 +33,6 @@
             <loc>https://reddavid.me/tags/samsung/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/tags/samsung-970-evo-plus/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/tags/ssd/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://reddavid.me/categories/stories/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/categories/tech/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/samsung-evo/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/tags/android/</loc><lastmod>2021-03-15T22:06:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
@@ -61,7 +68,6 @@
             <loc>https://reddavid.me/tags/uwp/</loc><lastmod>2020-08-16T22:02:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/zipcodeph-new-ui/</loc><lastmod>2020-08-16T22:02:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/your-phone-tray-v2/</loc><lastmod>2020-07-08T21:18:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddavid.me/tags/gaming/</loc><lastmod>2020-07-06T23:42:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/g304-review/</loc><lastmod>2020-07-06T23:42:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/categories/reviews/</loc><lastmod>2020-07-06T23:42:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/electronics/</loc><lastmod>2020-07-01T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

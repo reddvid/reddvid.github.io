@@ -14,6 +14,7 @@
     <li>Jairus Gabres</li>
     <li>Daryl Noguera</li>
     <li>Kent Jasper Wong</li>
+    <li>Emmanuel James Tiongco</li>
 </ul>
 
 <p style="margin-top: 50px;">Follow me on <a href="https://fb.gg/RedDavidGG/" target="_blank">Facebook Gaming</a> to watch gameplay, send stars, and be a part of the Star Senders Wall.</p>

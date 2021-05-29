@@ -40,7 +40,7 @@ Ok, this area will look crammed especially on small-screen devices. Before this 
 </figure>
 <br/>
 
-I also changed the text which shows the current stations into a simpler one and updated the share icon.
+I also changed the text that shows the current stations into a simpler one and updated the share icon.
 
 ## New Font
 

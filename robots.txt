@@ -1,9 +1,6 @@
-User-agent: Twitterbot
-Disallow: 
-
 User-agent: *
 
-# Disallow: /images/
+Disallow: /images/
 Disallow: /js/
 Disallow: /css/
 
@@ -63,5 +60,12 @@ Disallow: /
 
 User-agent: ZoominfoBot
 Disallow: /
+
+# Certain social media sites are whitelisted to allow crawlers to access page markup when links to /images are shared. 
+User-agent: Twitterbot
+Allow: /images
+
+User-agent: facebookexternalhit
+Allow: /images
 
 Sitemap: https://reddavid.me/sitemap.xml

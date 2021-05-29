@@ -3,7 +3,66 @@
         <title>Apps - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/apps/</link>
         <description>Apps - Tag - Red David | Coding, Tech, Gaming, and Music</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/apps/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 May 2021 00:15:36 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/apps/" rel="self" type="application/rss+xml" /><item>
+    <title>RPN Radio UI Overhaul</title>
+    <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
+    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/rpnradio-ui.jpeg" referrerpolicy="no-referrer">
+            </div><p>Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.</p>
+<h1 id="old-look">Old Look</h1>
+<p>Let&rsquo;s take a look at what the app looked like before the update:</p>
+<figure class="image">
+
+
+<figcaption><em>Old UI</em></figcaption>
+</figure>
+<br/>
+<p>Though it looked intuitive - with just two simple steps: 1) Launch app, 2) Select station and Listen; the main page does not give the user context on what the app does, which raise this question:</p>
+<p><strong><em>What am I supposed to do?</em></strong></p>
+<h2 id="menu-list">Menu List</h2>
+<p>At first glance of a first-time user, the stations list does NOT show that it is &ldquo;clickable&rdquo;. So the first UI update was to change the 4x3 grid to a simple list.</p>
+<figure class="image">
+
+<figcaption><em>Header & Controls Before and After</em></figcaption>
+</figure>
+<br/>
+<p>This subtle change provides the user a hint of &ldquo;click me&rdquo; by giving the list item a design of a button. It also gave a space for the station&rsquo;s detail to be added - station&rsquo;s location and live/offline status.</p>
+<h2 id="header-and-controls">Header and Controls</h2>
+<p>Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.</p>
+<figure class="image">
+
+<figcaption><em>Menu Item Before and After</em></figcaption>
+</figure>
+<br/>
+<p>I also changed the text which shows the current stations into a simpler one and updated the share icon.</p>
+<h2 id="new-font">New Font</h2>
+<p>I like <a href="https://fonts.google.com/specimen/Poppins" target="_blank" rel="noopener noreferrer">Poppins</a>.
+<br></p>
+<h1 id="about">About</h1>
+<p>Besides the UI updates mentioned above, I added an &ldquo;About&rdquo; page. It is a simple about and external links of RPN.</p>
+<figure class="image">
+
+<figcaption><em>About page</em></figcaption>
+</figure>
+<br/>
+<h1 id="roadmap">Roadmap</h1>
+<p>These are my to-do list for the app, which we will see soon on future updates:</p>
+<ul>
+<li>No internet connection status</li>
+<li>Bottom player controls (Priority)</li>
+<li>App-aware sharing</li>
+<li>Rate and review prompt</li>
+<li>Links to station email/messaging</li>
+</ul>
+<h1 id="downloads">Downloads</h1>
+<p>As always, the app is still available for Android and (REALLY) soon for iOS.</p>
+<p>Google Play Store: <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1" target="_blank" rel="noopener noreferrer">https://play.google.com/store/apps/details?id=com.rpnradio.radiov1</a></p>
+<p>Huawei App Gallery: <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank" rel="noopener noreferrer">https://appgallery.huawei.com/#/app/C103076031</a></p>
+]]></description>
+</item><item>
     <title>App Landing Page for ZIP Code PH</title>
     <link>https://reddavid.me/zipcodeph-applandingpage/</link>
     <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate>
@@ -288,17 +347,6 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p></p>
 <p></p>
 <p>You can <a href="https://www.microsoft.com/en-us/p/rf-tools/9nblggh41btt" target="_blank">download the app here</a></p>
-]]></description>
-</item><item>
-    <title>RPN News &amp; Radio Gets a New UI</title>
-    <link>https://reddavid.me/new-ui-rpnradio/</link>
-    <pubDate>Thu, 14 Mar 2019 15:28:37 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/new-ui-rpnradio/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/rpn-newui.jpg" referrerpolicy="no-referrer">
-            </div><p>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.</p>
-<p><a href="https://www.microsoft.com/en-ph/p/rpn-news-radio/9phl469c0z20?rtc=1" target="_blank">You can download RPN News &amp; Radio for Windows 10 app here</a></p>
 ]]></description>
 </item></channel>
 </rss>

@@ -38,8 +38,8 @@
 </style>
 
 <ul id="list">
-<li><a href="https://reddavid.me/zipcodeph-app/">ZIP Code PH</a></li>
-<li><a href="https://www.fb.gg/RedDavidGG">Help me reach 1K Followers on Facebook Gaming</a></li>
+<li><a href="https://reddavid.me/zipcodeph-app/">ZIP Code PH for Android/iOS</a></li>
+<li><a href="https://www.fb.gg/RedDavidGG">Join me on Facebook Gaming</a></li>
 <li><a href="https://www.microsoft.com/store/productid/9nblggh5gft6">ZIP Code PH for Windows 10</a></li>
 <li><a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">RPN Radio for Android</a></li>
 <li><a href="https://www.microsoft.com/store/productid/9PHL469C0Z20">RPN News & Radio for Windows 10</a></li>

@@ -424,6 +424,35 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
 ]]></description>
 </item><item>
+    <title>Developing for Apple Soon</title>
+    <link>https://reddavid.me/developing-for-apple-soon/</link>
+    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/developing-for-apple-soon/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
+            </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
+<p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
+<p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
+<figure class="image">
+
+<figcaption><em>Yellow iPhone 11</em></figcaption>
+</figure>
+<br/>
+<h1 id="developing-for-ios-soon">Developing for iOS soon</h1>
+<p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
+<p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
+<figure class="image">
+
+<figcaption><em>iOS 14 App Library (is that TikTok? 😅)</em></figcaption>
+</figure>
+<br/>
+<p>So, to test things out, I would be putting my app <a href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
+<h1 id="for-the-meantime">For the meantime&hellip;</h1>
+<p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
+<p>See you soon!</p>
+]]></description>
+</item><item>
     <title>ZIP Code PH for Android gets Dark Mode</title>
     <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
     <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
@@ -544,18 +573,6 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <h3 id="breaking-change">Breaking change</h3>
 <p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
 <p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
-]]></description>
-</item><item>
-    <title>Rebuilding Website with Hugo</title>
-    <link>https://reddavid.me/rebuilding-website-to-hugo/</link>
-    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/hugo.png" referrerpolicy="no-referrer">
-            </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
-<p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
-<p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
 ]]></description>
 </item></channel>
 </rss>

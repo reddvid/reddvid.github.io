@@ -1,8 +1,6 @@
 # Finally! Logitech C922
 
 
-
-
 Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.
 
 Honestly, I bought the camera in a slightly higher price due to the model being out of stock in major stores and just got from a "hoarder" in Facebook marketplace. :) Harsh but true.
@@ -13,7 +11,7 @@ Let's get into my short blog/review/impression about this industry-standard in s
 
 # Wait
 
-You might ask, why only now? At first, I never really thought of having a good webcam as a small streamer, and I also have this app on my Android phone which makes my Nokia 7 Plus pose as a webcam. Then, I wanted the camera to be positioned well, so I bought a cheaper Logitech, the C270. 
+You might ask, why only now? At first, I never really thought of having a good webcam as a small streamer, and I also have this app on my Android phone which makes my Nokia 7 Plus pose as a webcam. Then, I wanted the camera to be positioned well, so I bought a cheaper Logitech, the C270.
 
 <figure class="image">
 <img src="/images/10-20/c922/logitech_c270.jpg" width="80%" alt="Logitech C270 Webcam">
@@ -27,7 +25,7 @@ The C270 suited my needs - stream just now and then, and it's just right for vid
 
 # Let's See (922) It
 
-I opened a brand new Logitech C922 way way before but it wasn't mine, so I already know the contents (alibi for not having pictures after unboxing 😂). And I also tried the unit itself so I knew the quality it brings. 
+I opened a brand new Logitech C922 way way before but it wasn't mine, so I already know the contents (alibi for not having pictures after unboxing 😂). And I also tried the unit itself so I knew the quality it brings.
 
 The box contains the C922 camera, a table-top tripod, manuals and a sheet containing the free 3-month XSplit Premium codes (Again, sorry for not having pictures).
 
@@ -40,9 +38,10 @@ The box contains the C922 camera, a table-top tripod, manuals and a sheet contai
 # Quick (marketing) specs
 
 I won't dive deep into the webcam's specifications like weight and dimensions but here are the common "marketing" specs that will actually make you consider buying one:
+
 - Capture 1080p @ 30fps, or
 - 720p @ 60fps
-- Auto focus 
+- Auto focus
 - Wide Field of View
 - Advanced camera software
 
@@ -70,7 +69,7 @@ The tripod, without and with the webcam.
 </figure>
 <br/>
 
-The C922 also has a built-in microphone but most people, including me, advice to use an external mic instead. 
+The C922 also has a built-in microphone but most people, including me, advice to use an external mic instead.
 
 <br/>
 
@@ -111,6 +110,7 @@ There are a couple of issues for me, the first one really makes me annoyed is th
 <br/>
 
 # It's Great!
+
 Overall, I am happy with the C922 webcam - my loved ones can see me clearly during video calls. And I thank everybody for supporting me on my <a href="https://fb.gg/RedDavidGG/" target="_blank">stream</a>, visiting my website, and checking my Windows 10 apps.
 
 <figure class="image">
@@ -120,5 +120,4 @@ Overall, I am happy with the C922 webcam - my loved ones can see me clearly duri
 <br/>
 
 To finish this blog post, let's all stay safe during the pandemic - and even after the pandemic.
-
 

@@ -24,7 +24,7 @@ At first glance of a first-time user, the stations list does NOT show that it is
 
 <figure class="image">
 <img src="/images/05-21/rpnradio-newui/menu-list-bna.png" alt="RPN Radio Stations" style="display: inline; width: 90%;">
-<figcaption><em>Header & Controls Before and After</em></figcaption>
+<figcaption><em>Station Menu Item Before and After</em></figcaption>
 </figure>
 <br/>
 
@@ -36,7 +36,7 @@ Ok, this area will look crammed especially on small-screen devices. Before this 
 
 <figure class="image">
 <img src="/images/05-21/rpnradio-newui/head-controls-bna.png" alt="RPN Radio Stations" style="display: inline; width: 90%;">
-<figcaption><em>Menu Item Before and After</em></figcaption>
+<figcaption><em>Header & Controls Before and After</em></figcaption>
 </figure>
 <br/>
 

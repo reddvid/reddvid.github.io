@@ -29,3 +29,4 @@ I forgot to take pictures to avoid the SSD from picking up some static from my d
 <br/>
 
 This is not to flaunt the things I have, I'm just trying to share my thoughts and share which can help my daily activities like coding, and file and graphics processing.
+

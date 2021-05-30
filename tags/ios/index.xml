@@ -105,7 +105,7 @@
                     <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
                     <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
                     <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
-                
+
                 <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
                     <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
                         <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
@@ -121,7 +121,7 @@
         <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
             <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
         <span class="p">}</span>
-    
+
     <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
         <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
             <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>

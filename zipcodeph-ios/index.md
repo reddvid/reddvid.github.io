@@ -2,6 +2,7 @@
 
 
 # Update: Now Available
+
 You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I'm still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.
 
 Get the app below: <br/>
@@ -65,7 +66,7 @@ HStack {
                     .foregroundColor(.gray)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 8)
-                
+
                 if isEditing && !self.text.isEmpty {
                     Button(action: {
                         self.text = ""
@@ -81,7 +82,7 @@ HStack {
         .onTapGesture {
             self.isEditing = true
         }
-    
+
     if isEditing {
         Button(action: {
             print(self.$text)
@@ -109,6 +110,7 @@ HStack {
 I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅
 
 ## Menu and Area List Page
+
 After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4
 
 <figure class="image">
@@ -118,10 +120,10 @@ After understanding the filtering code while developing the Search Page, it is t
 <br/>
 
 ## Favorites
+
 Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.
 
 After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)
-
 
 <video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
   <source src="/videos/03-21/zipcodeph-ios/favorite.mp4" type="video/mp4">
@@ -129,7 +131,9 @@ After more than a week of mind-bending development, I made it to work with the h
 <br/>
 
 # Showcase
+
 Below are the app showcase which you can see on the App Store as soon as the app is available
+
 <style>
 
 div#gallery-zipcodephios {
@@ -156,6 +160,7 @@ div#gallery-zipcodephios a {
 </div>
 
 # (Now Available) You Can Get it Soon
+
 <a href="https://apple.co/3lrnrBO" target="_blank">Get the app</a>
 
 The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.
@@ -168,3 +173,4 @@ You can check the blog posts here for the download links:
 </a>
 <br/>
 <a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a>
+

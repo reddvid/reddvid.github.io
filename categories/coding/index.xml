@@ -26,7 +26,7 @@
 <p>At first glance of a first-time user, the stations list does NOT show that it is &ldquo;clickable&rdquo;. So the first UI update was to change the 4x3 grid to a simple list.</p>
 <figure class="image">
 
-<figcaption><em>Header & Controls Before and After</em></figcaption>
+<figcaption><em>Station Menu Item Before and After</em></figcaption>
 </figure>
 <br/>
 <p>This subtle change provides the user a hint of &ldquo;click me&rdquo; by giving the list item a design of a button. It also gave a space for the station&rsquo;s detail to be added - station&rsquo;s location and live/offline status.</p>
@@ -34,7 +34,7 @@
 <p>Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.</p>
 <figure class="image">
 
-<figcaption><em>Menu Item Before and After</em></figcaption>
+<figcaption><em>Header & Controls Before and After</em></figcaption>
 </figure>
 <br/>
 <p>I also changed the text that shows the current stations into a simpler one and updated the share icon.</p>
@@ -63,6 +63,228 @@
 <p>Huawei App Gallery: <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank" rel="noopener noreferrer">https://appgallery.huawei.com/#/app/C103076031</a></p>
 ]]></description>
 </item><item>
+    <title>App Landing Page for ZIP Code PH</title>
+    <link>https://reddavid.me/zipcodeph-applandingpage/</link>
+    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/zipcodeph-applanding.png" referrerpolicy="no-referrer">
+            </div><p>Now that ZIP Code PH is available for both Android and iOS, I wanted to build a landing page for it.</p>
+<h1 id="inspiration">Inspiration</h1>
+<p>I viewed some designs online and found inspiration from <a href="https://get-thrive.app/" target="_blank">Thrive</a>, which I never heard of - thanks anyway!</p>
+<h1 id="launch-and-land">Launch and Land</h1>
+<p>The webpage is available <a href="https://reddavid.me/zipcodeph-app" target="_blank">HERE</a>. The page is still a link to my website but will soon acquire a domain for it soon. Also, the page is still a basic design but complete with the download links, which I will improve soon.</p>
+<p>Will keep you updated!</p>
+]]></description>
+</item><item>
+    <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
+    <link>https://reddavid.me/zipcodeph-ios/</link>
+    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-ios/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
+            </div><h1 id="update-now-available">Update: Now Available</h1>
+<p>You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.</p>
+<p>Get the app below: <br/>
+<a href="https://apps.apple.com/us/app/zip-code-ph/id1555921863?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
+<hr/>
+<h1 id="lets-go">Let&rsquo;s Go</h1>
+<p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
+<p>Using a Mac is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.</p>
+<p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
+<h1 id="development">Development</h1>
+<h2 id="main-and-about-page">Main and About Page</h2>
+<p>I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&rsquo;t consume a lot of code-behind.</p>
+<p>The Main Page took a lot of iterations but below is the final view (as of this writing):</p>
+<figure class="image">
+
+<figcaption><em>Main Page</em></figcaption>
+</figure>
+<br/>
+<p>The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks <a href="https://unsplash.com/" target="_blank">Unsplash!</a>)</p>
+<figure class="image">
+
+
+<figcaption><em>Help & About Page</em></figcaption>
+</figure>
+<br/>
+<h2 id="search-page">Search Page</h2>
+<p>Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.</p>
+<p>I didn&rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:</p>
+<figure class="image">
+
+<figcaption><em>iOS Search Bar</em></figcaption>
+</figure>
+<br/>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
+    <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">background</span><span class="p">(</span><span class="n">Color</span><span class="p">(.</span><span class="n">systemGray6</span><span class="p">))</span>
+        <span class="p">.</span><span class="n">cornerRadius</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">overlay</span><span class="p">(</span>
+            <span class="n">HStack</span> <span class="p">{</span>
+                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;magnifyingglass&#34;</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
+                    <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+
+                <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
+                    <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+                    <span class="p">})</span> <span class="p">{</span>
+                        <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;multiply.circle.fill&#34;</span><span class="p">)</span>
+                            <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+                            <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
+        <span class="p">}</span>
+
+    <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
+        <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+            <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">false</span>
+            <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+            <span class="c1">// Dismiss the keyboard</span>
+            <span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">sendAction</span><span class="p">(</span><span class="k">#selector</span><span class="p">(</span><span class="n">UIResponder</span><span class="p">.</span><span class="n">resignFirstResponder</span><span class="p">),</span> <span class="n">to</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">from</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="k">for</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+        <span class="p">})</span> <span class="p">{</span>
+            <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Cancel&#34;</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+        <span class="p">.</span><span class="n">transition</span><span class="p">(.</span><span class="n">move</span><span class="p">(</span><span class="n">edge</span><span class="p">:</span> <span class="p">.</span><span class="n">trailing</span><span class="p">))</span>
+        <span class="p">.</span><span class="n">animation</span><span class="p">(.</span><span class="n">easeInOut</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><br/>
+<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
+  <source src="/videos/03-21/zipcodeph-ios/searchpage.mp4" type="video/mp4">
+</video>
+<br/>
+<p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
+<h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
+<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
+<figure class="image">
+
+<figcaption><em>City and Area Pages</em></figcaption>
+</figure>
+<br/>
+<h2 id="favorites">Favorites</h2>
+<p>Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.</p>
+<p>After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)</p>
+<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
+  <source src="/videos/03-21/zipcodeph-ios/favorite.mp4" type="video/mp4">
+</video>
+<br/>
+<h1 id="showcase">Showcase</h1>
+<p>Below are the app showcase which you can see on the App Store as soon as the app is available</p>
+<style>
+
+div#gallery-zipcodephios {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#gallery-zipcodephios a {
+  width: 20%;
+  margin: 5px;
+}
+
+</style>
+<div id="gallery-zipcodephios">
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Favorites Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Search Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Trivias" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="NCR and Luzon" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Visayas" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
+        
+    </a>
+<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Mindanao" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
+        
+    </a>
+</div>
+<h1 id="now-available-you-can-get-it-soon">(Now Available) You Can Get it Soon</h1>
+<p><a href="https://apple.co/3lrnrBO" target="_blank">Get the app</a></p>
+<p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
+<p>For the meantime, the app is still available for Android and Windows 10.</p>
+<p>You can check the blog posts here for the download links:
+<br/>
+<a href="/zipcodeph-android-dark-mode/">ZIP Code PH for Android gets Dark Mode
+</a>
+<br/>
+<a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
+]]></description>
+</item><item>
     <title>Flutter Coding</title>
     <link>https://reddavid.me/flutter-coding/</link>
     <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
@@ -86,7 +308,7 @@
 <li>Google Chrome browser.</li>
 </ul>
 <h1 id="installation">Installation</h1>
-<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of  <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
+<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
 <p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
 <p>Ran <code>flutter doctor</code> until all requirements are check out</p>
 <h1 id="ide-wait">IDE, wait&hellip;</h1>
@@ -108,7 +330,7 @@
 <h1 id="beginning">Beginning</h1>
 <p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
 <p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
-<p>Ever since  February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
+<p>Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
 <p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
 ]]></description>
 </item><item>
@@ -202,6 +424,77 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
 ]]></description>
 </item><item>
+    <title>ZIP Code PH for Android gets Dark Mode</title>
+    <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
+    <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/zipcodeph-android.png" referrerpolicy="no-referrer">
+            </div><h1 id="the-pandemic-and-night-owls">The Pandemic and Night Owls</h1>
+<p>My app, ZIP Code PH, has been available on Google Play Store for more than a year now and because of the pandemic, more and more people are staying at home and are mostly <a href="https://en.wikipedia.org/wiki/Night_owl_(person)">night-owls</a>.</p>
+<p>And app and software developers are now giving their projects dark mode - not just to follow accessibility standards but offer an option for people to reduce or avoid eye strain.</p>
+<h1 id="heres-dark-mode-for-ya">Here&rsquo;s Dark Mode for ya</h1>
+<p>So here I am, picking up again on coding (for my apps) and started giving some apps a dark flavor. It almost took me a month to develop and test since available Xamarin Forms documentation didn&rsquo;t suit my liking.</p>
+<h1 id="quick-app-features">Quick App Features</h1>
+<ul>
+<li>Toggle light and dark mode</li>
+<li>Quick search Philippine ZIP codes</li>
+<li>Favorite (Bookmark) selected ZIP codes for easy reference</li>
+</ul>
+<h1 id="screenshots">Screenshots</h1>
+<p>See for yourself the light and dark mode for the app below.</p>
+<figure class="image">
+
+<span style="margin: 0 10px"></span>
+
+<figcaption><em>ZIP Code PH - Main Menu</em></figcaption>
+</figure>
+<br/>
+<figure class="image">
+
+<span style="margin: 0 10px"></span>
+
+<figcaption><em>ZIP Code PH - List</em></figcaption>
+</figure>
+<br/>
+<p>I chose <code>#222222</code> as the background color for darkmode so it is easier in the eyes (at least for me and some design posts I read somewhere). If someone requests an option for a darker color, I&rsquo;d be glad to add it. (Themes, maybe? 🤔)</p>
+<h1 id="make-me-happy">Make me happy</h1>
+<p>Yes, please. Make me happy by downloading the app, write a review and give a rating of 5 stars. The app is available for Android, on <a href="https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103245343">Huawei App Gallery.</a></p>
+<p>It is free to download, I hope you welcome ads that earns a me a little. Thank you and until next app!</p>
+<p><a href='https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'></a></p>
+<h1 id="looking-for-a-windows-10-version">Looking for a Windows 10 version?</h1>
+<p>Check out <a href="/zipcodeph-new-ui/">this old blog post</a> about the Windows 10 app.</p>
+]]></description>
+</item><item>
+    <title>RPN Radio: Streaming App for Android</title>
+    <link>https://reddavid.me/rpnradio-android/</link>
+    <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-android/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/rpnradio.png" referrerpolicy="no-referrer">
+            </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
+<h1 id="am-radio-in-your-pocket">AM Radio in your Pocket</h1>
+<p>Choose from RPN&rsquo;s <a href="https://rpnradio.com/" target="_blank">(Radio Philippines Network)</a> 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.</p>
+<h1 id="development">Development</h1>
+<p>I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure <a href="https://developer.android.com/guide">Android Java code</a>.</p>
+<h1 id="app-description">App Description</h1>
+<blockquote>
+<p>RPN&rsquo;s 12 radio stations are situated among the three major parts of the Philippines - in Luzon, we have DZRL Batac and DZBS Baguio that will give you the latest news, updates, music and other events happening in the North in Ilocano; and DZKI Iriga to offer them in Rinkonada Bikol and/or Bikolano. Next in Visayas, DYKC Cebu and DYKB Bacolod operates in the heart of Cebu City and neighboring Bacolod City, respectively. DYKC Cebu provides an programming format that will surely make all Cebuanos and Bisaya all around the world miss home. While DYKB Bacolod gives you the most important news and talkshows in Hiligaynon and/or Ilonggo. Lastly, Mindanao holds most of our stations : DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKP Pagadian, DXXX Zamboanga, and DXKT Davao.</p>
+</blockquote>
+<h1 id="screenshots">Screenshots</h1>
+<figure class="image">
+
+
+<figcaption><em>RPN Radio App for Android</em></figcaption>
+</figure>
+<br/>
+<h1 id="download">Download</h1>
+<p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
+<p>The app will be available soon on iOS.</p>
+]]></description>
+</item><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddavid.me/zipcodeph-new-ui/</link>
     <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
@@ -233,6 +526,36 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p>You can check the <em>free</em> app here in the Microsoft Store.
 </br>
 <a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
+]]></description>
+</item><item>
+    <title>Your Phone Tray V2</title>
+    <link>https://reddavid.me/your-phone-tray-v2/</link>
+    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/your-phone-tray-v2/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/your-phone.jpg" referrerpolicy="no-referrer">
+            </div><p>Your Phone Tray UWP app just got updated.</p>
+<p>Version 2.0 brings few UI changes, some improvements and a breaking change.</p>
+<h3 id="improvements">Improvements</h3>
+<p>To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
+</p>
+<p>You can also see a new menu item <strong>Enable Ctrl+Y Hotkey</strong>. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.</p>
+<h3 id="breaking-change">Breaking change</h3>
+<p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
+<p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
+]]></description>
+</item><item>
+    <title>Rebuilding Website with Hugo</title>
+    <link>https://reddavid.me/rebuilding-website-to-hugo/</link>
+    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hugo.png" referrerpolicy="no-referrer">
+            </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>
+<p>So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.</p>
+<p>Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actullay give time to understand Hugo and what not. Welcome me again!</p>
 ]]></description>
 </item></channel>
 </rss>

@@ -27,7 +27,7 @@
 <li>Google Chrome browser.</li>
 </ul>
 <h1 id="installation">Installation</h1>
-<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of  <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
+<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
 <p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
 <p>Ran <code>flutter doctor</code> until all requirements are check out</p>
 <h1 id="ide-wait">IDE, wait&hellip;</h1>
@@ -49,7 +49,7 @@
 <h1 id="beginning">Beginning</h1>
 <p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
 <p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
-<p>Ever since  February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
+<p>Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
 <p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
 ]]></description>
 </item></channel>

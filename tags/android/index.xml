@@ -27,7 +27,7 @@
 <li>Google Chrome browser.</li>
 </ul>
 <h1 id="installation">Installation</h1>
-<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of  <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
+<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
 <p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
 <p>Ran <code>flutter doctor</code> until all requirements are check out</p>
 <h1 id="ide-wait">IDE, wait&hellip;</h1>
@@ -49,7 +49,7 @@
 <h1 id="beginning">Beginning</h1>
 <p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
 <p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
-<p>Ever since  February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
+<p>Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
 <p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
 ]]></description>
 </item><item>
@@ -212,6 +212,20 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h1 id="download">Download</h1>
 <p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
 <p>The app will be available soon on iOS.</p>
+]]></description>
+</item><item>
+    <title>RPN Android App</title>
+    <link>https://reddavid.me/rpn-android-app/</link>
+    <pubDate>Thu, 02 Jan 2020 03:02:48 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpn-android-app/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/rpn-android.png" referrerpolicy="no-referrer">
+            </div><p>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.</p>
+<p>Finally opt-in and registered to Google Play platform and chose RPN News &amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.</p>
+<p>Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.</p>
+<p>Also, there are some adjustments I needed to learn in using Xamarin Forms, and had to merge several projects to create both the news and radio part of the app. Thanks to open source!</p>
+<p>There are still bugs, I know, but help by checking the app <a href="https://play.google.com/store/apps/details?id=xyz.reddvid.rpnradio" taget="_blank">here</a></p>
 ]]></description>
 </item></channel>
 </rss>

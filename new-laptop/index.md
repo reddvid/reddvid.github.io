@@ -21,12 +21,15 @@ Full specs of the laptop can be found <a href="https://www.acer.com/ac/en/GB/con
 </br>
 
 # Using the laptop
+
 ### Speed
+
 Coming from an Intel i7 laptop, I felt the difference in boot up times, booting on this device is slightly slower - not sure if it's because of the SSD installed since I was using a Samsung 860 Evo on my old laptop.
 
 Next is using Visual Studio, rebuilding some of my apps takes a longer time to finish. Also, having only 6GB of memory (since the 2GB is shared to CPU?) I can't stand having my chrome tabs reload after a while.
 
 ### Gaming
+
 Before my old laptop broke (which was an Acer Nitro V, with an Intel i7 4th gen + 2GB GTX960M), I was just playing some Minecraft (sometimes with Shaders), some casual Dota 2, and other medium-intensive games.
 
 Of course, I was playing either inside an aircon-ed room or the fan pointing to the laptop.
@@ -36,21 +39,23 @@ Meanwhile on this new laptop, launching games, even Dota 2, was a pain. It took 
 But before even buying this, I said to myself that I can't game like I did before - long hours, intensive AAA games - so I disregarded this experience, at first.
 
 ### Overall (System) Experience
+
 Out of habit, I installed the latest drivers including Radeon software (Adrenaline 2020). But the app is laggy as hell and eventually gave me a black screen out of nowhere - which I made a hard boot just to go back seeing things to Windows.
 
 Upon checking, it installed an older driver. (Damn AMD)
 
 Even though I use an external mech keyboard, this keyboard layout is hideous compared to the old Nitro V I had! I am missing the Pause/Break key but I believe it is hidden in F11, I believe.
 
-The ports are ok, but the Type-C is not thunderbolt. The power port is on the middle of the body!!! 
+The ports are ok, but the Type-C is not thunderbolt. The power port is on the middle of the body!!!
 
 Nitro Sense is a great addition that it lets you control the laptop fans manually - they can get loud man! The fan layout is not "optimal" in my opinion though.
 
-Lastly, the speakers on it are s**t 🤮.
+Lastly, the speakers on it are s\*\*t 🤮.
 
 </br>
 
 # Upgrades!!!
+
 It took me two weeks to "settle" with this new laptop and sometimes got me thinking of "regrets". But I actually planned to upgrade memory - I just didn't have the money 😂.
 
 I got an 8GB TeamGroup stick 2666MHz despite the CPU limit since I can re-use them (on future units or resell them), and the price difference to a 2400MHz is minimal.
@@ -64,7 +69,6 @@ The only problem here now is having an older, OEM-issued drivers for the graphic
 Replaying some games with higher FPS is also a plus.
 
 Right now, I am thinking of upgrading to nVMe, to a higher 2.5" SSD and 32GB RAM 😳.
-
 
 </br>
 

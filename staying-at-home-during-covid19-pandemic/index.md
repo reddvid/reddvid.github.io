@@ -16,6 +16,6 @@ There is also this viral in social media right now comparing, lest, swapping the
 We still don't know how will this affect our monetary status. But we are pretty sure our savings will be affected. If you can, you can help me stay safe and secure at home:
 
 Donate maybe? 🙂 Thank you.
-#### <a href="https://paypal.me/reddvid" target="_blank">Small help for your boy</a>
 
+#### <a href="https://paypal.me/reddvid" target="_blank">Small help for your boy</a>
 

@@ -26,7 +26,7 @@
 <p>At first glance of a first-time user, the stations list does NOT show that it is &ldquo;clickable&rdquo;. So the first UI update was to change the 4x3 grid to a simple list.</p>
 <figure class="image">
 
-<figcaption><em>Header & Controls Before and After</em></figcaption>
+<figcaption><em>Station Menu Item Before and After</em></figcaption>
 </figure>
 <br/>
 <p>This subtle change provides the user a hint of &ldquo;click me&rdquo; by giving the list item a design of a button. It also gave a space for the station&rsquo;s detail to be added - station&rsquo;s location and live/offline status.</p>
@@ -34,7 +34,7 @@
 <p>Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.</p>
 <figure class="image">
 
-<figcaption><em>Menu Item Before and After</em></figcaption>
+<figcaption><em>Header & Controls Before and After</em></figcaption>
 </figure>
 <br/>
 <p>I also changed the text that shows the current stations into a simpler one and updated the share icon.</p>
@@ -266,71 +266,6 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h1 id="download">Download</h1>
 <p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
 <p>The app will be available soon on iOS.</p>
-]]></description>
-</item><item>
-    <title>ZIP Code PH Gets Refreshed UI</title>
-    <link>https://reddavid.me/zipcodeph-new-ui/</link>
-    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
-            </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
-Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.</p>
-<p>Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&rsquo;s App settings panel as seen <a href="https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style" target="_blank">here on his Dribbble post</a>.</p>
-<p>I started coding at once, cleaning up some codes on the app beginning with the UI. And came up with the final layout.</p>
-<p>Here are some screenshots of the updated app version 4.
-</br></p>
-<figure class="image">
-
-  <figcaption><em>version 4.0, clean and refreshed Fluent Design UI</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Favorites panel - Dark mode</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Search places - Light mode</em></figcaption>
-</figure>
-</br>
-<p>You can check the <em>free</em> app here in the Microsoft Store.
-</br>
-<a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
-]]></description>
-</item><item>
-    <title>Your Phone Tray V2</title>
-    <link>https://reddavid.me/your-phone-tray-v2/</link>
-    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/your-phone-tray-v2/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/your-phone.jpg" referrerpolicy="no-referrer">
-            </div><p>Your Phone Tray UWP app just got updated.</p>
-<p>Version 2.0 brings few UI changes, some improvements and a breaking change.</p>
-<h3 id="improvements">Improvements</h3>
-<p>To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
-</p>
-<p>You can also see a new menu item <strong>Enable Ctrl+Y Hotkey</strong>. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.</p>
-<h3 id="breaking-change">Breaking change</h3>
-<p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
-<p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
-]]></description>
-</item><item>
-    <title>RPN Android App</title>
-    <link>https://reddavid.me/rpn-android-app/</link>
-    <pubDate>Thu, 02 Jan 2020 03:02:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/rpn-android-app/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/rpn-android.png" referrerpolicy="no-referrer">
-            </div><p>Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.</p>
-<p>Finally opt-in and registered to Google Play platform and chose RPN News &amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.</p>
-<p>Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.</p>
-<p>Also, there are some adjustments I needed to learn in using Xamarin Forms, and had to merge several projects to create both the news and radio part of the app. Thanks to open source!</p>
-<p>There are still bugs, I know, but help by checking the app <a href="https://play.google.com/store/apps/details?id=xyz.reddvid.rpnradio" taget="_blank">here</a></p>
 ]]></description>
 </item><item>
     <title>RF Tools Gets Multi-Window Support</title>

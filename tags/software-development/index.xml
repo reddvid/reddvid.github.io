@@ -26,7 +26,7 @@
 <p>At first glance of a first-time user, the stations list does NOT show that it is &ldquo;clickable&rdquo;. So the first UI update was to change the 4x3 grid to a simple list.</p>
 <figure class="image">
 
-<figcaption><em>Header & Controls Before and After</em></figcaption>
+<figcaption><em>Station Menu Item Before and After</em></figcaption>
 </figure>
 <br/>
 <p>This subtle change provides the user a hint of &ldquo;click me&rdquo; by giving the list item a design of a button. It also gave a space for the station&rsquo;s detail to be added - station&rsquo;s location and live/offline status.</p>
@@ -34,7 +34,7 @@
 <p>Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.</p>
 <figure class="image">
 
-<figcaption><em>Menu Item Before and After</em></figcaption>
+<figcaption><em>Header & Controls Before and After</em></figcaption>
 </figure>
 <br/>
 <p>I also changed the text that shows the current stations into a simpler one and updated the share icon.</p>

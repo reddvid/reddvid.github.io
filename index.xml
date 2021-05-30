@@ -28,7 +28,7 @@
 <p>At first glance of a first-time user, the stations list does NOT show that it is &ldquo;clickable&rdquo;. So the first UI update was to change the 4x3 grid to a simple list.</p>
 <figure class="image">
 
-<figcaption><em>Header & Controls Before and After</em></figcaption>
+<figcaption><em>Station Menu Item Before and After</em></figcaption>
 </figure>
 <br/>
 <p>This subtle change provides the user a hint of &ldquo;click me&rdquo; by giving the list item a design of a button. It also gave a space for the station&rsquo;s detail to be added - station&rsquo;s location and live/offline status.</p>
@@ -36,7 +36,7 @@
 <p>Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.</p>
 <figure class="image">
 
-<figcaption><em>Menu Item Before and After</em></figcaption>
+<figcaption><em>Header & Controls Before and After</em></figcaption>
 </figure>
 <br/>
 <p>I also changed the text that shows the current stations into a simpler one and updated the share icon.</p>
@@ -246,7 +246,7 @@
                     <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
                     <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
                     <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
-                
+
                 <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
                     <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
                         <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
@@ -262,7 +262,7 @@
         <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
             <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
         <span class="p">}</span>
-    
+
     <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
         <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
             <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>
@@ -401,7 +401,7 @@ div#gallery-zipcodephios a {
 <li>Google Chrome browser.</li>
 </ul>
 <h1 id="installation">Installation</h1>
-<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of  <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
+<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
 <p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
 <p>Ran <code>flutter doctor</code> until all requirements are check out</p>
 <h1 id="ide-wait">IDE, wait&hellip;</h1>
@@ -423,7 +423,7 @@ div#gallery-zipcodephios a {
 <h1 id="beginning">Beginning</h1>
 <p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
 <p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
-<p>Ever since  February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
+<p>Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
 <p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
 ]]></description>
 </item><item>

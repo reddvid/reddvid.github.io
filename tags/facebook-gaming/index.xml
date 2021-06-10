@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Facebook Gaming - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/facebook-gaming/</link>
@@ -6,7 +6,9 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 29 May 2021 22:26:48 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/facebook-gaming/" rel="self" type="application/rss+xml" /><item>
     <title>Unlocked: 1K Followers</title>
     <link>https://reddavid.me/unlocked-1k-followers/</link>
-    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/unlocked-1k-followers/</guid>
+    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/unlocked-1k-followers/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/1k-followers.png" referrerpolicy="no-referrer">
             </div><p>First of all, thank you so much to all who stayed, watched, and enjoyed my content.</p>
@@ -35,7 +37,9 @@
 </item><item>
     <title>Streaming Again &amp; Minecraft SMP Season 2</title>
     <link>https://reddavid.me/minecraft-smp-season-2/</link>
-    <pubDate>Sun, 18 Apr 2021 02:52:30 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/minecraft-smp-season-2/</guid>
+    <pubDate>Sun, 18 Apr 2021 02:52:30 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/minecraft-smp-season-2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/mc-smp-s02.png" referrerpolicy="no-referrer">
             </div><p>Rejoice! My more-than-a-month-long hiatus finally came to an end - I&rsquo;m back to streaming video games in Facebook Gaming. In just 2 days, I&rsquo;ve managed to garner a whopping 8+ hours as compared before.</p>

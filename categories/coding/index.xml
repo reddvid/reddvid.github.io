@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Coding - Category - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/categories/coding/</link>
@@ -6,7 +6,9 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 May 2021 00:15:36 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/" rel="self" type="application/rss+xml" /><item>
     <title>RPN Radio UI Overhaul</title>
     <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
-    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
+    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpnradio-ui.jpeg" referrerpolicy="no-referrer">
             </div><p>Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.</p>
@@ -63,7 +65,9 @@
 </item><item>
     <title>App Landing Page for ZIP Code PH</title>
     <link>https://reddavid.me/zipcodeph-applandingpage/</link>
-    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
+    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-applanding.png" referrerpolicy="no-referrer">
             </div><p>Now that ZIP Code PH is available for both Android and iOS, I wanted to build a landing page for it.</p>
@@ -76,7 +80,9 @@
 </item><item>
     <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
-    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-ios/</guid>
+    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
             </div><h1 id="update-now-available">Update: Now Available</h1>
@@ -281,7 +287,9 @@ div#gallery-zipcodephios a {
 </item><item>
     <title>Flutter Coding</title>
     <link>https://reddavid.me/flutter-coding/</link>
-    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/flutter-coding/</guid>
+    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/flutter-coding/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/android-love-flutter.png" referrerpolicy="no-referrer">
             </div><p>I&rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.</p>
@@ -328,7 +336,9 @@ div#gallery-zipcodephios a {
 </item><item>
     <title>Tune In RPN Radio Update</title>
     <link>https://reddavid.me/tunein-update/</link>
-    <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/tunein-update/</guid>
+    <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/tunein-update/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
             </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
@@ -416,7 +426,9 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 </item><item>
     <title>Developing for Apple Soon</title>
     <link>https://reddavid.me/developing-for-apple-soon/</link>
-    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/developing-for-apple-soon/</guid>
+    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/developing-for-apple-soon/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
             </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
@@ -443,7 +455,9 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 </item><item>
     <title>ZIP Code PH for Android gets Dark Mode</title>
     <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
-    <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
+    <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-android.png" referrerpolicy="no-referrer">
             </div><h1 id="the-pandemic-and-night-owls">The Pandemic and Night Owls</h1>
@@ -484,7 +498,9 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 </item><item>
     <title>RPN Radio: Streaming App for Android</title>
     <link>https://reddavid.me/rpnradio-android/</link>
-    <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-android/</guid>
+    <pubDate>Wed, 03 Feb 2021 01:25:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-android/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpnradio.png" referrerpolicy="no-referrer">
             </div><p>This should just be a short post to promote and showcase this Android app I developed for my job.</p>
@@ -510,7 +526,9 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 </item><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddavid.me/zipcodeph-new-ui/</link>
-    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-new-ui/</guid>
+    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
             </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
@@ -541,7 +559,9 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 </item><item>
     <title>Your Phone Tray V2</title>
     <link>https://reddavid.me/your-phone-tray-v2/</link>
-    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/your-phone-tray-v2/</guid>
+    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/your-phone-tray-v2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/your-phone.jpg" referrerpolicy="no-referrer">
             </div><p>Your Phone Tray UWP app just got updated.</p>

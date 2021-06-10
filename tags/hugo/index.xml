@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Hugo - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/hugo/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>Rebuilding Website with Hugo</title>
     <link>https://reddavid.me/rebuilding-website-to-hugo/</link>
-    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
+    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hugo.png" referrerpolicy="no-referrer">
             </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>

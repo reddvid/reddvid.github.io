@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Development - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/development/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/development/" rel="self" type="application/rss+xml" /><item>
     <title>ZIP Code PH for Android gets Dark Mode</title>
     <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
-    <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
+    <pubDate>Fri, 05 Feb 2021 23:17:22 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-android.png" referrerpolicy="no-referrer">
             </div><h1 id="the-pandemic-and-night-owls">The Pandemic and Night Owls</h1>
@@ -49,9 +47,7 @@
 </item><item>
     <title>I Got Myself a New Laptop</title>
     <link>https://reddavid.me/new-laptop/</link>
-    <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/new-laptop/</guid>
+    <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/new-laptop/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/acer-laptop.jpg" referrerpolicy="no-referrer">
             </div><p>Last February 15, I got myself a new Acer laptop. It is an Acer Nitro 5 laptop sporting an AMD Ryzen 3550H with RX560X Graphics. This makes my 3rd Acer laptop in a span of 8+ years and my first ever AMD on a laptop (had an AMD Athlon X2 PC before).</p>

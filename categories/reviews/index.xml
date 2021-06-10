@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Reviews - Category - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/categories/reviews/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/reviews/" rel="self" type="application/rss+xml" /><item>
     <title>Logitech G304 Review</title>
     <link>https://reddavid.me/g304-review/</link>
-    <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/g304-review/</guid>
+    <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/g304-review/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/g304.jpg" referrerpolicy="no-referrer">
             </div><p>So this is my short and honest review of the G304 wireless mouse.</p>

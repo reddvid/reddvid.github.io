@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Flutter - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/flutter/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/flutter/" rel="self" type="application/rss+xml" /><item>
     <title>Flutter Coding</title>
     <link>https://reddavid.me/flutter-coding/</link>
-    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/flutter-coding/</guid>
+    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/flutter-coding/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/android-love-flutter.png" referrerpolicy="no-referrer">
             </div><p>I&rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.</p>

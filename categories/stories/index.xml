@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Stories - Category - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/categories/stories/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 06 Jan 2021 13:27:12 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/stories/" rel="self" type="application/rss+xml" /><item>
     <title>2020 Review</title>
     <link>https://reddavid.me/2020-review/</link>
-    <pubDate>Wed, 06 Jan 2021 13:27:12 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/2020-review/</guid>
+    <pubDate>Wed, 06 Jan 2021 13:27:12 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/2020-review/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/bye-2020.jpg" referrerpolicy="no-referrer">
             </div><p>Huh, who knew? That we can get through the sh*tty year that is 2020. 🤔 And for last time (and maybe first?), let&rsquo;s take a look back to what happened with Red David&rsquo;s life in last year (SPOILER: not so much, like most of us I guess).</p>
@@ -128,9 +126,7 @@ div#gallery-2021 a {
 </item><item>
     <title>Logitech G304 Review</title>
     <link>https://reddavid.me/g304-review/</link>
-    <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/g304-review/</guid>
+    <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/g304-review/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/g304.jpg" referrerpolicy="no-referrer">
             </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
@@ -163,9 +159,7 @@ div#gallery-2021 a {
 </item><item>
     <title>Staying at Home During the COVID-19 Pandemic</title>
     <link>https://reddavid.me/staying-at-home-during-covid19-pandemic/</link>
-    <pubDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/staying-at-home-during-covid19-pandemic/</guid>
+    <pubDate>Thu, 19 Mar 2020 01:28:20 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/staying-at-home-during-covid19-pandemic/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/at-home.jpg" referrerpolicy="no-referrer">
             </div><p>When the sudden rise of Covid-19 cases here in the Philippines, the government was urged to implement a community quarantine - which was a lockdown - public transportation is suspended, non-essential businesses must be closed or simply <strong>everyone should stay at home</strong>.</p>
@@ -181,9 +175,7 @@ div#gallery-2021 a {
 </item><item>
     <title>A Story of Self-taught Coding</title>
     <link>https://reddavid.me/self-taught-coding/</link>
-    <pubDate>Fri, 25 Aug 2017 00:22:42 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/self-taught-coding/</guid>
+    <pubDate>Fri, 25 Aug 2017 00:22:42 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/self-taught-coding/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/ard-and.jpg" referrerpolicy="no-referrer">
             </div><p>Started coding using VB.Net and Forms for our final year thesis (which programming was NOT a major). Then while gearing up for board exams, learnt to code and design for Windows Phone 7.5/7.8/8 using XAML, C# &amp; Silverlight.</p>

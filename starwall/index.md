@@ -14,11 +14,12 @@
     <li>Jairus Gabres</li>
     <li>Daryl Noguera</li>
     <li>Kent Jasper Wong</li>
+    <li>Thidy Amadeo</li>
     <li>Emmanuel James Tiongco</li>
 </ul>
 
 <br>
-<h6>Updated 19-Apr-2021</h6>
+<h6>Updated 10-Jun-2021</h6>
 
 <p style="margin-top: 50px;">Follow me on <a href="https://fb.gg/RedDavidGG/" target="_blank">Facebook Gaming</a> to watch gameplay and send stars to be a part of the Star Senders Wall.</p>
 

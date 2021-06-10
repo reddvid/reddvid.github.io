@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Technology - Category - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/categories/technology/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/technology/" rel="self" type="application/rss+xml" /><item>
     <title>Upgrade! Samsung 970 EVO Plus</title>
     <link>https://reddavid.me/samsung-evo/</link>
-    <pubDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/samsung-evo/</guid>
+    <pubDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/samsung-evo/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/970-evo-plus.webp" referrerpolicy="no-referrer">
             </div><p>Here we go again folks! Another PC upgrade, this time we take our storage to the next level.</p>
@@ -32,9 +30,7 @@
 </item><item>
     <title>Finally! Logitech C922</title>
     <link>https://reddavid.me/the-logitech-c922/</link>
-    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/the-logitech-c922/</guid>
+    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/the-logitech-c922/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/logitech-c922.jpg" referrerpolicy="no-referrer">
             </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>
@@ -125,9 +121,7 @@
 </item><item>
     <title>New Keeb in Town</title>
     <link>https://reddavid.me/new-keeb/</link>
-    <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/new-keeb/</guid>
+    <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/new-keeb/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/tecware.jpg" referrerpolicy="no-referrer">
             </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
@@ -179,9 +173,7 @@
 </item><item>
     <title>Story of my Logitech Mice</title>
     <link>https://reddavid.me/story-of-owning-logitech-mice/</link>
-    <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
+    <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
             </div><p>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.</p>
@@ -205,9 +197,7 @@
 </item><item>
     <title>I Got Myself a New Laptop</title>
     <link>https://reddavid.me/new-laptop/</link>
-    <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/new-laptop/</guid>
+    <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/new-laptop/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/acer-laptop.jpg" referrerpolicy="no-referrer">
             </div><p>Last February 15, I got myself a new Acer laptop. It is an Acer Nitro 5 laptop sporting an AMD Ryzen 3550H with RX560X Graphics. This makes my 3rd Acer laptop in a span of 8+ years and my first ever AMD on a laptop (had an AMD Athlon X2 PC before).</p>

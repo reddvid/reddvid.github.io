@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo - Tag - Red David | Coding, Tech, Gaming, and Music</title>
+        <title>Hugo - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/hugo/</link>
-        <description>Hugo - Tag - Red David | Coding, Tech, Gaming, and Music</description>
+        <description>Hugo - Tag - Red David | Tech, Gaming, and Coding Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>Rebuilding Website with Hugo</title>
     <link>https://reddavid.me/rebuilding-website-to-hugo/</link>

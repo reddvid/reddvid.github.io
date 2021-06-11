@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>OBS Studio - Tag - Red David | Coding, Tech, Gaming, and Music</title>
+        <title>OBS Studio - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/obs-studio/</link>
-        <description>OBS Studio - Tag - Red David | Coding, Tech, Gaming, and Music</description>
+        <description>OBS Studio - Tag - Red David | Tech, Gaming, and Coding Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/obs-studio/" rel="self" type="application/rss+xml" /><item>
     <title>OBS Studio 27 is here</title>
     <link>https://reddavid.me/obs-27-is-here/</link>

@@ -3,7 +3,40 @@
         <title>Coding - Category - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/categories/coding/</link>
         <description>Coding - Category - Red David | Coding, Tech, Gaming, and Music</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 May 2021 00:15:36 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/" rel="self" type="application/rss+xml" /><item>
+    <title>Get RPN Radio for iOS</title>
+    <link>https://reddavid.me/rpnradio-for-ios/</link>
+    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-for-ios/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/og/rpnradio-appstore.png" referrerpolicy="no-referrer">
+            </div><p>After more than 3 months of processing Apple Developer Program&rsquo;s requirements, the app is here for iPhones!</p>
+<p>This is the very same version we release for the Android counterpart (<a href="https://reddavid.me/rpnradio-android/">read the details on this blog post</a>). Ads are disabled for now as I am still fixing things with the release of iOS 14.7</p>
+<br>
+<figure class="image">
+
+
+
+<figcaption>App Screenshots</figcaption>
+</figure>
+<br>
+<h1 id="roadmap">Roadmap</h1>
+<p>The app is set to receive further updates, especially with station details. THe list below shows the top priority updates:</p>
+<ul>
+<li>Detailed station page (operating hours, location, and contact numbers)</li>
+<li>Better player view</li>
+</ul>
+<br>
+<h1 id="downloads">Downloads</h1>
+<p>The app is FREE TO DOWNLOAD here:</p>
+<p><a href="https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
+<figure class="image">
+
+</figure>
+<br/>
+]]></description>
+</item><item>
     <title>RPN Radio UI Overhaul</title>
     <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
     <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate>
@@ -555,24 +588,6 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 <p>You can check the <em>free</em> app here in the Microsoft Store.
 </br>
 <a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
-]]></description>
-</item><item>
-    <title>Your Phone Tray V2</title>
-    <link>https://reddavid.me/your-phone-tray-v2/</link>
-    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/your-phone-tray-v2/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/your-phone.jpg" referrerpolicy="no-referrer">
-            </div><p>Your Phone Tray UWP app just got updated.</p>
-<p>Version 2.0 brings few UI changes, some improvements and a breaking change.</p>
-<h3 id="improvements">Improvements</h3>
-<p>To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
-</p>
-<p>You can also see a new menu item <strong>Enable Ctrl+Y Hotkey</strong>. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.</p>
-<h3 id="breaking-change">Breaking change</h3>
-<p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
-<p><a href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
 ]]></description>
 </item></channel>
 </rss>

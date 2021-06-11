@@ -2,21 +2,26 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://reddavid.me/tags/apple/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/apps/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/coding/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/rpnradio-for-ios/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/ios/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/iphone/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/posts/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/rpn-radio/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/software-development/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/</loc><lastmod>2021-06-12T00:50:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/categories/apps/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/categories/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/obs/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/obs-studio/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/obs-27-is-here/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/posts/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/streaming/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/</loc><lastmod>2021-06-08T03:15:06&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/application-development/</loc><lastmod>2021-05-30T00:15:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://reddavid.me/tags/apps/</loc><lastmod>2021-05-30T00:15:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://reddavid.me/categories/coding/</loc><lastmod>2021-05-30T00:15:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://reddavid.me/tags/rpn/</loc><lastmod>2021-05-30T00:15:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://reddavid.me/rpnradio-ui-overhaul/</loc><lastmod>2021-05-30T00:15:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://reddavid.me/tags/software-development/</loc><lastmod>2021-05-30T00:15:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://reddavid.me/tags/facebook/</loc><lastmod>2021-05-29T22:26:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://reddavid.me/tags/facebook-gaming/</loc><lastmod>2021-05-29T22:26:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://reddavid.me/categories/gaming/</loc><lastmod>2021-05-29T22:26:48&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
@@ -34,9 +39,7 @@
             <loc>https://reddavid.me/tags/website/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/zip-code-ph/</loc><lastmod>2021-03-19T02:21:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/zipcodeph-ios/</loc><lastmod>2021-03-16T01:28:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddavid.me/tags/apple/</loc><lastmod>2021-03-16T01:28:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/coding/</loc><lastmod>2021-03-16T01:28:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddavid.me/tags/ios/</loc><lastmod>2021-03-16T01:28:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/swiftui/</loc><lastmod>2021-03-16T01:28:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/samsung/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/samsung-970-evo-plus/</loc><lastmod>2021-03-16T01:09:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -49,7 +52,6 @@
             <loc>https://reddavid.me/tags/flutter/</loc><lastmod>2021-03-15T22:06:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/flutter-coding/</loc><lastmod>2021-03-15T22:06:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/google/</loc><lastmod>2021-03-15T22:06:53&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://reddavid.me/tags/rpn-radio/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tunein-update/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/webapp/</loc><lastmod>2021-02-16T20:30:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/starwall/</loc><lastmod>2021-02-12T21:59:46&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

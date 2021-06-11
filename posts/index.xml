@@ -3,7 +3,40 @@
         <title>All Posts - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/posts/</link>
         <description>All Posts | Red David | Coding, Tech, Gaming, and Music</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Get RPN Radio for iOS</title>
+    <link>https://reddavid.me/rpnradio-for-ios/</link>
+    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-for-ios/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/og/rpnradio-appstore.png" referrerpolicy="no-referrer">
+            </div><p>After more than 3 months of processing Apple Developer Program&rsquo;s requirements, the app is here for iPhones!</p>
+<p>This is the very same version we release for the Android counterpart (<a href="https://reddavid.me/rpnradio-android/">read the details on this blog post</a>). Ads are disabled for now as I am still fixing things with the release of iOS 14.7</p>
+<br>
+<figure class="image">
+
+
+
+<figcaption>App Screenshots</figcaption>
+</figure>
+<br>
+<h1 id="roadmap">Roadmap</h1>
+<p>The app is set to receive further updates, especially with station details. THe list below shows the top priority updates:</p>
+<ul>
+<li>Detailed station page (operating hours, location, and contact numbers)</li>
+<li>Better player view</li>
+</ul>
+<br>
+<h1 id="downloads">Downloads</h1>
+<p>The app is FREE TO DOWNLOAD here:</p>
+<p><a href="https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
+<figure class="image">
+
+</figure>
+<br/>
+]]></description>
+</item><item>
     <title>OBS Studio 27 is here</title>
     <link>https://reddavid.me/obs-27-is-here/</link>
     <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate>
@@ -564,35 +597,6 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
 <p>You can visit the website here: <a href="https://tunein./rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
 <p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
-]]></description>
-</item><item>
-    <title>Developing for Apple Soon</title>
-    <link>https://reddavid.me/developing-for-apple-soon/</link>
-    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/developing-for-apple-soon/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
-            </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
-<p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
-<p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
-<figure class="image">
-
-<figcaption><em>Yellow iPhone 11</em></figcaption>
-</figure>
-<br/>
-<h1 id="developing-for-ios-soon">Developing for iOS soon</h1>
-<p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
-<p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
-<figure class="image">
-
-<figcaption><em>iOS 14 App Library (is that TikTok? 😅)</em></figcaption>
-</figure>
-<br/>
-<p>So, to test things out, I would be putting my app <a href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
-<h1 id="for-the-meantime">For the meantime&hellip;</h1>
-<p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
-<p>See you soon!</p>
 ]]></description>
 </item></channel>
 </rss>

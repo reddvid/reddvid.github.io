@@ -3,7 +3,40 @@
         <title>RPN Radio - Tag - Red David | Coding, Tech, Gaming, and Music</title>
         <link>https://reddavid.me/tags/rpn-radio/</link>
         <description>RPN Radio - Tag - Red David | Coding, Tech, Gaming, and Music</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/rpn-radio/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/rpn-radio/" rel="self" type="application/rss+xml" /><item>
+    <title>Get RPN Radio for iOS</title>
+    <link>https://reddavid.me/rpnradio-for-ios/</link>
+    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-for-ios/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/og/rpnradio-appstore.png" referrerpolicy="no-referrer">
+            </div><p>After more than 3 months of processing Apple Developer Program&rsquo;s requirements, the app is here for iPhones!</p>
+<p>This is the very same version we release for the Android counterpart (<a href="https://reddavid.me/rpnradio-android/">read the details on this blog post</a>). Ads are disabled for now as I am still fixing things with the release of iOS 14.7</p>
+<br>
+<figure class="image">
+
+
+
+<figcaption>App Screenshots</figcaption>
+</figure>
+<br>
+<h1 id="roadmap">Roadmap</h1>
+<p>The app is set to receive further updates, especially with station details. THe list below shows the top priority updates:</p>
+<ul>
+<li>Detailed station page (operating hours, location, and contact numbers)</li>
+<li>Better player view</li>
+</ul>
+<br>
+<h1 id="downloads">Downloads</h1>
+<p>The app is FREE TO DOWNLOAD here:</p>
+<p><a href="https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
+<figure class="image">
+
+</figure>
+<br/>
+]]></description>
+</item><item>
     <title>Tune In RPN Radio Update</title>
     <link>https://reddavid.me/tunein-update/</link>
     <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate>

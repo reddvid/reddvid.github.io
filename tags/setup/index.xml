@@ -22,7 +22,6 @@
 
 <h1 id="minecraft-117-is-out">Minecraft 1.17 is out</h1>
 <p>Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.</p>
-<p>Insert MC 1.17 update screenshot and changelog here</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/0maWbr0FHKY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -41,10 +40,19 @@
 <li>Audio-technica Condenser Mic</li>
 </ul>
 <p>I used to play on my Nokia 7 Plus but can&rsquo;t the specs can&rsquo;t keep up, not sure why. This is when I use <a href="https://www.vysor.io/" target="_blank" rel="noopener noreferrer">Vysor</a>, a screen mirroring app that wirelessly share the phone&rsquo;s screen to the PC. Now, that&rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.</p>
+<figure><figcaption>
+            <h4>Lightning to AV Adapter and USB Capture Card</h4>
+        </figcaption>
+</figure>
+
 <p>I wonder why branded capture cards are so damn expensive?! Like the <a href="https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture" target="_blank" rel="noopener noreferrer">Elgato HD60S</a> and <a href="https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553" target="_blank" rel="noopener noreferrer">AverMedia Live Gamer Ultra</a>. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&rsquo;s good to go.</p>
 <iframe src="https://giphy.com/embed/3o6MbtelsDZdsbFB7i" width="480" height="360" frameBorder="0" class="giphy-embed" style="display: block; margin: 0px auto;"></iframe>
 <p>Lastly, I recently bought an <a href="https://www.audio-technica.com/en-gb/atr2500x-usb" target="_blank" rel="noopener noreferrer">ATR-2500X condenser mic</a> to record songs and guitars for my YouTube channel. Now it&rsquo;s multi-purpose that I use it on my streams and Zoom meetings.</p>
-<p>Insert mic image here</p>
+<figure><figcaption>
+            <h4>Audio-Technica ATR2500X Condenser Mic</h4>
+        </figcaption>
+</figure>
+
 <h2 id="software">Software</h2>
 <p>As for the software, I use <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">OBS Studio</a>. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &ldquo;Go Live&rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their <a href="https://streamelements.com/" target="_blank" rel="noopener noreferrer">website</a>.</p>
 <figure><figcaption>

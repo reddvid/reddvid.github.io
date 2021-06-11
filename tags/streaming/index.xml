@@ -3,7 +3,71 @@
         <title>Streaming - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/streaming/</link>
         <description>Streaming - Tag - Red David | Tech, Gaming, and Coding Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/streaming/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/streaming/" rel="self" type="application/rss+xml" /><item>
+    <title>Mobile Game Streaming</title>
+    <link>https://reddavid.me/mobile-game-streaming/</link>
+    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/mobile-game-streaming/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/codm-fbgg-streaming.png" referrerpolicy="no-referrer">
+            </div><p>This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.</p>
+<h1 id="grind-to-legend">Grind to Legend</h1>
+<p>Ever since the new season of Call of Duty: Mobile came out, I just wanted to redeem the legendary medal. And also to get all rewards from the Battle Pass I bought. 😂</p>
+<p>Don&rsquo;t worry guys and gals, kuya Red will be back soon. Konti na lang back to Legendary rank na sa BR mode at pwede na mag-Minecraft.</p>
+<figure><figcaption>
+            <h4>Locked Legendary Rank</h4>
+        </figcaption>
+</figure>
+
+<h1 id="minecraft-117-is-out">Minecraft 1.17 is out</h1>
+<p>Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.</p>
+<p>Insert MC 1.17 update screenshot and changelog here</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/0maWbr0FHKY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>The caves and cliffs update (part 1) brings new items and features which were detailed on Minecraft&rsquo;s own blog <a href="https://www.minecraft.net/en-us/updates/caves-and-cliffs" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Now on to my setup.</p>
+<h1 id="setup">Setup</h1>
+<h2 id="hardware">Hardware</h2>
+<p>First, let&rsquo;s see the devices I use except for the laptop/PC for streaming.</p>
+<ul>
+<li>iPhone 11</li>
+<li>Lightning to AV Digital Adapter</li>
+<li>HDMI cable</li>
+<li>Cheap video capture</li>
+<li>Audio-technica Condenser Mic</li>
+</ul>
+<p>I used to play on my Nokia 7 Plus but can&rsquo;t the specs can&rsquo;t keep up, not sure why. This is when I use <a href="https://www.vysor.io/" target="_blank" rel="noopener noreferrer">Vysor</a>, a screen mirroring app that wirelessly share the phone&rsquo;s screen to the PC. Now, that&rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.</p>
+<p>I wonder why branded capture cards are so damn expensive?! Like the <a href="https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture" target="_blank" rel="noopener noreferrer">Elgato HD60S</a> and <a href="https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553" target="_blank" rel="noopener noreferrer">AverMedia Live Gamer Ultra</a>. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&rsquo;s good to go.</p>
+<iframe src="https://giphy.com/embed/3o6MbtelsDZdsbFB7i" width="480" height="360" frameBorder="0" class="giphy-embed" style="display: block; margin: 0px auto;"></iframe>
+<p>Lastly, I recently bought an <a href="https://www.audio-technica.com/en-gb/atr2500x-usb" target="_blank" rel="noopener noreferrer">ATR-2500X condenser mic</a> to record songs and guitars for my YouTube channel. Now it&rsquo;s multi-purpose that I use it on my streams and Zoom meetings.</p>
+<p>Insert mic image here</p>
+<h2 id="software">Software</h2>
+<p>As for the software, I use <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">OBS Studio</a>. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &ldquo;Go Live&rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their <a href="https://streamelements.com/" target="_blank" rel="noopener noreferrer">website</a>.</p>
+<figure><figcaption>
+            <h4>StreamElements OBS.Live Plugin</h4>
+        </figcaption>
+</figure>
+
+<h2 id="diagram">Diagram</h2>
+<p>This is how my setup is connected. Remember that you need an internet with at least 4000kbps of upload speed to actually stream your games on Facebook Gaming (<a href="https://www.facebook.com/fbgaminghome/creators/getstarted" target="_blank" rel="noopener noreferrer">source</a>). I stream at 1080p60 with 6000kbps bitrate.</p>
+<figure><figcaption>
+            <h4>Hardware Setup Diagram</h4>
+        </figcaption>
+</figure>
+
+<h1 id="games-list">Games List</h1>
+<p>I have a few mobile games on my phone right now compared to my <a href="https://steamcommunity.com/id/reddvid/games/?tab=all" target="_blank" rel="noopener noreferrer">Steam Library</a>. But I own some mobile-worthy games like Stardew Valley and Minecraft: Pocket Edition.</p>
+<p>I have a love and hate relationship with games like PUBG Mobile and Mobile Legends. I am looking forward to Apex Legends: Mobile and Diablo Immortal though. They&rsquo;re both are already in beta preview on Android, currently waiting for the iPhone/iPad version.</p>
+<p><a href="https://m.me/reddavidgg" target="_blank" rel="noopener noreferrer">Send me a message</a> to request a game I can play. Or we can play together.</p>
+<h1 id="support-me-on-facebook-gaming">Support me on Facebook Gaming</h1>
+<p>This seems repetitive but I do need some support when I go live. It feels like streaming and talking to friends is now an everyday duty, haha. But kidding aside, everyone needs help.</p>
+<p>Check me <a href="https://fb.gg/reddavidgg" target="_blank" rel="noopener noreferrer">here</a> and let&rsquo;s talk more about tech and things.</p>
+]]></description>
+</item><item>
     <title>OBS Studio 27 is here</title>
     <link>https://reddavid.me/obs-27-is-here/</link>
     <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate>

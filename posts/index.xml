@@ -3,7 +3,71 @@
         <title>All Posts - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/posts/</link>
         <description>All Posts | Red David | Tech, Gaming, and Coding Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Mobile Game Streaming</title>
+    <link>https://reddavid.me/mobile-game-streaming/</link>
+    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/mobile-game-streaming/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/codm-fbgg-streaming.png" referrerpolicy="no-referrer">
+            </div><p>This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.</p>
+<h1 id="grind-to-legend">Grind to Legend</h1>
+<p>Ever since the new season of Call of Duty: Mobile came out, I just wanted to redeem the legendary medal. And also to get all rewards from the Battle Pass I bought. 😂</p>
+<p>Don&rsquo;t worry guys and gals, kuya Red will be back soon. Konti na lang back to Legendary rank na sa BR mode at pwede na mag-Minecraft.</p>
+<figure><figcaption>
+            <h4>Locked Legendary Rank</h4>
+        </figcaption>
+</figure>
+
+<h1 id="minecraft-117-is-out">Minecraft 1.17 is out</h1>
+<p>Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.</p>
+<p>Insert MC 1.17 update screenshot and changelog here</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/0maWbr0FHKY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>The caves and cliffs update (part 1) brings new items and features which were detailed on Minecraft&rsquo;s own blog <a href="https://www.minecraft.net/en-us/updates/caves-and-cliffs" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Now on to my setup.</p>
+<h1 id="setup">Setup</h1>
+<h2 id="hardware">Hardware</h2>
+<p>First, let&rsquo;s see the devices I use except for the laptop/PC for streaming.</p>
+<ul>
+<li>iPhone 11</li>
+<li>Lightning to AV Digital Adapter</li>
+<li>HDMI cable</li>
+<li>Cheap video capture</li>
+<li>Audio-technica Condenser Mic</li>
+</ul>
+<p>I used to play on my Nokia 7 Plus but can&rsquo;t the specs can&rsquo;t keep up, not sure why. This is when I use <a href="https://www.vysor.io/" target="_blank" rel="noopener noreferrer">Vysor</a>, a screen mirroring app that wirelessly share the phone&rsquo;s screen to the PC. Now, that&rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.</p>
+<p>I wonder why branded capture cards are so damn expensive?! Like the <a href="https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture" target="_blank" rel="noopener noreferrer">Elgato HD60S</a> and <a href="https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553" target="_blank" rel="noopener noreferrer">AverMedia Live Gamer Ultra</a>. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&rsquo;s good to go.</p>
+<iframe src="https://giphy.com/embed/3o6MbtelsDZdsbFB7i" width="480" height="360" frameBorder="0" class="giphy-embed" style="display: block; margin: 0px auto;"></iframe>
+<p>Lastly, I recently bought an <a href="https://www.audio-technica.com/en-gb/atr2500x-usb" target="_blank" rel="noopener noreferrer">ATR-2500X condenser mic</a> to record songs and guitars for my YouTube channel. Now it&rsquo;s multi-purpose that I use it on my streams and Zoom meetings.</p>
+<p>Insert mic image here</p>
+<h2 id="software">Software</h2>
+<p>As for the software, I use <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">OBS Studio</a>. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &ldquo;Go Live&rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their <a href="https://streamelements.com/" target="_blank" rel="noopener noreferrer">website</a>.</p>
+<figure><figcaption>
+            <h4>StreamElements OBS.Live Plugin</h4>
+        </figcaption>
+</figure>
+
+<h2 id="diagram">Diagram</h2>
+<p>This is how my setup is connected. Remember that you need an internet with at least 4000kbps of upload speed to actually stream your games on Facebook Gaming (<a href="https://www.facebook.com/fbgaminghome/creators/getstarted" target="_blank" rel="noopener noreferrer">source</a>). I stream at 1080p60 with 6000kbps bitrate.</p>
+<figure><figcaption>
+            <h4>Hardware Setup Diagram</h4>
+        </figcaption>
+</figure>
+
+<h1 id="games-list">Games List</h1>
+<p>I have a few mobile games on my phone right now compared to my <a href="https://steamcommunity.com/id/reddvid/games/?tab=all" target="_blank" rel="noopener noreferrer">Steam Library</a>. But I own some mobile-worthy games like Stardew Valley and Minecraft: Pocket Edition.</p>
+<p>I have a love and hate relationship with games like PUBG Mobile and Mobile Legends. I am looking forward to Apex Legends: Mobile and Diablo Immortal though. They&rsquo;re both are already in beta preview on Android, currently waiting for the iPhone/iPad version.</p>
+<p><a href="https://m.me/reddavidgg" target="_blank" rel="noopener noreferrer">Send me a message</a> to request a game I can play. Or we can play together.</p>
+<h1 id="support-me-on-facebook-gaming">Support me on Facebook Gaming</h1>
+<p>This seems repetitive but I do need some support when I go live. It feels like streaming and talking to friends is now an everyday duty, haha. But kidding aside, everyone needs help.</p>
+<p>Check me <a href="https://fb.gg/reddavidgg" target="_blank" rel="noopener noreferrer">here</a> and let&rsquo;s talk more about tech and things.</p>
+]]></description>
+</item><item>
     <title>Get RPN Radio for iOS</title>
     <link>https://reddavid.me/rpnradio-for-ios/</link>
     <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate>
@@ -507,96 +571,6 @@ div#gallery-zipcodephios a {
 <p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
 <p>Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
 <p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
-]]></description>
-</item><item>
-    <title>Tune In RPN Radio Update</title>
-    <link>https://reddavid.me/tunein-update/</link>
-    <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/tunein-update/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
-            </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
-<h1 id="mainpage-and-mobile-first-design">MainPage and Mobile-First Design</h1>
-<p>The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a></p>
-<p>Then I cleaned up my CSS file to make the whole website <a href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00" target="_blank">&ldquo;mobile-first&rdquo;.</a>
-<br/>
-<br/></p>
-<h1 id="now-playing-station-pages">Now Playing Station Pages</h1>
-<p>The tune-in or now playing page received most of the update. I&rsquo;ve broken some of them below:</p>
-<h2 id="back-button">Back Button</h2>
-<p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
-<p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
-<pre><code>function goBack() {
-  if (isNavOpen) {
-    closeNav();
-  }
-  else if (document.referrer == "") {
-    window.location.href = "https://tunein.rpnradio.com/";
-  }
-  else {
-    window.history.back();
-  }
-}; </code></pre>
-<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
-<p>Now the back button takes you to home page when started with a station page.</p>
-<h2 id="navigation-menu">Navigation Menu</h2>
-<p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
-<p>Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.
-<br/>
-<br/></p>
-<h1 id="security">Security</h1>
-<p>The website was also SSL-enabled - <a href="https://www.websecurity.digicert.com/security-topics/https-everywhere" target="_blank">HTTPS Everywhere.</a></p>
-<p>This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.
-<br/>
-<br/></p>
-<h1 id="open-graph-metadata">Open Graph Metadata</h1>
-<p>Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.</p>
-<p>Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:</p>
-<figure class="image">
-
-<figcaption><em>Facebook Open Graph Preview</em></figcaption>
-<br/>
-
-<figcaption><em>Twitter Open Graph Preview</em></figcaption>
-</figure>
-Creating the metadata tags was made easy by using <a href="https://metatags.io/" target="_blank">Metatags.io</a>.
-<br/>
-<br/>
-<h1 id="site-icons">Site Icons</h1>
-<p>I went on to also update the website&rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:</p>
-<figure>
-
-<figcaption><em>Website Favicon</em></figcaption>
-</figure>
-<br/>
-<h1 id="google-ads">Google Ads</h1>
-<p>I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.</p>
-<p>We all hate ads but this is the only modest way to profit for most websites.
-<br/>
-<br/></p>
-<h1 id="htaccess-to-remove-html">.htaccess to Remove .html</h1>
-<p>I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: <pre><small>tunein.rpnradio.com/batac.html</small></pre>
-Some rules were added to the .htaccess file to make it <pre><small>tunein.rpnradio.com/batac</small></pre></p>
-<p>.htaccess file:</p>
-<pre><code>RewriteEngine On 
-RewriteCond %{HTTPS} off 
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
-</code></pre>
-<br/>
-<h1 id="footer-finally">Footer Finally</h1>
-<p>I added a subtle footer to the whole website. That&rsquo;s it. :)
-<br/>
-<br/></p>
-<h1 id="final-words">Final Words</h1>
-<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
-<p>You can visit the website here: <a href="https://tunein./rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
-<p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
 ]]></description>
 </item></channel>
 </rss>

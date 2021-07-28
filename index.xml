@@ -1,16 +1,102 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/</link>
         <description>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</lastBuildDate>
             <atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Roundup: July. And June</title>
+    <link>https://reddavid.me/july-roundup/</link>
+    <pubDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/july-roundup/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/og/july-roundup.png" referrerpolicy="no-referrer">
+            </div><p>Okay, hear me out, I am still procrastinating after watching hours TED Talks and YouTube videos on how to be productive and avoid wasting time doing senseless things. What&rsquo;s wrong? Do I have a lot on my mind or in my hands to keep me posting blogs? Can&rsquo;t be motivated by self-help books and videos? Am I still waiting for when &ldquo;it&rsquo;s too late&rdquo;? AARGH</p>
+<p></p>
+<p><br><br></p>
+<h1 id="hunyo">Hunyo</h1>
+<p>So my last post was June 12, I celebrated my 29th birthday on the 14th and got me self an Elgato HD60S+ to achieve better mobile gaming mirroring but that still, I can&rsquo;t keep my streaming schedule! AARGH (2)</p>
+<p>I got the thingy not just to stream games but for future use - like recording &ldquo;How to use this app&rdquo; for YouTube or presentations, so it may be an expensive thing but I always think of them as investment for my app development journey.</p>
+<figure><figcaption>
+            <h4>Elgato HD60S&#43;</h4>
+        </figcaption>
+</figure>
+
+<p>Speaking of streaming, I started streaming on Twitch! Right now, I planned on playing Minecraft, Left 4 Dead 2, and Call of Duty: Mobile. Also, I will try to stream on MWFS schedule playing those games or variety. <a href="https://twitch.tv/RedDavidGG" target="_blank">Give me a follow</a> and get notified when I go live.</p>
+<p>I will be using my <a href="https://fb.gg/RedDavidGG" target="_blank">Facebook Page</a> and <a href="https://discord.gg/rKnJb4J" target="_blank">Discord server</a> to post updates.</p>
+<h3 id="stream-setup-mobile-gaming">Stream Setup (Mobile Gaming)</h3>
+<p>As of this writing, I am lucky enough to have this setup for mobile game streaming:</p>
+<ul>
+<li><a href="https://shp.ee/znd3exz" target="_blank">Apple iPhone 11</a></li>
+<li><a href="https://shp.ee/ta83sar" target="_blank">Elgato HD60S+ Capture Card</a></li>
+<li><a href="https://shp.ee/uw5zqsr" target="_blank">Audio-Technica ATR-2500X</a></li>
+<li><a href="https://shp.ee/m3dktiz" target="_blank">SteelSeries Arctis 1</a></li>
+</ul>
+<br>
+<p>Any more happened last week of June? Hmm. Yeah right, I released an update for RPN Radio app for both Android and iOS adding a call-to-action button to send the stations a message thru Facebook Messenger. This was after watching on Udemy that apps or any products always have a goal-in-mind - the stations should increase inquiries for advertisement or any other public service comments.</p>
+<p>The app is still available for <strong>FREE</strong> on Google Play Store, Huawei App Store, and iOS App Store. I created this simple app landing page for the <a href="https://tunein.rpnradio.com/download" target="_blank">links.</a></p>
+<figure><figcaption>
+            <h4>Call-to-Action Button - RPN Radio App</h4>
+        </figcaption>
+</figure>
+
+<p>I also got to try the new <a href="https://www.microsoft.com/en-us/windows/windows-11" target="_blank">Windows 11 Insider Preview</a> on a VM. Tested on my main machine but I can&rsquo;t risk the beta so I rolled back to Windows 10.</p>
+<br>
+<br>
+<h1 id="hulyo">Hulyo</h1>
+<p>Let&rsquo;s start the month with a sweet treat, homemade chocolates courtesy of my SO. Anyone interested? Hit the like on the Instagram post below for us to start selling them. 😊</p>
+<figure><figcaption>
+            <h4>Tomoegirl&#39;s Homemade Chocolates</h4>
+        </figcaption>
+</figure>
+
+<p>I got my second dose of Covid vaccine (Sinovac) on the 6th, thankfully there were no side-effects except for the body aches I got after NOT SLEEPING WELL! 🤦‍♂️</p>
+<p>With work, I updated the <a href="https://rpnradio.com" target="_blank">RPN website</a> overall layout after migrating to a new hosting provider. And some minor updates to some if not all the online systems.</p>
+<figure><figcaption>
+            <h4>RPN Radio Website</h4>
+        </figcaption>
+</figure>
+
+<br>
+<h2 id="rainy-vacay">Rainy Vacay</h2>
+<p>After that, I decided to take a <del>short</del> long break to escape the <del>jungle</del> NCR Bubble by going home to Pangasinan. I am so longing to be with the family after 6+ months of not going home - I went home last December 2020 to spend the holidays.</p>
+<p>I was so looking forward to at least visit a beach, see a sunset, feel the breeze of fresh air but UNLUCKILY the weather ahead was not well! I did not see the predictions that there will be a coming storm for the week. So the first few days were a bust, and I just stayed inside and chilled out with some beer.</p>
+<p>The 20th was a holiday, and magically the weather was at least fine for us to go to Binmaley beach - don&rsquo;t worry, there were no crowds so we can be safe, I think? The sun was peeping through the clouds and by the afternoon, a mild rain poured. Together with relatives, we spend some time there swimming, singing, EATING, and drinking booze until it&rsquo;s time to go home.</p>
+<p><figure><figcaption>
+            <h4>Binmaley Beach</h4>
+        </figcaption>
+</figure>
+
+<figure><figcaption>
+            <h4>Lumpiang Gulay</h4>
+        </figcaption>
+</figure>
+</p>
+<p>My other plans went down the drain as the weather became worse, Dagupan City was flooded (plus high tide) that light vehicles weren&rsquo;t able to pass. Sadly, I can&rsquo;t meet my <del>only</del> city friends. There&rsquo;s still next time right? Right?</p>
+<p>I decided to extend my stay but continued checking some online responsibilities just to make sure they are still up even I&rsquo;m not present in the office - though I failed to join our online meetings.</p>
+<p>We also went to our grandfather&rsquo;s brother to celebrate his 70th birthday. Then we spent some time (and over pizza) with my cousin to talk about tech and stuff.</p>
+<p><figure>
+</figure>
+
+<figure><figcaption>
+            <h4>Selfie with Lolo and Cousin &#43; Damaged Foods 🤣</h4>
+        </figcaption>
+</figure>
+</p>
+<br>
+<p>Oh, I also got a haircut (question mark).</p>
+<figure><figcaption>
+            <h4>Haircut?</h4>
+        </figcaption>
+</figure>
+
+<br>
+<p>That&rsquo;s it for this blog post, thanks for reading! (the rain pours while I write this).</p>
+]]></description>
+</item><item>
     <title>Mobile Game Streaming</title>
     <link>https://reddavid.me/mobile-game-streaming/</link>
-    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/mobile-game-streaming/</guid>
+    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/mobile-game-streaming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/codm-fbgg-streaming.png" referrerpolicy="no-referrer">
             </div><p>This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.</p>
@@ -24,6 +110,7 @@
 
 <h1 id="minecraft-117-is-out">Minecraft 1.17 is out</h1>
 <p>Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.</p>
+<p>Insert MC 1.17 update screenshot and changelog here</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/0maWbr0FHKY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -42,19 +129,10 @@
 <li>Audio-technica Condenser Mic</li>
 </ul>
 <p>I used to play on my Nokia 7 Plus but can&rsquo;t the specs can&rsquo;t keep up, not sure why. This is when I use <a href="https://www.vysor.io/" target="_blank" rel="noopener noreferrer">Vysor</a>, a screen mirroring app that wirelessly share the phone&rsquo;s screen to the PC. Now, that&rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.</p>
-<figure><figcaption>
-            <h4>Lightning to AV Adapter and USB Capture Card</h4>
-        </figcaption>
-</figure>
-
 <p>I wonder why branded capture cards are so damn expensive?! Like the <a href="https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture" target="_blank" rel="noopener noreferrer">Elgato HD60S</a> and <a href="https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553" target="_blank" rel="noopener noreferrer">AverMedia Live Gamer Ultra</a>. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&rsquo;s good to go.</p>
 <iframe src="https://giphy.com/embed/3o6MbtelsDZdsbFB7i" width="480" height="360" frameBorder="0" class="giphy-embed" style="display: block; margin: 0px auto;"></iframe>
 <p>Lastly, I recently bought an <a href="https://www.audio-technica.com/en-gb/atr2500x-usb" target="_blank" rel="noopener noreferrer">ATR-2500X condenser mic</a> to record songs and guitars for my YouTube channel. Now it&rsquo;s multi-purpose that I use it on my streams and Zoom meetings.</p>
-<figure><figcaption>
-            <h4>Audio-Technica ATR2500X Condenser Mic</h4>
-        </figcaption>
-</figure>
-
+<p>Insert mic image here</p>
 <h2 id="software">Software</h2>
 <p>As for the software, I use <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">OBS Studio</a>. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &ldquo;Go Live&rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their <a href="https://streamelements.com/" target="_blank" rel="noopener noreferrer">website</a>.</p>
 <figure><figcaption>
@@ -80,9 +158,7 @@
 </item><item>
     <title>Get RPN Radio for iOS</title>
     <link>https://reddavid.me/rpnradio-for-ios/</link>
-    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/rpnradio-for-ios/</guid>
+    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-for-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/og/rpnradio-appstore.png" referrerpolicy="no-referrer">
             </div><p>After more than 3 months of processing Apple Developer Program&rsquo;s requirements, the app is here for iPhones!</p>
@@ -113,9 +189,7 @@
 </item><item>
     <title>OBS Studio 27 is here</title>
     <link>https://reddavid.me/obs-27-is-here/</link>
-    <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/obs-27-is-here/</guid>
+    <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/obs-27-is-here/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/obs27.png" referrerpolicy="no-referrer">
             </div><p>I just updated my OBS a few days ago with the official release version after trying out the several release candidates.</p>
@@ -164,9 +238,7 @@
 </item><item>
     <title>RPN Radio UI Overhaul</title>
     <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
-    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
+    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpnradio-ui.jpeg" referrerpolicy="no-referrer">
             </div><p>Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.</p>
@@ -223,9 +295,7 @@
 </item><item>
     <title>Unlocked: 1K Followers</title>
     <link>https://reddavid.me/unlocked-1k-followers/</link>
-    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/unlocked-1k-followers/</guid>
+    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/unlocked-1k-followers/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/1k-followers.png" referrerpolicy="no-referrer">
             </div><p>First of all, thank you so much to all who stayed, watched, and enjoyed my content.</p>
@@ -254,9 +324,7 @@
 </item><item>
     <title>Streaming Again &amp; Minecraft SMP Season 2</title>
     <link>https://reddavid.me/minecraft-smp-season-2/</link>
-    <pubDate>Sun, 18 Apr 2021 02:52:30 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/minecraft-smp-season-2/</guid>
+    <pubDate>Sun, 18 Apr 2021 02:52:30 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/minecraft-smp-season-2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/mc-smp-s02.png" referrerpolicy="no-referrer">
             </div><p>Rejoice! My more-than-a-month-long hiatus finally came to an end - I&rsquo;m back to streaming video games in Facebook Gaming. In just 2 days, I&rsquo;ve managed to garner a whopping 8+ hours as compared before.</p>
@@ -288,9 +356,7 @@
 </item><item>
     <title>App Landing Page for ZIP Code PH</title>
     <link>https://reddavid.me/zipcodeph-applandingpage/</link>
-    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
+    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-applanding.png" referrerpolicy="no-referrer">
             </div><p>Now that ZIP Code PH is available for both Android and iOS, I wanted to build a landing page for it.</p>
@@ -303,9 +369,7 @@
 </item><item>
     <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
-    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-ios/</guid>
+    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
             </div><h1 id="update-now-available">Update: Now Available</h1>
@@ -343,7 +407,7 @@
 <br/>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -390,7 +454,7 @@
 </span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
     <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
@@ -510,9 +574,7 @@ div#gallery-zipcodephios a {
 </item><item>
     <title>Upgrade! Samsung 970 EVO Plus</title>
     <link>https://reddavid.me/samsung-evo/</link>
-    <pubDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/samsung-evo/</guid>
+    <pubDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/samsung-evo/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/970-evo-plus.webp" referrerpolicy="no-referrer">
             </div><p>Here we go again folks! Another PC upgrade, this time we take our storage to the next level.</p>
@@ -532,55 +594,6 @@ div#gallery-zipcodephios a {
 </figure>
 <br/>
 <p>This is not to flaunt the things I have, I&rsquo;m just trying to share my thoughts and share which can help my daily activities like coding, and file and graphics processing.</p>
-]]></description>
-</item><item>
-    <title>Flutter Coding</title>
-    <link>https://reddavid.me/flutter-coding/</link>
-    <pubDate>Mon, 15 Mar 2021 22:06:53 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/flutter-coding/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/android-love-flutter.png" referrerpolicy="no-referrer">
-            </div><p>I&rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.</p>
-<p>As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.</p>
-<p>Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &ldquo;native world&rdquo;.</p>
-<h1 id="android-and-bad-java-code">Android and Bad (Java) Code</h1>
-<p>The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.</p>
-<p>To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.</p>
-<p>Ever since March started, I started reading about Flutter and did some basic UI.</p>
-<p>But first, let me tell you how I installed Flutter on Windows.</p>
-<h1 id="pre-installation-pre-requisites">Pre-installation (Pre-requisites?)</h1>
-<ul>
-<li>Make sure you have Git on your device. I installed Git for Windows</li>
-<li>I&rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.</li>
-<li>Some Android SDKs and;</li>
-<li>Google Chrome browser.</li>
-</ul>
-<h1 id="installation">Installation</h1>
-<p>I pretty much followed the recommended guide as stated here: <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank" rel="noopener noreferrer">Install Flutter (Windows)</a>. But instead of <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
-<p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
-<p>Ran <code>flutter doctor</code> until all requirements are check out</p>
-<h1 id="ide-wait">IDE, wait&hellip;</h1>
-<p>My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.</p>
-<p>Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!</p>
-<p>Even though <code>flutter doctor</code> checked everything, I was disappointed that I can&rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.</p>
-<figure class="image">
-
-<figcaption><em>New Flutter Project</em></figcaption>
-</figure>
-<br/>
-<p>Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.</p>
-<p>Coming from XAML, where everything seems &ldquo;as is&rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅</p>
-<figure class="image">
-
-<figcaption><em>Flutter UI Code</em></figcaption>
-</figure>
-<br/>
-<h1 id="beginning">Beginning</h1>
-<p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
-<p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
-<p>Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
-<p>Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!</p>
 ]]></description>
 </item></channel>
 </rss>

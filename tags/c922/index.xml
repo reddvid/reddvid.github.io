@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>C922 - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/c922/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/c922/" rel="self" type="application/rss+xml" /><item>
     <title>Finally! Logitech C922</title>
     <link>https://reddavid.me/the-logitech-c922/</link>
-    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/the-logitech-c922/</guid>
+    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/the-logitech-c922/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/logitech-c922.jpg" referrerpolicy="no-referrer">
             </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>

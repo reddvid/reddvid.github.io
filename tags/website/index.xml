@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Website - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/website/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/website/" rel="self" type="application/rss+xml" /><item>
     <title>App Landing Page for ZIP Code PH</title>
     <link>https://reddavid.me/zipcodeph-applandingpage/</link>
-    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
+    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-applanding.png" referrerpolicy="no-referrer">
             </div><p>Now that ZIP Code PH is available for both Android and iOS, I wanted to build a landing page for it.</p>
@@ -21,9 +19,7 @@
 </item><item>
     <title>Tune In RPN Radio Update</title>
     <link>https://reddavid.me/tunein-update/</link>
-    <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/tunein-update/</guid>
+    <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/tunein-update/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
             </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
@@ -111,9 +107,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 </item><item>
     <title>Rebuilding Website with Hugo</title>
     <link>https://reddavid.me/rebuilding-website-to-hugo/</link>
-    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
+    <pubDate>Sun, 23 Feb 2020 21:43:46 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rebuilding-website-to-hugo/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/hugo.png" referrerpolicy="no-referrer">
             </div><p>It was early 2019, I think when I accidentally deleted my Wordpress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.</p>

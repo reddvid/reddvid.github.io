@@ -15,6 +15,8 @@ Don't worry guys and gals, kuya Red will be back soon. Konti na lang back to Leg
 
 Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we'll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.
 
+Insert MC 1.17 update screenshot and changelog here
+
 {{< youtube 0maWbr0FHKY >}}
 
 The caves and cliffs update (part 1) brings new items and features which were detailed on Minecraft's own blog [here](https://www.minecraft.net/en-us/updates/caves-and-cliffs).
@@ -35,15 +37,13 @@ First, let's see the devices I use except for the laptop/PC for streaming.
 
 I used to play on my Nokia 7 Plus but can't the specs can't keep up, not sure why. This is when I use [Vysor](https://www.vysor.io/), a screen mirroring app that wirelessly share the phone's screen to the PC. Now, that's where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.
 
-{{< figure src="/images/06-21/mobile-streaming/adapters.jpg" title="Lightning to AV Adapter and USB Capture Card" >}}
-
 I wonder why branded capture cards are so damn expensive?! Like the [Elgato HD60S](https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture) and [AverMedia Live Gamer Ultra](https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553). So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it's good to go.
 
 <iframe src="https://giphy.com/embed/3o6MbtelsDZdsbFB7i" width="480" height="360" frameBorder="0" class="giphy-embed" style="display: block; margin: 0px auto;"></iframe>
 
 Lastly, I recently bought an [ATR-2500X condenser mic](https://www.audio-technica.com/en-gb/atr2500x-usb) to record songs and guitars for my YouTube channel. Now it's multi-purpose that I use it on my streams and Zoom meetings.
 
-{{< figure src="/images/06-21/mobile-streaming/atr-2500x.jpg" title="Audio-Technica ATR2500X Condenser Mic" >}}
+Insert mic image here
 
 ## Software
 

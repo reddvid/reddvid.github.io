@@ -1,14 +1,64 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/</link>
         <description>Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 Oct 2021 23:13:11 &#43;0800</lastBuildDate>
             <atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Some Updates (Yes, I am Still Alive)</title>
+    <link>https://reddavid.me/still-alive/</link>
+    <pubDate>Tue, 05 Oct 2021 23:13:11 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/still-alive/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/image.jpg" referrerpolicy="no-referrer">
+            </div><p>Well how about that?! I just said about how I am prone to procrastinating on my last blog post (over 2 months ago!) that I wanted to keep pisting at least once a week but guess what, I failed! 🥲</p>
+<p>Though it&rsquo;s not laziness, I just didn&rsquo;t have good stories to post since it is still a pandemic over here and I just got back to work after my 2 weeks vacation (ehem, 10 days since I still kept in touch with my responsibilities - online stuff).</p>
+<p>There&rsquo;s just nothing to share, I don&rsquo;t know.</p>
+<p>But here are some highlights these past 2 months (may or may not be in particular order):</p>
+<p><strong>Sleeping earlier</strong>. Visiting the province means that you <strong>MUST</strong> sleep early. Can&rsquo;t do much when waking later in the day.</p>
+<p><strong>Cook my own food</strong>. I have been intending to cook a healthy meal long before but time constraints and marketing had been prevented me to do so. But with extra time I got by sleeping and waking up early I get to buy and cook a quick meal.</p>
+<center>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/CSY9Zu5hflR/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:340px; min-width:240px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/CSY9Zu5hflR/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/CSY9Zu5hflR/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by David Ballesteros (@reddvid)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script></center>
+<p><strong>Read more ebooks</strong>. I can&rsquo;t remember where I found The War of Art (yes, not Art of War). It is a book about fighting resistance of doing art (a metaphor of doing what you REALLY love). It&rsquo;s a short self-development book authored by Steven Pressfield, and later I found that it has sequels or whatever you call it: Do The Work and Turning Pro. Do The Work was originally published first but was updated (I think?) to be the follow-up of TWoA. As the book title says, when overcoming resistance DO THE WORK. Lastly, Turning Pro is about escaping the amateur life (of doing work).</p>
+<p>I also stumbled upon a website called <a href="http://mostrecommendedbooks.com" target="blank_">mostrecommendedbooks.com</a>, a website where you can find a list of books which top personalities and celebrities had read. Some notable personalities I leisurely checked: Barack Obama, Bill Gates, Elon Musk (this man is futuristic and really into tech!), Dwayne &ldquo;The Rock&rdquo; Johnson, PewDiePie, Richard Branson, and Steve Jobs.</p>
+<p>They all have their niche but I found that they have some mutual titles which I got interested putting into my reading list:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning#:~:text=Man's%20Search%20for%20Meaning%20is,then%20immersively%20imagining%20that%20outcome." target="_blank">Man&rsquo;s Search for Meaning by Viktor Frankl</a> (finished as of this writing)</li>
+<li><a href="https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning" target="blank_">Mindset by Dr. Carol Dweck</a></li>
+<li><a href="https://www.goodreads.com/book/show/34890015-factfulness" target="blank_">Factfulness by Hans Rosling</a></li>
+<li><a href="https://www.goodreads.com/book/show/34466963-why-we-sleep" target="blank_">Why We Sleep by Matthew Walker</a></li>
+<li><a href="https://www.goodreads.com/book/show/39286958-measure-what-matters" target="blank_">Measure What Matters by John Doerr</a></li>
+<li><a href="https://www.goodreads.com/book/show/3228917-outliers" target="blank_">Outliers by Malcolm Gladwell</a></li>
+<li><a href="https://www.goodreads.com/book/show/25666050-algorithms-to-live-by" target="blank_">Algorithms to Live By by Brian Christian &amp; Tom Griffiths</a></li>
+<li><a href="https://www.goodreads.com/book/show/35133922-educated" target="blank_">Educated by Tara Westover</a></li>
+<li><a href="https://www.goodreads.com/book/show/18050143-zero-to-one" target="blank_">Zero to One by Peter Thiel</a></li>
+</ul>
+<p>I recommend reading <strong>&ldquo;Man&rsquo;s Search for Meaning&rdquo;</strong> at least once in your life. 🙂</p>
+<figure><figcaption>
+            <h4>Man&#39;s Search for Meaning cover</h4>
+        </figcaption>
+</figure>
+
+<p><strong>Online Courses</strong>. These are some online video courses like Udemy. I am currently half-way through Microsoft Office 2019 course. I still have Flutter/Dart development, Web development, and UI with Figma development courses on <a href="https://udemy.com/" target="blank_">Udemy</a> and some on other sites.</p>
+<blockquote>
+<p>&ldquo;The beautiful thing about learning is nobody can take it away from you.&rdquo; - B.B. King</p>
+</blockquote>
+<hr>
+<p>These are the amazing things happened for the past months except the first two didn&rsquo;t last since my girlfriend recently got a graveyard shift work where we can only talk at around 2:30am (GMT+8) during her (lunch) break. Don&rsquo;t blame me, I&rsquo;m just a loving person 😂.</p>
+<p>Now let&rsquo;s talk about work, it is stressful at times with at least two meetings per week and August was a one hell of ride for the website to migrate and apparently, that was also the month the hosting service will conduct a maintenance. 😬 Despite that, I&rsquo;ve learnt about a few basic things for site security and database optimizations.</p>
+<p>There were also a few more layout and quality updates which I will share soon. But you can see what I&rsquo;ve worked on <a href="https://rpnradio.com" target="blank_">rpnradio.com</a> and <a href="https://tunein.rpnradio.com" target="blank_">tunein.rpnradio.com</a>.</p>
+<p>As for the company&rsquo;s mobile apps - updates are still pending. I am hoping for a wider schedule to keep my &ldquo;programming momentum&rdquo; uninterrupted because once I started I can&rsquo;t stop until the code works. Trust me, unless I can&rsquo;t figure it out and need a good night&rsquo;s sleep to come up with a fix.</p>
+<p>Lastly, on my very very free time, I can get to play and record playing the guitar and upload to my <a href="https://youtube.com/RedDavid" target="blank_">YouTube</a> channel. Feel free to like or dislike. 🤣 I also compensate some time to stream on <a href="https://twitch.tv/reddavidgg" target="blank_">Twitch</a> for a few hours.</p>
+<p>I hope these are enough to keep you updated. I will also post some tech buys I did to give myself back for the hard-work I believe I do. Hit me up in <a href="twitter.com/reddvid" target="blank_">Twitter</a> or <a href="facebook.com/reddavidgg" target="blank_">Facebook</a> on how your last two months went!</p>
+]]></description>
+</item><item>
     <title>Roundup: July. And June</title>
     <link>https://reddavid.me/july-roundup/</link>
-    <pubDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/july-roundup/</guid>
+    <pubDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/july-roundup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/og/july-roundup.png" referrerpolicy="no-referrer">
             </div><p>Okay, hear me out, I am still procrastinating after watching hours TED Talks and YouTube videos on how to be productive and avoid wasting time doing senseless things. What&rsquo;s wrong? Do I have a lot on my mind or in my hands to keep me posting blogs? Can&rsquo;t be motivated by self-help books and videos? Am I still waiting for when &ldquo;it&rsquo;s too late&rdquo;? AARGH</p>
@@ -96,7 +146,9 @@
 </item><item>
     <title>Mobile Game Streaming</title>
     <link>https://reddavid.me/mobile-game-streaming/</link>
-    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/mobile-game-streaming/</guid>
+    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/mobile-game-streaming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/codm-fbgg-streaming.png" referrerpolicy="no-referrer">
             </div><p>This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.</p>
@@ -110,7 +162,6 @@
 
 <h1 id="minecraft-117-is-out">Minecraft 1.17 is out</h1>
 <p>Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.</p>
-<p>Insert MC 1.17 update screenshot and changelog here</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/0maWbr0FHKY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -129,10 +180,19 @@
 <li>Audio-technica Condenser Mic</li>
 </ul>
 <p>I used to play on my Nokia 7 Plus but can&rsquo;t the specs can&rsquo;t keep up, not sure why. This is when I use <a href="https://www.vysor.io/" target="_blank" rel="noopener noreferrer">Vysor</a>, a screen mirroring app that wirelessly share the phone&rsquo;s screen to the PC. Now, that&rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.</p>
+<figure><figcaption>
+            <h4>Lightning to AV Adapter and USB Capture Card</h4>
+        </figcaption>
+</figure>
+
 <p>I wonder why branded capture cards are so damn expensive?! Like the <a href="https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture" target="_blank" rel="noopener noreferrer">Elgato HD60S</a> and <a href="https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553" target="_blank" rel="noopener noreferrer">AverMedia Live Gamer Ultra</a>. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&rsquo;s good to go.</p>
 <iframe src="https://giphy.com/embed/3o6MbtelsDZdsbFB7i" width="480" height="360" frameBorder="0" class="giphy-embed" style="display: block; margin: 0px auto;"></iframe>
 <p>Lastly, I recently bought an <a href="https://www.audio-technica.com/en-gb/atr2500x-usb" target="_blank" rel="noopener noreferrer">ATR-2500X condenser mic</a> to record songs and guitars for my YouTube channel. Now it&rsquo;s multi-purpose that I use it on my streams and Zoom meetings.</p>
-<p>Insert mic image here</p>
+<figure><figcaption>
+            <h4>Audio-Technica ATR2500X Condenser Mic</h4>
+        </figcaption>
+</figure>
+
 <h2 id="software">Software</h2>
 <p>As for the software, I use <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">OBS Studio</a>. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &ldquo;Go Live&rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their <a href="https://streamelements.com/" target="_blank" rel="noopener noreferrer">website</a>.</p>
 <figure><figcaption>
@@ -158,7 +218,9 @@
 </item><item>
     <title>Get RPN Radio for iOS</title>
     <link>https://reddavid.me/rpnradio-for-ios/</link>
-    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-for-ios/</guid>
+    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-for-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/og/rpnradio-appstore.png" referrerpolicy="no-referrer">
             </div><p>After more than 3 months of processing Apple Developer Program&rsquo;s requirements, the app is here for iPhones!</p>
@@ -189,7 +251,9 @@
 </item><item>
     <title>OBS Studio 27 is here</title>
     <link>https://reddavid.me/obs-27-is-here/</link>
-    <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/obs-27-is-here/</guid>
+    <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/obs-27-is-here/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/obs27.png" referrerpolicy="no-referrer">
             </div><p>I just updated my OBS a few days ago with the official release version after trying out the several release candidates.</p>
@@ -238,7 +302,9 @@
 </item><item>
     <title>RPN Radio UI Overhaul</title>
     <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
-    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
+    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpnradio-ui.jpeg" referrerpolicy="no-referrer">
             </div><p>Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.</p>
@@ -295,7 +361,9 @@
 </item><item>
     <title>Unlocked: 1K Followers</title>
     <link>https://reddavid.me/unlocked-1k-followers/</link>
-    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/unlocked-1k-followers/</guid>
+    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/unlocked-1k-followers/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/1k-followers.png" referrerpolicy="no-referrer">
             </div><p>First of all, thank you so much to all who stayed, watched, and enjoyed my content.</p>
@@ -324,7 +392,9 @@
 </item><item>
     <title>Streaming Again &amp; Minecraft SMP Season 2</title>
     <link>https://reddavid.me/minecraft-smp-season-2/</link>
-    <pubDate>Sun, 18 Apr 2021 02:52:30 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/minecraft-smp-season-2/</guid>
+    <pubDate>Sun, 18 Apr 2021 02:52:30 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/minecraft-smp-season-2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/mc-smp-s02.png" referrerpolicy="no-referrer">
             </div><p>Rejoice! My more-than-a-month-long hiatus finally came to an end - I&rsquo;m back to streaming video games in Facebook Gaming. In just 2 days, I&rsquo;ve managed to garner a whopping 8+ hours as compared before.</p>
@@ -356,7 +426,9 @@
 </item><item>
     <title>App Landing Page for ZIP Code PH</title>
     <link>https://reddavid.me/zipcodeph-applandingpage/</link>
-    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
+    <pubDate>Fri, 19 Mar 2021 02:21:44 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-applandingpage/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-applanding.png" referrerpolicy="no-referrer">
             </div><p>Now that ZIP Code PH is available for both Android and iOS, I wanted to build a landing page for it.</p>
@@ -369,7 +441,9 @@
 </item><item>
     <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
     <link>https://reddavid.me/zipcodeph-ios/</link>
-    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-ios/</guid>
+    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/zipcodeph-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
             </div><h1 id="update-now-available">Update: Now Available</h1>
@@ -407,7 +481,7 @@
 <br/>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -454,7 +528,7 @@
 </span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
+<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
     <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
@@ -570,30 +644,6 @@ div#gallery-zipcodephios a {
 </a>
 <br/>
 <a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
-]]></description>
-</item><item>
-    <title>Upgrade! Samsung 970 EVO Plus</title>
-    <link>https://reddavid.me/samsung-evo/</link>
-    <pubDate>Tue, 16 Mar 2021 01:09:00 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/samsung-evo/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/970-evo-plus.webp" referrerpolicy="no-referrer">
-            </div><p>Here we go again folks! Another PC upgrade, this time we take our storage to the next level.</p>
-<h1 id="top-player">Top Player</h1>
-<p>I just bought a Samsung 970 EVO Plus, 1TB for my &ldquo;coding needs&rdquo;. I recently experience a throttle while using my current XPG 500GB - I have been using some Virtual Machines lately to test out some things, and the SSD space gets loaded up quickly.</p>
-<p>The SSD costs me around US$100 and failed to get a cheaper one since I am not paying the whole price - again, I got this for credit. 😅</p>
-<h1 id="samsung-why">Samsung, why?</h1>
-<p>Samsung has been the top brand for SSDs and I can say this myself since personally, I used an 860 EVO in the past for my laptop. And even though my current XPG SSD does it&rsquo;s job, I needed an storage upgrade and it&rsquo;s time to get this one.</p>
-<p>The technical specs and comparison is available in the internet which you can visit on PCWorld, <a href="https://www.pcworld.com/article/3334876/samsung-970-evo-plus-review-samsungs-entry-level-nvme-ssd-is-faster-and-cheaper.html" target="_blank" rel="noopener noreferrer">Samsung 970 EVO Plus review</a></p>
-<h1 id="take-a-look">Take a Look</h1>
-<p>I forgot to take pictures to avoid the SSD from picking up some static from my desk mat. But I did take a picture of the box before installing it on the system.</p>
-<figure class="image">
-
-<figcaption><em>Samsung 970 EVO Plus</em></figcaption>
-
-<figcaption><em>Taskbar</em></figcaption>
-</figure>
-<br/>
-<p>This is not to flaunt the things I have, I&rsquo;m just trying to share my thoughts and share which can help my daily activities like coding, and file and graphics processing.</p>
 ]]></description>
 </item></channel>
 </rss>

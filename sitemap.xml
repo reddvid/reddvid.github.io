@@ -2,20 +2,23 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://reddavid.me/tags/beach/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/categories/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/chill/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/elgato/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/gaming/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/posts/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/rainy/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/july-roundup/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/categories/stories/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/streaming/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/twitch/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/tags/vacation/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/books/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/gaming/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/posts/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/self-development/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/still-alive/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/categories/stories/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/vacation/</loc><lastmod>2021-10-05T23:13:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://reddavid.me/tags/beach/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddavid.me/tags/chill/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddavid.me/tags/elgato/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddavid.me/tags/rainy/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddavid.me/july-roundup/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddavid.me/tags/streaming/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://reddavid.me/tags/twitch/</loc><lastmod>2021-07-29T00:02:17&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/call-of-duty/</loc><lastmod>2021-06-12T04:26:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/tags/facebook-gaming/</loc><lastmod>2021-06-12T04:26:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://reddavid.me/categories/gaming/</loc><lastmod>2021-06-12T04:26:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

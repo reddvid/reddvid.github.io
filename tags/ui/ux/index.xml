@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>UI/UX - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/ui/ux/</link>
@@ -6,7 +6,9 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://reddavid.me/tags/ui/ux/" rel="self" type="application/rss+xml" /><item>
     <title>RPN News &amp; Radio Gets a New UI</title>
     <link>https://reddavid.me/new-ui-rpnradio/</link>
-    <pubDate>Thu, 14 Mar 2019 15:28:37 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/new-ui-rpnradio/</guid>
+    <pubDate>Thu, 14 Mar 2019 15:28:37 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/new-ui-rpnradio/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/rpn-newui.jpg" referrerpolicy="no-referrer">
             </div><p>A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.</p>

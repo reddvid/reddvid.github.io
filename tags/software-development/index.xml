@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Software development - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/software-development/</link>
@@ -6,7 +6,9 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/software-development/" rel="self" type="application/rss+xml" /><item>
     <title>Get RPN Radio for iOS</title>
     <link>https://reddavid.me/rpnradio-for-ios/</link>
-    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-for-ios/</guid>
+    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-for-ios/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/og/rpnradio-appstore.png" referrerpolicy="no-referrer">
             </div><p>After more than 3 months of processing Apple Developer Program&rsquo;s requirements, the app is here for iPhones!</p>
@@ -37,7 +39,9 @@
 </item><item>
     <title>RPN Radio UI Overhaul</title>
     <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
-    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
+    <pubDate>Sun, 30 May 2021 00:15:36 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpnradio-ui.jpeg" referrerpolicy="no-referrer">
             </div><p>Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.</p>
@@ -94,7 +98,9 @@
 </item><item>
     <title>Developing for Apple Soon</title>
     <link>https://reddavid.me/developing-for-apple-soon/</link>
-    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/developing-for-apple-soon/</guid>
+    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/developing-for-apple-soon/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
             </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>

@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Setup - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/setup/</link>
@@ -6,7 +6,9 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/setup/" rel="self" type="application/rss+xml" /><item>
     <title>Mobile Game Streaming</title>
     <link>https://reddavid.me/mobile-game-streaming/</link>
-    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/mobile-game-streaming/</guid>
+    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/mobile-game-streaming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/codm-fbgg-streaming.png" referrerpolicy="no-referrer">
             </div><p>This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.</p>
@@ -20,7 +22,6 @@
 
 <h1 id="minecraft-117-is-out">Minecraft 1.17 is out</h1>
 <p>Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.</p>
-<p>Insert MC 1.17 update screenshot and changelog here</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube-nocookie.com/embed/0maWbr0FHKY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -39,10 +40,19 @@
 <li>Audio-technica Condenser Mic</li>
 </ul>
 <p>I used to play on my Nokia 7 Plus but can&rsquo;t the specs can&rsquo;t keep up, not sure why. This is when I use <a href="https://www.vysor.io/" target="_blank" rel="noopener noreferrer">Vysor</a>, a screen mirroring app that wirelessly share the phone&rsquo;s screen to the PC. Now, that&rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.</p>
+<figure><figcaption>
+            <h4>Lightning to AV Adapter and USB Capture Card</h4>
+        </figcaption>
+</figure>
+
 <p>I wonder why branded capture cards are so damn expensive?! Like the <a href="https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture" target="_blank" rel="noopener noreferrer">Elgato HD60S</a> and <a href="https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553" target="_blank" rel="noopener noreferrer">AverMedia Live Gamer Ultra</a>. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&rsquo;s good to go.</p>
 <iframe src="https://giphy.com/embed/3o6MbtelsDZdsbFB7i" width="480" height="360" frameBorder="0" class="giphy-embed" style="display: block; margin: 0px auto;"></iframe>
 <p>Lastly, I recently bought an <a href="https://www.audio-technica.com/en-gb/atr2500x-usb" target="_blank" rel="noopener noreferrer">ATR-2500X condenser mic</a> to record songs and guitars for my YouTube channel. Now it&rsquo;s multi-purpose that I use it on my streams and Zoom meetings.</p>
-<p>Insert mic image here</p>
+<figure><figcaption>
+            <h4>Audio-Technica ATR2500X Condenser Mic</h4>
+        </figcaption>
+</figure>
+
 <h2 id="software">Software</h2>
 <p>As for the software, I use <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">OBS Studio</a>. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &ldquo;Go Live&rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their <a href="https://streamelements.com/" target="_blank" rel="noopener noreferrer">website</a>.</p>
 <figure><figcaption>
@@ -68,7 +78,9 @@
 </item><item>
     <title>Finally! Logitech C922</title>
     <link>https://reddavid.me/the-logitech-c922/</link>
-    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/the-logitech-c922/</guid>
+    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/the-logitech-c922/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/logitech-c922.jpg" referrerpolicy="no-referrer">
             </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>
@@ -159,7 +171,9 @@
 </item><item>
     <title>New Keeb in Town</title>
     <link>https://reddavid.me/new-keeb/</link>
-    <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/new-keeb/</guid>
+    <pubDate>Mon, 17 Aug 2020 19:56:25 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/new-keeb/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/tecware.jpg" referrerpolicy="no-referrer">
             </div><p>This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.</p>
@@ -211,7 +225,9 @@
 </item><item>
     <title>Logitech G304 Review</title>
     <link>https://reddavid.me/g304-review/</link>
-    <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/g304-review/</guid>
+    <pubDate>Mon, 06 Jul 2020 23:42:58 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/g304-review/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/g304.jpg" referrerpolicy="no-referrer">
             </div><p>So this is my short and honest review of the G304 wireless mouse.</p>
@@ -228,7 +244,7 @@
 
 <p>The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.</p>
 
-<p>The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - <a href="https://fb.gg/RedDavidGG/" target="_blank" rel="noopener noreferrer">https://fb.gg/RedDavidGG/</a>)</p>
+<p>The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - <a href="https://fb.gg/RedDavidGG/">https://fb.gg/RedDavidGG/</a>)</p>
  
 
 <br/>
@@ -244,7 +260,9 @@
 </item><item>
     <title>Story of my Logitech Mice</title>
     <link>https://reddavid.me/story-of-owning-logitech-mice/</link>
-    <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
+    <pubDate>Wed, 01 Jul 2020 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/07-20/logi-hero.png" referrerpolicy="no-referrer">
             </div><p>Why do (or did) I own at least 5 of Logitech G mice despite the &ldquo;double-clicking&rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &ldquo;real&rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&rsquo;s.</p>
@@ -268,7 +286,9 @@
 </item><item>
     <title>I Got Myself a New Laptop</title>
     <link>https://reddavid.me/new-laptop/</link>
-    <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/new-laptop/</guid>
+    <pubDate>Tue, 18 Feb 2020 16:30:40 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://reddavid.me/new-laptop/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/acer-laptop.jpg" referrerpolicy="no-referrer">
             </div><p>Last February 15, I got myself a new Acer laptop. It is an Acer Nitro 5 laptop sporting an AMD Ryzen 3550H with RX560X Graphics. This makes my 3rd Acer laptop in a span of 8+ years and my first ever AMD on a laptop (had an AMD Athlon X2 PC before).</p>

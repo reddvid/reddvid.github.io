@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Rainy - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/rainy/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/rainy/" rel="self" type="application/rss+xml" /><item>
     <title>Roundup: July. And June</title>
     <link>https://reddavid.me/july-roundup/</link>
-    <pubDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/july-roundup/</guid>
+    <pubDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/july-roundup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/og/july-roundup.png" referrerpolicy="no-referrer">
             </div><p>Okay, hear me out, I am still procrastinating after watching hours TED Talks and YouTube videos on how to be productive and avoid wasting time doing senseless things. What&rsquo;s wrong? Do I have a lot on my mind or in my hands to keep me posting blogs? Can&rsquo;t be motivated by self-help books and videos? Am I still waiting for when &ldquo;it&rsquo;s too late&rdquo;? AARGH</p>

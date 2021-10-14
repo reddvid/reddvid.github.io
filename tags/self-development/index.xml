@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Self-development - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/self-development/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 05 Oct 2021 23:13:11 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/self-development/" rel="self" type="application/rss+xml" /><item>
     <title>Some Updates (Yes, I am Still Alive)</title>
     <link>https://reddavid.me/still-alive/</link>
-    <pubDate>Tue, 05 Oct 2021 23:13:11 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/still-alive/</guid>
+    <pubDate>Tue, 05 Oct 2021 23:13:11 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/still-alive/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/og/still-alive.png" referrerpolicy="no-referrer">
             </div><p>Well how about that?! I just said about how I am prone to procrastinating on my last blog post (over 2 months ago!) that I wanted to keep pisting at least once a week but guess what, I failed! 🥲</p>

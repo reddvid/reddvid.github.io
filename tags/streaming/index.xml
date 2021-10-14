@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Streaming - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/streaming/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/streaming/" rel="self" type="application/rss+xml" /><item>
     <title>Roundup: July. And June</title>
     <link>https://reddavid.me/july-roundup/</link>
-    <pubDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/july-roundup/</guid>
+    <pubDate>Thu, 29 Jul 2021 00:02:17 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/july-roundup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/og/july-roundup.png" referrerpolicy="no-referrer">
             </div><p>Okay, hear me out, I am still procrastinating after watching hours TED Talks and YouTube videos on how to be productive and avoid wasting time doing senseless things. What&rsquo;s wrong? Do I have a lot on my mind or in my hands to keep me posting blogs? Can&rsquo;t be motivated by self-help books and videos? Am I still waiting for when &ldquo;it&rsquo;s too late&rdquo;? AARGH</p>
@@ -96,9 +94,7 @@
 </item><item>
     <title>Mobile Game Streaming</title>
     <link>https://reddavid.me/mobile-game-streaming/</link>
-    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/mobile-game-streaming/</guid>
+    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/mobile-game-streaming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/codm-fbgg-streaming.png" referrerpolicy="no-referrer">
             </div><p>This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.</p>
@@ -168,9 +164,7 @@
 </item><item>
     <title>OBS Studio 27 is here</title>
     <link>https://reddavid.me/obs-27-is-here/</link>
-    <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/obs-27-is-here/</guid>
+    <pubDate>Tue, 08 Jun 2021 03:15:06 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/obs-27-is-here/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/obs27.png" referrerpolicy="no-referrer">
             </div><p>I just updated my OBS a few days ago with the official release version after trying out the several release candidates.</p>
@@ -219,9 +213,7 @@
 </item><item>
     <title>Unlocked: 1K Followers</title>
     <link>https://reddavid.me/unlocked-1k-followers/</link>
-    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/unlocked-1k-followers/</guid>
+    <pubDate>Sat, 29 May 2021 22:26:48 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/unlocked-1k-followers/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/1k-followers.png" referrerpolicy="no-referrer">
             </div><p>First of all, thank you so much to all who stayed, watched, and enjoyed my content.</p>
@@ -250,9 +242,7 @@
 </item><item>
     <title>Finally! Logitech C922</title>
     <link>https://reddavid.me/the-logitech-c922/</link>
-    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/the-logitech-c922/</guid>
+    <pubDate>Thu, 01 Oct 2020 23:17:51 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/the-logitech-c922/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/logitech-c922.jpg" referrerpolicy="no-referrer">
             </div><p>Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.</p>

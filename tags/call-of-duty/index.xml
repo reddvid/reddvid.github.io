@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Call of Duty - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/call-of-duty/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/call-of-duty/" rel="self" type="application/rss+xml" /><item>
     <title>Mobile Game Streaming</title>
     <link>https://reddavid.me/mobile-game-streaming/</link>
-    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/mobile-game-streaming/</guid>
+    <pubDate>Sat, 12 Jun 2021 04:26:59 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/mobile-game-streaming/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/codm-fbgg-streaming.png" referrerpolicy="no-referrer">
             </div><p>This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.</p>

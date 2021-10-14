@@ -1,4 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Fluent Design - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/fluent-design/</link>
@@ -6,9 +6,7 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/fluent-design/" rel="self" type="application/rss+xml" /><item>
     <title>ZIP Code PH Gets Refreshed UI</title>
     <link>https://reddavid.me/zipcodeph-new-ui/</link>
-    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
+    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-new-ui/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
             </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
@@ -39,9 +37,7 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 </item><item>
     <title>Your Phone Tray V2</title>
     <link>https://reddavid.me/your-phone-tray-v2/</link>
-    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://reddavid.me/your-phone-tray-v2/</guid>
+    <pubDate>Wed, 08 Jul 2020 21:18:31 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/your-phone-tray-v2/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/your-phone.jpg" referrerpolicy="no-referrer">
             </div><p>Your Phone Tray UWP app just got updated.</p>

@@ -24,7 +24,7 @@
 
 </center>
 <p>Now, as of this writing, we just ended Day 3 of the Main Stage and I&rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.</p>
-<p>{{ &lt; figure src=&ldquo;<a href="https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;name=large%22">https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;name=large&quot;</a> &gt; }}</p>
+<p>{{ &lt; figure src=&ldquo;<a href="https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;name=large%22" target="_blank" rel="noopener noreferrer">https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&name=large"</a> &gt; }}</p>
 <p>Thanks to <a href="https://twitter.com/wykrhm" target="_blank" rel="noopener noreferrer">Wykrhm Reddy (@wykrhm)</a> for being such a good Dota Community Man.</p>
 <h2 id="sekretong-malupet">Sekretong Malupet</h2>
 <p>Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.</p>
@@ -144,7 +144,7 @@
 <br/>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -191,7 +191,7 @@
 </span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
     <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>

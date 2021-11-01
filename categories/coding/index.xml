@@ -145,7 +145,7 @@
 <br/>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -192,7 +192,7 @@
 </span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
     <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
         <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>

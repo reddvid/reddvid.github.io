@@ -3,7 +3,78 @@
         <title>All Posts - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/posts/</link>
         <description>All Posts | Red David | Tech, Gaming, and Coding Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 Nov 2021 00:45:35 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>RPN News Mobile App Released</title>
+    <link>https://reddavid.me/rpn-news-released/</link>
+    <pubDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpn-news-released/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/rpn-news.png" referrerpolicy="no-referrer">
+            </div><p>It&rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.</p>
+<h1 id="delays">Delays</h1>
+<p>The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).</p>
+<p>I apologize for the delay but I just made sure these features are working for production.</p>
+<h1 id="app-details">App Details</h1>
+<p>Most brands nowadays accompany their line of business with a mobile app, beside the <a href="https://tunein.rpnradio.com/download" target="_blank" rel="noopener noreferrer">RPN Radio app</a> which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.</p>
+<p>Right now, the app is a feed for the provincial news as visible on <a href="https://rpnradio.com/category/provincial-news/" target="_blank" rel="noopener noreferrer">RPN website</a>. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.</p>
+<h1 id="screenshots">Screenshots</h1>
+<p>It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).</p>
+<style>
+
+div#gallery-rpn-news {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#gallery-rpn-news a {
+  width: 20%;
+  margin: 2px;
+}
+
+</style>
+<div id="gallery-rpn-news">
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-1.png" title="News feed (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-1.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-2.png" title="News details (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-2.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-3.png" title="About page (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-3.png">
+        
+    </a>
+</div>
+<div id="gallery-rpn-news">
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-1.png" title="News feed (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-1.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-2.png" title="News details (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-2.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-3.png" title="About page (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-3.png">
+        
+    </a>
+</div>
+<h1 id="download-here">Download Here</h1>
+<p>The app is available now on the Google Play Store: <a href="https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;hl=en&amp;gl=US" target="_blank" rel="noopener noreferrer">RPN News - Apps on Google Play</a></p>
+<p>As for Huawei devices (App Gallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&rsquo;re approved.</p>
+<h1 id="whats-next">What&rsquo;s Next</h1>
+<p>Here are the milestones I am looking forward to bring:</p>
+<h3 id="milestone-22">Milestone 2.2+</h3>
+<ul>
+<li>News Filter (by Station or tags)</li>
+<li>Search</li>
+<li>National and International news (courtesy of BusinessMirror news)</li>
+<li>Customizable fonts</li>
+<li>Read aloud</li>
+</ul>
+<h3 id="milestone-30">Milestone 3.0</h3>
+<ul>
+<li>Integrate stations' live videos (YouTube)</li>
+<li>Integrate stations' VODs (video-on-demand)</li>
+</ul>
+<p>As always, you can follow me on <a href="https://twitter.com/reddvid" target="_blank" rel="noopener noreferrer">Twitter</a> for mini updates.</p>
+]]></description>
+</item><item>
     <title>My Top Apps for Windows and iPhone</title>
     <link>https://reddavid.me/my-top-windows-and-mobile-apps/</link>
     <pubDate>Tue, 02 Nov 2021 00:45:35 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/my-top-windows-and-mobile-apps/</guid>
@@ -516,38 +587,6 @@
 <p>While YouTube had a better chat system, but chat highlights and audience interactions are better - with chatbots.</p>
 <p>I held back these thoughts before since I did start my Facebook page a long time and gained a few followers. I just hoped if I made up my mind to switch, we can determine the real supporters. Maybe?</p>
 <p>That&rsquo;s it for this blog post. Thank you again for visiting my website and you can catch up on my Gaming Videos on <a href="https://fb.gg/RedDavidGG" target="_blank" rel="noopener noreferrer">Facebook Gaming</a> and follower me there. You can also follow me on my socials: @reddvid</p>
-]]></description>
-</item><item>
-    <title>Streaming Again &amp; Minecraft SMP Season 2</title>
-    <link>https://reddavid.me/minecraft-smp-season-2/</link>
-    <pubDate>Sun, 18 Apr 2021 02:52:30 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/minecraft-smp-season-2/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/mc-smp-s02.png" referrerpolicy="no-referrer">
-            </div><p>Rejoice! My more-than-a-month-long hiatus finally came to an end - I&rsquo;m back to streaming video games in Facebook Gaming. In just 2 days, I&rsquo;ve managed to garner a whopping 8+ hours as compared before.</p>
-<p>This also means that I am back to relieving some stress thru my beloved game Minecraft, (Survival Mode).</p>
-<h1 id="first-world">First World?</h1>
-<p>The first server I rented became <strike>toxic</strike> unenjoyable after a few months after opening it into the public - NO it&rsquo;s not because of the new players, but because the server was technically &ldquo;DONE&rdquo; by having usable XP farms, stripped mines, food source, and other auto AFK farms. Which meant that new players have nothing more to do but mess around most of the time.</p>
-<p>I tried to reload the server with a new world but it kept corrupting upto the point that I reverted it back to the older (toxic) world. And I stopped playing less and less.</p>
-<h1 id="refreshed-and-new-season-two">Refreshed and New? SEASON TWO</h1>
-<p>Yes, after I decided to stream again, I hastily rented a new server and invite some of my OG followers to play with me. As of now, the world is still peaceful and managed to invite more players in hoping we can live happily in the upcoming days.</p>
-<p>Unlike before, the server is now Offline-mode, meaning that non-Mojang accounts can now join - be CAREFUL though, WE CAN STILL <strong>BAN</strong> YOU.</p>
-<h2 id="wanna-join">Wanna join?</h2>
-<p>Head over to our Discord server for the rules and guidelines, and for the Server IP.</p>
-<p><a href="https://discord.gg/rKnJb4J" target="_blank" rel="noopener noreferrer">Red David Discord Server</a></p>
-<h2 id="get-your-own-minecraft-server">Get Your Own Minecraft Server</h2>
-<p>Hosted by Shockbyte, cheap and reliable servers are offered for you. Check them out <a href="https://bit.ly/ShockByteMC" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<h1 id="hello-1k-followers">Hello 1K Followers</h1>
-<p>I have been aiming to reach followers before the year 2020 ends but I failed to do so, much more that I stopped streaming for more than a month.</p>
-<p>Now with regained confidence, I am on the path to reach that goal while improving my streaming. So head over to my <a href="https://fb.gg/RedDavidGG" target="_blank" rel="noopener noreferrer">Facebook Gaming Page</a> and see if you like me to gain a Follow!</p>
-<h1 id="looking-for-support">✨Looking for Support</h1>
-<p>Also, I tried streaming mobile games now and then but the current setup is not suited for it. I am slowly building funds to get the setup for mobile games too.</p>
-<p>Receiving stars during my live streams are very much appreciated by placing your names on my Starwall here: <a href="https://reddavid.me/starwall" target="_blank" rel="noopener noreferrer">Star-senders Wall</a></p>
-<p>Buy me Coffee: <a href="https://www.buymeacoffee.com/RedDavid" target="_blank" rel="noopener noreferrer">https://www.buymeacoffee.com/RedDavid</a></p>
-<p>PayPal: <a href="https://paypal.me/reddvid/" target="_blank" rel="noopener noreferrer">https://paypal.me/reddvid</a></p>
-<p>Tip through StreamElements: <a href="https://streamelements.com/reddavidgaming/tip" target="_blank" rel="noopener noreferrer">https://streamelements.com/reddavidgaming/tip</a></p>
-<p>GCash 🇵🇭 : 09760226611</p>
-<p>Visit my helpful links: <a href="https://reddavid.me/links" target="_blank" rel="noopener noreferrer">Red David Links</a></p>
-<p><a href="https://reddavid.me/zipcodeph-app/" target="_blank" rel="noopener noreferrer">Download</a> my ZIP Code PH app</p>
 ]]></description>
 </item></channel>
 </rss>

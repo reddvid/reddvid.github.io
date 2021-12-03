@@ -3,7 +3,78 @@
         <title>Coding - Category - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/categories/coding/</link>
         <description>Coding - Category - Red David | Tech, Gaming, and Coding Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/" rel="self" type="application/rss+xml" /><item>
+    <title>RPN News Mobile App Released</title>
+    <link>https://reddavid.me/rpn-news-released/</link>
+    <pubDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpn-news-released/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/rpn-news.png" referrerpolicy="no-referrer">
+            </div><p>It&rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.</p>
+<h1 id="delays">Delays</h1>
+<p>The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).</p>
+<p>I apologize for the delay but I just made sure these features are working for production.</p>
+<h1 id="app-details">App Details</h1>
+<p>Most brands nowadays accompany their line of business with a mobile app, beside the <a href="https://tunein.rpnradio.com/download" target="_blank" rel="noopener noreferrer">RPN Radio app</a> which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.</p>
+<p>Right now, the app is a feed for the provincial news as visible on <a href="https://rpnradio.com/category/provincial-news/" target="_blank" rel="noopener noreferrer">RPN website</a>. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.</p>
+<h1 id="screenshots">Screenshots</h1>
+<p>It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).</p>
+<style>
+
+div#gallery-rpn-news {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#gallery-rpn-news a {
+  width: 20%;
+  margin: 2px;
+}
+
+</style>
+<div id="gallery-rpn-news">
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-1.png" title="News feed (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-1.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-2.png" title="News details (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-2.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-3.png" title="About page (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-3.png">
+        
+    </a>
+</div>
+<div id="gallery-rpn-news">
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-1.png" title="News feed (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-1.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-2.png" title="News details (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-2.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-3.png" title="About page (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-3.png">
+        
+    </a>
+</div>
+<h1 id="download-here">Download Here</h1>
+<p>The app is available now on the Google Play Store: <a href="https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;hl=en&amp;gl=US" target="_blank" rel="noopener noreferrer">RPN News - Apps on Google Play</a></p>
+<p>As for Huawei devices (App Gallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&rsquo;re approved.</p>
+<h1 id="whats-next">What&rsquo;s Next</h1>
+<p>Here are the milestones I am looking forward to bring:</p>
+<h3 id="milestone-22">Milestone 2.2+</h3>
+<ul>
+<li>News Filter (by Station or tags)</li>
+<li>Search</li>
+<li>National and International news (courtesy of BusinessMirror news)</li>
+<li>Customizable fonts</li>
+<li>Read aloud</li>
+</ul>
+<h3 id="milestone-30">Milestone 3.0</h3>
+<ul>
+<li>Integrate stations' live videos (YouTube)</li>
+<li>Integrate stations' VODs (video-on-demand)</li>
+</ul>
+<p>As always, you can follow me on <a href="https://twitter.com/reddvid" target="_blank" rel="noopener noreferrer">Twitter</a> for mini updates.</p>
+]]></description>
+</item><item>
     <title>Get RPN Radio for iOS</title>
     <link>https://reddavid.me/rpnradio-for-ios/</link>
     <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-for-ios/</guid>
@@ -537,37 +608,6 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h1 id="download">Download</h1>
 <p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
 <p>The app will be available soon on iOS.</p>
-]]></description>
-</item><item>
-    <title>ZIP Code PH Gets Refreshed UI</title>
-    <link>https://reddavid.me/zipcodeph-new-ui/</link>
-    <pubDate>Sun, 16 Aug 2020 22:02:34 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-new-ui/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph.png" referrerpolicy="no-referrer">
-            </div><p>Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
-Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.</p>
-<p>Then one time, I just found the urge to update it after seeing Michael West&rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&rsquo;s App settings panel as seen <a href="https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style" target="_blank">here on his Dribbble post</a>.</p>
-<p>I started coding at once, cleaning up some codes on the app beginning with the UI. And came up with the final layout.</p>
-<p>Here are some screenshots of the updated app version 4.
-</br></p>
-<figure class="image">
-
-  <figcaption><em>version 4.0, clean and refreshed Fluent Design UI</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Favorites panel - Dark mode</em></figcaption>
-</figure>
-</br>
-<figure class="image">
-
-  <figcaption><em>Search places - Light mode</em></figcaption>
-</figure>
-</br>
-<p>You can check the <em>free</em> app here in the Microsoft Store.
-</br>
-<a href='//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&ocid=badge'></a></p>
 ]]></description>
 </item></channel>
 </rss>

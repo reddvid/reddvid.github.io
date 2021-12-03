@@ -3,7 +3,78 @@
         <title>Apps - Tag - Red David | Tech, Gaming, and Coding Blog</title>
         <link>https://reddavid.me/tags/apps/</link>
         <description>Apps - Tag - Red David | Tech, Gaming, and Coding Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 02 Nov 2021 00:45:35 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/apps/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/apps/" rel="self" type="application/rss+xml" /><item>
+    <title>RPN News Mobile App Released</title>
+    <link>https://reddavid.me/rpn-news-released/</link>
+    <pubDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpn-news-released/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/feat/rpn-news.png" referrerpolicy="no-referrer">
+            </div><p>It&rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.</p>
+<h1 id="delays">Delays</h1>
+<p>The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).</p>
+<p>I apologize for the delay but I just made sure these features are working for production.</p>
+<h1 id="app-details">App Details</h1>
+<p>Most brands nowadays accompany their line of business with a mobile app, beside the <a href="https://tunein.rpnradio.com/download" target="_blank" rel="noopener noreferrer">RPN Radio app</a> which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.</p>
+<p>Right now, the app is a feed for the provincial news as visible on <a href="https://rpnradio.com/category/provincial-news/" target="_blank" rel="noopener noreferrer">RPN website</a>. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.</p>
+<h1 id="screenshots">Screenshots</h1>
+<p>It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).</p>
+<style>
+
+div#gallery-rpn-news {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#gallery-rpn-news a {
+  width: 20%;
+  margin: 2px;
+}
+
+</style>
+<div id="gallery-rpn-news">
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-1.png" title="News feed (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-1.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-2.png" title="News details (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-2.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpn-news-apple-3.png" title="About page (iPhone)" data-thumbnail="/images/12-21/rpn-news/rpn-news-apple-3.png">
+        
+    </a>
+</div>
+<div id="gallery-rpn-news">
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-1.png" title="News feed (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-1.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-2.png" title="News details (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-2.png">
+        
+    </a>
+<a class="lightgallery" href="/images/12-21/rpn-news/rpnnews-store-3.png" title="About page (Android)" data-thumbnail="/images/12-21/rpn-news/rpnnews-store-3.png">
+        
+    </a>
+</div>
+<h1 id="download-here">Download Here</h1>
+<p>The app is available now on the Google Play Store: <a href="https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;hl=en&amp;gl=US" target="_blank" rel="noopener noreferrer">RPN News - Apps on Google Play</a></p>
+<p>As for Huawei devices (App Gallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&rsquo;re approved.</p>
+<h1 id="whats-next">What&rsquo;s Next</h1>
+<p>Here are the milestones I am looking forward to bring:</p>
+<h3 id="milestone-22">Milestone 2.2+</h3>
+<ul>
+<li>News Filter (by Station or tags)</li>
+<li>Search</li>
+<li>National and International news (courtesy of BusinessMirror news)</li>
+<li>Customizable fonts</li>
+<li>Read aloud</li>
+</ul>
+<h3 id="milestone-30">Milestone 3.0</h3>
+<ul>
+<li>Integrate stations' live videos (YouTube)</li>
+<li>Integrate stations' VODs (video-on-demand)</li>
+</ul>
+<p>As always, you can follow me on <a href="https://twitter.com/reddvid" target="_blank" rel="noopener noreferrer">Twitter</a> for mini updates.</p>
+]]></description>
+</item><item>
     <title>My Top Apps for Windows and iPhone</title>
     <link>https://reddavid.me/my-top-windows-and-mobile-apps/</link>
     <pubDate>Tue, 02 Nov 2021 00:45:35 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/my-top-windows-and-mobile-apps/</guid>
@@ -429,20 +500,6 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h1 id="download">Download</h1>
 <p>The app is available to download for <strong>FREE</strong> from <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031">Huawei App Store.</a></p>
 <p>The app will be available soon on iOS.</p>
-]]></description>
-</item><item>
-    <title>RF Tools Gets Multi-Window Support</title>
-    <link>https://reddavid.me/rftools-gets-multi-window-support/</link>
-    <pubDate>Sun, 12 May 2019 15:47:52 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rftools-gets-multi-window-support/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/rftools.png" referrerpolicy="no-referrer">
-            </div><p>UWP SDK recently released a new support for Multi-windowing.</p>
-<p></p>
-<p>Then I though of which of my apps should I implement this with, there&rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.</p>
-<p>This should improve the user&rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.</p>
-<p></p>
-<p></p>
-<p>You can <a href="https://www.microsoft.com/en-us/p/rf-tools/9nblggh41btt" target="_blank">download the app here</a></p>
 ]]></description>
 </item></channel>
 </rss>

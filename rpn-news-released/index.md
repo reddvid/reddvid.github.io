@@ -1,5 +1,11 @@
-# RPN News Mobile App Released
+# (Updated) RPN News Mobile App Released
 
+
+# Update
+
+The app is now available for iPhones. See the <a href="#download-here">download section</a> below.
+
+<hr >
 
 It's been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.
 
@@ -50,7 +56,9 @@ div#gallery-rpn-news a {
 
 The app is available now on the Google Play Store: [RPN News - Apps on Google Play](https://play.google.com/store/apps/details?id=com.rpnradio.news&hl=en&gl=US)
 
-As for Huawei devices (App Gallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they're approved.
+Update: Download for iPhone here: [RPN News on the App Store](ttps://apps.apple.com/app/id1590143546)
+
+As for Huawei devices (App Gallery) <del>and iPhone App Store</del>, the app is still under review for each platform. Will add the links as soon as they're approved.
 
 # What's Next
 

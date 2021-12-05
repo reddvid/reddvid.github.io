@@ -6,12 +6,15 @@
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</lastBuildDate>
             <atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>RPN News Mobile App Released</title>
+    <title>(Updated) RPN News Mobile App Released</title>
     <link>https://reddavid.me/rpn-news-released/</link>
     <pubDate>Sat, 04 Dec 2021 03:22:25 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpn-news-released/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/feat/rpn-news.png" referrerpolicy="no-referrer">
-            </div><p>It&rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.</p>
+            </div><h1 id="update">Update</h1>
+<p>The app is now available for iPhones. See the <a href="#download-here">download section</a> below.</p>
+<hr >
+<p>It&rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.</p>
 <h1 id="delays">Delays</h1>
 <p>The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).</p>
 <p>I apologize for the delay but I just made sure these features are working for production.</p>
@@ -58,7 +61,8 @@ div#gallery-rpn-news a {
 </div>
 <h1 id="download-here">Download Here</h1>
 <p>The app is available now on the Google Play Store: <a href="https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;hl=en&amp;gl=US" target="_blank" rel="noopener noreferrer">RPN News - Apps on Google Play</a></p>
-<p>As for Huawei devices (App Gallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&rsquo;re approved.</p>
+<p>Update: Download for iPhone here: <a href="ttps://apps.apple.com/app/id1590143546" target="_blank" rel="noopener noreferrer">RPN News on the App Store</a></p>
+<p>As for Huawei devices (App Gallery) <del>and iPhone App Store</del>, the app is still under review for each platform. Will add the links as soon as they&rsquo;re approved.</p>
 <h1 id="whats-next">What&rsquo;s Next</h1>
 <p>Here are the milestones I am looking forward to bring:</p>
 <h3 id="milestone-22">Milestone 2.2+</h3>

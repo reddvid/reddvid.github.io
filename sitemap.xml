@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://reddavid.me/rpn-news-released/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/android/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/apps/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/categories/apps/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -14,7 +15,6 @@
             <loc>https://reddavid.me/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/rpn/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/rpn-news/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://reddavid.me/rpn-news-released/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/</loc><lastmod>2021-12-04T03:22:25&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://reddavid.me/tags/apps-list/</loc><lastmod>2021-11-02T00:45:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://reddavid.me/my-top-windows-and-mobile-apps/</loc><lastmod>2021-11-02T00:45:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>

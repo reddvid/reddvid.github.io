@@ -56,7 +56,7 @@ div#gallery-rpn-news a {
 
 The app is available now on the Google Play Store: [RPN News - Apps on Google Play](https://play.google.com/store/apps/details?id=com.rpnradio.news&hl=en&gl=US)
 
-Update: Download for iPhone here: [RPN News on the App Store](ttps://apps.apple.com/app/id1590143546)
+Update: Download for iPhone here: [RPN News on the App Store](https://apps.apple.com/app/id1590143546)
 
 As for Huawei devices (App Gallery) <del>and iPhone App Store</del>, the app is still under review for each platform. Will add the links as soon as they're approved.
 

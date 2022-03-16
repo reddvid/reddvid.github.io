@@ -1,78 +1,81 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Webapp - Tag - Red David | Tech, Gaming, and Coding Blog</title>
+        <title>Webapp on David Ballesteros</title>
         <link>https://reddavid.me/tags/webapp/</link>
-        <description>Webapp - Tag - Red David | Tech, Gaming, and Coding Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/webapp/" rel="self" type="application/rss+xml" /><item>
-    <title>Tune In RPN Radio Update</title>
-    <link>https://reddavid.me/tunein-update/</link>
-    <pubDate>Tue, 16 Feb 2021 20:30:09 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/tunein-update/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/rpn-tunein.png" referrerpolicy="no-referrer">
-            </div><p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
-<h1 id="mainpage-and-mobile-first-design">MainPage and Mobile-First Design</h1>
-<p>The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a></p>
-<p>Then I cleaned up my CSS file to make the whole website <a href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00" target="_blank">&ldquo;mobile-first&rdquo;.</a>
-<br/>
-<br/></p>
-<h1 id="now-playing-station-pages">Now Playing Station Pages</h1>
-<p>The tune-in or now playing page received most of the update. I&rsquo;ve broken some of them below:</p>
-<h2 id="back-button">Back Button</h2>
-<p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
-<p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
-<pre><code>function goBack() {
+        <description>Recent content in Webapp on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 16 Feb 2021 20:30:09 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/webapp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Tune In RPN Radio Update</title>
+        <link>https://reddavid.me/tune-in-rpn-radio-update/</link>
+        <pubDate>Tue, 16 Feb 2021 20:30:09 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tune-in-rpn-radio-update/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/rpn-tunein.png" alt="Featured image of post Tune In RPN Radio Update" /&gt;&lt;p&gt;I updated the tune-in website for RPN. This post will detail the changes, what&amp;rsquo;s new or removed, and how the update went.&lt;/p&gt;
+&lt;h1 id=&#34;mainpage-and-mobile-first-design&#34;&gt;MainPage and Mobile-First Design&lt;/h1&gt;
+&lt;p&gt;The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for &lt;a class=&#34;link&#34; href=&#34;https://www.marksimonson.com/fonts/view/proxima-nova&#34; target=&#34;_blank&#34;&gt;Proxima Nova&lt;/a&gt; and fallback to Arial Nova or other &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Sans-serif&#34; target=&#34;_blank&#34;&gt;sans serif fonts.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Then I cleaned up my CSS file to make the whole website &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;mobile-first&amp;rdquo;.&lt;/a&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1 id=&#34;now-playing-station-pages&#34;&gt;Now Playing Station Pages&lt;/h1&gt;
+&lt;p&gt;The tune-in or now playing page received most of the update. I&amp;rsquo;ve broken some of them below:&lt;/p&gt;
+&lt;h2 id=&#34;back-button&#34;&gt;Back Button&lt;/h2&gt;
+&lt;p&gt;The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag attribute &lt;code&gt;href=&amp;quot;/&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now, it&amp;rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function goBack() {
   if (isNavOpen) {
     closeNav();
   }
-  else if (document.referrer == "") {
-    window.location.href = "https://tunein.rpnradio.com/";
+  else if (document.referrer == &#34;&#34;) {
+    window.location.href = &#34;https://tunein.rpnradio.com/&#34;;
   }
   else {
     window.history.back();
   }
-}; </code></pre>
-<p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
-<p>Now the back button takes you to home page when started with a station page.</p>
-<h2 id="navigation-menu">Navigation Menu</h2>
-<p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
-<p>Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.
-<br/>
-<br/></p>
-<h1 id="security">Security</h1>
-<p>The website was also SSL-enabled - <a href="https://www.websecurity.digicert.com/security-topics/https-everywhere" target="_blank">HTTPS Everywhere.</a></p>
-<p>This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.
-<br/>
-<br/></p>
-<h1 id="open-graph-metadata">Open Graph Metadata</h1>
-<p>Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.</p>
-<p>Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:</p>
-<figure class="image">
-
-<figcaption><em>Facebook Open Graph Preview</em></figcaption>
-<br/>
-
-<figcaption><em>Twitter Open Graph Preview</em></figcaption>
-</figure>
-Creating the metadata tags was made easy by using <a href="https://metatags.io/" target="_blank">Metatags.io</a>.
-<br/>
-<br/>
-<h1 id="site-icons">Site Icons</h1>
-<p>I went on to also update the website&rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:</p>
-<figure>
-
-<figcaption><em>Website Favicon</em></figcaption>
-</figure>
-<br/>
-<h1 id="google-ads">Google Ads</h1>
-<p>I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.</p>
-<p>We all hate ads but this is the only modest way to profit for most websites.
-<br/>
-<br/></p>
-<h1 id="htaccess-to-remove-html">.htaccess to Remove .html</h1>
-<p>I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: <pre><small>tunein.rpnradio.com/batac.html</small></pre>
-Some rules were added to the .htaccess file to make it <pre><small>tunein.rpnradio.com/batac</small></pre></p>
-<p>.htaccess file:</p>
-<pre><code>RewriteEngine On 
+}; &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.&lt;/p&gt;
+&lt;p&gt;Now the back button takes you to home page when started with a station page.&lt;/p&gt;
+&lt;h2 id=&#34;navigation-menu&#34;&gt;Navigation Menu&lt;/h2&gt;
+&lt;p&gt;The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.&lt;/p&gt;
+&lt;p&gt;Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1 id=&#34;security&#34;&gt;Security&lt;/h1&gt;
+&lt;p&gt;The website was also SSL-enabled - &lt;a class=&#34;link&#34; href=&#34;https://www.websecurity.digicert.com/security-topics/https-everywhere&#34; target=&#34;_blank&#34;&gt;HTTPS Everywhere.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1 id=&#34;open-graph-metadata&#34;&gt;Open Graph Metadata&lt;/h1&gt;
+&lt;p&gt;Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.&lt;/p&gt;
+&lt;p&gt;Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/tunein/ogrpn.png&#34; alt=&#34;Tune In Open Graph Image for Homepage&#34; style=&#34;width: 60%; &#34;&gt;
+&lt;figcaption&gt;Facebook Open Graph Preview&lt;/figcaption&gt;
+&lt;br/&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/tunein/ogstation.png&#34; alt=&#34;Tune In Open Graph Image for Homepage&#34; style=&#34;width: 60%; &#34;&gt;
+&lt;figcaption&gt;Twitter Open Graph Preview&lt;/figcaption&gt;
+&lt;/figure&gt;
+Creating the metadata tags was made easy by using &lt;a class=&#34;link&#34; href=&#34;https://metatags.io/&#34; target=&#34;_blank&#34;&gt;Metatags.io&lt;/a&gt;.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;site-icons&#34;&gt;Site Icons&lt;/h1&gt;
+&lt;p&gt;I went on to also update the website&amp;rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/tunein/radio_app.png&#34; alt=&#34;Tune In Open Graph Image for Homepage&#34; style=&#34;width: 20%; &#34;&gt;
+&lt;figcaption&gt;Website Favicon&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;google-ads&#34;&gt;Google Ads&lt;/h1&gt;
+&lt;p&gt;I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.&lt;/p&gt;
+&lt;p&gt;We all hate ads but this is the only modest way to profit for most websites.
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1 id=&#34;htaccess-to-remove-html&#34;&gt;.htaccess to Remove .html&lt;/h1&gt;
+&lt;p&gt;I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: &lt;pre&gt;&lt;small&gt;tunein.rpnradio.com/batac.html&lt;/small&gt;&lt;/pre&gt;
+Some rules were added to the .htaccess file to make it &lt;pre&gt;&lt;small&gt;tunein.rpnradio.com/batac&lt;/small&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;.htaccess file:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;RewriteEngine On 
 RewriteCond %{HTTPS} off 
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
@@ -80,16 +83,18 @@ RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
-</code></pre>
-<br/>
-<h1 id="footer-finally">Footer Finally</h1>
-<p>I added a subtle footer to the whole website. That&rsquo;s it. :)
-<br/>
-<br/></p>
-<h1 id="final-words">Final Words</h1>
-<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
-<p>You can visit the website here: <a href="https://tunein./rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
-<p>You may also want to check my blog post about the RPN Radio App here:<br/><a href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
-]]></description>
-</item></channel>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;footer-finally&#34;&gt;Footer Finally&lt;/h1&gt;
+&lt;p&gt;I added a subtle footer to the whole website. That&amp;rsquo;s it. :)
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1 id=&#34;final-words&#34;&gt;Final Words&lt;/h1&gt;
+&lt;p&gt;This website is another medium for the company&amp;rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;hl=en&amp;gl=US&#34; target=&#34;_blank&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34; target=&#34;_blank&#34;&gt;Huawei App Gallery&lt;/a&gt;), the website also serves a means for our audiences to access our stations&amp;rsquo; broadcast anytime and anywhere in the world.&lt;/p&gt;
+&lt;p&gt;You can visit the website here: &lt;a class=&#34;link&#34; href=&#34;https://tunein./rpnradio.com/&#34; target=&#34;_blank&#34;&gt;Tune In — RPN Radio.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You may also want to check my blog post about the RPN Radio App here:&lt;br/&gt;&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpnradio-android/&#34;&gt;RPN Radio: Streaming App for Android.&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

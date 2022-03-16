@@ -1,266 +1,285 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>iOS - Tag - Red David | Tech, Gaming, and Coding Blog</title>
+        <title>iOS on David Ballesteros</title>
         <link>https://reddavid.me/tags/ios/</link>
-        <description>iOS - Tag - Red David | Tech, Gaming, and Coding Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 15 Oct 2021 03:53:07 &#43;0800</lastBuildDate><atom:link href="https://reddavid.me/tags/ios/" rel="self" type="application/rss+xml" /><item>
-    <title>#TI10 and Appdates</title>
-    <link>https://reddavid.me/ti-and-appdates/</link>
-    <pubDate>Fri, 15 Oct 2021 03:53:07 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/ti-and-appdates/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/og/ti10-appdates.png" referrerpolicy="no-referrer">
-            </div><p>Let&rsquo;s start with <a href="https://en.wikipedia.org/wiki/The_International_2021#:~:text=The%20International%202021%2C%20also%20known,2%20world%20championship%20esports%20tournament." target="_blank" rel="noopener noreferrer">The International</a>, shortened as TI, Valve&rsquo;s yearly Dota 2 tournament where the 18 of the best teams around the world gather to fight for the Aegis of the Champions every year. After being canceled and waiting for more than 2 years it is now happening, without an audience in Bucharest, Romania with a total prizepool of $40M+.</p>
-<center>
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">The International 10 Prize Pool Breakdown. <a href="https://twitter.com/hashtag/TI10?src=hash&amp;ref_src=twsrc%5Etfw">#TI10</a> <a href="https://twitter.com/hashtag/Dota2?src=hash&amp;ref_src=twsrc%5Etfw">#Dota2</a> <a href="https://t.co/76mHH1MZue">pic.twitter.com/76mHH1MZue</a></p>&mdash; Wykrhm Reddy (@wykrhm) <a href="https://twitter.com/wykrhm/status/1444037357775179779?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <description>Recent content in iOS on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 15 Oct 2021 03:53:07 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/ios/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>TI10 and Appdates</title>
+        <link>https://reddavid.me/ti10-and-appdates/</link>
+        <pubDate>Fri, 15 Oct 2021 03:53:07 +0800</pubDate>
+        
+        <guid>https://reddavid.me/ti10-and-appdates/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/ti10-appdates.png" alt="Featured image of post TI10 and Appdates" /&gt;&lt;p&gt;Let&amp;rsquo;s start with &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/The_International_2021#:~:text=The%20International%202021%2C%20also%20known,2%20world%20championship%20esports%20tournament.&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The International&lt;/a&gt;, shortened as TI, Valve&amp;rsquo;s yearly Dota 2 tournament where the 18 of the best teams around the world gather to fight for the Aegis of the Champions every year. After being canceled and waiting for more than 2 years it is now happening, without an audience in Bucharest, Romania with a total prizepool of $40M+.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The International 10 Prize Pool Breakdown. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/76mHH1MZue&#34;&gt;pic.twitter.com/76mHH1MZue&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1444037357775179779?ref_src=twsrc%5Etfw&#34;&gt;October 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-</center>
-<p>I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches <a href="https://dota2.fandom.com/wiki/IceFrog" target="_blank">IceFrog</a> brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn <a href="https://liquipedia.net/dota2/Dota_Pro_Circuit" target="_blank">DPC points</a> for entering the prestigious TI.</p>
-<h2 id="10-days-of-dota">10 Days of DOTA</h2>
-<p>#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.</p>
-<center>
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">TI10 Groups Final Standings. <a href="https://twitter.com/hashtag/TI10?src=hash&amp;ref_src=twsrc%5Etfw">#TI10</a> <a href="https://twitter.com/hashtag/Dota2?src=hash&amp;ref_src=twsrc%5Etfw">#Dota2</a> <a href="https://t.co/JBXC9z7hBc">pic.twitter.com/JBXC9z7hBc</a></p>&mdash; Wykrhm Reddy (@wykrhm) <a href="https://twitter.com/wykrhm/status/1447199723308269568?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+&lt;/center&gt;
+&lt;p&gt;I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches &lt;a class=&#34;link&#34; href=&#34;https://dota2.fandom.com/wiki/IceFrog&#34; target=&#34;_blank&#34;&gt;IceFrog&lt;/a&gt; brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn &lt;a class=&#34;link&#34; href=&#34;https://liquipedia.net/dota2/Dota_Pro_Circuit&#34; target=&#34;_blank&#34;&gt;DPC points&lt;/a&gt; for entering the prestigious TI.&lt;/p&gt;
+&lt;h2 id=&#34;10-days-of-dota&#34;&gt;10 Days of DOTA&lt;/h2&gt;
+&lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;TI10 Groups Final Standings. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/JBXC9z7hBc&#34;&gt;pic.twitter.com/JBXC9z7hBc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1447199723308269568?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-</center>
-<p>Now, as of this writing, we just ended Day 3 of the Main Stage and I&rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.</p>
-<p>{{ &lt; figure src=&ldquo;<a href="https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;name=large%22" target="_blank" rel="noopener noreferrer">https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&name=large"</a> &gt; }}</p>
-<p>Thanks to <a href="https://twitter.com/wykrhm" target="_blank" rel="noopener noreferrer">Wykrhm Reddy (@wykrhm)</a> for being such a good Dota Community Man.</p>
-<h2 id="sekretong-malupet">Sekretong Malupet</h2>
-<p>Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.</p>
-<center>
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">We made a promise. We delivered.<br><br>UPPER BRACKET: SECURED 🖤<a href="https://twitter.com/hashtag/SecretDota?src=hash&amp;ref_src=twsrc%5Etfw">#SecretDota</a> <a href="https://twitter.com/hashtag/TI10?src=hash&amp;ref_src=twsrc%5Etfw">#TI10</a> <a href="https://t.co/4V6czHXzhI">pic.twitter.com/4V6czHXzhI</a></p>&mdash; Team Secret (@teamsecret) <a href="https://twitter.com/teamsecret/status/1447192871677857796?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+&lt;/center&gt;
+&lt;p&gt;Now, as of this writing, we just ended Day 3 of the Main Stage and I&amp;rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&amp;rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.&lt;/p&gt;
+&lt;p&gt;{{ &amp;lt; figure src=&amp;ldquo;&lt;a class=&#34;link&#34; href=&#34;https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;amp;name=large%22&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;name=large&#34;&lt;/a&gt; &amp;gt; }}&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/wykrhm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wykrhm Reddy (@wykrhm)&lt;/a&gt; for being such a good Dota Community Man.&lt;/p&gt;
+&lt;h2 id=&#34;the-secret&#34;&gt;The Secret&lt;/h2&gt;
+&lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;We made a promise. We delivered.&lt;br&gt;&lt;br&gt;UPPER BRACKET: SECURED 🖤&lt;a href=&#34;https://twitter.com/hashtag/SecretDota?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#SecretDota&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://t.co/4V6czHXzhI&#34;&gt;pic.twitter.com/4V6czHXzhI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Team Secret (@teamsecret) &lt;a href=&#34;https://twitter.com/teamsecret/status/1447192871677857796?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-</center>
-<p>I follow the games by watching <a href="https://www.twitch.tv/singsing" target="_blank">singsing&rsquo;s Twitch stream</a> as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.</p>
-<h2 id="coding-and-appdates">Coding and Appdates</h2>
-<p>This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.</p>
-<p>My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣</p>
-<figure><figcaption>
-            <p>Samsung A71</p>
-        </figcaption>
-</figure>
+&lt;/center&gt;
+&lt;p&gt;I follow the games by watching &lt;a class=&#34;link&#34; href=&#34;https://www.twitch.tv/singsing&#34; target=&#34;_blank&#34;&gt;singsing&amp;rsquo;s Twitch stream&lt;/a&gt; as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.&lt;/p&gt;
+&lt;h2 id=&#34;coding-and-appdates&#34;&gt;Coding and Appdates&lt;/h2&gt;
+&lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
+&lt;p&gt;My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/samsung-a71.png&#34;
+         alt=&#34;Samsung A71&#34; height=&#34;400px&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samsung A71&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-<p>The app has been up on the Google Play Store for some time (as I blogged <a href="https://reddavid.me/rpn-android-app/" target="_blank">here</a>) and lacked significant updates. It stayed that way for a while until all busy-ness and code-confusion (is this even a term?) has subsided.</p>
-<p>These past days, I managed to release an update for the Android beta app and also started a TestFlight for iOS devices.</p>
-<p>I decided to version the app as 2.0 as this was a complete rework from the old code despite not publicly releasing a version 1.0. The app was previously coded on C#/Xamarin Forms but the documentation and support I needed was &ldquo;not there&rdquo;, then I started to code on Dart/Flutter for RPN Radio which made things easier - being a single-codebase mobile app development.</p>
-<p>Version 2.0 brings a new UI and supports offline mode - see downloaded news (as opposed to before that it will not work when there is no internet; though it is always recommended to be connected to get the latest news).</p>
-<figure><figcaption>
-            <p>News Items</p>
-        </figcaption>
-</figure>
+&lt;p&gt;The app has been up on the Google Play Store for some time (as I blogged &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpn-android-app/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;) and lacked significant updates. It stayed that way for a while until all busy-ness and code-confusion (is this even a term?) has subsided.&lt;/p&gt;
+&lt;p&gt;These past days, I managed to release an update for the Android beta app and also started a TestFlight for iOS devices.&lt;/p&gt;
+&lt;p&gt;I decided to version the app as 2.0 as this was a complete rework from the old code despite not publicly releasing a version 1.0. The app was previously coded on C#/Xamarin Forms but the documentation and support I needed was &amp;ldquo;not there&amp;rdquo;, then I started to code on Dart/Flutter for RPN Radio which made things easier - being a single-codebase mobile app development.&lt;/p&gt;
+&lt;p&gt;Version 2.0 brings a new UI and supports offline mode - see downloaded news (as opposed to before that it will not work when there is no internet; though it is always recommended to be connected to get the latest news).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Items Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
+	data-flex-basis=&#34;108px&#34; &gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Detail Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
+	data-flex-basis=&#34;108px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;Get into the Beta Test&lt;/h3&gt;
+&lt;p&gt;The app is available for testing and I welcome your feedback after getting the app here from &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/2YVpJC9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://apple.co/2XaMBNl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple TestFlight&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Or scan the QR code/s below:&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/play-qr.png&#34;
+         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-<figure><figcaption>
-            <p>News Details Page</p>
-        </figcaption>
-</figure>
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/testflight-qr.png&#34;
+         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;You may submit your feedback using built-in tools from Google or TestFlight, sending an &lt;a class=&#34;link&#34; href=&#34;mailto:info@rpnradio.com&#34; &gt;email&lt;/a&gt;, or any on my socials.&lt;/p&gt;
+&lt;p&gt;I will try my best to get the app working for a public release.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s it for now folks, &lt;strong&gt;let&amp;rsquo;s watch and enjoy some Dota&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Get RPN Radio for iOS</title>
+        <link>https://reddavid.me/get-rpn-radio-for-ios/</link>
+        <pubDate>Sat, 12 Jun 2021 00:50:15 +0800</pubDate>
+        
+        <guid>https://reddavid.me/get-rpn-radio-for-ios/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/rpnradio-appstore.png" alt="Featured image of post Get RPN Radio for iOS" /&gt;&lt;p&gt;After more than 3 months of processing Apple Developer Program&amp;rsquo;s requirements, the app is here for iPhones!&lt;/p&gt;
+&lt;p&gt;This is the very same version we release for the Android counterpart &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpnradio-android/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;read the details on this blog post&lt;/a&gt;. Ads are disabled for now as I am still fixing things with the release of iOS 14.7&lt;/p&gt;
+&lt;br&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/home.png&#34; style=&#34;display:inline-block;margin-left:auto;width:200px;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/playing.png&#34; style=&#34;display:inline-block;margin-left:10px;margin-right:10px;width:200px;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/about.png&#34; style=&#34;display:inline-block;margin-left:auto;width:200px;&#34;&gt;
+&lt;figcaption&gt;App Screenshots&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;p&gt;The app is set to receive further updates, especially with station details. The list below shows the top priority updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detailed station page (operating hours, location, and contact numbers)&lt;/li&gt;
+&lt;li&gt;Better player view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;The app is FREE TO DOWNLOAD here:&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;amp;itscg=30200e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;figure&gt;&lt;img src=&#34;img/appstore-badge.png&#34; width=&#34;250px&#34;/&gt;
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/qr.png&#34;
+         alt=&#34;RPN Radio QR Code for iOS&#34; width=&#34;40%&#34;/&gt;
+&lt;/figure&gt;
 
-<h3 id="get-into-the-beta-test">Get into the Beta Test</h3>
-<p>The app is available for testing and I welcome your feedback after getting the app here from <strong><a href="https://bit.ly/2YVpJC9" target="_blank" rel="noopener noreferrer">Google Play Store</a></strong> and <a href="https://apple.co/2XaMBNl" target="_blank" rel="noopener noreferrer">Apple TestFlight</a>.</p>
-<p>Or scan the QR code below:</p>
-<h4 id="google-play-store">Google Play Store</h4>
-<figure>
-</figure>
+</description>
+        </item>
+        <item>
+        <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
+        <link>https://reddavid.me/update-now-available-zip-code-ph-for-ios/</link>
+        <pubDate>Tue, 16 Mar 2021 01:28:15 +0800</pubDate>
+        
+        <guid>https://reddavid.me/update-now-available-zip-code-ph-for-ios/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h1 id=&#34;update-now-available&#34;&gt;Update: Now Available&lt;/h1&gt;
+&lt;p&gt;You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&amp;rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.&lt;/p&gt;
+&lt;p&gt;Get the app below: &lt;br/&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/zip-code-ph/id1555921863?itsct=apps_box&amp;amp;itscg=30200&#34; style=&#34;display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;&#34;&gt;&lt;img src=&#34;https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;amp;releaseDate=1615766400&amp;h=60d62bace1ec567408893f9085310f3c&#34; alt=&#34;Download on the App Store&#34; style=&#34;border-radius: 13px; width: 250px; height: 83px;&#34;&gt;&lt;/a&gt;&lt;img src=&#34;https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/a1b53b4233734ce37673d9f70803db74/47cd37c9-fb35-4a15-b8b8-958219968ea0.png&#34; width=&#34;200px&#34; style=&#34;display: inline-block;margin-left: 20px;&#34;&gt;&lt;/p&gt;
+&lt;hr/&gt;
+&lt;h1 id=&#34;lets-go&#34;&gt;Let&amp;rsquo;s Go&lt;/h1&gt;
+&lt;p&gt;For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&amp;rsquo;s native language SwiftUI.&lt;/p&gt;
+&lt;p&gt;Using a Mac is not that hard anymore since I&amp;rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.&lt;/p&gt;
+&lt;p&gt;And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.&lt;/p&gt;
+&lt;h1 id=&#34;development&#34;&gt;Development&lt;/h1&gt;
+&lt;h2 id=&#34;main-and-about-page&#34;&gt;Main and About Page&lt;/h2&gt;
+&lt;p&gt;I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&amp;rsquo;t consume a lot of code-behind.&lt;/p&gt;
+&lt;p&gt;The Main Page took a lot of iterations but below is the final view (as of this writing):&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/mainpage.png&#34;
+         alt=&#34;Main Page&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Main Page&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-<h4 id="apple-testflight">Apple TestFlight</h4>
-<figure>
-</figure>
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34; target=&#34;_blank&#34;&gt;Unsplash!&lt;/a&gt;)&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/about-1.png&#34; style=&#34;display:inline;margin-left:auto;margin-right:auto;width:40%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/about-2.png&#34; style=&#34;display:inline;margin-left:auto;margin-right:auto;width:40%;&#34;&gt;
+&lt;figcaption&gt;Help &amp; About Page&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;search-page&#34;&gt;Search Page&lt;/h2&gt;
+&lt;p&gt;Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/searchbar.png&#34;
+         alt=&#34;iOS Search Bar&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;iOS Search Bar&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-<p>You may submit your feedback using built-in tools from Google or TestFlight, sending an <a href="mailto:info@rpnradio.com" rel="">email</a>, or any on my socials.</p>
-<p>I will try my best to get the app working for a public release.</p>
-<hr>
-<p>That&rsquo;s it for now folks, <strong>let&rsquo;s watch and enjoy some Dota</strong>.</p>
-]]></description>
-</item><item>
-    <title>Get RPN Radio for iOS</title>
-    <link>https://reddavid.me/rpnradio-for-ios/</link>
-    <pubDate>Sat, 12 Jun 2021 00:50:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/rpnradio-for-ios/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/og/rpnradio-appstore.png" referrerpolicy="no-referrer">
-            </div><p>After more than 3 months of processing Apple Developer Program&rsquo;s requirements, the app is here for iPhones!</p>
-<p>This is the very same version we release for the Android counterpart (<a href="https://reddavid.me/rpnradio-android/">read the details on this blog post</a>). Ads are disabled for now as I am still fixing things with the release of iOS 14.7</p>
-<br>
-<figure class="image">
+&lt;br/&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;HStack&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;TextField&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Search ZIP Code PH&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;horizontal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;background&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;systemGray6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cornerRadius&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;overlay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;HStack&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;systemName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;magnifyingglass&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foregroundColor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;frame&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;minWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;maxWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;infinity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;alignment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;leading&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;leading&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;isEmpty&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;n&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;systemName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;multiply.circle.fill&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                            &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foregroundColor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                            &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;trailing&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;horizontal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;onTapGesture&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;bp&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;c1&#34;&gt;// Dismiss the keyboard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;UIApplication&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;shared&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sendAction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;#selector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;UIResponder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resignFirstResponder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;to&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;Text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Cancel&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;leading&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;trailing&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;transition&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;move&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;edge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;trailing&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;animation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;easeInOut&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;br/&gt;
+&lt;video muted width=&#34;280&#34; controls style=&#34;display:block;margin-left:auto;margin-right:auto;&#34;&gt;
+  &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/searchpage.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;br/&gt;
+&lt;p&gt;I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅&lt;/p&gt;
+&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;Menu and Area List Page&lt;/h2&gt;
+&lt;p&gt;After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/area.png&#34;
+         alt=&#34;City and Area Pages&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;City and Area Pages&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-
-
-<figcaption>App Screenshots</figcaption>
-</figure>
-<br>
-<h1 id="roadmap">Roadmap</h1>
-<p>The app is set to receive further updates, especially with station details. THe list below shows the top priority updates:</p>
-<ul>
-<li>Detailed station page (operating hours, location, and contact numbers)</li>
-<li>Better player view</li>
-</ul>
-<br>
-<h1 id="downloads">Downloads</h1>
-<p>The app is FREE TO DOWNLOAD here:</p>
-<p><a href="https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
-<figure class="image">
-
-</figure>
-<br/>
-]]></description>
-</item><item>
-    <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
-    <link>https://reddavid.me/zipcodeph-ios/</link>
-    <pubDate>Tue, 16 Mar 2021 01:28:15 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/zipcodeph-ios/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/zipcodeph-ios.png" referrerpolicy="no-referrer">
-            </div><h1 id="update-now-available">Update: Now Available</h1>
-<p>You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.</p>
-<p>Get the app below: <br/>
-<a href="https://apps.apple.com/us/app/zip-code-ph/id1555921863?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"></a></p>
-<hr/>
-<h1 id="lets-go">Let&rsquo;s Go</h1>
-<p>For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&rsquo;s native language SwiftUI.</p>
-<p>Using a Mac is not that hard anymore since I&rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.</p>
-<p>And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.</p>
-<h1 id="development">Development</h1>
-<h2 id="main-and-about-page">Main and About Page</h2>
-<p>I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&rsquo;t consume a lot of code-behind.</p>
-<p>The Main Page took a lot of iterations but below is the final view (as of this writing):</p>
-<figure class="image">
-
-<figcaption><em>Main Page</em></figcaption>
-</figure>
-<br/>
-<p>The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks <a href="https://unsplash.com/" target="_blank">Unsplash!</a>)</p>
-<figure class="image">
-
-
-<figcaption><em>Help & About Page</em></figcaption>
-</figure>
-<br/>
-<h2 id="search-page">Search Page</h2>
-<p>Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.</p>
-<p>I didn&rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:</p>
-<figure class="image">
-
-<figcaption><em>iOS Search Bar</em></figcaption>
-</figure>
-<br/>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
-    <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">background</span><span class="p">(</span><span class="n">Color</span><span class="p">(.</span><span class="n">systemGray6</span><span class="p">))</span>
-        <span class="p">.</span><span class="n">cornerRadius</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">overlay</span><span class="p">(</span>
-            <span class="n">HStack</span> <span class="p">{</span>
-                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;magnifyingglass&#34;</span><span class="p">)</span>
-                    <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
-                    <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
-                    <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
-
-                <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
-                    <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
-                        <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
-                    <span class="p">})</span> <span class="p">{</span>
-                        <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;multiply.circle.fill&#34;</span><span class="p">)</span>
-                            <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
-                            <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
-                    <span class="p">}</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-        <span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
-        <span class="p">}</span>
-
-    <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
-        <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">false</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
-            <span class="c1">// Dismiss the keyboard</span>
-            <span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">sendAction</span><span class="p">(</span><span class="k">#selector</span><span class="p">(</span><span class="n">UIResponder</span><span class="p">.</span><span class="n">resignFirstResponder</span><span class="p">),</span> <span class="n">to</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">from</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="k">for</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
-        <span class="p">})</span> <span class="p">{</span>
-            <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Cancel&#34;</span><span class="p">)</span>
-        <span class="p">}</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">transition</span><span class="p">(.</span><span class="n">move</span><span class="p">(</span><span class="n">edge</span><span class="p">:</span> <span class="p">.</span><span class="n">trailing</span><span class="p">))</span>
-        <span class="p">.</span><span class="n">animation</span><span class="p">(.</span><span class="n">easeInOut</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
-</div>
-</div><br/>
-<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
-  <source src="/videos/03-21/zipcodeph-ios/searchpage.mp4" type="video/mp4">
-</video>
-<br/>
-<p>I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅</p>
-<h2 id="menu-and-area-list-page">Menu and Area List Page</h2>
-<p>After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4</p>
-<figure class="image">
-
-<figcaption><em>City and Area Pages</em></figcaption>
-</figure>
-<br/>
-<h2 id="favorites">Favorites</h2>
-<p>Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.</p>
-<p>After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)</p>
-<video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
-  <source src="/videos/03-21/zipcodeph-ios/favorite.mp4" type="video/mp4">
-</video>
-<br/>
-<h1 id="showcase">Showcase</h1>
-<p>Below are the app showcase which you can see on the App Store as soon as the app is available</p>
-<style>
+&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;favorites&#34;&gt;Favorites&lt;/h2&gt;
+&lt;p&gt;Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.&lt;/p&gt;
+&lt;p&gt;After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)&lt;/p&gt;
+&lt;video muted width=&#34;280&#34; controls style=&#34;display:block;margin-left:auto;margin-right:auto;&#34;&gt;
+  &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/favorite.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;br/&gt;
+&lt;h1 id=&#34;showcase&#34;&gt;Showcase&lt;/h1&gt;
+&lt;p&gt;Below are the app showcase which you can see on the App Store as soon as the app is available&lt;/p&gt;
+&lt;style&gt;
 
 div#gallery-zipcodephios {
    display: flex;
@@ -273,67 +292,81 @@ div#gallery-zipcodephios a {
   margin: 5px;
 }
 
-</style>
-<div id="gallery-zipcodephios">
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/color-mode.png" title="Light and Dark Mode" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/color-mode.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/favorites.png" title="Favorites Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/favorites.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/search.png" title="Search Page" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/search.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/trivia.png" title="Trivias" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/trivia.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png" title="NCR and Luzon" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/visayas.png" title="Visayas" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/visayas.png">
-        
-    </a>
-<a class="lightgallery" href="/images/03-21/zipcodeph-ios/gallery/mindanao.png" title="Mindanao" data-thumbnail="/images/03-21/zipcodeph-ios/gallery/mindanao.png">
-        
-    </a>
-</div>
-<h1 id="now-available-you-can-get-it-soon">(Now Available) You Can Get it Soon</h1>
-<p><a href="https://apple.co/3lrnrBO" target="_blank">Get the app</a></p>
-<p>The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.</p>
-<p>For the meantime, the app is still available for Android and Windows 10.</p>
-<p>You can check the blog posts here for the download links:
-<br/>
-<a href="/zipcodeph-android-dark-mode/">ZIP Code PH for Android gets Dark Mode
-</a>
-<br/>
-<a href="/zipcodeph-new-ui/">ZIP Code PH Gets Refreshed UI</a></p>
-]]></description>
-</item><item>
-    <title>Developing for Apple Soon</title>
-    <link>https://reddavid.me/developing-for-apple-soon/</link>
-    <pubDate>Sat, 06 Feb 2021 00:40:14 &#43;0800</pubDate><dc:creator>David</dc:creator><guid>https://reddavid.me/developing-for-apple-soon/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/images/feat/appstore.png" referrerpolicy="no-referrer">
-            </div><h1 id="apple-user---me">Apple User -&gt; Me</h1>
-<p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
-<p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
-<figure class="image">
+&lt;/style&gt;
+&lt;div id=&#34;gallery-zipcodephios&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/gallery/color-mode.png&#34;
+         alt=&#34;Light and Dark Mode&#34;/&gt;
+&lt;/figure&gt;
 
-<figcaption><em>Yellow iPhone 11</em></figcaption>
-</figure>
-<br/>
-<h1 id="developing-for-ios-soon">Developing for iOS soon</h1>
-<p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
-<p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
-<figure class="image">
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/gallery/favorites.png&#34;
+         alt=&#34;Favorites Page&#34;/&gt;
+&lt;/figure&gt;
 
-<figcaption><em>iOS 14 App Library (is that TikTok? 😅)</em></figcaption>
-</figure>
-<br/>
-<p>So, to test things out, I would be putting my app <a href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
-<h1 id="for-the-meantime">For the meantime&hellip;</h1>
-<p>Go ahead and check out my apps on the <a href="ms-windows-store:publisher?name=Red David">Windows 10 Store</a> and <a href="https://play.google.com/store/apps/dev?id=5465762079490576029">Google Play Store</a> both under Red David.</p>
-<p>See you soon!</p>
-]]></description>
-</item></channel>
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/gallery/search.png&#34;
+         alt=&#34;Search Page&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/gallery/trivia.png&#34;
+         alt=&#34;Trivias&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/gallery/ncr-and-luzon.png&#34;
+         alt=&#34;NCR and Luzon&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/gallery/visayas.png&#34;
+         alt=&#34;Visayas&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/gallery/mindanao.png&#34;
+         alt=&#34;Mindanao&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;h1 id=&#34;now-available-you-can-get-it-soon&#34;&gt;(Now Available) You Can Get it Soon&lt;/h1&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://apple.co/3lrnrBO&#34; target=&#34;_blank&#34;&gt;Get the app&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.&lt;/p&gt;
+&lt;p&gt;For the meantime, the app is still available for Android and Windows 10.&lt;/p&gt;
+&lt;p&gt;You can check the blog posts here for the download links:
+&lt;br/&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-android-dark-mode/&#34;&gt;ZIP Code PH for Android gets Dark Mode
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-new-ui/&#34;&gt;ZIP Code PH Gets Refreshed UI&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Developing for Apple Soon</title>
+        <link>https://reddavid.me/developing-for-apple-soon/</link>
+        <pubDate>Sat, 06 Feb 2021 00:40:14 +0800</pubDate>
+        
+        <guid>https://reddavid.me/developing-for-apple-soon/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/appstore.png" alt="Featured image of post Developing for Apple Soon" /&gt;&lt;h1 id=&#34;apple-user---me&#34;&gt;Apple User -&amp;gt; Me&lt;/h1&gt;
+&lt;p&gt;Yes, I gave in to use an Apple device. Well, I&amp;rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&amp;rsquo;s kiss. That&amp;rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;loaned&lt;/em&gt; for an iPhone 11 since the iPhone 12 is expensive and I like the 11&amp;rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&amp;rsquo;t stand out as a phone&amp;rsquo;s color and I&amp;rsquo;ve had too many black phones before.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/iphone11back.jpg&#34;
+         alt=&#34;Yellow iPhone 11&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Yellow iPhone 11&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1 id=&#34;developing-for-ios-soon&#34;&gt;Developing for iOS soon&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m excited to learn new things and finally applying the cross-platform capabilities of &lt;a class=&#34;link&#34; href=&#34;https://dotnet.microsoft.com/apps/xamarin/xamarin-forms&#34;&gt;Xamarin.Forms&lt;/a&gt; which I have used in some of my Android apps and it&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/&#34;&gt;C#&lt;/a&gt;. I also want to check out native code from Apple, &lt;a class=&#34;link&#34; href=&#34;https://developer.apple.com/xcode/swiftui/&#34;&gt;SwiftUI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/applibrary.jpg&#34;
+         alt=&#34;iOS 14 App Library (is that TikTok? 😅)&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;iOS 14 App Library (is that TikTok? 😅)&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;So, to test things out, I would be putting my app &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-android-dark-mode/&#34;&gt;ZIP Code PH&lt;/a&gt; on the App Store and might set a (very very small) price to support this costly Apple environment 😂.&lt;/p&gt;
+&lt;h1 id=&#34;for-the-meantime&#34;&gt;For the meantime&amp;hellip;&lt;/h1&gt;
+&lt;p&gt;Go ahead and check out my apps on the &lt;a class=&#34;link&#34; href=&#34;ms-windows-store:publisher?name=Red David&#34;&gt;Windows 10 Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/dev?id=5465762079490576029&#34;&gt;Google Play Store&lt;/a&gt; both under Red David.&lt;/p&gt;
+&lt;p&gt;See you soon!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

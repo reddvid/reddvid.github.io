@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on David Ballesteros</title>
+        <link>https://reddavid.me/categories/</link>
+        <description>Recent content in Categories on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 04 Dec 2021 03:22:25 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Apps</title>
+        <link>https://reddavid.me/categories/apps/</link>
+        <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/apps/</guid>
+        <description>&lt;img src="https://reddavid.me/categories/apps/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Apps" /&gt;</description>
+        </item>
+        <item>
+        <title>Coding</title>
+        <link>https://reddavid.me/categories/coding/</link>
+        <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/coding/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Software</title>
+        <link>https://reddavid.me/categories/software/</link>
+        <pubDate>Tue, 02 Nov 2021 00:45:35 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/software/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>App Development</title>
+        <link>https://reddavid.me/categories/app-development/</link>
+        <pubDate>Fri, 15 Oct 2021 03:53:07 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/app-development/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Gaming</title>
+        <link>https://reddavid.me/categories/gaming/</link>
+        <pubDate>Fri, 15 Oct 2021 03:53:07 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/gaming/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Stories</title>
+        <link>https://reddavid.me/categories/stories/</link>
+        <pubDate>Tue, 05 Oct 2021 23:13:11 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/stories/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tech</title>
+        <link>https://reddavid.me/categories/tech/</link>
+        <pubDate>Thu, 29 Jul 2021 00:02:17 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/tech/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Technology</title>
+        <link>https://reddavid.me/categories/technology/</link>
+        <pubDate>Tue, 16 Mar 2021 01:09:00 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/technology/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Reviews</title>
+        <link>https://reddavid.me/categories/reviews/</link>
+        <pubDate>Mon, 06 Jul 2020 23:42:58 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/reviews/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

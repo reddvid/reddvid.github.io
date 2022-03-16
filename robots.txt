@@ -1,7 +1,0 @@
-User-agent: Twitterbot
-Allow: /images
-
-User-agent: facebookexternalhit
-Allow: /images
-
-Sitemap: https://reddavid.me/sitemap.xml

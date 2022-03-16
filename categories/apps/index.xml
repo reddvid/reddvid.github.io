@@ -203,8 +203,9 @@
 &lt;p&gt;Though I mostly use OBS for game streaming (no facecam), I move things around only to notice that it was not the source I wanted to move! This surely helps users out and always had been the most requested feature.&lt;/p&gt;
 &lt;h2 id=&#34;files-where&#34;&gt;Files, where?&lt;/h2&gt;
 &lt;p&gt;Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don’t go start streaming only to have the files missing.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_missing_files_warning.png&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;h4&gt;Missing Files Warning Window&lt;/h4&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_missing_files_warning.png&#34;
+         alt=&#34;Missing Files Warning Window&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Missing Files Warning Window&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -218,13 +219,15 @@
 &lt;li&gt;Browser Source interact button (toolbar)&lt;/li&gt;
 &lt;li&gt;Virtual Camera toggle button (system tray)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_browser_interact.png&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;h4&gt;Browser Source Interact Button&lt;/h4&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_browser_interact.png&#34;
+         alt=&#34;Browser Source Interact Button&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Browser Source Interact Button&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_virtual_cam.png&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;h4&gt;Toggle Virtual Camera on System Tray Icon&amp;lt;&lt;/h4&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_virtual_cam.png&#34;
+         alt=&#34;Toggle Virtual Camera on System Tray Icon&amp;amp;lt;&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Toggle Virtual Camera on System Tray Icon&amp;lt;&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;

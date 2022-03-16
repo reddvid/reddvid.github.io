@@ -3,14 +3,16 @@
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Your Phone Tray UWP app just got updated.
 Version 2.0 brings few UI changes, some improvements and a breaking change.
-Improvements To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up) You can also see a new menu item Enable Ctrl&#43;Y Hotkey. If enabled, the app silently picks up the Ctrl&#43;Y shortcut to open Your Phone app.'><title>Your Phone Tray V2</title>
+Improvements New Context Menu To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)  Your Phone Tray Context Menu
+  Shortcut Key You can also see a new menu item Enable Ctrl&#43;Y Hotkey. If enabled, the app silently picks up the Ctrl&#43;Y shortcut to open Your Phone app.'><title>Your Phone Tray V2</title>
 
 <link rel='canonical' href='https://reddavid.me/your-phone-tray-v2/'>
 
-<link rel="stylesheet" href="/scss/style.min.021a02f8bb07455e840e27d21ea67029b6e342afb1f28ed3dcd80d22e5ed9db4.css"><meta property='og:title' content='Your Phone Tray V2'>
+<link rel="stylesheet" href="/scss/style.min.664773235c68199ac9a21321c757758b04cadef9fcb74acb221e7cfe843648a0.css"><meta property='og:title' content='Your Phone Tray V2'>
 <meta property='og:description' content='Your Phone Tray UWP app just got updated.
 Version 2.0 brings few UI changes, some improvements and a breaking change.
-Improvements To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up) You can also see a new menu item Enable Ctrl&#43;Y Hotkey. If enabled, the app silently picks up the Ctrl&#43;Y shortcut to open Your Phone app.'>
+Improvements New Context Menu To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)  Your Phone Tray Context Menu
+  Shortcut Key You can also see a new menu item Enable Ctrl&#43;Y Hotkey. If enabled, the app silently picks up the Ctrl&#43;Y shortcut to open Your Phone app.'>
 <meta property='og:url' content='https://reddavid.me/your-phone-tray-v2/'>
 <meta property='og:site_name' content='David Ballesteros'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='App Development' /><meta property='article:tag' content='Windows 10' /><meta property='article:tag' content='UWP' /><meta property='article:tag' content='Fluent Design' /><meta property='article:published_time' content='2020-07-08T21:18:31&#43;08:00' /><meta property='article:modified_time' content='2020-07-08T21:18:31&#43;08:00' /><meta property='og:image' content='https://reddavid.me/images/og/your-phone-tray.png' />
@@ -18,8 +20,21 @@ Improvements To improve the app, I updated the tray icon context menu to show th
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Your Phone Tray V2">
 <meta name="twitter:description" content="Your Phone Tray UWP app just got updated.
 Version 2.0 brings few UI changes, some improvements and a breaking change.
-Improvements To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up) You can also see a new menu item Enable Ctrl&#43;Y Hotkey. If enabled, the app silently picks up the Ctrl&#43;Y shortcut to open Your Phone app."><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content='https://reddavid.me/images/og/your-phone-tray.png' /><link href="//fonts.cdnfonts.com/css/geomanist" rel="stylesheet">
+Improvements New Context Menu To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)  Your Phone Tray Context Menu
+  Shortcut Key You can also see a new menu item Enable Ctrl&#43;Y Hotkey. If enabled, the app silently picks up the Ctrl&#43;Y shortcut to open Your Phone app."><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content='https://reddavid.me/images/og/your-phone-tray.png' />
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129071597-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><link href="//fonts.cdnfonts.com/css/geomanist" rel="stylesheet">
 <style>
    @import url('//fonts.cdnfonts.com/css/geomanist');
 </style>
@@ -425,7 +440,7 @@ Improvements To improve the app, I updated the tray icon context menu to show th
 </div>
 </header>
     <br>
-    <hr style="width: 40%; background-color:rgb(53, 53, 53);">
+    <hr style="width: 90%; opacity: .55; background-color:rgba(255, 255, 255, 0.5);">
     <br>
     
 
@@ -434,13 +449,22 @@ Improvements To improve the app, I updated the tray icon context menu to show th
     
     <p>Your Phone Tray UWP app just got updated.</p>
 <p>Version 2.0 brings few UI changes, some improvements and a breaking change.</p>
-<h3 id="improvements">Improvements</h3>
+<h2 id="improvements">Improvements</h2>
+<h3 id="new-context-menu">New Context Menu</h3>
 <p>To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
-<img src="/images/07-20/yourphonetray/ypt-contextmenu.png" style="display:block;margin-left:auto;margin-right:auto;width:30%;"></p>
-<p>You can also see a new menu item <strong>Enable Ctrl+Y Hotkey</strong>. If enabled, the app silently picks up the Ctrl+Y shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.</p>
-<h3 id="breaking-change">Breaking change</h3>
+<figure><img src="/images/07-20/yourphonetray/ypt-contextmenu.png"
+         alt="Context Menu of Your Phone Tray app" width="50%"/><figcaption>
+            <p>Your Phone Tray Context Menu</p>
+        </figcaption>
+</figure>
+</p>
+<h4 id="shortcut-key">Shortcut Key</h4>
+<p>You can also see a new menu item <strong>Enable Ctrl+Y Hotkey</strong>. If enabled, the app silently picks up the <code>Ctrl+Y</code> shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.</p>
+<hr>
+<h2 id="breaking-change">Breaking change</h2>
 <p>Microsoft&rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.</p>
-<p><a class="link" href="https://bit.ly/UrPhoneTray" target="_blank"><h2>You can download the app by clicking on this link</h2></a></p>
+<h2 id="download">Download</h2>
+<p><a class="link" href="https://bit.ly/UrPhoneTray" target="_blank"><strong>Download the app here</strong></a> for Windows 10</p>
 
 </section>
 
@@ -479,12 +503,12 @@ Improvements To improve the app, I updated the tray icon context menu to show th
             
                 
 <article class="has-image">
-    <a href="/zip-code-ph-gets-refreshed-ui/">
+    <a href="/zipcodeph-new-ui/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/feat/zipcodeph.png" loading="lazy" data-key="" data-hash="/images/feat/zipcodeph.png"/>
+                    <img src="/images/feat/zipcodeph.png" loading="lazy" data-key="zipcodeph-new-ui" data-hash="/images/feat/zipcodeph.png"/>
                 
             </div>
         
@@ -716,7 +740,48 @@ Improvements To improve the app, I updated the tray icon context menu to show th
             >
 
             </main>
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#improvements">Improvements</a>
+      <ul>
+        <li><a href="#new-context-menu">New Context Menu</a>
+          <ul>
+            <li><a href="#shortcut-key">Shortcut Key</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#breaking-change">Breaking change</a></li>
+    <li><a href="#download">Download</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
         </div>
         <script 

@@ -82,10 +82,10 @@
         </item>
         <item>
         <title>RPN Radio UI Overhaul</title>
-        <link>https://reddavid.me/rpn-radio-ui-overhaul/</link>
+        <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
         <pubDate>Sun, 30 May 2021 00:15:36 +0800</pubDate>
         
-        <guid>https://reddavid.me/rpn-radio-ui-overhaul/</guid>
+        <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/rpnradio-ui.jpeg" alt="Featured image of post RPN Radio UI Overhaul" /&gt;&lt;p&gt;Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.&lt;/p&gt;
 &lt;h2 id=&#34;old-look&#34;&gt;Old Look&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s take a look at what the app looked like before the update:&lt;/p&gt;
@@ -148,6 +148,19 @@
     &gt;Google Play Store&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>RPN Android App</title>
+        <link>https://reddavid.me/rpn-android-app/</link>
+        <pubDate>Thu, 02 Jan 2020 03:02:48 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpn-android-app/</guid>
+        <description>&lt;img src="https://reddavid.me/images/rpn-android.png" alt="Featured image of post RPN Android App" /&gt;&lt;p&gt;Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.&lt;/p&gt;
+&lt;p&gt;Finally opt-in and registered to Google Play platform and chose RPN News &amp;amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.&lt;/p&gt;
+&lt;p&gt;Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.&lt;/p&gt;
+&lt;p&gt;Also, there are some adjustments I needed to learn in using Xamarin Forms, and had to merge several projects to create both the news and radio part of the app. Thanks to open source!&lt;/p&gt;
+&lt;p&gt;There are still bugs, I know, but help by checking the app &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=xyz.reddvid.rpnradio&#34; taget=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         

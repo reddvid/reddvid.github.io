@@ -6,7 +6,7 @@ As you may know now, I developed some apps for Android and iOS using their nativ
 
 <link rel='canonical' href='https://reddavid.me/flutter-coding/'>
 
-<link rel="stylesheet" href="/scss/style.min.021a02f8bb07455e840e27d21ea67029b6e342afb1f28ed3dcd80d22e5ed9db4.css"><meta property='og:title' content='Flutter Coding'>
+<link rel="stylesheet" href="/scss/style.min.664773235c68199ac9a21321c757758b04cadef9fcb74acb221e7cfe843648a0.css"><meta property='og:title' content='Flutter Coding'>
 <meta property='og:description' content='I&amp;rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.
 As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.'>
 <meta property='og:url' content='https://reddavid.me/flutter-coding/'>
@@ -16,7 +16,19 @@ As you may know now, I developed some apps for Android and iOS using their nativ
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Flutter Coding">
 <meta name="twitter:description" content="I&amp;rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.
 As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin."><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content='https://reddavid.me/images/og/flutter-coding.png' /><link href="//fonts.cdnfonts.com/css/geomanist" rel="stylesheet">
+<meta name="twitter:image" content='https://reddavid.me/images/og/flutter-coding.png' />
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129071597-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><link href="//fonts.cdnfonts.com/css/geomanist" rel="stylesheet">
 <style>
    @import url('//fonts.cdnfonts.com/css/geomanist');
 </style>
@@ -422,7 +434,7 @@ As you may know now, I developed some apps for Android and iOS using their nativ
 </div>
 </header>
     <br>
-    <hr style="width: 40%; background-color:rgb(53, 53, 53);">
+    <hr style="width: 90%; opacity: .55; background-color:rgba(255, 255, 255, 0.5);">
     <br>
     
 
@@ -432,44 +444,42 @@ As you may know now, I developed some apps for Android and iOS using their nativ
     <p>I&rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.</p>
 <p>As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.</p>
 <p>Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &ldquo;native world&rdquo;.</p>
-<h1 id="android-and-bad-java-code">Android and Bad (Java) Code</h1>
+<h2 id="android-and-bad-java-code">Android and Bad (Java) Code</h2>
 <p>The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.</p>
 <p>To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.</p>
 <p>Ever since March started, I started reading about Flutter and did some basic UI.</p>
 <p>But first, let me tell you how I installed Flutter on Windows.</p>
-<h1 id="pre-installation-pre-requisites">Pre-installation (Pre-requisites?)</h1>
+<h2 id="pre-installation-pre-requisites">Pre-installation (Pre-requisites?)</h2>
 <ul>
 <li>Make sure you have Git on your device. I installed Git for Windows</li>
 <li>I&rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.</li>
 <li>Some Android SDKs and;</li>
 <li>Google Chrome browser.</li>
 </ul>
-<h1 id="installation">Installation</h1>
+<h2 id="installation">Installation</h2>
 <p>I pretty much followed the recommended guide as stated here: <a class="link" href="https://flutter.dev/docs/get-started/install/windows"  target="_blank" rel="noopener"
     >Install Flutter (Windows)</a>. But instead of <code>C:\src\flutter</code>, I put it a level higher like this: <code>C:\flutter</code>.</p>
 <p>Then added environment variable to Path. &lt;- This part is important if you want to run flutter commands in the command line</p>
 <p>Ran <code>flutter doctor</code> until all requirements are check out</p>
-<h1 id="ide-wait">IDE, wait&hellip;</h1>
+<h2 id="ide-wait">IDE, wait&hellip;</h2>
 <p>My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.</p>
 <p>Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!</p>
 <p>Even though <code>flutter doctor</code> checked everything, I was disappointed that I can&rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.</p>
-<p><figure><img src="/images/03-21/flutter/android-studio-flutter.png"
+<figure><img src="/images/03-21/flutter/android-studio-flutter.png"
          alt="New Flutter Project" width="80%"/><figcaption>
-            <h4>New Flutter Project</h4>
+            <p>New Flutter Project</p>
         </figcaption>
 </figure>
 
-<br/></p>
 <p>Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.</p>
 <p>Coming from XAML, where everything seems &ldquo;as is&rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅</p>
-<p><figure><img src="/images/03-21/flutter/ui-code.png"
+<figure><img src="/images/03-21/flutter/ui-code.png"
          alt="Flutter UI Code" width="80%"/><figcaption>
-            <h4>Flutter UI Code</h4>
+            <p>Flutter UI Code</p>
         </figcaption>
 </figure>
 
-<br/></p>
-<h1 id="beginning">Beginning</h1>
+<h2 id="hello-world">Hello, World</h2>
 <p>Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.</p>
 <p>I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.</p>
 <p>Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!</p>
@@ -532,12 +542,12 @@ As you may know now, I developed some apps for Android and iOS using their nativ
             
                 
 <article class="has-image">
-    <a href="/tune-in-rpn-radio-update/">
+    <a href="/tunein-update/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/feat/rpn-tunein.png" loading="lazy" data-key="" data-hash="/images/feat/rpn-tunein.png"/>
+                    <img src="/images/feat/rpn-tunein.png" loading="lazy" data-key="tunein-update" data-hash="/images/feat/rpn-tunein.png"/>
                 
             </div>
         
@@ -550,12 +560,12 @@ As you may know now, I developed some apps for Android and iOS using their nativ
             
                 
 <article class="has-image">
-    <a href="/zip-code-ph-for-android-gets-dark-mode/">
+    <a href="/zipcodeph-android-dark-mode/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/feat/zipcodeph-android.png" loading="lazy" data-key="" data-hash="/images/feat/zipcodeph-android.png"/>
+                    <img src="/images/feat/zipcodeph-android.png" loading="lazy" data-key="zipcodeph-android-dark-mode" data-hash="/images/feat/zipcodeph-android.png"/>
                 
             </div>
         
@@ -568,12 +578,12 @@ As you may know now, I developed some apps for Android and iOS using their nativ
             
                 
 <article class="has-image">
-    <a href="/rpn-radio-streaming-app-for-android/">
+    <a href="/rpnradio-android/">
         
         
             <div class="article-image">
                 
-                    <img src="/images/feat/rpnradio.png" loading="lazy" data-key="" data-hash="/images/feat/rpnradio.png"/>
+                    <img src="/images/feat/rpnradio.png" loading="lazy" data-key="rpnradio-android" data-hash="/images/feat/rpnradio.png"/>
                 
             </div>
         
@@ -751,7 +761,42 @@ As you may know now, I developed some apps for Android and iOS using their nativ
             >
 
             </main>
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#android-and-bad-java-code">Android and Bad (Java) Code</a></li>
+    <li><a href="#pre-installation-pre-requisites">Pre-installation (Pre-requisites?)</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#ide-wait">IDE, wait&hellip;</a></li>
+    <li><a href="#hello-world">Hello, World</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
         </div>
         <script 

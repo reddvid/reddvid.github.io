@@ -7,7 +7,7 @@ I will talk about the new features and improvements here that will be useful for
 
 <link rel='canonical' href='https://reddavid.me/obs-studio-27-is-here/'>
 
-<link rel="stylesheet" href="/scss/style.min.021a02f8bb07455e840e27d21ea67029b6e342afb1f28ed3dcd80d22e5ed9db4.css"><meta property='og:title' content='OBS Studio 27 is here'>
+<link rel="stylesheet" href="/scss/style.min.664773235c68199ac9a21321c757758b04cadef9fcb74acb221e7cfe843648a0.css"><meta property='og:title' content='OBS Studio 27 is here'>
 <meta property='og:description' content='I just updated my OBS a few days ago with the official release version after trying out the several release candidates.
 I will talk about the new features and improvements here that will be useful for my use. Check their blog post here and the complete changelog here.
 Undo &amp;amp; Redo At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though.'>
@@ -19,7 +19,19 @@ I will talk about the new features and improvements here that will be useful for
 <meta name="twitter:description" content="I just updated my OBS a few days ago with the official release version after trying out the several release candidates.
 I will talk about the new features and improvements here that will be useful for my use. Check their blog post here and the complete changelog here.
 Undo &amp;amp; Redo At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though."><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content='https://reddavid.me/images/og/obs27.png' /><link href="//fonts.cdnfonts.com/css/geomanist" rel="stylesheet">
+<meta name="twitter:image" content='https://reddavid.me/images/og/obs27.png' />
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129071597-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><link href="//fonts.cdnfonts.com/css/geomanist" rel="stylesheet">
 <style>
    @import url('//fonts.cdnfonts.com/css/geomanist');
 </style>
@@ -425,7 +437,7 @@ I will talk about the new features and improvements here that will be useful for
 </div>
 </header>
     <br>
-    <hr style="width: 40%; background-color:rgb(53, 53, 53);">
+    <hr style="width: 90%; opacity: .55; background-color:rgba(255, 255, 255, 0.5);">
     <br>
     
 
@@ -452,8 +464,9 @@ I will talk about the new features and improvements here that will be useful for
 <p>Though I mostly use OBS for game streaming (no facecam), I move things around only to notice that it was not the source I wanted to move! This surely helps users out and always had been the most requested feature.</p>
 <h2 id="files-where">Files, where?</h2>
 <p>Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don’t go start streaming only to have the files missing.</p>
-<figure><img src="/images/06-21/obs/obs_missing_files_warning.png" width="80%"/><figcaption>
-            <h4>Missing Files Warning Window</h4>
+<figure><img src="/images/06-21/obs/obs_missing_files_warning.png"
+         alt="Missing Files Warning Window" width="80%"/><figcaption>
+            <p>Missing Files Warning Window</p>
         </figcaption>
 </figure>
 
@@ -467,13 +480,15 @@ I will talk about the new features and improvements here that will be useful for
 <li>Browser Source interact button (toolbar)</li>
 <li>Virtual Camera toggle button (system tray)</li>
 </ul>
-<p><figure><img src="/images/06-21/obs/obs_browser_interact.png" width="80%"/><figcaption>
-            <h4>Browser Source Interact Button</h4>
+<p><figure><img src="/images/06-21/obs/obs_browser_interact.png"
+         alt="Browser Source Interact Button" width="80%"/><figcaption>
+            <p>Browser Source Interact Button</p>
         </figcaption>
 </figure>
 
-<figure><img src="/images/06-21/obs/obs_virtual_cam.png" width="40%"/><figcaption>
-            <h4>Toggle Virtual Camera on System Tray Icon&lt;</h4>
+<figure><img src="/images/06-21/obs/obs_virtual_cam.png"
+         alt="Toggle Virtual Camera on System Tray Icon&amp;lt;" width="40%"/><figcaption>
+            <p>Toggle Virtual Camera on System Tray Icon&lt;</p>
         </figcaption>
 </figure>
 </p>
@@ -721,13 +736,13 @@ I will talk about the new features and improvements here that will be useful for
         
         <div class="widget--toc">
             <nav id="TableOfContents">
-  <ol>
+  <ul>
     <li><a href="#undo--redo">Undo &amp; Redo</a></li>
     <li><a href="#files-where">Files, where?</a></li>
     <li><a href="#no-more-noise">No More Noise</a></li>
     <li><a href="#improvements">Improvements</a></li>
     <li><a href="#final-thoughts">Final Thoughts</a></li>
-  </ol>
+  </ul>
 </nav>
         </div>
     </section>

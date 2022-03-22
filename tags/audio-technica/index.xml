@@ -16,6 +16,13 @@
 &lt;p&gt;I let go of my &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/mobile-game-streaming/#hardware&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Audio Technica ATR2500X condenser microphone&lt;/a&gt; since recording with it picks up a lot of background noise-making the guitar sound bad when reducing noise on post-edit.&lt;/p&gt;
 &lt;p&gt;The ATR2500X does record good sound when inside a treated and noise-free room. Here is a sample, though it’s not in a room and background noise is environmental:&lt;/p&gt;
+&lt;figure&gt;
+   &lt;audio controls style=&#34;width: 60%;&#34;&gt;
+      &lt;source src=&#34;chikinini.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+      Your browser does not support the audio element.
+   &lt;/audio&gt;
+   &lt;figcaption&gt;Chikinini by Parokya Ni Edgar Cover by John Dre (Inuman Session)&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h2 id=&#34;samson-q9u&#34;&gt;Samson Q9U&lt;/h2&gt;
 &lt;p&gt;I replaced the AT mic with a Samson Q9U, a USB/XLR combo dynamic microphone which I can directly use on a PC without a USB interface (XLR connection). Despite the slightly higher price, having a dynamic mic to record in a noisy room is slightly tolerable.&lt;/p&gt;
 &lt;p&gt;The package includes USB Type-C to Type-A cable and a windscreen together with the mic itself.&lt;/p&gt;

@@ -13,7 +13,17 @@
         
         <guid>https://reddavid.me/a-poem-from-the-past/</guid>
         <description>&lt;img src="https://reddavid.me/a-poem-from-the-past/hug-someone.png" alt="Featured image of post A Poem From the Past" /&gt;&lt;p&gt;Decluttering some files and found this little sad poem saved in a text file, and I just thought of sharing it.&lt;/p&gt;
-&lt;div style=&#34;line-height: 0.8rem !important; text-align: center; background: #111;&#34;&gt;
+&lt;div id=&#34;poem&#34;&gt;
+&lt;style&gt;
+div#poem {
+   line-height: 0.8rem !important; text-align: center; background: rgba(125,130,130,0.1); width: 60%; margin: 0 auto; border-radius: 20px;
+}
+
+@media(max-width:768px){
+   div#poem {width: 100%; }
+
+}
+   &lt;/style&gt;
 &lt;br&gt;
 &lt;h2 style=&#34;::before: none;border-inline-start: none; margin-left: 0;&#34;&gt;My Heart Misses You&lt;/h2&gt;
 &lt;br&gt;

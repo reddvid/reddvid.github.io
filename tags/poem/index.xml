@@ -21,7 +21,6 @@ div#poem {
 
 @media(max-width:768px){
    div#poem {width: 100%; }
-
 }
    &lt;/style&gt;
 &lt;br&gt;

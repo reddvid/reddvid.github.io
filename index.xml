@@ -21,7 +21,6 @@ div#poem {
 
 @media(max-width:768px){
    div#poem {width: 100%; }
-
 }
    &lt;/style&gt;
 &lt;br&gt;
@@ -2338,11 +2337,27 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
         <description></description>
         </item>
         <item>
+        <title>Red David&#39;s Wishlist</title>
+        <link>https://reddavid.me/wishlist/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://reddavid.me/wishlist/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Search</title>
         <link>https://reddavid.me/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://reddavid.me/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tip thru GCash</title>
+        <link>https://reddavid.me/gcash/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://reddavid.me/gcash/</guid>
         <description></description>
         </item>
         

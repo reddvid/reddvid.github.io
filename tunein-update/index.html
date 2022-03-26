@@ -7,7 +7,7 @@ Then I cleaned up my CSS file to make the whole website &amp;ldquo;mobile-first&
 
 <link rel='canonical' href='https://reddavid.me/tunein-update/'>
 
-<link rel="stylesheet" href="/scss/style.min.46b5533ac5ff076ff3973668b238e3e3e5eb45c99ab05dc417eff09edf202382.css"><meta property='og:title' content='Tune In RPN Radio Update'>
+<link rel="stylesheet" href="/scss/style.min.2a20786c5764e0ff11e1a71372bd8d54d483dd856ce77295f8e050548cf61745.css"><meta property='og:title' content='Tune In RPN Radio Update'>
 <meta property='og:description' content='I updated the tune-in website for RPN. This post will detail the changes, what&amp;rsquo;s new or removed, and how the update went.
 MainPage and Mobile-First Design The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for Proxima Nova and fallback to Arial Nova or other sans serif fonts.
 Then I cleaned up my CSS file to make the whole website &amp;ldquo;mobile-first&amp;rdquo;.'>
@@ -399,7 +399,7 @@ article-page
     
     <header class="article-category">
         
-        <a href="/categories/coding/" >
+        <a href="/categories/coding/" style="background-color: #2a9d8f; color: #fff;" >
             Coding
         </a>
         
@@ -484,16 +484,16 @@ article-page
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">closeNav</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">closeNav</span><span class="p">();</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
 </div>
 </div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
 <p>Now the back button takes you to home page when started with a station page.</p>
@@ -539,7 +539,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h2 id="footer-finally">Footer Finally</h2>
 <p>I added a subtle footer to the whole website. That&rsquo;s it. :)</p>
 <h2 id="final-words">Final Words</h2>
-<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a class="link" href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a class="link" href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations&rsquo; broadcast anytime and anywhere in the world.</p>
+<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a class="link" href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a class="link" href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
 <p>You can visit the website here: <a class="link" href="https://tunein.rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
 <p>You may also want to check my blog post about the RPN Radio App here:<br/><a class="link" href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
 
@@ -703,13 +703,14 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
                 
 <article class="has-image">
     <a href="/rpnradio-ui-overhaul/">
+
         
-        
-            <div class="article-image">
-                
-                    <img src="/images/feat/rpnradio-ui.jpeg" loading="lazy" data-key="rpnradio-ui-overhaul" data-hash="/images/feat/rpnradio-ui.jpeg"/>
-                
-            </div>
+        <div class="article-image">
+            
+            <img src="/images/feat/rpnradio-ui.jpeg" loading="lazy" data-key="rpnradio-ui-overhaul"
+                data-hash="/images/feat/rpnradio-ui.jpeg" />
+            
+        </div>
         
 
         <div class="article-details">
@@ -721,13 +722,14 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
                 
 <article class="has-image">
     <a href="/rpnnews-mobile-app/">
+
         
-        
-            <div class="article-image">
-                
-                    <img src="/images/feat/rpn-news.png" loading="lazy" data-key="rpnnews-mobile-app" data-hash="/images/feat/rpn-news.png"/>
-                
-            </div>
+        <div class="article-image">
+            
+            <img src="/images/feat/rpn-news.png" loading="lazy" data-key="rpnnews-mobile-app"
+                data-hash="/images/feat/rpn-news.png" />
+            
+        </div>
         
 
         <div class="article-details">
@@ -738,14 +740,34 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
             
                 
 <article class="has-image">
+    <a href="/ti10-and-appdates/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/ti10-appdates.png" loading="lazy" data-key="ti10-and-appdates"
+                data-hash="/images/og/ti10-appdates.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">TI10 and Appdates</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
     <a href="/get-rpn-radio-for-ios/">
+
         
-        
-            <div class="article-image">
-                
-                    <img src="/images/og/rpnradio-appstore.png" loading="lazy" data-key="" data-hash="/images/og/rpnradio-appstore.png"/>
-                
-            </div>
+        <div class="article-image">
+            
+            <img src="/images/og/rpnradio-appstore.png" loading="lazy" data-key=""
+                data-hash="/images/og/rpnradio-appstore.png" />
+            
+        </div>
         
 
         <div class="article-details">
@@ -757,35 +779,18 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
                 
 <article class="has-image">
     <a href="/app-landing-page-for-zip-code-ph/">
+
         
-        
-            <div class="article-image">
-                
-                    <img src="/images/feat/zipcodeph-applanding.png" loading="lazy" data-key="" data-hash="/images/feat/zipcodeph-applanding.png"/>
-                
-            </div>
+        <div class="article-image">
+            
+            <img src="/images/feat/zipcodeph-applanding.png" loading="lazy" data-key=""
+                data-hash="/images/feat/zipcodeph-applanding.png" />
+            
+        </div>
         
 
         <div class="article-details">
             <h2 class="article-title">App Landing Page for ZIP Code PH</h2>
-        </div>
-    </a>
-</article>
-            
-                
-<article class="has-image">
-    <a href="/zipcodeph-android-dark-mode/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/images/feat/zipcodeph-android.png" loading="lazy" data-key="zipcodeph-android-dark-mode" data-hash="/images/feat/zipcodeph-android.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">ZIP Code PH for Android gets Dark Mode</h2>
         </div>
     </a>
 </article>
@@ -800,7 +805,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
     <div class="disqus-container">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    window.disqus_config = function () {
+    var disqus_config = function () {
     
     
     

@@ -549,52 +549,52 @@ article-page
 </span><span class="lnt">45
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="n">HStack</span> <span class="p">{</span>
-    <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">background</span><span class="p">(</span><span class="n">Color</span><span class="p">(.</span><span class="n">systemGray6</span><span class="p">))</span>
-        <span class="p">.</span><span class="n">cornerRadius</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">overlay</span><span class="p">(</span>
-            <span class="n">HStack</span> <span class="p">{</span>
-                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;magnifyingglass&#34;</span><span class="p">)</span>
-                    <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
-                    <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
-                    <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
-
-                <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
-                    <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
-                        <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
-                    <span class="p">})</span> <span class="p">{</span>
-                        <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;multiply.circle.fill&#34;</span><span class="p">)</span>
-                            <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
-                            <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
-                    <span class="p">}</span>
-                <span class="p">}</span>
-            <span class="p">}</span>
-        <span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
-        <span class="p">}</span>
-
-    <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
-        <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
-            <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">false</span>
-            <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
-            <span class="c1">// Dismiss the keyboard</span>
-            <span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">sendAction</span><span class="p">(</span><span class="k">#selector</span><span class="p">(</span><span class="n">UIResponder</span><span class="p">.</span><span class="n">resignFirstResponder</span><span class="p">),</span> <span class="n">to</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">from</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="k">for</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
-        <span class="p">})</span> <span class="p">{</span>
-            <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Cancel&#34;</span><span class="p">)</span>
-        <span class="p">}</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-        <span class="p">.</span><span class="n">transition</span><span class="p">(.</span><span class="n">move</span><span class="p">(</span><span class="n">edge</span><span class="p">:</span> <span class="p">.</span><span class="n">trailing</span><span class="p">))</span>
-        <span class="p">.</span><span class="n">animation</span><span class="p">(.</span><span class="n">easeInOut</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">HStack</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">TextField</span><span class="p">(</span><span class="s">&#34;Search ZIP Code PH&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">:</span> <span class="err">$</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">padding</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">background</span><span class="p">(</span><span class="n">Color</span><span class="p">(.</span><span class="n">systemGray6</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">cornerRadius</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">overlay</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="n">HStack</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;magnifyingglass&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">.</span><span class="n">frame</span><span class="p">(</span><span class="n">minWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="n">maxWidth</span><span class="p">:</span> <span class="p">.</span><span class="n">infinity</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="n">leading</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">isEditing</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="kc">self</span><span class="p">.</span><span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                        <span class="n">Image</span><span class="p">(</span><span class="n">systemName</span><span class="p">:</span> <span class="s">&#34;multiply.circle.fill&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                            <span class="p">.</span><span class="n">foregroundColor</span><span class="p">(.</span><span class="n">gray</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                            <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">                <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">horizontal</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">onTapGesture</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">isEditing</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Button</span><span class="p">(</span><span class="n">action</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">print</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="err">$</span><span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="kc">self</span><span class="p">.</span><span class="n">isEditing</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">            <span class="kc">self</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Dismiss the keyboard</span>
+</span></span><span class="line"><span class="cl">            <span class="n">UIApplication</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">sendAction</span><span class="p">(</span><span class="k">#selector</span><span class="p">(</span><span class="n">UIResponder</span><span class="p">.</span><span class="n">resignFirstResponder</span><span class="p">),</span> <span class="n">to</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="n">from</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="k">for</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Text</span><span class="p">(</span><span class="s">&#34;Cancel&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">leading</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">padding</span><span class="p">(.</span><span class="n">trailing</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">transition</span><span class="p">(.</span><span class="n">move</span><span class="p">(</span><span class="n">edge</span><span class="p">:</span> <span class="p">.</span><span class="n">trailing</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">animation</span><span class="p">(.</span><span class="n">easeInOut</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><br>
 <video muted width="280" controls style="display:block;margin-left:auto;margin-right:auto;">
@@ -901,7 +901,7 @@ article-page
     <div class="disqus-container">
     <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

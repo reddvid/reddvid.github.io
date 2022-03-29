@@ -80,11 +80,11 @@ secret_codes.txt&lt;/code&gt;&lt;/p&gt;
 &lt;div id=&#34;poem&#34;&gt;
 &lt;style&gt;
 div#poem {
-   line-height: 0.8rem !important; text-align: center; background: rgba(125,130,130,0.1); width: 60%; margin: 0 auto; border-radius: 20px;
+   line-height: 1.5rem !important; text-align: center; background: rgba(125,130,130,0.1); width: 60%; margin: 0 auto; border-radius: 20px;
 }
 
 @media(max-width:768px){
-   div#poem {width: 100%; }
+   div#poem {width: 100%; line-height: 1.8rem !important; }
 }
    &lt;/style&gt;
 &lt;br&gt;
@@ -2170,16 +2170,16 @@ I apologize if most of these are unmaintained 😔💔.&lt;/p&gt;
         <description>&lt;!-- &lt;img src=&#34;https://reddavid.me/images/about-hero.jpg&#34; style=&#34;display:block;margin-left:auto;margin-right:auto;width:80%;&#34; alt=&#34;Me, Macapagal Bridge, Butuan City 2019&#34;&gt; --&gt;
 &lt;h1 style=&#34;text-align: center;&#34;&gt;About Me&lt;/h1&gt;
 &lt;p&gt;Hi! I am David. I am an electronics engineer and an app developer.&lt;/p&gt;
-&lt;p&gt;I currently work as IT admin at CNN Philippines (seconded by Radio Philippines Network).&lt;/p&gt;
-&lt;p&gt;During days off, I develop desktop and mobile applications using XAML/C# and Flutter/Dart stacks, respectively. I also know a little bit of bare HTML/CSS/JS.&lt;/p&gt;
+&lt;p&gt;I currently work as an IT admin at CNN Philippines (seconded by Radio Philippines Network).&lt;/p&gt;
+&lt;p&gt;On off days, I develop desktop and mobile applications using XAML/C# and Flutter/Dart stacks, respectively. I also know a little bit of bare HTML/CSS/JS.&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 &lt;p&gt;I started coding in college for our project study, RFID Gate System. We used Forms and VB.Net for the software and C++ for the Arduino controller. I then got into Windows Phone App development and learned C#, XAML, and Git. The first apps I developed were mostly for personal-use until I registered and submitted one to the Windows Phone Store.&lt;/p&gt;
-&lt;p&gt;Then I started coding apps which helped me simplify the jobs I do - from monitoring and reporting data and statistics to automating web interactions. What started as a hobby became a small source of income. I have more than a dozen apps available right now in the Windows 10 Store.&lt;/p&gt;
-&lt;p&gt;And right now, I am learning web development and looking forward to get a Microsoft Certification.&lt;/p&gt;
+&lt;p&gt;Then I developed apps that helped me simplify daily tasks, from monitoring, reporting statistical data, to automating web interactions. What started as a hobby became a small source of income.&lt;/p&gt;
 &lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
-&lt;p&gt;Lived until 21 in a small town in Pangasinan.&lt;/p&gt;
-&lt;p&gt;I can speak Filipino (Tagalog), and English (spoken: 8, written: 9). I can also speak in my local dialect, Pangasinan.&lt;/p&gt;
-&lt;p&gt;I graduated and licensed as Electronics Engineer on 2013.&lt;/p&gt;
+&lt;p&gt;I lived and grew up until 21 in a small town in Pangasinan and moved to Metro Manila to venture for a living.&lt;/p&gt;
+&lt;p&gt;I can speak Filipino (Tagalog) and English (spoken: 8, written: 9). I can also speak in my local language Pangasinan.&lt;/p&gt;
+&lt;p&gt;I graduated and passed the Electronics Engineering board exams on 2013.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://reddavid.me/2022-03_Ballesteros-David.pdf&#34; class=&#34;dl-btn&#34;&gt;Download résumé&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

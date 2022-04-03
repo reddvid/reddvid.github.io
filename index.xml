@@ -6,7 +6,56 @@
         <description>Recent content on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 03 Apr 2022 02:14:42 +0800</lastBuildDate><atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 04 Apr 2022 02:21:21 +0800</lastBuildDate><atom:link href="https://reddavid.me/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Finishing this MS Office Course on Udemy. (Or Am I?)</title>
+        <link>https://reddavid.me/finishing-msoffice-udemy-course/</link>
+        <pubDate>Mon, 04 Apr 2022 02:21:21 +0800</pubDate>
+        
+        <guid>https://reddavid.me/finishing-msoffice-udemy-course/</guid>
+        <description>&lt;img src="https://reddavid.me/finishing-msoffice-udemy-course/udemy-og.png" alt="Featured image of post Finishing this MS Office Course on Udemy. (Or Am I?)" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Udemy&lt;/a&gt; is a website catering online courses for everyone who wants to learn something new, continue learning, and to expand the current knowledge of a particular topic. And this time I wanted to advance my knowledge with Microsoft Office.&lt;/p&gt;
+&lt;p&gt;Udemy offers vast courses by frequently promoting sales. I actually got this complete course way back 2020 and I have been on and off the course by selecting the lecture topics to focus on. And also when I got other current shorter courses more appropriate on that time.&lt;/p&gt;
+&lt;h2 id=&#34;advancing-my-ms-office-knowledge&#34;&gt;Advancing my MS Office Knowledge&lt;/h2&gt;
+&lt;p&gt;The course is entitled, &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/course/microsoft-office-excel-word-access-powerpoint/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ultimate Microsoft Office; Excel, Word, PowerPoint &amp;amp; Access&lt;/a&gt; - though they added and updated it to include the 2019 and 365 updates and other Office products. I got it for around 700PHP, and I was overwhelmed with how many lectures were there for all Office products:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Excel&lt;/li&gt;
+&lt;li&gt;Word&lt;/li&gt;
+&lt;li&gt;PowerPoint&lt;/li&gt;
+&lt;li&gt;Outlook&lt;/li&gt;
+&lt;li&gt;Access&lt;/li&gt;
+&lt;li&gt;OneNote&lt;/li&gt;
+&lt;li&gt;Teams&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, there are 625 lectures with the videos totaling 68.5 hours. The topics start with an Office program explaining from the basics into advanced. And as stated on the course page, this is What I Will Learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn the essential and advanced Microsoft Office&lt;/li&gt;
+&lt;li&gt;Skills in Excel, Word, PowerPoint, Outlook, Teams and Access&lt;/li&gt;
+&lt;li&gt;Learn practical methods to backup and recover your&lt;/li&gt;
+&lt;li&gt;Excel spreadsheets and never lose data&lt;/li&gt;
+&lt;li&gt;Discover the essentials of using formulas and functions in Excel&lt;/li&gt;
+&lt;li&gt;Learn practical methods to sort and filter your data in Excel&lt;/li&gt;
+&lt;li&gt;Learn how to insert shapes, graphics and pictures to add some &amp;ldquo;zing&amp;rdquo; to your PowerPoint&lt;/li&gt;
+&lt;li&gt;Wow your audience by adding animations, audio and video to PowerPoint&lt;/li&gt;
+&lt;li&gt;Learn time saving techniques including how to copy slides, and exporting your presentation&lt;/li&gt;
+&lt;li&gt;Learn Word tools including using columns, indents, footers, borders and watermarks.&lt;/li&gt;
+&lt;li&gt;Learn how to correctly Print envelopes and labels in Word&lt;/li&gt;
+&lt;li&gt;Insert professional pictures and graphics in your Word document&lt;/li&gt;
+&lt;li&gt;Sorting information and running queries in Access&lt;/li&gt;
+&lt;li&gt;Discover how to into import data from Excel in Access&lt;/li&gt;
+&lt;li&gt;How to compact, repair and backup your Access database&lt;/li&gt;
+&lt;li&gt;How to get set up in Outlook&lt;/li&gt;
+&lt;li&gt;How to customize your mailbox and view&lt;/li&gt;
+&lt;li&gt;How to organize and manage your mail including ignoring, flagging and conditional formatting&lt;/li&gt;
+&lt;li&gt;How to use signatures and voting buttons&lt;/li&gt;
+&lt;li&gt;Working with the Outlook Calendar, including creating meetings and appointments&lt;/li&gt;
+&lt;li&gt;and more!!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I started with Word even though it&amp;rsquo;s the most app I used and most familiar with. Then Outlook, OneNote, Excel, Teams, and now currently into PowerPoint. I actually watched the basics videos with 1.5x-1.75x speed since I already have a good understanding with it since I have been using a computer back 2006-ish.&lt;/p&gt;
+&lt;p&gt;Now, can I finish it this April? Or do I still have to stop for the MS Access lectures (does anyone ever use Access)?&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Elgato Stream Deck MK.2 (Must Have Tech)</title>
         <link>https://reddavid.me/elgato-streamdeck/</link>
         <pubDate>Sun, 03 Apr 2022 02:14:42 +0800</pubDate>
@@ -113,7 +162,7 @@
 &lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Then most are already outdated and forced some to major versions with&lt;code&gt;flutter pub upgrade &amp;ndash;major-versions&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.&lt;/p&gt;
-&lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it’s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can’t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it&amp;rsquo;s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can&amp;rsquo;t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.&lt;/p&gt;
 &lt;h2 id=&#34;new-code&#34;&gt;New Code&lt;/h2&gt;
 &lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
@@ -123,10 +172,10 @@
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;p&gt;Upgrading packages with at least 3 versions above since the app’s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;Upgrading packages with at least 3 versions above since the app&amp;rsquo;s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flutter Audio Service Demo&lt;/a&gt;)&lt;/strong&gt; from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.&lt;/p&gt;
 &lt;h3 id=&#34;futures&#34;&gt;Futures&lt;/h3&gt;
-&lt;p&gt;I also updated the app with a new feature to fetch sponsors’ ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;JSON&lt;/a&gt; to fetch the data. I faced a problem decoding it when I faced this unfamiliar type &lt;code&gt;Map&amp;lt;String, dynamic&amp;gt;&lt;/code&gt; coming from a C# perspective.&lt;/p&gt;
 &lt;p&gt;I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables &lt;code&gt;null&lt;/code&gt; when they are still being done, making some unwanted behaviors.&lt;/p&gt;
 &lt;p&gt;Then I finally used a &lt;strong&gt;&lt;em&gt;Future Builder,&lt;/em&gt;&lt;/strong&gt; it basically waits my tasks to finish fetching data before showing the main UI preventing further actions that require the variables.&lt;/p&gt;
@@ -159,8 +208,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper&lt;/h3&gt;
-&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it’s on the database - now it’s based off a .json file.&lt;/p&gt;
-&lt;p&gt;As stated above, I don’t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
+&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
+&lt;p&gt;As stated above, I don&amp;rsquo;t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -194,7 +243,7 @@
 
 &lt;p&gt;Sponsors View using ExpansionTile and Swiper&lt;/p&gt;
 &lt;p&gt;I used &lt;code&gt;ExpansionTile&lt;/code&gt; to allow the users to collapse/expand the view and &lt;code&gt;Swiper&lt;/code&gt; to show an auto-scroll of the images.&lt;/p&gt;
-&lt;p&gt;Here’s the code for the Sponsors UI:&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the code for the Sponsors UI:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
@@ -266,7 +315,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do&lt;/h2&gt;
-&lt;p&gt;It’s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do not use Swiper when image list is only 1&lt;/li&gt;
 &lt;li&gt;Improve loading screen during FutureBuilder&lt;/li&gt;
@@ -283,12 +332,12 @@
         <description>&lt;img src="https://reddavid.me/digital-spring-cleaning/spring-cleaning.png" alt="Featured image of post Digital Spring Cleaning" /&gt;&lt;p&gt;Despite the fact that we do not have spring season in the Philippines, it is just good to clean and/or organize (this time) our digital life.&lt;/p&gt;
 &lt;p&gt;Honestly, I am lazy af to clean things on a regular basis since I really suck at scheduling. This happens often when I get caught doing things that require a pretty good amount of focus (or am I just giving reasons for my laziness?)&lt;/p&gt;
 &lt;h2 id=&#34;bit-of-my-digital-history&#34;&gt;Bit of My Digital History&lt;/h2&gt;
-&lt;p&gt;If you didn’t know, I started my computer life at the early age of 9/10? I just remember I was in grade 5, 1997-ish, when I fell in love with computers. But with the lack of internet, I only grew up into video games and not programming. I just picked up programming during college days when I was actually bought a laptop by my parents.&lt;/p&gt;
-&lt;p&gt;We tackled a bunch of languages even being an Electronics Engineering student, like C++, Turbo C, and Java. But I didn’t felt good about those languages until our thesis days where I got help with a friend, an IT student, using VB.Net. I slightly understood it better than the latter ones. It was also the start of programming in &lt;a class=&#34;link&#34; href=&#34;[http://C#.Net]%28https://docs.microsoft.com/en-us/dotnet/csharp/%29&#34; &gt;C#.Net&lt;/a&gt; for my Windows Phone to make apps.&lt;/p&gt;
+&lt;p&gt;If you didn&amp;rsquo;t know, I started my computer life at the early age of 9/10? I just remember I was in grade 5, 1997-ish, when I fell in love with computers. But with the lack of internet, I only grew up into video games and not programming. I just picked up programming during college days when I was actually bought a laptop by my parents.&lt;/p&gt;
+&lt;p&gt;We tackled a bunch of languages even being an Electronics Engineering student, like C++, Turbo C, and Java. But I didn&amp;rsquo;t felt good about those languages until our thesis days where I got help with a friend, an IT student, using VB.Net. I slightly understood it better than the latter ones. It was also the start of programming in &lt;a class=&#34;link&#34; href=&#34;[http://C#.Net]%28https://docs.microsoft.com/en-us/dotnet/csharp/%29&#34; &gt;C#.Net&lt;/a&gt; for my Windows Phone to make apps.&lt;/p&gt;
 &lt;h2 id=&#34;files&#34;&gt;Files&lt;/h2&gt;
 &lt;p&gt;Being into the Windows environment, files did matter and I actually had free 15GB of SkyDrive (OneDrive now) where I put my files in. While working, I actually preferred to use my laptop since it got more power than what they provide.&lt;/p&gt;
 &lt;p&gt;Now with more than 8 years, my cloud is cluttered and having to use extensive apps, software, and services means there are alot more files scattered everywhere.&lt;/p&gt;
-&lt;p&gt;Now let’s go organizing.&lt;/p&gt;
+&lt;p&gt;Now let&amp;rsquo;s go organizing.&lt;/p&gt;
 &lt;h2 id=&#34;organizing&#34;&gt;Organizing&lt;/h2&gt;
 &lt;h3 id=&#34;personal-files&#34;&gt;Personal Files&lt;/h3&gt;
 &lt;p&gt;I suck at organizing back in the day that I actually did not create folders to group similar files.&lt;/p&gt;
@@ -333,7 +382,7 @@ secret_codes.txt&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://onedrive.live.com?invref=fe92ac3ae0420178&amp;amp;invscr=90&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Sign up to OneDrive and get 500MB additional storage space.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;share-your-way&#34;&gt;Share Your Way&lt;/h2&gt;
-&lt;p&gt;So that’s about my file naming and folder organization and it is still on-going as of this writing. How do you organize your digital life? Share it on the comments below.&lt;/p&gt;
+&lt;p&gt;So that&amp;rsquo;s about my file naming and folder organization and it is still on-going as of this writing. How do you organize your digital life? Share it on the comments below.&lt;/p&gt;
 &lt;br&gt;
 &lt;small&gt;&lt;a class=&#34;link&#34; rel=&#34;noopener&#34; href=&#39;https://pngtree.com/so/cleaning&#39;&gt;cleaning png from pngtree.com/&lt;/a&gt;&lt;/small&gt;
 </description>
@@ -408,7 +457,7 @@ div#poem {
         <description>&lt;img src="https://reddavid.me/amateur-recording/amateur-recording-og.png" alt="Featured image of post Amateur Recording" /&gt;&lt;h2 id=&#34;bye-condenser-hello-dynamic&#34;&gt;Bye Condenser, Hello Dynamic&lt;/h2&gt;
 &lt;p&gt;I let go of my &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/mobile-game-streaming/#hardware&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Audio Technica ATR2500X condenser microphone&lt;/a&gt; since recording with it picks up a lot of background noise-making the guitar sound bad when reducing noise on post-edit.&lt;/p&gt;
-&lt;p&gt;The ATR2500X does record good sound when inside a treated and noise-free room. Here is a sample, though it’s not in a room and background noise is environmental:&lt;/p&gt;
+&lt;p&gt;The ATR2500X does record good sound when inside a treated and noise-free room. Here is a sample, though it&amp;rsquo;s not in a room and background noise is environmental:&lt;/p&gt;
 &lt;figure&gt;
    &lt;audio controls style=&#34;width: 60%;&#34;&gt;
       &lt;source src=&#34;chikinini.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
@@ -513,7 +562,7 @@ div#poem {
 &lt;h2 id=&#34;finale-2021&#34;&gt;Finale 2021&lt;/h2&gt;
 &lt;p&gt;Luckily, we survived another year of the grueling pandemic and the local government did lower the &lt;strong&gt;Alert Level&lt;/strong&gt; to a much more &lt;em&gt;free&lt;/em&gt; movements in public - children can now go out with adults in malls. The holidays compared to last 2020 felt better.&lt;/p&gt;
 &lt;h3 id=&#34;the-24th-and-25th&#34;&gt;The 24th and 25th&lt;/h3&gt;
-&lt;p&gt;I decided to celebrate Christmas Eve with my fiancée’s family with a fantastic dinner.&lt;/p&gt;
+&lt;p&gt;I decided to celebrate Christmas Eve with my fiancée&amp;rsquo;s family with a fantastic dinner.&lt;/p&gt;
 &lt;p&gt;Going back about people being &lt;em&gt;free&lt;/em&gt; last year, I also spent with her family on Christmas day. After hearing the Holy Mass, we were supposed to go picnic at Luneta Park but hoooly moly, the place was packed with people!&lt;/p&gt;
 &lt;figure&gt;
    &lt;video class=&#34;video-shortcode&#34; preload=&#34;auto&#34; controls width=&#34;90%&#34;&gt;
@@ -523,11 +572,11 @@ div#poem {
    &lt;/video&gt;
    &lt;figcaption&gt;Luneta Park on December 25th&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;We arrived actually to a long line of &lt;em&gt;newcomers&lt;/em&gt; until a sudden rain poured down that those without umbrellas, (inside and outside the park) came together where there’s shelter.&lt;/p&gt;
-&lt;p&gt;That’s when they decided to go to SM Mall of Asia instead.&lt;/p&gt;
+&lt;p&gt;We arrived actually to a long line of &lt;em&gt;newcomers&lt;/em&gt; until a sudden rain poured down that those without umbrellas, (inside and outside the park) came together where there&amp;rsquo;s shelter.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s when they decided to go to SM Mall of Asia instead.&lt;/p&gt;
 &lt;p&gt;And just like going to the park, there were also traffic jams traveling to the mall.&lt;/p&gt;
 &lt;p&gt;Despite expecting a lot of people, the mall was huge enough to contain them, except for restaurants at that time that most are full.&lt;/p&gt;
-&lt;p&gt;After some time having to get dinner, we decided to go to the mall park to check and might try some rides. And that’s where we found that it’s also packed and they won’t let us enter anymore. Sadge, we went home and ended the day.&lt;/p&gt;
+&lt;p&gt;After some time having to get dinner, we decided to go to the mall park to check and might try some rides. And that&amp;rsquo;s where we found that it&amp;rsquo;s also packed and they won&amp;rsquo;t let us enter anymore. Sadge, we went home and ended the day.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;img/moa-eye.png&#34;
          alt=&#34;MOA Eye Crowd on December 25th&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;MOA Eye Crowd on December 25th&lt;/p&gt;
@@ -536,9 +585,9 @@ div#poem {
 
 &lt;h3 id=&#34;before-the-year-ended&#34;&gt;Before the Year Ended&lt;/h3&gt;
 &lt;p&gt;I went home 3 days early for New Years Eve with my old friend Dave. He invited me to join him for the long drive home.&lt;/p&gt;
-&lt;p&gt;Sadly, my fiancée can’t join me at ours because they would also be going back home.&lt;/p&gt;
+&lt;p&gt;Sadly, my fiancée can&amp;rsquo;t join me at ours because they would also be going back home.&lt;/p&gt;
 &lt;p&gt;I always try to go home days early to spend time with friends making the last few days actually spent time with the family.&lt;/p&gt;
-&lt;p&gt;Sadly again, we failed to meet up. And just like before, there’ll be a next time. Right?&lt;/p&gt;
+&lt;p&gt;Sadly again, we failed to meet up. And just like before, there&amp;rsquo;ll be a next time. Right?&lt;/p&gt;
 &lt;p&gt;On the 30th, the family went to Tondaligan Beach early in the morning as it would get really hot even at 9 in the morning.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;img/tondaligan-beach.png&#34;
          alt=&#34;Tondaligan Beach&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
@@ -547,8 +596,8 @@ div#poem {
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;new-year-eve&#34;&gt;New Year Eve&lt;/h3&gt;
-&lt;p&gt;I don’t remember if I helped out in food preparations 😂.&lt;/p&gt;
-&lt;p&gt;The New Year’s Eve always start early by drinking liquor, listening to loud music, karaoke, etc.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t remember if I helped out in food preparations 😂.&lt;/p&gt;
+&lt;p&gt;The New Year&amp;rsquo;s Eve always start early by drinking liquor, listening to loud music, karaoke, etc.&lt;/p&gt;
 &lt;p&gt;There were lots of fireworks compared to last year and people looked a lot more hopeful for the coming year.
 &lt;figure&gt;&lt;img src=&#34;img/new-years-eve-food.png&#34;
          alt=&#34;Food for New Year&amp;#39;s Eve&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
@@ -561,17 +610,17 @@ div#poem {
          alt=&#34;Same shit, different year gif&#34; width=&#34;40%&#34;/&gt;
 &lt;/figure&gt;
 
-Some said it’s going to be another version of 2021 but worse. News in the first week included shortage of acetaminophen (paracetamol) in most drugstores, at least in the NCR.&lt;/p&gt;
+Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in the first week included shortage of acetaminophen (paracetamol) in most drugstores, at least in the NCR.&lt;/p&gt;
 &lt;p&gt;A lot got sick after the holidays and mostly believed that it was flu season. But it was also reported that the then latest COVID variant, omicron, causes slight mild symptoms similarly to a flu. But then a few days went on and the COVID-19 numbers started to rise up.&lt;/p&gt;
 &lt;h3 id=&#34;back-to-the-jungle&#34;&gt;Back to the Jungle&lt;/h3&gt;
 &lt;p&gt;I actually returned to work on the second week of the first month. I took an antigen test and it came negative.&lt;/p&gt;
 &lt;p&gt;I worked on Monday, the day after the test feeling really well, but then came Tuesday afternoon. My energy just went kaput.&lt;/p&gt;
 &lt;p&gt;Downhill. Just. Like. That.&lt;/p&gt;
 &lt;h3 id=&#34;i-got-the-bad-v&#34;&gt;I Got the Bad V&lt;/h3&gt;
-&lt;p&gt;Bad vibes, I really think it’s the bad virus.&lt;/p&gt;
+&lt;p&gt;Bad vibes, I really think it&amp;rsquo;s the bad virus.&lt;/p&gt;
 &lt;p&gt;That day, I just ate a hefty lunch normally, drank coffee and went on to start the day (I wake up after noon). After a few hours, Inbecame suddenly weak and drowsy. I also felt being cold even in a jacket. I started checking my temperature and it started rising up.&lt;/p&gt;
-&lt;p&gt;I quickly prepared my things to go home, to my fiancé’s. Her room was isolated and kept me locked in most of the time. I took some meds to lower my temperature but it didn’t work. It continues to rise up by the hour that I just left my undies on me to release the heat. It really is that high!&lt;/p&gt;
-&lt;p&gt;The fever came with a massive headache and body pains that moving was a struggle. I kept taking meds every 4/5 hours to lower my temps and relief head and body aches. The first two nights were the height of all the symptoms. Lucky enough for those days, I didn’t have cough or colds that might release some infectious fluids.&lt;/p&gt;
+&lt;p&gt;I quickly prepared my things to go home, to my fiancé&amp;rsquo;s. Her room was isolated and kept me locked in most of the time. I took some meds to lower my temperature but it didn&amp;rsquo;t work. It continues to rise up by the hour that I just left my undies on me to release the heat. It really is that high!&lt;/p&gt;
+&lt;p&gt;The fever came with a massive headache and body pains that moving was a struggle. I kept taking meds every 4/5 hours to lower my temps and relief head and body aches. The first two nights were the height of all the symptoms. Lucky enough for those days, I didn&amp;rsquo;t have cough or colds that might release some infectious fluids.&lt;/p&gt;
 &lt;p&gt;My appetite never changed drastically during the 3-4 days of being sick. I ate well and drank a lot of water, continued taking meds for mild head and body aches, vitamins for my immune system, and basic exercises whenever I can.&lt;/p&gt;
 &lt;p&gt;I am deeply grateful for her family that I am still alive right now. And I spent the rest of January in isolation playing Hollow Knight - which is an awesome game - and read a few books and watched online courses.&lt;/p&gt;
 &lt;h3 id=&#34;hollow-knight&#34;&gt;Hollow Knight&lt;/h3&gt;
@@ -582,14 +631,14 @@ Some said it’s going to be another version of 2021 but worse. News in the firs
 &lt;/figure&gt;
 
 &lt;p&gt;This game is a metroidvania platformer which I actually played way before but gave up due to not having a proper gamepad controller - since the keyboard controls sucked for me.&lt;/p&gt;
-&lt;p&gt;The game started okay but when I finally met the bosses and how crazy the map navigation was, I was hooked. The game simply is not linear and you do have to explore the world for power ups and abilities that allows you to reach locations and do things you previously can’t on the way.&lt;/p&gt;
+&lt;p&gt;The game started okay but when I finally met the bosses and how crazy the map navigation was, I was hooked. The game simply is not linear and you do have to explore the world for power ups and abilities that allows you to reach locations and do things you previously can&amp;rsquo;t on the way.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;img/hallownest.png&#34;
          alt=&#34;Hallownest Map&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Hallownest Map&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;For more than two weeks of isolation, I actually 100-percented the game all that time in isolation, up until now I can’t still quite believe I passed White Castle.&lt;/p&gt;
+&lt;p&gt;For more than two weeks of isolation, I actually 100-percented the game all that time in isolation, up until now I can&amp;rsquo;t still quite believe I passed White Castle.&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/R8ddULz6xMo&#34; 
@@ -601,7 +650,7 @@ Some said it’s going to be another version of 2021 but worse. News in the firs
 
 &lt;p&gt;I ended the game&amp;rsquo;s main ending with 106% completion. But wait, there were still two endings: the True Ending - killing the actual Boss Radiance, and Godhome Ending - a final fight with all bosses and an upgraded Radiance.&lt;/p&gt;
 &lt;h3 id=&#34;atomic-habits&#34;&gt;Atomic Habits&lt;/h3&gt;
-&lt;p&gt;During isolation, I bought books online to read when Hollow Knight was hard enough that I take a few breaks. I rest my mind by reading James Clear’s Atomic Habits and also help me understand and change my habitual ways.
+&lt;p&gt;During isolation, I bought books online to read when Hollow Knight was hard enough that I take a few breaks. I rest my mind by reading James Clear&amp;rsquo;s Atomic Habits and also help me understand and change my habitual ways.
 &lt;figure&gt;&lt;img src=&#34;img/atomic-habits.png&#34;
          alt=&#34;Atomic Habits by James Clear&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Atomic Habits by James Clear&lt;/p&gt;
@@ -609,7 +658,7 @@ Some said it’s going to be another version of 2021 but worse. News in the firs
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;outliers&#34;&gt;Outliers&lt;/h3&gt;
-&lt;p&gt;Right in time going back to work, my next reading list was Malcolm Gladwell’s Outliers, I am half-way the book as of this writing.&lt;/p&gt;
+&lt;p&gt;Right in time going back to work, my next reading list was Malcolm Gladwell&amp;rsquo;s Outliers, I am half-way the book as of this writing.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;img/outliers.png&#34;
          alt=&#34;Outliers by Malcolm Gladwell&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Outliers by Malcolm Gladwell&lt;/p&gt;
@@ -617,11 +666,11 @@ Some said it’s going to be another version of 2021 but worse. News in the firs
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;no-codes&#34;&gt;No Codes&lt;/h3&gt;
-&lt;p&gt;The first 2 months of 2022 was quite slow for me to return coding. I haven’t coded a lot due to holiday hangover and I don&amp;rsquo;t want to do it sponteaneously to reduce trial and error, as I really wanted a smooth-sailing code when I begin.&lt;/p&gt;
+&lt;p&gt;The first 2 months of 2022 was quite slow for me to return coding. I haven&amp;rsquo;t coded a lot due to holiday hangover and I don&amp;rsquo;t want to do it sponteaneously to reduce trial and error, as I really wanted a smooth-sailing code when I begin.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/github-contributions.png&#34; width=&#34;217&#34;  height=&#34;141&#34;  srcset=&#34;https://reddavid.me/new-in-2022/img/github-contributions_hue555f84d3de6d29b83dff37a6f750905_2939_480x0_resize_box_3.png 480w, https://reddavid.me/new-in-2022/img/github-contributions_hue555f84d3de6d29b83dff37a6f750905_2939_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;GitHub Contributions in 2022&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;153&#34;
 	data-flex-basis=&#34;369px&#34; &gt;&lt;/p&gt;
 &lt;h3 id=&#34;going-back-to-work&#34;&gt;Going Back to Work&lt;/h3&gt;
-&lt;p&gt;Getting back to work means grinding the tasks left during my sick days, especially the problems we’re having with the website’s database. All in all, I came back normally with no more symptoms and ready to take on the rest of the year.&lt;/p&gt;
+&lt;p&gt;Getting back to work means grinding the tasks left during my sick days, especially the problems we&amp;rsquo;re having with the website&amp;rsquo;s database. All in all, I came back normally with no more symptoms and ready to take on the rest of the year.&lt;/p&gt;
 &lt;p&gt;I also continued to play Hollow Knight and get the full 112% completion on rest days.&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
@@ -1183,10 +1232,10 @@ Some said it’s going to be another version of 2021 but worse. News in the firs
 
 &lt;br&gt;
 &lt;h2 id=&#34;undo--redo&#34;&gt;Undo &amp;amp; Redo&lt;/h2&gt;
-&lt;p&gt;At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though. And that’s 5000 actions.&lt;/p&gt;
+&lt;p&gt;At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though. And that&amp;rsquo;s 5000 actions.&lt;/p&gt;
 &lt;p&gt;Though I mostly use OBS for game streaming (no facecam), I move things around only to notice that it was not the source I wanted to move! This surely helps users out and always had been the most requested feature.&lt;/p&gt;
 &lt;h2 id=&#34;files-where&#34;&gt;Files, where?&lt;/h2&gt;
-&lt;p&gt;Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don’t go start streaming only to have the files missing.&lt;/p&gt;
+&lt;p&gt;Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don&amp;rsquo;t go start streaming only to have the files missing.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_missing_files_warning.png&#34;
          alt=&#34;Missing Files Warning Window&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Missing Files Warning Window&lt;/p&gt;
@@ -1218,7 +1267,7 @@ Some said it’s going to be another version of 2021 but worse. News in the firs
 &lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
 &lt;p&gt;This new version of OBS Studio definitely helps with the new added features. Now I want a selective record feature.&lt;/p&gt;
 &lt;p&gt;I use OBS Studio together with &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34; target=&#34;_blank&#34;&gt;StreamElements&lt;/a&gt; OBS Live to simplify my stream setup to Facebook Gaming. I now have 1,019 followers (as of this writing) and why not check me out there? Maybe talk about gaming, life, or programming? &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGG/&#34; target=&#34;_blank&#34;&gt;RedDavidGG on Facebook Gaming&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I dedicate the starwall page for my stars-sender. Thanks and make sure to check out OBS Studio’s latest release &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I dedicate the starwall page for my stars-sender. Thanks and make sure to check out OBS Studio&amp;rsquo;s latest release &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Discord on David Ballesteros</title>
+        <link>https://reddavid.me/tags/discord/</link>
+        <description>Recent content in Discord on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 27 Apr 2022 02:03:51 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/discord/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Building My Own Discord Bot</title>
+        <link>https://reddavid.me/building-my-own-discord-bot/</link>
+        <pubDate>Wed, 27 Apr 2022 02:03:51 +0800</pubDate>
+        
+        <guid>https://reddavid.me/building-my-own-discord-bot/</guid>
+        <description>&lt;img src="https://reddavid.me/building-my-own-discord-bot/alfred-bot.png" alt="Featured image of post Building My Own Discord Bot" /&gt;&lt;p&gt;A new coding adventure begins! I always wanted to get deep with JavaScript specifically NodeJS to build apps and I never got into it due to confusion into what it is, what it can do, what UI framework to use. Though in this phase of learning NodeJS, I skipped building the UI since the bot is all code.&lt;/p&gt;
+&lt;p&gt;Let’s get into it!&lt;/p&gt;
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Why build a bot from scratch? Most free Discord bots out there does a wide-range of tasks from automessaging, ping/share Twitch links, play music, XP level system, but the features are somehow pay-to-use and managing more than 2 bots is somehow distracting for my small server.&lt;/p&gt;
+&lt;p&gt;I also was encouraged after building a very simple NodeJS app that changes my custom status on Discord with a single button using Flutter and Discord user token.&lt;/p&gt;
+&lt;h2 id=&#34;building-with-discordjs&#34;&gt;Building with DiscordJS&lt;/h2&gt;
+&lt;p&gt;Before doing the actual code, I got overwhelmed with more coding jargons like OAuth, tokens, intents, etc. - since I haven’t really used them in my personal projects. And ever since coding with C# and/or Flutter/Dart, building apps with their respective documentation, examples, and &lt;em&gt;playground&lt;/em&gt; makes it easier, which then means that getting started with &lt;a class=&#34;link&#34; href=&#34;https://discord.js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DiscordJS&lt;/a&gt; somewhat confused me at first.&lt;/p&gt;
+&lt;h3 id=&#34;create-a-bot-and-get-its-token&#34;&gt;Create a Bot and Get It’s Token&lt;/h3&gt;
+&lt;p&gt;This should be fairly easy to get, head over to &lt;a class=&#34;link&#34; href=&#34;https://discord.com/developers/applications&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Discord Developer Portal&lt;/a&gt; and build an application/bot. Note: The tutorials online might be a little outdated from what the settings.&lt;/p&gt;
+&lt;h3 id=&#34;install-nodejs&#34;&gt;Install NodeJS&lt;/h3&gt;
+&lt;p&gt;This should be included in Windows installation really but they have &lt;a class=&#34;link&#34; href=&#34;https://nodejs.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;guide online&lt;/a&gt;. Be careful, installing node may produce errors on terminal due to a bug in setting environment path.&lt;/p&gt;
+&lt;h3 id=&#34;use-vscode&#34;&gt;Use VSCode&lt;/h3&gt;
+&lt;p&gt;Please.&lt;/p&gt;
+&lt;h3 id=&#34;bot-capabilities&#34;&gt;Bot Capabilities&lt;/h3&gt;
+&lt;p&gt;As of this writing, here are a few capabilities I put on my Discord bot:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Welcome message to new members&lt;/li&gt;
+&lt;li&gt;Farewell message to tell who left&lt;/li&gt;
+&lt;li&gt;Twitch Ping - sends a message when I go live&lt;/li&gt;
+&lt;li&gt;YouTube Ping - sends a message when I post a new video on my gaming channel&lt;/li&gt;
+&lt;li&gt;Roles selection via emojis&lt;/li&gt;
+&lt;li&gt;Few slash commands&lt;/li&gt;
+&lt;li&gt;XP and Level system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;heroku-deployment&#34;&gt;Heroku Deployment&lt;/h2&gt;
+&lt;p&gt;Running the app locally works but it’s not good practice so I once learned a new platform/service with &lt;a class=&#34;link&#34; href=&#34;https://www.heroku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Heroku&lt;/a&gt;, it hosts and deploys NodeJS apps for free which allows my bot to run online.&lt;/p&gt;
+&lt;h2 id=&#34;codes&#34;&gt;Codes?&lt;/h2&gt;
+&lt;p&gt;I will share the codes/tutorial soon but this post will just serve as an announcement or invitation to share what I have been doing lately.&lt;/p&gt;
+&lt;h2 id=&#34;try-it-out&#34;&gt;Try It Out&lt;/h2&gt;
+&lt;p&gt;Shamelessly, you can join our Discord community, it now houses people who watches my gaming streams, likes my coding, and just a place to hangout for friends and family.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.gg/5dNqkjcTxZ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Join our Discord Community, Bahay ni Kuya&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

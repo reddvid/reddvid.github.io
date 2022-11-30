@@ -2019,24 +2019,10 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
         <guid>https://reddavid.me/starwall/</guid>
         <description>&lt;img src=&#34;https://reddavid.me/images/stars.png&#34; style=&#34;border-radius: 200px; margin-left: auto; margin-right: auto; width: 20%; display: block; margin-top: 2em; &#34;/&gt;
 &lt;h1 style=&#34;text-align: center; margin-bottom: 2em; margin-top: 5px; &#34;&gt;Stars Senders Wall&lt;/h1&gt;
-&lt;ul id=&#34;people-list&#34; style=&#34;list-style-type: none;&#34;&gt;
-    &lt;li&gt;Marineth E.&lt;/li&gt;
-    &lt;li&gt;Jan Ronel M.&lt;/li&gt;
-    &lt;li&gt;Lloyd N.&lt;/li&gt;
-    &lt;li&gt;Neng Crochet&lt;/li&gt;
-    &lt;li&gt;Kestler F.&lt;/li&gt;
-    &lt;li&gt;Mark Kevin L.&lt;/li&gt;
-    &lt;li&gt;Jairus G.&lt;/li&gt;
-    &lt;li&gt;Daryl N.&lt;/li&gt;
-    &lt;li&gt;Kent Jasper W.&lt;/li&gt;
-    &lt;li&gt;Tep Jco&lt;/li&gt;
-    &lt;li&gt;Thidy A.&lt;/li&gt;
-    &lt;li&gt;Emmanuel James T.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ul id=&#34;people-list&#34; style=&#34;list-style-type: none;&#34;&gt; &lt;li&gt;Marineth E.&lt;/li&gt; &lt;li&gt;Jan Ronel M.&lt;/li&gt; &lt;li&gt;Lloyd N.&lt;/li&gt; &lt;li&gt;Neng Crochet&lt;/li&gt; &lt;li&gt;Kestler F.&lt;/li&gt; &lt;li&gt;Mark Kevin L.&lt;/li&gt; &lt;li&gt;Jairus G.&lt;/li&gt; &lt;li&gt;Daryl N.&lt;/li&gt; &lt;li&gt;Kent Jasper W.&lt;/li&gt; &lt;li&gt;Tep Jco&lt;/li&gt; &lt;li&gt;Thirdy A.&lt;/li&gt; &lt;li&gt;Emmanuel James T.&lt;/li&gt; &lt;/ul&gt;
 &lt;br&gt;
 &lt;h6&gt;Updated 14-Dec-2021&lt;/h6&gt;
-&lt;p style=&#34;margin-top: 50px;&#34;&gt;Follow me on &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; to watch gameplay and send stars to be a part of the Star Senders Wall.&lt;/p&gt;
-</description>
+&lt;p style=&#34;margin-top: 50px;&#34;&gt;Follow me on &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; to watch gameplay and send stars to be a part of the Star Senders Wall.&lt;/p&gt;</description>
         </item>
         <item>
         <title>Developing for Apple Soon</title>
@@ -3001,34 +2987,40 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
         <guid>https://reddavid.me/gaming/</guid>
         <description>&lt;style&gt;
 .vcontainer {
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+position: relative;
+overflow: hidden;
+margin: 0 auto;
+width: 100%;
+padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
 .iframe-resp {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
 }
 
 .icon {
-  margin-bottom: -6px;
+margin-bottom: -6px;
 }
 
 &lt;/style&gt;
 &lt;h1 style=&#34;text-align: center;&#34;&gt;Gaming&lt;/h1&gt;
 &lt;h2 id=&#34;currently-playing&#34;&gt;Currently Playing&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Assassin&amp;rsquo;s Creed Odyssey&lt;/li&gt;
+&lt;li&gt;7 Days to Die&lt;/li&gt;
+&lt;li&gt;VALORANT&lt;/li&gt;
+&lt;li&gt;Assassin&amp;rsquo;s Creed Odyssey (postponed)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;wall-of-star-senders&#34;&gt;Wall of Star-senders&lt;/h2&gt;
+&lt;p&gt;Thanks to all Facebook star-senders! Glorified here: &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/starwall&#34;  title=&#34;Starwall&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Starwall&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;streaming&#34;&gt;Streaming&lt;/h2&gt;
 &lt;p&gt;I pop-up on &lt;strike&gt;Twitch&lt;/strike&gt; Facebook from time-to-time to stream. I still have no schedule.&lt;/p&gt;
 &lt;div id=&#34;fb-root&#34;&gt;&lt;/div&gt;
@@ -3042,21 +3034,22 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/playlist?list=PLwC47NQhSu5zgk32JZbPRF9sgSY7i6sdN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;The Witness&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/playlist?list=PLwC47NQhSu5wJlvkMyWrVrvbay5Ngk_N9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Ori and the Blind Forest&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+    &gt;Ori and the Blind Forest&lt;/a&gt;
 &lt;!-- &lt;script src= &#34;https://player.twitch.tv/js/embed/v1.js&#34;&gt;&lt;/script&gt;
 &lt;div id=&#34;vcontainer&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
-  var options = {
-    width: 1280,
-    height: 720,
-    channel: &#34;RedDavidGaming&#34;,
-    // only needed if your site is also embedded on embed.example.com and othersite.example.com
-    parent: [&#34;localhost&#34;, &#34;reddavid.me&#34;]
-  };
-  var player = new Twitch.Player(&#34;vcontainer&#34;, options);
-  player.setVolume(0.5);
+var options = {
+width: 1280,
+height: 720,
+channel: &#34;RedDavidGaming&#34;,
+// only needed if your site is also embedded on embed.example.com and othersite.example.com
+parent: \[&#34;localhost&#34;, &#34;reddavid.me&#34;\]
+};
+var player = new Twitch.Player(&#34;vcontainer&#34;, options);
+player.setVolume(0.5);
 &lt;/script&gt; --&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
 &lt;p&gt;Excluding my Steam library and other platform games (Epic, GOG), below is a table where I track my finished, on-going, to-be-continued, and soon-to-play games.&lt;/p&gt;
 &lt;table&gt;
@@ -3069,11 +3062,11 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;AER Memories of Old&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Assassin&amp;rsquo;s Creed Origins&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; on Hard&lt;/td&gt;
+&lt;td&gt;Done on Hard&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Assassin&amp;rsquo;s Creed Odyssey&lt;/td&gt;
@@ -3081,15 +3074,15 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Battlefield 3&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Battlefield 4&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;BioShock&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;BioShock 2&lt;/td&gt;
@@ -3097,19 +3090,19 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Bioshock Infinite&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; on Hard&lt;/td&gt;
+&lt;td&gt;Done on Hard&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Blackmesa&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Braid&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Brothers - A Tale of Two Sons&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Celeste&lt;/td&gt;
@@ -3117,23 +3110,23 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;CoD: Black Ops&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;CoD: MW&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;CoD: MW 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;CoD: MW 3&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;CoD: World at War&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Dead Space&lt;/td&gt;
@@ -3149,7 +3142,7 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Dishonored&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Dishonored 2&lt;/td&gt;
@@ -3157,7 +3150,7 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;DOOM 2016&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;DOOM Eternal&lt;/td&gt;
@@ -3165,31 +3158,31 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Evoland 1/2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Far Cry 3&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Far Cry 4&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Far Cry 5&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Far Cry 6&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Far Cry New Dawn&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Far Cry Primal&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Ghost Recon: Breakpoint&lt;/td&gt;
@@ -3197,11 +3190,11 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Ghost Recon: Wildlands&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;GRIS&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;GTA 3&lt;/td&gt;
@@ -3217,7 +3210,7 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;GTA V&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; main story&lt;/td&gt;
+&lt;td&gt;Done main story&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;GTA Vice City&lt;/td&gt;
@@ -3225,11 +3218,11 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Half-Life&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Half-Life 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Hellblade: Senua&amp;rsquo;s Sacrifice&lt;/td&gt;
@@ -3237,19 +3230,19 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;HL2: Ep 1&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;HL2: Ep 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Hollow Knight&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; 112% P1-4 NB&lt;/td&gt;
+&lt;td&gt;Done 112% P1-4 NB&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Homefront&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Homefront: The Revolution&lt;/td&gt;
@@ -3261,19 +3254,19 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Journey&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Kena Bridge of Spirits&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;LIMBO&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Machinarium&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Mad Max&lt;/td&gt;
@@ -3281,23 +3274,23 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Mafia 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Medal of Honor&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Metro 2033&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Metro Exodus&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Metro Last Light&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Mirror&amp;rsquo;s Edge&lt;/td&gt;
@@ -3309,15 +3302,15 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;NFS: Most Wanted Black Edition&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;NFS: Underground 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Ori and the Blind Forest&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Ori and the Will of the Wisps&lt;/td&gt;
@@ -3325,27 +3318,27 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Portal&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Portal 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Prototype&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Prototype 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Puzzle Agent&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Puzzle Agent 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Raft&lt;/td&gt;
@@ -3357,19 +3350,19 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Sleeping Dogs&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Slime Rancher&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; - story&lt;/td&gt;
+&lt;td&gt;Done - story&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Spec Ops: The Line&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;The Darkness 2&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;The Dream Machine&lt;/td&gt;
@@ -3381,23 +3374,23 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;The Sexy Brutale&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;The Walking Dead (Season 1?)&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;The Witcher 3: Wild Hunt + 2 DLCs&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;The Witness&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Turnip Boy&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Undertale&lt;/td&gt;
@@ -3405,7 +3398,7 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Valley&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Max Payne 2&lt;/td&gt;
@@ -3413,23 +3406,23 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;C&amp;amp;C: Red Alert 2 Campaign&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; on Hard&lt;/td&gt;
+&lt;td&gt;Done on Hard&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;C&amp;amp;C: RA2 Yuri&amp;rsquo;s Revenge Campaign&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; on Hard&lt;/td&gt;
+&lt;td&gt;Done on Hard&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;C&amp;amp;C: Red Alert 3 Campaign&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; on Easy&lt;/td&gt;
+&lt;td&gt;Done on Easy&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;C&amp;amp;C: RA3 Uprising&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt; on Easy&lt;/td&gt;
+&lt;td&gt;Done on Easy&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;NFS: The Run&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Done&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Done&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -3454,17 +3447,16 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/ul&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Join our &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.gg/rKnJb4J&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Discord Community&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Gaming &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/channel/UCzhXnO1cPiTos6UD5yWf0vw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;YouTube Channel&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://facebook.com/RedDavidGaming/community&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Facebook Gaming&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Tip via &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/RedDavidGaming/tip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;StreamElements&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Join our &lt;a class=&#34;link&#34; href=&#34;https://discord.gg/rKnJb4J&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Discord Community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gaming &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/channel/UCzhXnO1cPiTos6UD5yWf0vw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;YouTube Channel&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://facebook.com/RedDavidGaming/community&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Facebook Gaming&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tip via &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/RedDavidGaming/tip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;StreamElements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
-</description>
+&lt;br&gt;</description>
         </item>
         <item>
         <title>Links</title>

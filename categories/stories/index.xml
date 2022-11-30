@@ -6,7 +6,51 @@
         <description>Recent content in Stories on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 08 Jun 2022 03:12:03 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/stories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 01 Dec 2022 01:21:59 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/stories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>And... it&#39;s December</title>
+        <link>https://reddavid.me/and...-its-december/</link>
+        <pubDate>Thu, 01 Dec 2022 01:21:59 +0800</pubDate>
+        
+        <guid>https://reddavid.me/and...-its-december/</guid>
+        <description>&lt;p&gt;How many times have I apologized for not posting on my blog? 😅&lt;/p&gt;
+&lt;p&gt;Let’s just recap, shall we?&lt;/p&gt;
+&lt;h2 id=&#34;i-got-married&#34;&gt;I Got Married&lt;/h2&gt;
+&lt;p&gt;Yes, people still marry despite the hardships in this f-ing country, and I am one of them last October. We both felt it is time after 8 years of being together.&lt;/p&gt;
+&lt;p&gt;The prior months were not all wedding-preparations as I read and took some online courses and learning programs - more about &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flutter&lt;/a&gt;, and leadership/project management.&lt;/p&gt;
+&lt;h2 id=&#34;learning-in-depth-flutter&#34;&gt;Learning In-Depth Flutter&lt;/h2&gt;
+&lt;p&gt;The infamous Angela Yu’s Flutter bootcamp course on &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Udemy&lt;/a&gt; has been sitting on my learning for a few months and I finally decided to take it on since I really really have to update and improve my Flutter/Dart coding - and to update some apps.&lt;/p&gt;
+&lt;p&gt;I faced some problems with the course since it was outdated to the current Flutter version but it all went good, thanks for the updated documentation of Flutter and &lt;a class=&#34;link&#34; href=&#34;http://pub.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;pub.dev&lt;/a&gt; packages.&lt;/p&gt;
+&lt;p&gt;I learned DRY (&lt;strong&gt;d&lt;/strong&gt;on’t &lt;strong&gt;r&lt;/strong&gt;epeat &lt;strong&gt;y&lt;/strong&gt;ourself) - again - especially with Flutter’s all code UI. So, learning to convert most reusable Widgets to “components” is fun.&lt;/p&gt;
+&lt;p&gt;I also learned a few techniques and best practices.&lt;/p&gt;
+&lt;h2 id=&#34;updating-rpn-radio-app&#34;&gt;Updating RPN Radio App&lt;/h2&gt;
+&lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
+&lt;p&gt;And the app needed a UI/UX refresh - well at least for the player part.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/12-22/rpnradio.png&#34;
+         alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;RPN Radio App UI before and after (Note: After image was taken when stations were offline)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The app is now available to download for free on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple App Store&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;next&#34;&gt;Next?&lt;/h2&gt;
+&lt;p&gt;I also tested Flutter’s web app by building a working web version of my simple app, &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ZIP Code PH&lt;/a&gt;. It’s really really simple as of this moment.&lt;/p&gt;
+&lt;p&gt;I will be also going in-depth with Firebase and Firebase Auth to improve the mobile apps.&lt;/p&gt;
+&lt;h2 id=&#34;gaming-and-streaming&#34;&gt;Gaming and Streaming&lt;/h2&gt;
+&lt;p&gt;Sadly, after coming back from the break, I felt no energy to play games - continue playing Assassin’s Creed: Odyssey or any other games on my Xbox PC game pass. And whenever I start a new game, I feel bored can’t motivate myself to continue playing.&lt;/p&gt;
+&lt;p&gt;I tried to play Dead Space, Battlefield 4, and VALORANT this November but also felt nothing.&lt;/p&gt;
+&lt;p&gt;But there is this game called 7 Days to Die on Steam that I am currently playing (not regularly, though) and I’ll see if it’s worth playing through.&lt;/p&gt;
+&lt;p&gt;Catch me on &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/RedDavidGG&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facebook Gaming&lt;/a&gt; when I go live, or on my &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@reddavidgg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YouTube gaming channel&lt;/a&gt; for uploads.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Life Updates</title>
         <link>https://reddavid.me/life-updates/</link>
         <pubDate>Wed, 08 Jun 2022 03:12:03 +0800</pubDate>
@@ -403,7 +447,7 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;There were also a few more layout and quality updates which I will share soon. But you can see what I&amp;rsquo;ve worked on &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com&#34; target=&#34;blank_&#34;&gt;rpnradio.com&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com&#34; target=&#34;blank_&#34;&gt;tunein.rpnradio.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As for the company&amp;rsquo;s mobile apps - updates are still pending. I am hoping for a wider schedule to keep my &amp;ldquo;programming momentum&amp;rdquo; uninterrupted because once I started I can&amp;rsquo;t stop until the code works. Trust me, unless I can&amp;rsquo;t figure it out and need a good night&amp;rsquo;s sleep to come up with a fix.&lt;/p&gt;
 &lt;p&gt;Lastly, on my very very free time, I can get to play and record playing the guitar and upload to my &lt;a class=&#34;link&#34; href=&#34;https://youtube.com/RedDavid&#34; target=&#34;blank_&#34;&gt;YouTube&lt;/a&gt; channel. Feel free to like or dislike. 🤣 I also compensate some time to stream on &lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/aka1red&#34; target=&#34;blank_&#34;&gt;Twitch&lt;/a&gt; for a few hours.&lt;/p&gt;
-&lt;p&gt;I hope these are enough to keep you updated. I will also post some tech buys I did to give myself back for the hard-work I believe I do. Hit me up in &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/reddvid&#34; target=&#34;blank_&#34;&gt;Twitter&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://facebook.com/reddavidgg&#34; target=&#34;blank_&#34;&gt;Facebook&lt;/a&gt; on how your last two months went!&lt;/p&gt;
+&lt;p&gt;I hope these are enough to keep you updated. I will also post some tech buys I did to give myself back for the hard-work I believe I do. Hit me up in &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/reddvid&#34; target=&#34;blank_&#34;&gt;Twitter&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://facebook.com/RedDavidGaming&#34; target=&#34;blank_&#34;&gt;Facebook&lt;/a&gt; on how your last two months went!&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -427,7 +471,7 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;/figure&gt;
 
 &lt;p&gt;Speaking of streaming, I started streaming on Twitch! Right now, I planned on playing Minecraft, Left 4 Dead 2, and Call of Duty: Mobile. Also, I will try to stream on MWFS schedule playing those games or variety. &lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/aka1red&#34; target=&#34;_blank&#34;&gt;Give me a follow&lt;/a&gt; and get notified when I go live.&lt;/p&gt;
-&lt;p&gt;I will be using my &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGG&#34; target=&#34;_blank&#34;&gt;Facebook Page&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://discord.gg/rKnJb4J&#34; target=&#34;_blank&#34;&gt;Discord server&lt;/a&gt; to post updates.&lt;/p&gt;
+&lt;p&gt;I will be using my &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34; target=&#34;_blank&#34;&gt;Facebook Page&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://discord.gg/rKnJb4J&#34; target=&#34;_blank&#34;&gt;Discord server&lt;/a&gt; to post updates.&lt;/p&gt;
 &lt;h3 id=&#34;stream-setup-mobile-gaming&#34;&gt;Stream Setup (Mobile Gaming)&lt;/h3&gt;
 &lt;p&gt;As of this writing, I am lucky enough to have this setup for mobile game streaming:&lt;/p&gt;
 &lt;ul&gt;
@@ -561,7 +605,7 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;h2 id=&#34;april---november&#34;&gt;April - November&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ll sumamrize these months here, since we all have been in lock down and stayed in our homes. But luckily for us, our occupation allowed us to still make a living and let us stay in.&lt;/p&gt;
 &lt;p&gt;Within these months, the government has been extending and extending the quarantine every 30 days - they just fear for public panic if they announce a definite lockdown for a year.&lt;/p&gt;
-&lt;p&gt;I went busy during these time, did some web and app development, went on to stream some games on &lt;a class=&#34;link&#34; href=&#34;https://facebook.gg/RedDavidGG&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; and took some online courses &lt;a class=&#34;link&#34; href=&#34;https://linkedin.com/in/reddvid/&#34; target=&#34;_blank&#34;&gt;(view my LinkedIn profile here).&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I went busy during these time, did some web and app development, went on to stream some games on &lt;a class=&#34;link&#34; href=&#34;https://facebook.gg/RedDavidGaming&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; and took some online courses &lt;a class=&#34;link&#34; href=&#34;https://linkedin.com/in/reddvid/&#34; target=&#34;_blank&#34;&gt;(view my LinkedIn profile here).&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;With all of these, I upgraded (again) my peripherals for my convenience (sorry Girlfried, 😂). I bought a over-the-head headset and an earbuds, for better Zoom meetings and streaming - the JBL Quantum 200 and the HyperX Cloud earbuds. I also got myself a wireless Logitech gaming mouse, the G304, which I reviewed &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/g304-review/&#34;&gt;here&lt;/a&gt; and a Tecware mechanical keyboard TKL, which you can read more about &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/new-keeb/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/jbl-quantum.jpg&#34;
          alt=&#34;JBL Quantum 200&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
@@ -652,8 +696,8 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;grip&#34;&gt;Grip&lt;/h3&gt;
-&lt;p&gt;The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&amp;rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGG/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://fb.gg/RedDavidGG/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&amp;rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://fb.gg/RedDavidGaming/&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/hand-top.jpg&#34;
          alt=&#34;G304 top grip&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Top view grip&lt;/p&gt;

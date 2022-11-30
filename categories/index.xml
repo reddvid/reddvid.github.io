@@ -6,21 +6,21 @@
         <description>Recent content in Categories on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 08 Jun 2022 03:12:03 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Stories</title>
-        <link>https://reddavid.me/categories/stories/</link>
-        <pubDate>Wed, 08 Jun 2022 03:12:03 +0800</pubDate>
-        
-        <guid>https://reddavid.me/categories/stories/</guid>
-        <description>&lt;img src="https://reddavid.me/categories/stories/feat-stories.png" alt="Featured image of post Stories" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 01 Dec 2022 01:21:59 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Coding</title>
         <link>https://reddavid.me/categories/coding/</link>
-        <pubDate>Wed, 27 Apr 2022 02:03:51 +0800</pubDate>
+        <pubDate>Thu, 01 Dec 2022 01:21:59 +0800</pubDate>
         
         <guid>https://reddavid.me/categories/coding/</guid>
         <description>&lt;img src="https://reddavid.me/categories/coding/feat-coding.png" alt="Featured image of post Coding" /&gt;</description>
+        </item>
+        <item>
+        <title>Stories</title>
+        <link>https://reddavid.me/categories/stories/</link>
+        <pubDate>Thu, 01 Dec 2022 01:21:59 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/stories/</guid>
+        <description>&lt;img src="https://reddavid.me/categories/stories/feat-stories.png" alt="Featured image of post Stories" /&gt;</description>
         </item>
         <item>
         <title>Tech</title>

@@ -2022,7 +2022,8 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 &lt;ul id=&#34;people-list&#34; style=&#34;list-style-type: none;&#34;&gt; &lt;li&gt;Marineth E.&lt;/li&gt; &lt;li&gt;Jan Ronel M.&lt;/li&gt; &lt;li&gt;Lloyd N.&lt;/li&gt; &lt;li&gt;Neng Crochet&lt;/li&gt; &lt;li&gt;Kestler F.&lt;/li&gt; &lt;li&gt;Mark Kevin L.&lt;/li&gt; &lt;li&gt;Jairus G.&lt;/li&gt; &lt;li&gt;Daryl N.&lt;/li&gt; &lt;li&gt;Kent Jasper W.&lt;/li&gt; &lt;li&gt;Tep Jco&lt;/li&gt; &lt;li&gt;Thirdy A.&lt;/li&gt; &lt;li&gt;Emmanuel James T.&lt;/li&gt; &lt;/ul&gt;
 &lt;br&gt;
 &lt;h6&gt;Updated 14-Dec-2021&lt;/h6&gt;
-&lt;p style=&#34;margin-top: 50px;&#34;&gt;Follow me on &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; to watch gameplay and send stars to be a part of the Star Senders Wall.&lt;/p&gt;</description>
+&lt;p style=&#34;margin-top: 50px;&#34;&gt;Follow me on &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; to watch gameplay and send stars to be a part of the Star Senders Wall.&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Developing for Apple Soon</title>

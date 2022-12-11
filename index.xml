@@ -3014,8 +3014,8 @@ margin-bottom: -6px;
 &lt;h1 style=&#34;text-align: center;&#34;&gt;Gaming&lt;/h1&gt;
 &lt;h2 id=&#34;currently-playing&#34;&gt;Currently Playing&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;7 Days to Die&lt;/li&gt;
-&lt;li&gt;VALORANT&lt;/li&gt;
+&lt;li&gt;Nothing specific (variety)&lt;/li&gt;
+&lt;li&gt;Maybe replay Witcher 3 Next-gen Update? idk&lt;/li&gt;
 &lt;li&gt;Assassin&amp;rsquo;s Creed Odyssey (postponed)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;wall-of-star-senders&#34;&gt;Wall of Star-senders&lt;/h2&gt;
@@ -3053,6 +3053,22 @@ player.setVolume(0.5);
 &lt;/ul&gt;
 &lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
 &lt;p&gt;Excluding my Steam library and other platform games (Epic, GOG), below is a table where I track my finished, on-going, to-be-continued, and soon-to-play games.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Y2023 list&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;Dead Space 1, 2, 3&lt;/li&gt;
+&lt;li&gt;Doom Eternal&lt;/li&gt;
+&lt;li&gt;Ori and the Will of the Wisps&lt;/li&gt;
+&lt;li&gt;Assassin&amp;rsquo;s Creed: Odyssey (to continue &amp;amp; finish)&lt;/li&gt;
+&lt;li&gt;Assassin&amp;rsquo;s Creed: Valhalla&lt;/li&gt;
+&lt;li&gt;Horizon: Zero Dawn&lt;/li&gt;
+&lt;li&gt;Red Dead Redemption 2&lt;/li&gt;
+&lt;li&gt;Resident Evil 3 Remake&lt;/li&gt;
+&lt;li&gt;Resident Evil 7, 8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary&gt;Full List&lt;/summary&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3428,6 +3444,7 @@ player.setVolume(0.5);
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p style=&#34;text-align: right; margin-top: -20px&#34;&gt;&lt;small&gt;&lt;em&gt;as of August 9, 2022&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/details&gt;
 &lt;h2 id=&#34;peripherals&#34;&gt;Peripherals&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.logitechg.com/en-ph/products/gaming-mice/g304-lightspeed-wireless-gaming-mouse.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -3457,7 +3474,8 @@ player.setVolume(0.5);
 &lt;li&gt;Tip via &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/RedDavidGaming/tip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;StreamElements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;</description>
+&lt;br&gt;
+</description>
         </item>
         <item>
         <title>Links</title>

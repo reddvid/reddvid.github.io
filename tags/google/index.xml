@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Google on David Ballesteros</title>
+        <link>https://reddavid.me/tags/google/</link>
+        <description>Recent content in Google on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 15 Mar 2021 22:06:53 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/google/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Flutter Coding</title>
+        <link>https://reddavid.me/flutter-coding/</link>
+        <pubDate>Mon, 15 Mar 2021 22:06:53 +0800</pubDate>
+        
+        <guid>https://reddavid.me/flutter-coding/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/android-love-flutter.png" alt="Featured image of post Flutter Coding" /&gt;&lt;p&gt;I&amp;rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.&lt;/p&gt;
+&lt;p&gt;As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.&lt;/p&gt;
+&lt;p&gt;Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &amp;ldquo;native world&amp;rdquo;.&lt;/p&gt;
+&lt;h2 id=&#34;android-and-bad-java-code&#34;&gt;Android and Bad (Java) Code&lt;/h2&gt;
+&lt;p&gt;The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.&lt;/p&gt;
+&lt;p&gt;To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.&lt;/p&gt;
+&lt;p&gt;Ever since March started, I started reading about Flutter and did some basic UI.&lt;/p&gt;
+&lt;p&gt;But first, let me tell you how I installed Flutter on Windows.&lt;/p&gt;
+&lt;h2 id=&#34;pre-installation-pre-requisites&#34;&gt;Pre-installation (Pre-requisites?)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you have Git on your device. I installed Git for Windows&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.&lt;/li&gt;
+&lt;li&gt;Some Android SDKs and;&lt;/li&gt;
+&lt;li&gt;Google Chrome browser.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;I pretty much followed the recommended guide as stated here: &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/docs/get-started/install/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Install Flutter (Windows)&lt;/a&gt;. But instead of &lt;code&gt;C:\src\flutter&lt;/code&gt;, I put it a level higher like this: &lt;code&gt;C:\flutter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then added environment variable to Path. &amp;lt;- This part is important if you want to run flutter commands in the command line&lt;/p&gt;
+&lt;p&gt;Ran &lt;code&gt;flutter doctor&lt;/code&gt; until all requirements are check out&lt;/p&gt;
+&lt;h2 id=&#34;ide-wait&#34;&gt;IDE, wait&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.&lt;/p&gt;
+&lt;p&gt;Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!&lt;/p&gt;
+&lt;p&gt;Even though &lt;code&gt;flutter doctor&lt;/code&gt; checked everything, I was disappointed that I can&amp;rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&amp;rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/flutter/android-studio-flutter.png&#34;
+         alt=&#34;New Flutter Project&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;New Flutter Project&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.&lt;/p&gt;
+&lt;p&gt;Coming from XAML, where everything seems &amp;ldquo;as is&amp;rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/flutter/ui-code.png&#34;
+         alt=&#34;Flutter UI Code&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Flutter UI Code&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;hello-world&#34;&gt;Hello, World&lt;/h2&gt;
+&lt;p&gt;Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.&lt;/p&gt;
+&lt;p&gt;I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.&lt;/p&gt;
+&lt;p&gt;Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!&lt;/p&gt;
+&lt;p&gt;Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

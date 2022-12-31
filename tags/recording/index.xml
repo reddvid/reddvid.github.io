@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Recording on David Ballesteros</title>
+        <link>https://reddavid.me/tags/recording/</link>
+        <description>Recent content in Recording on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 22 Mar 2022 01:32:24 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/recording/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Amateur Recording</title>
+        <link>https://reddavid.me/amateur-recording/</link>
+        <pubDate>Tue, 22 Mar 2022 01:32:24 +0800</pubDate>
+        
+        <guid>https://reddavid.me/amateur-recording/</guid>
+        <description>&lt;img src="https://reddavid.me/amateur-recording/amateur-recording-og.png" alt="Featured image of post Amateur Recording" /&gt;&lt;h2 id=&#34;bye-condenser-hello-dynamic&#34;&gt;Bye Condenser, Hello Dynamic&lt;/h2&gt;
+&lt;p&gt;I let go of my &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/mobile-game-streaming/#hardware&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audio Technica ATR2500X condenser microphone&lt;/a&gt; since recording with it picks up a lot of background noise-making the guitar sound bad when reducing noise on post-edit.&lt;/p&gt;
+&lt;p&gt;The ATR2500X does record good sound when inside a treated and noise-free room. Here is a sample, though it&amp;rsquo;s not in a room and background noise is environmental:&lt;/p&gt;
+&lt;figure&gt;
+   &lt;audio controls style=&#34;width: 60%;&#34;&gt;
+      &lt;source src=&#34;chikinini.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+      Your browser does not support the audio element.
+   &lt;/audio&gt;
+   &lt;figcaption&gt;Chikinini by Parokya Ni Edgar Cover by John Dre (Inuman Session)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;samson-q9u&#34;&gt;Samson Q9U&lt;/h2&gt;
+&lt;p&gt;I replaced the AT mic with a Samson Q9U, a USB/XLR combo dynamic microphone which I can directly use on a PC without a USB interface (XLR connection). Despite the slightly higher price, having a dynamic mic to record in a noisy room is slightly tolerable.&lt;/p&gt;
+&lt;p&gt;The package includes USB Type-C to Type-A cable and a windscreen together with the mic itself.&lt;/p&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic capsule with humbucking coil and neodymium magnet&lt;/li&gt;
+&lt;li&gt;Cardioid polar pattern&lt;/li&gt;
+&lt;li&gt;XLR Analog Output&lt;/li&gt;
+&lt;li&gt;USB-C Digital output with 24-bit/96kHz resolution&lt;/li&gt;
+&lt;li&gt;1/8&amp;quot; output zero-latency headphone monitoring&lt;/li&gt;
+&lt;li&gt;Low Cut Filter&lt;/li&gt;
+&lt;li&gt;Mid-presence Boost&lt;/li&gt;
+&lt;li&gt;Mute button controls both USB and XLR outputs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quick-specs&#34;&gt;Quick Specs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Frequency Response: 50Hz–20kHz&lt;/li&gt;
+&lt;li&gt;Polar Pattern: Cardioid (unidirectional)&lt;/li&gt;
+&lt;li&gt;Impedance: 250Ω&lt;/li&gt;
+&lt;li&gt;Bit Depth/Sample Rate: 24-bit, up to 96 kHz&lt;/li&gt;
+&lt;li&gt;Digital Output: USB-C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For full detailed specs: &lt;a class=&#34;link&#34; href=&#34;http://www.samsontech.com/samson/products/microphones/dynamic-microphones/q9u/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Samson — Q9U&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://musictech.com/reviews/studio-recording-gear/review-samson-q9u/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Review: Samson Q9U | MusicTech&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pictures&#34;&gt;Pictures&lt;/h3&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;img/samson-q9u.png&#34;
+         alt=&#34;Samson Q9U&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samson Q9U&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;img/samson-q9u-bottom.png&#34;
+         alt=&#34;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;I use a cheap boom arm to hold the mic and reduce table vibration noise. The mic is connected with a third-party Type-C to Type-A braided cable to the PC and shows as Samson Q9U on Windows. I left the wind foam to further reduce noise.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/q9u-windows.png&#34;
+         alt=&#34;Samson Q9U on Windows&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samson Q9U on Windows&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;I use the donationware app &lt;a class=&#34;link&#34; href=&#34;https://voicemeeter.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Voicemeeter&lt;/a&gt; to control my input and output audio devices on Windows, and also use the “Cassette” recorder to select the devices to record.&lt;/p&gt;
+&lt;p&gt;I mainly use this as recording instead of Audacity to monitor each input.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/voicemeeter.png&#34;
+         alt=&#34;Voicemeeter Banana&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Voicemeeter Banana&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;editing&#34;&gt;Editing&lt;/h2&gt;
+&lt;p&gt;I edit my recorded audio using &lt;a class=&#34;link&#34; href=&#34;https://www.audacityteam.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audacity&lt;/a&gt;. I mostly reduce unwanted noise without affecting the guitar tones too much. I also add a few effects like Reverb, and Delay. And sometimes, I do add tracks directly to record overlay guitar solos.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/audacity.png&#34;
+         alt=&#34;Audacity (Currently Editing Dahan)&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Audacity (Currently Editing Dahan)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;samples&#34;&gt;Samples&lt;/h2&gt;
+&lt;p&gt;I think these was the best solos/cover I recorded with the guitar (not my voice) with a few effects added on the solo part (in Dahan). Despite the noticeable noise in both recordings, I hope you liked them, and I will continue to improve.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+   &lt;audio controls style=&#34;width: 60%;&#34;&gt;
+      &lt;source src=&#34;dahan-final.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+      Your browser does not support the audio element.
+   &lt;/audio&gt;
+   &lt;figcaption&gt;Dahan by December Avenue Cover&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;audio controls style=&#34;width: 60%;&#34;&gt;
+      &lt;source src=&#34;bakitba.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+      Your browser does not support the audio element.
+   &lt;/audio&gt;
+   &lt;figcaption&gt;Bakit Ba by Siakol Guitar Only Cover&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;You can visit my &lt;a class=&#34;link&#34; href=&#34;https://youtube.com/RedDavid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YouTube channel&lt;/a&gt; where I upload some covers.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

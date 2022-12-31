@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Watching DOTA 2 and coding at the same time'>
+<title>TI10 and Appdates - David Ballesteros</title>
+
+
+<link rel='canonical' href='https://reddavid.me/ti10-and-appdates/'>
+
+<link rel="stylesheet" href="/scss/style.min.0f818c5dfad599c596f85f454cfc52eb70fbeded7e7037aad9c50fa38ca56a07.css"><meta property='og:title' content='TI10 and Appdates'>
+<meta property='og:description' content='Watching DOTA 2 and coding at the same time'>
+<meta property='og:url' content='https://reddavid.me/ti10-and-appdates/'>
+<meta property='og:site_name' content='David Ballesteros'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Apps' /><meta property='article:tag' content='Gaming' /><meta property='article:tag' content='TI10' /><meta property='article:tag' content='DOTA 2' /><meta property='article:tag' content='The International' /><meta property='article:tag' content='Flutter' /><meta property='article:tag' content='Android' /><meta property='article:tag' content='iOS' /><meta property='article:published_time' content='2021-10-15T03:53:07&#43;08:00' /><meta property='article:modified_time' content='2021-10-15T03:53:07&#43;08:00' /><meta property='og:image' content='https://reddavid.me/images/og/ti10-appdates.png' />
+<meta name="twitter:site" content="@reddvid">
+<meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="TI10 and Appdates">
+<meta name="twitter:description" content="Watching DOTA 2 and coding at the same time"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content='https://reddavid.me/images/og/ti10-appdates.png' />
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129071597-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><link href="//fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro" rel="stylesheet">
+<meta name="application-name" content="Red David Blog">
+<meta name="apple-mobile-web-app-title" content="Red David Blog">
+<meta name="theme-color" content="#212121">
+<meta name="msapplication-TileColor" content="#FF0000">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF0000">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="canonical" href="https://reddavid.me/" />
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="Red David | Tech, Gaming, and Coding Blog">
+<link rel="feed" href="/index.xml" type="application/rss+xml" title="Red David | Tech, Gaming, and Coding Blog">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+<link rel="stylesheet" href="/css/style.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/reddavid.me\/","inLanguage": "en","author": {
+                "@type": "Person",
+                "name": "Red David"
+            },"description": "Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.","image": "https:\/\/reddavid.me\/images\/Apple-Devices-Preview.png","thumbnailUrl": "https:\/\/reddavid.me\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "Red David | Tech, Gaming, and Coding Blog"
+    }
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-129071597-1');
+</script>
+    </head>
+    <body class="
+article-page
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="/images/avatar.jpg" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">👋</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">David Ballesteros</a></h1>
+            <h2 class="site-description">IT Guy | App Developer</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://fb.gg/reddavidgaming'
+                        target="_blank"
+                        title="Facebook"
+                    >
+                        
+                        
+                            <svg xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" stroke-width="1.5px"></path>
+  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" fill="none" stroke-width="1.5px"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/reddvid'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://instagram.com/reddvid'
+                        target="_blank"
+                        title="Instagram"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://linkedin.com/in/reddvid'
+                        target="_blank"
+                        title="LinkedIn"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/reddvid'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/posts/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Posts</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/gaming/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mouse" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="6" y="3" width="12" height="18" rx="4" />
+  <line x1="12" y1="7" x2="12" y2="11" />
+</svg>
+
+
+
+                
+                <span>Gaming</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/portfolio/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+</svg>
+
+
+
+                
+                <span>Portfolio</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+<article class="main-article">
+
+    
+    
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/ti10-and-appdates/">
+                
+                    <img src="/images/og/ti10-appdates.png" loading="lazy" alt="Featured image of post TI10 and Appdates" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+        <a href="/categories/gaming/" style="background-color: #2a9d8f; color: #fff;" >
+            Gaming
+        </a>
+        
+        <a href="/categories/coding/" style="background-color: #2a9d8f; color: #fff;" >
+            Coding
+        </a>
+        
+        <a href="/categories/apps/" style="background-color: #2a9d8f; color: #fff;" >
+            Apps
+        </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h1 class="article-title">
+            <a href="/ti10-and-appdates/">TI10 and Appdates</a>
+        </h1>
+
+        
+        <h3 class="article-subtitle">
+            Watching DOTA 2 and coding at the same time
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+            <time class="article-time--published">Oct 15, 2021</time>
+        </div>
+        
+
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <time class="article-time--reading">
+                4 minute read
+            </time>
+        </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+    <br>
+    <hr style="width: 90%; opacity: .55; background-color:rgba(255, 255, 255, 0.5);">
+    <br>
+    
+
+    <section class="article-content">
+    
+    
+    <p>Let&rsquo;s start with <a class="link" href="https://en.wikipedia.org/wiki/The_International_2021#:~:text=The%20International%202021%2C%20also%20known,2%20world%20championship%20esports%20tournament."  target="_blank" rel="noopener"
+    >The International</a>, shortened as TI, Valve&rsquo;s yearly Dota 2 tournament where the 18 of the best teams around the world gather to fight for the Aegis of the Champions every year. After being canceled and waiting for more than 2 years it is now happening, without an audience in Bucharest, Romania with a total prizepool of $40M+.</p>
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The International 10 Prize Pool Breakdown. <a href="https://twitter.com/hashtag/TI10?src=hash&amp;ref_src=twsrc%5Etfw">#TI10</a> <a href="https://twitter.com/hashtag/Dota2?src=hash&amp;ref_src=twsrc%5Etfw">#Dota2</a> <a href="https://t.co/76mHH1MZue">pic.twitter.com/76mHH1MZue</a></p>&mdash; Wykrhm Reddy (@wykrhm) <a href="https://twitter.com/wykrhm/status/1444037357775179779?ref_src=twsrc%5Etfw">October 1, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+<p>I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches <a class="link" href="https://dota2.fandom.com/wiki/IceFrog" target="_blank">IceFrog</a> brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn <a class="link" href="https://liquipedia.net/dota2/Dota_Pro_Circuit" target="_blank">DPC points</a> for entering the prestigious TI.</p>
+<h2 id="ten-days-of-dota">Ten Days of DOTA</h2>
+<p>#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.</p>
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TI10 Groups Final Standings. <a href="https://twitter.com/hashtag/TI10?src=hash&amp;ref_src=twsrc%5Etfw">#TI10</a> <a href="https://twitter.com/hashtag/Dota2?src=hash&amp;ref_src=twsrc%5Etfw">#Dota2</a> <a href="https://t.co/JBXC9z7hBc">pic.twitter.com/JBXC9z7hBc</a></p>&mdash; Wykrhm Reddy (@wykrhm) <a href="https://twitter.com/wykrhm/status/1447199723308269568?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+<p>Now, as of this writing, we just ended Day 3 of the Main Stage and I&rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.</p>
+<figure><img src="https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;name=large"/>
+</figure>
+
+<p>Thanks to <a class="link" href="https://twitter.com/wykrhm"  target="_blank" rel="noopener"
+    >Wykrhm Reddy (@wykrhm)</a> for being such a good Dota Community Man.</p>
+<h2 id="the-secret">The Secret</h2>
+<p>Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.</p>
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We made a promise. We delivered.<br><br>UPPER BRACKET: SECURED 🖤<a href="https://twitter.com/hashtag/SecretDota?src=hash&amp;ref_src=twsrc%5Etfw">#SecretDota</a> <a href="https://twitter.com/hashtag/TI10?src=hash&amp;ref_src=twsrc%5Etfw">#TI10</a> <a href="https://t.co/4V6czHXzhI">pic.twitter.com/4V6czHXzhI</a></p>&mdash; Team Secret (@teamsecret) <a href="https://twitter.com/teamsecret/status/1447192871677857796?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</center>
+<p>I follow the games by watching <a class="link" href="https://www.twitch.tv/singsing" target="_blank">singsing&rsquo;s Twitch stream</a> as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.</p>
+<h2 id="coding-and-appdates">Coding and Appdates</h2>
+<p>This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.</p>
+<p>My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣</p>
+<figure><img src="/images/10-21/appdates/samsung-a71.png"
+         alt="Samsung A71" height="400px"/><figcaption>
+            <p>Samsung A71</p>
+        </figcaption>
+</figure>
+
+<p>The app has been up on the Google Play Store for some time (as I blogged <a class="link" href="https://reddavid.me/rpn-android-app/" target="_blank">here</a>) and lacked significant updates. It stayed that way for a while until all busy-ness and code-confusion (is this even a term?) has subsided.</p>
+<p>These past days, I managed to release an update for the Android beta app and also started a TestFlight for iOS devices.</p>
+<p>I decided to version the app as 2.0 as this was a complete rework from the old code despite not publicly releasing a version 1.0. The app was previously coded on C#/Xamarin Forms but the documentation and support I needed was &ldquo;not there&rdquo;, then I started to code on Dart/Flutter for RPN Radio which made things easier - being a single-codebase mobile app development.</p>
+<p>Version 2.0 brings a new UI and supports offline mode - see downloaded news (as opposed to before that it will not work when there is no internet; though it is always recommended to be connected to get the latest news).</p>
+<p><img src="/ti10-and-appdates/img/news-screen1.png" width="256"  height="568"  srcset="/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_480x0_resize_box_3.png 480w, /ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_1024x0_resize_box_3.png 1024w"  loading="lazy"  alt="News Items Page"   class="gallery-image" data-flex-grow="45"
+	data-flex-basis="108px" ><img src="/ti10-and-appdates/img/news-screen2.png" width="256"  height="568"  srcset="/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_480x0_resize_box_3.png 480w, /ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_1024x0_resize_box_3.png 1024w"  loading="lazy"  alt="News Detail Page"   class="gallery-image" data-flex-grow="45"
+	data-flex-basis="108px" ></p>
+<h3 id="get-into-the-beta-test">Get into the Beta Test</h3>
+<p>The app is available for testing and I welcome your feedback after getting the app here from <strong><a class="link" href="https://bit.ly/2YVpJC9"  target="_blank" rel="noopener"
+    >Google Play Store</a></strong> and <strong><a class="link" href="https://apple.co/2XaMBNl"  target="_blank" rel="noopener"
+    >Apple TestFlight</a></strong>.</p>
+<p>Or scan the QR code/s below:</p>
+<p><figure><img src="/images/10-21/appdates/play-qr.png"
+         alt="Google Play Store QR Code"/><figcaption>
+            <p>Google Play Store QR Code</p>
+        </figcaption>
+</figure>
+
+<figure><img src="/images/10-21/appdates/testflight-qr.png"
+         alt="Google Play Store QR Code"/><figcaption>
+            <p>Google Play Store QR Code</p>
+        </figcaption>
+</figure>
+</p>
+<p>You may submit your feedback using built-in tools from Google or TestFlight, sending an <a class="link" href="mailto:info@rpnradio.com" >email</a>, or any on my socials.</p>
+<p>I will try my best to get the app working for a public release.</p>
+<hr>
+<p>That&rsquo;s it for now folks, <strong>let&rsquo;s watch and enjoy some Dota</strong>.</p>
+
+</section>
+
+
+    
+
+<style>
+   #share-buttons {
+      display: inline-block;
+      vertical-align: middle;
+   }
+
+   #share-buttons:after {
+      content: "";
+      display: block;
+      clear: both;
+   }
+
+   #share-buttons>div {
+      position: relative;
+      text-align: left;
+      height: 36px;
+      width: 32px;
+      float: left;
+      text-align: center;
+   }
+
+   #share-buttons>div>svg {
+      height: 16px;
+      fill: #d5d5d5;
+      margin-top: 10px;
+   }
+
+   #share-buttons>div:hover {
+      cursor: pointer;
+   }
+
+   #share-buttons>div.facebook:hover>svg {
+      fill: #3B5998;
+   }
+
+   #share-buttons>div.twitter:hover>svg {
+      fill: #55ACEE;
+   }
+
+   #share-buttons>div.linkedin:hover>svg {
+      fill: #0077b5;
+   }
+
+   #share-buttons>div.pinterest:hover>svg {
+      fill: #CB2027;
+   }
+
+   #share-buttons>div.mail:hover>svg {
+      fill: #7D7D7D;
+   }
+
+   #share-buttons>div.facebook>svg {
+      height: 18px;
+      margin-top: 9px;
+   }
+
+   #share-buttons>div.twitter>svg {
+      height: 20px;
+      margin-top: 8px;
+   }
+
+   #share-buttons>div.linkedin>svg {
+      height: 19px;
+      margin-top: 7px;
+   }
+
+   #share-buttons>div.pinterest>svg {
+      height: 20px;
+      margin-top: 9px;
+   }
+
+   #share-buttons>div.mail>svg {
+      height: 14px;
+      margin-top: 11px;
+   }
+</style>
+
+<div style="text-align: right; margin-right: 30px;">
+   <span style="color: silver;">Share this:</span>
+   <div id="share-buttons">
+      <div class="facebook" title="Share this on Facebook"
+         onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/reddavid.me\/ti10-and-appdates\/');"><svg viewBox="0 0 1792 1792"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z" />
+         </svg></div>
+      <div class="twitter" title="Share this on Twitter"
+         onclick="window.open('http://twitter.com/intent/tweet?text=TI10 and Appdates&url=https:\/\/reddavid.me\/ti10-and-appdates\/');"><svg
+            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z" />
+         </svg></div>
+      <div class="linkedin" title="Share this on Linkedin"
+         onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/reddavid.me\/ti10-and-appdates\/&title=&summary=&source=');">
+         <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z" />
+         </svg>
+      </div>
+      
+      <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=https:\/\/reddavid.me\/ti10-and-appdates\/');"><svg
+            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z" />
+         </svg></div>
+   </div>
+</div>
+
+    <footer class="article-footer">
+    
+<br>
+<hr>
+<section class="article-tags">
+    
+    <a href="/tags/apps/">Apps</a>
+    
+    <a href="/tags/gaming/">Gaming</a>
+    
+    <a href="/tags/ti10/">TI10</a>
+    
+    <a href="/tags/dota-2/">DOTA 2</a>
+    
+    <a href="/tags/the-international/">The International</a>
+    
+    <a href="/tags/flutter/">Flutter</a>
+    
+    <a href="/tags/android/">Android</a>
+    
+    <a href="/tags/ios/">iOS</a>
+    
+</section>
+
+
+    </footer>
+
+    
+
+    
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">Related contents</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/updating-rpnradio-mobile-app/">
+
+        
+        <div class="article-image">
+            <img src="/updating-rpnradio-mobile-app/rpnradio-updates-feat.fcfe2143c3d8f2c1283b8d9e879dc43f_hueb127ff031487726c705b3daa2310954_30232_250x150_fill_box_smart1_3.png" width="250" height="150" loading="lazy"
+                alt="Featured image of post Updating RPN Radio Mobile App" data-key="updating-rpnradio-mobile-app" 
+                data-hash="md5-/P4hQ8PY8sEoO42eh53EPw==">
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Updating RPN Radio Mobile App</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/rpnnews-mobile-app/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/feat/rpn-news.png" loading="lazy" data-key="rpnnews-mobile-app"
+                data-hash="/images/feat/rpn-news.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">(Update: Now Available on 3 Major App Stores) RPN News Mobile App</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/and...-its-december/">
+
+        
+
+        <div class="article-details">
+            <h2 class="article-title">And... it&#39;s December</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/get-rpn-radio-for-ios/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/rpnradio-appstore.png" loading="lazy" data-key=""
+                data-hash="/images/og/rpnradio-appstore.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Get RPN Radio for iOS</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/rpnradio-ui-overhaul/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/feat/rpnradio-ui.jpeg" loading="lazy" data-key="rpnradio-ui-overhaul"
+                data-hash="/images/feat/rpnradio-ui.jpeg" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">RPN Radio UI Overhaul</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+
+
+
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-reddavid-me" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy;
+        
+        2019 -
+        
+        2022 David Ballesteros
+    </section>
+    <section class="powerby">
+        
+        All Rights Reserved <br />
+        Built with <a class="link" href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br> <a
+            class="link" href="https://reddavid.me/privacy" target="_blank" rel="noopener">Privacy Policy</a> <br />
+        Theme <b><a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank"
+                rel="noopener" data-version="3.10.0">Stack</a></b> designed by <a class="link" href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center" style="text-align: center;"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+<aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ten-days-of-dota">Ten Days of DOTA</a></li>
+    <li><a href="#the-secret">The Secret</a></li>
+    <li><a href="#coding-and-appdates">Coding and Appdates</a>
+      <ul>
+        <li><a href="#get-into-the-beta-test">Get into the Beta Test</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="reddavid" data-description="Support me on Buy me a coffee!" data-message="Thanks for checking my website! Maybe you can get me a coffee? " data-color="#ff813f" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    </body>
+</html>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Streaming on David Ballesteros</title>
+        <link>https://reddavid.me/tags/streaming/</link>
+        <description>Recent content in Streaming on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 03 Apr 2022 02:14:42 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/streaming/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Elgato Stream Deck MK.2 (Must Have Tech)</title>
+        <link>https://reddavid.me/elgato-streamdeck/</link>
+        <pubDate>Sun, 03 Apr 2022 02:14:42 +0800</pubDate>
+        
+        <guid>https://reddavid.me/elgato-streamdeck/</guid>
+        <description>&lt;img src="https://reddavid.me/elgato-streamdeck/streamdeck-og.png" alt="Featured image of post Elgato Stream Deck MK.2 (Must Have Tech)" /&gt;&lt;p&gt;I recently bought an Elgato Stream Deck MK.2 which I should&amp;rsquo;ve made long ago. It&amp;rsquo;s an expensive piece of a great tech which I never thought I needed.&lt;/p&gt;
+&lt;p&gt;I hesitated to get one before because of the price but until I knew that the deck can be used just fine without the &amp;ldquo;unchangeable&amp;rdquo; height stand. And also, the time-save it can bring definitely helps in daily tasks.&lt;/p&gt;
+&lt;h2 id=&#34;unboxing-where&#34;&gt;Unboxing, where?&lt;/h2&gt;
+&lt;p&gt;Unfortunately, I never got to take a video or even photos of the unboxing. The box contains the device, the detachable USB-C cable, and the stand. Sadly, it does not include a free faceplate to interchange the default black plain plate.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up&#34;&gt;Setting Up&lt;/h2&gt;
+&lt;p&gt;The device requires the &lt;a class=&#34;link&#34; href=&#34;https://www.elgato.com/en/downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stream Deck application&lt;/a&gt; to actually setup what actions the buttons will do.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-app.png&#34;
+         alt=&#34;Stream Deck Software&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Stream Deck Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are also lots of useful community-made plugins inside the Stream Deck&amp;rsquo;s Store that you will find very useful.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-plugins-store.png&#34;
+         alt=&#34;Plugins Store&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Plugins Store&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Setting the device is technically easy but I felt that some icon designs (the ones I needed) are very basic and were not standard.&lt;/p&gt;
+&lt;p&gt;So I try to make my own minimal but on-context (for me) icons.&lt;/p&gt;
+&lt;h2 id=&#34;making-custom-icons&#34;&gt;Making Custom Icons&lt;/h2&gt;
+&lt;p&gt;After reading Elgato&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://developer.elgato.com/documentation/stream-deck/sdk/style-guide/#asset-sizes-and-colors&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Style Guide Documentation&lt;/a&gt; for making Stream Deck Icons, I decided to start doing my key icons.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Icon&lt;/th&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;th&gt;@2x&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Key Icon&lt;/td&gt;
+&lt;td&gt;72x72 px&lt;/td&gt;
+&lt;td&gt;144x144 px&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figcaption&gt;Elgato&#39;s Key Icon standard size&lt;/figcaption&gt;
+&lt;p&gt;Thankfully, I use &lt;a class=&#34;link&#34; href=&#34;figma.com&#34; &gt;Figma&lt;/a&gt; for wireframing/designing graphics so it is the best tool to create these icons. Plus, it has an export button that upscale the design @2x.&lt;/p&gt;
+&lt;h3 id=&#34;previews&#34;&gt;Previews&lt;/h3&gt;
+&lt;p&gt;Here are some of the icons in action (Stream Deck mockup).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Default Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Figma Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Websites Folder&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;The icons are available in my Github repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/mnml-strmdck-icns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mnml-strmdck-icns&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I will soon share the Figma file.&lt;/p&gt;
+&lt;h3 id=&#34;tools-and-resources&#34;&gt;Tools and Resources&lt;/h3&gt;
+&lt;p&gt;Big thanks for the free &amp;amp; open tools and resources I used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Figma (and it&amp;rsquo;s Community)&lt;/li&gt;
+&lt;li&gt;PowerToys&lt;/li&gt;
+&lt;li&gt;Wikimedia Commons&lt;/li&gt;
+&lt;li&gt;SVG Export Chrome Extension&lt;/li&gt;
+&lt;li&gt;Character Map UWP&lt;/li&gt;
+&lt;li&gt;Bootstrap Icons&lt;/li&gt;
+&lt;li&gt;Coffee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;p&gt;There are a lot of things the Stream Deck can do, like me, I scour the internet (mostly YouTube) for any tips and tricks.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/POt4-8b0iPE&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Other helpful videos for streamers (and not) from this awesome dude, nutty:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/results?search_query=nutty&amp;#43;stream&amp;#43;deck&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nutty videos about Elgato Stream Deck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Good JuJu: Roundup</title>
+        <link>https://reddavid.me/july-roundup/</link>
+        <pubDate>Thu, 29 Jul 2021 00:02:17 +0800</pubDate>
+        
+        <guid>https://reddavid.me/july-roundup/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/july-roundup.png" alt="Featured image of post Good JuJu: Roundup" /&gt;&lt;p&gt;Okay, hear me out, I am still procrastinating after watching hours TED Talks and YouTube videos on how to be productive and avoid wasting time doing senseless things. What&amp;rsquo;s wrong? Do I have a lot on my mind or in my hands to keep me posting blogs? Can&amp;rsquo;t be motivated by self-help books and videos? Am I still waiting for when &amp;ldquo;it&amp;rsquo;s too late&amp;rdquo;? AARGH&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/pVkmGyqYRt4qY/giphy.gif&#34; height=&#34;320&#34; alt=&#34;gif about laziness&#34; style=&#34;display: block;margin-left: auto;margin-right: auto; width: 50%;
+&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hunyo&#34;&gt;Hunyo&lt;/h2&gt;
+&lt;h3 id=&#34;birthday-gift&#34;&gt;Birthday Gift&lt;/h3&gt;
+&lt;p&gt;So my last post was June 12, I celebrated my 29th birthday on the 14th and got myself an Elgato HD60S+ to achieve better mobile gaming mirroring but that still, I can&amp;rsquo;t keep my streaming schedule! AARGH (2)&lt;/p&gt;
+&lt;p&gt;I got the thingy not just to stream games but for future use - like recording &amp;ldquo;How to use this app&amp;rdquo; for YouTube or presentations, so it may be an expensive thing but I always think of them as an investment for my app development journey.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/elgato.jpg&#34;
+         alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Elgato HD60S+&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Speaking of streaming, I started streaming on Twitch! Right now, I planned on playing Minecraft, Left 4 Dead 2, and Call of Duty: Mobile. Also, I will try to stream on MWFS schedule playing those games or variety. &lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/aka1red&#34; target=&#34;_blank&#34;&gt;Give me a follow&lt;/a&gt; and get notified when I go live.&lt;/p&gt;
+&lt;p&gt;I will be using my &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34; target=&#34;_blank&#34;&gt;Facebook Page&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://discord.gg/rKnJb4J&#34; target=&#34;_blank&#34;&gt;Discord server&lt;/a&gt; to post updates.&lt;/p&gt;
+&lt;h3 id=&#34;stream-setup-mobile-gaming&#34;&gt;Stream Setup (Mobile Gaming)&lt;/h3&gt;
+&lt;p&gt;As of this writing, I am lucky enough to have this setup for mobile game streaming:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/znd3exz&#34; target=&#34;_blank&#34;&gt;Apple iPhone 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/ta83sar&#34; target=&#34;_blank&#34;&gt;Elgato HD60S+ Capture Card&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/uw5zqsr&#34; target=&#34;_blank&#34;&gt;Audio-Technica ATR-2500X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/m3dktiz&#34; target=&#34;_blank&#34;&gt;SteelSeries Arctis 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;app-dates&#34;&gt;App-dates&lt;/h3&gt;
+&lt;p&gt;Any more happened last week of June? Hmm. Yeah right, I released an update for RPN Radio app for both Android and iOS adding a call-to-action button to send the stations a message thru Facebook Messenger. This was after watching on Udemy that apps or any products always have a goal-in-mind - the stations should increase inquiries for advertisement or any other public service comments.&lt;/p&gt;
+&lt;p&gt;The app is still available for &lt;strong&gt;FREE&lt;/strong&gt; on Google Play Store, Huawei App Store, and iOS App Store. I created this simple app landing page for the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34; target=&#34;_blank&#34;&gt;links.&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-app-cta.jpg&#34;
+         alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also got to try the new &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/windows-11&#34; target=&#34;_blank&#34;&gt;Windows 11 Insider Preview&lt;/a&gt; on a VM. Tested on my main machine but I can&amp;rsquo;t risk the beta so I rolled back to Windows 10.&lt;/p&gt;
+&lt;h2 id=&#34;hulyo&#34;&gt;Hulyo&lt;/h2&gt;
+&lt;h3 id=&#34;chocolates-anyone&#34;&gt;Chocolates, Anyone?&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s start the month with a sweet treat, homemade chocolates courtesy of my SO. Anyone interested? Hit the like on the Instagram post below for us to start selling them. 😊&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-captioned data-instgrm-permalink=&#34;https://www.instagram.com/p/CR39ox0jqf6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; data-instgrm-version=&#34;14&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:16px;&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/CR39ox0jqf6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; style=&#34; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&#34; target=&#34;_blank&#34;&gt; &lt;div style=&#34; display: flex; flex-direction: row; align-items: center;&#34;&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 19% 0;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display:block; height:50px; margin:0 auto 12px; width:50px;&#34;&gt;&lt;svg width=&#34;50px&#34; height=&#34;50px&#34; viewBox=&#34;0 0 60 60&#34; version=&#34;1.1&#34; xmlns=&#34;https://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;https://www.w3.org/1999/xlink&#34;&gt;&lt;g stroke=&#34;none&#34; stroke-width=&#34;1&#34; fill=&#34;none&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;g transform=&#34;translate(-511.000000, -20.000000)&#34; fill=&#34;#000000&#34;&gt;&lt;g&gt;&lt;path d=&#34;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&#34;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&#34;padding-top: 8px;&#34;&gt; &lt;div style=&#34; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&#34;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 12.5% 0;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&#34;&gt;&lt;div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: 8px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: auto;&#34;&gt; &lt;div style=&#34; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/CR39ox0jqf6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by David Ballesteros (@reddvid)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;h3 id=&#34;second-dose&#34;&gt;Second Dose&lt;/h3&gt;
+&lt;p&gt;I got my second dose of Covid vaccine (Sinovac) on the 6th, thankfully there were no side-effects except for the body aches I got after NOT SLEEPING WELL! 🤦‍♂️&lt;/p&gt;
+&lt;h3 id=&#34;website-updates&#34;&gt;Website Updates&lt;/h3&gt;
+&lt;p&gt;With work, I updated the &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com&#34; target=&#34;_blank&#34;&gt;RPN website&lt;/a&gt; overall layout after migrating to a new hosting provider. And some minor updates to some if not all the online systems.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-website-mobile.png&#34;
+         alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;RPN Radio Website&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;rainy-vacay&#34;&gt;Rainy Vacay&lt;/h3&gt;
+&lt;p&gt;After that, I decided to take a &lt;del&gt;short&lt;/del&gt; long break to escape the &lt;del&gt;jungle&lt;/del&gt; NCR Bubble by going home to Pangasinan. I am so longing to be with the family after 6+ months of not going home - I last went home way back December 2020 to spend the holidays.&lt;/p&gt;
+&lt;p&gt;I was so looking forward to at least visit a beach, see a sunset, feel the breeze of fresh air but UNLUCKILY the weather ahead was not well! I did not see the predictions that there will be a coming storm for the week. So the first few days were a bust, and I just stayed inside and chilled out with some beer.&lt;/p&gt;
+&lt;p&gt;The 20th was a holiday, and magically the weather was at least fine for us to go to Binmaley beach - don&amp;rsquo;t worry, there were no crowds so we can be safe, I think? The sun was peeping through the clouds and by the afternoon, a mild rain poured. Together with relatives, we spend some time there swimming, singing, EATING, and drinking booze until it&amp;rsquo;s time to go home.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/binmaley-beach.jpg&#34;
+         alt=&#34;Binmaley Beach&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Binmaley Beach&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;My other plans went down the drain as the weather became worse, Dagupan City was flooded (plus high tide) that light vehicles weren&amp;rsquo;t able to pass. Sadly, I can&amp;rsquo;t meet my &lt;del&gt;only&lt;/del&gt; city friends. There&amp;rsquo;s still next time right? Right?&lt;/p&gt;
+&lt;p&gt;I decided to extend my stay but continued checking some online responsibilities just to make sure they are still up even I&amp;rsquo;m not present in the office - though I failed to join our online meetings.&lt;/p&gt;
+&lt;p&gt;We also went to our grandfather&amp;rsquo;s brother to celebrate his 70th birthday. Then we spent some time (and over pizza) with my cousin to talk about tech and stuff.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-damage.jpg&#34;
+         alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Oh, I also got a haircut (question mark).&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/haircut.jpg&#34;
+         alt=&#34;Haircut?&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Haircut?&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br&gt;
+&lt;p&gt;That&amp;rsquo;s it for this blog post, thanks for reading! (the rain pours while I write this).&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Mobile Game Streaming</title>
+        <link>https://reddavid.me/mobile-game-streaming/</link>
+        <pubDate>Sat, 12 Jun 2021 04:26:59 +0800</pubDate>
+        
+        <guid>https://reddavid.me/mobile-game-streaming/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/codm-fbgg-streaming.png" alt="Featured image of post Mobile Game Streaming" /&gt;&lt;p&gt;This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.&lt;/p&gt;
+&lt;h2 id=&#34;grind-to-legend&#34;&gt;Grind to Legend&lt;/h2&gt;
+&lt;p&gt;Ever since the new season of Call of Duty: Mobile came out, I just wanted to redeem the legendary medal. And also to get all rewards from the Battle Pass I bought. 😂&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t worry guys and gals, kuya Red will be back soon. Konti na lang back to Legendary rank na sa BR mode at pwede na mag-Minecraft.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/codm-locked.png&#34;
+         alt=&#34;Locked Legendary Rank&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Locked Legendary Rank&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;minecraft-117-is-here&#34;&gt;Minecraft 1.17 is Here&lt;/h2&gt;
+&lt;p&gt;Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&amp;rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/0maWbr0FHKY&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The caves and cliffs update (part 1) brings new items and features which were detailed on Minecraft&amp;rsquo;s own blog &lt;a class=&#34;link&#34; href=&#34;https://www.minecraft.net/en-us/updates/caves-and-cliffs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now on to my setup.&lt;/p&gt;
+&lt;h2 id=&#34;mobile-stream-setup&#34;&gt;Mobile Stream Setup&lt;/h2&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;First, let&amp;rsquo;s see the devices I use except for the laptop/PC for streaming.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone 11&lt;/li&gt;
+&lt;li&gt;Lightning to AV Digital Adapter&lt;/li&gt;
+&lt;li&gt;HDMI cable&lt;/li&gt;
+&lt;li&gt;Cheap video capture&lt;/li&gt;
+&lt;li&gt;Audio-technica Condenser Mic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used to play on my Nokia 7 Plus but can&amp;rsquo;t the specs can&amp;rsquo;t keep up, not sure why. This is when I use &lt;a class=&#34;link&#34; href=&#34;https://www.vysor.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vysor&lt;/a&gt;, a screen mirroring app that wirelessly share the phone&amp;rsquo;s screen to the PC. Now, that&amp;rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/adapters.jpg&#34;
+         alt=&#34;Lightning to AV Adapter and USB Capture Card&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Lightning to AV Adapter and USB Capture Card&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I wonder why branded capture cards are so damn expensive?! Like the &lt;a class=&#34;link&#34; href=&#34;https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Elgato HD60S&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AverMedia Live Gamer Ultra&lt;/a&gt;. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&amp;rsquo;s good to go.&lt;/p&gt;
+&lt;iframe src=&#34;https://giphy.com/embed/3o6MbtelsDZdsbFB7i&#34; width=&#34;480&#34; height=&#34;360&#34; frameBorder=&#34;0&#34; class=&#34;giphy-embed&#34; style=&#34;display: block; margin: 0px auto;&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Lastly, I recently bought an &lt;a class=&#34;link&#34; href=&#34;https://www.audio-technica.com/en-gb/atr2500x-usb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ATR-2500X condenser mic&lt;/a&gt; to record songs and guitars for my YouTube channel. Now it&amp;rsquo;s multi-purpose that I use it on my streams and Zoom meetings.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/atr-2500x.jpg&#34;
+         alt=&#34;Audio-Technica ATR2500X Condenser Mic&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Audio-Technica ATR2500X Condenser Mic&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;As for the software, I use &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Studio&lt;/a&gt;. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &amp;ldquo;Go Live&amp;rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/obslive.png&#34;
+         alt=&#34;StreamElements OBS.Live Plugin&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;StreamElements OBS.Live Plugin&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;diagram&#34;&gt;Diagram&lt;/h3&gt;
+&lt;p&gt;This is how my setup is connected. Remember that you need an internet with at least 4000kbps of upload speed to actually stream your games on Facebook Gaming (&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/fbgaminghome/creators/getstarted&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;source&lt;/a&gt;). I stream at 1080p60 with 6000kbps bitrate.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/setup-diagram.png&#34;
+         alt=&#34;Hardware Setup Diagram&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Hardware Setup Diagram&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
+&lt;p&gt;I have a few mobile games on my phone right now compared to my &lt;a class=&#34;link&#34; href=&#34;https://steamcommunity.com/id/reddvid/games/?tab=all&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam Library&lt;/a&gt;. But I own some mobile-worthy games like Stardew Valley and Minecraft: Pocket Edition.&lt;/p&gt;
+&lt;p&gt;I have a love and hate relationship with games like PUBG Mobile and Mobile Legends. I am looking forward to Apex Legends: Mobile and Diablo Immortal though. They&amp;rsquo;re both are already in beta preview on Android, currently waiting for the iPhone/iPad version.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://m.me/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Send me a message&lt;/a&gt; to request a game I can play, or we can play together.&lt;/p&gt;
+&lt;h2 id=&#34;support-me-on-facebook-gaming&#34;&gt;Support me on Facebook Gaming&lt;/h2&gt;
+&lt;p&gt;This seems repetitive, but I do need some support when I go live. It feels like streaming and talking to friends is now an everyday duty, haha. But kidding aside, everyone needs help.&lt;/p&gt;
+&lt;p&gt;Check me &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;, and let&amp;rsquo;s talk more about tech and things.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>OBS Studio 27 is here</title>
+        <link>https://reddavid.me/obs-studio-27-is-here/</link>
+        <pubDate>Tue, 08 Jun 2021 03:15:06 +0800</pubDate>
+        
+        <guid>https://reddavid.me/obs-studio-27-is-here/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/obs27.png" alt="Featured image of post OBS Studio 27 is here" /&gt;&lt;p&gt;I just updated my OBS a few days ago with the official release version after trying out the several release candidates.&lt;/p&gt;
+&lt;p&gt;I will talk about the new features and improvements here that will be useful for my use. Check their blog post &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/blog/obs-studio-27-released&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt; and the complete changelog &lt;a class=&#34;link&#34; href=&#34;https://github.com/obsproject/obs-studio/releases/tag/27.0.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/LUkMxYNIyj0&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h2 id=&#34;undo--redo&#34;&gt;Undo &amp;amp; Redo&lt;/h2&gt;
+&lt;p&gt;At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though. And that&amp;rsquo;s 5000 actions.&lt;/p&gt;
+&lt;p&gt;Though I mostly use OBS for game streaming (no facecam), I move things around only to notice that it was not the source I wanted to move! This surely helps users out and always had been the most requested feature.&lt;/p&gt;
+&lt;h2 id=&#34;files-where&#34;&gt;Files, where?&lt;/h2&gt;
+&lt;p&gt;Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don&amp;rsquo;t go start streaming only to have the files missing.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_missing_files_warning.png&#34;
+         alt=&#34;Missing Files Warning Window&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Missing Files Warning Window&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;no-more-noise&#34;&gt;No More Noise&lt;/h2&gt;
+&lt;p&gt;OBS v27 for Windows now adds NVIDIA Noise Removal as an option to audio Noise Suppression filter &lt;del&gt;when the &lt;a class=&#34;link&#34; href=&#34;https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NVIDIA Audio Effects SDK&lt;/a&gt; is installed. Oh, also you need an NVIDIA RTX GPU for that - so no screenshots from me.&lt;/del&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
+&lt;p&gt;Thanks for these 2 new improvements among others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Browser Source interact button (toolbar)&lt;/li&gt;
+&lt;li&gt;Virtual Camera toggle button (system tray)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_browser_interact.png&#34;
+         alt=&#34;Browser Source Interact Button&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Browser Source Interact Button&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_virtual_cam.png&#34;
+         alt=&#34;Toggle Virtual Camera on System Tray Icon&amp;amp;lt;&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Toggle Virtual Camera on System Tray Icon&amp;lt;&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;This new version of OBS Studio definitely helps with the new added features. Now I want a selective record feature.&lt;/p&gt;
+&lt;p&gt;I use OBS Studio together with &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34; target=&#34;_blank&#34;&gt;StreamElements&lt;/a&gt; OBS Live to simplify my stream setup to Facebook Gaming. I now have 1,019 followers (as of this writing) and why not check me out there? Maybe talk about gaming, life, or programming? &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;RedDavidGaming on Facebook Gaming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I dedicate the starwall page for my stars-sender. Thanks and make sure to check out OBS Studio&amp;rsquo;s latest release &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Unlocked: 1K Followers</title>
+        <link>https://reddavid.me/unlocked-1k-followers/</link>
+        <pubDate>Sat, 29 May 2021 22:26:48 +0800</pubDate>
+        
+        <guid>https://reddavid.me/unlocked-1k-followers/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/1k-followers.png" alt="Featured image of post Unlocked: 1K Followers" /&gt;&lt;p&gt;First of all, thank you so much to all who stayed, watched, and enjoyed my content.&lt;/p&gt;
+&lt;p&gt;It was on May 26th that we finally got to a thousand following after a year of starting to be a Gaming Video Creator on Facebook. The stream felt like another day of chill streaming by playing a couple of hours of Minecraft. It was quite overwhelming for a small-time (and not full-time) streamer like me but thanks to my cousins and og supporters for helping me out in the chat and Discord server.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/1k-achievement.png&#34;
+         alt=&#34;1K followers achievement custom&#34; width=&#34;80%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;deldailydel-nightly-streams&#34;&gt;&lt;del&gt;Daily&lt;/del&gt; Nightly Streams&lt;/h2&gt;
+&lt;p&gt;Now that there&amp;rsquo;s that 1K following behind me, I will pursue to stream on a daily basis, even a short one because honestly, I miss talking and updating with them. I will also continue to improve my stream quality.&lt;/p&gt;
+&lt;h2 id=&#34;not-minecraft-hello&#34;&gt;Not Minecraft, Hello?&lt;/h2&gt;
+&lt;p&gt;Minecraft is a really popular game we all know that, and most of my followers were because of the game. I do not expect everyone to like me playing variety of games but I still hope most could support me when I come back playing other types of games. Although, I would still join our SMP server if I fail to stream Minecraft.&lt;/p&gt;
+&lt;h2 id=&#34;twitchyoutube-switch&#34;&gt;Twitch/YouTube Switch&lt;/h2&gt;
+&lt;p&gt;Yes, I have been thinking of switching to either one, why? First, Twitch have several audience interaction which I have been using when I watch my favorite streamers there like, watch points, play with viewers, etc and you can watch on app minimized.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/twitch-minimized.png&#34;
+         alt=&#34;Watch Twitch Videos Minimized&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Watch Twitch Videos Minimized&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;While YouTube had a better chat system, but chat highlights and audience interactions are better - with chatbots.&lt;/p&gt;
+&lt;p&gt;I held back these thoughts before since I did start my Facebook page a long time and gained a few followers. I just hoped if I made up my mind to switch, we can determine the real supporters. Maybe?&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it for this blog post. Thank you again for visiting my website and you can catch up on my Gaming Videos on &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facebook Gaming&lt;/a&gt; and follower me there. You can also follow me on my socials: @reddvid&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Finally! Logitech C922</title>
+        <link>https://reddavid.me/the-logitech-c922/</link>
+        <pubDate>Thu, 01 Oct 2020 23:17:51 +0800</pubDate>
+        
+        <guid>https://reddavid.me/the-logitech-c922/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/logitech-c922.jpg" alt="Featured image of post Finally! Logitech C922" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.&lt;/p&gt;
+&lt;p&gt;Honestly, I bought the camera in a slightly higher price due to the model being out of stock in major stores and just got from a &amp;ldquo;hoarder&amp;rdquo; in Facebook marketplace. :) Harsh but true.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s get into my short blog/review/impression about this industry-standard in semi-professional streaming.&lt;/p&gt;
+&lt;p&gt;You might ask, why only now? At first, I never really thought of having a good webcam as a small streamer, and I also have this app on my Android phone which makes my Nokia 7 Plus act as a webcam. Then, I wanted the camera to be positioned well, so I bought a cheaper Logitech, the C270.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/logitech_c270.jpg&#34;
+         alt=&#34;Logitech C270 webcam&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C270 webcam&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The C270 suited my needs - stream just now and then, and it&amp;rsquo;s just right for video calls and conferencing. The only problem with this one is it has a bad exposure. I used the C270 for almost 3 months until I got the money to buy the beast of a camera, that is the C922.&lt;/p&gt;
+&lt;h2 id=&#34;the-box&#34;&gt;The Box&lt;/h2&gt;
+&lt;p&gt;I opened a brand new Logitech C922 way way before but it wasn&amp;rsquo;t mine, so I already know the contents (alibi for not having pictures after unboxing 😂). And I also tried the unit itself so I knew the quality it brings.&lt;/p&gt;
+&lt;p&gt;The box contains the C922 camera, a table-top tripod, manuals and a sheet containing the free 3-month XSplit Premium codes (Again, sorry for not having pictures).&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/box.jpg&#34;
+         alt=&#34;Logitech C922 Box&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C922 Box&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;quick-specs&#34;&gt;Quick specs&lt;/h2&gt;
+&lt;p&gt;I won&amp;rsquo;t dive deep into the webcam&amp;rsquo;s specifications like weight and dimensions but here are the common &amp;ldquo;marketing&amp;rdquo; specs that will actually make you consider buying one:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capture 1080p @ 30fps, or&lt;/li&gt;
+&lt;li&gt;720p @ 60fps&lt;/li&gt;
+&lt;li&gt;Auto focus&lt;/li&gt;
+&lt;li&gt;Wide Field of View&lt;/li&gt;
+&lt;li&gt;Advanced camera software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ha-mountable&#34;&gt;Ha! Mountable&lt;/h2&gt;
+&lt;p&gt;The C922 has a screw hole for mounting onto a tripod. The tripod can be extended up to 18.5cm. Here&amp;rsquo;s the closed tripod in three max lengths (with regards to the feet extensions).&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_screw_slot.jpg&#34; alt=&#34;Logitech C922 Tripod Screw Hole&#34; width=&#34;60%&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_min.jpg&#34; alt=&#34;Logitech C922 Tripod Min&#34; style=&#34;display: inline; width: 32%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_mid.jpg&#34; alt=&#34;Logitech C922 Tripod Middle&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_max.jpg&#34; alt=&#34;Logitech C922 Tripod Max Length&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;figcaption&gt;Logitech C922 Tripod Screw Hole and Lengths&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The tripod, without and with the webcam.&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_stand.jpg&#34; alt=&#34;Logitech C922 Tripod Standing&#34; style=&#34;display: inline; width: 45%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_side.jpg&#34; alt=&#34;Logitech C922 Tripod-Mounted&#34; style=&#34;display: inline; width: 45%;&#34;&gt;
+  &lt;figcaption&gt;Logitech C922 Tripod&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;p&gt;The C922 also has a built-in microphone but most people, including me, advice to use an external mic instead.&lt;/p&gt;
+&lt;h2 id=&#34;software---logitech-capture&#34;&gt;Software - Logitech Capture&lt;/h2&gt;
+&lt;p&gt;Upon connecting the webcam to my PC, Logitech prompted to install the companion software - Logitech Capture. The software is advanced enough for my needs - I can zoom and pan, flip the captured video horizontally and/or vertically, choose to prefer exposure or framerate, and most importantly the capture resolutions.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/logitech_capture_2.png&#34;
+         alt=&#34;Logitech Capture Software&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech Capture Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;resolutions&#34;&gt;Resolutions&lt;/h3&gt;
+&lt;p&gt;The software provides templates for typical sizes:&lt;/p&gt;
+&lt;p&gt;Widescreen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FHD (1080p),&lt;/li&gt;
+&lt;li&gt;720p, and&lt;/li&gt;
+&lt;li&gt;360p;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Portrait:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1080x1920,&lt;/li&gt;
+&lt;li&gt;720x1280, and&lt;/li&gt;
+&lt;li&gt;360x640;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Squares:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1080x1080,&lt;/li&gt;
+&lt;li&gt;720x720,&lt;/li&gt;
+&lt;li&gt;and 360x360.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/resolutions.jpg&#34;
+         alt=&#34;Resolution Options&#34; width=&#34;30%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Resolution Options&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;pip-and-layers&#34;&gt;PiP and Layers&lt;/h3&gt;
+&lt;p&gt;The software also allows us to output custom layout.&lt;/p&gt;
+&lt;h3 id=&#34;effects&#34;&gt;Effects&lt;/h3&gt;
+&lt;p&gt;The software also allows you to add effects, text, etc with the Effects menu: Watermark, Text Overlay, Scene effects, Color borders, and Transitions for 2 scenes.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/effects.jpg&#34;
+         alt=&#34;Effects Options&#34; width=&#34;30%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Effects Options&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;minor-issues&#34;&gt;Minor Issues&lt;/h2&gt;
+&lt;p&gt;There are a couple of issues for me, the first one really makes me annoyed is that I cannot turn off the hotkeys for the software and I have a frameless monitor which mounting the camera is a pain in the a$$ to keep it from covering up the display - even for just a centimeter.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_frameless_issue.jpg&#34;
+         alt=&#34;Logitech C922 Frameless Monitor&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C922 Frameless Monitor&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;great-overall&#34;&gt;Great Overall&lt;/h2&gt;
+&lt;p&gt;Overall, I am happy with the C922 webcam - my loved ones can see me clearly during video calls. And I thank everybody for supporting me on my &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;stream&lt;/a&gt;, visiting my website, and checking my Windows 10 apps.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_logicapture.png&#34;
+         alt=&#34;Logitech C922 Monitor-Mounted with Logitech Capture&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C922 Monitor-Mounted with Logitech Capture&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To finish this blog post, let&amp;rsquo;s all stay safe during the pandemic - and even after the pandemic.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

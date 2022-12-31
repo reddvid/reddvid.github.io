@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>UI/UX on David Ballesteros</title>
+        <link>https://reddavid.me/tags/ui/ux/</link>
+        <description>Recent content in UI/UX on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="https://reddavid.me/tags/ui/ux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>RPN News &amp; Radio Gets a New UI</title>
+        <link>https://reddavid.me/rpn-news-radio-gets-a-new-ui/</link>
+        <pubDate>Thu, 14 Mar 2019 15:28:37 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpn-news-radio-gets-a-new-ui/</guid>
+        <description>&lt;img src="https://reddavid.me/images/rpn-newui.jpg" alt="Featured image of post RPN News &amp; Radio Gets a New UI" /&gt;&lt;p&gt;A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-ph/p/rpn-news-radio/9phl469c0z20?rtc=1&#34; target=&#34;_blank&#34;&gt;You can download RPN News &amp;amp; Radio for Windows 10 app here&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

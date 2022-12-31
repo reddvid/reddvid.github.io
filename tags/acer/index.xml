@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Acer on David Ballesteros</title>
+        <link>https://reddavid.me/tags/acer/</link>
+        <description>Recent content in Acer on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 18 Feb 2020 16:30:40 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/acer/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>I Got Myself a New Laptop</title>
+        <link>https://reddavid.me/new-laptop/</link>
+        <pubDate>Tue, 18 Feb 2020 16:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/new-laptop/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/acer-laptop.jpg" alt="Featured image of post I Got Myself a New Laptop" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;Last February 15, I got myself a new Acer laptop. It is an Acer Nitro 5 laptop sporting an AMD Ryzen 3550H with RX560X Graphics. This makes my 3rd Acer laptop in a span of 8+ years and my first ever AMD on a laptop (had an AMD Athlon X2 PC before).&lt;/p&gt;
+&lt;p&gt;This laptop costs Php34,999 and we could not find a promo since every store follows the retail price. Although, the laptop was &lt;em&gt;on promo&lt;/em&gt; with having an included a single stick of 8GB DDR4 memory (upgraded from 4GB), 128GB SSD (m.2 SATA) and a 1TB mechanical drive (not SSHD).&lt;/p&gt;
+&lt;p&gt;The laptop includes a generic-looking backpack - yes, I said generic since I saw somewhere that there is a &lt;em&gt;gaming-accented&lt;/em&gt; version of the bag.&lt;/p&gt;
+&lt;h2 id=&#34;quick-specs&#34;&gt;Quick Specs:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AMD Ryzen 5 3550H Quad-Core with Vega 8 Graphics (which consumes 2GB of RAM)&lt;/li&gt;
+&lt;li&gt;AMD Radeon RX560X 4GB DDR4 - Here&amp;rsquo;s the catch, upon checking CPU-Z the - installed memory stick is rated at 2666MHz but later found out that Ryzen 3550H is limited to 2400MHz, so maybe that is a bummer&lt;/li&gt;
+&lt;li&gt;15.6&amp;quot; FHD 1920x1080p IPS LCD(slim-frame), Red Backlit-keyboard&lt;/li&gt;
+&lt;li&gt;Dual M.2 (nVME only + SATA only) + 1 HDD slots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full specs of the laptop can be found &lt;a class=&#34;link&#34; href=&#34;https://www.acer.com/ac/en/GB/content/model/NH.Q5XEK.008&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;using-the-laptop&#34;&gt;Using the laptop&lt;/h2&gt;
+&lt;h3 id=&#34;speed&#34;&gt;Speed&lt;/h3&gt;
+&lt;p&gt;Coming from an Intel i7 laptop, I felt the difference in boot up times, booting on this device is slightly slower - not sure if it&amp;rsquo;s because of the SSD installed, since I was using a Samsung 860 Evo on my old laptop.&lt;/p&gt;
+&lt;p&gt;Next is using Visual Studio, rebuilding some of my apps takes a longer time to finish. Also, having only 6GB of memory (since the 2GB is shared for AMD switchable graphics) I can&amp;rsquo;t stand having my chrome tabs reload after a while.&lt;/p&gt;
+&lt;h3 id=&#34;gaming&#34;&gt;Gaming&lt;/h3&gt;
+&lt;p&gt;Before my old laptop broke (which was an Acer Nitro V, with an Intel i7 4th gen + 2GB GTX960M), I was just playing some Minecraft (sometimes with Shaders), some casual Dota 2, and other medium-intensive games.&lt;/p&gt;
+&lt;p&gt;Of course, I was playing either inside an aircon-ed room or the fan pointing to the laptop.&lt;/p&gt;
+&lt;p&gt;Meanwhile on this new laptop, launching games, even Dota 2, was a pain. It took too long that sometimes it would just not respond and fails to load at all.&lt;/p&gt;
+&lt;p&gt;But before even buying this, I said to myself that I can&amp;rsquo;t game like I did before - long hours, intensive AAA games - so I disregarded this experience, at first.&lt;/p&gt;
+&lt;h3 id=&#34;overall-system-experience&#34;&gt;Overall (System) Experience&lt;/h3&gt;
+&lt;p&gt;Out of habit, I installed the latest drivers including Radeon software (Adrenaline 2020). But the app is laggy as hell and eventually gave me a black screen out of nowhere - which I made a hard boot just to go back seeing things to Windows.&lt;/p&gt;
+&lt;p&gt;Upon checking, it installed an older driver. (Damn AMD)&lt;/p&gt;
+&lt;p&gt;Even though I use an external mech keyboard, this keyboard layout is hideous compared to the old Nitro V I had! I am missing the Pause/Break key but I believe it is hidden in F11, I believe.&lt;/p&gt;
+&lt;p&gt;The ports are ok, but the Type-C is not thunderbolt. The power port is on the middle of the body!!!&lt;/p&gt;
+&lt;p&gt;Nitro Sense is a great addition that it lets you control the laptop fans manually - they can get loud man! The fan layout is not &amp;ldquo;optimal&amp;rdquo; in my opinion though.&lt;/p&gt;
+&lt;p&gt;Lastly, the speakers on it are s**t 🤮. Apparently this is what we get for this price. 🤷🏽&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;upgrades&#34;&gt;Upgrades&lt;/h2&gt;
+&lt;p&gt;It took me two weeks to &amp;ldquo;settle&amp;rdquo; with this new laptop and sometimes got me thinking of &amp;ldquo;regrets&amp;rdquo;. But I actually planned to upgrade memory - I just didn&amp;rsquo;t have the money 😂.&lt;/p&gt;
+&lt;p&gt;I got an 8GB TeamGroup stick 2666MHz despite the CPU limit since I can re-use them (on future units or resell them), and the price difference to a 2400MHz is minimal.&lt;/p&gt;
+&lt;p&gt;The unit has not easy-access so I went to a service center to install the RAM together with my old WD 500GB SSD just to have an &amp;ldquo;extra&amp;rdquo; faster storage. The service was free, and it took only 30 minutes because of some papers to fill-out but the service was fast.&lt;/p&gt;
+&lt;p&gt;The unit was faster, and launching apps and games was indeed faster. I also got extra fps in games, saved seconds to minutes in Visual Studio, and Chrome tabs are saved.&lt;/p&gt;
+&lt;p&gt;The only problem here now is having an older, OEM-issued drivers for the graphics card.&lt;/p&gt;
+&lt;p&gt;Replaying some games with higher FPS is also a plus.&lt;/p&gt;
+&lt;p&gt;Right now, I am thinking of upgrading to nVMe, to a higher 2.5&amp;quot; SSD and 32GB RAM 😳.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;other-notes&#34;&gt;Other notes&lt;/h2&gt;
+&lt;p&gt;Catch me play a game on this device in &lt;a class=&#34;link&#34; href=&#34;https://facebook.com/RedDavidGaming&#34;&gt;Facebook Gaming&lt;/a&gt;.
+Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffee.com/reddavid&#34;&gt;buying me a coffee&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://paypal.me/reddvid&#34;&gt;send a tip for my next upgrade&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank you&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

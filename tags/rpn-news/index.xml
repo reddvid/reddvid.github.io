@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>RPN News on David Ballesteros</title>
+        <link>https://reddavid.me/tags/rpn-news/</link>
+        <description>Recent content in RPN News on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 04 Dec 2021 03:22:25 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/rpn-news/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>(Update: Now Available on 3 Major App Stores) RPN News Mobile App</title>
+        <link>https://reddavid.me/rpnnews-mobile-app/</link>
+        <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpnnews-mobile-app/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;Update #2&lt;/h2&gt;
+&lt;p&gt;RPN News mobile app is now also available to download from Huawei AppGallery. Check the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; for the links!&lt;/p&gt;
+&lt;h2 id=&#34;update-1&#34;&gt;Update #1&lt;/h2&gt;
+&lt;p&gt;The app is now available for iPhone on the App Store. See the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; below.&lt;/p&gt;
+&lt;hr &gt;
+&lt;p&gt;It&amp;rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.&lt;/p&gt;
+&lt;h2 id=&#34;delays&#34;&gt;Delays&lt;/h2&gt;
+&lt;p&gt;The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).&lt;/p&gt;
+&lt;p&gt;I apologize for the delay but I just made sure these features are working for production.&lt;/p&gt;
+&lt;h2 id=&#34;app-details&#34;&gt;App Details&lt;/h2&gt;
+&lt;p&gt;Most brands nowadays accompany their line of business with a mobile app, beside the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN Radio app&lt;/a&gt; which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.&lt;/p&gt;
+&lt;p&gt;Right now, the app is a feed for the provincial news as visible on &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com/category/provincial-news/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN website&lt;/a&gt;. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.&lt;/p&gt;
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).&lt;/p&gt;
+&lt;!-- &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-1.png&#34; alt=&#34;News feed (iPhone)&#34; /&gt;
+&lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-2.png&#34; alt=&#34;News details (iPhone)&#34;  /&gt;
+&lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-3.png&#34; alt=&#34;About page (iPhone)&#34; /&gt; --&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-1_.png&#34; width=&#34;262&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-1__hu7b3be501d9691caf981aff6cb2595f97_68866_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-1__hu7b3be501d9691caf981aff6cb2595f97_68866_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News feed (iPhone)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt; &lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-2_.png&#34; width=&#34;262&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-2__hu9a1c46a80b39529f85d61ec8c657c583_99136_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-2__hu9a1c46a80b39529f85d61ec8c657c583_99136_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News detail (iPhone)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;&lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-3_.png&#34; width=&#34;262&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-3__hu06edb8875c16d8350c367fd9530f1c13_42140_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-3__hu06edb8875c16d8350c367fd9530f1c13_42140_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;About page (iPhone)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-1_.png&#34; width=&#34;320&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-1__hu60797eb173b79b4807530b83b1f7409f_117308_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-1__hu60797eb173b79b4807530b83b1f7409f_117308_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News feed (Android)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;56&#34;
+	data-flex-basis=&#34;135px&#34; &gt; &lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-2_.png&#34; width=&#34;320&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-2__hu0acc97b149bb2149fa74630c7f7d27a4_136198_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-2__hu0acc97b149bb2149fa74630c7f7d27a4_136198_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News detail (Android)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;56&#34;
+	data-flex-basis=&#34;135px&#34; &gt;&lt;/p&gt;
+&lt;!-- &lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-1.png&#34; alt=&#34;News feed (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;News feed (Android)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-1.png&#34; alt=&#34;News feed (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;News feed (Android)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-2.png&#34; alt=&#34;News details (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;News details (Android)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-3.png&#34; alt=&#34;About page (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;About page (Android)&lt;/figcaption&gt;
+&lt;/figure&gt; --&gt;
+&lt;h2 id=&#34;download-here&#34;&gt;Download Here&lt;/h2&gt;
+&lt;p&gt;The app is available now on the Google Play Store: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN News - Apps on Google Play&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Update #1: Download for iPhone here: &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/app/id1590143546&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN News on the App Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Update #2: Download from Huawei AppGallery: &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/app/C105053423&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN News on Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;As for Huawei devices (AppGallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&amp;rsquo;re approved.&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next&lt;/h2&gt;
+&lt;p&gt;Here are the milestones I am looking forward to bring:&lt;/p&gt;
+&lt;h3 id=&#34;milestone-22&#34;&gt;Milestone 2.2+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;News Filter (by Station or tags)&lt;/li&gt;
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;National and International news (courtesy of BusinessMirror news)&lt;/li&gt;
+&lt;li&gt;Customizable fonts&lt;/li&gt;
+&lt;li&gt;Read aloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;milestone-30&#34;&gt;Milestone 3.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrate stations&amp;rsquo; live videos (YouTube)&lt;/li&gt;
+&lt;li&gt;Integrate stations&amp;rsquo; VODs (video-on-demand)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, you can follow me on &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/reddvid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Twitter&lt;/a&gt; for mini updates.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>RPN Android App</title>
+        <link>https://reddavid.me/rpn-android-app/</link>
+        <pubDate>Thu, 02 Jan 2020 03:02:48 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpn-android-app/</guid>
+        <description>&lt;img src="https://reddavid.me/images/rpn-android.png" alt="Featured image of post RPN Android App" /&gt;&lt;p&gt;Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.&lt;/p&gt;
+&lt;p&gt;Finally opt-in and registered to Google Play platform and chose RPN News &amp;amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.&lt;/p&gt;
+&lt;p&gt;Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.&lt;/p&gt;
+&lt;p&gt;Also, there are some adjustments I needed to learn in using Xamarin Forms, and had to merge several projects to create both the news and radio part of the app. Thanks to open source!&lt;/p&gt;
+&lt;p&gt;There are still bugs, I know, but help by checking the app &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=xyz.reddvid.rpnradio&#34; taget=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

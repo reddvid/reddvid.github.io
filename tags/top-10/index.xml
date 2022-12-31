@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Top 10 on David Ballesteros</title>
+        <link>https://reddavid.me/tags/top-10/</link>
+        <description>Recent content in Top 10 on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 02 Nov 2021 00:45:35 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/top-10/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My Top Apps for Windows and iPhone</title>
+        <link>https://reddavid.me/my-top-windows-and-mobile-apps/</link>
+        <pubDate>Tue, 02 Nov 2021 00:45:35 +0800</pubDate>
+        
+        <guid>https://reddavid.me/my-top-windows-and-mobile-apps/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/apps.png" alt="Featured image of post My Top Apps for Windows and iPhone" /&gt;&lt;p&gt;As you may know by now, I am an electronics engineer but currently and mostly doing IT stuff and some casual gaming. I can also describe myself as an on-a-budget tech enthusiast - I buy top-tier pc/laptop upgrades after some time since their release or when it&amp;rsquo;s affordable enough; like when I went for 1TB Samsung 970 EVO just to hold the apps, games, and files that I leave after testing them out.&lt;/p&gt;
+&lt;p&gt;Having said that, I sometimes stumble upon bad or corrupted files, deleted some system files, OR EVEN installing Windows sh*ttiest Insider builds. But I seldom hold myself back reverting or reinstalling Windows to clean everything up.&lt;/p&gt;
+&lt;h2 id=&#34;the-cloud-works&#34;&gt;The Cloud Works&lt;/h2&gt;
+&lt;p&gt;I trust the cloud, at least with Microsoft&amp;rsquo;s OneDrive service. I have a 1TB subscription to hold my most important files (like assets for this website, etc.) and pictures. I also always keep in hand a Windows installer on a USB stick. With all the files backed up, I simply begin reformatting it and reinstall apps and software starting with these:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;windows-apps&#34;&gt;Windows Apps&lt;/h2&gt;
+&lt;p&gt;This list may or may not be in order.&lt;/p&gt;
+&lt;h3 id=&#34;avast-driver-updater&#34;&gt;Avast Driver Updater&lt;/h3&gt;
+&lt;p&gt;Since Windows 10, the OS also installs drivers, but I make sure they are updated using this software. It has a free trial and it works just fine. At this time, I also install graphics drivers (AMD Radeon Software or NVidia GeForce Experience).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.avast.com/en-ph/driver-updater#pc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Avast Driver Updater &amp;amp; Scanner&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;microsoft-office&#34;&gt;Microsoft Office&lt;/h3&gt;
+&lt;p&gt;My subscription also contains a license to use the full desktop version of Microsoft Office, so it&amp;rsquo;s a win-win for me since this is an important skill personally and for work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Product link: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/store/apps/CFQ7TTC0K5BF&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Office 365 Personal&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;steam&#34;&gt;Steam&lt;/h3&gt;
+&lt;p&gt;Additionally, I don&amp;rsquo;t store my games to where my OS is installed. Steam and most game platforms allow us to locate game files, so I don&amp;rsquo;t have to redownload hundreds of GB game files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/about/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bitwarden&#34;&gt;Bitwarden&lt;/h3&gt;
+&lt;p&gt;Ever since I experienced being hacked, I immediately started using a password manager/generator to make my passwords not the same - YES what a shame.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://bitwarden.com/download/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bitwarden&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winrar&#34;&gt;WinRAR&lt;/h3&gt;
+&lt;p&gt;Compress and extract files and folders with unlimited 40 day trial.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.win-rar.com/download.html?&amp;amp;L=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WinRAR&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spotify&#34;&gt;Spotify&lt;/h3&gt;
+&lt;p&gt;Even though the lack of lossless audio format, Spotify is my go-to music service. Unless it came preinstalled with Windows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download links: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/store/productId/9NCBCSZSJRSB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Spotify (Microsoft Store)&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.spotify.com/kw-en/download/windows/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Spotify (.exe setup)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;voicemeeter-banana-and-virtual-cable&#34;&gt;VoiceMeeter Banana (and Virtual Cable)&lt;/h3&gt;
+&lt;p&gt;One of the most useful audio mixers software out there, donationware and flexible for my needs. It allows me to mix and manage audio inputs and outputs for other communication apps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://vb-audio.com/Voicemeeter/banana.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VoiceMeeter Banana&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h3&gt;
+&lt;p&gt;I use this as a code editor for Flutter/Dart mobile development and other source codes like this blog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Studio Code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;visual-studio&#34;&gt;Visual Studio&lt;/h3&gt;
+&lt;p&gt;The full IDE software for various development cases. I mainly use it for Windows app development as I haven&amp;rsquo;t got into webapps as of now. I code and create apps using WinForms, WPF, and UWP (WinUI). I also tried Xamarin.Forms but I moved onto Flutter for cross-platform mobile app development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://visualstudio.microsoft.com/downloads/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Studio&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;obs-studio&#34;&gt;OBS Studio&lt;/h3&gt;
+&lt;p&gt;I used this for streaming, recording and virtual camera purposes. I now use OBS instead of XSplit. The software is FREE and much lightweight. It also has features and other free plugins made by the community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Studio&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;figma-desktop-app&#34;&gt;Figma Desktop App&lt;/h3&gt;
+&lt;p&gt;This free app is browser-based but can also be downloaded as a desktop app. It was made for designers to build UI/UX interfaces - which I sometimes do when making apps. I also use this to make quick and simple logos and other graphics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.figma.com/downloads/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Figma Desktop&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Now on to mobile apps. I switched to iPhone nearly a year ago because of the hardware-and-software stability (in my opinion) and the support does not end after 2 or 3 years, unlike Android. So resetting my device (after a really really bad beta software) isn&amp;rsquo;t that much of a hassle because of iCloud backups.&lt;/p&gt;
+&lt;h2 id=&#34;mobile-apps&#34;&gt;Mobile Apps&lt;/h2&gt;
+&lt;p&gt;Here are my top apps that I use on a daily basis. I will not put the specific store page instead I will link to their website for mobile downloads (if available). I&amp;rsquo;ll list the apps I use on both platforms (PC and Mobile)&lt;/p&gt;
+&lt;h3 id=&#34;spotify-1&#34;&gt;Spotify&lt;/h3&gt;
+&lt;p&gt;Of course, we also listen to music on our phones. I can also control other playing devices&amp;rsquo; volume when AFK.&lt;/p&gt;
+&lt;h3 id=&#34;bitwarden-1&#34;&gt;Bitwarden&lt;/h3&gt;
+&lt;p&gt;The app is quite simple and still got some UI bugs. Otherwise, I use this as my password manager for my phone.&lt;/p&gt;
+&lt;h3 id=&#34;steam-1&#34;&gt;Steam&lt;/h3&gt;
+&lt;p&gt;I don&amp;rsquo;t often get a lot of chat from Steam but for a quicker view of what games are on sale, this app does it.&lt;/p&gt;
+&lt;h3 id=&#34;microsoft-office-outlook-and-onedrive&#34;&gt;Microsoft Office, Outlook, and OneDrive&lt;/h3&gt;
+&lt;p&gt;I put them together here since they are not in a suite but the new Office app user-wise deprecated the standalone Word, Excel, and PowerPoint apps since you can view and edit your documents in one app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download links: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-ww/microsoft-365/mobile&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Office Mobile App&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/microsoft-365/outlook-mobile-for-android-and-ios&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Outlook Mobile&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/microsoft-365/onedrive/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OneDrive Mobile App&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
+&lt;p&gt;Where I get updated to what&amp;rsquo;s happening. I only follow niche and some well-known &amp;ldquo;wholesome and awesome&amp;rdquo; Twitter users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/settings/download?lang=en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Twitter&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;facebook-messenger&#34;&gt;Facebook Messenger&lt;/h3&gt;
+&lt;p&gt;Yup, most family members and friends are into messenger chats so that&amp;rsquo;s no escaping Facebook.&lt;/p&gt;
+&lt;h3 id=&#34;gcash&#34;&gt;GCash&lt;/h3&gt;
+&lt;p&gt;Globe Telecom&amp;rsquo;s virtual wallet, and is now available for all networks.&lt;/p&gt;
+&lt;h3 id=&#34;youtube-and-reddit&#34;&gt;YouTube and Reddit&lt;/h3&gt;
+&lt;p&gt;My other ways to consume online content.&lt;/p&gt;
+&lt;h3 id=&#34;microsoft-edge&#34;&gt;Microsoft Edge&lt;/h3&gt;
+&lt;p&gt;Despite the sync being subpar to Google Chrome, I prefer this one as my main browser on my iPhone.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/edge#platform&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Edge Web Browser&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shopee&#34;&gt;Shopee&lt;/h3&gt;
+&lt;p&gt;Every once in a while (trust me 🤣) we just want to shop online. I recently deleted my Lazada account because it annoyed me so much with their shenanigans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://shp.ee/x6uyiut&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Shopee PH&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;So far these are my &lt;em&gt;top&lt;/em&gt; apps that I use on my mobile phone. Let me know what&amp;rsquo;s your most used apps!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

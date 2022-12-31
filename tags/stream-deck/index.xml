@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Stream Deck on David Ballesteros</title>
+        <link>https://reddavid.me/tags/stream-deck/</link>
+        <description>Recent content in Stream Deck on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 03 Apr 2022 02:14:42 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/stream-deck/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Elgato Stream Deck MK.2 (Must Have Tech)</title>
+        <link>https://reddavid.me/elgato-streamdeck/</link>
+        <pubDate>Sun, 03 Apr 2022 02:14:42 +0800</pubDate>
+        
+        <guid>https://reddavid.me/elgato-streamdeck/</guid>
+        <description>&lt;img src="https://reddavid.me/elgato-streamdeck/streamdeck-og.png" alt="Featured image of post Elgato Stream Deck MK.2 (Must Have Tech)" /&gt;&lt;p&gt;I recently bought an Elgato Stream Deck MK.2 which I should&amp;rsquo;ve made long ago. It&amp;rsquo;s an expensive piece of a great tech which I never thought I needed.&lt;/p&gt;
+&lt;p&gt;I hesitated to get one before because of the price but until I knew that the deck can be used just fine without the &amp;ldquo;unchangeable&amp;rdquo; height stand. And also, the time-save it can bring definitely helps in daily tasks.&lt;/p&gt;
+&lt;h2 id=&#34;unboxing-where&#34;&gt;Unboxing, where?&lt;/h2&gt;
+&lt;p&gt;Unfortunately, I never got to take a video or even photos of the unboxing. The box contains the device, the detachable USB-C cable, and the stand. Sadly, it does not include a free faceplate to interchange the default black plain plate.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up&#34;&gt;Setting Up&lt;/h2&gt;
+&lt;p&gt;The device requires the &lt;a class=&#34;link&#34; href=&#34;https://www.elgato.com/en/downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stream Deck application&lt;/a&gt; to actually setup what actions the buttons will do.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-app.png&#34;
+         alt=&#34;Stream Deck Software&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Stream Deck Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are also lots of useful community-made plugins inside the Stream Deck&amp;rsquo;s Store that you will find very useful.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-plugins-store.png&#34;
+         alt=&#34;Plugins Store&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Plugins Store&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Setting the device is technically easy but I felt that some icon designs (the ones I needed) are very basic and were not standard.&lt;/p&gt;
+&lt;p&gt;So I try to make my own minimal but on-context (for me) icons.&lt;/p&gt;
+&lt;h2 id=&#34;making-custom-icons&#34;&gt;Making Custom Icons&lt;/h2&gt;
+&lt;p&gt;After reading Elgato&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://developer.elgato.com/documentation/stream-deck/sdk/style-guide/#asset-sizes-and-colors&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Style Guide Documentation&lt;/a&gt; for making Stream Deck Icons, I decided to start doing my key icons.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Icon&lt;/th&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;th&gt;@2x&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Key Icon&lt;/td&gt;
+&lt;td&gt;72x72 px&lt;/td&gt;
+&lt;td&gt;144x144 px&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figcaption&gt;Elgato&#39;s Key Icon standard size&lt;/figcaption&gt;
+&lt;p&gt;Thankfully, I use &lt;a class=&#34;link&#34; href=&#34;figma.com&#34; &gt;Figma&lt;/a&gt; for wireframing/designing graphics so it is the best tool to create these icons. Plus, it has an export button that upscale the design @2x.&lt;/p&gt;
+&lt;h3 id=&#34;previews&#34;&gt;Previews&lt;/h3&gt;
+&lt;p&gt;Here are some of the icons in action (Stream Deck mockup).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Default Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Figma Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Websites Folder&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;The icons are available in my Github repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/mnml-strmdck-icns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mnml-strmdck-icns&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I will soon share the Figma file.&lt;/p&gt;
+&lt;h3 id=&#34;tools-and-resources&#34;&gt;Tools and Resources&lt;/h3&gt;
+&lt;p&gt;Big thanks for the free &amp;amp; open tools and resources I used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Figma (and it&amp;rsquo;s Community)&lt;/li&gt;
+&lt;li&gt;PowerToys&lt;/li&gt;
+&lt;li&gt;Wikimedia Commons&lt;/li&gt;
+&lt;li&gt;SVG Export Chrome Extension&lt;/li&gt;
+&lt;li&gt;Character Map UWP&lt;/li&gt;
+&lt;li&gt;Bootstrap Icons&lt;/li&gt;
+&lt;li&gt;Coffee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;p&gt;There are a lot of things the Stream Deck can do, like me, I scour the internet (mostly YouTube) for any tips and tricks.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/POt4-8b0iPE&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Other helpful videos for streamers (and not) from this awesome dude, nutty:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/results?search_query=nutty&amp;#43;stream&amp;#43;deck&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nutty videos about Elgato Stream Deck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

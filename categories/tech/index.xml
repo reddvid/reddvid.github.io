@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tech on David Ballesteros</title>
+        <link>https://reddavid.me/categories/tech/</link>
+        <description>Recent content in Tech on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 31 Dec 2022 20:03:45 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/tech/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>A Look Back on 2022</title>
+        <link>https://reddavid.me/a-look-back-on-2022/</link>
+        <pubDate>Sat, 31 Dec 2022 20:03:45 +0800</pubDate>
+        
+        <guid>https://reddavid.me/a-look-back-on-2022/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/look-back.png" alt="Featured image of post A Look Back on 2022" /&gt;&lt;p&gt;Here we are, the last day of 2022, still felt weird with what happened with the world and to me.&lt;/p&gt;
+&lt;p&gt;I started the year with a fresh start by taking a vacation (as usual) to celebrate the previous year ending in the province. But something really bad, I caught - Covid. Yes, I knew it was it when I felt it because my body went from 💯 to kaput in a couple of hours. I detailed most of it here &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/new-in-2022/#i-got-the-bad-v&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;in this post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That took me three weeks to rest up because of “weird” instructions before I went back to work again.&lt;/p&gt;
+&lt;p&gt;It was also a good thing since I picked up playing &lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/367520/Hollow_Knight/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hollow Knight&lt;/a&gt; during my isolation and quarantine weeks - and it was really good!&lt;/p&gt;
+&lt;p&gt;I finished through the game at 112% in the coming weeks (or months? thanks Godhome!).&lt;/p&gt;
+&lt;p&gt;I also resumed coding - &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/updating-rpnradio-mobile-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;updating some apps&lt;/a&gt; and personal projects here and there.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;github-contributions-graph.png&#34;
+         alt=&#34;GitHub contributions graph&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;GitHub contributions graph&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also got myself an &lt;a class=&#34;link&#34; href=&#34;https://www.elgato.com/en/stream-deck-mk2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Elgato Stream Deck MK.2&lt;/a&gt; (which I detailed &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/elgato-streamdeck/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;) to ease some workflows and which I mostly learned about &lt;a class=&#34;link&#34; href=&#34;https://www.figma.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Figma&lt;/a&gt;’s Auto layout feature to manage &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/mnml-strmdck-icns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;my own custom icons for the Stream Deck&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As you can see my &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt; contributions graph above, I barely did anything past April since I went and did some online course/s and read some books.&lt;/p&gt;
+&lt;p&gt;In the Philippines, April/May is summertime and finally we had an “outing” - more details on this post &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/life-updates/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;. We also got to celebrate my mom&amp;rsquo;s 50th birthday.&lt;/p&gt;
+&lt;p&gt;That last linked post above was my last one to prepare for our wedding on October. I didn’t think much of how it went well but it was a long time coming after 8 years being together.&lt;/p&gt;
+&lt;p&gt;We went to Roheim in San Fabian, Pangasinan for our honeymoon and the place was empty (besides the workers). I don’t know if we were lucky to spend time alone but it was worthwhile. We actually vlogged the place below:&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/kBeX_ON3Pf4&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;November was still kinda busy setting up our own place we can call home, opening gifts, moving some things, and actually buying furniture and whatever.&lt;/p&gt;
+&lt;p&gt;I also got myself a PC (finally!) before the year ends. I ended up sourcing the parts at &lt;a class=&#34;link&#34; href=&#34;https://pcx.com.ph/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PC Express&lt;/a&gt; after comparing to 5 stores. I also built it myself - took 3.5 hours and sadly no vlog or documentation - which I intend to change in 2023 (gotta love myself more!). &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/gaming#pc-specs&#34; &gt;See PC Specs&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-captioned data-instgrm-permalink=&#34;https://www.instagram.com/p/CmuP94gB4_5/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; data-instgrm-version=&#34;14&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:16px;&#34;&gt; &lt;a href=&#34;https://www.instagram.com/p/CmuP94gB4_5/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; style=&#34; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&#34; target=&#34;_blank&#34;&gt; &lt;div style=&#34; display: flex; flex-direction: row; align-items: center;&#34;&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 19% 0;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display:block; height:50px; margin:0 auto 12px; width:50px;&#34;&gt;&lt;svg width=&#34;50px&#34; height=&#34;50px&#34; viewBox=&#34;0 0 60 60&#34; version=&#34;1.1&#34; xmlns=&#34;https://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;https://www.w3.org/1999/xlink&#34;&gt;&lt;g stroke=&#34;none&#34; stroke-width=&#34;1&#34; fill=&#34;none&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;g transform=&#34;translate(-511.000000, -20.000000)&#34; fill=&#34;#000000&#34;&gt;&lt;g&gt;&lt;path d=&#34;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&#34;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&#34;padding-top: 8px;&#34;&gt; &lt;div style=&#34; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&#34;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 12.5% 0;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&#34;&gt;&lt;div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: 8px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: auto;&#34;&gt; &lt;div style=&#34; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/CmuP94gB4_5/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by David Ballesteros (@reddvid)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;That’s it for my 2022, how did your end go? Wish you a good new year ahead!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SIM Registration starts tomorrow (Dec 27)</title>
+        <link>https://reddavid.me/sim-registration-starts-tomorrow-dec-27/</link>
+        <pubDate>Mon, 26 Dec 2022 02:27:52 +0800</pubDate>
+        
+        <guid>https://reddavid.me/sim-registration-starts-tomorrow-dec-27/</guid>
+        <description>&lt;p&gt;There&amp;rsquo;s a new law signed last October requiring to register Subscriber Identity Module (SIM) - the SIM Card Registration Act or &lt;a class=&#34;link&#34; href=&#34;https://www.officialgazette.gov.ph/2022/10/10/republic-act-no-11934/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Republic Act 11934&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;when&#34;&gt;When&lt;/h2&gt;
+&lt;p&gt;Starting tomorrow, December 27 (15 days after &lt;a class=&#34;link&#34; href=&#34;https://lawphil.net/statutes/repacts/ra2022/irr_11934_2022.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IRR&lt;/a&gt; publication), the registration websites from each telco networks will be live for all existing and new subscribers.&lt;/p&gt;
+&lt;h2 id=&#34;where&#34;&gt;Where&lt;/h2&gt;
+&lt;p&gt;Here are the websites for networks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Smart/TNT/Sun&lt;/strong&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://smart.com.ph/simreg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://smart.com.ph/simreg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Globe/TM/GOMO&lt;/strong&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://new.globe.com.ph/simreg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://new.globe.com.ph/simreg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DITO&lt;/strong&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://dito.ph/sim-registration&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://dito.ph/sim-registration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;mailto://hi@reddavid.me?subject=BrokenLink&#34; &gt;Report broken link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;who&#34;&gt;Who&lt;/h2&gt;
+&lt;p&gt;All SIM card users - prepaid or postpaid, local and foreign citizens (living in the country), SIM-based internet (Globe at Home, Smart Bro). Businesses and corporate entities.&lt;/p&gt;
+&lt;h2 id=&#34;what-requirements&#34;&gt;What (Requirements)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Users/subscribers are required to provide the following:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full Name&lt;/li&gt;
+&lt;li&gt;Date of Birth&lt;/li&gt;
+&lt;li&gt;Gender&lt;/li&gt;
+&lt;li&gt;Address of residency&lt;/li&gt;
+&lt;li&gt;Government-issued ID:
+&lt;ul&gt;
+&lt;li&gt;Passport&lt;/li&gt;
+&lt;li&gt;SSS ID&lt;/li&gt;
+&lt;li&gt;Driver&amp;rsquo;s License&lt;/li&gt;
+&lt;li&gt;National ID&lt;/li&gt;
+&lt;li&gt;GSIS e-Card&lt;/li&gt;
+&lt;li&gt;Firearm&amp;rsquo;s LTOP ID&lt;/li&gt;
+&lt;li&gt;PRC ID&lt;/li&gt;
+&lt;li&gt;IBP ID&lt;/li&gt;
+&lt;li&gt;OWWA ID&lt;/li&gt;
+&lt;li&gt;BIR ID&lt;/li&gt;
+&lt;li&gt;Voter&amp;rsquo;s ID&lt;/li&gt;
+&lt;li&gt;Senior Citizen&amp;rsquo;s Card&lt;/li&gt;
+&lt;li&gt;PWDs card&lt;/li&gt;
+&lt;li&gt;Others*&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;For minor (ages below 18) users&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The SIM card will be registered under the parent/guardian&amp;rsquo;s name with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Consent of Guardian/Parent&lt;/li&gt;
+&lt;li&gt;Government-issued ID of Guardian/Parent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;For Businesses&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SEC/DTI Certificate of Registration&lt;/li&gt;
+&lt;li&gt;Board Resolution designating the authorized representative or a Special Power of Attorney (SPA)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;For tourists&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Passport&lt;/li&gt;
+&lt;li&gt;Proof of address in the Philippines&lt;/li&gt;
+&lt;li&gt;Return ticket to own country showing date/time of departure from the Philippines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;For foreigners with non-tourist visa&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Passport&lt;/li&gt;
+&lt;li&gt;Proof of address in the Philippines&lt;/li&gt;
+&lt;li&gt;Other pertinent documents such as:
+&lt;ul&gt;
+&lt;li&gt;Alien Employment Permit issued by DOLE&lt;/li&gt;
+&lt;li&gt;ACRI Card by Bureau of Immigration or other official ID issued by other visa-issuing agency&lt;/li&gt;
+&lt;li&gt;School registration and ID for students&lt;/li&gt;
+&lt;li&gt;For Persons of Concern or POCs - travel or admission document issued by DoJ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other-useful-links-faqs&#34;&gt;Other Useful Links (FAQs)&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://smart.com.ph/About/newsroom/full-news/2022/12/19/smart-releases-sim-registration-faqs-for-all-smart-and-tnt-customers&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Smart&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.globe.com.ph/register-sim-card.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Globe&lt;/strong&gt;&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://dito.ph/sim-registration&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;DITO&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Tech News April</title>
+        <link>https://reddavid.me/tech-news-april/</link>
+        <pubDate>Wed, 06 Apr 2022 01:30:32 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tech-news-april/</guid>
+        <description>&lt;img src="https://reddavid.me/tech-news-april/technews.png" alt="Featured image of post Tech News April" /&gt;&lt;h2 id=&#34;windows-live-recorded-event&#34;&gt;Windows Live Recorded Event&lt;/h2&gt;
+&lt;p&gt;I was just anticipating a single event at 11PM and it was Microsoft&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/business/event&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Windows Powers the Future of Hybrid Work&lt;/strong&gt;&lt;/a&gt; live (recorded) event.&lt;/p&gt;
+&lt;p&gt;They announced security improvements and new features coming later this year focused first on businesses. Here are some I got from the stream:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Security for accessing organization in personal computers&lt;/li&gt;
+&lt;li&gt;Windows Cloud PC with new security features and provisioning for IT Admins&lt;/li&gt;
+&lt;li&gt;Voice Clarity for meetings&lt;/li&gt;
+&lt;li&gt;Improved accessibility/inclusivity features in voice recognition&lt;/li&gt;
+&lt;li&gt;User productivity&lt;/li&gt;
+&lt;li&gt;New and improved Windows 11 Security&lt;/li&gt;
+&lt;li&gt;File Explorer tabs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/0vsh1KZ1yws&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And checking Twitter after the stream, there were a lot more announced that time apparently.&lt;/p&gt;
+&lt;h2 id=&#34;firefox-100&#34;&gt;Firefox 100&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Mozilla Firefox&lt;/strong&gt;&lt;/a&gt; is now releasing their 100th version, quoting there first 3-digit Firefox on their Beta channel.&lt;/p&gt;
+&lt;div style=&#34;display: flex;
+justify-content: center;&#34;&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Firefox 100 beta 1 is out, yes our first 3 digits Firefox! &lt;a href=&#34;https://t.co/m5qQFFo9Os&#34;&gt;pic.twitter.com/m5qQFFo9Os&lt;/a&gt;&lt;/p&gt;&amp;mdash; Firefox Beta (@firefoxbeta) &lt;a href=&#34;https://twitter.com/firefoxbeta/status/1511376525597237255?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;h2 id=&#34;unreal-engine-5&#34;&gt;Unreal Engine 5&lt;/h2&gt;
+&lt;p&gt;Can we even differentiate reality to &lt;a class=&#34;link&#34; href=&#34;https://www.unrealengine.com/en-US/unreal-engine-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Unreal Engine 5&lt;/strong&gt;&lt;/a&gt; graphics anymore?&lt;/p&gt;
+&lt;figure&gt;
+   &lt;video class=&#34;video-shortcode&#34; preload=&#34;auto&#34; controls width=&#34;90%&#34;&gt;
+      &lt;source src=&#34;ue5.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      There should have been a video here but your browser does not seem
+      to support it.
+   &lt;/video&gt;
+   &lt;figcaption&gt;Unreal Engine 5 City Sample&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;apple-ios-155-developer-beta&#34;&gt;Apple iOS 15.5 Developer Beta&lt;/h2&gt;
+&lt;p&gt;After a long break of not releasing a new beta build, the wait is now over. The download size is 5.66GB on an iPhone 11 15.4.1.&lt;/p&gt;
+&lt;p&gt;This beta&amp;rsquo;s release notes are just SDK updates and includes some small Universal Control issues.
+&lt;figure&gt;&lt;img src=&#34;ios15.5beta.png&#34; width=&#34;60%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Elgato Stream Deck MK.2 (Must Have Tech)</title>
+        <link>https://reddavid.me/elgato-streamdeck/</link>
+        <pubDate>Sun, 03 Apr 2022 02:14:42 +0800</pubDate>
+        
+        <guid>https://reddavid.me/elgato-streamdeck/</guid>
+        <description>&lt;img src="https://reddavid.me/elgato-streamdeck/streamdeck-og.png" alt="Featured image of post Elgato Stream Deck MK.2 (Must Have Tech)" /&gt;&lt;p&gt;I recently bought an Elgato Stream Deck MK.2 which I should&amp;rsquo;ve made long ago. It&amp;rsquo;s an expensive piece of a great tech which I never thought I needed.&lt;/p&gt;
+&lt;p&gt;I hesitated to get one before because of the price but until I knew that the deck can be used just fine without the &amp;ldquo;unchangeable&amp;rdquo; height stand. And also, the time-save it can bring definitely helps in daily tasks.&lt;/p&gt;
+&lt;h2 id=&#34;unboxing-where&#34;&gt;Unboxing, where?&lt;/h2&gt;
+&lt;p&gt;Unfortunately, I never got to take a video or even photos of the unboxing. The box contains the device, the detachable USB-C cable, and the stand. Sadly, it does not include a free faceplate to interchange the default black plain plate.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up&#34;&gt;Setting Up&lt;/h2&gt;
+&lt;p&gt;The device requires the &lt;a class=&#34;link&#34; href=&#34;https://www.elgato.com/en/downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stream Deck application&lt;/a&gt; to actually setup what actions the buttons will do.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-app.png&#34;
+         alt=&#34;Stream Deck Software&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Stream Deck Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are also lots of useful community-made plugins inside the Stream Deck&amp;rsquo;s Store that you will find very useful.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-plugins-store.png&#34;
+         alt=&#34;Plugins Store&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Plugins Store&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Setting the device is technically easy but I felt that some icon designs (the ones I needed) are very basic and were not standard.&lt;/p&gt;
+&lt;p&gt;So I try to make my own minimal but on-context (for me) icons.&lt;/p&gt;
+&lt;h2 id=&#34;making-custom-icons&#34;&gt;Making Custom Icons&lt;/h2&gt;
+&lt;p&gt;After reading Elgato&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://developer.elgato.com/documentation/stream-deck/sdk/style-guide/#asset-sizes-and-colors&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Style Guide Documentation&lt;/a&gt; for making Stream Deck Icons, I decided to start doing my key icons.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Icon&lt;/th&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;th&gt;@2x&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Key Icon&lt;/td&gt;
+&lt;td&gt;72x72 px&lt;/td&gt;
+&lt;td&gt;144x144 px&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figcaption&gt;Elgato&#39;s Key Icon standard size&lt;/figcaption&gt;
+&lt;p&gt;Thankfully, I use &lt;a class=&#34;link&#34; href=&#34;figma.com&#34; &gt;Figma&lt;/a&gt; for wireframing/designing graphics so it is the best tool to create these icons. Plus, it has an export button that upscale the design @2x.&lt;/p&gt;
+&lt;h3 id=&#34;previews&#34;&gt;Previews&lt;/h3&gt;
+&lt;p&gt;Here are some of the icons in action (Stream Deck mockup).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Default Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Figma Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Websites Folder&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;The icons are available in my Github repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/mnml-strmdck-icns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mnml-strmdck-icns&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I will soon share the Figma file.&lt;/p&gt;
+&lt;h3 id=&#34;tools-and-resources&#34;&gt;Tools and Resources&lt;/h3&gt;
+&lt;p&gt;Big thanks for the free &amp;amp; open tools and resources I used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Figma (and it&amp;rsquo;s Community)&lt;/li&gt;
+&lt;li&gt;PowerToys&lt;/li&gt;
+&lt;li&gt;Wikimedia Commons&lt;/li&gt;
+&lt;li&gt;SVG Export Chrome Extension&lt;/li&gt;
+&lt;li&gt;Character Map UWP&lt;/li&gt;
+&lt;li&gt;Bootstrap Icons&lt;/li&gt;
+&lt;li&gt;Coffee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;p&gt;There are a lot of things the Stream Deck can do, like me, I scour the internet (mostly YouTube) for any tips and tricks.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/POt4-8b0iPE&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Other helpful videos for streamers (and not) from this awesome dude, nutty:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/results?search_query=nutty&amp;#43;stream&amp;#43;deck&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nutty videos about Elgato Stream Deck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Digital Spring Cleaning</title>
+        <link>https://reddavid.me/digital-spring-cleaning/</link>
+        <pubDate>Tue, 29 Mar 2022 01:53:46 +0800</pubDate>
+        
+        <guid>https://reddavid.me/digital-spring-cleaning/</guid>
+        <description>&lt;img src="https://reddavid.me/digital-spring-cleaning/spring-cleaning.png" alt="Featured image of post Digital Spring Cleaning" /&gt;&lt;p&gt;Despite the fact that we do not have spring season in the Philippines, it is just good to clean and/or organize (this time) our digital life.&lt;/p&gt;
+&lt;p&gt;Honestly, I am lazy af to clean things on a regular basis since I really suck at scheduling. This happens often when I get caught doing things that require a pretty good amount of focus (or am I just giving reasons for my laziness?)&lt;/p&gt;
+&lt;h2 id=&#34;bit-of-my-digital-history&#34;&gt;Bit of My Digital History&lt;/h2&gt;
+&lt;p&gt;If you didn&amp;rsquo;t know, I started my computer life at the early age of 9/10? I just remember I was in grade 5, 1997-ish, when I fell in love with computers. But with the lack of internet, I only grew up into video games and not programming. I just picked up programming during college days when I was actually bought a laptop by my parents.&lt;/p&gt;
+&lt;p&gt;We tackled a bunch of languages even being an Electronics Engineering student, like C++, Turbo C, and Java. But I didn&amp;rsquo;t felt good about those languages until our thesis days where I got help with a friend, an IT student, using VB.Net. I slightly understood it better than the latter ones. It was also the start of programming in &lt;a class=&#34;link&#34; href=&#34;[http://C#.Net]%28https://docs.microsoft.com/en-us/dotnet/csharp/%29&#34; &gt;C#.Net&lt;/a&gt; for my Windows Phone to make apps.&lt;/p&gt;
+&lt;h2 id=&#34;files&#34;&gt;Files&lt;/h2&gt;
+&lt;p&gt;Being into the Windows environment, files did matter and I actually had free 15GB of SkyDrive (OneDrive now) where I put my files in. While working, I actually preferred to use my laptop since it got more power than what they provide.&lt;/p&gt;
+&lt;p&gt;Now with more than 8 years, my cloud is cluttered and having to use extensive apps, software, and services means there are alot more files scattered everywhere.&lt;/p&gt;
+&lt;p&gt;Now let&amp;rsquo;s go organizing.&lt;/p&gt;
+&lt;h2 id=&#34;organizing&#34;&gt;Organizing&lt;/h2&gt;
+&lt;h3 id=&#34;personal-files&#34;&gt;Personal Files&lt;/h3&gt;
+&lt;p&gt;I suck at organizing back in the day that I actually did not create folders to group similar files.&lt;/p&gt;
+&lt;p&gt;Now I slowly group and organize files and folders properly. Starting with the Documents and Pictures folder. Although my Documents folder still sucks since Windows games create their own &lt;em&gt;saves&lt;/em&gt; folder which makes the list longer and hard to group.&lt;/p&gt;
+&lt;p&gt;In the Pictures folder, I began grouping photos and videos based on Year &amp;gt; Month, while other non-sense images went into an Archives folder or Others folder.&lt;/p&gt;
+&lt;p&gt;For my &lt;strong&gt;&lt;em&gt;Personal&lt;/em&gt;&lt;/strong&gt; folder, I grouped files by type and use:&lt;/p&gt;
+&lt;small&gt;
+|--Ebooks&lt;br&gt;
+|--Archive&lt;br&gt;
+|--Graphics&lt;br&gt;
+|--Family&lt;br&gt;
+|--Art&lt;br&gt;
+|--Stream Assets&lt;br&gt;
+&lt;/small&gt;
+&lt;p&gt;Then the files go into further folders like inside Stream Assets:&lt;/p&gt;
+&lt;small&gt;
+|--Stream Assets&lt;br&gt;
+&amp;emsp;|--Game Wallpapers&lt;br&gt;
+&amp;emsp;|--Media&lt;br&gt;
+&amp;emsp;|--Stingers&lt;br&gt;
+&amp;emsp;|--Emotes&lt;br&gt;
+&lt;/small&gt;
+&lt;h3 id=&#34;work-files&#34;&gt;Work Files&lt;/h3&gt;
+&lt;p&gt;This seems easier to organize by grouping files based on the responsibility/project, so I just went into choosing a better way to name work files. Continue reading below.&lt;/p&gt;
+&lt;h2 id=&#34;file-naming&#34;&gt;File Naming&lt;/h2&gt;
+&lt;p&gt;I started renaming work files since collaboration and sharing may require some context on the date and file versions:&lt;/p&gt;
+&lt;h3 id=&#34;documents-docx-pdf-pptx-xlsx-etc&#34;&gt;Documents (docx, pdf, pptx, xlsx, etc)&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;YYYY-MM-DD_TYPE_File_Name_Version#.extension&lt;br&gt;
+2022-03-29_REPORT_Some_Incident_With_The_Clock.docx&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;graphicsmedia-files-jpg-png-psd-mp3-mp4-etc&#34;&gt;Graphics/Media Files (jpg, png, psd, mp3, mp4 etc)&lt;/h3&gt;
+&lt;p&gt;I use the dash and underscore interchangeably but I am more inclined to use underscore for consistency:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;file_name_tags.extension or tags_file_name.extension or both&lt;br&gt;
+ad_magic_stylus_square_720x720.png &lt;br&gt; open_graph_styled_frame_template.ai&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;codes&#34;&gt;Codes&lt;/h3&gt;
+&lt;p&gt;Depending on the programming language, I strictly use their naming conventions/standard for clarity and consistency. But with other types like json, txt, and other asset files:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;file_name.extension&lt;br&gt;
+products_list.json&lt;br&gt;
+secret_codes.txt&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cloud&#34;&gt;Cloud&lt;/h2&gt;
+&lt;p&gt;All these files now live in the cloud, OneDrive specifically, and reformatting or changing machine makes it easier to get the files again. Less hassle and worries especially when a big part of my life depends on some important files.&lt;/p&gt;
+&lt;p&gt;I am subscribed to Microsoft 365 Personal which offers 1TB of cloud storage and as of now I use around 48%.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://onedrive.live.com?invref=fe92ac3ae0420178&amp;amp;invscr=90&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sign up to OneDrive and get 500MB additional storage space.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;share-your-way&#34;&gt;Share Your Way&lt;/h2&gt;
+&lt;p&gt;So that&amp;rsquo;s about my file naming and folder organization and it is still on-going as of this writing. How do you organize your digital life? Share it on the comments below.&lt;/p&gt;
+&lt;br&gt;
+&lt;small&gt;&lt;a class=&#34;link&#34; rel=&#34;noopener&#34; href=&#39;https://pngtree.com/so/cleaning&#39;&gt;cleaning png from pngtree.com/&lt;/a&gt;&lt;/small&gt;
+</description>
+        </item>
+        <item>
+        <title>Amateur Recording</title>
+        <link>https://reddavid.me/amateur-recording/</link>
+        <pubDate>Tue, 22 Mar 2022 01:32:24 +0800</pubDate>
+        
+        <guid>https://reddavid.me/amateur-recording/</guid>
+        <description>&lt;img src="https://reddavid.me/amateur-recording/amateur-recording-og.png" alt="Featured image of post Amateur Recording" /&gt;&lt;h2 id=&#34;bye-condenser-hello-dynamic&#34;&gt;Bye Condenser, Hello Dynamic&lt;/h2&gt;
+&lt;p&gt;I let go of my &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/mobile-game-streaming/#hardware&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audio Technica ATR2500X condenser microphone&lt;/a&gt; since recording with it picks up a lot of background noise-making the guitar sound bad when reducing noise on post-edit.&lt;/p&gt;
+&lt;p&gt;The ATR2500X does record good sound when inside a treated and noise-free room. Here is a sample, though it&amp;rsquo;s not in a room and background noise is environmental:&lt;/p&gt;
+&lt;figure&gt;
+   &lt;audio controls style=&#34;width: 60%;&#34;&gt;
+      &lt;source src=&#34;chikinini.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+      Your browser does not support the audio element.
+   &lt;/audio&gt;
+   &lt;figcaption&gt;Chikinini by Parokya Ni Edgar Cover by John Dre (Inuman Session)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;samson-q9u&#34;&gt;Samson Q9U&lt;/h2&gt;
+&lt;p&gt;I replaced the AT mic with a Samson Q9U, a USB/XLR combo dynamic microphone which I can directly use on a PC without a USB interface (XLR connection). Despite the slightly higher price, having a dynamic mic to record in a noisy room is slightly tolerable.&lt;/p&gt;
+&lt;p&gt;The package includes USB Type-C to Type-A cable and a windscreen together with the mic itself.&lt;/p&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic capsule with humbucking coil and neodymium magnet&lt;/li&gt;
+&lt;li&gt;Cardioid polar pattern&lt;/li&gt;
+&lt;li&gt;XLR Analog Output&lt;/li&gt;
+&lt;li&gt;USB-C Digital output with 24-bit/96kHz resolution&lt;/li&gt;
+&lt;li&gt;1/8&amp;quot; output zero-latency headphone monitoring&lt;/li&gt;
+&lt;li&gt;Low Cut Filter&lt;/li&gt;
+&lt;li&gt;Mid-presence Boost&lt;/li&gt;
+&lt;li&gt;Mute button controls both USB and XLR outputs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;quick-specs&#34;&gt;Quick Specs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Frequency Response: 50Hz–20kHz&lt;/li&gt;
+&lt;li&gt;Polar Pattern: Cardioid (unidirectional)&lt;/li&gt;
+&lt;li&gt;Impedance: 250Ω&lt;/li&gt;
+&lt;li&gt;Bit Depth/Sample Rate: 24-bit, up to 96 kHz&lt;/li&gt;
+&lt;li&gt;Digital Output: USB-C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For full detailed specs: &lt;a class=&#34;link&#34; href=&#34;http://www.samsontech.com/samson/products/microphones/dynamic-microphones/q9u/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Samson — Q9U&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://musictech.com/reviews/studio-recording-gear/review-samson-q9u/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Review: Samson Q9U | MusicTech&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pictures&#34;&gt;Pictures&lt;/h3&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;img/samson-q9u.png&#34;
+         alt=&#34;Samson Q9U&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samson Q9U&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;img/samson-q9u-bottom.png&#34;
+         alt=&#34;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;I use a cheap boom arm to hold the mic and reduce table vibration noise. The mic is connected with a third-party Type-C to Type-A braided cable to the PC and shows as Samson Q9U on Windows. I left the wind foam to further reduce noise.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/q9u-windows.png&#34;
+         alt=&#34;Samson Q9U on Windows&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samson Q9U on Windows&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;I use the donationware app &lt;a class=&#34;link&#34; href=&#34;https://voicemeeter.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Voicemeeter&lt;/a&gt; to control my input and output audio devices on Windows, and also use the “Cassette” recorder to select the devices to record.&lt;/p&gt;
+&lt;p&gt;I mainly use this as recording instead of Audacity to monitor each input.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/voicemeeter.png&#34;
+         alt=&#34;Voicemeeter Banana&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Voicemeeter Banana&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;editing&#34;&gt;Editing&lt;/h2&gt;
+&lt;p&gt;I edit my recorded audio using &lt;a class=&#34;link&#34; href=&#34;https://www.audacityteam.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Audacity&lt;/a&gt;. I mostly reduce unwanted noise without affecting the guitar tones too much. I also add a few effects like Reverb, and Delay. And sometimes, I do add tracks directly to record overlay guitar solos.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/audacity.png&#34;
+         alt=&#34;Audacity (Currently Editing Dahan)&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Audacity (Currently Editing Dahan)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;samples&#34;&gt;Samples&lt;/h2&gt;
+&lt;p&gt;I think these was the best solos/cover I recorded with the guitar (not my voice) with a few effects added on the solo part (in Dahan). Despite the noticeable noise in both recordings, I hope you liked them, and I will continue to improve.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+   &lt;audio controls style=&#34;width: 60%;&#34;&gt;
+      &lt;source src=&#34;dahan-final.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+      Your browser does not support the audio element.
+   &lt;/audio&gt;
+   &lt;figcaption&gt;Dahan by December Avenue Cover&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;audio controls style=&#34;width: 60%;&#34;&gt;
+      &lt;source src=&#34;bakitba.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+      Your browser does not support the audio element.
+   &lt;/audio&gt;
+   &lt;figcaption&gt;Bakit Ba by Siakol Guitar Only Cover&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;You can visit my &lt;a class=&#34;link&#34; href=&#34;https://youtube.com/RedDavid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YouTube channel&lt;/a&gt; where I upload some covers.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My Top Apps for Windows and iPhone</title>
+        <link>https://reddavid.me/my-top-windows-and-mobile-apps/</link>
+        <pubDate>Tue, 02 Nov 2021 00:45:35 +0800</pubDate>
+        
+        <guid>https://reddavid.me/my-top-windows-and-mobile-apps/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/apps.png" alt="Featured image of post My Top Apps for Windows and iPhone" /&gt;&lt;p&gt;As you may know by now, I am an electronics engineer but currently and mostly doing IT stuff and some casual gaming. I can also describe myself as an on-a-budget tech enthusiast - I buy top-tier pc/laptop upgrades after some time since their release or when it&amp;rsquo;s affordable enough; like when I went for 1TB Samsung 970 EVO just to hold the apps, games, and files that I leave after testing them out.&lt;/p&gt;
+&lt;p&gt;Having said that, I sometimes stumble upon bad or corrupted files, deleted some system files, OR EVEN installing Windows sh*ttiest Insider builds. But I seldom hold myself back reverting or reinstalling Windows to clean everything up.&lt;/p&gt;
+&lt;h2 id=&#34;the-cloud-works&#34;&gt;The Cloud Works&lt;/h2&gt;
+&lt;p&gt;I trust the cloud, at least with Microsoft&amp;rsquo;s OneDrive service. I have a 1TB subscription to hold my most important files (like assets for this website, etc.) and pictures. I also always keep in hand a Windows installer on a USB stick. With all the files backed up, I simply begin reformatting it and reinstall apps and software starting with these:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;windows-apps&#34;&gt;Windows Apps&lt;/h2&gt;
+&lt;p&gt;This list may or may not be in order.&lt;/p&gt;
+&lt;h3 id=&#34;avast-driver-updater&#34;&gt;Avast Driver Updater&lt;/h3&gt;
+&lt;p&gt;Since Windows 10, the OS also installs drivers, but I make sure they are updated using this software. It has a free trial and it works just fine. At this time, I also install graphics drivers (AMD Radeon Software or NVidia GeForce Experience).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.avast.com/en-ph/driver-updater#pc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Avast Driver Updater &amp;amp; Scanner&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;microsoft-office&#34;&gt;Microsoft Office&lt;/h3&gt;
+&lt;p&gt;My subscription also contains a license to use the full desktop version of Microsoft Office, so it&amp;rsquo;s a win-win for me since this is an important skill personally and for work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Product link: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/store/apps/CFQ7TTC0K5BF&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Office 365 Personal&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;steam&#34;&gt;Steam&lt;/h3&gt;
+&lt;p&gt;Additionally, I don&amp;rsquo;t store my games to where my OS is installed. Steam and most game platforms allow us to locate game files, so I don&amp;rsquo;t have to redownload hundreds of GB game files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/about/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bitwarden&#34;&gt;Bitwarden&lt;/h3&gt;
+&lt;p&gt;Ever since I experienced being hacked, I immediately started using a password manager/generator to make my passwords not the same - YES what a shame.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://bitwarden.com/download/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bitwarden&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;winrar&#34;&gt;WinRAR&lt;/h3&gt;
+&lt;p&gt;Compress and extract files and folders with unlimited 40 day trial.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.win-rar.com/download.html?&amp;amp;L=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WinRAR&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;spotify&#34;&gt;Spotify&lt;/h3&gt;
+&lt;p&gt;Even though the lack of lossless audio format, Spotify is my go-to music service. Unless it came preinstalled with Windows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download links: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/store/productId/9NCBCSZSJRSB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Spotify (Microsoft Store)&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.spotify.com/kw-en/download/windows/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Spotify (.exe setup)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;voicemeeter-banana-and-virtual-cable&#34;&gt;VoiceMeeter Banana (and Virtual Cable)&lt;/h3&gt;
+&lt;p&gt;One of the most useful audio mixers software out there, donationware and flexible for my needs. It allows me to mix and manage audio inputs and outputs for other communication apps.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://vb-audio.com/Voicemeeter/banana.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VoiceMeeter Banana&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h3&gt;
+&lt;p&gt;I use this as a code editor for Flutter/Dart mobile development and other source codes like this blog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Studio Code&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;visual-studio&#34;&gt;Visual Studio&lt;/h3&gt;
+&lt;p&gt;The full IDE software for various development cases. I mainly use it for Windows app development as I haven&amp;rsquo;t got into webapps as of now. I code and create apps using WinForms, WPF, and UWP (WinUI). I also tried Xamarin.Forms but I moved onto Flutter for cross-platform mobile app development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://visualstudio.microsoft.com/downloads/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Visual Studio&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;obs-studio&#34;&gt;OBS Studio&lt;/h3&gt;
+&lt;p&gt;I used this for streaming, recording and virtual camera purposes. I now use OBS instead of XSplit. The software is FREE and much lightweight. It also has features and other free plugins made by the community.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Studio&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;figma-desktop-app&#34;&gt;Figma Desktop App&lt;/h3&gt;
+&lt;p&gt;This free app is browser-based but can also be downloaded as a desktop app. It was made for designers to build UI/UX interfaces - which I sometimes do when making apps. I also use this to make quick and simple logos and other graphics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.figma.com/downloads/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Figma Desktop&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Now on to mobile apps. I switched to iPhone nearly a year ago because of the hardware-and-software stability (in my opinion) and the support does not end after 2 or 3 years, unlike Android. So resetting my device (after a really really bad beta software) isn&amp;rsquo;t that much of a hassle because of iCloud backups.&lt;/p&gt;
+&lt;h2 id=&#34;mobile-apps&#34;&gt;Mobile Apps&lt;/h2&gt;
+&lt;p&gt;Here are my top apps that I use on a daily basis. I will not put the specific store page instead I will link to their website for mobile downloads (if available). I&amp;rsquo;ll list the apps I use on both platforms (PC and Mobile)&lt;/p&gt;
+&lt;h3 id=&#34;spotify-1&#34;&gt;Spotify&lt;/h3&gt;
+&lt;p&gt;Of course, we also listen to music on our phones. I can also control other playing devices&amp;rsquo; volume when AFK.&lt;/p&gt;
+&lt;h3 id=&#34;bitwarden-1&#34;&gt;Bitwarden&lt;/h3&gt;
+&lt;p&gt;The app is quite simple and still got some UI bugs. Otherwise, I use this as my password manager for my phone.&lt;/p&gt;
+&lt;h3 id=&#34;steam-1&#34;&gt;Steam&lt;/h3&gt;
+&lt;p&gt;I don&amp;rsquo;t often get a lot of chat from Steam but for a quicker view of what games are on sale, this app does it.&lt;/p&gt;
+&lt;h3 id=&#34;microsoft-office-outlook-and-onedrive&#34;&gt;Microsoft Office, Outlook, and OneDrive&lt;/h3&gt;
+&lt;p&gt;I put them together here since they are not in a suite but the new Office app user-wise deprecated the standalone Word, Excel, and PowerPoint apps since you can view and edit your documents in one app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download links: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-ww/microsoft-365/mobile&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Office Mobile App&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/microsoft-365/outlook-mobile-for-android-and-ios&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Outlook Mobile&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/microsoft-365/onedrive/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OneDrive Mobile App&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
+&lt;p&gt;Where I get updated to what&amp;rsquo;s happening. I only follow niche and some well-known &amp;ldquo;wholesome and awesome&amp;rdquo; Twitter users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/settings/download?lang=en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Twitter&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;facebook-messenger&#34;&gt;Facebook Messenger&lt;/h3&gt;
+&lt;p&gt;Yup, most family members and friends are into messenger chats so that&amp;rsquo;s no escaping Facebook.&lt;/p&gt;
+&lt;h3 id=&#34;gcash&#34;&gt;GCash&lt;/h3&gt;
+&lt;p&gt;Globe Telecom&amp;rsquo;s virtual wallet, and is now available for all networks.&lt;/p&gt;
+&lt;h3 id=&#34;youtube-and-reddit&#34;&gt;YouTube and Reddit&lt;/h3&gt;
+&lt;p&gt;My other ways to consume online content.&lt;/p&gt;
+&lt;h3 id=&#34;microsoft-edge&#34;&gt;Microsoft Edge&lt;/h3&gt;
+&lt;p&gt;Despite the sync being subpar to Google Chrome, I prefer this one as my main browser on my iPhone.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/edge#platform&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Edge Web Browser&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shopee&#34;&gt;Shopee&lt;/h3&gt;
+&lt;p&gt;Every once in a while (trust me 🤣) we just want to shop online. I recently deleted my Lazada account because it annoyed me so much with their shenanigans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download: &lt;a class=&#34;link&#34; href=&#34;https://shp.ee/x6uyiut&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Shopee PH&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;So far these are my &lt;em&gt;top&lt;/em&gt; apps that I use on my mobile phone. Let me know what&amp;rsquo;s your most used apps!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Good JuJu: Roundup</title>
+        <link>https://reddavid.me/july-roundup/</link>
+        <pubDate>Thu, 29 Jul 2021 00:02:17 +0800</pubDate>
+        
+        <guid>https://reddavid.me/july-roundup/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/july-roundup.png" alt="Featured image of post Good JuJu: Roundup" /&gt;&lt;p&gt;Okay, hear me out, I am still procrastinating after watching hours TED Talks and YouTube videos on how to be productive and avoid wasting time doing senseless things. What&amp;rsquo;s wrong? Do I have a lot on my mind or in my hands to keep me posting blogs? Can&amp;rsquo;t be motivated by self-help books and videos? Am I still waiting for when &amp;ldquo;it&amp;rsquo;s too late&amp;rdquo;? AARGH&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/pVkmGyqYRt4qY/giphy.gif&#34; height=&#34;320&#34; alt=&#34;gif about laziness&#34; style=&#34;display: block;margin-left: auto;margin-right: auto; width: 50%;
+&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hunyo&#34;&gt;Hunyo&lt;/h2&gt;
+&lt;h3 id=&#34;birthday-gift&#34;&gt;Birthday Gift&lt;/h3&gt;
+&lt;p&gt;So my last post was June 12, I celebrated my 29th birthday on the 14th and got myself an Elgato HD60S+ to achieve better mobile gaming mirroring but that still, I can&amp;rsquo;t keep my streaming schedule! AARGH (2)&lt;/p&gt;
+&lt;p&gt;I got the thingy not just to stream games but for future use - like recording &amp;ldquo;How to use this app&amp;rdquo; for YouTube or presentations, so it may be an expensive thing but I always think of them as an investment for my app development journey.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/elgato.jpg&#34;
+         alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Elgato HD60S+&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Speaking of streaming, I started streaming on Twitch! Right now, I planned on playing Minecraft, Left 4 Dead 2, and Call of Duty: Mobile. Also, I will try to stream on MWFS schedule playing those games or variety. &lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/aka1red&#34; target=&#34;_blank&#34;&gt;Give me a follow&lt;/a&gt; and get notified when I go live.&lt;/p&gt;
+&lt;p&gt;I will be using my &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34; target=&#34;_blank&#34;&gt;Facebook Page&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://discord.gg/rKnJb4J&#34; target=&#34;_blank&#34;&gt;Discord server&lt;/a&gt; to post updates.&lt;/p&gt;
+&lt;h3 id=&#34;stream-setup-mobile-gaming&#34;&gt;Stream Setup (Mobile Gaming)&lt;/h3&gt;
+&lt;p&gt;As of this writing, I am lucky enough to have this setup for mobile game streaming:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/znd3exz&#34; target=&#34;_blank&#34;&gt;Apple iPhone 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/ta83sar&#34; target=&#34;_blank&#34;&gt;Elgato HD60S+ Capture Card&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/uw5zqsr&#34; target=&#34;_blank&#34;&gt;Audio-Technica ATR-2500X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://shp.ee/m3dktiz&#34; target=&#34;_blank&#34;&gt;SteelSeries Arctis 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;app-dates&#34;&gt;App-dates&lt;/h3&gt;
+&lt;p&gt;Any more happened last week of June? Hmm. Yeah right, I released an update for RPN Radio app for both Android and iOS adding a call-to-action button to send the stations a message thru Facebook Messenger. This was after watching on Udemy that apps or any products always have a goal-in-mind - the stations should increase inquiries for advertisement or any other public service comments.&lt;/p&gt;
+&lt;p&gt;The app is still available for &lt;strong&gt;FREE&lt;/strong&gt; on Google Play Store, Huawei App Store, and iOS App Store. I created this simple app landing page for the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34; target=&#34;_blank&#34;&gt;links.&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-app-cta.jpg&#34;
+         alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also got to try the new &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/windows-11&#34; target=&#34;_blank&#34;&gt;Windows 11 Insider Preview&lt;/a&gt; on a VM. Tested on my main machine but I can&amp;rsquo;t risk the beta so I rolled back to Windows 10.&lt;/p&gt;
+&lt;h2 id=&#34;hulyo&#34;&gt;Hulyo&lt;/h2&gt;
+&lt;h3 id=&#34;chocolates-anyone&#34;&gt;Chocolates, Anyone?&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s start the month with a sweet treat, homemade chocolates courtesy of my SO. Anyone interested? Hit the like on the Instagram post below for us to start selling them. 😊&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-captioned data-instgrm-permalink=&#34;https://www.instagram.com/p/CR39ox0jqf6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; data-instgrm-version=&#34;14&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:16px;&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/CR39ox0jqf6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; style=&#34; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&#34; target=&#34;_blank&#34;&gt; &lt;div style=&#34; display: flex; flex-direction: row; align-items: center;&#34;&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 19% 0;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display:block; height:50px; margin:0 auto 12px; width:50px;&#34;&gt;&lt;svg width=&#34;50px&#34; height=&#34;50px&#34; viewBox=&#34;0 0 60 60&#34; version=&#34;1.1&#34; xmlns=&#34;https://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;https://www.w3.org/1999/xlink&#34;&gt;&lt;g stroke=&#34;none&#34; stroke-width=&#34;1&#34; fill=&#34;none&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;g transform=&#34;translate(-511.000000, -20.000000)&#34; fill=&#34;#000000&#34;&gt;&lt;g&gt;&lt;path d=&#34;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&#34;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&#34;padding-top: 8px;&#34;&gt; &lt;div style=&#34; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&#34;&gt;View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 12.5% 0;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&#34;&gt;&lt;div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: 8px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: auto;&#34;&gt; &lt;div style=&#34; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/CR39ox0jqf6/?utm_source=ig_embed&amp;amp;utm_campaign=loading&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by David Ballesteros (@reddvid)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;h3 id=&#34;second-dose&#34;&gt;Second Dose&lt;/h3&gt;
+&lt;p&gt;I got my second dose of Covid vaccine (Sinovac) on the 6th, thankfully there were no side-effects except for the body aches I got after NOT SLEEPING WELL! 🤦‍♂️&lt;/p&gt;
+&lt;h3 id=&#34;website-updates&#34;&gt;Website Updates&lt;/h3&gt;
+&lt;p&gt;With work, I updated the &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com&#34; target=&#34;_blank&#34;&gt;RPN website&lt;/a&gt; overall layout after migrating to a new hosting provider. And some minor updates to some if not all the online systems.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-website-mobile.png&#34;
+         alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;RPN Radio Website&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;rainy-vacay&#34;&gt;Rainy Vacay&lt;/h3&gt;
+&lt;p&gt;After that, I decided to take a &lt;del&gt;short&lt;/del&gt; long break to escape the &lt;del&gt;jungle&lt;/del&gt; NCR Bubble by going home to Pangasinan. I am so longing to be with the family after 6+ months of not going home - I last went home way back December 2020 to spend the holidays.&lt;/p&gt;
+&lt;p&gt;I was so looking forward to at least visit a beach, see a sunset, feel the breeze of fresh air but UNLUCKILY the weather ahead was not well! I did not see the predictions that there will be a coming storm for the week. So the first few days were a bust, and I just stayed inside and chilled out with some beer.&lt;/p&gt;
+&lt;p&gt;The 20th was a holiday, and magically the weather was at least fine for us to go to Binmaley beach - don&amp;rsquo;t worry, there were no crowds so we can be safe, I think? The sun was peeping through the clouds and by the afternoon, a mild rain poured. Together with relatives, we spend some time there swimming, singing, EATING, and drinking booze until it&amp;rsquo;s time to go home.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/binmaley-beach.jpg&#34;
+         alt=&#34;Binmaley Beach&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Binmaley Beach&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;My other plans went down the drain as the weather became worse, Dagupan City was flooded (plus high tide) that light vehicles weren&amp;rsquo;t able to pass. Sadly, I can&amp;rsquo;t meet my &lt;del&gt;only&lt;/del&gt; city friends. There&amp;rsquo;s still next time right? Right?&lt;/p&gt;
+&lt;p&gt;I decided to extend my stay but continued checking some online responsibilities just to make sure they are still up even I&amp;rsquo;m not present in the office - though I failed to join our online meetings.&lt;/p&gt;
+&lt;p&gt;We also went to our grandfather&amp;rsquo;s brother to celebrate his 70th birthday. Then we spent some time (and over pizza) with my cousin to talk about tech and stuff.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-damage.jpg&#34;
+         alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Oh, I also got a haircut (question mark).&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/haircut.jpg&#34;
+         alt=&#34;Haircut?&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Haircut?&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br&gt;
+&lt;p&gt;That&amp;rsquo;s it for this blog post, thanks for reading! (the rain pours while I write this).&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Mobile Game Streaming</title>
+        <link>https://reddavid.me/mobile-game-streaming/</link>
+        <pubDate>Sat, 12 Jun 2021 04:26:59 +0800</pubDate>
+        
+        <guid>https://reddavid.me/mobile-game-streaming/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/codm-fbgg-streaming.png" alt="Featured image of post Mobile Game Streaming" /&gt;&lt;p&gt;This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.&lt;/p&gt;
+&lt;h2 id=&#34;grind-to-legend&#34;&gt;Grind to Legend&lt;/h2&gt;
+&lt;p&gt;Ever since the new season of Call of Duty: Mobile came out, I just wanted to redeem the legendary medal. And also to get all rewards from the Battle Pass I bought. 😂&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t worry guys and gals, kuya Red will be back soon. Konti na lang back to Legendary rank na sa BR mode at pwede na mag-Minecraft.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/codm-locked.png&#34;
+         alt=&#34;Locked Legendary Rank&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Locked Legendary Rank&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;minecraft-117-is-here&#34;&gt;Minecraft 1.17 is Here&lt;/h2&gt;
+&lt;p&gt;Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&amp;rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/0maWbr0FHKY&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The caves and cliffs update (part 1) brings new items and features which were detailed on Minecraft&amp;rsquo;s own blog &lt;a class=&#34;link&#34; href=&#34;https://www.minecraft.net/en-us/updates/caves-and-cliffs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now on to my setup.&lt;/p&gt;
+&lt;h2 id=&#34;mobile-stream-setup&#34;&gt;Mobile Stream Setup&lt;/h2&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;First, let&amp;rsquo;s see the devices I use except for the laptop/PC for streaming.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone 11&lt;/li&gt;
+&lt;li&gt;Lightning to AV Digital Adapter&lt;/li&gt;
+&lt;li&gt;HDMI cable&lt;/li&gt;
+&lt;li&gt;Cheap video capture&lt;/li&gt;
+&lt;li&gt;Audio-technica Condenser Mic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used to play on my Nokia 7 Plus but can&amp;rsquo;t the specs can&amp;rsquo;t keep up, not sure why. This is when I use &lt;a class=&#34;link&#34; href=&#34;https://www.vysor.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vysor&lt;/a&gt;, a screen mirroring app that wirelessly share the phone&amp;rsquo;s screen to the PC. Now, that&amp;rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/adapters.jpg&#34;
+         alt=&#34;Lightning to AV Adapter and USB Capture Card&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Lightning to AV Adapter and USB Capture Card&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I wonder why branded capture cards are so damn expensive?! Like the &lt;a class=&#34;link&#34; href=&#34;https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Elgato HD60S&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AverMedia Live Gamer Ultra&lt;/a&gt;. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&amp;rsquo;s good to go.&lt;/p&gt;
+&lt;iframe src=&#34;https://giphy.com/embed/3o6MbtelsDZdsbFB7i&#34; width=&#34;480&#34; height=&#34;360&#34; frameBorder=&#34;0&#34; class=&#34;giphy-embed&#34; style=&#34;display: block; margin: 0px auto;&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Lastly, I recently bought an &lt;a class=&#34;link&#34; href=&#34;https://www.audio-technica.com/en-gb/atr2500x-usb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ATR-2500X condenser mic&lt;/a&gt; to record songs and guitars for my YouTube channel. Now it&amp;rsquo;s multi-purpose that I use it on my streams and Zoom meetings.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/atr-2500x.jpg&#34;
+         alt=&#34;Audio-Technica ATR2500X Condenser Mic&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Audio-Technica ATR2500X Condenser Mic&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;As for the software, I use &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Studio&lt;/a&gt;. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &amp;ldquo;Go Live&amp;rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/obslive.png&#34;
+         alt=&#34;StreamElements OBS.Live Plugin&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;StreamElements OBS.Live Plugin&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;diagram&#34;&gt;Diagram&lt;/h3&gt;
+&lt;p&gt;This is how my setup is connected. Remember that you need an internet with at least 4000kbps of upload speed to actually stream your games on Facebook Gaming (&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/fbgaminghome/creators/getstarted&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;source&lt;/a&gt;). I stream at 1080p60 with 6000kbps bitrate.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/setup-diagram.png&#34;
+         alt=&#34;Hardware Setup Diagram&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Hardware Setup Diagram&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
+&lt;p&gt;I have a few mobile games on my phone right now compared to my &lt;a class=&#34;link&#34; href=&#34;https://steamcommunity.com/id/reddvid/games/?tab=all&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam Library&lt;/a&gt;. But I own some mobile-worthy games like Stardew Valley and Minecraft: Pocket Edition.&lt;/p&gt;
+&lt;p&gt;I have a love and hate relationship with games like PUBG Mobile and Mobile Legends. I am looking forward to Apex Legends: Mobile and Diablo Immortal though. They&amp;rsquo;re both are already in beta preview on Android, currently waiting for the iPhone/iPad version.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://m.me/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Send me a message&lt;/a&gt; to request a game I can play, or we can play together.&lt;/p&gt;
+&lt;h2 id=&#34;support-me-on-facebook-gaming&#34;&gt;Support me on Facebook Gaming&lt;/h2&gt;
+&lt;p&gt;This seems repetitive, but I do need some support when I go live. It feels like streaming and talking to friends is now an everyday duty, haha. But kidding aside, everyone needs help.&lt;/p&gt;
+&lt;p&gt;Check me &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;, and let&amp;rsquo;s talk more about tech and things.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Upgrade! Samsung 970 EVO Plus</title>
+        <link>https://reddavid.me/upgrade-samsung-970-evo-plus/</link>
+        <pubDate>Tue, 16 Mar 2021 01:09:00 +0800</pubDate>
+        
+        <guid>https://reddavid.me/upgrade-samsung-970-evo-plus/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/970-evo-plus.webp" alt="Featured image of post Upgrade! Samsung 970 EVO Plus" /&gt;&lt;p&gt;Here we go again folks! Another PC upgrade, this time we take our storage to the next level.&lt;/p&gt;
+&lt;h2 id=&#34;top-player&#34;&gt;Top Player&lt;/h2&gt;
+&lt;p&gt;I just bought a Samsung 970 EVO Plus, 1TB for my &amp;ldquo;coding needs&amp;rdquo;. I recently experience a throttle while using my current XPG 500GB - I have been using some Virtual Machines lately to test out some things, and the SSD space gets loaded up quickly.&lt;/p&gt;
+&lt;p&gt;The SSD costs me around US$100 and failed to get a cheaper one since I am not paying the whole price - again, I got this for credit. 😅&lt;/p&gt;
+&lt;h2 id=&#34;samsung-why&#34;&gt;Samsung, why?&lt;/h2&gt;
+&lt;p&gt;Samsung has been the top brand for SSDs and I can say this myself since personally, I used an 860 EVO in the past for my laptop. And even though my current XPG SSD does it&amp;rsquo;s job, I needed an storage upgrade and it&amp;rsquo;s time to get this one.&lt;/p&gt;
+&lt;p&gt;The technical specs and comparison is available in the internet which you can visit on PCWorld, &lt;a class=&#34;link&#34; href=&#34;https://www.pcworld.com/article/3334876/samsung-970-evo-plus-review-samsungs-entry-level-nvme-ssd-is-faster-and-cheaper.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Samsung 970 EVO Plus review&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;take-a-look&#34;&gt;Take a Look&lt;/h2&gt;
+&lt;p&gt;I forgot to take pictures to avoid the SSD from picking up some static from my desk mat. But I did take a picture of the box before installing it on the system.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/samsung-evo/samsung-970-evo-plus-box.png&#34;
+         alt=&#34;Samsung 970 EVO Plus&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samsung 970 EVO Plus&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/samsung-evo/taskbar.png&#34;
+         alt=&#34;Task Manager&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;SSD Usage in Task Manager&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;This is not to flaunt the things I have, I&amp;rsquo;m just trying to share my thoughts and share which can help my daily activities like coding, and file and graphics processing.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Finally! Logitech C922</title>
+        <link>https://reddavid.me/the-logitech-c922/</link>
+        <pubDate>Thu, 01 Oct 2020 23:17:51 +0800</pubDate>
+        
+        <guid>https://reddavid.me/the-logitech-c922/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/logitech-c922.jpg" alt="Featured image of post Finally! Logitech C922" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;Yoo! I finally got the C922 PRO HD Webcam from Logitech after wishing having it for years.&lt;/p&gt;
+&lt;p&gt;Honestly, I bought the camera in a slightly higher price due to the model being out of stock in major stores and just got from a &amp;ldquo;hoarder&amp;rdquo; in Facebook marketplace. :) Harsh but true.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s get into my short blog/review/impression about this industry-standard in semi-professional streaming.&lt;/p&gt;
+&lt;p&gt;You might ask, why only now? At first, I never really thought of having a good webcam as a small streamer, and I also have this app on my Android phone which makes my Nokia 7 Plus act as a webcam. Then, I wanted the camera to be positioned well, so I bought a cheaper Logitech, the C270.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/logitech_c270.jpg&#34;
+         alt=&#34;Logitech C270 webcam&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C270 webcam&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The C270 suited my needs - stream just now and then, and it&amp;rsquo;s just right for video calls and conferencing. The only problem with this one is it has a bad exposure. I used the C270 for almost 3 months until I got the money to buy the beast of a camera, that is the C922.&lt;/p&gt;
+&lt;h2 id=&#34;the-box&#34;&gt;The Box&lt;/h2&gt;
+&lt;p&gt;I opened a brand new Logitech C922 way way before but it wasn&amp;rsquo;t mine, so I already know the contents (alibi for not having pictures after unboxing 😂). And I also tried the unit itself so I knew the quality it brings.&lt;/p&gt;
+&lt;p&gt;The box contains the C922 camera, a table-top tripod, manuals and a sheet containing the free 3-month XSplit Premium codes (Again, sorry for not having pictures).&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/box.jpg&#34;
+         alt=&#34;Logitech C922 Box&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C922 Box&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;quick-specs&#34;&gt;Quick specs&lt;/h2&gt;
+&lt;p&gt;I won&amp;rsquo;t dive deep into the webcam&amp;rsquo;s specifications like weight and dimensions but here are the common &amp;ldquo;marketing&amp;rdquo; specs that will actually make you consider buying one:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Capture 1080p @ 30fps, or&lt;/li&gt;
+&lt;li&gt;720p @ 60fps&lt;/li&gt;
+&lt;li&gt;Auto focus&lt;/li&gt;
+&lt;li&gt;Wide Field of View&lt;/li&gt;
+&lt;li&gt;Advanced camera software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ha-mountable&#34;&gt;Ha! Mountable&lt;/h2&gt;
+&lt;p&gt;The C922 has a screw hole for mounting onto a tripod. The tripod can be extended up to 18.5cm. Here&amp;rsquo;s the closed tripod in three max lengths (with regards to the feet extensions).&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_screw_slot.jpg&#34; alt=&#34;Logitech C922 Tripod Screw Hole&#34; width=&#34;60%&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_min.jpg&#34; alt=&#34;Logitech C922 Tripod Min&#34; style=&#34;display: inline; width: 32%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_mid.jpg&#34; alt=&#34;Logitech C922 Tripod Middle&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_max.jpg&#34; alt=&#34;Logitech C922 Tripod Max Length&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;figcaption&gt;Logitech C922 Tripod Screw Hole and Lengths&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The tripod, without and with the webcam.&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_stand.jpg&#34; alt=&#34;Logitech C922 Tripod Standing&#34; style=&#34;display: inline; width: 45%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_tripod_side.jpg&#34; alt=&#34;Logitech C922 Tripod-Mounted&#34; style=&#34;display: inline; width: 45%;&#34;&gt;
+  &lt;figcaption&gt;Logitech C922 Tripod&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;p&gt;The C922 also has a built-in microphone but most people, including me, advice to use an external mic instead.&lt;/p&gt;
+&lt;h2 id=&#34;software---logitech-capture&#34;&gt;Software - Logitech Capture&lt;/h2&gt;
+&lt;p&gt;Upon connecting the webcam to my PC, Logitech prompted to install the companion software - Logitech Capture. The software is advanced enough for my needs - I can zoom and pan, flip the captured video horizontally and/or vertically, choose to prefer exposure or framerate, and most importantly the capture resolutions.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/logitech_capture_2.png&#34;
+         alt=&#34;Logitech Capture Software&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech Capture Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;resolutions&#34;&gt;Resolutions&lt;/h3&gt;
+&lt;p&gt;The software provides templates for typical sizes:&lt;/p&gt;
+&lt;p&gt;Widescreen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FHD (1080p),&lt;/li&gt;
+&lt;li&gt;720p, and&lt;/li&gt;
+&lt;li&gt;360p;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Portrait:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1080x1920,&lt;/li&gt;
+&lt;li&gt;720x1280, and&lt;/li&gt;
+&lt;li&gt;360x640;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Squares:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1080x1080,&lt;/li&gt;
+&lt;li&gt;720x720,&lt;/li&gt;
+&lt;li&gt;and 360x360.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/resolutions.jpg&#34;
+         alt=&#34;Resolution Options&#34; width=&#34;30%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Resolution Options&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;pip-and-layers&#34;&gt;PiP and Layers&lt;/h3&gt;
+&lt;p&gt;The software also allows us to output custom layout.&lt;/p&gt;
+&lt;h3 id=&#34;effects&#34;&gt;Effects&lt;/h3&gt;
+&lt;p&gt;The software also allows you to add effects, text, etc with the Effects menu: Watermark, Text Overlay, Scene effects, Color borders, and Transitions for 2 scenes.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/effects.jpg&#34;
+         alt=&#34;Effects Options&#34; width=&#34;30%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Effects Options&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;minor-issues&#34;&gt;Minor Issues&lt;/h2&gt;
+&lt;p&gt;There are a couple of issues for me, the first one really makes me annoyed is that I cannot turn off the hotkeys for the software and I have a frameless monitor which mounting the camera is a pain in the a$$ to keep it from covering up the display - even for just a centimeter.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_frameless_issue.jpg&#34;
+         alt=&#34;Logitech C922 Frameless Monitor&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C922 Frameless Monitor&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;great-overall&#34;&gt;Great Overall&lt;/h2&gt;
+&lt;p&gt;Overall, I am happy with the C922 webcam - my loved ones can see me clearly during video calls. And I thank everybody for supporting me on my &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;stream&lt;/a&gt;, visiting my website, and checking my Windows 10 apps.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_logicapture.png&#34;
+         alt=&#34;Logitech C922 Monitor-Mounted with Logitech Capture&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C922 Monitor-Mounted with Logitech Capture&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;To finish this blog post, let&amp;rsquo;s all stay safe during the pandemic - and even after the pandemic.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>New Keeb in Town</title>
+        <link>https://reddavid.me/new-keeb/</link>
+        <pubDate>Mon, 17 Aug 2020 19:56:25 +0800</pubDate>
+        
+        <guid>https://reddavid.me/new-keeb/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/tecware.jpg" alt="Featured image of post New Keeb in Town" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.&lt;/p&gt;
+&lt;p&gt;I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&amp;rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.&lt;/p&gt;
+&lt;p&gt;The G810 was a stay-at-home keyboard for my laptop and the G403 lives in the office. And guess what, both are defective with unresponsive and ghosting keys, respectively. I thought of delaying buying a new one for &amp;ldquo;budget&amp;rdquo; reasons but coding with keyboard issues is a definitely a pain in the ass with constant deleting doubling keys and characters. I am looking for several &amp;ldquo;budget&amp;rdquo; keyboards out there, including the TNC Icarus one with Cherry MXs but the delivery time was so bad that I had to settle down with this one.&lt;/p&gt;
+&lt;p&gt;Coming from Logitech, I almost passed on this one for its &amp;ldquo;gamer&amp;rdquo; font which I don&amp;rsquo;t think is &lt;em&gt;clean&lt;/em&gt; for my desk, but my wallet said &amp;ldquo;it&amp;rsquo;s okay, you can live with that&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;I bought one with brown switches since the old ones I had had Romer-Gs with a &amp;ldquo;mushy-tactile&amp;rdquo; feel on keypress so I don&amp;rsquo;t have to worry much about them on the long run.&lt;/p&gt;
+&lt;h2 id=&#34;unboxing&#34;&gt;Unboxing&lt;/h2&gt;
+&lt;p&gt;The box looks premium with minimal print of the logo and keyboard model on the center.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/box.jpg&#34;
+         alt=&#34;Tecware Phantom TKL box&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Tecware Phantom TKL box&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Inside the box was the keyboard wrapped in plastic. It also came with 4 extra switches and a switch puller.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/inside.jpg&#34;
+         alt=&#34;Tecware Phantom unbox&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Tecware Phantom unbox&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/free-switches-puller.jpg&#34;
+         alt=&#34;Extra switches and puller&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Extra switches with puller&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;tkl&#34;&gt;TKL&lt;/h3&gt;
+&lt;p&gt;The keyboard has a TKL layout, with software-customizable RGB setting, and replaceable switches (modular). It costs php2,500, slightly costier than their Tecware Phantoms - I&amp;rsquo;m yet to investigate why.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/tecware-rgb-software.png&#34;
+         alt=&#34;Tecware software for RGB modes&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Tecware RGB software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;About the &amp;ldquo;gamer&amp;rdquo; font I hated, this game with a cleaner font. Surprised am I! Though the printing of the keycaps has the &amp;ldquo;stencil&amp;rdquo; cut beneath that the LED does not shine that much. Guess I&amp;rsquo;m okay after all. Some function keys, has this cheap white printing that I fear them to get scraped off some time soon.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/keyboard.jpg&#34;
+         alt=&#34;Tecware Phantom Elite&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;The keyboard itself&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;rgb&#34;&gt;RGB&lt;/h3&gt;
+&lt;p&gt;The RGB lighting is good with bunch of built-in modes which can be visualized and edited using their software. Here&amp;rsquo;s what it looks like in an unlit office desk.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/rgb.jpg&#34;
+         alt=&#34;Box contents&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;RGB lighting in unlit room&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I went ahead for a typing test and got a 76wpm results with no mistyped words. But let&amp;rsquo;s see how long this budget badboy keyboard lasts.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.&lt;/p&gt;
+&lt;h2 id=&#34;support-me&#34;&gt;Support Me&lt;/h2&gt;
+&lt;p&gt;Also, my apps are still available in the &lt;a class=&#34;link&#34; href=&#34;ms-windows-store:publisher?name=Red David&#34; target=&#34;_blank&#34;&gt;Microsoft Store&lt;/a&gt; and some in the &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/dev?id=5465762079490576029&#34; target=&#34;_blank&#34;&gt;Google Play Store&lt;/a&gt;, where I mostly get my funds for buying these stuff. You can always check them out, they&amp;rsquo;re free to download and use, you don&amp;rsquo;t have to buy or pay the the listed price - unless you want to.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Logitech G304 Review</title>
+        <link>https://reddavid.me/g304-review/</link>
+        <pubDate>Mon, 06 Jul 2020 23:42:58 +0800</pubDate>
+        
+        <guid>https://reddavid.me/g304-review/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/g304.jpg" alt="Featured image of post Logitech G304 Review" /&gt;&lt;p&gt;So this is my short and honest review of the G304 wireless mouse.&lt;/p&gt;
+&lt;p&gt;As I mentioned on my previous blog post &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/story-of-owning-logitech-mice/&#34;&gt;here&lt;/a&gt;, this is my 4th mouse and my first gaming? wireless mouse. I ordered it online from DataBlitz for $39, and was delivered quickly in 2 days.&lt;/p&gt;
+&lt;h2 id=&#34;whats-in-the-box&#34;&gt;What&amp;rsquo;s in the box?&lt;/h2&gt;
+&lt;p&gt;The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/box.jpg&#34;
+         alt=&#34;Logitech G304 box contents&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Box contents&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;lets-get-physical&#34;&gt;Let&amp;rsquo;s get Physical!&lt;/h2&gt;
+&lt;h3 id=&#34;battery-compartment&#34;&gt;Battery compartment&lt;/h3&gt;
+&lt;p&gt;The mouse has no RGB strip like it&amp;rsquo;s cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/inside.jpg&#34;
+         alt=&#34;G304 with battery&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech G304&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;battery-included&#34;&gt;Battery included&lt;/h3&gt;
+&lt;p&gt;I currently use an Energizer Lithium AA battery which I believe is lighter but I still keep the free battery whenever I need a heavier setup.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/batt.jpg&#34;
+         alt=&#34;AA batteries&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;AA Batteries (front came with the product)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;bottom-switch&#34;&gt;Bottom Switch&lt;/h3&gt;
+&lt;p&gt;The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/bottom.jpg&#34;
+         alt=&#34;G304 bottom&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Bottom view of grip&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;grip&#34;&gt;Grip&lt;/h3&gt;
+&lt;p&gt;The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&amp;rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://fb.gg/RedDavidGaming/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/hand-top.jpg&#34;
+         alt=&#34;G304 top grip&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Top view grip&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/hand-side.jpg&#34;
+         alt=&#34;G304 side grip&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Side view of grip&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;reliability&#34;&gt;Reliability&lt;/h2&gt;
+&lt;p&gt;I used this since day one - June 2 - and I only got a hiccup once during a Dota 2 game which made me switch to wired, and since then I used this as a daily driver and on my games. Lately, I am playing Minecraft a lot, some Dota 2, CS:GO, some Valorant, Metro Exodus, just finished Mafia II: Definitive Edition, C&amp;amp;C Yuri&amp;rsquo;s Revenge.&lt;/p&gt;
+&lt;h2 id=&#34;verdict&#34;&gt;Verdict&lt;/h2&gt;
+&lt;p&gt;My overall experience using the same shape of a mouse will be just comfortable throughout my day - office job and being a small-time streamer. It also frees your hand positions by not limited by a wired mouse. Despite it not having an RGB, I would suggest this for small-handed people, for those who travel a lot and for gamers and streamers looking for a budget wireless gaming mouse.&lt;/p&gt;
+&lt;h2 id=&#34;more-info&#34;&gt;More info?&lt;/h2&gt;
+&lt;p&gt;Since I don&amp;rsquo;t have a weighing scale and sea of tech reviews, you can check the thorough tech specs review from Rocket Jump Ninja &lt;a class=&#34;link&#34; href=&#34;https://www.rocketjumpninja.com/products/mouse/logitech-g305&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Story of my Logitech Mice</title>
+        <link>https://reddavid.me/story-of-owning-logitech-mice/</link>
+        <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://reddavid.me/story-of-owning-logitech-mice/</guid>
+        <description>&lt;img src="https://reddavid.me/images/07-20/logi-hero.png" alt="Featured image of post Story of my Logitech Mice" /&gt;&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;p&gt;Why do (or did) I own at least 5 of Logitech G mice despite the &amp;ldquo;double-clicking&amp;rdquo; issues about them? As an ECE, I knew that some percentage of any electronics produced out there do have flaws - and this is not an excuse for their price - but in the &amp;ldquo;real&amp;rdquo; world, these things can happen. Also, when looking at r/mechanicalkeyboards they combo their awesome keebs with a Logitech mouse despite them hating on Romer-G&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;This is my &amp;ldquo;short&amp;rdquo; history on my Logitech mouse shopping and usage. Here it goes:&lt;/p&gt;
+&lt;h2 id=&#34;g302&#34;&gt;G302&lt;/h2&gt;
+&lt;p&gt;If I recall correctly, my first mouse from Logitech was the G302, it has the odd shape but it just fits nicely in my hand. I used it for almost 2 years until it went &amp;ldquo;double-clicking&amp;rdquo; due to playing Dota 2. I just scavenged some old A4tech mouse and took out the switches (Huanos?) to replace one on the G302. The G302 still works today but it has this rattling noise due to the broken plastics inside.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g302.jpg&#34;
+         alt=&#34;G302 still works this day&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;G302 still works this day&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;g203&#34;&gt;G203&lt;/h2&gt;
+&lt;p&gt;Then I bought a G203, a smaller mouse sporting with the new logo. I bought this to have an RGB mouse. This is when I started to jump on the &amp;ldquo;Logitech mouse hype&amp;rdquo;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g203.jpg&#34;
+         alt=&#34;My G203 with brand new HyperX Fury mouse mat&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;My G203 with brand new HyperX Fury mouse mat&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;impulse-buying-the-g403&#34;&gt;Impulse Buying the G403&lt;/h2&gt;
+&lt;p&gt;Being on the &amp;ldquo;hype train&amp;rdquo;, I impulse bought a G403 when it became available in my country despite my current G203 still works. The G403 was not comfortable for my hand - well, the shops before don&amp;rsquo;t have demo units - so I bought another G203 as I gave the old one to my GF for office use. The G403 is stored for now.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g403.jpg&#34;
+         alt=&#34;Logitech G403&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Impulse bought G403 😂&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After some time, GF&amp;rsquo;s workplace decided to renovate so I took the G203 back and decided to &amp;ldquo;mod&amp;rdquo; it and cut the wire too short making it unroutable to my home setup. This older G203 is now in my &amp;ldquo;junk box&amp;rdquo;.&lt;/p&gt;
+&lt;h2 id=&#34;gpro-on-discount&#34;&gt;GPro on Discount&lt;/h2&gt;
+&lt;p&gt;I think all through the year 2019, I was looking to buy their wireless mouse - the G304. It has the same shape as the G203 and has the new HERO sensor. And that one time when I decided to finally buy one, I first asked a salesperson if there were any Logitech promos and I was told that the G Pro was 50% off. Without hesitation, I bought it instead of the G304.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/gpro.jpg&#34;
+         alt=&#34;Half-priced G Pro, not a bad buy&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Half-priced G Pro, not a bad buy&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The G Pro is physically the same as G203 but has a braided cable, stiffer mouse wheel, and sporting the PMW3366 optical gaming sensor. I use this in the office with a cheap mouse bungee to keep the wire neat.&lt;/p&gt;
+&lt;h2 id=&#34;g304-wireless&#34;&gt;G304 Wireless&lt;/h2&gt;
+&lt;p&gt;Fast forward March 2020, city-wide was on lockdown, knowing that I would be staying in the office for quite some time, I lend my laptop to my GF for her to use. I also lend her the (working) G203.&lt;/p&gt;
+&lt;p&gt;After some time staying in the office, I decided to neat up my desk and I found it a hassle for wires (with dual monitors, keyboards, USB cords, and whatnot) so I thought, &amp;ldquo;It&amp;rsquo;s time to check that G304 I wished for the longest time. And there&amp;rsquo;s a sale incoming too.&amp;rdquo;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304.jpg&#34;
+         alt=&#34;28-day old G304&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;28-day old G304&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I checked Lazada but I was skeptical to buy electronics from them – to avoid the hassle process of returning a defective product. This is when I learned that my &amp;ldquo;favorite&amp;rdquo; gaming store I bought my previous Logitech mice has a &amp;ldquo;better&amp;rdquo; website and I checked the G304 and it was cheaper compared to its store retail price. I bought it as a gift for myself this June.&lt;/p&gt;
+&lt;p&gt;Here on my desk right now is the G304 and the G Pro. I use the G304 for daily work and casual games and the G Pro for FPS and competitive gaming. I will be posting my review for the G304 soon. And sorry for the lack of better pictures of my mice.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>I Got Myself a New Laptop</title>
+        <link>https://reddavid.me/new-laptop/</link>
+        <pubDate>Tue, 18 Feb 2020 16:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/new-laptop/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/acer-laptop.jpg" alt="Featured image of post I Got Myself a New Laptop" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword&lt;/h2&gt;
+&lt;p&gt;Last February 15, I got myself a new Acer laptop. It is an Acer Nitro 5 laptop sporting an AMD Ryzen 3550H with RX560X Graphics. This makes my 3rd Acer laptop in a span of 8+ years and my first ever AMD on a laptop (had an AMD Athlon X2 PC before).&lt;/p&gt;
+&lt;p&gt;This laptop costs Php34,999 and we could not find a promo since every store follows the retail price. Although, the laptop was &lt;em&gt;on promo&lt;/em&gt; with having an included a single stick of 8GB DDR4 memory (upgraded from 4GB), 128GB SSD (m.2 SATA) and a 1TB mechanical drive (not SSHD).&lt;/p&gt;
+&lt;p&gt;The laptop includes a generic-looking backpack - yes, I said generic since I saw somewhere that there is a &lt;em&gt;gaming-accented&lt;/em&gt; version of the bag.&lt;/p&gt;
+&lt;h2 id=&#34;quick-specs&#34;&gt;Quick Specs:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AMD Ryzen 5 3550H Quad-Core with Vega 8 Graphics (which consumes 2GB of RAM)&lt;/li&gt;
+&lt;li&gt;AMD Radeon RX560X 4GB DDR4 - Here&amp;rsquo;s the catch, upon checking CPU-Z the - installed memory stick is rated at 2666MHz but later found out that Ryzen 3550H is limited to 2400MHz, so maybe that is a bummer&lt;/li&gt;
+&lt;li&gt;15.6&amp;quot; FHD 1920x1080p IPS LCD(slim-frame), Red Backlit-keyboard&lt;/li&gt;
+&lt;li&gt;Dual M.2 (nVME only + SATA only) + 1 HDD slots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full specs of the laptop can be found &lt;a class=&#34;link&#34; href=&#34;https://www.acer.com/ac/en/GB/content/model/NH.Q5XEK.008&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;using-the-laptop&#34;&gt;Using the laptop&lt;/h2&gt;
+&lt;h3 id=&#34;speed&#34;&gt;Speed&lt;/h3&gt;
+&lt;p&gt;Coming from an Intel i7 laptop, I felt the difference in boot up times, booting on this device is slightly slower - not sure if it&amp;rsquo;s because of the SSD installed, since I was using a Samsung 860 Evo on my old laptop.&lt;/p&gt;
+&lt;p&gt;Next is using Visual Studio, rebuilding some of my apps takes a longer time to finish. Also, having only 6GB of memory (since the 2GB is shared for AMD switchable graphics) I can&amp;rsquo;t stand having my chrome tabs reload after a while.&lt;/p&gt;
+&lt;h3 id=&#34;gaming&#34;&gt;Gaming&lt;/h3&gt;
+&lt;p&gt;Before my old laptop broke (which was an Acer Nitro V, with an Intel i7 4th gen + 2GB GTX960M), I was just playing some Minecraft (sometimes with Shaders), some casual Dota 2, and other medium-intensive games.&lt;/p&gt;
+&lt;p&gt;Of course, I was playing either inside an aircon-ed room or the fan pointing to the laptop.&lt;/p&gt;
+&lt;p&gt;Meanwhile on this new laptop, launching games, even Dota 2, was a pain. It took too long that sometimes it would just not respond and fails to load at all.&lt;/p&gt;
+&lt;p&gt;But before even buying this, I said to myself that I can&amp;rsquo;t game like I did before - long hours, intensive AAA games - so I disregarded this experience, at first.&lt;/p&gt;
+&lt;h3 id=&#34;overall-system-experience&#34;&gt;Overall (System) Experience&lt;/h3&gt;
+&lt;p&gt;Out of habit, I installed the latest drivers including Radeon software (Adrenaline 2020). But the app is laggy as hell and eventually gave me a black screen out of nowhere - which I made a hard boot just to go back seeing things to Windows.&lt;/p&gt;
+&lt;p&gt;Upon checking, it installed an older driver. (Damn AMD)&lt;/p&gt;
+&lt;p&gt;Even though I use an external mech keyboard, this keyboard layout is hideous compared to the old Nitro V I had! I am missing the Pause/Break key but I believe it is hidden in F11, I believe.&lt;/p&gt;
+&lt;p&gt;The ports are ok, but the Type-C is not thunderbolt. The power port is on the middle of the body!!!&lt;/p&gt;
+&lt;p&gt;Nitro Sense is a great addition that it lets you control the laptop fans manually - they can get loud man! The fan layout is not &amp;ldquo;optimal&amp;rdquo; in my opinion though.&lt;/p&gt;
+&lt;p&gt;Lastly, the speakers on it are s**t 🤮. Apparently this is what we get for this price. 🤷🏽&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;upgrades&#34;&gt;Upgrades&lt;/h2&gt;
+&lt;p&gt;It took me two weeks to &amp;ldquo;settle&amp;rdquo; with this new laptop and sometimes got me thinking of &amp;ldquo;regrets&amp;rdquo;. But I actually planned to upgrade memory - I just didn&amp;rsquo;t have the money 😂.&lt;/p&gt;
+&lt;p&gt;I got an 8GB TeamGroup stick 2666MHz despite the CPU limit since I can re-use them (on future units or resell them), and the price difference to a 2400MHz is minimal.&lt;/p&gt;
+&lt;p&gt;The unit has not easy-access so I went to a service center to install the RAM together with my old WD 500GB SSD just to have an &amp;ldquo;extra&amp;rdquo; faster storage. The service was free, and it took only 30 minutes because of some papers to fill-out but the service was fast.&lt;/p&gt;
+&lt;p&gt;The unit was faster, and launching apps and games was indeed faster. I also got extra fps in games, saved seconds to minutes in Visual Studio, and Chrome tabs are saved.&lt;/p&gt;
+&lt;p&gt;The only problem here now is having an older, OEM-issued drivers for the graphics card.&lt;/p&gt;
+&lt;p&gt;Replaying some games with higher FPS is also a plus.&lt;/p&gt;
+&lt;p&gt;Right now, I am thinking of upgrading to nVMe, to a higher 2.5&amp;quot; SSD and 32GB RAM 😳.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;other-notes&#34;&gt;Other notes&lt;/h2&gt;
+&lt;p&gt;Catch me play a game on this device in &lt;a class=&#34;link&#34; href=&#34;https://facebook.com/RedDavidGaming&#34;&gt;Facebook Gaming&lt;/a&gt;.
+Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffee.com/reddavid&#34;&gt;buying me a coffee&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://paypal.me/reddvid&#34;&gt;send a tip for my next upgrade&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thank you&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

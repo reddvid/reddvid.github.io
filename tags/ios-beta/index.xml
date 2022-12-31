@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>iOS Beta on David Ballesteros</title>
+        <link>https://reddavid.me/tags/ios-beta/</link>
+        <description>Recent content in iOS Beta on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 06 Apr 2022 01:30:32 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/ios-beta/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Tech News April</title>
+        <link>https://reddavid.me/tech-news-april/</link>
+        <pubDate>Wed, 06 Apr 2022 01:30:32 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tech-news-april/</guid>
+        <description>&lt;img src="https://reddavid.me/tech-news-april/technews.png" alt="Featured image of post Tech News April" /&gt;&lt;h2 id=&#34;windows-live-recorded-event&#34;&gt;Windows Live Recorded Event&lt;/h2&gt;
+&lt;p&gt;I was just anticipating a single event at 11PM and it was Microsoft&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/business/event&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Windows Powers the Future of Hybrid Work&lt;/strong&gt;&lt;/a&gt; live (recorded) event.&lt;/p&gt;
+&lt;p&gt;They announced security improvements and new features coming later this year focused first on businesses. Here are some I got from the stream:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Security for accessing organization in personal computers&lt;/li&gt;
+&lt;li&gt;Windows Cloud PC with new security features and provisioning for IT Admins&lt;/li&gt;
+&lt;li&gt;Voice Clarity for meetings&lt;/li&gt;
+&lt;li&gt;Improved accessibility/inclusivity features in voice recognition&lt;/li&gt;
+&lt;li&gt;User productivity&lt;/li&gt;
+&lt;li&gt;New and improved Windows 11 Security&lt;/li&gt;
+&lt;li&gt;File Explorer tabs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/0vsh1KZ1yws&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And checking Twitter after the stream, there were a lot more announced that time apparently.&lt;/p&gt;
+&lt;h2 id=&#34;firefox-100&#34;&gt;Firefox 100&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Mozilla Firefox&lt;/strong&gt;&lt;/a&gt; is now releasing their 100th version, quoting there first 3-digit Firefox on their Beta channel.&lt;/p&gt;
+&lt;div style=&#34;display: flex;
+justify-content: center;&#34;&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Firefox 100 beta 1 is out, yes our first 3 digits Firefox! &lt;a href=&#34;https://t.co/m5qQFFo9Os&#34;&gt;pic.twitter.com/m5qQFFo9Os&lt;/a&gt;&lt;/p&gt;&amp;mdash; Firefox Beta (@firefoxbeta) &lt;a href=&#34;https://twitter.com/firefoxbeta/status/1511376525597237255?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;h2 id=&#34;unreal-engine-5&#34;&gt;Unreal Engine 5&lt;/h2&gt;
+&lt;p&gt;Can we even differentiate reality to &lt;a class=&#34;link&#34; href=&#34;https://www.unrealengine.com/en-US/unreal-engine-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Unreal Engine 5&lt;/strong&gt;&lt;/a&gt; graphics anymore?&lt;/p&gt;
+&lt;figure&gt;
+   &lt;video class=&#34;video-shortcode&#34; preload=&#34;auto&#34; controls width=&#34;90%&#34;&gt;
+      &lt;source src=&#34;ue5.mp4&#34; type=&#34;video/mp4&#34;&gt;
+      There should have been a video here but your browser does not seem
+      to support it.
+   &lt;/video&gt;
+   &lt;figcaption&gt;Unreal Engine 5 City Sample&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;apple-ios-155-developer-beta&#34;&gt;Apple iOS 15.5 Developer Beta&lt;/h2&gt;
+&lt;p&gt;After a long break of not releasing a new beta build, the wait is now over. The download size is 5.66GB on an iPhone 11 15.4.1.&lt;/p&gt;
+&lt;p&gt;This beta&amp;rsquo;s release notes are just SDK updates and includes some small Universal Control issues.
+&lt;figure&gt;&lt;img src=&#34;ios15.5beta.png&#34; width=&#34;60%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

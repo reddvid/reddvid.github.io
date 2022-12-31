@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>App Development on David Ballesteros</title>
+        <link>https://reddavid.me/tags/app-development/</link>
+        <description>Recent content in App Development on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 01 Dec 2022 01:21:59 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/app-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>And... it&#39;s December</title>
+        <link>https://reddavid.me/and...-its-december/</link>
+        <pubDate>Thu, 01 Dec 2022 01:21:59 +0800</pubDate>
+        
+        <guid>https://reddavid.me/and...-its-december/</guid>
+        <description>&lt;p&gt;How many times have I apologized for not posting on my blog? 😅&lt;/p&gt;
+&lt;p&gt;Let’s just recap, shall we?&lt;/p&gt;
+&lt;h2 id=&#34;i-got-married&#34;&gt;I Got Married&lt;/h2&gt;
+&lt;p&gt;Yes, people still marry despite the hardships in this f-ing country, and I am one of them last October. We both felt it is time after 8 years of being together.&lt;/p&gt;
+&lt;p&gt;The prior months were not all wedding-preparations as I read and took some online courses and learning programs - more about &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flutter&lt;/a&gt;, and leadership/project management.&lt;/p&gt;
+&lt;h2 id=&#34;learning-in-depth-flutter&#34;&gt;Learning In-Depth Flutter&lt;/h2&gt;
+&lt;p&gt;The infamous Angela Yu’s Flutter bootcamp course on &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Udemy&lt;/a&gt; has been sitting on my learning for a few months and I finally decided to take it on since I really really have to update and improve my Flutter/Dart coding - and to update some apps.&lt;/p&gt;
+&lt;p&gt;I faced some problems with the course since it was outdated to the current Flutter version but it all went good, thanks for the updated documentation of Flutter and &lt;a class=&#34;link&#34; href=&#34;http://pub.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;pub.dev&lt;/a&gt; packages.&lt;/p&gt;
+&lt;p&gt;I learned DRY (&lt;strong&gt;d&lt;/strong&gt;on’t &lt;strong&gt;r&lt;/strong&gt;epeat &lt;strong&gt;y&lt;/strong&gt;ourself) - again - especially with Flutter’s all code UI. So, learning to convert most reusable Widgets to “components” is fun.&lt;/p&gt;
+&lt;p&gt;I also learned a few techniques and best practices.&lt;/p&gt;
+&lt;h2 id=&#34;updating-rpn-radio-app&#34;&gt;Updating RPN Radio App&lt;/h2&gt;
+&lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
+&lt;p&gt;And the app needed a UI/UX refresh - well at least for the player part.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/12-22/rpnradio.png&#34;
+         alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;RPN Radio App UI before and after (Note: After image was taken when stations were offline)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The app is now available to download for free on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple App Store&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;next&#34;&gt;Next?&lt;/h2&gt;
+&lt;p&gt;I also tested Flutter’s web app by building a working web version of my simple app, &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ZIP Code PH&lt;/a&gt;. It’s really really simple as of this moment.&lt;/p&gt;
+&lt;p&gt;I will be also going in-depth with Firebase and Firebase Auth to improve the mobile apps.&lt;/p&gt;
+&lt;h2 id=&#34;gaming-and-streaming&#34;&gt;Gaming and Streaming&lt;/h2&gt;
+&lt;p&gt;Sadly, after coming back from the break, I felt no energy to play games - continue playing Assassin’s Creed: Odyssey or any other games on my Xbox PC game pass. And whenever I start a new game, I feel bored can’t motivate myself to continue playing.&lt;/p&gt;
+&lt;p&gt;I tried to play Dead Space, Battlefield 4, and VALORANT this November but also felt nothing.&lt;/p&gt;
+&lt;p&gt;But there is this game called 7 Days to Die on Steam that I am currently playing (not regularly, though) and I’ll see if it’s worth playing through.&lt;/p&gt;
+&lt;p&gt;Catch me on &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/RedDavidGG&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facebook Gaming&lt;/a&gt; when I go live, or on my &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@reddavidgg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YouTube gaming channel&lt;/a&gt; for uploads.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>RPN Radio: Streaming App for Android</title>
+        <link>https://reddavid.me/rpnradio-android/</link>
+        <pubDate>Wed, 03 Feb 2021 01:25:58 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpnradio-android/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/rpnradio.png" alt="Featured image of post RPN Radio: Streaming App for Android" /&gt;&lt;p&gt;This should just be a short post to promote and showcase this Android app I developed for my job.&lt;/p&gt;
+&lt;h2 id=&#34;am-radio-in-your-pocket&#34;&gt;AM Radio in your Pocket&lt;/h2&gt;
+&lt;p&gt;Choose from RPN&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com/&#34; target=&#34;_blank&#34;&gt;(Radio Philippines Network)&lt;/a&gt; 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.&lt;/p&gt;
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+&lt;p&gt;I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure &lt;a class=&#34;link&#34; href=&#34;https://developer.android.com/guide&#34;&gt;Android Java code&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;app-description&#34;&gt;App Description&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RPN&amp;rsquo;s 12 radio stations are situated among the three major parts of the Philippines - in Luzon, we have DZRL Batac and DZBS Baguio that will give you the latest news, updates, music and other events happening in the North in Ilocano; and DZKI Iriga to offer them in Rinkonada Bikol and/or Bikolano. Next in Visayas, DYKC Cebu and DYKB Bacolod operates in the heart of Cebu City and neighboring Bacolod City, respectively. DYKC Cebu provides an programming format that will surely make all Cebuanos and Bisaya all around the world miss home. While DYKB Bacolod gives you the most important news and talkshows in Hiligaynon and/or Ilonggo. Lastly, Mindanao holds most of our stations : DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKP Pagadian, DXXX Zamboanga, and DXKT Davao.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/stationlist.png&#34; alt=&#34;RPN Radio Stations&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/playingview.png&#34; alt=&#34;RPN Radio Streaming&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
+&lt;figcaption&gt;RPN Radio App for Android&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;The app is available to download for &lt;strong&gt;FREE&lt;/strong&gt; from &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34;&gt;Huawei App Store.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The app will be available soon on iOS.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ZIP Code PH Gets Refreshed UI</title>
+        <link>https://reddavid.me/zipcodeph-new-ui/</link>
+        <pubDate>Sun, 16 Aug 2020 22:02:34 +0800</pubDate>
+        
+        <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph.png" alt="Featured image of post ZIP Code PH Gets Refreshed UI" /&gt;&lt;h2 id=&#34;foreword-and-inspiration&#34;&gt;Foreword and Inspiration&lt;/h2&gt;
+&lt;p&gt;Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
+Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.&lt;/p&gt;
+&lt;p&gt;Then one time, I just found the urge to update it after seeing Michael West&amp;rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&amp;rsquo;s App settings panel as seen &lt;a class=&#34;link&#34; href=&#34;https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style&#34; target=&#34;_blank&#34;&gt;here on his Dribbble post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I started coding at once, cleaning up some codes on the app starting with the UI. And came up with the final layout.&lt;/p&gt;
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;Here are some screenshots of the updated app version 4.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph/full.png&#34;    loading=&#34;lazy&#34;  alt=&#34;Fluent Design UI&#34;  &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph/dark.png&#34;    loading=&#34;lazy&#34;  alt=&#34;Dark mode&#34;  &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph/light.png&#34;    loading=&#34;lazy&#34;  alt=&#34;Search Page in Light mode&#34;  &gt;&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;You can check the &lt;em&gt;free&lt;/em&gt; app here in the Microsoft Store.&lt;/p&gt;
+&lt;center&gt;
+&lt;a class=&#34;link&#34; href=&#39;//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&amp;ocid=badge&#39;&gt;&lt;img src=&#39;https://reddavid.me/images/English_get-it-from-MS.png&#39; alt=&#39;English badge&#39; width=&#34;200px&#34;/&gt;&lt;/a&gt;
+&lt;/center&gt;
+</description>
+        </item>
+        <item>
+        <title>Your Phone Tray V2</title>
+        <link>https://reddavid.me/your-phone-tray-v2/</link>
+        <pubDate>Wed, 08 Jul 2020 21:18:31 +0800</pubDate>
+        
+        <guid>https://reddavid.me/your-phone-tray-v2/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/your-phone.jpg" alt="Featured image of post Your Phone Tray V2" /&gt;&lt;p&gt;Your Phone Tray UWP app just got updated.&lt;/p&gt;
+&lt;p&gt;Version 2.0 brings few UI changes, some improvements and a breaking change.&lt;/p&gt;
+&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
+&lt;h3 id=&#34;new-context-menu&#34;&gt;New Context Menu&lt;/h3&gt;
+&lt;p&gt;To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/yourphonetray/ypt-contextmenu.png&#34;
+         alt=&#34;Context Menu of Your Phone Tray app&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Your Phone Tray Context Menu&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;shortcut-key&#34;&gt;Shortcut Key&lt;/h4&gt;
+&lt;p&gt;You can also see a new menu item &lt;strong&gt;Enable Ctrl+Y Hotkey&lt;/strong&gt;. If enabled, the app silently picks up the &lt;code&gt;Ctrl+Y&lt;/code&gt; shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;breaking-change&#34;&gt;Breaking change&lt;/h2&gt;
+&lt;p&gt;Microsoft&amp;rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/UrPhoneTray&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Download the app here&lt;/strong&gt;&lt;/a&gt; for Windows 10&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>RPN News &amp; Radio Gets a New UI</title>
+        <link>https://reddavid.me/rpn-news-radio-gets-a-new-ui/</link>
+        <pubDate>Thu, 14 Mar 2019 15:28:37 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpn-news-radio-gets-a-new-ui/</guid>
+        <description>&lt;img src="https://reddavid.me/images/rpn-newui.jpg" alt="Featured image of post RPN News &amp; Radio Gets a New UI" /&gt;&lt;p&gt;A quite small update to fix and improve the overall UI of the app. Adding some fluent design, new font and smoother experience.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-ph/p/rpn-news-radio/9phl469c0z20?rtc=1&#34; target=&#34;_blank&#34;&gt;You can download RPN News &amp;amp; Radio for Windows 10 app here&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

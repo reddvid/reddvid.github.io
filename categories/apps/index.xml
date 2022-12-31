@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Apps on David Ballesteros</title>
+        <link>https://reddavid.me/categories/apps/</link>
+        <description>Recent content in Apps on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 04 Apr 2022 14:51:56 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/apps/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Clipchamp 1080p Exports is Now FREE</title>
+        <link>https://reddavid.me/clipchamp-1080p-exports-is-now-free/</link>
+        <pubDate>Mon, 04 Apr 2022 14:51:56 +0800</pubDate>
+        
+        <guid>https://reddavid.me/clipchamp-1080p-exports-is-now-free/</guid>
+        <description>&lt;img src="https://reddavid.me/clipchamp-1080p-exports-is-now-free/clipchamp.png" alt="Featured image of post Clipchamp 1080p Exports is Now FREE" /&gt;&lt;p&gt;In case you missed it, Microsoft acquired a web-based video editing app known as &lt;a class=&#34;link&#34; href=&#34;clipchamp.com&#34; &gt;Clipchamp&lt;/a&gt; back in Q4 2021. And after they finally put the app into Windows to become a slightly better editing tool (also on Xbox?), but all it gave to users are disappointment because of features locked behind &lt;a class=&#34;link&#34; href=&#34;https://www.windowscentral.com/microsofts-clipchamp-video-editing-tools-are-underbaked&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;overpriced subscription&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/clipchamp-editor.png&#34;
+         alt=&#34;Clipchamp Editor&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Clipchamp Editor&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;who-exports-at-480p-give-us-1080p-please&#34;&gt;Who Exports at 480p? Give us 1080p, Please!&lt;/h2&gt;
+&lt;p&gt;Yes, who does? And surprisingly, Clichamp offers free users to ONLY export their video projects into 480p.&lt;/p&gt;
+&lt;div style=&#34;display: flex;
+justify-content: center;&#34;&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Wanted to use the new Clip Champ app in Windows 11 to edit a video and now I see why they included it...it&amp;#39;s useless until you pay&lt;br&gt;&lt;br&gt;480Peasent isn&amp;#39;t good for anything. &lt;a href=&#34;https://t.co/MmWJWLIPS6&#34;&gt;pic.twitter.com/MmWJWLIPS6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brad Sams (@bdsams) &lt;a href=&#34;https://twitter.com/bdsams/status/1501925460602724354?ref_src=twsrc%5Etfw&#34;&gt;March 10, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;h3 id=&#34;good-news&#34;&gt;Good News!&lt;/h3&gt;
+&lt;p&gt;What a shame, but as of this writing I got an email from Clipchamp that 1080p exports is now available for everyone.&lt;/p&gt;
+&lt;p&gt;1080p exports is now the base resolution for all tiers of plans:
+&lt;figure&gt;&lt;img src=&#34;img/clipchamp-plans.png&#34;
+         alt=&#34;Clipchamp plans&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Clipchamp Plans&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Though I am yet to use this app, I&amp;rsquo;ve read online that it&amp;rsquo;s somehow intuitive by the online-based resources: templates, music &amp;amp; SFX, stock images, graphics, filters, effects, etc. that are suitable for quick and effortless video creations.&lt;/p&gt;
+&lt;p&gt;Check the app online at &lt;a class=&#34;link&#34; href=&#34;app.clipchamp.com&#34; &gt;&lt;strong&gt;app.clipchamp.com&lt;/strong&gt;&lt;/a&gt; or download from &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/store/productId/9P1J8S7CCWWT&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft Store&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Updating RPN Radio Mobile App</title>
+        <link>https://reddavid.me/updating-rpnradio-mobile-app/</link>
+        <pubDate>Thu, 31 Mar 2022 00:44:04 +0800</pubDate>
+        
+        <guid>https://reddavid.me/updating-rpnradio-mobile-app/</guid>
+        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;Update 1&lt;/h2&gt;
+&lt;p&gt;&lt;small&gt;2022-03-31&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;I just refactored the FutureBuilder by separating the future tasks to where they are actually used in the UI - to prevent long startup and show the main UI at launch instead of a loading screen.&lt;/p&gt;
+&lt;p&gt;Version 2.0.1 is now on open testing for Android on Google Play Store.&lt;/p&gt;
+&lt;p&gt;Download link: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN Radio for Android (Beta)&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;It&amp;rsquo;s been a while since I coded and updated my apps, it just somehow began again when I felt the urge to refresh my website&amp;rsquo;s looks. Now I am aiming to light up every Github contribution grid block whenever I can.&lt;/p&gt;
+&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;Updating Flutter Packages&lt;/h2&gt;
+&lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then most are already outdated and forced some to major versions with&lt;code&gt;flutter pub upgrade &amp;ndash;major-versions&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.&lt;/p&gt;
+&lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it&amp;rsquo;s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can&amp;rsquo;t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.&lt;/p&gt;
+&lt;h2 id=&#34;new-code&#34;&gt;New Code&lt;/h2&gt;
+&lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
+&lt;figure&gt;&lt;img src=&#34;img/refactoring-files.png&#34;
+         alt=&#34;Refactoring files to folders&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Refactoring files to folders&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Upgrading packages with at least 3 versions above since the app&amp;rsquo;s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flutter Audio Service Demo&lt;/a&gt;)&lt;/strong&gt; from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.&lt;/p&gt;
+&lt;h3 id=&#34;futures&#34;&gt;Futures&lt;/h3&gt;
+&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;JSON&lt;/a&gt; to fetch the data. I faced a problem decoding it when I faced this unfamiliar type &lt;code&gt;Map&amp;lt;String, dynamic&amp;gt;&lt;/code&gt; coming from a C# perspective.&lt;/p&gt;
+&lt;p&gt;I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables &lt;code&gt;null&lt;/code&gt; when they are still being done, making some unwanted behaviors.&lt;/p&gt;
+&lt;p&gt;Then I finally used a &lt;strong&gt;&lt;em&gt;Future Builder,&lt;/em&gt;&lt;/strong&gt; it basically waits my tasks to finish fetching data before showing the main UI preventing further actions that require the variables.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dart&#34; data-lang=&#34;dart&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;FutureBuilder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;future:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Future&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;wait&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isLiveList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;getImages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()]),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;builder:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AsyncSnapshot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;dynamic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hasData&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;liveList&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;adsList&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MainUI&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Omitted for brevity
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;loadingScreen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Omitted for brevity
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper&lt;/h3&gt;
+&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
+&lt;p&gt;As stated above, I don&amp;rsquo;t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dart&#34; data-lang=&#34;dart&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Future&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;dynamic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;getImages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;dynamic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;response&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;http&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Uri&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;parse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://...ads.json&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;statusCode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// If the call to the server was successful, parse the JSON
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;values&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;json&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;decode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Before adding the view though, I thought heavily on where to put it avoiding the user to a second page. Somehow this is what I went for:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/sponsors-control.png&#34;
+         alt=&#34;Sponsors View using ExpansionTile and Swiper&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Sponsors View using ExpansionTile and Swiper&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Sponsors View using ExpansionTile and Swiper&lt;/p&gt;
+&lt;p&gt;I used &lt;code&gt;ExpansionTile&lt;/code&gt; to allow the users to collapse/expand the view and &lt;code&gt;Swiper&lt;/code&gt; to show an auto-scroll of the images.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the code for the Sponsors UI:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dart&#34; data-lang=&#34;dart&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ExpansionTile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;title:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s1&#34;&gt;&amp;#39;Sponsors&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;textColor:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;white&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;collapsedTextColor:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;white&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;iconColor:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;white&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;children:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nl&#34;&gt;padding:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;EdgeInsets&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;only&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;bottom:&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;20.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nl&#34;&gt;child:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;ConstrainedBox&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nl&#34;&gt;constraints:&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BoxConstraints&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;loose&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                   &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;MediaQuery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;280.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nl&#34;&gt;child:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Swiper&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;autoplay:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;autoplayDelay:&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;itemBuilder:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BuildContext&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;CachedNetworkImage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;nl&#34;&gt;imageUrl:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;imageUrl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;nl&#34;&gt;fit:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BoxFit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fitHeight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;nl&#34;&gt;width:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MediaQuery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0.60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;itemCount:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;adsList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stationNames&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_nowPlayingIndex&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]].&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;pagination:&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SwiperPagination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;))),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not use Swiper when image list is only 1&lt;/li&gt;
+&lt;li&gt;Improve loading screen during FutureBuilder&lt;/li&gt;
+&lt;li&gt;Handle “offline” connection&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>(Update: Now Available on 3 Major App Stores) RPN News Mobile App</title>
+        <link>https://reddavid.me/rpnnews-mobile-app/</link>
+        <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpnnews-mobile-app/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;Update #2&lt;/h2&gt;
+&lt;p&gt;RPN News mobile app is now also available to download from Huawei AppGallery. Check the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; for the links!&lt;/p&gt;
+&lt;h2 id=&#34;update-1&#34;&gt;Update #1&lt;/h2&gt;
+&lt;p&gt;The app is now available for iPhone on the App Store. See the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; below.&lt;/p&gt;
+&lt;hr &gt;
+&lt;p&gt;It&amp;rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.&lt;/p&gt;
+&lt;h2 id=&#34;delays&#34;&gt;Delays&lt;/h2&gt;
+&lt;p&gt;The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).&lt;/p&gt;
+&lt;p&gt;I apologize for the delay but I just made sure these features are working for production.&lt;/p&gt;
+&lt;h2 id=&#34;app-details&#34;&gt;App Details&lt;/h2&gt;
+&lt;p&gt;Most brands nowadays accompany their line of business with a mobile app, beside the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN Radio app&lt;/a&gt; which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.&lt;/p&gt;
+&lt;p&gt;Right now, the app is a feed for the provincial news as visible on &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com/category/provincial-news/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN website&lt;/a&gt;. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.&lt;/p&gt;
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).&lt;/p&gt;
+&lt;!-- &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-1.png&#34; alt=&#34;News feed (iPhone)&#34; /&gt;
+&lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-2.png&#34; alt=&#34;News details (iPhone)&#34;  /&gt;
+&lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-3.png&#34; alt=&#34;About page (iPhone)&#34; /&gt; --&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-1_.png&#34; width=&#34;262&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-1__hu7b3be501d9691caf981aff6cb2595f97_68866_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-1__hu7b3be501d9691caf981aff6cb2595f97_68866_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News feed (iPhone)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt; &lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-2_.png&#34; width=&#34;262&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-2__hu9a1c46a80b39529f85d61ec8c657c583_99136_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-2__hu9a1c46a80b39529f85d61ec8c657c583_99136_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News detail (iPhone)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;&lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-3_.png&#34; width=&#34;262&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-3__hu06edb8875c16d8350c367fd9530f1c13_42140_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpn-news-apple-3__hu06edb8875c16d8350c367fd9530f1c13_42140_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;About page (iPhone)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-1_.png&#34; width=&#34;320&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-1__hu60797eb173b79b4807530b83b1f7409f_117308_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-1__hu60797eb173b79b4807530b83b1f7409f_117308_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News feed (Android)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;56&#34;
+	data-flex-basis=&#34;135px&#34; &gt; &lt;img src=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-2_.png&#34; width=&#34;320&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-2__hu0acc97b149bb2149fa74630c7f7d27a4_136198_480x0_resize_box_3.png 480w, https://reddavid.me/rpnnews-mobile-app/img/rpnnews-store-2__hu0acc97b149bb2149fa74630c7f7d27a4_136198_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News detail (Android)&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;56&#34;
+	data-flex-basis=&#34;135px&#34; &gt;&lt;/p&gt;
+&lt;!-- &lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-1.png&#34; alt=&#34;News feed (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;News feed (Android)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-1.png&#34; alt=&#34;News feed (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;News feed (Android)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-2.png&#34; alt=&#34;News details (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;News details (Android)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+   &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-3.png&#34; alt=&#34;About page (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
+   &lt;figcaption&gt;About page (Android)&lt;/figcaption&gt;
+&lt;/figure&gt; --&gt;
+&lt;h2 id=&#34;download-here&#34;&gt;Download Here&lt;/h2&gt;
+&lt;p&gt;The app is available now on the Google Play Store: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN News - Apps on Google Play&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Update #1: Download for iPhone here: &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/app/id1590143546&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN News on the App Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Update #2: Download from Huawei AppGallery: &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/app/C105053423&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN News on Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;As for Huawei devices (AppGallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&amp;rsquo;re approved.&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next&lt;/h2&gt;
+&lt;p&gt;Here are the milestones I am looking forward to bring:&lt;/p&gt;
+&lt;h3 id=&#34;milestone-22&#34;&gt;Milestone 2.2+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;News Filter (by Station or tags)&lt;/li&gt;
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;National and International news (courtesy of BusinessMirror news)&lt;/li&gt;
+&lt;li&gt;Customizable fonts&lt;/li&gt;
+&lt;li&gt;Read aloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;milestone-30&#34;&gt;Milestone 3.0&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrate stations&amp;rsquo; live videos (YouTube)&lt;/li&gt;
+&lt;li&gt;Integrate stations&amp;rsquo; VODs (video-on-demand)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, you can follow me on &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/reddvid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Twitter&lt;/a&gt; for mini updates.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>TI10 and Appdates</title>
+        <link>https://reddavid.me/ti10-and-appdates/</link>
+        <pubDate>Fri, 15 Oct 2021 03:53:07 +0800</pubDate>
+        
+        <guid>https://reddavid.me/ti10-and-appdates/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/ti10-appdates.png" alt="Featured image of post TI10 and Appdates" /&gt;&lt;p&gt;Let&amp;rsquo;s start with &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/The_International_2021#:~:text=The%20International%202021%2C%20also%20known,2%20world%20championship%20esports%20tournament.&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The International&lt;/a&gt;, shortened as TI, Valve&amp;rsquo;s yearly Dota 2 tournament where the 18 of the best teams around the world gather to fight for the Aegis of the Champions every year. After being canceled and waiting for more than 2 years it is now happening, without an audience in Bucharest, Romania with a total prizepool of $40M+.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The International 10 Prize Pool Breakdown. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/76mHH1MZue&#34;&gt;pic.twitter.com/76mHH1MZue&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1444037357775179779?ref_src=twsrc%5Etfw&#34;&gt;October 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+&lt;p&gt;I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches &lt;a class=&#34;link&#34; href=&#34;https://dota2.fandom.com/wiki/IceFrog&#34; target=&#34;_blank&#34;&gt;IceFrog&lt;/a&gt; brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn &lt;a class=&#34;link&#34; href=&#34;https://liquipedia.net/dota2/Dota_Pro_Circuit&#34; target=&#34;_blank&#34;&gt;DPC points&lt;/a&gt; for entering the prestigious TI.&lt;/p&gt;
+&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;Ten Days of DOTA&lt;/h2&gt;
+&lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;TI10 Groups Final Standings. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/JBXC9z7hBc&#34;&gt;pic.twitter.com/JBXC9z7hBc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1447199723308269568?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+&lt;p&gt;Now, as of this writing, we just ended Day 3 of the Main Stage and I&amp;rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&amp;rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;amp;name=large&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Thanks to &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/wykrhm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wykrhm Reddy (@wykrhm)&lt;/a&gt; for being such a good Dota Community Man.&lt;/p&gt;
+&lt;h2 id=&#34;the-secret&#34;&gt;The Secret&lt;/h2&gt;
+&lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;We made a promise. We delivered.&lt;br&gt;&lt;br&gt;UPPER BRACKET: SECURED 🖤&lt;a href=&#34;https://twitter.com/hashtag/SecretDota?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#SecretDota&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://t.co/4V6czHXzhI&#34;&gt;pic.twitter.com/4V6czHXzhI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Team Secret (@teamsecret) &lt;a href=&#34;https://twitter.com/teamsecret/status/1447192871677857796?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+&lt;p&gt;I follow the games by watching &lt;a class=&#34;link&#34; href=&#34;https://www.twitch.tv/singsing&#34; target=&#34;_blank&#34;&gt;singsing&amp;rsquo;s Twitch stream&lt;/a&gt; as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.&lt;/p&gt;
+&lt;h2 id=&#34;coding-and-appdates&#34;&gt;Coding and Appdates&lt;/h2&gt;
+&lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
+&lt;p&gt;My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/samsung-a71.png&#34;
+         alt=&#34;Samsung A71&#34; height=&#34;400px&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samsung A71&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The app has been up on the Google Play Store for some time (as I blogged &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpn-android-app/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;) and lacked significant updates. It stayed that way for a while until all busy-ness and code-confusion (is this even a term?) has subsided.&lt;/p&gt;
+&lt;p&gt;These past days, I managed to release an update for the Android beta app and also started a TestFlight for iOS devices.&lt;/p&gt;
+&lt;p&gt;I decided to version the app as 2.0 as this was a complete rework from the old code despite not publicly releasing a version 1.0. The app was previously coded on C#/Xamarin Forms but the documentation and support I needed was &amp;ldquo;not there&amp;rdquo;, then I started to code on Dart/Flutter for RPN Radio which made things easier - being a single-codebase mobile app development.&lt;/p&gt;
+&lt;p&gt;Version 2.0 brings a new UI and supports offline mode - see downloaded news (as opposed to before that it will not work when there is no internet; though it is always recommended to be connected to get the latest news).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Items Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
+	data-flex-basis=&#34;108px&#34; &gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Detail Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
+	data-flex-basis=&#34;108px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;Get into the Beta Test&lt;/h3&gt;
+&lt;p&gt;The app is available for testing and I welcome your feedback after getting the app here from &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/2YVpJC9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://apple.co/2XaMBNl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple TestFlight&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Or scan the QR code/s below:&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/play-qr.png&#34;
+         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/testflight-qr.png&#34;
+         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;You may submit your feedback using built-in tools from Google or TestFlight, sending an &lt;a class=&#34;link&#34; href=&#34;mailto:info@rpnradio.com&#34; &gt;email&lt;/a&gt;, or any on my socials.&lt;/p&gt;
+&lt;p&gt;I will try my best to get the app working for a public release.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s it for now folks, &lt;strong&gt;let&amp;rsquo;s watch and enjoy some Dota&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>OBS Studio 27 is here</title>
+        <link>https://reddavid.me/obs-studio-27-is-here/</link>
+        <pubDate>Tue, 08 Jun 2021 03:15:06 +0800</pubDate>
+        
+        <guid>https://reddavid.me/obs-studio-27-is-here/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/obs27.png" alt="Featured image of post OBS Studio 27 is here" /&gt;&lt;p&gt;I just updated my OBS a few days ago with the official release version after trying out the several release candidates.&lt;/p&gt;
+&lt;p&gt;I will talk about the new features and improvements here that will be useful for my use. Check their blog post &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/blog/obs-studio-27-released&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt; and the complete changelog &lt;a class=&#34;link&#34; href=&#34;https://github.com/obsproject/obs-studio/releases/tag/27.0.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/LUkMxYNIyj0&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h2 id=&#34;undo--redo&#34;&gt;Undo &amp;amp; Redo&lt;/h2&gt;
+&lt;p&gt;At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though. And that&amp;rsquo;s 5000 actions.&lt;/p&gt;
+&lt;p&gt;Though I mostly use OBS for game streaming (no facecam), I move things around only to notice that it was not the source I wanted to move! This surely helps users out and always had been the most requested feature.&lt;/p&gt;
+&lt;h2 id=&#34;files-where&#34;&gt;Files, where?&lt;/h2&gt;
+&lt;p&gt;Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don&amp;rsquo;t go start streaming only to have the files missing.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_missing_files_warning.png&#34;
+         alt=&#34;Missing Files Warning Window&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Missing Files Warning Window&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;no-more-noise&#34;&gt;No More Noise&lt;/h2&gt;
+&lt;p&gt;OBS v27 for Windows now adds NVIDIA Noise Removal as an option to audio Noise Suppression filter &lt;del&gt;when the &lt;a class=&#34;link&#34; href=&#34;https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NVIDIA Audio Effects SDK&lt;/a&gt; is installed. Oh, also you need an NVIDIA RTX GPU for that - so no screenshots from me.&lt;/del&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
+&lt;p&gt;Thanks for these 2 new improvements among others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Browser Source interact button (toolbar)&lt;/li&gt;
+&lt;li&gt;Virtual Camera toggle button (system tray)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_browser_interact.png&#34;
+         alt=&#34;Browser Source Interact Button&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Browser Source Interact Button&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_virtual_cam.png&#34;
+         alt=&#34;Toggle Virtual Camera on System Tray Icon&amp;amp;lt;&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Toggle Virtual Camera on System Tray Icon&amp;lt;&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;This new version of OBS Studio definitely helps with the new added features. Now I want a selective record feature.&lt;/p&gt;
+&lt;p&gt;I use OBS Studio together with &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34; target=&#34;_blank&#34;&gt;StreamElements&lt;/a&gt; OBS Live to simplify my stream setup to Facebook Gaming. I now have 1,019 followers (as of this writing) and why not check me out there? Maybe talk about gaming, life, or programming? &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;RedDavidGaming on Facebook Gaming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I dedicate the starwall page for my stars-sender. Thanks and make sure to check out OBS Studio&amp;rsquo;s latest release &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

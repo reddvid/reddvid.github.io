@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Application Development on David Ballesteros</title>
+        <link>https://reddavid.me/tags/application-development/</link>
+        <description>Recent content in Application Development on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 30 May 2021 00:15:36 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/application-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>RPN Radio UI Overhaul</title>
+        <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
+        <pubDate>Sun, 30 May 2021 00:15:36 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/rpnradio-ui.jpeg" alt="Featured image of post RPN Radio UI Overhaul" /&gt;&lt;p&gt;Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.&lt;/p&gt;
+&lt;h2 id=&#34;old-look&#34;&gt;Old Look&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s take a look at what the app looked like before the update:&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/stationlist.png&#34; alt=&#34;RPN Radio Stations&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/playingview.png&#34; alt=&#34;RPN Radio Streaming&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
+&lt;figcaption&gt;Old UI&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;p&gt;Though it looked intuitive - with just two simple steps: 1) Launch app, 2) Select station and Listen; the main page does not give the user context on what the app does, which raise this question:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What am I supposed to do?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;overhaul&#34;&gt;Overhaul&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&#34;https://media.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;menu-list&#34;&gt;Menu List&lt;/h3&gt;
+&lt;p&gt;At first glance of a first-time user, the stations list does NOT show that it is &amp;ldquo;clickable&amp;rdquo;. So the first UI update was to change the 4x3 grid to a simple list.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/menu-list-bna.png&#34;
+         alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Station Menu Item Before and After&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This subtle change provides the user a hint of &amp;ldquo;click me&amp;rdquo; by giving the list item a design of a button. It also gave a space for the station&amp;rsquo;s detail to be added - station&amp;rsquo;s location and live/offline status.&lt;/p&gt;
+&lt;h3 id=&#34;header-and-controls&#34;&gt;Header and Controls&lt;/h3&gt;
+&lt;p&gt;Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/head-controls-bna.png&#34;
+         alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Header &amp;amp; Controls Before and After&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also changed the text that shows the current stations into a simpler one and updated the share icon.&lt;/p&gt;
+&lt;h3 id=&#34;new-font&#34;&gt;New Font&lt;/h3&gt;
+&lt;p&gt;I like &lt;a class=&#34;link&#34; href=&#34;https://fonts.google.com/specimen/Poppins&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Poppins&lt;/a&gt;.
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+&lt;p&gt;Besides the UI updates mentioned above, I added an &amp;ldquo;About&amp;rdquo; page. It is a simple about and external links of RPN.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/rpnradio-about.png&#34;
+         alt=&#34;RPN Radio About&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;About page&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;p&gt;These are my to-do list for the app, which we will see soon on future updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No internet connection status&lt;/li&gt;
+&lt;li&gt;Bottom player controls (Priority)&lt;/li&gt;
+&lt;li&gt;App-aware sharing&lt;/li&gt;
+&lt;li&gt;Rate and review prompt&lt;/li&gt;
+&lt;li&gt;Links to station email/messaging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
+&lt;p&gt;As always, the app is still available for Android and really soon for iOS.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

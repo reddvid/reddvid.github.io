@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Software development on David Ballesteros</title>
+        <link>https://reddavid.me/tags/software-development/</link>
+        <description>Recent content in Software development on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 12 Jun 2021 00:50:15 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/software-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Get RPN Radio for iOS</title>
+        <link>https://reddavid.me/get-rpn-radio-for-ios/</link>
+        <pubDate>Sat, 12 Jun 2021 00:50:15 +0800</pubDate>
+        
+        <guid>https://reddavid.me/get-rpn-radio-for-ios/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/rpnradio-appstore.png" alt="Featured image of post Get RPN Radio for iOS" /&gt;&lt;p&gt;After more than 3 months of processing Apple Developer Program&amp;rsquo;s requirements, the app is here for iPhones!&lt;/p&gt;
+&lt;p&gt;This is the very same version we release for the Android counterpart &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpnradio-android/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;read the details on this blog post&lt;/a&gt;. Ads are disabled for now as I am still fixing things with the release of iOS 14.7&lt;/p&gt;
+&lt;br&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/home.png&#34; style=&#34;display:inline-block;margin-left:auto;width:200px;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/playing.png&#34; style=&#34;display:inline-block;margin-left:10px;margin-right:10px;width:200px;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/about.png&#34; style=&#34;display:inline-block;margin-left:auto;width:200px;&#34;&gt;
+&lt;figcaption&gt;App Screenshots&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;p&gt;The app is set to receive further updates, especially with station details. The list below shows the top priority updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detailed station page (operating hours, location, and contact numbers)&lt;/li&gt;
+&lt;li&gt;Better player view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;The app is FREE TO DOWNLOAD here:&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;amp;itscg=30200e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;figure&gt;&lt;img src=&#34;img/appstore-badge.png&#34; width=&#34;250px&#34;/&gt;
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/qr.png&#34;
+         alt=&#34;RPN Radio QR Code for iOS&#34; width=&#34;40%&#34;/&gt;
+&lt;/figure&gt;
+
+</description>
+        </item>
+        <item>
+        <title>RPN Radio UI Overhaul</title>
+        <link>https://reddavid.me/rpnradio-ui-overhaul/</link>
+        <pubDate>Sun, 30 May 2021 00:15:36 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/rpnradio-ui.jpeg" alt="Featured image of post RPN Radio UI Overhaul" /&gt;&lt;p&gt;Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.&lt;/p&gt;
+&lt;h2 id=&#34;old-look&#34;&gt;Old Look&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s take a look at what the app looked like before the update:&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/stationlist.png&#34; alt=&#34;RPN Radio Stations&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/playingview.png&#34; alt=&#34;RPN Radio Streaming&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
+&lt;figcaption&gt;Old UI&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;p&gt;Though it looked intuitive - with just two simple steps: 1) Launch app, 2) Select station and Listen; the main page does not give the user context on what the app does, which raise this question:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What am I supposed to do?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;overhaul&#34;&gt;Overhaul&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&#34;https://media.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;menu-list&#34;&gt;Menu List&lt;/h3&gt;
+&lt;p&gt;At first glance of a first-time user, the stations list does NOT show that it is &amp;ldquo;clickable&amp;rdquo;. So the first UI update was to change the 4x3 grid to a simple list.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/menu-list-bna.png&#34;
+         alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Station Menu Item Before and After&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This subtle change provides the user a hint of &amp;ldquo;click me&amp;rdquo; by giving the list item a design of a button. It also gave a space for the station&amp;rsquo;s detail to be added - station&amp;rsquo;s location and live/offline status.&lt;/p&gt;
+&lt;h3 id=&#34;header-and-controls&#34;&gt;Header and Controls&lt;/h3&gt;
+&lt;p&gt;Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/head-controls-bna.png&#34;
+         alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Header &amp;amp; Controls Before and After&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also changed the text that shows the current stations into a simpler one and updated the share icon.&lt;/p&gt;
+&lt;h3 id=&#34;new-font&#34;&gt;New Font&lt;/h3&gt;
+&lt;p&gt;I like &lt;a class=&#34;link&#34; href=&#34;https://fonts.google.com/specimen/Poppins&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Poppins&lt;/a&gt;.
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+&lt;p&gt;Besides the UI updates mentioned above, I added an &amp;ldquo;About&amp;rdquo; page. It is a simple about and external links of RPN.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/rpnradio-about.png&#34;
+         alt=&#34;RPN Radio About&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;h4&gt;About page&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;p&gt;These are my to-do list for the app, which we will see soon on future updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No internet connection status&lt;/li&gt;
+&lt;li&gt;Bottom player controls (Priority)&lt;/li&gt;
+&lt;li&gt;App-aware sharing&lt;/li&gt;
+&lt;li&gt;Rate and review prompt&lt;/li&gt;
+&lt;li&gt;Links to station email/messaging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
+&lt;p&gt;As always, the app is still available for Android and really soon for iOS.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Developing for Apple Soon</title>
+        <link>https://reddavid.me/developing-for-apple-soon/</link>
+        <pubDate>Sat, 06 Feb 2021 00:40:14 +0800</pubDate>
+        
+        <guid>https://reddavid.me/developing-for-apple-soon/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/appstore.png" alt="Featured image of post Developing for Apple Soon" /&gt;&lt;h2 id=&#34;me--apple-user&#34;&gt;Me = Apple User?&lt;/h2&gt;
+&lt;p&gt;Yes, I gave in to use an Apple device. Well, I&amp;rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&amp;rsquo;s kiss. That&amp;rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;loaned&lt;/em&gt; for an iPhone 11 since the iPhone 12 is expensive and I like the 11&amp;rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&amp;rsquo;t stand out as a phone&amp;rsquo;s color and I&amp;rsquo;ve had too many black phones before.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/iphone11back.jpg&#34;
+         alt=&#34;Yellow iPhone 11&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Yellow iPhone 11&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;developing-apps-for-ios-soon&#34;&gt;Developing Apps for iOS Soon&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m excited to learn new things and finally applying the cross-platform capabilities of &lt;a class=&#34;link&#34; href=&#34;https://dotnet.microsoft.com/apps/xamarin/xamarin-forms&#34;&gt;Xamarin.Forms&lt;/a&gt; which I have used in some of my Android apps and it&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/&#34;&gt;C#&lt;/a&gt;. I also want to check out native code from Apple, &lt;a class=&#34;link&#34; href=&#34;https://developer.apple.com/xcode/swiftui/&#34;&gt;SwiftUI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/applibrary.jpg&#34;
+         alt=&#34;iOS 14 App Library (is that TikTok? 😅)&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;iOS 14 App Library (is that TikTok? 😅)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So, to test things out, I would be putting my app &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-android-dark-mode/&#34;&gt;ZIP Code PH&lt;/a&gt; on the App Store and might set a (very very small) price to support this costly Apple environment 😂.&lt;/p&gt;
+&lt;h2 id=&#34;in-the-meantime&#34;&gt;In the meantime&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Go ahead and check out my apps on the &lt;a class=&#34;link&#34; href=&#34;ms-windows-store://publisher?name=Red David&#34;&gt;Windows 10 Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/dev?id=5465762079490576029&#34;&gt;Google Play Store&lt;/a&gt; both under Red David.&lt;/p&gt;
+&lt;p&gt;See you soon!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

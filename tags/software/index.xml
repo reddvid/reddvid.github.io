@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Software on David Ballesteros</title>
+        <link>https://reddavid.me/tags/software/</link>
+        <description>Recent content in Software on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 05 Feb 2021 23:17:22 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/software/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ZIP Code PH for Android gets Dark Mode</title>
+        <link>https://reddavid.me/zipcodeph-android-dark-mode/</link>
+        <pubDate>Fri, 05 Feb 2021 23:17:22 +0800</pubDate>
+        
+        <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-android.png" alt="Featured image of post ZIP Code PH for Android gets Dark Mode" /&gt;&lt;h2 id=&#34;the-pandemic-and-night-owls&#34;&gt;The Pandemic and Night Owls&lt;/h2&gt;
+&lt;p&gt;My app, ZIP Code PH, has been available on Google Play Store for more than a year now and because of the pandemic, more and more people are staying at home and are mostly &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Night_owl_(person)&#34;&gt;night-owls&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And app and software developers are now giving their projects dark mode - not just to follow accessibility standards but offer an option for people to reduce or avoid eye strain.&lt;/p&gt;
+&lt;h2 id=&#34;heres-dark-mode-for-ya&#34;&gt;Here&amp;rsquo;s Dark Mode for ya&lt;/h2&gt;
+&lt;p&gt;So here I am, picking up again on coding (for my apps) and started giving some apps a dark flavor. It almost took me a month to develop and test since available Xamarin Forms documentation didn&amp;rsquo;t suit my liking.&lt;/p&gt;
+&lt;h2 id=&#34;quick-app-features&#34;&gt;Quick App Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Toggle light and dark mode&lt;/li&gt;
+&lt;li&gt;Quick search Philippine ZIP codes&lt;/li&gt;
+&lt;li&gt;Favorite (Bookmark) selected ZIP codes for easy reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;See for yourself the light and dark mode for the app below.&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/zipcode-darkmode/main-light.png&#34; alt=&#34;ZIP Code PH - Main Menu on Light Mode&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;span style=&#34;margin: 0 10px&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/zipcode-darkmode/main-dark.png&#34; alt=&#34;ZIP Code PH - Main Menu on Dark Mode&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;figcaption&gt;ZIP Code PH - Main Menu&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/zipcode-darkmode/list-light.png&#34; alt=&#34;ZIP Code PH - ZIP codes on Light Mode&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;span style=&#34;margin: 0 10px&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://reddavid.me/images/02-21/zipcode-darkmode/list-dark.png&#34; alt=&#34;ZIP Code PH - ZIP codes on Dark Mode&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
+&lt;figcaption&gt;ZIP Code PH - List&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I chose &lt;code&gt;#222222&lt;/code&gt; as the background color for darkmode so it is easier in the eyes (at least for me and some design posts I read somewhere). If someone requests an option for a darker color, I&amp;rsquo;d be glad to add it. (Themes, maybe? 🤔)&lt;/p&gt;
+&lt;h2 id=&#34;make-me-happy-download&#34;&gt;Make Me Happy, Download&lt;/h2&gt;
+&lt;p&gt;Yes, please. Make me happy by downloading the app, write a review and give a rating of 5 stars. The app is available for Android, on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103245343&#34;&gt;Huawei App Gallery.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It is free to download and I hope you welcome ads that earns a me a little. Thank you and until next app!&lt;/p&gt;
+&lt;center&gt;
+&lt;a class=&#34;link&#34; href=&#39;https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&#39;&gt;&lt;img alt=&#39;Get it on Google Play&#39; src=&#39;https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png&#39; style=&#34;width: 50%&#34;/&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;looking-for-a-windows-10-version&#34;&gt;Looking for a Windows 10 version?&lt;/h2&gt;
+&lt;p&gt;Check out &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-new-ui/&#34;&gt;this old blog post&lt;/a&gt; about the Windows 10 app.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

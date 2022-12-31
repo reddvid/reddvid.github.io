@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Facebook Gaming on David Ballesteros</title>
+        <link>https://reddavid.me/tags/facebook-gaming/</link>
+        <description>Recent content in Facebook Gaming on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 12 Jun 2021 04:26:59 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/facebook-gaming/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mobile Game Streaming</title>
+        <link>https://reddavid.me/mobile-game-streaming/</link>
+        <pubDate>Sat, 12 Jun 2021 04:26:59 +0800</pubDate>
+        
+        <guid>https://reddavid.me/mobile-game-streaming/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/codm-fbgg-streaming.png" alt="Featured image of post Mobile Game Streaming" /&gt;&lt;p&gt;This is a post to ask my SMP members to forgive by not playing for a while (a week) on our Minecraft server. I will also share my setup how I stream mobile games.&lt;/p&gt;
+&lt;h2 id=&#34;grind-to-legend&#34;&gt;Grind to Legend&lt;/h2&gt;
+&lt;p&gt;Ever since the new season of Call of Duty: Mobile came out, I just wanted to redeem the legendary medal. And also to get all rewards from the Battle Pass I bought. 😂&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t worry guys and gals, kuya Red will be back soon. Konti na lang back to Legendary rank na sa BR mode at pwede na mag-Minecraft.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/codm-locked.png&#34;
+         alt=&#34;Locked Legendary Rank&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Locked Legendary Rank&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;minecraft-117-is-here&#34;&gt;Minecraft 1.17 is Here&lt;/h2&gt;
+&lt;p&gt;Spigot 1.17 is out and is now available as an option for our server but the plugins are currently unsupported, so we&amp;rsquo;ll stick to 1.16.5. Though I played the snapshots and pre-releases, I am still yet to play Minecraft 1.17 Vanilla.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/0maWbr0FHKY&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The caves and cliffs update (part 1) brings new items and features which were detailed on Minecraft&amp;rsquo;s own blog &lt;a class=&#34;link&#34; href=&#34;https://www.minecraft.net/en-us/updates/caves-and-cliffs&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now on to my setup.&lt;/p&gt;
+&lt;h2 id=&#34;mobile-stream-setup&#34;&gt;Mobile Stream Setup&lt;/h2&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;First, let&amp;rsquo;s see the devices I use except for the laptop/PC for streaming.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone 11&lt;/li&gt;
+&lt;li&gt;Lightning to AV Digital Adapter&lt;/li&gt;
+&lt;li&gt;HDMI cable&lt;/li&gt;
+&lt;li&gt;Cheap video capture&lt;/li&gt;
+&lt;li&gt;Audio-technica Condenser Mic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I used to play on my Nokia 7 Plus but can&amp;rsquo;t the specs can&amp;rsquo;t keep up, not sure why. This is when I use &lt;a class=&#34;link&#34; href=&#34;https://www.vysor.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vysor&lt;/a&gt;, a screen mirroring app that wirelessly share the phone&amp;rsquo;s screen to the PC. Now, that&amp;rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/adapters.jpg&#34;
+         alt=&#34;Lightning to AV Adapter and USB Capture Card&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Lightning to AV Adapter and USB Capture Card&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I wonder why branded capture cards are so damn expensive?! Like the &lt;a class=&#34;link&#34; href=&#34;https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Elgato HD60S&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://ecommerce.datablitz.com.ph/products/avermedia-live-gamer-ultra-game-streaming-capture-box-gc553&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AverMedia Live Gamer Ultra&lt;/a&gt;. So I went ahead and bought a $6 (300 pesos) unbranded USB capture card and it just works fine. Just stick it well on a USB port and it&amp;rsquo;s good to go.&lt;/p&gt;
+&lt;iframe src=&#34;https://giphy.com/embed/3o6MbtelsDZdsbFB7i&#34; width=&#34;480&#34; height=&#34;360&#34; frameBorder=&#34;0&#34; class=&#34;giphy-embed&#34; style=&#34;display: block; margin: 0px auto;&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Lastly, I recently bought an &lt;a class=&#34;link&#34; href=&#34;https://www.audio-technica.com/en-gb/atr2500x-usb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ATR-2500X condenser mic&lt;/a&gt; to record songs and guitars for my YouTube channel. Now it&amp;rsquo;s multi-purpose that I use it on my streams and Zoom meetings.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/atr-2500x.jpg&#34;
+         alt=&#34;Audio-Technica ATR2500X Condenser Mic&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Audio-Technica ATR2500X Condenser Mic&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;As for the software, I use &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Studio&lt;/a&gt;. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &amp;ldquo;Go Live&amp;rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/obslive.png&#34;
+         alt=&#34;StreamElements OBS.Live Plugin&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;StreamElements OBS.Live Plugin&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;diagram&#34;&gt;Diagram&lt;/h3&gt;
+&lt;p&gt;This is how my setup is connected. Remember that you need an internet with at least 4000kbps of upload speed to actually stream your games on Facebook Gaming (&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/fbgaminghome/creators/getstarted&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;source&lt;/a&gt;). I stream at 1080p60 with 6000kbps bitrate.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/setup-diagram.png&#34;
+         alt=&#34;Hardware Setup Diagram&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Hardware Setup Diagram&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
+&lt;p&gt;I have a few mobile games on my phone right now compared to my &lt;a class=&#34;link&#34; href=&#34;https://steamcommunity.com/id/reddvid/games/?tab=all&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam Library&lt;/a&gt;. But I own some mobile-worthy games like Stardew Valley and Minecraft: Pocket Edition.&lt;/p&gt;
+&lt;p&gt;I have a love and hate relationship with games like PUBG Mobile and Mobile Legends. I am looking forward to Apex Legends: Mobile and Diablo Immortal though. They&amp;rsquo;re both are already in beta preview on Android, currently waiting for the iPhone/iPad version.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://m.me/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Send me a message&lt;/a&gt; to request a game I can play, or we can play together.&lt;/p&gt;
+&lt;h2 id=&#34;support-me-on-facebook-gaming&#34;&gt;Support me on Facebook Gaming&lt;/h2&gt;
+&lt;p&gt;This seems repetitive, but I do need some support when I go live. It feels like streaming and talking to friends is now an everyday duty, haha. But kidding aside, everyone needs help.&lt;/p&gt;
+&lt;p&gt;Check me &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;, and let&amp;rsquo;s talk more about tech and things.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Unlocked: 1K Followers</title>
+        <link>https://reddavid.me/unlocked-1k-followers/</link>
+        <pubDate>Sat, 29 May 2021 22:26:48 +0800</pubDate>
+        
+        <guid>https://reddavid.me/unlocked-1k-followers/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/1k-followers.png" alt="Featured image of post Unlocked: 1K Followers" /&gt;&lt;p&gt;First of all, thank you so much to all who stayed, watched, and enjoyed my content.&lt;/p&gt;
+&lt;p&gt;It was on May 26th that we finally got to a thousand following after a year of starting to be a Gaming Video Creator on Facebook. The stream felt like another day of chill streaming by playing a couple of hours of Minecraft. It was quite overwhelming for a small-time (and not full-time) streamer like me but thanks to my cousins and og supporters for helping me out in the chat and Discord server.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/1k-achievement.png&#34;
+         alt=&#34;1K followers achievement custom&#34; width=&#34;80%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;deldailydel-nightly-streams&#34;&gt;&lt;del&gt;Daily&lt;/del&gt; Nightly Streams&lt;/h2&gt;
+&lt;p&gt;Now that there&amp;rsquo;s that 1K following behind me, I will pursue to stream on a daily basis, even a short one because honestly, I miss talking and updating with them. I will also continue to improve my stream quality.&lt;/p&gt;
+&lt;h2 id=&#34;not-minecraft-hello&#34;&gt;Not Minecraft, Hello?&lt;/h2&gt;
+&lt;p&gt;Minecraft is a really popular game we all know that, and most of my followers were because of the game. I do not expect everyone to like me playing variety of games but I still hope most could support me when I come back playing other types of games. Although, I would still join our SMP server if I fail to stream Minecraft.&lt;/p&gt;
+&lt;h2 id=&#34;twitchyoutube-switch&#34;&gt;Twitch/YouTube Switch&lt;/h2&gt;
+&lt;p&gt;Yes, I have been thinking of switching to either one, why? First, Twitch have several audience interaction which I have been using when I watch my favorite streamers there like, watch points, play with viewers, etc and you can watch on app minimized.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/twitch-minimized.png&#34;
+         alt=&#34;Watch Twitch Videos Minimized&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Watch Twitch Videos Minimized&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;While YouTube had a better chat system, but chat highlights and audience interactions are better - with chatbots.&lt;/p&gt;
+&lt;p&gt;I held back these thoughts before since I did start my Facebook page a long time and gained a few followers. I just hoped if I made up my mind to switch, we can determine the real supporters. Maybe?&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it for this blog post. Thank you again for visiting my website and you can catch up on my Gaming Videos on &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facebook Gaming&lt;/a&gt; and follower me there. You can also follow me on my socials: @reddvid&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Streaming Again &amp; Minecraft SMP Season 2</title>
+        <link>https://reddavid.me/minecraft-smp-season-2/</link>
+        <pubDate>Sun, 18 Apr 2021 02:52:30 +0800</pubDate>
+        
+        <guid>https://reddavid.me/minecraft-smp-season-2/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/mc-smp-s02.png" alt="Featured image of post Streaming Again &amp; Minecraft SMP Season 2" /&gt;&lt;p&gt;Rejoice! My more-than-a-month-long hiatus finally came to an end - I&amp;rsquo;m back to streaming video games in Facebook Gaming. In just 2 days, I&amp;rsquo;ve managed to garner a whopping 8+ hours as compared before.&lt;/p&gt;
+&lt;p&gt;This also means that I am back to relieving some stress thru my beloved game Minecraft, (Survival Mode).&lt;/p&gt;
+&lt;h2 id=&#34;first-world&#34;&gt;First World?&lt;/h2&gt;
+&lt;p&gt;The first server I rented became &lt;del&gt;toxic&lt;/del&gt; unenjoyable after a few months after opening it into the public - NO it&amp;rsquo;s not because of the new players, but because the server was technically &amp;ldquo;DONE&amp;rdquo; by having usable XP farms, stripped mines, food source, and other auto AFK farms. Which meant that new players have nothing more to do but mess around most of the time.&lt;/p&gt;
+&lt;p&gt;I tried to reload the server with a new world but it kept corrupting upto the point that I reverted it back to the older (toxic) world. And I stopped playing less and less.&lt;/p&gt;
+&lt;h2 id=&#34;refreshed-and-new-season-2&#34;&gt;Refreshed and New? Season 2&lt;/h2&gt;
+&lt;p&gt;Yes, after I decided to stream again, I hastily rented a new server and invite some of my OG followers to play with me. As of now, the world is still peaceful and managed to invite more players in hoping we can live happily in the upcoming days.&lt;/p&gt;
+&lt;p&gt;Unlike before, the server is now Offline-mode, meaning that non-Mojang accounts can now join - be CAREFUL though, WE CAN STILL &lt;strong&gt;BAN&lt;/strong&gt; YOU.&lt;/p&gt;
+&lt;h2 id=&#34;wanna-join&#34;&gt;Wanna Join?&lt;/h2&gt;
+&lt;p&gt;Head over to our Discord server for the rules and guidelines, and for the Server IP.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.gg/rKnJb4J&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Red David Discord Server&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Want to Own a Minecraft Server&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hosted by Shockbyte, cheap and reliable servers are offered for you. Check them out &lt;a class=&#34;link&#34; href=&#34;https://bit.ly/ShockByteMC&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;hello-1k-followers&#34;&gt;Hello 1K Followers&lt;/h2&gt;
+&lt;p&gt;I have been aiming to reach followers before the year 2020 ends but I failed to do so, much more that I stopped streaming for more than a month.&lt;/p&gt;
+&lt;p&gt;Now with regained confidence, I am on the path to reach that goal while improving my streaming. So head over to my &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facebook Gaming Page&lt;/a&gt; and see if you like me to gain a Follow!&lt;/p&gt;
+&lt;h2 id=&#34;facebook-stars-&#34;&gt;Facebook Stars ✨🌟⭐&lt;/h2&gt;
+&lt;p&gt;Also, I tried streaming mobile games now and then but the current setup is not suited for it. I am slowly building funds to get the setup for mobile games too.&lt;/p&gt;
+&lt;p&gt;Receiving stars during my live streams are very much appreciated by placing your names on my Starwall here: &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/starwall&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Star-senders Wall&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;other-ways-to-support&#34;&gt;Other Ways to Support&lt;/h2&gt;
+&lt;p&gt;Hi, I do coding on my own and a small-time streamer, any help would be appreciated 😊&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://buymeacoffee.com/reddavid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Buy me a Coffee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ko-fi.com/reddavid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ko-fi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://paypal.me/reddvid/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;PayPal.me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/reddavidgaming/tip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;StreamElements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GCash: 0915-987-4221&lt;/li&gt;
+&lt;li&gt;Visit my links: &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/links&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Red David Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Download&lt;/a&gt; my ZIP Code PH app&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>iOS on David Ballesteros</title>
+        <link>https://reddavid.me/tags/ios/</link>
+        <description>Recent content in iOS on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 31 Mar 2022 00:44:04 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/ios/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Updating RPN Radio Mobile App</title>
+        <link>https://reddavid.me/updating-rpnradio-mobile-app/</link>
+        <pubDate>Thu, 31 Mar 2022 00:44:04 +0800</pubDate>
+        
+        <guid>https://reddavid.me/updating-rpnradio-mobile-app/</guid>
+        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;Update 1&lt;/h2&gt;
+&lt;p&gt;&lt;small&gt;2022-03-31&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;I just refactored the FutureBuilder by separating the future tasks to where they are actually used in the UI - to prevent long startup and show the main UI at launch instead of a loading screen.&lt;/p&gt;
+&lt;p&gt;Version 2.0.1 is now on open testing for Android on Google Play Store.&lt;/p&gt;
+&lt;p&gt;Download link: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RPN Radio for Android (Beta)&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;It&amp;rsquo;s been a while since I coded and updated my apps, it just somehow began again when I felt the urge to refresh my website&amp;rsquo;s looks. Now I am aiming to light up every Github contribution grid block whenever I can.&lt;/p&gt;
+&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;Updating Flutter Packages&lt;/h2&gt;
+&lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then most are already outdated and forced some to major versions with&lt;code&gt;flutter pub upgrade &amp;ndash;major-versions&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.&lt;/p&gt;
+&lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it&amp;rsquo;s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can&amp;rsquo;t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.&lt;/p&gt;
+&lt;h2 id=&#34;new-code&#34;&gt;New Code&lt;/h2&gt;
+&lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
+&lt;figure&gt;&lt;img src=&#34;img/refactoring-files.png&#34;
+         alt=&#34;Refactoring files to folders&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Refactoring files to folders&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Upgrading packages with at least 3 versions above since the app&amp;rsquo;s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flutter Audio Service Demo&lt;/a&gt;)&lt;/strong&gt; from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.&lt;/p&gt;
+&lt;h3 id=&#34;futures&#34;&gt;Futures&lt;/h3&gt;
+&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;JSON&lt;/a&gt; to fetch the data. I faced a problem decoding it when I faced this unfamiliar type &lt;code&gt;Map&amp;lt;String, dynamic&amp;gt;&lt;/code&gt; coming from a C# perspective.&lt;/p&gt;
+&lt;p&gt;I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables &lt;code&gt;null&lt;/code&gt; when they are still being done, making some unwanted behaviors.&lt;/p&gt;
+&lt;p&gt;Then I finally used a &lt;strong&gt;&lt;em&gt;Future Builder,&lt;/em&gt;&lt;/strong&gt; it basically waits my tasks to finish fetching data before showing the main UI preventing further actions that require the variables.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dart&#34; data-lang=&#34;dart&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;FutureBuilder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;future:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Future&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;wait&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;([&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isLiveList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;getImages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()]),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;builder:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AsyncSnapshot&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;dynamic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;hasData&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;liveList&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;adsList&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;snapshot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MainUI&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Omitted for brevity
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;loadingScreen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Omitted for brevity
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper&lt;/h3&gt;
+&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
+&lt;p&gt;As stated above, I don&amp;rsquo;t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dart&#34; data-lang=&#34;dart&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Future&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;dynamic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;getImages&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;Map&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;dynamic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kd&#34;&gt;final&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;response&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;http&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Uri&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;parse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://...ads.json&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;));&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;statusCode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;200&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// If the call to the server was successful, parse the JSON
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;values&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;json&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;decode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;values&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Before adding the view though, I thought heavily on where to put it avoiding the user to a second page. Somehow this is what I went for:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/sponsors-control.png&#34;
+         alt=&#34;Sponsors View using ExpansionTile and Swiper&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Sponsors View using ExpansionTile and Swiper&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Sponsors View using ExpansionTile and Swiper&lt;/p&gt;
+&lt;p&gt;I used &lt;code&gt;ExpansionTile&lt;/code&gt; to allow the users to collapse/expand the view and &lt;code&gt;Swiper&lt;/code&gt; to show an auto-scroll of the images.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s the code for the Sponsors UI:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-dart&#34; data-lang=&#34;dart&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ExpansionTile&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;title:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s1&#34;&gt;&amp;#39;Sponsors&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;textColor:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;white&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;collapsedTextColor:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;white&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;iconColor:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Colors&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;white&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nl&#34;&gt;children:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nl&#34;&gt;padding:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;EdgeInsets&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;only&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nl&#34;&gt;bottom:&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;20.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          &lt;span class=&#34;nl&#34;&gt;child:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;ConstrainedBox&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nl&#34;&gt;constraints:&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BoxConstraints&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;loose&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                   &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;MediaQuery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;280.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nl&#34;&gt;child:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Swiper&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;autoplay:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;autoplayDelay:&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;10000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;itemBuilder:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;BuildContext&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;CachedNetworkImage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;nl&#34;&gt;imageUrl:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;imageUrl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;nl&#34;&gt;fit:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;BoxFit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fitHeight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      &lt;span class=&#34;nl&#34;&gt;width:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;MediaQuery&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;of&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;context&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;width&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0.60&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;itemCount:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;adsList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stationNames&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_nowPlayingIndex&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]].&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                  &lt;span class=&#34;nl&#34;&gt;pagination:&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SwiperPagination&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;))),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not use Swiper when image list is only 1&lt;/li&gt;
+&lt;li&gt;Improve loading screen during FutureBuilder&lt;/li&gt;
+&lt;li&gt;Handle “offline” connection&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>TI10 and Appdates</title>
+        <link>https://reddavid.me/ti10-and-appdates/</link>
+        <pubDate>Fri, 15 Oct 2021 03:53:07 +0800</pubDate>
+        
+        <guid>https://reddavid.me/ti10-and-appdates/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/ti10-appdates.png" alt="Featured image of post TI10 and Appdates" /&gt;&lt;p&gt;Let&amp;rsquo;s start with &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/The_International_2021#:~:text=The%20International%202021%2C%20also%20known,2%20world%20championship%20esports%20tournament.&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The International&lt;/a&gt;, shortened as TI, Valve&amp;rsquo;s yearly Dota 2 tournament where the 18 of the best teams around the world gather to fight for the Aegis of the Champions every year. After being canceled and waiting for more than 2 years it is now happening, without an audience in Bucharest, Romania with a total prizepool of $40M+.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The International 10 Prize Pool Breakdown. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/76mHH1MZue&#34;&gt;pic.twitter.com/76mHH1MZue&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1444037357775179779?ref_src=twsrc%5Etfw&#34;&gt;October 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+&lt;p&gt;I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches &lt;a class=&#34;link&#34; href=&#34;https://dota2.fandom.com/wiki/IceFrog&#34; target=&#34;_blank&#34;&gt;IceFrog&lt;/a&gt; brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn &lt;a class=&#34;link&#34; href=&#34;https://liquipedia.net/dota2/Dota_Pro_Circuit&#34; target=&#34;_blank&#34;&gt;DPC points&lt;/a&gt; for entering the prestigious TI.&lt;/p&gt;
+&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;Ten Days of DOTA&lt;/h2&gt;
+&lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;TI10 Groups Final Standings. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/JBXC9z7hBc&#34;&gt;pic.twitter.com/JBXC9z7hBc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1447199723308269568?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+&lt;p&gt;Now, as of this writing, we just ended Day 3 of the Main Stage and I&amp;rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&amp;rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;amp;name=large&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Thanks to &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/wykrhm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wykrhm Reddy (@wykrhm)&lt;/a&gt; for being such a good Dota Community Man.&lt;/p&gt;
+&lt;h2 id=&#34;the-secret&#34;&gt;The Secret&lt;/h2&gt;
+&lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;We made a promise. We delivered.&lt;br&gt;&lt;br&gt;UPPER BRACKET: SECURED 🖤&lt;a href=&#34;https://twitter.com/hashtag/SecretDota?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#SecretDota&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://t.co/4V6czHXzhI&#34;&gt;pic.twitter.com/4V6czHXzhI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Team Secret (@teamsecret) &lt;a href=&#34;https://twitter.com/teamsecret/status/1447192871677857796?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;/center&gt;
+&lt;p&gt;I follow the games by watching &lt;a class=&#34;link&#34; href=&#34;https://www.twitch.tv/singsing&#34; target=&#34;_blank&#34;&gt;singsing&amp;rsquo;s Twitch stream&lt;/a&gt; as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.&lt;/p&gt;
+&lt;h2 id=&#34;coding-and-appdates&#34;&gt;Coding and Appdates&lt;/h2&gt;
+&lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
+&lt;p&gt;My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/samsung-a71.png&#34;
+         alt=&#34;Samsung A71&#34; height=&#34;400px&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Samsung A71&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The app has been up on the Google Play Store for some time (as I blogged &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpn-android-app/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;) and lacked significant updates. It stayed that way for a while until all busy-ness and code-confusion (is this even a term?) has subsided.&lt;/p&gt;
+&lt;p&gt;These past days, I managed to release an update for the Android beta app and also started a TestFlight for iOS devices.&lt;/p&gt;
+&lt;p&gt;I decided to version the app as 2.0 as this was a complete rework from the old code despite not publicly releasing a version 1.0. The app was previously coded on C#/Xamarin Forms but the documentation and support I needed was &amp;ldquo;not there&amp;rdquo;, then I started to code on Dart/Flutter for RPN Radio which made things easier - being a single-codebase mobile app development.&lt;/p&gt;
+&lt;p&gt;Version 2.0 brings a new UI and supports offline mode - see downloaded news (as opposed to before that it will not work when there is no internet; though it is always recommended to be connected to get the latest news).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Items Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
+	data-flex-basis=&#34;108px&#34; &gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Detail Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
+	data-flex-basis=&#34;108px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;Get into the Beta Test&lt;/h3&gt;
+&lt;p&gt;The app is available for testing and I welcome your feedback after getting the app here from &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/2YVpJC9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://apple.co/2XaMBNl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple TestFlight&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Or scan the QR code/s below:&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/play-qr.png&#34;
+         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/testflight-qr.png&#34;
+         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;You may submit your feedback using built-in tools from Google or TestFlight, sending an &lt;a class=&#34;link&#34; href=&#34;mailto:info@rpnradio.com&#34; &gt;email&lt;/a&gt;, or any on my socials.&lt;/p&gt;
+&lt;p&gt;I will try my best to get the app working for a public release.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s it for now folks, &lt;strong&gt;let&amp;rsquo;s watch and enjoy some Dota&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Get RPN Radio for iOS</title>
+        <link>https://reddavid.me/get-rpn-radio-for-ios/</link>
+        <pubDate>Sat, 12 Jun 2021 00:50:15 +0800</pubDate>
+        
+        <guid>https://reddavid.me/get-rpn-radio-for-ios/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/rpnradio-appstore.png" alt="Featured image of post Get RPN Radio for iOS" /&gt;&lt;p&gt;After more than 3 months of processing Apple Developer Program&amp;rsquo;s requirements, the app is here for iPhones!&lt;/p&gt;
+&lt;p&gt;This is the very same version we release for the Android counterpart &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpnradio-android/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;read the details on this blog post&lt;/a&gt;. Ads are disabled for now as I am still fixing things with the release of iOS 14.7&lt;/p&gt;
+&lt;br&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/home.png&#34; style=&#34;display:inline-block;margin-left:auto;width:200px;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/playing.png&#34; style=&#34;display:inline-block;margin-left:10px;margin-right:10px;width:200px;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/about.png&#34; style=&#34;display:inline-block;margin-left:auto;width:200px;&#34;&gt;
+&lt;figcaption&gt;App Screenshots&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;p&gt;The app is set to receive further updates, especially with station details. The list below shows the top priority updates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detailed station page (operating hours, location, and contact numbers)&lt;/li&gt;
+&lt;li&gt;Better player view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;p&gt;The app is FREE TO DOWNLOAD here:&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;amp;itscg=30200e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;figure&gt;&lt;img src=&#34;img/appstore-badge.png&#34; width=&#34;250px&#34;/&gt;
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/rpnradio/qr.png&#34;
+         alt=&#34;RPN Radio QR Code for iOS&#34; width=&#34;40%&#34;/&gt;
+&lt;/figure&gt;
+
+</description>
+        </item>
+        <item>
+        <title>[Update: NOW AVAILABLE] ZIP Code PH for iOS</title>
+        <link>https://reddavid.me/zipcodeph-ios/</link>
+        <pubDate>Tue, 16 Mar 2021 01:28:15 +0800</pubDate>
+        
+        <guid>https://reddavid.me/zipcodeph-ios/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h2 id=&#34;now-available&#34;&gt;Now Available&lt;/h2&gt;
+&lt;p&gt;You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&amp;rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.&lt;/p&gt;
+&lt;p&gt;Get the app below:&lt;/p&gt;
+&lt;center&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/zip-code-ph/id1555921863?itsct=apps_box&amp;amp;itscg=30200&#34; style=&#34;display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;&#34;&gt;&lt;img src=&#34;https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;amp;releaseDate=1615766400&amp;h=60d62bace1ec567408893f9085310f3c&#34; alt=&#34;Download on the App Store&#34; style=&#34;border-radius: 13px; width: 250px; height: 83px;&#34;&gt;&lt;/a&gt;
+&lt;br&gt;&lt;img src=&#34;https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/a1b53b4233734ce37673d9f70803db74/47cd37c9-fb35-4a15-b8b8-958219968ea0.png&#34; width=&#34;200px&#34;&gt;
+&lt;/center&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;lets-go&#34;&gt;Let&amp;rsquo;s Go&lt;/h2&gt;
+&lt;p&gt;For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&amp;rsquo;s native language SwiftUI.&lt;/p&gt;
+&lt;p&gt;Using a Mac is not that hard anymore since I&amp;rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.&lt;/p&gt;
+&lt;p&gt;And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.&lt;/p&gt;
+&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
+&lt;h3 id=&#34;main-and-about-page&#34;&gt;Main and About Page&lt;/h3&gt;
+&lt;p&gt;I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&amp;rsquo;t consume a lot of code-behind.&lt;/p&gt;
+&lt;p&gt;The Main Page took a lot of iterations but below is the final view (as of this writing):&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/mainpage.png&#34;
+         alt=&#34;Main Page&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Main Page&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Help/About Page contains the same details I used in the Android app except that I added attributions to the new images in the Main Page (thanks &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34; target=&#34;_blank&#34;&gt;Unsplash!&lt;/a&gt;)&lt;/p&gt;
+&lt;figure class=&#34;image&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/about-1.png&#34; style=&#34;display:inline;margin-left:auto;margin-right:auto;width:40%;&#34;&gt;
+&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/about-2.png&#34; style=&#34;display:inline;margin-left:auto;margin-right:auto;width:40%;&#34;&gt;
+&lt;figcaption&gt;Help &amp; About Page&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;br/&gt;
+&lt;h3 id=&#34;search-page&#34;&gt;Search Page&lt;/h3&gt;
+&lt;p&gt;Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.&lt;/p&gt;
+&lt;p&gt;I didn&amp;rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/searchbar.png&#34;
+         alt=&#34;iOS Search Bar&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;iOS Search Bar&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;HStack&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;TextField&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Search ZIP Code PH&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;horizontal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;background&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;systemGray6&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cornerRadius&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;overlay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;HStack&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;systemName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;magnifyingglass&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foregroundColor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;frame&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;minWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;maxWidth&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;infinity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;alignment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;leading&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;leading&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;isEmpty&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;n&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                        &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;systemName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;multiply.circle.fill&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                            &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foregroundColor&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                            &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;trailing&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;horizontal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;onTapGesture&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;Button&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;bp&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;isEditing&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;kc&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;text&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;c1&#34;&gt;// Dismiss the keyboard&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;UIApplication&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;shared&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sendAction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;#selector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;UIResponder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resignFirstResponder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;to&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;nil&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;Text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Cancel&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;leading&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;padding&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;trailing&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;transition&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;move&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;edge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;trailing&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;animation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;easeInOut&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+&lt;video muted width=&#34;280&#34; controls style=&#34;display:block;margin-left:auto;margin-right:auto;&#34;&gt;
+  &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/searchpage.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;p&gt;I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅&lt;/p&gt;
+&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;Menu and Area List Page&lt;/h2&gt;
+&lt;p&gt;After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/area.png&#34;
+         alt=&#34;City and Area Pages&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;City and Area Pages&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;favorites&#34;&gt;Favorites&lt;/h2&gt;
+&lt;p&gt;Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.&lt;/p&gt;
+&lt;p&gt;After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)&lt;/p&gt;
+&lt;video muted width=&#34;280&#34; controls style=&#34;display:block;margin-left:auto;margin-right:auto;&#34;&gt;
+  &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/favorite.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;br/&gt;
+&lt;h2 id=&#34;showcase&#34;&gt;Showcase&lt;/h2&gt;
+&lt;p&gt;Below are the app showcase which you can see on the App Store as soon as the app is available&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Light and Dark Mode&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/favorites.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/favorites_huba70a6757f9c8d68d4d92b2844687156_601416_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/favorites_huba70a6757f9c8d68d4d92b2844687156_601416_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Favorites Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/search.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/search_hu3946f304041a8eff6ac3d4008273e397_850043_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/search_hu3946f304041a8eff6ac3d4008273e397_850043_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Search Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/trivia.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/trivia_hu6e18fa9b3be9e48f30167749e0009eb8_2045478_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/trivia_hu6e18fa9b3be9e48f30167749e0009eb8_2045478_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Trivias&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/ncr-and-luzon.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/ncr-and-luzon_hud81f0938a00228367115f86afa0bc132_677804_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/ncr-and-luzon_hud81f0938a00228367115f86afa0bc132_677804_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;NCR and Luzon&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/visayas.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/visayas_hu522784ecfbb36b48debd7b5f9cda9e52_639081_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/visayas_hu522784ecfbb36b48debd7b5f9cda9e52_639081_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Visayas&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Mindanao&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
+	data-flex-basis=&#34;110px&#34; &gt;&lt;/p&gt;
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
+&lt;p&gt;(Now Available!) &lt;a class=&#34;link&#34; href=&#34;https://apple.co/3lrnrBO&#34; target=&#34;_blank&#34;&gt;Get the app&lt;/a&gt; on App Store for iPhone and iPad.&lt;/p&gt;
+&lt;p&gt;The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.&lt;/p&gt;
+&lt;p&gt;For the meantime, the app is still available for Android and Windows 10.&lt;/p&gt;
+&lt;p&gt;You can check the blog posts here for the download links:
+&lt;br/&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-android-dark-mode/&#34;&gt;ZIP Code PH for Android gets Dark Mode
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-new-ui/&#34;&gt;ZIP Code PH Gets Refreshed UI&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Developing for Apple Soon</title>
+        <link>https://reddavid.me/developing-for-apple-soon/</link>
+        <pubDate>Sat, 06 Feb 2021 00:40:14 +0800</pubDate>
+        
+        <guid>https://reddavid.me/developing-for-apple-soon/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/appstore.png" alt="Featured image of post Developing for Apple Soon" /&gt;&lt;h2 id=&#34;me--apple-user&#34;&gt;Me = Apple User?&lt;/h2&gt;
+&lt;p&gt;Yes, I gave in to use an Apple device. Well, I&amp;rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&amp;rsquo;s kiss. That&amp;rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;loaned&lt;/em&gt; for an iPhone 11 since the iPhone 12 is expensive and I like the 11&amp;rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&amp;rsquo;t stand out as a phone&amp;rsquo;s color and I&amp;rsquo;ve had too many black phones before.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/iphone11back.jpg&#34;
+         alt=&#34;Yellow iPhone 11&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Yellow iPhone 11&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&#34;developing-apps-for-ios-soon&#34;&gt;Developing Apps for iOS Soon&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m excited to learn new things and finally applying the cross-platform capabilities of &lt;a class=&#34;link&#34; href=&#34;https://dotnet.microsoft.com/apps/xamarin/xamarin-forms&#34;&gt;Xamarin.Forms&lt;/a&gt; which I have used in some of my Android apps and it&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/&#34;&gt;C#&lt;/a&gt;. I also want to check out native code from Apple, &lt;a class=&#34;link&#34; href=&#34;https://developer.apple.com/xcode/swiftui/&#34;&gt;SwiftUI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/applibrary.jpg&#34;
+         alt=&#34;iOS 14 App Library (is that TikTok? 😅)&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;iOS 14 App Library (is that TikTok? 😅)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So, to test things out, I would be putting my app &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-android-dark-mode/&#34;&gt;ZIP Code PH&lt;/a&gt; on the App Store and might set a (very very small) price to support this costly Apple environment 😂.&lt;/p&gt;
+&lt;h2 id=&#34;in-the-meantime&#34;&gt;In the meantime&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;Go ahead and check out my apps on the &lt;a class=&#34;link&#34; href=&#34;ms-windows-store://publisher?name=Red David&#34;&gt;Windows 10 Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/dev?id=5465762079490576029&#34;&gt;Google Play Store&lt;/a&gt; both under Red David.&lt;/p&gt;
+&lt;p&gt;See you soon!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

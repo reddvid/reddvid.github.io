@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>GitHub Pages on David Ballesteros</title>
+        <link>https://reddavid.me/tags/github-pages/</link>
+        <description>Recent content in GitHub Pages on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 23 Feb 2020 21:43:46 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/github-pages/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Rebuilding Website with Hugo</title>
+        <link>https://reddavid.me/rebuilding-website-with-hugo/</link>
+        <pubDate>Sun, 23 Feb 2020 21:43:46 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rebuilding-website-with-hugo/</guid>
+        <description>&lt;img src="https://reddavid.me/images/hugo.png" alt="Featured image of post Rebuilding Website with Hugo" /&gt;&lt;p&gt;It was early 2019, I think when I accidentally deleted my WordPress database that contains at least 20 posts. Sad right? After that sad moment, I tried to repost everything using Hugo, a static website builder, but found that it was too complicated - with YAML, some .scss, layouts, etc.&lt;/p&gt;
+&lt;p&gt;So I gave up and made a basic website with just HTML, CSS, and JS files. It was ok for me, just having a landing page for my apps, other works and a short bio.&lt;/p&gt;
+&lt;p&gt;Until I do wanted to do some blog, not that daily blog but just somewhere to share my thoughts. So here we are again, I would actually give time to understand Hugo and what not. Welcome me again!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

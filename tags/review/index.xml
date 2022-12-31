@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Review on David Ballesteros</title>
+        <link>https://reddavid.me/tags/review/</link>
+        <description>Recent content in Review on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 03 Apr 2022 02:14:42 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/review/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Elgato Stream Deck MK.2 (Must Have Tech)</title>
+        <link>https://reddavid.me/elgato-streamdeck/</link>
+        <pubDate>Sun, 03 Apr 2022 02:14:42 +0800</pubDate>
+        
+        <guid>https://reddavid.me/elgato-streamdeck/</guid>
+        <description>&lt;img src="https://reddavid.me/elgato-streamdeck/streamdeck-og.png" alt="Featured image of post Elgato Stream Deck MK.2 (Must Have Tech)" /&gt;&lt;p&gt;I recently bought an Elgato Stream Deck MK.2 which I should&amp;rsquo;ve made long ago. It&amp;rsquo;s an expensive piece of a great tech which I never thought I needed.&lt;/p&gt;
+&lt;p&gt;I hesitated to get one before because of the price but until I knew that the deck can be used just fine without the &amp;ldquo;unchangeable&amp;rdquo; height stand. And also, the time-save it can bring definitely helps in daily tasks.&lt;/p&gt;
+&lt;h2 id=&#34;unboxing-where&#34;&gt;Unboxing, where?&lt;/h2&gt;
+&lt;p&gt;Unfortunately, I never got to take a video or even photos of the unboxing. The box contains the device, the detachable USB-C cable, and the stand. Sadly, it does not include a free faceplate to interchange the default black plain plate.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up&#34;&gt;Setting Up&lt;/h2&gt;
+&lt;p&gt;The device requires the &lt;a class=&#34;link&#34; href=&#34;https://www.elgato.com/en/downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stream Deck application&lt;/a&gt; to actually setup what actions the buttons will do.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-app.png&#34;
+         alt=&#34;Stream Deck Software&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Stream Deck Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are also lots of useful community-made plugins inside the Stream Deck&amp;rsquo;s Store that you will find very useful.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;img/streamdeck-plugins-store.png&#34;
+         alt=&#34;Plugins Store&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Plugins Store&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Setting the device is technically easy but I felt that some icon designs (the ones I needed) are very basic and were not standard.&lt;/p&gt;
+&lt;p&gt;So I try to make my own minimal but on-context (for me) icons.&lt;/p&gt;
+&lt;h2 id=&#34;making-custom-icons&#34;&gt;Making Custom Icons&lt;/h2&gt;
+&lt;p&gt;After reading Elgato&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://developer.elgato.com/documentation/stream-deck/sdk/style-guide/#asset-sizes-and-colors&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Style Guide Documentation&lt;/a&gt; for making Stream Deck Icons, I decided to start doing my key icons.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Icon&lt;/th&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;th&gt;@2x&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Key Icon&lt;/td&gt;
+&lt;td&gt;72x72 px&lt;/td&gt;
+&lt;td&gt;144x144 px&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figcaption&gt;Elgato&#39;s Key Icon standard size&lt;/figcaption&gt;
+&lt;p&gt;Thankfully, I use &lt;a class=&#34;link&#34; href=&#34;figma.com&#34; &gt;Figma&lt;/a&gt; for wireframing/designing graphics so it is the best tool to create these icons. Plus, it has an export button that upscale the design @2x.&lt;/p&gt;
+&lt;h3 id=&#34;previews&#34;&gt;Previews&lt;/h3&gt;
+&lt;p&gt;Here are some of the icons in action (Stream Deck mockup).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-default_hu4bac649a8b57f8297e7d6ba5640659ec_330442_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Default Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/profile-figma_hu4bac649a8b57f8297e7d6ba5640659ec_319190_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Figma Profile&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites.png&#34; width=&#34;764&#34;  height=&#34;594&#34;  srcset=&#34;https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_480x0_resize_box_3.png 480w, https://reddavid.me/elgato-streamdeck/img/folder-websites_hu4bac649a8b57f8297e7d6ba5640659ec_314330_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Websites Folder&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;128&#34;
+	data-flex-basis=&#34;308px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;The icons are available in my Github repo: &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/mnml-strmdck-icns&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;mnml-strmdck-icns&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I will soon share the Figma file.&lt;/p&gt;
+&lt;h3 id=&#34;tools-and-resources&#34;&gt;Tools and Resources&lt;/h3&gt;
+&lt;p&gt;Big thanks for the free &amp;amp; open tools and resources I used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Figma (and it&amp;rsquo;s Community)&lt;/li&gt;
+&lt;li&gt;PowerToys&lt;/li&gt;
+&lt;li&gt;Wikimedia Commons&lt;/li&gt;
+&lt;li&gt;SVG Export Chrome Extension&lt;/li&gt;
+&lt;li&gt;Character Map UWP&lt;/li&gt;
+&lt;li&gt;Bootstrap Icons&lt;/li&gt;
+&lt;li&gt;Coffee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tips-and-tricks&#34;&gt;Tips and Tricks&lt;/h2&gt;
+&lt;p&gt;There are a lot of things the Stream Deck can do, like me, I scour the internet (mostly YouTube) for any tips and tricks.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/POt4-8b0iPE&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Other helpful videos for streamers (and not) from this awesome dude, nutty:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/results?search_query=nutty&amp;#43;stream&amp;#43;deck&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;nutty videos about Elgato Stream Deck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>2020 Review</title>
+        <link>https://reddavid.me/2020-review/</link>
+        <pubDate>Wed, 06 Jan 2021 13:27:12 +0800</pubDate>
+        
+        <guid>https://reddavid.me/2020-review/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/bye-2020.jpg" alt="Featured image of post 2020 Review" /&gt;&lt;p&gt;Huh, who knew? That we can get through the sh*tty year that is 2020. 🤔 And for last time (and maybe first?), let&amp;rsquo;s take a look back to what happened with Red David&amp;rsquo;s life in last year (SPOILER: not so much, like most of us I guess).&lt;/p&gt;
+&lt;h2 id=&#34;january&#34;&gt;January&lt;/h2&gt;
+&lt;h3 id=&#34;puerto-galera-2nd-week&#34;&gt;Puerto Galera, 2nd week&lt;/h3&gt;
+&lt;p&gt;New Year, New Decade! We expected a lot in 2020 coming from 2019. It started out pretty much a normal month. We would have the time to travel out of town,&lt;/p&gt;
+&lt;p&gt;It is always a good feeling when you can travel on the first month of the year, so that&amp;rsquo;s what we did. So my girlfriend and I went to Puerto Galera, Mindoro and rented a place to stay for 3 days and 2 nights.&lt;/p&gt;
+&lt;p&gt;This place has been a must-travel not just for us both but for most of Pinoys. The white sand beach makes this place present on everybody&amp;rsquo;s bucket list.&lt;/p&gt;
+&lt;p&gt;Our stay was short but it was worth-while. From walking along the beach, taking &amp;ldquo;artistic&amp;rdquo; photos, watch the sunset enjoyed a quite weekday evening, and chilled during the weekend evening when the &amp;ldquo;bands&amp;rdquo; and music will fill up the place. We also had henna tattoos, got a massage, and just tried to taste all the food.&lt;/p&gt;
+&lt;p&gt;Here are some of the photos we took during our short stay:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/2020-review/img/i-love-puerto-galera.jpg&#34; width=&#34;3840&#34;  height=&#34;2160&#34;  srcset=&#34;https://reddavid.me/2020-review/img/i-love-puerto-galera_hu1ecb6aabc1cf51fadb0bdd637aa3b4c6_1445631_480x0_resize_q75_box.jpg 480w, https://reddavid.me/2020-review/img/i-love-puerto-galera_hu1ecb6aabc1cf51fadb0bdd637aa3b4c6_1445631_1024x0_resize_q75_box.jpg 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;I 🤍 Puerto Galera&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;177&#34;
+	data-flex-basis=&#34;426px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/2020-review/img/puerto-galera-breakfast.jpg&#34; width=&#34;3076&#34;  height=&#34;2431&#34;  srcset=&#34;https://reddavid.me/2020-review/img/puerto-galera-breakfast_hu6891a8bf8f4ff56e2fee9bed0a3daac1_1223745_480x0_resize_q75_box.jpg 480w, https://reddavid.me/2020-review/img/puerto-galera-breakfast_hu6891a8bf8f4ff56e2fee9bed0a3daac1_1223745_1024x0_resize_q75_box.jpg 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Toast and fried breakfast&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;126&#34;
+	data-flex-basis=&#34;303px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/2020-review/img/lunch-at-puerto-galera.jpg&#34; width=&#34;3518&#34;  height=&#34;2308&#34;  srcset=&#34;https://reddavid.me/2020-review/img/lunch-at-puerto-galera_hu886d7c0689dcde159d96b341649a690b_1210764_480x0_resize_q75_box.jpg 480w, https://reddavid.me/2020-review/img/lunch-at-puerto-galera_hu886d7c0689dcde159d96b341649a690b_1210764_1024x0_resize_q75_box.jpg 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Healthy lunch&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;152&#34;
+	data-flex-basis=&#34;365px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/2020-review/img/puerto-galera-no-smoking.jpg&#34; width=&#34;4032&#34;  height=&#34;3024&#34;  srcset=&#34;https://reddavid.me/2020-review/img/puerto-galera-no-smoking_hu41605e1f6c28b284a8d8ca34629ec991_5376539_480x0_resize_q75_box.jpg 480w, https://reddavid.me/2020-review/img/puerto-galera-no-smoking_hu41605e1f6c28b284a8d8ca34629ec991_5376539_1024x0_resize_q75_box.jpg 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;No smoking beyond the point&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;133&#34;
+	data-flex-basis=&#34;320px&#34; &gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://reddavid.me/2020-review/img/puerto-galera-sand-castle.jpg&#34; width=&#34;3840&#34;  height=&#34;2160&#34;  srcset=&#34;https://reddavid.me/2020-review/img/puerto-galera-sand-castle_hu29fafed4d282a3337844dec76452a4c0_924527_480x0_resize_q75_box.jpg 480w, https://reddavid.me/2020-review/img/puerto-galera-sand-castle_hu29fafed4d282a3337844dec76452a4c0_924527_1024x0_resize_q75_box.jpg 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;&amp;ldquo;Puerto Galera sand castle&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;177&#34;
+	data-flex-basis=&#34;426px&#34; &gt;
+&lt;img src=&#34;https://reddavid.me/2020-review/img/puerto-galera-sunset.jpg&#34; width=&#34;3840&#34;  height=&#34;2160&#34;  srcset=&#34;https://reddavid.me/2020-review/img/puerto-galera-sunset_hu28e518fc221a81abac11f4754bbc9378_212310_480x0_resize_q75_box.jpg 480w, https://reddavid.me/2020-review/img/puerto-galera-sunset_hu28e518fc221a81abac11f4754bbc9378_212310_1024x0_resize_q75_box.jpg 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Sunset at Puerto Galera&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;177&#34;
+	data-flex-basis=&#34;426px&#34; &gt;&lt;/p&gt;
+&lt;h3 id=&#34;taal-volcano-eruption&#34;&gt;Taal Volcano Eruption&lt;/h3&gt;
+&lt;p&gt;Ok hold on, this wasn&amp;rsquo;t a part of our trip but as we are leaving the port to return to Metro Manila, we found out that Taal Volcano erupted (which was located in Batangas) but thankfully the eruption was slow that we weren&amp;rsquo;t stranded along the way. But this news may be the start of something awful through 2020.&lt;/p&gt;
+&lt;p&gt;The volcano spewed a lot of volcanic ash that towns and cities, including Metro Manila.&lt;/p&gt;
+&lt;h3 id=&#34;trip-to-bgc-last-week&#34;&gt;Trip to BGC, last week&lt;/h3&gt;
+&lt;p&gt;This should be the last week of January and the KPop group Winner was doing a tour in Manila. I am not a KPop fan but my sister is that the 3 girls in our family went to SM Mall of Asia to watch them.&lt;/p&gt;
+&lt;!-- &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/baclaran-church.jpg&#34;
+         alt=&#34;Baclaran Church&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Baclaran Church&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+ --&gt;
+&lt;p&gt;The next day, we went to visit Baclaran church to give thanks to the Lord and went straight the infamous &lt;a class=&#34;link&#34; href=&#34;https://megaworld-lifestylemalls.com/mall/mckinley-hill/&#34;&gt;Venice Grand Canal Mall&lt;/a&gt; in Taguig, a Venice-inspired open-air mall.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/venice-grand-canal.jpg&#34;
+         alt=&#34;Venice Grand Canal Mall in Taguig&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Venice Grand Canal Mall in Taguig&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After exhausting the whole place, we went down to Bonifacio High Grounds which is not that far from the canal mall. We just walked around the place, took some photos, and tried to visit a museum but unfortunately they were already closed.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;february&#34;&gt;February&lt;/h2&gt;
+&lt;h3 id=&#34;valentines-day-and-a-new-laptop&#34;&gt;Valentine&amp;rsquo;s Day and a New Laptop&lt;/h3&gt;
+&lt;p&gt;Hmmm, nothing much happened this month, just the usual Valentine&amp;rsquo;s date on the 14th. We just went to this semi-high end restaurant and ordered some pizza, pasta, and wine.&lt;/p&gt;
+&lt;p&gt;I also got a new laptop, my third Acer laptop - been an Acer user since 2011-ish because of it&amp;rsquo;s ok specs at a lower price. I blogged about that laptop here: &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/new-laptop/&#34;&gt;I Got Myself a New Laptop&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;march&#34;&gt;March&lt;/h2&gt;
+&lt;h3 id=&#34;oh-no&#34;&gt;Oh no!&lt;/h3&gt;
+&lt;p&gt;Oh how it started so well until a &lt;a class=&#34;link&#34; href=&#34;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&#34;&gt;new unknown deadly virus broke out of Wuhan, China.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It seemed the world has stopped due to lockdowns, and despite the technological advancement we have since the last decade, we still took too long for a cure.&lt;/p&gt;
+&lt;p&gt;These, I think, are the times we don&amp;rsquo;t want to talk about anymore.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;april---november&#34;&gt;April - November&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ll sumamrize these months here, since we all have been in lock down and stayed in our homes. But luckily for us, our occupation allowed us to still make a living and let us stay in.&lt;/p&gt;
+&lt;p&gt;Within these months, the government has been extending and extending the quarantine every 30 days - they just fear for public panic if they announce a definite lockdown for a year.&lt;/p&gt;
+&lt;p&gt;I went busy during these time, did some web and app development, went on to stream some games on &lt;a class=&#34;link&#34; href=&#34;https://facebook.gg/RedDavidGaming&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; and took some online courses &lt;a class=&#34;link&#34; href=&#34;https://linkedin.com/in/reddvid/&#34; target=&#34;_blank&#34;&gt;(view my LinkedIn profile here).&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With all of these, I upgraded (again) my peripherals for my convenience (sorry Girlfried, 😂). I bought a over-the-head headset and an earbuds, for better Zoom meetings and streaming - the JBL Quantum 200 and the HyperX Cloud earbuds. I also got myself a wireless Logitech gaming mouse, the G304, which I reviewed &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/g304-review/&#34;&gt;here&lt;/a&gt; and a Tecware mechanical keyboard TKL, which you can read more about &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/new-keeb/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/jbl-quantum.jpg&#34;
+         alt=&#34;JBL Quantum 200&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;JBL Quantum 200 (pardon the mess)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/inside.jpg&#34;
+         alt=&#34;Logitech G304&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech G304&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/rgb.jpg&#34;
+         alt=&#34;Logitech G304&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Tecware Elite TKL&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also went on to upgrade my work PC&amp;rsquo;s SSD for a better brand and higher storage, cheaper though - the XPG 8200. Also bought a JBL Go3 bluetooth speaker, and the Logitech C922 webcam, also for Zoom meetings 🤣. I blogged about the camera here: &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/the-logitech-c922/&#34;&gt;Finally! Logitech C922&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_camera.jpg&#34;
+         alt=&#34;Logitech C922&#34; width=&#34;65%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Logitech C922&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;december&#34;&gt;December&lt;/h2&gt;
+&lt;h2 id=&#34;christmas-and-new-years-eve&#34;&gt;Christmas and New Year&amp;rsquo;s Eve&lt;/h2&gt;
+&lt;p&gt;This might be the hardest Christmas and New Year we&amp;rsquo;ve all faced and celebrated, but lucky enough, I had the chance to take a break from the rat race and went home to celebrate the holidays with the family together with my father whom was also stuck in his workplace city due to quarantine and lockdown.&lt;/p&gt;
+&lt;p&gt;The shopping continues, I got myself the Razer Hammerhead Wireless earbuds and a yellow iPhone 11 for Christmas. I did not post a blog about the wireless earbuds since the unit I got was faulty (had it replaced now). And I prefer not to flaunt my new iPhone since there&amp;rsquo;s nothing special about it, my ultimate goal of buying one is to &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/developing-for-apple-soon/&#34;&gt;develop apps for iOS.&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/tech-2020.jpg&#34;
+         alt=&#34;Logitech C922&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Razer BT Earbuds and Yellow iPhone 11&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;hows-your-2020&#34;&gt;How&amp;rsquo;s Your 2020?&lt;/h2&gt;
+&lt;p&gt;This year had been a mix of emotions but mostly depressing. We still coping to the new normal, keeping safe, and I know we all miss socializing.&lt;/p&gt;
+&lt;p&gt;This might look like a tech shopping spree for me but I also grew my Facebook page from 261 to 940 this year. Played and streamed some good games - MINECRAFT!&lt;/p&gt;
+&lt;p&gt;Read a few books, got certificates from online courses, and especially I am still alive and healthy.&lt;/p&gt;
+&lt;p&gt;How did your 2020 go? Tag me on your story.
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;📷 credits: &lt;a class=&#34;link&#34; href=&#34;https://wsiltv.com/2021/01/01/town-says-goodbye-to-2020-with-dumpster-fire/&#34;&gt;Dumpster Fire 2020 &lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>OBS Studio on David Ballesteros</title>
+        <link>https://reddavid.me/tags/obs-studio/</link>
+        <description>Recent content in OBS Studio on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 08 Jun 2021 03:15:06 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/obs-studio/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>OBS Studio 27 is here</title>
+        <link>https://reddavid.me/obs-studio-27-is-here/</link>
+        <pubDate>Tue, 08 Jun 2021 03:15:06 +0800</pubDate>
+        
+        <guid>https://reddavid.me/obs-studio-27-is-here/</guid>
+        <description>&lt;img src="https://reddavid.me/images/feat/obs27.png" alt="Featured image of post OBS Studio 27 is here" /&gt;&lt;p&gt;I just updated my OBS a few days ago with the official release version after trying out the several release candidates.&lt;/p&gt;
+&lt;p&gt;I will talk about the new features and improvements here that will be useful for my use. Check their blog post &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/blog/obs-studio-27-released&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt; and the complete changelog &lt;a class=&#34;link&#34; href=&#34;https://github.com/obsproject/obs-studio/releases/tag/27.0.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/LUkMxYNIyj0&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h2 id=&#34;undo--redo&#34;&gt;Undo &amp;amp; Redo&lt;/h2&gt;
+&lt;p&gt;At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though. And that&amp;rsquo;s 5000 actions.&lt;/p&gt;
+&lt;p&gt;Though I mostly use OBS for game streaming (no facecam), I move things around only to notice that it was not the source I wanted to move! This surely helps users out and always had been the most requested feature.&lt;/p&gt;
+&lt;h2 id=&#34;files-where&#34;&gt;Files, where?&lt;/h2&gt;
+&lt;p&gt;Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don&amp;rsquo;t go start streaming only to have the files missing.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_missing_files_warning.png&#34;
+         alt=&#34;Missing Files Warning Window&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Missing Files Warning Window&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;no-more-noise&#34;&gt;No More Noise&lt;/h2&gt;
+&lt;p&gt;OBS v27 for Windows now adds NVIDIA Noise Removal as an option to audio Noise Suppression filter &lt;del&gt;when the &lt;a class=&#34;link&#34; href=&#34;https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NVIDIA Audio Effects SDK&lt;/a&gt; is installed. Oh, also you need an NVIDIA RTX GPU for that - so no screenshots from me.&lt;/del&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
+&lt;p&gt;Thanks for these 2 new improvements among others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Browser Source interact button (toolbar)&lt;/li&gt;
+&lt;li&gt;Virtual Camera toggle button (system tray)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_browser_interact.png&#34;
+         alt=&#34;Browser Source Interact Button&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Browser Source Interact Button&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_virtual_cam.png&#34;
+         alt=&#34;Toggle Virtual Camera on System Tray Icon&amp;amp;lt;&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Toggle Virtual Camera on System Tray Icon&amp;lt;&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;This new version of OBS Studio definitely helps with the new added features. Now I want a selective record feature.&lt;/p&gt;
+&lt;p&gt;I use OBS Studio together with &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34; target=&#34;_blank&#34;&gt;StreamElements&lt;/a&gt; OBS Live to simplify my stream setup to Facebook Gaming. I now have 1,019 followers (as of this writing) and why not check me out there? Maybe talk about gaming, life, or programming? &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;RedDavidGaming on Facebook Gaming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I dedicate the starwall page for my stars-sender. Thanks and make sure to check out OBS Studio&amp;rsquo;s latest release &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

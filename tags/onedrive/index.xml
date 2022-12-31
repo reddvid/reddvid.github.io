@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>OneDrive on David Ballesteros</title>
+        <link>https://reddavid.me/tags/onedrive/</link>
+        <description>Recent content in OneDrive on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 29 Mar 2022 01:53:46 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/onedrive/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Digital Spring Cleaning</title>
+        <link>https://reddavid.me/digital-spring-cleaning/</link>
+        <pubDate>Tue, 29 Mar 2022 01:53:46 +0800</pubDate>
+        
+        <guid>https://reddavid.me/digital-spring-cleaning/</guid>
+        <description>&lt;img src="https://reddavid.me/digital-spring-cleaning/spring-cleaning.png" alt="Featured image of post Digital Spring Cleaning" /&gt;&lt;p&gt;Despite the fact that we do not have spring season in the Philippines, it is just good to clean and/or organize (this time) our digital life.&lt;/p&gt;
+&lt;p&gt;Honestly, I am lazy af to clean things on a regular basis since I really suck at scheduling. This happens often when I get caught doing things that require a pretty good amount of focus (or am I just giving reasons for my laziness?)&lt;/p&gt;
+&lt;h2 id=&#34;bit-of-my-digital-history&#34;&gt;Bit of My Digital History&lt;/h2&gt;
+&lt;p&gt;If you didn&amp;rsquo;t know, I started my computer life at the early age of 9/10? I just remember I was in grade 5, 1997-ish, when I fell in love with computers. But with the lack of internet, I only grew up into video games and not programming. I just picked up programming during college days when I was actually bought a laptop by my parents.&lt;/p&gt;
+&lt;p&gt;We tackled a bunch of languages even being an Electronics Engineering student, like C++, Turbo C, and Java. But I didn&amp;rsquo;t felt good about those languages until our thesis days where I got help with a friend, an IT student, using VB.Net. I slightly understood it better than the latter ones. It was also the start of programming in &lt;a class=&#34;link&#34; href=&#34;[http://C#.Net]%28https://docs.microsoft.com/en-us/dotnet/csharp/%29&#34; &gt;C#.Net&lt;/a&gt; for my Windows Phone to make apps.&lt;/p&gt;
+&lt;h2 id=&#34;files&#34;&gt;Files&lt;/h2&gt;
+&lt;p&gt;Being into the Windows environment, files did matter and I actually had free 15GB of SkyDrive (OneDrive now) where I put my files in. While working, I actually preferred to use my laptop since it got more power than what they provide.&lt;/p&gt;
+&lt;p&gt;Now with more than 8 years, my cloud is cluttered and having to use extensive apps, software, and services means there are alot more files scattered everywhere.&lt;/p&gt;
+&lt;p&gt;Now let&amp;rsquo;s go organizing.&lt;/p&gt;
+&lt;h2 id=&#34;organizing&#34;&gt;Organizing&lt;/h2&gt;
+&lt;h3 id=&#34;personal-files&#34;&gt;Personal Files&lt;/h3&gt;
+&lt;p&gt;I suck at organizing back in the day that I actually did not create folders to group similar files.&lt;/p&gt;
+&lt;p&gt;Now I slowly group and organize files and folders properly. Starting with the Documents and Pictures folder. Although my Documents folder still sucks since Windows games create their own &lt;em&gt;saves&lt;/em&gt; folder which makes the list longer and hard to group.&lt;/p&gt;
+&lt;p&gt;In the Pictures folder, I began grouping photos and videos based on Year &amp;gt; Month, while other non-sense images went into an Archives folder or Others folder.&lt;/p&gt;
+&lt;p&gt;For my &lt;strong&gt;&lt;em&gt;Personal&lt;/em&gt;&lt;/strong&gt; folder, I grouped files by type and use:&lt;/p&gt;
+&lt;small&gt;
+|--Ebooks&lt;br&gt;
+|--Archive&lt;br&gt;
+|--Graphics&lt;br&gt;
+|--Family&lt;br&gt;
+|--Art&lt;br&gt;
+|--Stream Assets&lt;br&gt;
+&lt;/small&gt;
+&lt;p&gt;Then the files go into further folders like inside Stream Assets:&lt;/p&gt;
+&lt;small&gt;
+|--Stream Assets&lt;br&gt;
+&amp;emsp;|--Game Wallpapers&lt;br&gt;
+&amp;emsp;|--Media&lt;br&gt;
+&amp;emsp;|--Stingers&lt;br&gt;
+&amp;emsp;|--Emotes&lt;br&gt;
+&lt;/small&gt;
+&lt;h3 id=&#34;work-files&#34;&gt;Work Files&lt;/h3&gt;
+&lt;p&gt;This seems easier to organize by grouping files based on the responsibility/project, so I just went into choosing a better way to name work files. Continue reading below.&lt;/p&gt;
+&lt;h2 id=&#34;file-naming&#34;&gt;File Naming&lt;/h2&gt;
+&lt;p&gt;I started renaming work files since collaboration and sharing may require some context on the date and file versions:&lt;/p&gt;
+&lt;h3 id=&#34;documents-docx-pdf-pptx-xlsx-etc&#34;&gt;Documents (docx, pdf, pptx, xlsx, etc)&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;YYYY-MM-DD_TYPE_File_Name_Version#.extension&lt;br&gt;
+2022-03-29_REPORT_Some_Incident_With_The_Clock.docx&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;graphicsmedia-files-jpg-png-psd-mp3-mp4-etc&#34;&gt;Graphics/Media Files (jpg, png, psd, mp3, mp4 etc)&lt;/h3&gt;
+&lt;p&gt;I use the dash and underscore interchangeably but I am more inclined to use underscore for consistency:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;file_name_tags.extension or tags_file_name.extension or both&lt;br&gt;
+ad_magic_stylus_square_720x720.png &lt;br&gt; open_graph_styled_frame_template.ai&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;codes&#34;&gt;Codes&lt;/h3&gt;
+&lt;p&gt;Depending on the programming language, I strictly use their naming conventions/standard for clarity and consistency. But with other types like json, txt, and other asset files:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;file_name.extension&lt;br&gt;
+products_list.json&lt;br&gt;
+secret_codes.txt&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cloud&#34;&gt;Cloud&lt;/h2&gt;
+&lt;p&gt;All these files now live in the cloud, OneDrive specifically, and reformatting or changing machine makes it easier to get the files again. Less hassle and worries especially when a big part of my life depends on some important files.&lt;/p&gt;
+&lt;p&gt;I am subscribed to Microsoft 365 Personal which offers 1TB of cloud storage and as of now I use around 48%.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://onedrive.live.com?invref=fe92ac3ae0420178&amp;amp;invscr=90&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Sign up to OneDrive and get 500MB additional storage space.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;share-your-way&#34;&gt;Share Your Way&lt;/h2&gt;
+&lt;p&gt;So that&amp;rsquo;s about my file naming and folder organization and it is still on-going as of this writing. How do you organize your digital life? Share it on the comments below.&lt;/p&gt;
+&lt;br&gt;
+&lt;small&gt;&lt;a class=&#34;link&#34; rel=&#34;noopener&#34; href=&#39;https://pngtree.com/so/cleaning&#39;&gt;cleaning png from pngtree.com/&lt;/a&gt;&lt;/small&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

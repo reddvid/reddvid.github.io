@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Xamarin Forms on David Ballesteros</title>
+        <link>https://reddavid.me/tags/xamarin-forms/</link>
+        <description>Recent content in Xamarin Forms on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 02 Jan 2020 03:02:48 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/xamarin-forms/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>RPN Android App</title>
+        <link>https://reddavid.me/rpn-android-app/</link>
+        <pubDate>Thu, 02 Jan 2020 03:02:48 +0800</pubDate>
+        
+        <guid>https://reddavid.me/rpn-android-app/</guid>
+        <description>&lt;img src="https://reddavid.me/images/rpn-android.png" alt="Featured image of post RPN Android App" /&gt;&lt;p&gt;Hey hey, recently I branched out my C# and apps knowledge to create and actually port or make versions of my UWP apps to Android using Xamarin Forms.&lt;/p&gt;
+&lt;p&gt;Finally opt-in and registered to Google Play platform and chose RPN News &amp;amp; Radio to the Store as the first app (under my registered dev name) to become publicly available.&lt;/p&gt;
+&lt;p&gt;Obviously, this is unofficial and not backed by my employers. I believe having this in the store is essential to expand the platforms reached by RPN.&lt;/p&gt;
+&lt;p&gt;Also, there are some adjustments I needed to learn in using Xamarin Forms, and had to merge several projects to create both the news and radio part of the app. Thanks to open source!&lt;/p&gt;
+&lt;p&gt;There are still bugs, I know, but help by checking the app &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=xyz.reddvid.rpnradio&#34; taget=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

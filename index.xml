@@ -3130,39 +3130,38 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
         <guid>https://reddavid.me/gaming/</guid>
         <description>&lt;style&gt;
 .vcontainer {
-position: relative;
-overflow: hidden;
-margin: 0 auto;
-width: 100%;
+position: relative; 
+overflow: hidden; 
+margin: 0 auto; 
+width: 100%; 
 padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
 .iframe-resp {
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-width: 100%;
-height: 100%;
+position: absolute; 
+top: 0; 
+left: 0; 
+bottom: 0; 
+right: 0; 
+width: 100%; 
+height: 100%; 
 }
 
 .icon {
-margin-bottom: -6px;
+margin-bottom: -6px; 
 }
 
 &lt;/style&gt;
-&lt;h1 style=&#34;text-align: center;&#34;&gt;Gaming&lt;/h1&gt;
+&lt;h1 style=&#34;text-align: center; &#34;&gt;Gaming&lt;/h1&gt;
 &lt;h2 id=&#34;currently-playing&#34;&gt;Currently Playing&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Nothing specific (variety)&lt;/li&gt;
+&lt;li&gt;Epistory&lt;/li&gt;
 &lt;li&gt;Some Xbox PC Game pass games
 &lt;ul&gt;
 &lt;li&gt;Tunic&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Far Cry 6 (New Game+)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;streaming&#34;&gt;Streaming&lt;/h2&gt;
 &lt;p&gt;I pop-up on Twitch &lt;strike&gt;Facebook&lt;/strike&gt; from time-to-time to stream. I still have no schedule.&lt;/p&gt;
@@ -3176,45 +3175,45 @@ margin-bottom: -6px;
 &lt;div class=&#34;fb-video&#34; data-href=&#34;https://www.facebook.com/RedDavidGaming/live&#34; data-width=&#34;800&#34; data-show-text=&#34;false&#34;&gt;&lt;/div&gt;&lt;/center&gt;
 &lt;h2 id=&#34;youtube-playlists&#34;&gt;YouTube Playlists&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/playlist?list=PLwC47NQhSu5z7WwAGX3coYPzR3y_UIKsc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Kena: Bridge of Spirits&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/playlist?list=PLwC47NQhSu5zgk32JZbPRF9sgSY7i6sdN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;The Witness&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/playlist?list=PLwC47NQhSu5wJlvkMyWrVrvbay5Ngk_N9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Ori and the Blind Forest&lt;/a&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=QSV6RKyRDE8&amp;amp;list=PLwC47NQhSu5zKkl9bWtIFwBYTpBOhcyIn&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AC Odyssey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=29me84NpCs0&amp;amp;list=PLwC47NQhSu5y2eLPSxCQlXBmf5Ee9I4uT&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AC Odyssey, Goddess of the Hunt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=VAVGG1C4m-U&amp;amp;list=PLwC47NQhSu5xzXkD7sSaBSIURfOSFVX73&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bioshock Infinite VOD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=ZvoqZadYKeI&amp;amp;list=PLwC47NQhSu5yL8ECQdU9pGSIX3rT5PcuM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Inside Full Playthrough&lt;/a&gt;
 &lt;!-- &lt;script src= &#34;https://player.twitch.tv/js/embed/v1.js&#34;&gt;&lt;/script&gt;
 &lt;div id=&#34;vcontainer&#34;&gt;&lt;/div&gt;
 &lt;script type=&#34;text/javascript&#34;&gt;
 var options = {
-width: 1280,
-height: 720,
-channel: &#34;RedDavidGaming&#34;,
+width: 1280, 
+height: 720, 
+channel: &#34;RedDavidGaming&#34;, 
 // only needed if your site is also embedded on embed.example.com and othersite.example.com
 parent: \[&#34;localhost&#34;, &#34;reddavid.me&#34;\]
-};
-var player = new Twitch.Player(&#34;vcontainer&#34;, options);
-player.setVolume(0.5);
+}; 
+var player = new Twitch. Player(&#34;vcontainer&#34;, options); 
+player.setVolume(0.5); 
 &lt;/script&gt; --&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
 &lt;p&gt;Excluding my Steam library and other platform games (Epic, GOG), below is a table where I track my finished, on-going, to-be-continued, and soon-to-play games.&lt;/p&gt;
-&lt;details&gt;
-&lt;summary&gt;Y2023 list&lt;/summary&gt;
+&lt;h3 id=&#34;y2023-list&#34;&gt;Y2023 List&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Dead Space 1, 2, 3&lt;/li&gt;
 &lt;li&gt;Doom Eternal&lt;/li&gt;
-&lt;li&gt;&lt;strike&gt;Ori and the Will of the Wisps&lt;/strike&gt;&lt;/li&gt;
-&lt;li&gt;Assassin&amp;rsquo;s Creed: Odyssey (to continue &amp;amp; finish)&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Ori and the Will of the Wisps&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Assassin&amp;rsquo;s Creed: Odyssey (to continue &amp;amp; finish)&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;Assassin&amp;rsquo;s Creed: Valhalla&lt;/li&gt;
 &lt;li&gt;Horizon: Zero Dawn&lt;/li&gt;
 &lt;li&gt;Red Dead Redemption 2&lt;/li&gt;
 &lt;li&gt;Resident Evil 3 Remake&lt;/li&gt;
 &lt;li&gt;Resident Evil 7, 8&lt;/li&gt;
+&lt;li&gt;Max Payne 1, 2, 3&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;Full List&lt;/summary&gt;
+&lt;details&gt;&lt;summary&gt;&lt;strong&gt;Full List&lt;/strong&gt;&lt;/summary&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -3229,11 +3228,11 @@ player.setVolume(0.5);
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Assassin&amp;rsquo;s Creed Origins&lt;/td&gt;
-&lt;td&gt;Done on Hard&lt;/td&gt;
+&lt;td&gt;Done on Hard Diff&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Assassin&amp;rsquo;s Creed Odyssey&lt;/td&gt;
-&lt;td&gt;TBC&lt;/td&gt;
+&lt;td&gt;Done on Hard Diff&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Assassin&amp;rsquo;s Creed Valhalla&lt;/td&gt;
@@ -3605,12 +3604,12 @@ player.setVolume(0.5);
 &lt;/details&gt;
 &lt;h2 id=&#34;pc-specs&#34;&gt;PC Specs&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;CPU: Ryzen 7 5700X&lt;/li&gt;
-&lt;li&gt;Motherboard: MSI B550M PRO-VDH WIFI&lt;/li&gt;
+&lt;li&gt;CPU: AMD Ryzen 7 5700X&lt;/li&gt;
+&lt;li&gt;Motherboard: MSI B550M PRO-VDH Wifi&lt;/li&gt;
 &lt;li&gt;Cooler: Silverstone PF240-ARGB&lt;/li&gt;
-&lt;li&gt;RAM: G.Skill Trident Z Neo RGB 2x8GB 3600MHz&lt;/li&gt;
-&lt;li&gt;SSD (Boot): Samsung 970 Evo Plus 1TB&lt;/li&gt;
-&lt;li&gt;SSD (Games 😁): Samsung 970 Evo Plus 500GB&lt;/li&gt;
+&lt;li&gt;RAM: G. Skill Trident Z Neo RGB 4x8GB 3600MHz&lt;/li&gt;
+&lt;li&gt;SSD (System): Samsung 970 Evo Plus 1TB&lt;/li&gt;
+&lt;li&gt;SSD (Games): Samsung 970 Evo Plus 500GB&lt;/li&gt;
 &lt;li&gt;Storage: Seagate Barracuda 2TB&lt;/li&gt;
 &lt;li&gt;GPU: Gigabyte RTX 2060 6GB&lt;/li&gt;
 &lt;li&gt;Case: Silverstone Fara R1 V2 Midtower&lt;/li&gt;
@@ -3625,13 +3624,21 @@ player.setVolume(0.5);
 &lt;li&gt;Logitech G304 Wireless&lt;/li&gt;
 &lt;li&gt;Steelseries QCK+&lt;/li&gt;
 &lt;li&gt;Logitech C922&lt;/li&gt;
-&lt;li&gt;JBL Go 3&lt;/li&gt;
+&lt;li&gt;JBL Go 3 Bluetooth Speakers&lt;/li&gt;
+&lt;li&gt;Sony SRS-D5 Speakers&lt;/li&gt;
 &lt;li&gt;Audio-Technica ATH-M30X&lt;/li&gt;
-&lt;li&gt;Razer Hammerhead V2 Pro&lt;/li&gt;
-&lt;li&gt;Samson Q9U&lt;/li&gt;
+&lt;li&gt;Samson Q9U Dynamic Mic&lt;/li&gt;
+&lt;li&gt;Audio-Technica ATR2500X-USB Condenser Mic&lt;/li&gt;
 &lt;li&gt;Elgato Stream Deck MK.2&lt;/li&gt;
 &lt;li&gt;Elgato HD60 S+&lt;/li&gt;
 &lt;li&gt;2 Xbox Wireless Controller (got a wife now)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;laptop-hiram&#34;&gt;Laptop (Hiram)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Acer Nitro AN515-43&lt;/li&gt;
+&lt;li&gt;Tecware Phantom Elite TKL&lt;/li&gt;
+&lt;li&gt;Logitech G Pro Wired Mouse&lt;/li&gt;
+&lt;li&gt;Razer Hammerhead V2 Pro&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;h3 id=&#34;profiles&#34;&gt;Profiles&lt;/h3&gt;
@@ -3653,8 +3660,8 @@ player.setVolume(0.5);
     &gt;&lt;strong&gt;YouTube Channel&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://facebook.com/RedDavidGG/community&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Facebook Gaming&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Tip via &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/RedDavidGaming/tip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;strong&gt;StreamElements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Got a spare change to help me upgrade my setup and dev journey? &lt;a class=&#34;link&#34; href=&#34;https://paypal.me/reddvid&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Donate via PayPal&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br&gt;
 </description>

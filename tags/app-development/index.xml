@@ -6,7 +6,51 @@
         <description>Recent content in App Development on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 03 Feb 2021 01:25:58 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/app-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 01 Dec 2022 01:21:59 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/app-development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>And... it&#39;s December</title>
+        <link>https://reddavid.me/and...-its-december/</link>
+        <pubDate>Thu, 01 Dec 2022 01:21:59 +0800</pubDate>
+        
+        <guid>https://reddavid.me/and...-its-december/</guid>
+        <description>&lt;p&gt;How many times have I apologized for not posting on my blog? 😅&lt;/p&gt;
+&lt;p&gt;Let’s just recap, shall we?&lt;/p&gt;
+&lt;h2 id=&#34;i-got-married&#34;&gt;I Got Married&lt;/h2&gt;
+&lt;p&gt;Yes, people still marry despite the hardships in this f-ing country, and I am one of them last October. We both felt it is time after 8 years of being together.&lt;/p&gt;
+&lt;p&gt;The prior months were not all wedding-preparations as I read and took some online courses and learning programs - more about &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Flutter&lt;/a&gt;, and leadership/project management.&lt;/p&gt;
+&lt;h2 id=&#34;learning-in-depth-flutter&#34;&gt;Learning In-Depth Flutter&lt;/h2&gt;
+&lt;p&gt;The infamous Angela Yu’s Flutter bootcamp course on &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Udemy&lt;/a&gt; has been sitting on my learning for a few months and I finally decided to take it on since I really really have to update and improve my Flutter/Dart coding - and to update some apps.&lt;/p&gt;
+&lt;p&gt;I faced some problems with the course since it was outdated to the current Flutter version but it all went good, thanks for the updated documentation of Flutter and &lt;a class=&#34;link&#34; href=&#34;http://pub.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;pub.dev&lt;/a&gt; packages.&lt;/p&gt;
+&lt;p&gt;I learned DRY (&lt;strong&gt;d&lt;/strong&gt;on’t &lt;strong&gt;r&lt;/strong&gt;epeat &lt;strong&gt;y&lt;/strong&gt;ourself) - again - especially with Flutter’s all code UI. So, learning to convert most reusable Widgets to “components” is fun.&lt;/p&gt;
+&lt;p&gt;I also learned a few techniques and best practices.&lt;/p&gt;
+&lt;h2 id=&#34;updating-rpn-radio-app&#34;&gt;Updating RPN Radio App&lt;/h2&gt;
+&lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
+&lt;p&gt;And the app needed a UI/UX refresh - well at least for the player part.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/12-22/rpnradio.png&#34;
+         alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;RPN Radio App UI before and after (Note: After image was taken when stations were offline)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The app is now available to download for free on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple App Store&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;next&#34;&gt;Next?&lt;/h2&gt;
+&lt;p&gt;I also tested Flutter’s web app by building a working web version of my simple app, &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ZIP Code PH&lt;/a&gt;. It’s really really simple as of this moment.&lt;/p&gt;
+&lt;p&gt;I will be also going in-depth with Firebase and Firebase Auth to improve the mobile apps.&lt;/p&gt;
+&lt;h2 id=&#34;gaming-and-streaming&#34;&gt;Gaming and Streaming&lt;/h2&gt;
+&lt;p&gt;Sadly, after coming back from the break, I felt no energy to play games - continue playing Assassin’s Creed: Odyssey or any other games on my Xbox PC game pass. And whenever I start a new game, I feel bored can’t motivate myself to continue playing.&lt;/p&gt;
+&lt;p&gt;I tried to play Dead Space, Battlefield 4, and VALORANT this November but also felt nothing.&lt;/p&gt;
+&lt;p&gt;But there is this game called 7 Days to Die on Steam that I am currently playing (not regularly, though) and I’ll see if it’s worth playing through.&lt;/p&gt;
+&lt;p&gt;Catch me on &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/RedDavidGG&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Facebook Gaming&lt;/a&gt; when I go live, or on my &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@reddavidgg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YouTube gaming channel&lt;/a&gt; for uploads.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>RPN Radio: Streaming App for Android</title>
         <link>https://reddavid.me/rpnradio-android/</link>
         <pubDate>Wed, 03 Feb 2021 01:25:58 +0800</pubDate>

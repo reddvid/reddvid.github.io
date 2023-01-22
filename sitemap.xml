@@ -3,18 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://reddavid.me/</loc>
-    <lastmod>2022-12-31T20:03:45+08:00</lastmod>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/c#/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/categories/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/categories/coding/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/facebook/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/post/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/puppeteersharp/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/regex/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/scraping/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/scraping-facebook-pages-to-get-number-of-likes-and-followers/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/</loc>
+    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/a-look-back-on-2022/</loc>
     <lastmod>2022-12-31T20:03:45+08:00</lastmod>
   </url><url>
-    <loc>https://reddavid.me/categories/</loc>
-    <lastmod>2022-12-31T20:03:45+08:00</lastmod>
-  </url><url>
     <loc>https://reddavid.me/tags/coding/</loc>
-    <lastmod>2022-12-31T20:03:45+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/categories/coding/</loc>
     <lastmod>2022-12-31T20:03:45+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/elgato/</loc>
@@ -23,13 +47,7 @@
     <loc>https://reddavid.me/tags/github/</loc>
     <lastmod>2022-12-31T20:03:45+08:00</lastmod>
   </url><url>
-    <loc>https://reddavid.me/post/</loc>
-    <lastmod>2022-12-31T20:03:45+08:00</lastmod>
-  </url><url>
     <loc>https://reddavid.me/categories/stories/</loc>
-    <lastmod>2022-12-31T20:03:45+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/tags/</loc>
     <lastmod>2022-12-31T20:03:45+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/categories/tech/</loc>
@@ -400,9 +418,6 @@
   </url><url>
     <loc>https://reddavid.me/rpnradio-ui-overhaul/</loc>
     <lastmod>2021-05-30T00:15:36+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/tags/facebook/</loc>
-    <lastmod>2021-05-29T22:26:48+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/minecraft/</loc>
     <lastmod>2021-05-29T22:26:48+08:00</lastmod>

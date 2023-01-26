@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Projects on David Ballesteros</title>
+        <link>https://reddavid.me/projects/</link>
+        <description>Recent content in Projects on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="https://reddavid.me/projects/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Feeling Fresh</title>
+        <link>https://reddavid.me/projects/feeling-fresh/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://reddavid.me/projects/feeling-fresh/</guid>
+        <description>&lt;h2 id=&#34;feeling-fresh&#34;&gt;Feeling Fresh&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Slightly&lt;/em&gt; fast forward installing softwares on new Windows installation&lt;/p&gt;
+
+&lt;div class=&#34;tagCloud-tags ff&#34;&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Adobe%20Acrobat%20Reader%20DC&#34;&gt;Adobe Acrobat Reader DC&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Adobe%20Creative%20Cloud&#34;&gt;Adobe Creative Cloud&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+AMD%20Radeon%20Software&#34;&gt;AMD Radeon Software&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Android%20Studio&#34;&gt;Android Studio&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+AnyDesk&#34;&gt;AnyDesk&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Audacity&#34;&gt;Audacity&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Avast%20Driver%20Updater&#34;&gt;Avast Driver Updater&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Battlenet%20App&#34;&gt;Battlenet App&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Bitwarden&#34;&gt;Bitwarden&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Bluestacks&#34;&gt;Bluestacks&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Brave%20Browser&#34;&gt;Brave Browser&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Clip%20Studio%20Paint&#34;&gt;Clip Studio Paint&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+DaVinci%20Resolve&#34;&gt;DaVinci Resolve&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Discord&#34;&gt;Discord&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Dropbox&#34;&gt;Dropbox&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+EA%20Games%20App&#34;&gt;EA Games App&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Epic%20Games%20Launcher&#34;&gt;Epic Games Launcher&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+f.lux&#34;&gt;f.lux&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Facebook%20Messenger&#34;&gt;Facebook Messenger&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Figma%20Desktop%20App&#34;&gt;Figma Desktop App&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+FileZilla&#34;&gt;FileZilla&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Flutter&#34;&gt;Flutter&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+GeForce%20Experience&#34;&gt;GeForce Experience&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Git%20for%20Windows&#34;&gt;Git for Windows&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+GitHub%20Desktop&#34;&gt;GitHub Desktop&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Google%20Chrome&#34;&gt;Google Chrome&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+hugo.io&#34;&gt;hugo.io&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Huion%20Software&#34;&gt;Huion Software&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+iCloud%20for%20Windows&#34;&gt;iCloud for Windows&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Internet%20Download%20Manager&#34;&gt;Internet Download Manager&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+iTunes&#34;&gt;iTunes&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Logitech%20G%20GitHub&#34;&gt;Logitech G GitHub&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Malwarebytes&#34;&gt;Malwarebytes&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+MedalTV&#34;&gt;MedalTV&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Microsoft%20Teams&#34;&gt;Microsoft Teams&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Mozilla%20Firefox&#34;&gt;Mozilla Firefox&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+MSSQL%20Server%20Management%20Studio&#34;&gt;MSSQL Server Management Studio&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+MySQL%20Workbench&#34;&gt;MySQL Workbench&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Notepad%2b%2b&#34;&gt;Notepad&amp;#43;&amp;#43;&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Notion%20Desktop%20App&#34;&gt;Notion Desktop App&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+OBS%20Studio&#34;&gt;OBS Studio&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Office%20365&#34;&gt;Office 365&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+PatchMyPC&#34;&gt;PatchMyPC&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Postman&#34;&gt;Postman&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+PowerToys&#34;&gt;PowerToys&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+qBittorrent&#34;&gt;qBittorrent&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Rufus&#34;&gt;Rufus&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Skype&#34;&gt;Skype&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Slack&#34;&gt;Slack&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Snappy%20Driver%20Installer%20Origin&#34;&gt;Snappy Driver Installer Origin&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Spotify&#34;&gt;Spotify&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Steam&#34;&gt;Steam&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Stream%20Deck%20Software&#34;&gt;Stream Deck Software&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Streamlabs%20OBS&#34;&gt;Streamlabs OBS&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Sumatra%20PDF&#34;&gt;Sumatra PDF&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+TeamViewer&#34;&gt;TeamViewer&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+TreeSize%20Free&#34;&gt;TreeSize Free&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Trello&#34;&gt;Trello&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Ubisoft%20Connect&#34;&gt;Ubisoft Connect&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Unity%20Hub&#34;&gt;Unity Hub&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+VB%20Virtual%20Cable&#34;&gt;VB Virtual Cable&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Viber&#34;&gt;Viber&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Visual%20Studio&#34;&gt;Visual Studio&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+VLC%20Media%20Player&#34;&gt;VLC Media Player&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Voicemeeter%20Banana&#34;&gt;Voicemeeter Banana&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+VS%20Code&#34;&gt;VS Code&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Vysor&#34;&gt;Vysor&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+WhatsApp%20Desktop&#34;&gt;WhatsApp Desktop&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+WinAmp&#34;&gt;WinAmp&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+WinRAR&#34;&gt;WinRAR&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+XSplit%20Broadcaster&#34;&gt;XSplit Broadcaster&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+XSplit%20VCam&#34;&gt;XSplit VCam&lt;/a&gt;
+  
+  &lt;a class=&#34;cardlink&#34; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;
+    href=&#34;https://duckduckgo.com/?q=!ducky+Zoom&#34;&gt;Zoom&lt;/a&gt;
+  
+&lt;/div&gt;
+
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -3,7 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://reddavid.me/</loc>
-    <lastmod>2023-01-27T05:58:49+08:00</lastmod>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/.net/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/apps/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/automating-obs-recording-with-winforms-app/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/c#/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/categories/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/coding/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/categories/coding/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/obs-recording/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/post/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/powershell/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/script/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/software-development/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/categories/software-development/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/visual-studio/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/winforms/</loc>
+    <lastmod>2023-01-29T18:07:22+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/projects/feeling-fresh/</loc>
     <lastmod>2023-01-27T05:58:49+08:00</lastmod>
@@ -11,19 +59,7 @@
     <loc>https://reddavid.me/projects/</loc>
     <lastmod>2023-01-27T05:58:49+08:00</lastmod>
   </url><url>
-    <loc>https://reddavid.me/tags/c#/</loc>
-    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/categories/</loc>
-    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/categories/coding/</loc>
-    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
-  </url><url>
     <loc>https://reddavid.me/tags/facebook/</loc>
-    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/post/</loc>
     <lastmod>2023-01-23T02:58:40+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/puppeteersharp/</loc>
@@ -38,13 +74,7 @@
     <loc>https://reddavid.me/scraping-facebook-pages-to-get-number-of-likes-and-followers/</loc>
     <lastmod>2023-01-23T02:58:40+08:00</lastmod>
   </url><url>
-    <loc>https://reddavid.me/tags/</loc>
-    <lastmod>2023-01-23T02:58:40+08:00</lastmod>
-  </url><url>
     <loc>https://reddavid.me/a-look-back-on-2022/</loc>
-    <lastmod>2022-12-31T20:03:45+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/tags/coding/</loc>
     <lastmod>2022-12-31T20:03:45+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/elgato/</loc>
@@ -86,14 +116,8 @@
     <loc>https://reddavid.me/tags/app-development/</loc>
     <lastmod>2022-12-01T01:21:59+08:00</lastmod>
   </url><url>
-    <loc>https://reddavid.me/tags/apps/</loc>
-    <lastmod>2022-12-01T01:21:59+08:00</lastmod>
-  </url><url>
     <loc>https://reddavid.me/tags/flutter/</loc>
     <lastmod>2022-12-01T01:21:59+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/tags/.net/</loc>
-    <lastmod>2022-06-08T03:12:03+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/books/</loc>
     <lastmod>2022-06-08T03:12:03+08:00</lastmod>
@@ -405,9 +429,6 @@
     <lastmod>2021-06-12T00:50:15+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/rpn-radio/</loc>
-    <lastmod>2021-06-12T00:50:15+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/tags/software-development/</loc>
     <lastmod>2021-06-12T00:50:15+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/obs/</loc>

@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.
+I was asked if this was possible, and I said yes, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.'>
+<title>Automating OBS Recording With WinForms App - David Ballesteros</title>
+
+
+<link rel='canonical' href='https://reddavid.me/automating-obs-recording-with-winforms-app/'>
+
+<link rel="stylesheet" href="/scss/style.min.43496f868d94220ec49b415c807b60720d4ee14b22214b7079c275ef7c13702c.css"><meta property='og:title' content='Automating OBS Recording With WinForms App'>
+<meta property='og:description' content='There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.
+I was asked if this was possible, and I said yes, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.'>
+<meta property='og:url' content='https://reddavid.me/automating-obs-recording-with-winforms-app/'>
+<meta property='og:site_name' content='David Ballesteros'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Apps' /><meta property='article:tag' content='WinForms' /><meta property='article:tag' content='C#' /><meta property='article:tag' content='Visual Studio' /><meta property='article:tag' content='.NET' /><meta property='article:tag' content='Coding' /><meta property='article:tag' content='OBS Recording' /><meta property='article:tag' content='Script' /><meta property='article:tag' content='PowerShell' /><meta property='article:tag' content='Software Development' /><meta property='article:published_time' content='2023-01-29T18:07:22&#43;08:00' /><meta property='article:modified_time' content='2023-01-29T18:07:22&#43;08:00' /><meta property='og:image' content='https://reddavid.me/images/og/automate-obs.png' />
+<meta name="twitter:site" content="@reddvid">
+<meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Automating OBS Recording With WinForms App">
+<meta name="twitter:description" content="There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.
+I was asked if this was possible, and I said yes, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups."><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content='https://reddavid.me/images/og/automate-obs.png' />
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129071597-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<link rel="preload" href="/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="application-name" content="Red David Blog">
+<meta name="apple-mobile-web-app-title" content="Red David Blog">
+<meta name="theme-color" content="#212121">
+<meta name="msapplication-TileColor" content="#FF0000">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF0000">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="canonical" href="https://reddavid.me/" />
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="Red David | Tech, Gaming, and Coding Blog">
+<link rel="feed" href="/index.xml" type="application/rss+xml" title="Red David | Tech, Gaming, and Coding Blog">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+<link rel="stylesheet" href="/css/style.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/reddavid.me\/","inLanguage": "en","author": {
+                "@type": "Person",
+                "name": "Red David"
+            },"description": "Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.","image": "https:\/\/reddavid.me\/images\/Apple-Devices-Preview.png","thumbnailUrl": "https:\/\/reddavid.me\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "Red David | Tech, Gaming, and Coding Blog"
+    }
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-129071597-1');
+</script>
+    </head>
+    <body class="
+article-page
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="/images/avatar.jpg" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">👋</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">David Ballesteros</a></h1>
+            <h2 class="site-description">IT Admin • App Developer • Small-time Streamer</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/reddvid'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://instagram.com/reddvid'
+                        target="_blank"
+                        title="Instagram"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://linkedin.com/in/reddvid'
+                        target="_blank"
+                        title="LinkedIn"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitch.tv/reddavidgg'
+                        target="_blank"
+                        title="Twitch"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitch" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
+  <line x1="16" y1="8" x2="16" y2="12" />
+  <line x1="12" y1="8" x2="12" y2="12" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/reddvid'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com/@reddavidtv'
+                        target="_blank"
+                        title="YouTube"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="4" />
+  <path d="M10 9l5 3l-5 3z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/posts/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Posts</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/gaming/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mouse" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="6" y="3" width="12" height="18" rx="4" />
+  <line x1="12" y1="7" x2="12" y2="11" />
+</svg>
+
+
+
+                
+                <span>Gaming</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/portfolio/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+</svg>
+
+
+
+                
+                <span>Portfolio</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+<article class="main-article">
+
+    
+    
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/automating-obs-recording-with-winforms-app/">
+                
+                    <img src="/images/og/automate-obs.png" loading="lazy" alt="Featured image of post Automating OBS Recording With WinForms App" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+        <a href="/categories/coding/" style="background-color: #2a9d8f; color: #fff;" >
+            Coding
+        </a>
+        
+        <a href="/categories/software-development/" >
+            Software Development
+        </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h1 class="article-title">
+            <a href="/automating-obs-recording-with-winforms-app/">Automating OBS Recording With WinForms App</a>
+        </h1>
+
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+            <time class="article-time--published">Jan 29, 2023</time>
+        </div>
+        
+
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <time class="article-time--reading">
+                7 minute read
+            </time>
+        </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+    <br>
+    <hr style="width: 90%; opacity: .55; background-color:rgba(255, 255, 255, 0.5);">
+    <br>
+    
+
+    <section class="article-content">
+    
+    
+    <p>There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.</p>
+<p>I was asked if this was possible, and I said <em>yes</em>, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.</p>
+<h2 id="obs-layout">OBS Layout</h2>
+<p>So I began setting up the layout that will help distinguish the date and time of the streams being recorded:</p>
+<ul>
+<li>Add a Text source and Used a datetime.lua script:</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="cm">--[[ OBS Studio datetime script
+</span></span></span><span class="line"><span class="cl"><span class="cm">
+</span></span></span><span class="line"><span class="cl"><span class="cm">This script transforms a text source into a digital clock. The datetime format
+</span></span></span><span class="line"><span class="cl"><span class="cm">is configurable and uses the same syntax than the Lua os.date() call.
+</span></span></span><span class="line"><span class="cl"><span class="cm">]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">obs</span>             <span class="o">=</span> <span class="n">obslua</span>
+</span></span><span class="line"><span class="cl"><span class="n">source_name</span>     <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">datetime_format</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">activated</span>       <span class="o">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Function to set the time text</span>
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">set_datetime_text</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">format</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">text</span> <span class="o">=</span> <span class="n">os.date</span><span class="p">(</span><span class="n">format</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">settings</span> <span class="o">=</span> <span class="n">obs.obs_data_create</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">obs.obs_data_set_string</span><span class="p">(</span><span class="n">settings</span><span class="p">,</span> <span class="s2">&#34;text&#34;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">obs.obs_source_update</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">settings</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">obs.obs_data_release</span><span class="p">(</span><span class="n">settings</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">timer_callback</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">source</span> <span class="o">=</span> <span class="n">obs.obs_get_source_by_name</span><span class="p">(</span><span class="n">source_name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="n">source</span> <span class="o">~=</span> <span class="kc">nil</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">        <span class="n">set_datetime_text</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">datetime_format</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">obs.obs_source_release</span><span class="p">(</span><span class="n">source</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">activate</span><span class="p">(</span><span class="n">activating</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="n">activated</span> <span class="o">==</span> <span class="n">activating</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">return</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">activated</span> <span class="o">=</span> <span class="n">activating</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="n">activating</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">        <span class="n">obs.timer_add</span><span class="p">(</span><span class="n">timer_callback</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">else</span>
+</span></span><span class="line"><span class="cl">        <span class="n">obs.timer_remove</span><span class="p">(</span><span class="n">timer_callback</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">-- Called when a source is activated/deactivated</span>
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">activate_signal</span><span class="p">(</span><span class="n">cd</span><span class="p">,</span> <span class="n">activating</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">source</span> <span class="o">=</span> <span class="n">obs.calldata_source</span><span class="p">(</span><span class="n">cd</span><span class="p">,</span> <span class="s2">&#34;source&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="n">source</span> <span class="o">~=</span> <span class="kc">nil</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">local</span> <span class="n">name</span> <span class="o">=</span> <span class="n">obs.obs_source_get_name</span><span class="p">(</span><span class="n">source</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">if</span> <span class="p">(</span><span class="n">name</span> <span class="o">==</span> <span class="n">source_name</span><span class="p">)</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">            <span class="n">activate</span><span class="p">(</span><span class="n">activating</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">source_activated</span><span class="p">(</span><span class="n">cd</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">activate_signal</span><span class="p">(</span><span class="n">cd</span><span class="p">,</span> <span class="kc">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">source_deactivated</span><span class="p">(</span><span class="n">cd</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">activate_signal</span><span class="p">(</span><span class="n">cd</span><span class="p">,</span> <span class="kc">false</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">reset</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">activate</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">source</span> <span class="o">=</span> <span class="n">obs.obs_get_source_by_name</span><span class="p">(</span><span class="n">source_name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="n">source</span> <span class="o">~=</span> <span class="kc">nil</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">local</span> <span class="n">active</span> <span class="o">=</span> <span class="n">obs.obs_source_showing</span><span class="p">(</span><span class="n">source</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">obs.obs_source_release</span><span class="p">(</span><span class="n">source</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">activate</span><span class="p">(</span><span class="n">active</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">----------------------------------------------------------</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">script_description</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">return</span> <span class="s2">&#34;Sets a text source to act as a clock when the source is active.</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">The datetime format can use the following tags:</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %a	abbreviated weekday name (e.g., Wed)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %A	full weekday name (e.g., Wednesday)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %b	abbreviated month name (e.g., Sep)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %B	full month name (e.g., September)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %c	date and time (e.g., 09/16/98 23:48:10)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %d	day of the month (16) [01-31]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %H	hour, using a 24-hour clock (23) [00-23]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %I	hour, using a 12-hour clock (11) [01-12]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %M	minute (48) [00-59]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %m	month (09) [01-12]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %p	either </span><span class="se">\&#34;</span><span class="s2">am</span><span class="se">\&#34;</span><span class="s2"> or </span><span class="se">\&#34;</span><span class="s2">pm</span><span class="se">\&#34;</span><span class="s2"> (pm)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %S	second (10) [00-61]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %w	weekday (3) [0-6 = Sunday-Saturday]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %x	date (e.g., 09/16/98)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %X	time (e.g., 23:48:10)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %Y	full year (1998)</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %y	two-digit year (98) [00-99]</span><span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="s2">    %%	the character `%ยด&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">script_properties</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">props</span> <span class="o">=</span> <span class="n">obs.obs_properties_create</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">obs.obs_properties_add_text</span><span class="p">(</span><span class="n">props</span><span class="p">,</span> <span class="s2">&#34;format&#34;</span><span class="p">,</span> <span class="s2">&#34;Datetime format&#34;</span><span class="p">,</span> <span class="n">obs.OBS_TEXT_DEFAULT</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">p</span> <span class="o">=</span> <span class="n">obs.obs_properties_add_list</span><span class="p">(</span><span class="n">props</span><span class="p">,</span> <span class="s2">&#34;source&#34;</span><span class="p">,</span> <span class="s2">&#34;Text Source&#34;</span><span class="p">,</span> <span class="n">obs.OBS_COMBO_TYPE_EDITABLE</span><span class="p">,</span> <span class="n">obs.OBS_COMBO_FORMAT_STRING</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">sources</span> <span class="o">=</span> <span class="n">obs.obs_enum_sources</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">if</span> <span class="n">sources</span> <span class="o">~=</span> <span class="kc">nil</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">source</span> <span class="kr">in</span> <span class="n">ipairs</span><span class="p">(</span><span class="n">sources</span><span class="p">)</span> <span class="kr">do</span>
+</span></span><span class="line"><span class="cl">            <span class="n">source_id</span> <span class="o">=</span> <span class="n">obs.obs_source_get_id</span><span class="p">(</span><span class="n">source</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="kr">if</span> <span class="n">source_id</span> <span class="o">==</span> <span class="s2">&#34;text_gdiplus&#34;</span> <span class="ow">or</span> <span class="n">source_id</span> <span class="o">==</span> <span class="s2">&#34;text_ft2_source&#34;</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">                <span class="kd">local</span> <span class="n">name</span> <span class="o">=</span> <span class="n">obs.obs_source_get_name</span><span class="p">(</span><span class="n">source</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="n">obs.obs_property_list_add_string</span><span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span>
+</span></span><span class="line"><span class="cl">    <span class="n">obs.source_list_release</span><span class="p">(</span><span class="n">sources</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">return</span> <span class="n">props</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">script_defaults</span><span class="p">(</span><span class="n">settings</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">obs.obs_data_set_default_string</span><span class="p">(</span><span class="n">settings</span><span class="p">,</span> <span class="s2">&#34;format&#34;</span><span class="p">,</span> <span class="s2">&#34;%X&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">script_update</span><span class="p">(</span><span class="n">settings</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">activate</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">source_name</span> <span class="o">=</span> <span class="n">obs.obs_data_get_string</span><span class="p">(</span><span class="n">settings</span><span class="p">,</span> <span class="s2">&#34;source&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">datetime_format</span> <span class="o">=</span> <span class="n">obs.obs_data_get_string</span><span class="p">(</span><span class="n">settings</span><span class="p">,</span> <span class="s2">&#34;format&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">reset</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nf">script_load</span><span class="p">(</span><span class="n">settings</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">local</span> <span class="n">sh</span> <span class="o">=</span> <span class="n">obs.obs_get_signal_handler</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">obs.signal_handler_connect</span><span class="p">(</span><span class="n">sh</span><span class="p">,</span> <span class="s2">&#34;source_show&#34;</span><span class="p">,</span> <span class="n">source_activated</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">obs.signal_handler_connect</span><span class="p">(</span><span class="n">sh</span><span class="p">,</span> <span class="s2">&#34;source_hide&#34;</span><span class="p">,</span> <span class="n">source_deactivated</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Add 6 Browser sources arranged in a grid and each navigates to a station’s <a class="link" href="https://tunein.rpnradio.com/"  target="_blank" rel="noopener"
+    >stream URL</a></li>
+<li>Add another Text source for the track number overlay spaced properly to match the browser source grid</li>
+</ul>
+<p>Below is the final scenes list and output layout:</p>
+<figure><img src="scenes.png"
+         alt="OBS Scenes" width="50%"/><figcaption>
+            <p>OBS Scenes</p>
+        </figcaption>
+</figure>
+
+<figure><img src="output-layout.png"
+         alt="OBS Scene Output Preview" width="80%"/><figcaption>
+            <p>OBS Scene Output Preview</p>
+        </figcaption>
+</figure>
+
+<h2 id="obs-recording-settings">OBS Recording Settings</h2>
+<p>After arranging the tracks to determine their order:</p>
+<ul>
+<li>Set Advanced Audio Properties to separate audio to each track</li>
+</ul>
+<figure><img src="advanced-audio-properties.png"
+         alt="OBS Advanced Audio Properties" width="70%"/><figcaption>
+            <p>OBS Advanced Audio Properties</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>Check all tracks in Recording settings</li>
+</ul>
+<figure><img src="recording-settings.png"
+         alt="Check Box - Recording Advanced Settings" width="90%"/><figcaption>
+            <p>Check Box - Recording Advanced Settings</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>Rename tracks in Audio settings</li>
+</ul>
+<figure><img src="output-audio-settings.png"
+         alt="Naming Audio Tracks in Audio Settings" width="90%"/><figcaption>
+            <p>Naming Audio Tracks in Audio Settings</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>Finally, I set the settings to record at just 10kbps to decrease the output filesize.</li>
+</ul>
+<h2 id="automation">Automation</h2>
+<p>After setting up the recording system, it is now a challenge on how to run OBS and start recording at the required times: 3:00am to 10:00pm.</p>
+<p>Turning off the system at 10:00pm is not a problem but starting it at 3:00am is a challenge. And it is also not an option to run the system 24/7 since we need <em>daily</em> <em>traffic</em>.</p>
+<h3 id="task-scheduler-and-powershell-script">Task Scheduler and PowerShell Script</h3>
+<p>I first chose this method since I know that most programs use this as well to run at a specific setting (e.g. Startup, definite time). So I get to code two files: an XML for the task to be imported, and a PowerShell script which the task will run:</p>
+<ul>
+<li>obs-launch-record.ps1</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nv">$obs</span> <span class="p">=</span> <span class="nb">Get-Process</span> <span class="n">obs64</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nv">$obs</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># try gracefully first</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$obs</span><span class="p">.</span><span class="py">CloseMainWindow</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="c"># kill after 1 second</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Sleep </span><span class="mf">1</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(!</span><span class="nv">$obs</span><span class="p">.</span><span class="n">HasExited</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$obs</span> <span class="p">|</span> <span class="nb">Stop-Process</span> <span class="n">-Force</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Remove-Variable</span> <span class="n">obs</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nb">Get-Date</span><span class="p">)</span><span class="s2"> Launching OBS Studio...&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nb">Get-Date</span><span class="p">)</span><span class="s2"> Recording...&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Set-Location</span> <span class="n">-Path</span> <span class="s2">&#34;C:\Program Files\obs-studio\bin\64bit\&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Start-Process</span> <span class="s2">&#34;.\obs64.exe&#34;</span> <span class="p">-</span><span class="n">-startrecording</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;Remember to set and start your Output Timer in Tools&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Write-Host</span> <span class="s2">&#34;or you can just manually stop the recording&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c">#Write-Host &#34;Press any key to continue...&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c">#$Host.UI.RawUI.ReadKey(&#34;NoEcho,IncludeKeyDown&#34;)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Read-Host</span> <span class="n">-Prompt</span> <span class="s2">&#34;Press Enter to exit&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>script-launch-task.xml</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-16&#34;?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;Task</span> <span class="na">version=</span><span class="s">&#34;1.4&#34;</span> <span class="na">xmlns=</span><span class="s">&#34;http://schemas.microsoft.com/windows/2004/02/mit/task&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;RegistrationInfo&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Date&gt;</span>2020-10-29T16:14:25.6856808<span class="nt">&lt;/Date&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Author&gt;</span>DAVID-WORKPC\david<span class="nt">&lt;/Author&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Description&gt;</span>This task runs a powershell script that launches OBS Studio with a parameter to start recording automatically.<span class="nt">&lt;/Description&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;URI&gt;</span>\Run OBS Studio and Record<span class="nt">&lt;/URI&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/RegistrationInfo&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Triggers&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;CalendarTrigger&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;StartBoundary&gt;</span>2020-10-29T02:59:59+08:00<span class="nt">&lt;/StartBoundary&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;Enabled&gt;</span>true<span class="nt">&lt;/Enabled&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;ScheduleByDay&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;DaysInterval&gt;</span>1<span class="nt">&lt;/DaysInterval&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/ScheduleByDay&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/CalendarTrigger&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/Triggers&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Principals&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Principal</span> <span class="na">id=</span><span class="s">&#34;Author&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;UserId&gt;</span>S-1-5-21-2031556638-4226476305-1743380608-1001<span class="nt">&lt;/UserId&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;LogonType&gt;</span>InteractiveToken<span class="nt">&lt;/LogonType&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;RunLevel&gt;</span>HighestAvailable<span class="nt">&lt;/RunLevel&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/Principal&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/Principals&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Settings&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;MultipleInstancesPolicy&gt;</span>IgnoreNew<span class="nt">&lt;/MultipleInstancesPolicy&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;DisallowStartIfOnBatteries&gt;</span>true<span class="nt">&lt;/DisallowStartIfOnBatteries&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;StopIfGoingOnBatteries&gt;</span>true<span class="nt">&lt;/StopIfGoingOnBatteries&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;AllowHardTerminate&gt;</span>true<span class="nt">&lt;/AllowHardTerminate&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;StartWhenAvailable&gt;</span>false<span class="nt">&lt;/StartWhenAvailable&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;RunOnlyIfNetworkAvailable&gt;</span>false<span class="nt">&lt;/RunOnlyIfNetworkAvailable&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;IdleSettings&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;StopOnIdleEnd&gt;</span>true<span class="nt">&lt;/StopOnIdleEnd&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;RestartOnIdle&gt;</span>false<span class="nt">&lt;/RestartOnIdle&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/IdleSettings&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;AllowStartOnDemand&gt;</span>true<span class="nt">&lt;/AllowStartOnDemand&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Enabled&gt;</span>true<span class="nt">&lt;/Enabled&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Hidden&gt;</span>false<span class="nt">&lt;/Hidden&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;RunOnlyIfIdle&gt;</span>false<span class="nt">&lt;/RunOnlyIfIdle&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;DisallowStartOnRemoteAppSession&gt;</span>false<span class="nt">&lt;/DisallowStartOnRemoteAppSession&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;UseUnifiedSchedulingEngine&gt;</span>true<span class="nt">&lt;/UseUnifiedSchedulingEngine&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;WakeToRun&gt;</span>false<span class="nt">&lt;/WakeToRun&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;ExecutionTimeLimit&gt;</span>PT72H<span class="nt">&lt;/ExecutionTimeLimit&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Priority&gt;</span>7<span class="nt">&lt;/Priority&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;RestartOnFailure&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;Interval&gt;</span>PT1M<span class="nt">&lt;/Interval&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;Count&gt;</span>5<span class="nt">&lt;/Count&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/RestartOnFailure&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/Settings&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Actions</span> <span class="na">Context=</span><span class="s">&#34;Author&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;Exec&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;Command&gt;</span>powershell<span class="nt">&lt;/Command&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;Arguments&gt;</span>-File D:\start-obs-record.ps1<span class="nt">&lt;/Arguments&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/Exec&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/Actions&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/Task&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>These two files works but despite the users being technical, this method seems daunting by using an uncommon app, Task Scheduler, and it is inefficient when changing the xml code or script (when changing time, obs.exe location, etc.)</p>
+<h3 id="building-a-winforms-app">Building a WinForms App</h3>
+<p>To simplify and solve some major problems of the Task Scheduler method, I decided to use a GUI by developing a System Tray app using WinForms.</p>
+<figure><img src="app-gui.png"
+         alt="App GUI" width="50%"/><figcaption>
+            <p>App GUI</p>
+        </figcaption>
+</figure>
+
+<p>The GUI now allows to freely change the start recording in OBS with the argument (also used in PowerShell script above):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">.\obs64.exe --startrecording
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The app basically runs 24/7 on the system and checks if it is time to start or stop the executable. An option to auto-run it at startup, and an executable file browser to ensure OBS exists.</p>
+<h2 id="monitor-recordings-in-vlc">Monitor Recordings in VLC</h2>
+<p>Now that everything is automated and works as intended, assigned personnel can now review recorded files on VLC - we tried other players but they can NOT handle the filesize (over 13GB each).</p>
+<p>VLC can easily read .MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):</p>
+<figure><img src="vlc-audio-tracks.png"
+         alt="Changing Named Tracks in VLC" width="60%"/><figcaption>
+            <p>Changing Named Tracks in VLC</p>
+        </figcaption>
+</figure>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>It has been working since 2020-ish? See the full code of this app, <a class="link" href="https://github.com/reddvid/rpn-traffic-control"  target="_blank" rel="noopener"
+    >repo</a> is available on my GitHub.</p>
+
+</section>
+
+
+    
+
+<style>
+   #share-buttons {
+      display: inline-block;
+      vertical-align: middle;
+   }
+
+   #share-buttons:after {
+      content: "";
+      display: block;
+      clear: both;
+   }
+
+   #share-buttons>div {
+      position: relative;
+      text-align: left;
+      height: 36px;
+      width: 32px;
+      float: left;
+      text-align: center;
+   }
+
+   #share-buttons>div>svg {
+      height: 16px;
+      fill: #d5d5d5;
+      margin-top: 10px;
+   }
+
+   #share-buttons>div:hover {
+      cursor: pointer;
+   }
+
+   #share-buttons>div.facebook:hover>svg {
+      fill: #3B5998;
+   }
+
+   #share-buttons>div.twitter:hover>svg {
+      fill: #55ACEE;
+   }
+
+   #share-buttons>div.linkedin:hover>svg {
+      fill: #0077b5;
+   }
+
+   #share-buttons>div.pinterest:hover>svg {
+      fill: #CB2027;
+   }
+
+   #share-buttons>div.mail:hover>svg {
+      fill: #7D7D7D;
+   }
+
+   #share-buttons>div.facebook>svg {
+      height: 18px;
+      margin-top: 9px;
+   }
+
+   #share-buttons>div.twitter>svg {
+      height: 20px;
+      margin-top: 8px;
+   }
+
+   #share-buttons>div.linkedin>svg {
+      height: 19px;
+      margin-top: 7px;
+   }
+
+   #share-buttons>div.pinterest>svg {
+      height: 20px;
+      margin-top: 9px;
+   }
+
+   #share-buttons>div.mail>svg {
+      height: 14px;
+      margin-top: 11px;
+   }
+</style>
+
+<div style="text-align: right; margin-right: 30px;">
+   <p style="color: silver; font-size: 1.3rem; margin-bottom: 0px; margin-right: 5px;">Share this:</p>
+   <div id="share-buttons">
+      <div class="facebook" title="Share this on Facebook"
+         onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/reddavid.me\/automating-obs-recording-with-winforms-app\/');"><svg viewBox="0 0 1792 1792"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z" />
+         </svg></div>
+      <div class="twitter" title="Share this on Twitter"
+         onclick="window.open('http://twitter.com/intent/tweet?text=Automating OBS Recording With WinForms App&url=https:\/\/reddavid.me\/automating-obs-recording-with-winforms-app\/');"><svg
+            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z" />
+         </svg></div>
+      <div class="linkedin" title="Share this on Linkedin"
+         onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/reddavid.me\/automating-obs-recording-with-winforms-app\/&title=&summary=&source=');">
+         <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z" />
+         </svg>
+      </div>
+      
+      <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=https:\/\/reddavid.me\/automating-obs-recording-with-winforms-app\/');"><svg
+            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z" />
+         </svg></div>
+   </div>
+</div>
+
+    <footer class="article-footer">
+    
+<br>
+<hr>
+<section class="article-tags">
+    
+    <a href="/tags/apps/">Apps</a>
+    
+    <a href="/tags/winforms/">WinForms</a>
+    
+    <a href="/tags/c#/">C#</a>
+    
+    <a href="/tags/visual-studio/">Visual Studio</a>
+    
+    <a href="/tags/.net/">.NET</a>
+    
+    <a href="/tags/coding/">Coding</a>
+    
+    <a href="/tags/obs-recording/">OBS Recording</a>
+    
+    <a href="/tags/script/">Script</a>
+    
+    <a href="/tags/powershell/">PowerShell</a>
+    
+    <a href="/tags/software-development/">Software development</a>
+    
+</section>
+
+
+    </footer>
+
+    
+
+    
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/rpnradio-ui-overhaul/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/feat/rpnradio-ui.jpeg" loading="lazy" data-key="rpnradio-ui-overhaul"
+                data-hash="/images/feat/rpnradio-ui.jpeg" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">RPN Radio UI Overhaul</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/get-rpn-radio-for-ios/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/rpnradio-appstore.png" loading="lazy" data-key=""
+                data-hash="/images/og/rpnradio-appstore.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Get RPN Radio for iOS</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/scraping-facebook-pages-to-get-number-of-likes-and-followers/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/scraping.png" loading="lazy" data-key=""
+                data-hash="/images/og/scraping.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Scraping Facebook Pages to Get Number of Likes and Followers</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/a-look-back-on-2022/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/look-back.png" loading="lazy" data-key=""
+                data-hash="/images/og/look-back.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A Look Back on 2022</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/and...-its-december/">
+
+        
+
+        <div class="article-details">
+            <h2 class="article-title">And... it&#39;s December</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+
+
+
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "https-reddavid-me" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy;
+        
+        2019 -
+        
+        2023 David Ballesteros
+    </section>
+    <section class="powerby">
+        
+        All Rights Reserved <br />
+        Built with <a class="link" href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br> <a
+            class="link" href="https://reddavid.me/privacy" target="_blank" rel="noopener">Privacy Policy</a> <br />
+        Theme <b><a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank"
+                rel="noopener" data-version="3.10.0">Stack</a></b> designed by <a class="link" href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center" style="text-align: center;"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+<aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#obs-layout">OBS Layout</a></li>
+    <li><a href="#obs-recording-settings">OBS Recording Settings</a></li>
+    <li><a href="#automation">Automation</a>
+      <ul>
+        <li><a href="#task-scheduler-and-powershell-script">Task Scheduler and PowerShell Script</a></li>
+        <li><a href="#building-a-winforms-app">Building a WinForms App</a></li>
+      </ul>
+    </li>
+    <li><a href="#monitor-recordings-in-vlc">Monitor Recordings in VLC</a></li>
+    <li><a href="#final-thoughts">Final Thoughts</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="reddavid" data-description="Support me on Buy me a coffee!" data-message="Thanks for checking my website! Maybe you can get me a coffee? " data-color="#ff813f" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    </body>
+</html>

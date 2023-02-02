@@ -6,10 +6,10 @@
         <description>Recent content in Tags on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 29 Jan 2023 18:07:22 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Feb 2023 19:30:40 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>.NET</title>
         <link>https://reddavid.me/tags/.net/</link>
-        <pubDate>Sun, 29 Jan 2023 18:07:22 +0800</pubDate>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/.net/</guid>
         <description></description>
@@ -17,15 +17,23 @@
         <item>
         <title>Apps</title>
         <link>https://reddavid.me/tags/apps/</link>
-        <pubDate>Sun, 29 Jan 2023 18:07:22 +0800</pubDate>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/apps/</guid>
         <description></description>
         </item>
         <item>
+        <title>Automation</title>
+        <link>https://reddavid.me/tags/automation/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/automation/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>C#</title>
         <link>https://reddavid.me/tags/c#/</link>
-        <pubDate>Sun, 29 Jan 2023 18:07:22 +0800</pubDate>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/c#/</guid>
         <description></description>
@@ -33,9 +41,65 @@
         <item>
         <title>Coding</title>
         <link>https://reddavid.me/tags/coding/</link>
-        <pubDate>Sun, 29 Jan 2023 18:07:22 +0800</pubDate>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/coding/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Fluent</title>
+        <link>https://reddavid.me/tags/fluent/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/fluent/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>MySQL</title>
+        <link>https://reddavid.me/tags/mysql/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/mysql/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Regular Expressions</title>
+        <link>https://reddavid.me/tags/regular-expressions/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/regular-expressions/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Software development</title>
+        <link>https://reddavid.me/tags/software-development/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/software-development/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Visual Studio</title>
+        <link>https://reddavid.me/tags/visual-studio/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/visual-studio/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Workflow</title>
+        <link>https://reddavid.me/tags/workflow/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/workflow/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>WPF</title>
+        <link>https://reddavid.me/tags/wpf/</link>
+        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/wpf/</guid>
         <description></description>
         </item>
         <item>
@@ -60,22 +124,6 @@
         <pubDate>Sun, 29 Jan 2023 18:07:22 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/script/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Software development</title>
-        <link>https://reddavid.me/tags/software-development/</link>
-        <pubDate>Sun, 29 Jan 2023 18:07:22 +0800</pubDate>
-        
-        <guid>https://reddavid.me/tags/software-development/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Visual Studio</title>
-        <link>https://reddavid.me/tags/visual-studio/</link>
-        <pubDate>Sun, 29 Jan 2023 18:07:22 +0800</pubDate>
-        
-        <guid>https://reddavid.me/tags/visual-studio/</guid>
         <description></description>
         </item>
         <item>

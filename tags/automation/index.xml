@@ -12,8 +12,7 @@
         <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
         
         <guid>https://reddavid.me/more-work-automation-by-building-a-wpf-app/</guid>
-        <description>&lt;img src="https://reddavid.me/images/og/work-automation.png" alt="Featured image of post More Work Automation by Building a WPF App" /&gt;&lt;h1 id=&#34;more-work-automation-by-building-a-wpf-app&#34;&gt;More Work Automation by Building a WPF App&lt;/h1&gt;
-&lt;p&gt;As I mentioned in my previous blog post, I do some online broadcasting/content duties which include posting on the website, monitoring and logging 12 stations’ social media and audio servers, and any particular aspect of it.&lt;/p&gt;
+        <description>&lt;img src="https://reddavid.me/images/og/work-automation.png" alt="Featured image of post More Work Automation by Building a WPF App" /&gt;&lt;p&gt;As I mentioned in my previous blog post, I do some online broadcasting/content duties which include posting on the website, monitoring and logging 12 stations’ social media and audio servers, and any particular aspect of it.&lt;/p&gt;
 &lt;p&gt;Having to monitor the 12 stations’ analytics and statistics, one will always come to the point where they would need to automate their workflow. And that’s what I did.&lt;/p&gt;
 &lt;h2 id=&#34;counting-wordpress-posts&#34;&gt;Counting WordPress Posts&lt;/h2&gt;
 &lt;p&gt;First up is to check which stations have posted content on the news website. Since I also have the access to cPanel, thus I can whitelist the office’s IP address in phpMyAdmin to access the MySQL database then.&lt;/p&gt;

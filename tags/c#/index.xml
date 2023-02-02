@@ -695,11 +695,12 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;@&amp;#34;(\d+\.?\d*[K]|\d+) likes&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;@&amp;#34;(\d+\.?\d*[K]|\d+) followers&amp;#34;&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;@&amp;#34;&amp;#34;&amp;#34;text&amp;#34;&amp;#34;:&amp;#34;&amp;#34;(\d+\.?\d*[K]|\d+) likes&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;@&amp;#34;&amp;#34;&amp;#34;text&amp;#34;&amp;#34;:&amp;#34;&amp;#34;(\d+\.?\d*[K]|\d+) followers&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;The regex pattern for the NPE was a little bit tricky since it changed how the numbers are shown - instead of the full numerical amount (e.g. 48,321), Facebook shortened it to 48.3K.&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;em&gt;Edit: Actually added literal &amp;ldquo;text&amp;rdquo; so it avoids inconsistent code and text from page source&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The regex pattern for the NPE was a little bit tricky since it changed how the numbers are shown - instead of the full numerical amount (e.g. 48,321), Facebook shortened it to 48.3K.&lt;/p&gt;
 &lt;h2 id=&#34;full-scraping-code&#34;&gt;Full Scraping Code&lt;/h2&gt;
 &lt;p&gt;I also changed how I get the response code, using &lt;strong&gt;PuppeteerSharp&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;

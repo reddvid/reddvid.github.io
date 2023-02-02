@@ -605,11 +605,12 @@ article-page
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="s">@&#34;(\d+\.?\d*[K]|\d+) likes&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="s">@&#34;(\d+\.?\d*[K]|\d+) followers&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="s">@&#34;&#34;&#34;text&#34;&#34;:&#34;&#34;(\d+\.?\d*[K]|\d+) likes&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="s">@&#34;&#34;&#34;text&#34;&#34;:&#34;&#34;(\d+\.?\d*[K]|\d+) followers&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>The regex pattern for the NPE was a little bit tricky since it changed how the numbers are shown - instead of the full numerical amount (e.g. 48,321), Facebook shortened it to 48.3K.</p>
+</div><p><em>Edit: Actually added literal &ldquo;text&rdquo; so it avoids inconsistent code and text from page source</em></p>
+<p>The regex pattern for the NPE was a little bit tricky since it changed how the numbers are shown - instead of the full numerical amount (e.g. 48,321), Facebook shortened it to 48.3K.</p>
 <h2 id="full-scraping-code">Full Scraping Code</h2>
 <p>I also changed how I get the response code, using <strong>PuppeteerSharp</strong>.</p>
 <div class="highlight"><div class="chroma">

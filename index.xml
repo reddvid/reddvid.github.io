@@ -4363,12 +4363,12 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
         <pubDate>Sun, 23 Feb 2020 13:10:38 +0800</pubDate>
         
         <guid>https://reddavid.me/about/</guid>
-        <description>&lt;!-- &lt;img src=&#34;https://reddavid.me/images/about-hero.jpg&#34; style=&#34;display:block;margin-left:auto;margin-right:auto;width:80%;&#34; alt=&#34;Me, Macapagal Bridge, Butuan City 2019&#34;&gt; --&gt;
-&lt;h1 style=&#34;text-align: center;&#34;&gt;About Me&lt;/h1&gt;
+        <description>&lt;!-- &lt;img src=&#34;https://reddavid.me/images/about-hero.jpg&#34; style=&#34;display:block; margin-left:auto; margin-right:auto; width:80%; &#34; alt=&#34;Me, Macapagal Bridge, Butuan City 2019&#34;&gt; --&gt;
+&lt;h1 style=&#34;text-align: center; &#34;&gt;About Me&lt;/h1&gt;
 &lt;p&gt;Hi! I am David. I am an electronics engineer and a self-taught desktop &amp;amp; mobile app developer.&lt;/p&gt;
 &lt;p&gt;I currently work as an IT admin at RPN in QCPH.&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;I started coding in college for our project study, RFID Gate System. We used Forms and VB.Net for the software and C++ for the Arduino controller. I then got into Windows Phone App development and learned C#, XAML, and Git. The first apps I developed were mostly for personal-use until I registered and submitted one to the Windows Phone Store.&lt;/p&gt;
+&lt;p&gt;I started coding in college for our project study, RFID Gate System. We used Forms and VB. Net for the software and C++ for the Arduino controller. I then got into Windows Phone App development and learned C#, XAML, and Git. The first apps I developed were mostly for personal-use until I registered and submitted one to the Windows Phone Store.&lt;/p&gt;
 &lt;p&gt;Then I developed apps that helped me simplify daily tasks, from monitoring, reporting statistical data, to automating web interactions.&lt;/p&gt;
 &lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
 &lt;p&gt;I lived and grew up until 21 in a small town in Pangasinan and moved to Metro Manila to venture for a living.&lt;/p&gt;
@@ -4662,32 +4662,7 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://reddavid.me/gaming/</guid>
-        <description>&lt;style&gt;
-.vcontainer {
-position: relative; 
-overflow: hidden; 
-margin: 0 auto; 
-width: 100%; 
-padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-}
-
-/* Then style the iframe to fit in the container div with full height and width */
-.iframe-resp {
-position: absolute; 
-top: 0; 
-left: 0; 
-bottom: 0; 
-right: 0; 
-width: 100%; 
-height: 100%; 
-}
-
-.icon {
-margin-bottom: -6px; 
-}
-
-&lt;/style&gt;
-&lt;h1 style=&#34;text-align: center; &#34;&gt;Gaming&lt;/h1&gt;
+        <description>&lt;h1 style=&#34;text-align: center; &#34;&gt;Gaming&lt;/h1&gt;
 &lt;h2 id=&#34;currently-playing&#34;&gt;Currently Playing&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Control (Streaming)&lt;/li&gt;

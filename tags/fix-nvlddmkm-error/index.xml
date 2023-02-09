@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Fix nvlddmkm error on David Ballesteros</title>
+        <link>https://reddavid.me/tags/fix-nvlddmkm-error/</link>
+        <description>Recent content in Fix nvlddmkm error on David Ballesteros</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 10 Feb 2023 04:30:05 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/fix-nvlddmkm-error/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)</title>
+        <link>https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/</link>
+        <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
+        
+        <guid>https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/nvidia-error.png" alt="Featured image of post Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#solution-for-me-at-least&#34; &gt;Skip the bullsh*t, just show me your solution! (please)&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;some-background-first&#34;&gt;Some Background First&lt;/h2&gt;
+&lt;p&gt;I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.&lt;/p&gt;
+&lt;p&gt;But the crashes happened with other games like High on Life, Control, and CODMW. And after trying to watch some Dota 2 match in-game, the crash happened - and I am fed up.&lt;/p&gt;
+&lt;p&gt;(But thankfully, I am not getting any bug checks or BSODs)&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;I checked Windows Event Viewer for any logs and there it is!&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;nvlddmkm-error-event.png&#34;
+         alt=&#34;nvlddmkm Error in Windows Event Viewer&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;nvlddmkm Error in Windows Event Viewer&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;event-error-details.png&#34;
+         alt=&#34;Error Details&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Error Details&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;solutions-from-the-web&#34;&gt;Solutions from the Web&lt;/h2&gt;
+&lt;p&gt;There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.&lt;/p&gt;
+&lt;p&gt;As of my situation, I can’t do most of the above advised solutions, though I tried re-installing my graphics driver using &lt;a class=&#34;link&#34; href=&#34;https://www.guru3d.com/files-details/display-driver-uninstaller-download.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;DDU&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But there was one reply among them which they tried rolling back their driver and fixed their issue.&lt;/p&gt;
+&lt;h2 id=&#34;solution-for-me-at-least&#34;&gt;Solution (for me, at least)&lt;/h2&gt;
+&lt;p&gt;I rolled back/re-installed my graphics drivers to the last known working one - which is NVIDIA’s December 8 Game Ready Driver 527.56 update.&lt;/p&gt;
+&lt;p&gt;You can try to roll back yours by downloading your last working driver &lt;a class=&#34;link&#34; href=&#34;https://www.nvidia.com/Download/Find.aspx?lang=en-us&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This was the driver where I played Assassin’s Creed Odyssey without a hiccup and I’ve tested it by watching an hour-long Dota 2 game.&lt;/p&gt;
+&lt;p&gt;I will update this post after testing with the other games mentioned above.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Maybe this was a move to force me to replace my weak RTX 2060 huh&lt;/small&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

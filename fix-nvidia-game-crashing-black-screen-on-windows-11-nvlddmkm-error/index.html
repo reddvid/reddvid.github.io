@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Skip the bullsh*t, just show me your solution! (please)
+Some Background First I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.'>
+<title>Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error) - David Ballesteros</title>
+
+
+<link rel='canonical' href='https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/'>
+
+<link rel="stylesheet" href="/scss/style.min.8a28c74f4a8f6b9c1f6166df465587398e8b3a62e93cd0266413a244a0234afe.css"><meta property='og:title' content='Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)'>
+<meta property='og:description' content='Skip the bullsh*t, just show me your solution! (please)
+Some Background First I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.'>
+<meta property='og:url' content='https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/'>
+<meta property='og:site_name' content='David Ballesteros'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='NVIDIA' /><meta property='article:tag' content='How to fix' /><meta property='article:tag' content='Fix nvlddmkm error' /><meta property='article:tag' content='Game crash' /><meta property='article:tag' content='Black screen' /><meta property='article:published_time' content='2023-02-10T04:30:05&#43;08:00' /><meta property='article:modified_time' content='2023-02-10T04:30:05&#43;08:00' /><meta property='og:image' content='https://reddavid.me/images/og/nvidia-error.png' />
+<meta name="twitter:site" content="@reddvid">
+<meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)">
+<meta name="twitter:description" content="Skip the bullsh*t, just show me your solution! (please)
+Some Background First I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things."><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content='https://reddavid.me/images/og/nvidia-error.png' />
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-129071597-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<link rel="preload" href="/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="application-name" content="Red David Blog">
+<meta name="apple-mobile-web-app-title" content="Red David Blog">
+<meta name="theme-color" content="#212121">
+<meta name="msapplication-TileColor" content="#FF0000">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF0000">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="canonical" href="https://reddavid.me/" />
+<link rel="alternate" href="/index.xml" type="application/rss+xml" title="Red David | Tech, Gaming, and Coding Blog">
+<link rel="feed" href="/index.xml" type="application/rss+xml" title="Red David | Tech, Gaming, and Coding Blog">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+<link rel="stylesheet" href="/css/style.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/reddavid.me\/","inLanguage": "en","author": {
+                "@type": "Person",
+                "name": "Red David"
+            },"description": "Electronics Engineer, Gamer and Streamer. Blogging about technology, coding and software development, and music.","image": "https:\/\/reddavid.me\/images\/Apple-Devices-Preview.png","thumbnailUrl": "https:\/\/reddavid.me\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "Red David | Tech, Gaming, and Coding Blog"
+    }
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129071597-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-129071597-1');
+</script>
+    </head>
+    <body class="
+article-page
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="/images/avatar.jpg" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">👋</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">David Ballesteros</a></h1>
+            <h2 class="site-description">IT Admin • App Developer • Small-time Streamer</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/reddvid'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://instagram.com/reddvid'
+                        target="_blank"
+                        title="Instagram"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://linkedin.com/in/reddvid'
+                        target="_blank"
+                        title="LinkedIn"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <line x1="8" y1="11" x2="8" y2="16" />
+  <line x1="8" y1="8" x2="8" y2="8.01" />
+  <line x1="12" y1="16" x2="12" y2="11" />
+  <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitch.tv/reddavidgg'
+                        target="_blank"
+                        title="Twitch"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitch" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
+  <line x1="16" y1="8" x2="16" y2="12" />
+  <line x1="12" y1="8" x2="12" y2="12" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/reddvid'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://youtube.com/@reddavid'
+                        target="_blank"
+                        title="YouTube"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="4" />
+  <path d="M10 9l5 3l-5 3z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/posts/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Posts</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/portfolio/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+</svg>
+
+
+
+                
+                <span>Portfolio</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" 
+width="24" 
+height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/gaming/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mouse"
+ width="24" height="24" viewBox="0 0 24 24" 
+ stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" />
+  <rect x="6" y="3" width="12" height="18" rx="4" />
+  <line x1="12" y1="7" x2="12" y2="11" />
+</svg>
+
+
+
+                
+                <span>Gaming</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+<article class="main-article">
+
+    
+    
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/">
+                
+                    <img src="/images/og/nvidia-error.png" loading="lazy" alt="Featured image of post Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+        <a href="/categories/stories/" style="background-color: #2a9d8f; color: #fff;" >
+            Stories
+        </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h1 class="article-title">
+            <a href="/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/">Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)</a>
+        </h1>
+
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+            <time class="article-time--published">Feb 10, 2023</time>
+        </div>
+        
+
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <time class="article-time--reading">
+                2 minute read
+            </time>
+        </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+    <br>
+    <hr style="width: 90%; opacity: .55; background-color:rgba(255, 255, 255, 0.5);">
+    <br>
+    
+
+    <section class="article-content">
+    
+    
+    <p><a class="link" href="#solution-for-me-at-least" >Skip the bullsh*t, just show me your solution! (please)</a></p>
+<h2 id="some-background-first">Some Background First</h2>
+<p>I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.</p>
+<p>But the crashes happened with other games like High on Life, Control, and CODMW. And after trying to watch some Dota 2 match in-game, the crash happened - and I am fed up.</p>
+<p>(But thankfully, I am not getting any bug checks or BSODs)</p>
+<h2 id="the-problem">The Problem</h2>
+<p>I checked Windows Event Viewer for any logs and there it is!</p>
+<figure><img src="nvlddmkm-error-event.png"
+         alt="nvlddmkm Error in Windows Event Viewer"/><figcaption>
+            <p>nvlddmkm Error in Windows Event Viewer</p>
+        </figcaption>
+</figure>
+
+<figure><img src="event-error-details.png"
+         alt="Error Details"/><figcaption>
+            <p>Error Details</p>
+        </figcaption>
+</figure>
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;Event</span> <span class="na">xmlns=</span><span class="s">&#34;http://schemas.microsoft.com/win/2004/08/events/event&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;System&gt;</span>
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Provider</span> <span class="na">Name=</span><span class="s">&#34;nvlddmkm&#34;</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;EventID</span> <span class="na">Qualifiers=</span><span class="s">&#34;0&#34;</span><span class="nt">&gt;</span>0<span class="nt">&lt;/EventID&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Version&gt;</span>0<span class="nt">&lt;/Version&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Level&gt;</span>2<span class="nt">&lt;/Level&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Task&gt;</span>0<span class="nt">&lt;/Task&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Opcode&gt;</span>0<span class="nt">&lt;/Opcode&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Keywords&gt;</span>0x80000000000000<span class="nt">&lt;/Keywords&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;TimeCreated</span> <span class="na">SystemTime=</span><span class="s">&#34;2023-02-09T15:15:31.3464479Z&#34;</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;EventRecordID&gt;</span>138086<span class="nt">&lt;/EventRecordID&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Correlation</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Execution</span> <span class="na">ProcessID=</span><span class="s">&#34;4&#34;</span> <span class="na">ThreadID=</span><span class="s">&#34;4588&#34;</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Channel&gt;</span>System<span class="nt">&lt;/Channel&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Computer&gt;</span>David-PC<span class="nt">&lt;/Computer&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Security</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;/System&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;EventData&gt;</span>
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;Data&gt;</span>\Device\Video3<span class="nt">&lt;/Data&gt;</span> 
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;Data&gt;</span>Error occurred on GPUID: 2b00<span class="nt">&lt;/Data&gt;</span> 
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;Binary&gt;</span>00000000020030000000000000000000000000000000000000000000000000000000000000000000<span class="nt">&lt;/Binary&gt;</span> 
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/EventData&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/Event&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="solutions-from-the-web">Solutions from the Web</h2>
+<p>There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.</p>
+<p>As of my situation, I can’t do most of the above advised solutions, though I tried re-installing my graphics driver using <a class="link" href="https://www.guru3d.com/files-details/display-driver-uninstaller-download.html"  target="_blank" rel="noopener"
+    >DDU</a>.</p>
+<p>But there was one reply among them which they tried rolling back their driver and fixed their issue.</p>
+<h2 id="solution-for-me-at-least">Solution (for me, at least)</h2>
+<p>I rolled back/re-installed my graphics drivers to the last known working one - which is NVIDIA’s December 8 Game Ready Driver 527.56 update.</p>
+<p>You can try to roll back yours by downloading your last working driver <a class="link" href="https://www.nvidia.com/Download/Find.aspx?lang=en-us"  target="_blank" rel="noopener"
+    >here</a>.</p>
+<p>This was the driver where I played Assassin’s Creed Odyssey without a hiccup and I’ve tested it by watching an hour-long Dota 2 game.</p>
+<p>I will update this post after testing with the other games mentioned above.</p>
+<p><small>Maybe this was a move to force me to replace my weak RTX 2060 huh</small></p>
+
+</section>
+
+
+    
+
+<style>
+   #share-buttons {
+      display: inline-block;
+      vertical-align: middle;
+   }
+
+   #share-buttons:after {
+      content: "";
+      display: block;
+      clear: both;
+   }
+
+   #share-buttons>div {
+      position: relative;
+      text-align: left;
+      height: 36px;
+      width: 32px;
+      float: left;
+      text-align: center;
+   }
+
+   #share-buttons>div>svg {
+      height: 16px;
+      fill: #d5d5d5;
+      margin-top: 10px;
+   }
+
+   #share-buttons>div:hover {
+      cursor: pointer;
+   }
+
+   #share-buttons>div.facebook:hover>svg {
+      fill: #3B5998;
+   }
+
+   #share-buttons>div.twitter:hover>svg {
+      fill: #55ACEE;
+   }
+
+   #share-buttons>div.linkedin:hover>svg {
+      fill: #0077b5;
+   }
+
+   #share-buttons>div.pinterest:hover>svg {
+      fill: #CB2027;
+   }
+
+   #share-buttons>div.mail:hover>svg {
+      fill: #7D7D7D;
+   }
+
+   #share-buttons>div.facebook>svg {
+      height: 18px;
+      margin-top: 9px;
+   }
+
+   #share-buttons>div.twitter>svg {
+      height: 20px;
+      margin-top: 8px;
+   }
+
+   #share-buttons>div.linkedin>svg {
+      height: 19px;
+      margin-top: 7px;
+   }
+
+   #share-buttons>div.pinterest>svg {
+      height: 20px;
+      margin-top: 9px;
+   }
+
+   #share-buttons>div.mail>svg {
+      height: 14px;
+      margin-top: 11px;
+   }
+</style>
+
+<div style="text-align: right; margin-right: 30px;">
+   <p style="color: silver; font-size: 1.3rem; margin-bottom: 0px; margin-right: 5px;">Share this:</p>
+   <div id="share-buttons">
+      <div class="facebook" title="Share this on Facebook"
+         onclick="window.open('http://www.facebook.com/share.php?u=https:\/\/reddavid.me\/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error\/');"><svg viewBox="0 0 1792 1792"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z" />
+         </svg></div>
+      <div class="twitter" title="Share this on Twitter"
+         onclick="window.open('http://twitter.com/intent/tweet?text=Fix NVIDIA Game Crashing \u0026 Black Screen on Windows 11 (nvlddmkm Error)&url=https:\/\/reddavid.me\/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error\/');"><svg
+            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z" />
+         </svg></div>
+      <div class="linkedin" title="Share this on Linkedin"
+         onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https:\/\/reddavid.me\/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error\/&title=&summary=&source=');">
+         <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z" />
+         </svg>
+      </div>
+      
+      <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=https:\/\/reddavid.me\/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error\/');"><svg
+            viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z" />
+         </svg></div>
+   </div>
+</div>
+
+    <footer class="article-footer">
+    
+<br>
+<hr>
+<section class="article-tags">
+    
+    <a href="/tags/nvidia/">NVIDIA</a>
+    
+    <a href="/tags/how-to-fix/">How to fix</a>
+    
+    <a href="/tags/fix-nvlddmkm-error/">Fix nvlddmkm error</a>
+    
+    <a href="/tags/game-crash/">Game crash</a>
+    
+    <a href="/tags/black-screen/">Black screen</a>
+    
+</section>
+
+
+    </footer>
+
+    
+
+    
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title"></h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/a-look-back-on-2022/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/look-back.png" loading="lazy" data-key=""
+                data-hash="/images/og/look-back.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">A Look Back on 2022</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/and...-its-december/">
+
+        
+
+        <div class="article-details">
+            <h2 class="article-title">And... it&#39;s December</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/life-updates/">
+
+        
+        <div class="article-image">
+            <img src="/life-updates/life-update.22b336ec9c4d96cf5408568461ab6543_hu38cdad13c523f9a05790312822e49b36_15323_250x150_fill_box_smart1_3.png" width="250" height="150" loading="lazy"
+                alt="Featured image of post Life Updates" 
+                data-hash="md5-IrM27JxNls9UCFaEYatlQw==">
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Life Updates</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/finishing-msoffice-udemy-course/">
+
+        
+        <div class="article-image">
+            <img src="/finishing-msoffice-udemy-course/udemy-og.2df2ef38151563b7c833b33e3f55c4a0_hu2c4d8c5b3bb3517f599de5580fdf8123_595330_250x150_fill_box_smart1_3.png" width="250" height="150" loading="lazy"
+                alt="Featured image of post Finishing this MS Office Course on Udemy. (Or Am I?)" data-key="finishing-msoffice-udemy-course" 
+                data-hash="md5-LfLvOBUVY7fIM7M&#43;P1XEoA==">
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Finishing this MS Office Course on Udemy. (Or Am I?)</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/digital-spring-cleaning/">
+
+        
+        <div class="article-image">
+            <img src="/digital-spring-cleaning/spring-cleaning.5a4547912cf07af1a6c63e64f9b58970_hu32c6c9b299b6f72cb2e989dff7804c77_186258_250x150_fill_box_smart1_3.png" width="250" height="150" loading="lazy"
+                alt="Featured image of post Digital Spring Cleaning" 
+                data-hash="md5-WkVHkSzwevGmxj5k&#43;bWJcA==">
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Digital Spring Cleaning</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+
+
+
+    <script
+    src="https://giscus.app/client.js"
+    data-repo="reddvid/reddvid.github.io"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxNzc0NDEzMDE="
+    data-category="General"
+    data-category-id="DIC_kwDOCpOKFc4CT3lg"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async
+></script>
+<script>
+    function setGiscusTheme(theme) {
+        let giscus = document.querySelector("iframe.giscus-frame");
+        if (giscus) {
+            giscus.contentWindow.postMessage(
+                {
+                    giscus: {
+                        setConfig: {
+                            theme: theme,
+                        },
+                    },
+                },
+                "https://giscus.app"
+            );
+        }
+    }
+
+    (function () {
+        addEventListener("message", (e) => {
+            if (event.origin !== "https://giscus.app") return;
+            handler();
+        });
+        window.addEventListener("onColorSchemeChange", handler);
+
+        function handler() {
+            if (document.documentElement.dataset.scheme === "light") {
+                setGiscusTheme('light');
+            } else {
+                setGiscusTheme('dark');
+            }
+        }
+    })();
+</script>
+
+
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy;
+        
+        2019 -
+        
+        2023 David Ballesteros
+    </section>
+    <section class="powerby">
+        
+        All Rights Reserved <br />
+        Built with <a class="link" href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br> <a
+            class="link" href="https://reddavid.me/privacy" target="_blank" rel="noopener">Privacy Policy</a> <br />
+        Theme <b><a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank"
+                rel="noopener" data-version="3.10.0">Stack</a></b> designed by <a class="link" href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center" style="text-align: center;"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+<aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#some-background-first">Some Background First</a></li>
+    <li><a href="#the-problem">The Problem</a></li>
+    <li><a href="#solutions-from-the-web">Solutions from the Web</a></li>
+    <li><a href="#solution-for-me-at-least">Solution (for me, at least)</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+        <script>
+          kofiWidgetOverlay.draw('reddavid', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support me',
+            'floating-chat.donateButton.background-color': '#d9534f',
+            'floating-chat.donateButton.text-color': '#fff'
+          });
+        </script>
+    </body>
+</html>

@@ -1133,7 +1133,7 @@
 &lt;/div&gt;&lt;p&gt;The app basically runs 24/7 on the system and checks if it is time to start or stop the executable. An option to auto-run it at startup, and an executable file browser to ensure OBS exists.&lt;/p&gt;
 &lt;h2 id=&#34;monitor-recordings-in-vlc&#34;&gt;Monitor Recordings in VLC&lt;/h2&gt;
 &lt;p&gt;Now that everything is automated and works as intended, assigned personnel can now review recorded files on VLC - we tried other players but they can NOT handle the filesize (over 13GB each).&lt;/p&gt;
-&lt;p&gt;VLC can easily read .MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):&lt;/p&gt;
+&lt;p&gt;VLC can easily read . MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;vlc-audio-tracks.png&#34;
          alt=&#34;Changing Named Tracks in VLC&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Changing Named Tracks in VLC&lt;/p&gt;

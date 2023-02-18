@@ -8,12 +8,12 @@ I was asked if this was possible, and I said yes, there’s a solution for the c
 
 <link rel='canonical' href='https://reddavid.me/automating-obs-recording-with-winforms-app/'>
 
-<link rel="stylesheet" href="/scss/style.min.5a20bb29bb34e9c48215cf7d5f7b726dc8545900d474cdf2f445667f9381887b.css"><meta property='og:title' content='Automating OBS Recording With WinForms App'>
+<link rel="stylesheet" href="/scss/style.min.b3d989f72f3150176eebe45ea9bdd15010fd6f464f7ca5bdeb15d734a8e532e4.css"><meta property='og:title' content='Automating OBS Recording With WinForms App'>
 <meta property='og:description' content='There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.
 I was asked if this was possible, and I said yes, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.'>
 <meta property='og:url' content='https://reddavid.me/automating-obs-recording-with-winforms-app/'>
 <meta property='og:site_name' content='David Ballesteros'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Apps' /><meta property='article:tag' content='WinForms' /><meta property='article:tag' content='C#' /><meta property='article:tag' content='Visual Studio' /><meta property='article:tag' content='.NET' /><meta property='article:tag' content='Coding' /><meta property='article:tag' content='OBS Recording' /><meta property='article:tag' content='Script' /><meta property='article:tag' content='PowerShell' /><meta property='article:tag' content='Software Development' /><meta property='article:published_time' content='2023-01-29T18:07:22&#43;08:00' /><meta property='article:modified_time' content='2023-01-29T18:07:22&#43;08:00' /><meta property='og:image' content='https://reddavid.me/images/og/automate-obs.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Apps' /><meta property='article:tag' content='WinForms' /><meta property='article:tag' content='C#' /><meta property='article:tag' content='Visual Studio' /><meta property='article:tag' content='. NET' /><meta property='article:tag' content='Coding' /><meta property='article:tag' content='OBS Recording' /><meta property='article:tag' content='Script' /><meta property='article:tag' content='PowerShell' /><meta property='article:tag' content='Software Development' /><meta property='article:published_time' content='2023-01-29T18:07:22&#43;08:00' /><meta property='article:modified_time' content='2023-01-29T18:07:22&#43;08:00' /><meta property='og:image' content='https://reddavid.me/images/og/automate-obs.png' />
 <meta name="twitter:site" content="@reddvid">
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Automating OBS Recording With WinForms App">
 <meta name="twitter:description" content="There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.
@@ -182,27 +182,6 @@ article-page
   <line x1="8" y1="8" x2="8" y2="8.01" />
   <line x1="12" y1="16" x2="12" y2="11" />
   <path d="M16 16v-3a2 2 0 0 0 -4 0" />
-</svg>
-
-
-
-                        
-                    </a>
-                </li>
-            
-                <li>
-                    <a 
-                        href='https://twitch.tv/reddavidgg'
-                        target="_blank"
-                        title="Twitch"
-                    >
-                        
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitch" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
-  <line x1="16" y1="8" x2="16" y2="12" />
-  <line x1="12" y1="8" x2="12" y2="12" />
 </svg>
 
 
@@ -427,10 +406,6 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
         <a href="/categories/coding/" style="background-color: #2a9d8f; color: #fff;" >
             Coding
-        </a>
-        
-        <a href="/categories/software-development/" >
-            Software Development
         </a>
         
     </header>
@@ -1031,7 +1006,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </div><p>The app basically runs 24/7 on the system and checks if it is time to start or stop the executable. An option to auto-run it at startup, and an executable file browser to ensure OBS exists.</p>
 <h2 id="monitor-recordings-in-vlc">Monitor Recordings in VLC</h2>
 <p>Now that everything is automated and works as intended, assigned personnel can now review recorded files on VLC - we tried other players but they can NOT handle the filesize (over 13GB each).</p>
-<p>VLC can easily read .MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):</p>
+<p>VLC can easily read . MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):</p>
 <figure><img src="vlc-audio-tracks.png"
          alt="Changing Named Tracks in VLC" width="60%"/><figcaption>
             <p>Changing Named Tracks in VLC</p>
@@ -1169,7 +1144,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <a href="/tags/visual-studio/">Visual Studio</a>
     
-    <a href="/tags/.net/">.NET</a>
+    <a href="/tags/.-net/">. NET</a>
     
     <a href="/tags/coding/">Coding</a>
     

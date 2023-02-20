@@ -6,7 +6,95 @@
         <description>Recent content in Tags on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 10 Feb 2023 04:30:05 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 20 Feb 2023 17:03:47 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>.NET</title>
+        <link>https://reddavid.me/tags/.net/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/.net/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>AltaCast</title>
+        <link>https://reddavid.me/tags/altacast/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/altacast/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>C#</title>
+        <link>https://reddavid.me/tags/c#/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/c#/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Console app</title>
+        <link>https://reddavid.me/tags/console-app/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/console-app/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>CSharp</title>
+        <link>https://reddavid.me/tags/csharp/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/csharp/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>dotNet</title>
+        <link>https://reddavid.me/tags/dotnet/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/dotnet/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>online radio</title>
+        <link>https://reddavid.me/tags/online-radio/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/online-radio/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Programming</title>
+        <link>https://reddavid.me/tags/programming/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/programming/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Software development</title>
+        <link>https://reddavid.me/tags/software-development/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/software-development/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>VB Virtual Audio Cable</title>
+        <link>https://reddavid.me/tags/vb-virtual-audio-cable/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/vb-virtual-audio-cable/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>VLC</title>
+        <link>https://reddavid.me/tags/vlc/</link>
+        <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/vlc/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Black screen</title>
         <link>https://reddavid.me/tags/black-screen/</link>
         <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
@@ -47,14 +135,6 @@
         <description></description>
         </item>
         <item>
-        <title>. NET</title>
-        <link>https://reddavid.me/tags/.-net/</link>
-        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
-        
-        <guid>https://reddavid.me/tags/.-net/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Apps</title>
         <link>https://reddavid.me/tags/apps/</link>
         <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
@@ -68,14 +148,6 @@
         <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/automation/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>C#</title>
-        <link>https://reddavid.me/tags/c#/</link>
-        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
-        
-        <guid>https://reddavid.me/tags/c#/</guid>
         <description></description>
         </item>
         <item>
@@ -108,14 +180,6 @@
         <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/regular-expressions/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Software development</title>
-        <link>https://reddavid.me/tags/software-development/</link>
-        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
-        
-        <guid>https://reddavid.me/tags/software-development/</guid>
         <description></description>
         </item>
         <item>
@@ -284,14 +348,6 @@
         <pubDate>Thu, 01 Dec 2022 01:21:59 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/flutter/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>.NET</title>
-        <link>https://reddavid.me/tags/.net/</link>
-        <pubDate>Wed, 08 Jun 2022 03:12:03 +0800</pubDate>
-        
-        <guid>https://reddavid.me/tags/.net/</guid>
         <description></description>
         </item>
         <item>

@@ -15,17 +15,17 @@
         <description>&lt;img src="https://reddavid.me/categories/coding/feat-coding.png" alt="Featured image of post Coding" /&gt;</description>
         </item>
         <item>
-        <title>Software Development</title>
-        <link>https://reddavid.me/categories/software-development/</link>
-        <pubDate>Thu, 02 Feb 2023 19:30:40 +0800</pubDate>
+        <title>Gaming</title>
+        <link>https://reddavid.me/categories/gaming/</link>
+        <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
         
-        <guid>https://reddavid.me/categories/software-development/</guid>
-        <description></description>
+        <guid>https://reddavid.me/categories/gaming/</guid>
+        <description>&lt;img src="https://reddavid.me/categories/gaming/feat-gaming.png" alt="Featured image of post Gaming" /&gt;</description>
         </item>
         <item>
         <title>Stories</title>
         <link>https://reddavid.me/categories/stories/</link>
-        <pubDate>Sat, 31 Dec 2022 20:03:45 +0800</pubDate>
+        <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
         
         <guid>https://reddavid.me/categories/stories/</guid>
         <description>&lt;img src="https://reddavid.me/categories/stories/feat-stories.png" alt="Featured image of post Stories" /&gt;</description>
@@ -53,14 +53,6 @@
         
         <guid>https://reddavid.me/categories/music/</guid>
         <description>&lt;img src="https://reddavid.me/categories/music/feat-music.png" alt="Featured image of post Music" /&gt;</description>
-        </item>
-        <item>
-        <title>Gaming</title>
-        <link>https://reddavid.me/categories/gaming/</link>
-        <pubDate>Fri, 15 Oct 2021 03:53:07 +0800</pubDate>
-        
-        <guid>https://reddavid.me/categories/gaming/</guid>
-        <description>&lt;img src="https://reddavid.me/categories/gaming/feat-gaming.png" alt="Featured image of post Gaming" /&gt;</description>
         </item>
         
     </channel>

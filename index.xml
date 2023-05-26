@@ -5063,12 +5063,17 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
         <description>&lt;h1 style=&#34;text-align: center; &#34;&gt;Gaming&lt;/h1&gt;
 &lt;h2 id=&#34;currently-playing&#34;&gt;Currently Playing&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Atomic Heart&lt;/li&gt;
+&lt;li&gt;Tomb Raider (2013)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/videoseries?list=PLwC47NQhSu5xKuzJU85jj5IE0WXXW-6cp&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;featured-gameplay&#34;&gt;Featured Gameplay&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/videoseries?list=PLwC47NQhSu5xKuzJU85jj5IE0WXXW-6cp&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;streaming&#34;&gt;Streaming&lt;/h2&gt;
 &lt;p&gt;I am now streaming on YouTube - midnightly streams or afternoons on Fridays and Saturdays.&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/live_stream?channel=UCzhXnO1cPiTos6UD5yWf0vw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+&lt;iframe  src=&#34;https://www.youtube.com/embed/live_stream?channel=UCzhXnO1cPiTos6UD5yWf0vw&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
 &lt;p&gt;Excluding my Steam library and other platform games (Epic, GOG), below is a table where I track my finished, on-going, to-be-continued, and soon-to-play games.&lt;/p&gt;
 &lt;h3 id=&#34;recent-games&#34;&gt;Recent Games&lt;/h3&gt;
@@ -5104,6 +5109,8 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
   &lt;li&gt;Ravenlok - Done&lt;/li&gt;
   
   &lt;li&gt;Somerville - Done&lt;/li&gt;
+  
+  &lt;li&gt;The Gunk - Done&lt;/li&gt;
   
 &lt;/ul&gt;
 &lt;h3&gt;Full List (as far as I remember)&lt;/h3&gt;

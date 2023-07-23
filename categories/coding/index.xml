@@ -6,7 +6,106 @@
         <description>Recent content in Coding on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 20 Feb 2023 17:03:47 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 23 Jul 2023 22:33:34 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/coding/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>I Am Here</title>
+        <link>https://reddavid.me/i-am-here/</link>
+        <pubDate>Sun, 23 Jul 2023 22:33:34 +0800</pubDate>
+        
+        <guid>https://reddavid.me/i-am-here/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/new-post.png" alt="Featured image of post I Am Here" /&gt;&lt;p&gt;Well, how about that? I think I just had the longest time without posting anything here. Maybe I just posted thrice within February just to escape the next ones. 🥲&lt;/p&gt;
+&lt;p&gt;Okay, so what alibis do I have to tell you this time? Hmm 🤔&lt;/p&gt;
+&lt;h2 id=&#34;i-learned-a-new-thing-about-computer-hardware&#34;&gt;I Learned a New Thing about Computer Hardware&lt;/h2&gt;
+&lt;p&gt;I have this &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;post&lt;/a&gt; about my Nvidia GPU issue on games crashing and black screens and &lt;em&gt;somehow&lt;/em&gt; fixing it? It might have been because my motherboard is &lt;strong&gt;NOT&lt;/strong&gt; compatible with my RAM.&lt;/p&gt;
+&lt;p&gt;Apparently, PC hardware in 2022-2023 is not at all just buy the &lt;em&gt;right&lt;/em&gt; parts you can afford and just build as I assumed it to be. My last PC build I did was waaaaay back 2012-ish, no fancy RGBs, heavy metal cases, no flashy cable-management, and they somehow work.&lt;/p&gt;
+&lt;div class=&#34;tenor-gif-embed&#34; data-postid=&#34;7555951312549958006&#34; data-share-method=&#34;host&#34; data-aspect-ratio=&#34;1.33333&#34; data-width=&#34;100%&#34;&gt;&lt;a href=&#34;https://tenor.com/view/tv-family-guy-pepperidge-farm-remember-gif-7555951312549958006&#34;&gt;Tv Family Guy GIF&lt;/a&gt;from &lt;a href=&#34;https://tenor.com/search/tv-gifs&#34;&gt;Tv GIFs&lt;/a&gt;&lt;/div&gt; &lt;script type=&#34;text/javascript&#34; async src=&#34;https://tenor.com/embed.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;The &lt;em&gt;workaround&lt;/em&gt; worked for a while until I felt the need to play newer games, especially the day-one releases on my &lt;a class=&#34;link&#34; href=&#34;https://www.xbox.com/en-US/xbox-game-pass&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Xbox Game Pass for PC&lt;/a&gt; subscription.&lt;/p&gt;
+&lt;h3 id=&#34;i-jumped-shipped-to-amd&#34;&gt;I jumped shipped to AMD&lt;/h3&gt;
+&lt;p&gt;After a month of checking out some GPUs (which I can afford) to replace the current one, it only seemed that I can only get an AMD card. I chose to end with an ASUS 6700XT which seems powerful enough for the games&lt;/p&gt;
+&lt;p&gt;It has 12GB of VRAM which I am yet to &lt;em&gt;fully&lt;/em&gt; utilize. More detailed specs can be seen from the product page &lt;a class=&#34;link&#34; href=&#34;https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx6700xt-12g/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I got into trouble installing the card as it is actually huge and no margin for the tower case I have, but managed to fit it - very very fit.&lt;/p&gt;
+&lt;p&gt;Remember the issues I had months prior to upgrading? Well, it was much worse, and I once again assumed that “AMD still has some driver issues these days, huh?”, since driver &lt;em&gt;workaround&lt;/em&gt; does not seem to fix whatever is happening.&lt;/p&gt;
+&lt;p&gt;Besides games crashing, I also began getting random black screens, and even total PC shutdown. I also thought of losing the “silicon lottery” or even my PSU is not enough for the system.&lt;/p&gt;
+&lt;p&gt;Not until I &lt;em&gt;finally&lt;/em&gt; bothered myself checking my motherboard’s support website for Memory Compatibility. And guess what, I did find my RAMs’ brand and model from the list but what was NOT compatible was putting four sticks in - which I recently did to get 32gigs of memory.&lt;/p&gt;
+&lt;h3 id=&#34;going-64gb-for-games&#34;&gt;Going 64GB for Games?&lt;/h3&gt;
+&lt;p&gt;Spent weeks not gaming just to avoid the issues until I found some RAM deals online that I got myself 64GB of, ehem, &lt;em&gt;compatible&lt;/em&gt; memory sticks for my motherboard. Well, I hoped.&lt;/p&gt;
+&lt;p&gt;After my order arrived, I spent no time installing the new RAM sticks and fingers-crossed on launching a game where I definitely faced a crash. Tested on more games to finally tell that there were no more problems.&lt;/p&gt;
+&lt;p&gt;I played High on Life and Atomic Heart just to name a few. And they are on my YouTube gaming channel.&lt;/p&gt;
+&lt;p&gt;I went over to get 64GB not just for games but for &lt;a class=&#34;link&#34; href=&#34;https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hardware virtualization&lt;/a&gt; like Virtual Machines, Android emulators, etc.&lt;/p&gt;
+&lt;h2 id=&#34;good-rest&#34;&gt;Good Rest&lt;/h2&gt;
+&lt;p&gt;I and the wife also took some time off work to unwind somewhere south. We went to a private resort and go for night swim, eat good food, and relaxed a bit with a super mediocre massage (which is, OMG, I wish to erase this memory on just being a crappy service 😂).&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;fish-and-veggies-laong-laan.png&#34;
+         alt=&#34;Dinner at Laong Laan Restaurant&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Dinner at Laong Laan Restaurant&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Fast forward a month, we visited Batangas for a day to celebrate Barangay &lt;em&gt;fiesta&lt;/em&gt; with the family, which means cheat day (in food, of course). We got to watch a very late night but fun Gay pageant. (Sorry, I can&amp;rsquo;t upload some pictures or videos because &amp;ldquo;lewd&amp;rdquo; 😂)&lt;/p&gt;
+&lt;p&gt;And just days later, I got to visit Intramuros, finally, together with the wife, my sister, and my mother. I always wanted to visit the place and never got to do it for a very long time. We got to see the “Walled City”, go inside Manila Cathedral, and visit Fort Santiago.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;inside-fort-santiago.png&#34;
+         alt=&#34;Inside Fort Santiago, Manila&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Inside Fort Santiago, Manila&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After walking around Intramuros, we went ahead to Luneta Park to chill back until sunset.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;neth-in-rizal-park.png&#34;
+         alt=&#34;Me wife in Rizal Park&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Me wife in Rizal Park&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;keep-learning&#34;&gt;Keep Learning&lt;/h2&gt;
+&lt;p&gt;I recently bought &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/c/EposVox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;EposVox&lt;/a&gt;’s &lt;a class=&#34;link&#34; href=&#34;https://eposvox.gumroad.com/l/obs-definitive-guide-2023-eposvox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Masterclass&lt;/a&gt; which might help me learn more about the capabilities of &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Studio&lt;/a&gt;, in streaming and recording, and other video stuff. I haven’t finished it all yet since I found it hard to track the course in &lt;a class=&#34;link&#34; href=&#34;https://gumroad.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gumroad&lt;/a&gt; so I coded a simple website that has a jumplist to the chapters.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;custom-website.png&#34;
+         alt=&#34;Custom website for EposVox masterclass videos&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Custom website for EposVox masterclass videos&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I also completed courses in &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Udemy&lt;/a&gt; in IT Management where I learned some insightful tips if I ever go further in this IT journey and career. Also found some $1 video courses on HumbleBundle about Cybersecurity, which I plan to watch and learn from soon.&lt;/p&gt;
+&lt;p&gt;There are a couple more sources and materials I tend to read and watch from time-to-time for me to not &lt;em&gt;waste time&lt;/em&gt; of just consuming content but actually learning. Which point to lesser time on…&lt;/p&gt;
+&lt;h2 id=&#34;games&#34;&gt;Games&lt;/h2&gt;
+&lt;p&gt;After upgrading my GPU, I actually finished playing Atomic Heart and found myself tired so I went to playing shorter games as I browse Xbox Game Pass. I played short games (~3 or ~4 hours) which I enjoyed playing on &lt;em&gt;free&lt;/em&gt; time. Also played a bit online with my friend overseas.&lt;/p&gt;
+&lt;p&gt;And one night, while drunk (and while Steam Summer Sale is on-going), I purchased &lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/546560/HalfLife_Alyx/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Half-Life: Alyx&lt;/a&gt; knowing that it is a VR game and I HAVE NO VR headset (sorry for the caps). I just thought of adding it to my “backlog” of games until I have a VR kit, but checking the &lt;a class=&#34;link&#34; href=&#34;https://github.com/bfeber/HLA-NoVR&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HLA-NoVR mod on GitHub&lt;/a&gt;, I gave it a try.&lt;/p&gt;
+&lt;p&gt;That same night, I downloaded both HL:A and the mod, ran it and WOW. It…kinda…works.&lt;/p&gt;
+&lt;p&gt;I know the game on mouse and keyboard is not as immersive as &lt;em&gt;in-your-face&lt;/em&gt; VR but WOW, I am playing a new Half-Life game after how many years.&lt;/p&gt;
+&lt;p&gt;I faced a few bugs and missed out on some things and &lt;em&gt;innovations&lt;/em&gt; I saw circulating online back then but overall I am amazed how they actually did it. The full playthrough is on YouTube.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/videoseries?list=PLwC47NQhSu5xDoW5kwv0Pc5-x71Dvmj2Y&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;coding&#34;&gt;Coding&lt;/h2&gt;
+&lt;p&gt;With the lack of energy to play games, I spent more time on coding being inspired by new modern design by Microsoft for Windows apps. Which I recently updated two of my apps I use mostly to help we “work”.&lt;/p&gt;
+&lt;p&gt;Both apps got some code improvements and their UI were updated from &lt;a class=&#34;link&#34; href=&#34;https://github.com/Kinnara/ModernWpf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ModernWPF&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://wpfui.lepo.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WPF-UI&lt;/a&gt;. The latter lacks most controls but overshadowed by the use of the Mica effect for my WPF apps but I got the most out of it. Hopefully the package gets updated with more controls.&lt;/p&gt;
+&lt;p&gt;Here’s a GIF of the changes the apps went:&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;digiman-update.gif&#34;
+         alt=&#34;Digital Manager UI changes&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Digital Manager UI changes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;id-maker-update.gif&#34;
+         alt=&#34;ID Maker UI changes&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;ID Maker UI changes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I also updated both to .NET Core.&lt;/p&gt;
+&lt;p&gt;—&lt;/p&gt;
+&lt;p&gt;Thanks for reading this life update blog post, I wonder if I could make this blog more “news-like” or devlog? I could promise but thank you again for coming!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Console App to Automate Stream with AltaCast, VLC, VB Virtual Cable</title>
         <link>https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/</link>
         <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>

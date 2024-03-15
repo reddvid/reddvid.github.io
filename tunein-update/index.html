@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Basic webpage for streaming audio from RPN stations'>
 <title>Tune In RPN Radio Update - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/tunein-update/'>
 
-<link rel="stylesheet" href="/scss/style.min.a66057b632d53e149c6892c1096c52e925f758ece535db2b0a41baf1f050cd0b.css"><meta property='og:title' content='Tune In RPN Radio Update'>
+<link rel="stylesheet" href="/scss/style.min.f9f20c5e8f6258b7480790aed3266c3679e978ef087d52f1f599a3b0107cd868.css"><meta property='og:title' content='Tune In RPN Radio Update'>
 <meta property='og:description' content='Basic webpage for streaming audio from RPN stations'>
 <meta property='og:url' content='https://reddavid.me/tunein-update/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -125,7 +125,7 @@ article-page
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">David Ballesteros</a></h1>
-            <h2 class="site-description">Systems and IT Engineer | Applications Developer</h2>
+            <h2 class="site-description">Software Developer</h2>
         </div>
     </header><ol class="social-menu">
             
@@ -493,16 +493,16 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">closeNav</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">goBack</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">isNavOpen</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">closeNav</span><span class="p">();</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">referrer</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="s2">&#34;https://tunein.rpnradio.com/&#34;</span><span class="p">;</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nb">window</span><span class="p">.</span><span class="nx">history</span><span class="p">.</span><span class="nx">back</span><span class="p">();</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
 </div>
 </div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
 <p>Now the back button takes you to home page when started with a station page.</p>
@@ -548,7 +548,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 <h2 id="footer-finally">Footer Finally</h2>
 <p>I added a subtle footer to the whole website. That&rsquo;s it. :)</p>
 <h2 id="final-words">Final Words</h2>
-<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a class="link" href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a class="link" href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations&rsquo; broadcast anytime and anywhere in the world.</p>
+<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a class="link" href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a class="link" href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations' broadcast anytime and anywhere in the world.</p>
 <p>You can visit the website here: <a class="link" href="https://tunein.rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
 <p>You may also want to check my blog post about the RPN Radio App here:<br/><a class="link" href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
 
@@ -869,7 +869,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
         
         2019 -
         
-        2023 David Ballesteros
+        2024 David Ballesteros
     </section>
     <section class="powerby">
         

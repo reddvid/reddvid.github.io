@@ -5,8 +5,24 @@
         <link>https://reddavid.me/tags/</link>
         <description>Recent content in Tags on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Sun, 23 Jul 2023 22:33:34 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 16 Mar 2024 04:41:29 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Career Change</title>
+        <link>https://reddavid.me/tags/career-change/</link>
+        <pubDate>Sat, 16 Mar 2024 04:41:29 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/career-change/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Job Hunting</title>
+        <link>https://reddavid.me/tags/job-hunting/</link>
+        <pubDate>Sat, 16 Mar 2024 04:41:29 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/job-hunting/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>.NET</title>
         <link>https://reddavid.me/tags/.net/</link>
         <pubDate>Sun, 23 Jul 2023 22:33:34 +0800</pubDate>

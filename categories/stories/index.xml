@@ -5,8 +5,34 @@
         <link>https://reddavid.me/categories/stories/</link>
         <description>Recent content in Stories on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Sun, 23 Jul 2023 22:33:34 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/stories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 16 Mar 2024 04:41:29 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/stories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>9 and Over</title>
+        <link>https://reddavid.me/9-and-over/</link>
+        <pubDate>Sat, 16 Mar 2024 04:41:29 +0800</pubDate>
+        
+        <guid>https://reddavid.me/9-and-over/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/glhf.png" alt="Featured image of post 9 and Over" /&gt;&lt;p&gt;&lt;strong&gt;Cheers for the 9 years!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I just quit my job of 9 years to shift careers. I wanted to pursue a career in programming (or deeper in IT). As writing this post, I am taking at least a month-long break to accomplish personal things.&lt;/p&gt;
+&lt;p&gt;Some of these things include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finally getting a license to drive&lt;/li&gt;
+&lt;li&gt;Updating my IDs from &lt;em&gt;single&lt;/em&gt; to being &lt;em&gt;married&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Visit some places&lt;/li&gt;
+&lt;li&gt;And play some video games 😄&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I won&amp;rsquo;t detail much about the reason, and process leaving my job, but it ended well (I think, hopefully, maybe). And I honestly look forward to their continuous success.&lt;/p&gt;
+&lt;h3 id=&#34;hit-me-up&#34;&gt;Hit me up&lt;/h3&gt;
+&lt;p&gt;Know anyone who can &lt;em&gt;risk&lt;/em&gt; or take the chance hiring a 30+ year old guy doing .NET/C# Desktop/Mobile software development since 2013? Hit me up on my &lt;a class=&#34;link&#34; href=&#34;https://linkedin.com/in/reddvid/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GLHF!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;(Also sorry for not posting for such a long time!)&lt;/p&gt;
+&lt;hr&gt;
+&lt;small&gt;
+Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Wil Stewart&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/photography-of-person-holding-glass-bottles-during-sunset-UErWoQEoMrc?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;
+&lt;/small&gt;</description>
+        </item>
+        <item>
         <title>I Am Here</title>
         <link>https://reddavid.me/i-am-here/</link>
         <pubDate>Sun, 23 Jul 2023 22:33:34 +0800</pubDate>
@@ -157,30 +183,30 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
+	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;solutions-from-the-web&#34;&gt;Solutions from the Web&lt;/h2&gt;
 &lt;p&gt;There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.&lt;/p&gt;

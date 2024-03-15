@@ -5,22 +5,22 @@
         <link>https://reddavid.me/categories/</link>
         <description>Recent content in Categories on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <lastBuildDate>Sun, 23 Jul 2023 22:33:34 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 16 Mar 2024 04:41:29 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Stories</title>
+        <link>https://reddavid.me/categories/stories/</link>
+        <pubDate>Sat, 16 Mar 2024 04:41:29 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/stories/</guid>
+        <description>&lt;img src="https://reddavid.me/categories/stories/feat-stories.png" alt="Featured image of post Stories" /&gt;</description>
+        </item>
+        <item>
         <title>Coding</title>
         <link>https://reddavid.me/categories/coding/</link>
         <pubDate>Sun, 23 Jul 2023 22:33:34 +0800</pubDate>
         
         <guid>https://reddavid.me/categories/coding/</guid>
         <description>&lt;img src="https://reddavid.me/categories/coding/feat-coding.png" alt="Featured image of post Coding" /&gt;</description>
-        </item>
-        <item>
-        <title>Stories</title>
-        <link>https://reddavid.me/categories/stories/</link>
-        <pubDate>Sun, 23 Jul 2023 22:33:34 +0800</pubDate>
-        
-        <guid>https://reddavid.me/categories/stories/</guid>
-        <description>&lt;img src="https://reddavid.me/categories/stories/feat-stories.png" alt="Featured image of post Stories" /&gt;</description>
         </item>
         <item>
         <title>Tech</title>

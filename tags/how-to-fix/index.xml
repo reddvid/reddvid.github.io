@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/how-to-fix/</link>
         <description>Recent content in How to fix on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
+        <language>en-us</language>
         <lastBuildDate>Fri, 10 Feb 2023 04:30:05 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/how-to-fix/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)</title>
         <link>https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/</link>
@@ -58,30 +58,30 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
+		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
+	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
+  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;solutions-from-the-web&#34;&gt;Solutions from the Web&lt;/h2&gt;
 &lt;p&gt;There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.&lt;/p&gt;

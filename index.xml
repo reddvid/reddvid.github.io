@@ -5301,10 +5301,10 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/ul&gt;
 &lt;h2 id=&#34;featured-gameplay&#34;&gt;Featured Gameplay&lt;/h2&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
-&lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/videoseries?list=PLwC47NQhSu5xKuzJU85jj5IE0WXXW-6cp&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/DebCeu5xUgw?si=p_2pOzwXTOMPp_wj&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;streaming&#34;&gt;Streaming&lt;/h2&gt;
-&lt;p&gt;Streams Minecraft Singleplayer Survival on Facebook (Weekends) and other games on Twitch (no schedule).&lt;/p&gt;
+&lt;p&gt;Streams Minecraft Singleplayer Survival on Facebook (Weekends) and other games on Twitch/YouTube (no schedule).&lt;/p&gt;
 &lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
 &lt;p&gt;Excluding my Steam library and other platform games (Epic, GOG), below is a table where I track my finished, on-going, to-be-continued, and soon-to-play games.&lt;/p&gt;
 &lt;h3 id=&#34;recent-games&#34;&gt;Recent Games&lt;/h3&gt;
@@ -5593,6 +5593,24 @@ Support my tech lust by &lt;a class=&#34;link&#34; href=&#34;https://buymeacoffe
 &lt;/ul&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;pc-specs&#34;&gt;PC Specs&lt;/h2&gt;
+&lt;!-- &lt;div class=&#34;product-view article-list--compact links schmol&#34; &gt;
+    &lt;article&gt;
+        &lt;img class=&#34;product-img&#34; src=&#34;img/products/amd-ryzen-7.png&#34; height=&#34;200&#34; width=&#34;200&#34; style=&#34;object-fit: cover !important;&#34;&gt;&lt;p style=&#34;margin-top: -5px;&#34;&gt;
+            AMD Ryzen 7 5700X
+        &lt;/p&gt;&lt;/article&gt;
+&lt;/div&gt;
+&lt;div class=&#34;product-view article-list--compact links schmol&#34; &gt;
+    &lt;article&gt;
+        &lt;img class=&#34;product-img&#34; src=&#34;img/products/msi-b550m-pro-vdh-wifi.png&#34; height=&#34;200&#34; width=&#34;200&#34; style=&#34;object-fit: cover !important;&#34;&gt;&lt;p style=&#34;margin-top: -5px;&#34;&gt;
+            AMD Ryzen 7 5700X
+        &lt;/p&gt;&lt;/article&gt;
+&lt;/div&gt;
+&lt;div class=&#34;product-view article-list--compact links schmol&#34; &gt;
+    &lt;article&gt;
+        &lt;img class=&#34;product-img&#34; src=&#34;img/products/keychron-k2-pro.png&#34; height=&#34;200&#34; width=&#34;200&#34; style=&#34;object-fit: cover !important;&#34;&gt;&lt;p style=&#34;margin-top: -5px;&#34;&gt;
+            Keychron K2 Pro
+        &lt;/p&gt;&lt;/article&gt;
+&lt;/div&gt; --&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU: AMD Ryzen 7 5700X&lt;/li&gt;
 &lt;li&gt;Motherboard: MSI B550M PRO-VDH WIFI&lt;/li&gt;

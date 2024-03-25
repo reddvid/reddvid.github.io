@@ -6,7 +6,84 @@
         <description>Recent content in Posts on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 16 Mar 2024 04:41:29 +0800</lastBuildDate><atom:link href="https://reddavid.me/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 25 Mar 2024 17:56:45 +0800</lastBuildDate><atom:link href="https://reddavid.me/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How To Add Hyper-V Virtual Machine Shortcut on Windows 11</title>
+        <link>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11/</link>
+        <pubDate>Mon, 25 Mar 2024 17:56:45 +0800</pubDate>
+        
+        <guid>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/vm-shortcut-og.png" alt="Featured image of post How To Add Hyper-V Virtual Machine Shortcut on Windows 11" /&gt;&lt;p&gt;Ever want to launch a VM directly without opening the main Hyper-V app first?
+Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In your selected directory, right-click on an empty space to open the context menu. Within &lt;strong&gt;New&lt;/strong&gt;, select &lt;strong&gt;Shortcut&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src=&#34;add-new-shortcut-context-menu.png&#34;
+         alt=&#34;Create New Shortcut&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Create New Shortcut&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;In the &lt;em&gt;Create Shortcut&lt;/em&gt; window, enter the target settings shown below:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;    vmconnect.exe &amp;lt;Hyper-V Server IP Address&amp;gt; &amp;#34;&amp;lt;Name of VM&amp;gt;&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;figure&gt;&lt;img src=&#34;shortcut-target-settings.png&#34;
+         alt=&#34;Shortcut Target Settings&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Shortcut Target Settings&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;where &amp;lt;&lt;strong&gt;Hyper-V Server IP Address&lt;/strong&gt;&amp;gt; is the host IP address of the Hyper-V server. And &amp;ldquo;&amp;lt;&lt;strong&gt;Name of VM&lt;/strong&gt;&amp;gt;&amp;rdquo; is the actual VM name as seen in Hyper-V window.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Click &lt;strong&gt;Next&lt;/strong&gt;, and give your shortcut a name:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure&gt;&lt;img src=&#34;shortcut-name.png&#34;
+         alt=&#34;Giving the shortcut a name&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Giving the shortcut a name&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Below is an example of a shortcut for my Pop!_OS VM in my local machine (Shortcut Properties), where &lt;em&gt;&lt;strong&gt;Pop!&lt;/strong&gt;&lt;/em&gt; is the name of my Virtual Machine.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;shortcut-properties.png&#34;
+         alt=&#34;Sample of my VM&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Sample of my VM&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Before opening the shortcut though, we need to make it to &lt;strong&gt;Run as administrator&lt;/strong&gt;. Instead of right-clicking and manually running as admin each time, let&amp;rsquo;s change the shortcut&amp;rsquo;s &lt;strong&gt;Advanced&lt;/strong&gt; properties:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;shortcut-advanced-properties.png&#34; width=&#34;60%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;shortcut-to-run-as-admin.png&#34;
+         alt=&#34;Changing Advanced properties&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Changing Advanced properties&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s it for your shortcut to run your VM.&lt;/p&gt;
+&lt;p&gt;You can change the shortcut icon and/or you can move or copy the shortcut to show in your Start Menu (either one of the paths below).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;    C:\Users\&amp;lt;user&amp;gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+    C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
         <title>9 and Over</title>
         <link>https://reddavid.me/9-and-over/</link>
         <pubDate>Sat, 16 Mar 2024 04:41:29 +0800</pubDate>

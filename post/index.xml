@@ -7,12 +7,16 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 25 Mar 2024 17:56:45 +0800</lastBuildDate><atom:link href="https://reddavid.me/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>How To Add Hyper-V Virtual Machine Shortcut on Windows 11</title>
-        <link>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11/</link>
+        <title>How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)</title>
+        <link>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</link>
         <pubDate>Mon, 25 Mar 2024 17:56:45 +0800</pubDate>
         
-        <guid>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11/</guid>
-        <description>&lt;img src="https://reddavid.me/images/og/vm-shortcut-og.png" alt="Featured image of post How To Add Hyper-V Virtual Machine Shortcut on Windows 11" /&gt;&lt;p&gt;Ever want to launch a VM directly without opening the main Hyper-V app first?
+        <guid>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/vm-shortcut-og.png" alt="Featured image of post How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)" /&gt;&lt;h3 id=&#34;update-326-adding-a-guide-for-openingconnecting-to-vm-using-stream-deck&#34;&gt;Update 3/26: Adding a guide for opening/connecting to VM using Stream Deck.&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#using-stream-deck-to-open-vm-connection&#34; &gt;&lt;strong&gt;Jump to guide&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;shortcut-for-windows-11&#34;&gt;Shortcut for Windows 11&lt;/h2&gt;
+&lt;p&gt;Ever want to launch a VM directly without opening the main Hyper-V app first?
 Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;In your selected directory, right-click on an empty space to open the context menu. Within &lt;strong&gt;New&lt;/strong&gt;, select &lt;strong&gt;Shortcut&lt;/strong&gt;.&lt;/li&gt;
@@ -81,7 +85,40 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
     C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;using-stream-deck-to-open-vm-connection&#34;&gt;Using Stream Deck to open VM Connection&lt;/h2&gt;
+&lt;p&gt;The shortcut created above can be used as the &lt;strong&gt;App/File&lt;/strong&gt; for the &lt;strong&gt;Open&lt;/strong&gt; function of the bundled &lt;strong&gt;System&lt;/strong&gt; plugin for StreamDeck. As seen below:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;open-shortcut-streamdeck.png&#34;
+         alt=&#34;VM Shortcut in Stream Deck&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;VM Shortcut in Stream Deck&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;using-barraiders-advanced-launcher&#34;&gt;Using BarRaider&amp;rsquo;s Advanced Launcher&lt;/h3&gt;
+&lt;p&gt;This requires installing the above-mentioned plugin, found here: &lt;a class=&#34;link&#34; href=&#34;https://marketplace.elgato.com/product/advanced-launcher-d9a289e4-9f61-4613-9f86-0069f5897125&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Marketplace&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://apps.elgato.com/plugins/com.barraider.advancedlauncher&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Old Plugins Page&lt;/a&gt; (note: both are version 1.8 as of this writing).&lt;/p&gt;
+&lt;p&gt;Once installed, add an &lt;strong&gt;Advanced Launcher&lt;/strong&gt; button into your Stream Deck and do the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Customize your button icon and give your button a Title. Or not.&lt;/li&gt;
+&lt;li&gt;In &lt;strong&gt;Application&lt;/strong&gt; &amp;gt; &lt;strong&gt;Choose file&amp;hellip;&lt;/strong&gt;*, you need to navigate to &lt;code&gt;C:/Windows/System32/&lt;/code&gt; and choose &lt;code&gt;vmconnect.exe&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;In &lt;strong&gt;Arguments&lt;/strong&gt;, type in &lt;br&gt; &lt;code&gt;&amp;lt;Hyper-V Server IP Address&amp;gt; &amp;quot;&amp;lt;Name of VM&amp;gt;&amp;quot;&lt;/code&gt;, &lt;br&gt; where &lt;code&gt;&amp;lt;Hyper-V Server IP Address&amp;gt;&lt;/code&gt; is the host IP address of the Hyper-V server. And &lt;code&gt;&amp;quot;&amp;lt;Name of VM&amp;gt;&amp;quot;&lt;/code&gt; is the actual VM name as seen in your Hyper-V server. &lt;br&gt;&lt;br&gt; (Note: Stream Deck might remove the double-quotes in cases where the VM name has no spaces)&lt;/li&gt;
+&lt;li&gt;Check the &lt;strong&gt;Run as Administrator&lt;/strong&gt; checkbox.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In my case, as seen below, I customized my button properties further:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Instances: Checked&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Max Instances: 1&lt;/strong&gt; (since launching it will force disconnect previous instances)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bring to front: Checked&lt;/strong&gt; (Stream Deck will try to make the VM window to front - or flash the taskbar icon)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&#34;advanced-launcher-vm-streamdeck.png&#34;
+         alt=&#34;VM launcher using Advanced Launcher&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;VM launcher using Advanced Launcher&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;That&amp;rsquo;s it for adding a Stream Deck button to open your Virtual machine!&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>9 and Over</title>

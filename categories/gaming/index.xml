@@ -5,7 +5,7 @@
         <link>https://reddavid.me/categories/gaming/</link>
         <description>Recent content in Gaming on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Fri, 10 Feb 2023 04:30:05 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/gaming/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)</title>
         <link>https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/</link>
@@ -19,16 +19,16 @@
 &lt;p&gt;(But thankfully, I am not getting any bug checks or BSODs)&lt;/p&gt;
 &lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;I checked Windows Event Viewer for any logs and there it is!&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;nvlddmkm-error-event.png&#34;
-         alt=&#34;nvlddmkm Error in Windows Event Viewer&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;nvlddmkm Error in Windows Event Viewer&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/nvlddmkm-error-event.png&#34;
+    alt=&#34;nvlddmkm Error in Windows Event Viewer&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;nvlddmkm Error in Windows Event Viewer&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;event-error-details.png&#34;
-         alt=&#34;Error Details&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Error Details&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/event-error-details.png&#34;
+    alt=&#34;Error Details&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Error Details&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -58,30 +58,30 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
-	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
-  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;solutions-from-the-web&#34;&gt;Solutions from the Web&lt;/h2&gt;
 &lt;p&gt;There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.&lt;/p&gt;
@@ -106,22 +106,16 @@
         <description>&lt;img src="https://reddavid.me/images/og/ti10-appdates.png" alt="Featured image of post TI10 and Appdates" /&gt;&lt;p&gt;Let&amp;rsquo;s start with &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/The_International_2021#:~:text=The%20International%202021%2C%20also%20known,2%20world%20championship%20esports%20tournament.&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;The International&lt;/a&gt;, shortened as TI, Valve&amp;rsquo;s yearly Dota 2 tournament where the 18 of the best teams around the world gather to fight for the Aegis of the Champions every year. After being canceled and waiting for more than 2 years it is now happening, without an audience in Bucharest, Romania with a total prizepool of $40M+.&lt;/p&gt;
 &lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The International 10 Prize Pool Breakdown. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/76mHH1MZue&#34;&gt;pic.twitter.com/76mHH1MZue&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1444037357775179779?ref_src=twsrc%5Etfw&#34;&gt;October 1, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
 
 &lt;/center&gt;
 &lt;p&gt;I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches &lt;a class=&#34;link&#34; href=&#34;https://dota2.fandom.com/wiki/IceFrog&#34; target=&#34;_blank&#34;&gt;IceFrog&lt;/a&gt; brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn &lt;a class=&#34;link&#34; href=&#34;https://liquipedia.net/dota2/Dota_Pro_Circuit&#34; target=&#34;_blank&#34;&gt;DPC points&lt;/a&gt; for entering the prestigious TI.&lt;/p&gt;
 &lt;h2 id=&#34;ten-days-of-dota&#34;&gt;Ten Days of DOTA&lt;/h2&gt;
 &lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
 &lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;TI10 Groups Final Standings. &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Dota2?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Dota2&lt;/a&gt; &lt;a href=&#34;https://t.co/JBXC9z7hBc&#34;&gt;pic.twitter.com/JBXC9z7hBc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wykrhm Reddy (@wykrhm) &lt;a href=&#34;https://twitter.com/wykrhm/status/1447199723308269568?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
 
 &lt;/center&gt;
 &lt;p&gt;Now, as of this writing, we just ended Day 3 of the Main Stage and I&amp;rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&amp;rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;amp;name=large&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://pbs.twimg.com/media/FBrySN5VIAAtGqh?format=jpg&amp;amp;name=large&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Thanks to &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/wykrhm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -129,9 +123,6 @@
 &lt;h2 id=&#34;the-secret&#34;&gt;The Secret&lt;/h2&gt;
 &lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
 &lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;We made a promise. We delivered.&lt;br&gt;&lt;br&gt;UPPER BRACKET: SECURED 🖤&lt;a href=&#34;https://twitter.com/hashtag/SecretDota?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#SecretDota&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/TI10?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#TI10&lt;/a&gt; &lt;a href=&#34;https://t.co/4V6czHXzhI&#34;&gt;pic.twitter.com/4V6czHXzhI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Team Secret (@teamsecret) &lt;a href=&#34;https://twitter.com/teamsecret/status/1447192871677857796?ref_src=twsrc%5Etfw&#34;&gt;October 10, 2021&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
 
 &lt;/center&gt;
 &lt;p&gt;I follow the games by watching &lt;a class=&#34;link&#34; href=&#34;https://www.twitch.tv/singsing&#34; target=&#34;_blank&#34;&gt;singsing&amp;rsquo;s Twitch stream&lt;/a&gt; as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.&lt;/p&gt;
@@ -139,9 +130,9 @@
 &lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
 &lt;p&gt;My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/samsung-a71.png&#34;
-         alt=&#34;Samsung A71&#34; height=&#34;400px&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Samsung A71&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Samsung A71&#34; height=&#34;400px&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Samsung A71&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The app has been up on the Google Play Store for some time (as I blogged &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpn-android-app/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;) and lacked significant updates. It stayed that way for a while until all busy-ness and code-confusion (is this even a term?) has subsided.&lt;/p&gt;
@@ -157,15 +148,15 @@
     &gt;Apple TestFlight&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Or scan the QR code/s below:&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/play-qr.png&#34;
-         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Google Play Store QR Code&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/testflight-qr.png&#34;
-         alt=&#34;Google Play Store QR Code&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Google Play Store QR Code&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Google Play Store QR Code&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;You may submit your feedback using built-in tools from Google or TestFlight, sending an &lt;a class=&#34;link&#34; href=&#34;mailto:info@rpnradio.com&#34; &gt;email&lt;/a&gt;, or any on my socials.&lt;/p&gt;
@@ -189,9 +180,9 @@
 &lt;p&gt;So my last post was June 12, I celebrated my 29th birthday on the 14th and got myself an Elgato HD60S+ to achieve better mobile gaming mirroring but that still, I can&amp;rsquo;t keep my streaming schedule! AARGH (2)&lt;/p&gt;
 &lt;p&gt;I got the thingy not just to stream games but for future use - like recording &amp;ldquo;How to use this app&amp;rdquo; for YouTube or presentations, so it may be an expensive thing but I always think of them as an investment for my app development journey.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/elgato.jpg&#34;
-         alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Elgato HD60S+&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Elgato HD60S+&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Speaking of streaming, I started streaming on Twitch! Right now, I planned on playing Minecraft, Left 4 Dead 2, and Call of Duty: Mobile. Also, I will try to stream on MWFS schedule playing those games or variety. &lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/aka1red&#34; target=&#34;_blank&#34;&gt;Give me a follow&lt;/a&gt; and get notified when I go live.&lt;/p&gt;
@@ -208,9 +199,9 @@
 &lt;p&gt;Any more happened last week of June? Hmm. Yeah right, I released an update for RPN Radio app for both Android and iOS adding a call-to-action button to send the stations a message thru Facebook Messenger. This was after watching on Udemy that apps or any products always have a goal-in-mind - the stations should increase inquiries for advertisement or any other public service comments.&lt;/p&gt;
 &lt;p&gt;The app is still available for &lt;strong&gt;FREE&lt;/strong&gt; on Google Play Store, Huawei App Store, and iOS App Store. I created this simple app landing page for the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34; target=&#34;_blank&#34;&gt;links.&lt;/a&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-app-cta.jpg&#34;
-         alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also got to try the new &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/windows-11&#34; target=&#34;_blank&#34;&gt;Windows 11 Insider Preview&lt;/a&gt; on a VM. Tested on my main machine but I can&amp;rsquo;t risk the beta so I rolled back to Windows 10.&lt;/p&gt;
@@ -225,9 +216,9 @@
 &lt;h3 id=&#34;website-updates&#34;&gt;Website Updates&lt;/h3&gt;
 &lt;p&gt;With work, I updated the &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com&#34; target=&#34;_blank&#34;&gt;RPN website&lt;/a&gt; overall layout after migrating to a new hosting provider. And some minor updates to some if not all the online systems.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-website-mobile.png&#34;
-         alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;RPN Radio Website&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;RPN Radio Website&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;rainy-vacay&#34;&gt;Rainy Vacay&lt;/h3&gt;
@@ -235,34 +226,34 @@
 &lt;p&gt;I was so looking forward to at least visit a beach, see a sunset, feel the breeze of fresh air but UNLUCKILY the weather ahead was not well! I did not see the predictions that there will be a coming storm for the week. So the first few days were a bust, and I just stayed inside and chilled out with some beer.&lt;/p&gt;
 &lt;p&gt;The 20th was a holiday, and magically the weather was at least fine for us to go to Binmaley beach - don&amp;rsquo;t worry, there were no crowds so we can be safe, I think? The sun was peeping through the clouds and by the afternoon, a mild rain poured. Together with relatives, we spend some time there swimming, singing, EATING, and drinking booze until it&amp;rsquo;s time to go home.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/binmaley-beach.jpg&#34;
-         alt=&#34;Binmaley Beach&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Binmaley Beach&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Binmaley Beach&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Binmaley Beach&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;My other plans went down the drain as the weather became worse, Dagupan City was flooded (plus high tide) that light vehicles weren&amp;rsquo;t able to pass. Sadly, I can&amp;rsquo;t meet my &lt;del&gt;only&lt;/del&gt; city friends. There&amp;rsquo;s still next time right? Right?&lt;/p&gt;
 &lt;p&gt;I decided to extend my stay but continued checking some online responsibilities just to make sure they are still up even I&amp;rsquo;m not present in the office - though I failed to join our online meetings.&lt;/p&gt;
 &lt;p&gt;We also went to our grandfather&amp;rsquo;s brother to celebrate his 70th birthday. Then we spent some time (and over pizza) with my cousin to talk about tech and stuff.&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;/&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-damage.jpg&#34;
-         alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;Oh, I also got a haircut (question mark).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/haircut.jpg&#34;
-         alt=&#34;Haircut?&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Haircut?&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Haircut?&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Haircut?&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;br&gt;
@@ -280,9 +271,9 @@
 &lt;p&gt;Ever since the new season of Call of Duty: Mobile came out, I just wanted to redeem the legendary medal. And also to get all rewards from the Battle Pass I bought. 😂&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t worry guys and gals, kuya Red will be back soon. Konti na lang back to Legendary rank na sa BR mode at pwede na mag-Minecraft.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/codm-locked.png&#34;
-         alt=&#34;Locked Legendary Rank&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Locked Legendary Rank&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Locked Legendary Rank&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Locked Legendary Rank&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;minecraft-117-is-here&#34;&gt;Minecraft 1.17 is Here&lt;/h2&gt;
@@ -312,9 +303,9 @@
 &lt;p&gt;I used to play on my Nokia 7 Plus but can&amp;rsquo;t the specs can&amp;rsquo;t keep up, not sure why. This is when I use &lt;a class=&#34;link&#34; href=&#34;https://www.vysor.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Vysor&lt;/a&gt;, a screen mirroring app that wirelessly share the phone&amp;rsquo;s screen to the PC. Now, that&amp;rsquo;s where the problem is, wireless mirroring makes the sound delayed that playing action games is not a good experience. I invested in both an iPhone and the adapter since I can use them on future projects - software development.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/adapters.jpg&#34;
-         alt=&#34;Lightning to AV Adapter and USB Capture Card&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Lightning to AV Adapter and USB Capture Card&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Lightning to AV Adapter and USB Capture Card&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Lightning to AV Adapter and USB Capture Card&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I wonder why branded capture cards are so damn expensive?! Like the &lt;a class=&#34;link&#34; href=&#34;https://ecommerce.datablitz.com.ph/products/elgato-hd60-s-game-capture&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -324,9 +315,9 @@
 &lt;p&gt;Lastly, I recently bought an &lt;a class=&#34;link&#34; href=&#34;https://www.audio-technica.com/en-gb/atr2500x-usb&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ATR-2500X condenser mic&lt;/a&gt; to record songs and guitars for my YouTube channel. Now it&amp;rsquo;s multi-purpose that I use it on my streams and Zoom meetings.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/atr-2500x.jpg&#34;
-         alt=&#34;Audio-Technica ATR2500X Condenser Mic&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Audio-Technica ATR2500X Condenser Mic&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Audio-Technica ATR2500X Condenser Mic&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Audio-Technica ATR2500X Condenser Mic&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
@@ -334,18 +325,18 @@
     &gt;OBS Studio&lt;/a&gt;. I had a bad experience using SLOBS, it freezes and crashes over simple things. I used to do overlays with Streamlabs but then I found StreamElements OBS.Live. It makes things much easier with a direct &amp;ldquo;Go Live&amp;rdquo; button on OBS Studio, chat box, and activity feed. They also provide a nice overlay editor with text-to-speech system on their &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;website&lt;/a&gt;.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/obslive.png&#34;
-         alt=&#34;StreamElements OBS.Live Plugin&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;StreamElements OBS.Live Plugin&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;StreamElements OBS.Live Plugin&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;StreamElements OBS.Live Plugin&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;diagram&#34;&gt;Diagram&lt;/h3&gt;
 &lt;p&gt;This is how my setup is connected. Remember that you need an internet with at least 4000kbps of upload speed to actually stream your games on Facebook Gaming (&lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/fbgaminghome/creators/getstarted&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;source&lt;/a&gt;). I stream at 1080p60 with 6000kbps bitrate.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/mobile-streaming/setup-diagram.png&#34;
-         alt=&#34;Hardware Setup Diagram&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Hardware Setup Diagram&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Hardware Setup Diagram&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Hardware Setup Diagram&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;games-list&#34;&gt;Games List&lt;/h2&gt;
@@ -369,7 +360,7 @@
         <description>&lt;img src="https://reddavid.me/images/feat/1k-followers.png" alt="Featured image of post Unlocked: 1K Followers" /&gt;&lt;p&gt;First of all, thank you so much to all who stayed, watched, and enjoyed my content.&lt;/p&gt;
 &lt;p&gt;It was on May 26th that we finally got to a thousand following after a year of starting to be a Gaming Video Creator on Facebook. The stream felt like another day of chill streaming by playing a couple of hours of Minecraft. It was quite overwhelming for a small-time (and not full-time) streamer like me but thanks to my cousins and og supporters for helping me out in the chat and Discord server.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/1k-achievement.png&#34;
-         alt=&#34;1K followers achievement custom&#34; width=&#34;80%&#34;/&gt;
+    alt=&#34;1K followers achievement custom&#34; width=&#34;80%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;deldailydel-nightly-streams&#34;&gt;&lt;del&gt;Daily&lt;/del&gt; Nightly Streams&lt;/h2&gt;
@@ -379,9 +370,9 @@
 &lt;h2 id=&#34;twitchyoutube-switch&#34;&gt;Twitch/YouTube Switch&lt;/h2&gt;
 &lt;p&gt;Yes, I have been thinking of switching to either one, why? First, Twitch have several audience interaction which I have been using when I watch my favorite streamers there like, watch points, play with viewers, etc and you can watch on app minimized.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/twitch-minimized.png&#34;
-         alt=&#34;Watch Twitch Videos Minimized&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Watch Twitch Videos Minimized&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Watch Twitch Videos Minimized&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Watch Twitch Videos Minimized&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;While YouTube had a better chat system, but chat highlights and audience interactions are better - with chatbots.&lt;/p&gt;
@@ -452,49 +443,49 @@
 &lt;h2 id=&#34;whats-in-the-box&#34;&gt;What&amp;rsquo;s in the box?&lt;/h2&gt;
 &lt;p&gt;The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/box.jpg&#34;
-         alt=&#34;Logitech G304 box contents&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Box contents&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech G304 box contents&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Box contents&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;lets-get-physical&#34;&gt;Let&amp;rsquo;s get Physical!&lt;/h2&gt;
 &lt;h3 id=&#34;battery-compartment&#34;&gt;Battery compartment&lt;/h3&gt;
 &lt;p&gt;The mouse has no RGB strip like it&amp;rsquo;s cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/inside.jpg&#34;
-         alt=&#34;G304 with battery&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Logitech G304&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 with battery&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Logitech G304&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;battery-included&#34;&gt;Battery included&lt;/h3&gt;
 &lt;p&gt;I currently use an Energizer Lithium AA battery which I believe is lighter but I still keep the free battery whenever I need a heavier setup.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/batt.jpg&#34;
-         alt=&#34;AA batteries&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;AA Batteries (front came with the product)&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;AA batteries&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;AA Batteries (front came with the product)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;bottom-switch&#34;&gt;Bottom Switch&lt;/h3&gt;
 &lt;p&gt;The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/bottom.jpg&#34;
-         alt=&#34;G304 bottom&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Bottom view of grip&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 bottom&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Bottom view of grip&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;grip&#34;&gt;Grip&lt;/h3&gt;
 &lt;p&gt;The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&amp;rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://fb.gg/RedDavidGaming/&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/hand-top.jpg&#34;
-         alt=&#34;G304 top grip&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Top view grip&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 top grip&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Top view grip&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/hand-side.jpg&#34;
-         alt=&#34;G304 side grip&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Side view of grip&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 side grip&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Side view of grip&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;reliability&#34;&gt;Reliability&lt;/h2&gt;
@@ -517,34 +508,34 @@
 &lt;h2 id=&#34;g302&#34;&gt;G302&lt;/h2&gt;
 &lt;p&gt;If I recall correctly, my first mouse from Logitech was the G302, it has the odd shape but it just fits nicely in my hand. I used it for almost 2 years until it went &amp;ldquo;double-clicking&amp;rdquo; due to playing Dota 2. I just scavenged some old A4tech mouse and took out the switches (Huanos?) to replace one on the G302. The G302 still works today but it has this rattling noise due to the broken plastics inside.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g302.jpg&#34;
-         alt=&#34;G302 still works this day&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;G302 still works this day&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G302 still works this day&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;G302 still works this day&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;g203&#34;&gt;G203&lt;/h2&gt;
 &lt;p&gt;Then I bought a G203, a smaller mouse sporting with the new logo. I bought this to have an RGB mouse. This is when I started to jump on the &amp;ldquo;Logitech mouse hype&amp;rdquo;.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g203.jpg&#34;
-         alt=&#34;My G203 with brand new HyperX Fury mouse mat&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;My G203 with brand new HyperX Fury mouse mat&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;My G203 with brand new HyperX Fury mouse mat&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My G203 with brand new HyperX Fury mouse mat&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;impulse-buying-the-g403&#34;&gt;Impulse Buying the G403&lt;/h2&gt;
 &lt;p&gt;Being on the &amp;ldquo;hype train&amp;rdquo;, I impulse bought a G403 when it became available in my country despite my current G203 still works. The G403 was not comfortable for my hand - well, the shops before don&amp;rsquo;t have demo units - so I bought another G203 as I gave the old one to my GF for office use. The G403 is stored for now.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g403.jpg&#34;
-         alt=&#34;Logitech G403&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Impulse bought G403 😂&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech G403&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Impulse bought G403 😂&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;After some time, GF&amp;rsquo;s workplace decided to renovate so I took the G203 back and decided to &amp;ldquo;mod&amp;rdquo; it and cut the wire too short making it unroutable to my home setup. This older G203 is now in my &amp;ldquo;junk box&amp;rdquo;.&lt;/p&gt;
 &lt;h2 id=&#34;gpro-on-discount&#34;&gt;GPro on Discount&lt;/h2&gt;
 &lt;p&gt;I think all through the year 2019, I was looking to buy their wireless mouse - the G304. It has the same shape as the G203 and has the new HERO sensor. And that one time when I decided to finally buy one, I first asked a salesperson if there were any Logitech promos and I was told that the G Pro was 50% off. Without hesitation, I bought it instead of the G304.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/gpro.jpg&#34;
-         alt=&#34;Half-priced G Pro, not a bad buy&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Half-priced G Pro, not a bad buy&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Half-priced G Pro, not a bad buy&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Half-priced G Pro, not a bad buy&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The G Pro is physically the same as G203 but has a braided cable, stiffer mouse wheel, and sporting the PMW3366 optical gaming sensor. I use this in the office with a cheap mouse bungee to keep the wire neat.&lt;/p&gt;
@@ -552,9 +543,9 @@
 &lt;p&gt;Fast forward March 2020, city-wide was on lockdown, knowing that I would be staying in the office for quite some time, I lend my laptop to my GF for her to use. I also lend her the (working) G203.&lt;/p&gt;
 &lt;p&gt;After some time staying in the office, I decided to neat up my desk and I found it a hassle for wires (with dual monitors, keyboards, USB cords, and whatnot) so I thought, &amp;ldquo;It&amp;rsquo;s time to check that G304 I wished for the longest time. And there&amp;rsquo;s a sale incoming too.&amp;rdquo;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304.jpg&#34;
-         alt=&#34;28-day old G304&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;28-day old G304&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;28-day old G304&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;28-day old G304&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I checked Lazada but I was skeptical to buy electronics from them – to avoid the hassle process of returning a defective product. This is when I learned that my &amp;ldquo;favorite&amp;rdquo; gaming store I bought my previous Logitech mice has a &amp;ldquo;better&amp;rdquo; website and I checked the G304 and it was cheaper compared to its store retail price. I bought it as a gift for myself this June.&lt;/p&gt;

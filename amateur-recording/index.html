@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Basic home setup for audio recording'>
 <title>Amateur Recording - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/amateur-recording/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='Amateur Recording'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='Amateur Recording'>
 <meta property='og:description' content='Basic home setup for audio recording'>
 <meta property='og:url' content='https://reddavid.me/amateur-recording/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -16,7 +16,7 @@
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Amateur Recording">
 <meta name="twitter:description" content="Basic home setup for audio recording"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/amateur-recording/amateur-recording-og.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -360,6 +360,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -514,44 +533,44 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     >Samson — Q9U</a>, <a class="link" href="https://musictech.com/reviews/studio-recording-gear/review-samson-q9u/"  target="_blank" rel="noopener"
     >Review: Samson Q9U | MusicTech</a></p>
 <h3 id="pictures">Pictures</h3>
-<p><figure><img src="img/samson-q9u.png"
-         alt="Samson Q9U" width="50%"/><figcaption>
-            <p>Samson Q9U</p>
-        </figcaption>
+<p><figure><img src="/amateur-recording/img/samson-q9u.png"
+    alt="Samson Q9U" width="50%"><figcaption>
+      <p>Samson Q9U</p>
+    </figcaption>
 </figure>
 
-<figure><img src="img/samson-q9u-bottom.png"
-         alt="Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)" width="50%"/><figcaption>
-            <p>Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)</p>
-        </figcaption>
+<figure><img src="/amateur-recording/img/samson-q9u-bottom.png"
+    alt="Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)" width="50%"><figcaption>
+      <p>Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)</p>
+    </figcaption>
 </figure>
 </p>
 <h2 id="setup">Setup</h2>
 <h3 id="hardware">Hardware</h3>
 <p>I use a cheap boom arm to hold the mic and reduce table vibration noise. The mic is connected with a third-party Type-C to Type-A braided cable to the PC and shows as Samson Q9U on Windows. I left the wind foam to further reduce noise.</p>
-<figure><img src="img/q9u-windows.png"
-         alt="Samson Q9U on Windows" width="40%"/><figcaption>
-            <p>Samson Q9U on Windows</p>
-        </figcaption>
+<figure><img src="/amateur-recording/img/q9u-windows.png"
+    alt="Samson Q9U on Windows" width="40%"><figcaption>
+      <p>Samson Q9U on Windows</p>
+    </figcaption>
 </figure>
 
 <h3 id="software">Software</h3>
 <p>I use the donationware app <a class="link" href="https://voicemeeter.com/"  target="_blank" rel="noopener"
     >Voicemeeter</a> to control my input and output audio devices on Windows, and also use the “Cassette” recorder to select the devices to record.</p>
 <p>I mainly use this as recording instead of Audacity to monitor each input.</p>
-<figure><img src="img/voicemeeter.png"
-         alt="Voicemeeter Banana" width="80%"/><figcaption>
-            <p>Voicemeeter Banana</p>
-        </figcaption>
+<figure><img src="/amateur-recording/img/voicemeeter.png"
+    alt="Voicemeeter Banana" width="80%"><figcaption>
+      <p>Voicemeeter Banana</p>
+    </figcaption>
 </figure>
 
 <h2 id="editing">Editing</h2>
 <p>I edit my recorded audio using <a class="link" href="https://www.audacityteam.org/"  target="_blank" rel="noopener"
     >Audacity</a>. I mostly reduce unwanted noise without affecting the guitar tones too much. I also add a few effects like Reverb, and Delay. And sometimes, I do add tracks directly to record overlay guitar solos.</p>
-<figure><img src="img/audacity.png"
-         alt="Audacity (Currently Editing Dahan)" width="80%"/><figcaption>
-            <p>Audacity (Currently Editing Dahan)</p>
-        </figcaption>
+<figure><img src="/amateur-recording/img/audacity.png"
+    alt="Audacity (Currently Editing Dahan)" width="80%"><figcaption>
+      <p>Audacity (Currently Editing Dahan)</p>
+    </figcaption>
 </figure>
 
 <h2 id="samples">Samples</h2>
@@ -734,6 +753,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
             
                 
 <article class="has-image">
+    <a href="/my-firsts-while-reviewing-for-the-a-core-1-certification/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/studying-a&#43;-core1.png" loading="lazy" data-key=""
+                data-hash="/images/og/studying-a&#43;-core1.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">My Firsts While Reviewing for the A&#43; Core 1 Certification</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
     <a href="/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/">
 
         
@@ -797,25 +835,6 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 
         <div class="article-details">
             <h2 class="article-title">SIM Registration starts tomorrow (Dec 27)</h2>
-        </div>
-    </a>
-</article>
-            
-                
-<article class="has-image">
-    <a href="/tech-news-april/">
-
-        
-        <div class="article-image">
-            <img src="/tech-news-april/technews.42d226bf5db3ce87a8ddc401af13700f_hue229a10e8212f1b9406da9880fbda32a_523276_250x150_fill_box_smart1_3.png" width="250" height="150" loading="lazy"
-                alt="Featured image of post Tech News April" data-key="tech-news-april" 
-                data-hash="md5-QtImv12zzoeo3cQBrxNwDw==">
-            
-        </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Tech News April</h2>
         </div>
     </a>
 </article>

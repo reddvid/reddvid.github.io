@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/app-development/</link>
         <description>Recent content in App Development on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Thu, 01 Dec 2022 01:21:59 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/app-development/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>And... it&#39;s December</title>
         <link>https://reddavid.me/and...-its-december/</link>
@@ -29,9 +29,9 @@
 &lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
 &lt;p&gt;And the app needed a UI/UX refresh - well at least for the player part.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/12-22/rpnradio.png&#34;
-         alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;RPN Radio App UI before and after (Note: After image was taken when stations were offline)&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;RPN Radio App UI before and after (Note: After image was taken when stations were offline)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The app is now available to download for free on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -112,9 +112,9 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
 &lt;h3 id=&#34;new-context-menu&#34;&gt;New Context Menu&lt;/h3&gt;
 &lt;p&gt;To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/yourphonetray/ypt-contextmenu.png&#34;
-         alt=&#34;Context Menu of Your Phone Tray app&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Your Phone Tray Context Menu&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Context Menu of Your Phone Tray app&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Your Phone Tray Context Menu&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h4 id=&#34;shortcut-key&#34;&gt;Shortcut Key&lt;/h4&gt;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Updating the looks of RPN Radio mobile app'>
 <title>RPN Radio UI Overhaul - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/rpnradio-ui-overhaul/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='RPN Radio UI Overhaul'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='RPN Radio UI Overhaul'>
 <meta property='og:description' content='Updating the looks of RPN Radio mobile app'>
 <meta property='og:url' content='https://reddavid.me/rpnradio-ui-overhaul/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -16,7 +16,7 @@
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="RPN Radio UI Overhaul">
 <meta name="twitter:description" content="Updating the looks of RPN Radio mobile app"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/images/og/rpnradio-newui-og.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -360,6 +360,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -483,24 +502,24 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <p>What am I supposed to do?</p>
 </blockquote>
 <h2 id="overhaul">Overhaul</h2>
-<figure><img src="https://media.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif"/>
+<figure><img src="https://media.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif">
 </figure>
 
 <h3 id="menu-list">Menu List</h3>
 <p>At first glance of a first-time user, the stations list does NOT show that it is &ldquo;clickable&rdquo;. So the first UI update was to change the 4x3 grid to a simple list.</p>
 <figure><img src="/images/05-21/rpnradio-newui/menu-list-bna.png"
-         alt="RPN Radio Stations" width="90%"/><figcaption>
-            <h4>Station Menu Item Before and After</h4>
-        </figcaption>
+    alt="RPN Radio Stations" width="90%"><figcaption>
+      <h4>Station Menu Item Before and After</h4>
+    </figcaption>
 </figure>
 
 <p>This subtle change provides the user a hint of &ldquo;click me&rdquo; by giving the list item a design of a button. It also gave a space for the station&rsquo;s detail to be added - station&rsquo;s location and live/offline status.</p>
 <h3 id="header-and-controls">Header and Controls</h3>
 <p>Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.</p>
 <figure><img src="/images/05-21/rpnradio-newui/head-controls-bna.png"
-         alt="RPN Radio Stations" width="90%"/><figcaption>
-            <h4>Header &amp; Controls Before and After</h4>
-        </figcaption>
+    alt="RPN Radio Stations" width="90%"><figcaption>
+      <h4>Header &amp; Controls Before and After</h4>
+    </figcaption>
 </figure>
 
 <p>I also changed the text that shows the current stations into a simpler one and updated the share icon.</p>
@@ -511,9 +530,9 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <h3 id="about">About</h3>
 <p>Besides the UI updates mentioned above, I added an &ldquo;About&rdquo; page. It is a simple about and external links of RPN.</p>
 <figure><img src="/images/05-21/rpnradio-newui/rpnradio-about.png"
-         alt="RPN Radio About" width="60%"/><figcaption>
-            <h4>About page</h4>
-        </figcaption>
+    alt="RPN Radio About" width="60%"><figcaption>
+      <h4>About page</h4>
+    </figcaption>
 </figure>
 
 <h2 id="roadmap">Roadmap</h2>
@@ -657,7 +676,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <a href="/tags/apps/">Apps</a>
     
-    <a href="/tags/software-development/">Software development</a>
+    <a href="/tags/software-development/">Software Development</a>
     
     <a href="/tags/application-development/">Application Development</a>
     

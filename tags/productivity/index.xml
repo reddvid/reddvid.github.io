@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/productivity/</link>
         <description>Recent content in Productivity on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Sun, 03 Apr 2022 02:14:42 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/productivity/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Elgato Stream Deck MK.2 (Must Have Tech)</title>
         <link>https://reddavid.me/elgato-streamdeck/</link>
@@ -19,17 +19,17 @@
 &lt;h2 id=&#34;setting-up&#34;&gt;Setting Up&lt;/h2&gt;
 &lt;p&gt;The device requires the &lt;a class=&#34;link&#34; href=&#34;https://www.elgato.com/en/downloads&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Stream Deck application&lt;/a&gt; to actually setup what actions the buttons will do.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/streamdeck-app.png&#34;
-         alt=&#34;Stream Deck Software&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Stream Deck Software&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/streamdeck-app.png&#34;
+    alt=&#34;Stream Deck Software&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Stream Deck Software&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;There are also lots of useful community-made plugins inside the Stream Deck&amp;rsquo;s Store that you will find very useful.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/streamdeck-plugins-store.png&#34;
-         alt=&#34;Plugins Store&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Plugins Store&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/elgato-streamdeck/img/streamdeck-plugins-store.png&#34;
+    alt=&#34;Plugins Store&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Plugins Store&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Setting the device is technically easy but I felt that some icon designs (the ones I needed) are very basic and were not standard.&lt;/p&gt;

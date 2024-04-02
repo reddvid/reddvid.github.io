@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/vacation/</link>
         <description>Recent content in Vacation on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Tue, 05 Oct 2021 23:13:11 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/vacation/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Some Updates (Yes, I am Still Alive)</title>
         <link>https://reddavid.me/still-alive/</link>
@@ -41,9 +41,9 @@
 &lt;/ul&gt;
 &lt;p&gt;I recommend reading &lt;strong&gt;&amp;ldquo;Man&amp;rsquo;s Search for Meaning&amp;rdquo;&lt;/strong&gt; at least once in your life. 🙂&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535419394l/4069._SY475_.jpg&#34;
-         alt=&#34;Man&amp;amp;rsquo;s Search for Meaning cover&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Man&amp;rsquo;s Search for Meaning cover&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Man&amp;amp;rsquo;s Search for Meaning cover&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Man&amp;rsquo;s Search for Meaning cover&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;online-courses&#34;&gt;Online Courses&lt;/h2&gt;
@@ -75,9 +75,9 @@
 &lt;p&gt;So my last post was June 12, I celebrated my 29th birthday on the 14th and got myself an Elgato HD60S+ to achieve better mobile gaming mirroring but that still, I can&amp;rsquo;t keep my streaming schedule! AARGH (2)&lt;/p&gt;
 &lt;p&gt;I got the thingy not just to stream games but for future use - like recording &amp;ldquo;How to use this app&amp;rdquo; for YouTube or presentations, so it may be an expensive thing but I always think of them as an investment for my app development journey.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/elgato.jpg&#34;
-         alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Elgato HD60S+&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Elgato HD60S+&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Speaking of streaming, I started streaming on Twitch! Right now, I planned on playing Minecraft, Left 4 Dead 2, and Call of Duty: Mobile. Also, I will try to stream on MWFS schedule playing those games or variety. &lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/aka1red&#34; target=&#34;_blank&#34;&gt;Give me a follow&lt;/a&gt; and get notified when I go live.&lt;/p&gt;
@@ -94,9 +94,9 @@
 &lt;p&gt;Any more happened last week of June? Hmm. Yeah right, I released an update for RPN Radio app for both Android and iOS adding a call-to-action button to send the stations a message thru Facebook Messenger. This was after watching on Udemy that apps or any products always have a goal-in-mind - the stations should increase inquiries for advertisement or any other public service comments.&lt;/p&gt;
 &lt;p&gt;The app is still available for &lt;strong&gt;FREE&lt;/strong&gt; on Google Play Store, Huawei App Store, and iOS App Store. I created this simple app landing page for the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34; target=&#34;_blank&#34;&gt;links.&lt;/a&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-app-cta.jpg&#34;
-         alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also got to try the new &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/windows-11&#34; target=&#34;_blank&#34;&gt;Windows 11 Insider Preview&lt;/a&gt; on a VM. Tested on my main machine but I can&amp;rsquo;t risk the beta so I rolled back to Windows 10.&lt;/p&gt;
@@ -111,9 +111,9 @@
 &lt;h3 id=&#34;website-updates&#34;&gt;Website Updates&lt;/h3&gt;
 &lt;p&gt;With work, I updated the &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com&#34; target=&#34;_blank&#34;&gt;RPN website&lt;/a&gt; overall layout after migrating to a new hosting provider. And some minor updates to some if not all the online systems.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-website-mobile.png&#34;
-         alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;RPN Radio Website&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;RPN Radio Website&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;rainy-vacay&#34;&gt;Rainy Vacay&lt;/h3&gt;
@@ -121,34 +121,34 @@
 &lt;p&gt;I was so looking forward to at least visit a beach, see a sunset, feel the breeze of fresh air but UNLUCKILY the weather ahead was not well! I did not see the predictions that there will be a coming storm for the week. So the first few days were a bust, and I just stayed inside and chilled out with some beer.&lt;/p&gt;
 &lt;p&gt;The 20th was a holiday, and magically the weather was at least fine for us to go to Binmaley beach - don&amp;rsquo;t worry, there were no crowds so we can be safe, I think? The sun was peeping through the clouds and by the afternoon, a mild rain poured. Together with relatives, we spend some time there swimming, singing, EATING, and drinking booze until it&amp;rsquo;s time to go home.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/binmaley-beach.jpg&#34;
-         alt=&#34;Binmaley Beach&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Binmaley Beach&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Binmaley Beach&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Binmaley Beach&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;My other plans went down the drain as the weather became worse, Dagupan City was flooded (plus high tide) that light vehicles weren&amp;rsquo;t able to pass. Sadly, I can&amp;rsquo;t meet my &lt;del&gt;only&lt;/del&gt; city friends. There&amp;rsquo;s still next time right? Right?&lt;/p&gt;
 &lt;p&gt;I decided to extend my stay but continued checking some online responsibilities just to make sure they are still up even I&amp;rsquo;m not present in the office - though I failed to join our online meetings.&lt;/p&gt;
 &lt;p&gt;We also went to our grandfather&amp;rsquo;s brother to celebrate his 70th birthday. Then we spent some time (and over pizza) with my cousin to talk about tech and stuff.&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;/&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-damage.jpg&#34;
-         alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;Oh, I also got a haircut (question mark).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/haircut.jpg&#34;
-         alt=&#34;Haircut?&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Haircut?&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Haircut?&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Haircut?&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;br&gt;

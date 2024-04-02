@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/google/</link>
         <description>Recent content in Google on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Mon, 15 Mar 2021 22:06:53 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/google/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Flutter Coding</title>
         <link>https://reddavid.me/flutter-coding/</link>
@@ -37,17 +37,17 @@
 &lt;p&gt;Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!&lt;/p&gt;
 &lt;p&gt;Even though &lt;code&gt;flutter doctor&lt;/code&gt; checked everything, I was disappointed that I can&amp;rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&amp;rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/flutter/android-studio-flutter.png&#34;
-         alt=&#34;New Flutter Project&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;New Flutter Project&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;New Flutter Project&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;New Flutter Project&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.&lt;/p&gt;
 &lt;p&gt;Coming from XAML, where everything seems &amp;ldquo;as is&amp;rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/flutter/ui-code.png&#34;
-         alt=&#34;Flutter UI Code&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Flutter UI Code&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Flutter UI Code&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Flutter UI Code&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;hello-world&#34;&gt;Hello, World&lt;/h2&gt;

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Self-development on David Ballesteros</title>
+        <title>Self-Development on David Ballesteros</title>
         <link>https://reddavid.me/tags/self-development/</link>
-        <description>Recent content in Self-development on David Ballesteros</description>
+        <description>Recent content in Self-Development on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Tue, 05 Oct 2021 23:13:11 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/self-development/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Some Updates (Yes, I am Still Alive)</title>
         <link>https://reddavid.me/still-alive/</link>
@@ -41,9 +41,9 @@
 &lt;/ul&gt;
 &lt;p&gt;I recommend reading &lt;strong&gt;&amp;ldquo;Man&amp;rsquo;s Search for Meaning&amp;rdquo;&lt;/strong&gt; at least once in your life. 🙂&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535419394l/4069._SY475_.jpg&#34;
-         alt=&#34;Man&amp;amp;rsquo;s Search for Meaning cover&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Man&amp;rsquo;s Search for Meaning cover&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Man&amp;amp;rsquo;s Search for Meaning cover&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Man&amp;rsquo;s Search for Meaning cover&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;online-courses&#34;&gt;Online Courses&lt;/h2&gt;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Making a console app to automate online radio with AltaCast, VLC, and VB Virtual Audio Cable'>
 <title>Console App to Automate Stream with AltaCast, VLC, VB Virtual Cable - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='Console App to Automate Stream with AltaCast, VLC, VB Virtual Cable'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='Console App to Automate Stream with AltaCast, VLC, VB Virtual Cable'>
 <meta property='og:description' content='Making a console app to automate online radio with AltaCast, VLC, and VB Virtual Audio Cable'>
 <meta property='og:url' content='https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -16,7 +16,7 @@
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Console App to Automate Stream with AltaCast, VLC, VB Virtual Cable">
 <meta name="twitter:description" content="Making a console app to automate online radio with AltaCast, VLC, and VB Virtual Audio Cable"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/images/og/stream.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -360,6 +360,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -609,103 +628,103 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">96
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Diagnostics</span><span class="p">;</span>
-<span class="k">using</span> <span class="nn">System.Threading</span><span class="p">;</span>
-
-<span class="k">public</span> <span class="k">class</span> <span class="nc">Program</span>
-<span class="p">{</span>
-    <span class="k">private</span> <span class="k">static</span> <span class="n">Timer</span><span class="p">?</span> <span class="m">_</span><span class="n">timer</span><span class="p">;</span>
-    <span class="k">private</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">isActive</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
-
-    <span class="k">public</span> <span class="k">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">();</span>
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Welcome to Stream Control!&#34;</span><span class="p">);</span>
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;--------------------------&#34;</span><span class="p">);</span>
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;App Version: 0.1-beta&#34;</span><span class="p">);</span>
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">();</span>
-
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Starting timer...&#34;</span><span class="p">);</span>
-        <span class="c1">// Changed timer tick to 60_000 ms | 60 secs
-</span><span class="c1"></span>        <span class="m">_</span><span class="n">timer</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Timer</span><span class="p">(</span><span class="n">TimerCallback</span><span class="p">,</span> <span class="k">null</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">60_000</span><span class="p">);</span>
-
-        <span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span>
-    <span class="p">}</span>
-
-    <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">TimerCallback</span><span class="p">(</span><span class="n">Object</span> <span class="n">o</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="n">TimeSpan</span> <span class="n">start</span> <span class="p">=</span> <span class="n">TimeSpan</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">&#34;22:10&#34;</span><span class="p">);</span>
-        <span class="n">TimeSpan</span> <span class="n">shift</span> <span class="p">=</span> <span class="n">TimeSpan</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">&#34;23:59&#34;</span><span class="p">);</span>
-        <span class="n">TimeSpan</span> <span class="n">stop</span> <span class="p">=</span> <span class="n">TimeSpan</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">&#34;02:55&#34;</span><span class="p">);</span>
-        <span class="n">TimeSpan</span> <span class="n">now</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Now</span><span class="p">.</span><span class="n">TimeOfDay</span><span class="p">;</span>
-        <span class="n">now</span> <span class="p">=</span> <span class="n">now</span><span class="p">.</span><span class="n">StripSeconds</span><span class="p">();</span>
-
-        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&#34;Now: {now} | Start: {start} | Shift: {shift} | Stop: {stop}&#34;</span><span class="p">);</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="n">now</span> <span class="p">==</span> <span class="n">start</span> <span class="p">&amp;&amp;</span> <span class="p">!</span><span class="n">isActive</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="n">StartLocalStream</span><span class="p">();</span>
-            <span class="n">isActive</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">now</span> <span class="p">==</span> <span class="n">shift</span> <span class="p">&amp;&amp;</span> <span class="n">isActive</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="c1">// Change Media Playback
-</span><span class="c1"></span>            <span class="n">ChangeMediaPlayback</span><span class="p">();</span>
-        <span class="p">}</span>
-        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">now</span> <span class="p">==</span> <span class="n">stop</span> <span class="p">&amp;&amp;</span> <span class="n">isActive</span><span class="p">)</span>
-        <span class="p">{</span>
-            <span class="c1">// Stop apps
-</span><span class="c1"></span>            <span class="n">KillProcesses</span><span class="p">(</span><span class="s">&#34;vlc&#34;</span><span class="p">);</span>
-            <span class="n">KillProcesses</span><span class="p">(</span><span class="s">&#34;altacastStandalone&#34;</span><span class="p">);</span>
-            <span class="n">isActive</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>   
-
-    <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">ChangeMediaPlayback</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="c1">// Get media playing for max 3 hours
-</span><span class="c1"></span>        <span class="c1">// Kill any initial VLC
-</span><span class="c1"></span>        <span class="kt">var</span> <span class="n">vlc</span> <span class="p">=</span> <span class="s">@&#34;C:\Program Files\VideoLAN\VLC\vlc.exe&#34;</span><span class="p">;</span>
-
-        <span class="n">KillProcesses</span><span class="p">(</span><span class="s">&#34;vlc&#34;</span><span class="p">);</span>
-
-        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;C:\Program Files\VideoLan\VLC&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">vlc</span><span class="p">,</span> <span class="n">args</span><span class="p">:</span> <span class="s">&#34;https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8&#34;</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">StartLocalStream</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="kt">var</span> <span class="n">vlc</span> <span class="p">=</span> <span class="s">@&#34;C:\Program Files\VideoLAN\VLC\vlc.exe&#34;</span><span class="p">;</span>
-        <span class="kt">var</span> <span class="n">altaCast1</span> <span class="p">=</span> <span class="s">@&#34;D:\altacast\altacastStandalone.exe&#34;</span><span class="p">;</span>
-        <span class="kt">var</span> <span class="n">altaCast2</span> <span class="p">=</span> <span class="s">@&#34;D:\altacast2\altacastStandalone.exe&#34;</span><span class="p">;</span>
-
-        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;C:\Program Files\VideoLan\VLC&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">vlc</span><span class="p">,</span> <span class="n">args</span><span class="p">:</span> <span class="s">&#34;http://149.56.147.197:9079/stream&#34;</span><span class="p">);</span>
-        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;D:\altacast\&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">altaCast1</span><span class="p">,</span> <span class="n">isShell</span><span class="p">:</span> <span class="k">true</span><span class="p">,</span> <span class="n">verb</span><span class="p">:</span> <span class="s">&#34;runas&#34;</span><span class="p">);</span>
-        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;D:\altacast2\&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">altaCast2</span><span class="p">,</span> <span class="n">isShell</span><span class="p">:</span> <span class="k">true</span><span class="p">,</span> <span class="n">verb</span><span class="p">:</span> <span class="s">&#34;runas&#34;</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="kt">string</span> <span class="n">directory</span><span class="p">,</span> <span class="kt">string</span> <span class="n">fileName</span><span class="p">,</span> <span class="kt">string</span> <span class="n">args</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">isShell</span> <span class="p">=</span> <span class="k">false</span><span class="p">,</span> <span class="kt">string</span> <span class="n">verb</span> <span class="p">=</span> <span class="k">null</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="n">ProcessStartInfo</span> <span class="n">procInfo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ProcessStartInfo</span>
-        <span class="p">{</span>
-            <span class="n">WorkingDirectory</span> <span class="p">=</span> <span class="n">directory</span><span class="p">,</span>
-            <span class="n">FileName</span> <span class="p">=</span> <span class="n">fileName</span><span class="p">,</span>
-            <span class="n">UseShellExecute</span> <span class="p">=</span> <span class="n">isShell</span><span class="p">,</span>
-            <span class="n">Verb</span> <span class="p">=</span> <span class="n">verb</span><span class="p">,</span>
-            <span class="n">Arguments</span> <span class="p">=</span> <span class="n">args</span>
-        <span class="p">};</span>
-        <span class="n">Process</span><span class="p">.</span><span class="n">Start</span><span class="p">(</span><span class="n">procInfo</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">KillProcesses</span><span class="p">(</span><span class="kt">string</span> <span class="n">processName</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">process</span> <span class="k">in</span> <span class="n">Process</span><span class="p">.</span><span class="n">GetProcessesByName</span><span class="p">(</span><span class="n">processName</span><span class="p">))</span>
-        <span class="p">{</span>
-            <span class="n">process</span><span class="p">.</span><span class="n">Kill</span><span class="p">();</span>
-        <span class="p">}</span>
-    <span class="p">}</span>  
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Diagnostics</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Threading</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">Program</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="n">Timer</span><span class="p">?</span> <span class="n">_timer</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">bool</span> <span class="n">isActive</span> <span class="p">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Welcome to Stream Control!&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;--------------------------&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;App Version: 0.1-beta&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Starting timer...&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Changed timer tick to 60_000 ms | 60 secs</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_timer</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Timer</span><span class="p">(</span><span class="n">TimerCallback</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">60_000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">ReadLine</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">TimerCallback</span><span class="p">(</span><span class="n">Object</span> <span class="n">o</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">TimeSpan</span> <span class="n">start</span> <span class="p">=</span> <span class="n">TimeSpan</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">&#34;22:10&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">TimeSpan</span> <span class="n">shift</span> <span class="p">=</span> <span class="n">TimeSpan</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">&#34;23:59&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">TimeSpan</span> <span class="n">stop</span> <span class="p">=</span> <span class="n">TimeSpan</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">&#34;02:55&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">TimeSpan</span> <span class="n">now</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Now</span><span class="p">.</span><span class="n">TimeOfDay</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">now</span> <span class="p">=</span> <span class="n">now</span><span class="p">.</span><span class="n">StripSeconds</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">$&#34;Now: {now} | Start: {start} | Shift: {shift} | Stop: {stop}&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">now</span> <span class="p">==</span> <span class="n">start</span> <span class="p">&amp;&amp;</span> <span class="p">!</span><span class="n">isActive</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">StartLocalStream</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">            <span class="n">isActive</span> <span class="p">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">now</span> <span class="p">==</span> <span class="n">shift</span> <span class="p">&amp;&amp;</span> <span class="n">isActive</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Change Media Playback</span>
+</span></span><span class="line"><span class="cl">            <span class="n">ChangeMediaPlayback</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">now</span> <span class="p">==</span> <span class="n">stop</span> <span class="p">&amp;&amp;</span> <span class="n">isActive</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Stop apps</span>
+</span></span><span class="line"><span class="cl">            <span class="n">KillProcesses</span><span class="p">(</span><span class="s">&#34;vlc&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">KillProcesses</span><span class="p">(</span><span class="s">&#34;altacastStandalone&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="n">isActive</span> <span class="p">=</span> <span class="kc">false</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>   
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">ChangeMediaPlayback</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Get media playing for max 3 hours</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Kill any initial VLC</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">vlc</span> <span class="p">=</span> <span class="s">@&#34;C:\Program Files\VideoLAN\VLC\vlc.exe&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">KillProcesses</span><span class="p">(</span><span class="s">&#34;vlc&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;C:\Program Files\VideoLan\VLC&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">vlc</span><span class="p">,</span> <span class="n">args</span><span class="p">:</span> <span class="s">&#34;https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">StartLocalStream</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">vlc</span> <span class="p">=</span> <span class="s">@&#34;C:\Program Files\VideoLAN\VLC\vlc.exe&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">altaCast1</span> <span class="p">=</span> <span class="s">@&#34;D:\altacast\altacastStandalone.exe&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">altaCast2</span> <span class="p">=</span> <span class="s">@&#34;D:\altacast2\altacastStandalone.exe&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;C:\Program Files\VideoLan\VLC&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">vlc</span><span class="p">,</span> <span class="n">args</span><span class="p">:</span> <span class="s">&#34;http://149.56.147.197:9079/stream&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;D:\altacast\&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">altaCast1</span><span class="p">,</span> <span class="n">isShell</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="n">verb</span><span class="p">:</span> <span class="s">&#34;runas&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="s">@&#34;D:\altacast2\&#34;</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="n">altaCast2</span><span class="p">,</span> <span class="n">isShell</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="n">verb</span><span class="p">:</span> <span class="s">&#34;runas&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">CreateAndRunProcess</span><span class="p">(</span><span class="kt">string</span> <span class="n">directory</span><span class="p">,</span> <span class="kt">string</span> <span class="n">fileName</span><span class="p">,</span> <span class="kt">string</span> <span class="n">args</span> <span class="p">=</span> <span class="kc">null</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">isShell</span> <span class="p">=</span> <span class="kc">false</span><span class="p">,</span> <span class="kt">string</span> <span class="n">verb</span> <span class="p">=</span> <span class="kc">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ProcessStartInfo</span> <span class="n">procInfo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ProcessStartInfo</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">WorkingDirectory</span> <span class="p">=</span> <span class="n">directory</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">FileName</span> <span class="p">=</span> <span class="n">fileName</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">UseShellExecute</span> <span class="p">=</span> <span class="n">isShell</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Verb</span> <span class="p">=</span> <span class="n">verb</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Arguments</span> <span class="p">=</span> <span class="n">args</span>
+</span></span><span class="line"><span class="cl">        <span class="p">};</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Process</span><span class="p">.</span><span class="n">Start</span><span class="p">(</span><span class="n">procInfo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">KillProcesses</span><span class="p">(</span><span class="kt">string</span> <span class="n">processName</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">process</span> <span class="k">in</span> <span class="n">Process</span><span class="p">.</span><span class="n">GetProcessesByName</span><span class="p">(</span><span class="n">processName</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">process</span><span class="p">.</span><span class="n">Kill</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>  
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p> </p>
 <div class="highlight"><div class="chroma">
@@ -720,15 +739,15 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="c1">// https://stackoverflow.com/a/35750677
-</span><span class="c1"></span><span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">TimeExtensions</span>
-<span class="p">{</span>
-    <span class="k">public</span> <span class="k">static</span> <span class="n">TimeSpan</span> <span class="n">StripMilliseconds</span><span class="p">(</span><span class="k">this</span> <span class="n">TimeSpan</span> <span class="n">time</span><span class="p">)</span>
-    <span class="p">{</span>
-        <span class="k">return</span> <span class="k">new</span> <span class="n">TimeSpan</span><span class="p">(</span><span class="n">time</span><span class="p">.</span><span class="n">Days</span><span class="p">,</span> <span class="n">time</span><span class="p">.</span><span class="n">Hours</span><span class="p">,</span> <span class="n">time</span><span class="p">.</span><span class="n">Minutes</span><span class="p">,</span> <span class="n">time</span><span class="p">.</span><span class="n">Seconds</span><span class="p">);</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="c1">// https://stackoverflow.com/a/35750677</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="k">class</span> <span class="nc">TimeExtensions</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">TimeSpan</span> <span class="n">StripMilliseconds</span><span class="p">(</span><span class="k">this</span> <span class="n">TimeSpan</span> <span class="n">time</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="k">new</span> <span class="n">TimeSpan</span><span class="p">(</span><span class="n">time</span><span class="p">.</span><span class="n">Days</span><span class="p">,</span> <span class="n">time</span><span class="p">.</span><span class="n">Hours</span><span class="p">,</span> <span class="n">time</span><span class="p">.</span><span class="n">Minutes</span><span class="p">,</span> <span class="n">time</span><span class="p">.</span><span class="n">Seconds</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><img src="/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/console-app-running.png" width="1115"  height="628"  srcset="/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/console-app-running_hu242b79a6af1bcbc0e6fe53ba976b17f8_86881_480x0_resize_box_3.png 480w, /console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/console-app-running_hu242b79a6af1bcbc0e6fe53ba976b17f8_86881_1024x0_resize_box_3.png 1024w"  loading="lazy"  alt="Console App"   class="gallery-image" data-flex-grow="177"
 	data-flex-basis="426px" ></p>
@@ -865,21 +884,21 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <hr>
 <section class="article-tags">
     
-    <a href="/tags/c#/">C#</a>
+    <a href="/tags/c">C#</a>
     
     <a href="/tags/csharp/">CSharp</a>
     
-    <a href="/tags/software-development/">Software development</a>
+    <a href="/tags/software-development/">Software Development</a>
     
     <a href="/tags/.-net/">. NET</a>
     
-    <a href="/tags/dotnet/">dotNet</a>
+    <a href="/tags/dotnet/">DotNet</a>
     
-    <a href="/tags/console-app/">Console app</a>
+    <a href="/tags/console-app/">Console App</a>
     
     <a href="/tags/altacast/">AltaCast</a>
     
-    <a href="/tags/online-radio/">online radio</a>
+    <a href="/tags/online-radio/">Online Radio</a>
     
     <a href="/tags/vlc/">VLC</a>
     

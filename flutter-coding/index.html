@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Learning Flutter and Dart for cross-platform mobile apps'>
 <title>Flutter Coding - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/flutter-coding/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='Flutter Coding'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='Flutter Coding'>
 <meta property='og:description' content='Learning Flutter and Dart for cross-platform mobile apps'>
 <meta property='og:url' content='https://reddavid.me/flutter-coding/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -16,7 +16,7 @@
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Flutter Coding">
 <meta name="twitter:description" content="Learning Flutter and Dart for cross-platform mobile apps"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/images/og/flutter-coding.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -360,6 +360,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -494,17 +513,17 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <p>Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!</p>
 <p>Even though <code>flutter doctor</code> checked everything, I was disappointed that I can&rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.</p>
 <figure><img src="/images/03-21/flutter/android-studio-flutter.png"
-         alt="New Flutter Project" width="80%"/><figcaption>
-            <p>New Flutter Project</p>
-        </figcaption>
+    alt="New Flutter Project" width="80%"><figcaption>
+      <p>New Flutter Project</p>
+    </figcaption>
 </figure>
 
 <p>Since, the app I am planning to rebuild in Flutter is single-paged, it is a good starting-point to play around the Flutter widgets.</p>
 <p>Coming from XAML, where everything seems &ldquo;as is&rdquo;, I am so uncomfortable about coding UI using script-like codes. But having started SwiftUI for a few weeks, I pretty much can stand it. 😅</p>
 <figure><img src="/images/03-21/flutter/ui-code.png"
-         alt="Flutter UI Code" width="80%"/><figcaption>
-            <p>Flutter UI Code</p>
-        </figcaption>
+    alt="Flutter UI Code" width="80%"><figcaption>
+      <p>Flutter UI Code</p>
+    </figcaption>
 </figure>
 
 <h2 id="hello-world">Hello, World</h2>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Version 2.0 coming soon'>
 <title>Updating RPN Radio Mobile App - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/updating-rpnradio-mobile-app/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='Updating RPN Radio Mobile App'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='Updating RPN Radio Mobile App'>
 <meta property='og:description' content='Version 2.0 coming soon'>
 <meta property='og:url' content='https://reddavid.me/updating-rpnradio-mobile-app/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -16,7 +16,7 @@
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Updating RPN Radio Mobile App">
 <meta name="twitter:description" content="Version 2.0 coming soon"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-og.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -360,6 +360,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -493,16 +512,16 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <p>Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.</p>
 <h2 id="new-code">New Code</h2>
 <p>My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a <code>model</code> folder, services to <code>services</code> folder, etc.
-<figure><img src="img/refactoring-files.png"
-         alt="Refactoring files to folders"/><figcaption>
-            <p>Refactoring files to folders</p>
-        </figcaption>
+<figure><img src="/updating-rpnradio-mobile-app/img/refactoring-files.png"
+    alt="Refactoring files to folders"><figcaption>
+      <p>Refactoring files to folders</p>
+    </figcaption>
 </figure>
 </p>
 <p>Upgrading packages with at least 3 versions above since the app&rsquo;s last update brought so much changes. Honestly I followed this open source project <strong>(<a class="link" href="https://github.com/suragch/flutter_audio_service_demo"  target="_blank" rel="noopener"
     >Flutter Audio Service Demo</a>)</strong> from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.</p>
 <h3 id="futures">Futures</h3>
-<p>I also updated the app with a new feature to fetch sponsors' ad placement images from a URL then view them when they are actually <em>present</em> in the contract - I used <a class="link" href="https://www.json.org/json-en.html"  target="_blank" rel="noopener"
+<p>I also updated the app with a new feature to fetch sponsors&rsquo; ad placement images from a URL then view them when they are actually <em>present</em> in the contract - I used <a class="link" href="https://www.json.org/json-en.html"  target="_blank" rel="noopener"
     >JSON</a> to fetch the data. I faced a problem decoding it when I faced this unfamiliar type <code>Map&lt;String, dynamic&gt;</code> coming from a C# perspective.</p>
 <p>I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables <code>null</code> when they are still being done, making some unwanted behaviors.</p>
 <p>Then I finally used a <strong><em>Future Builder,</em></strong> it basically waits my tasks to finish fetching data before showing the main UI preventing further actions that require the variables.</p>
@@ -521,18 +540,18 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="k">return</span> <span class="n">FutureBuilder</span><span class="p">(</span>
-  <span class="nl">future:</span> <span class="n">Future</span><span class="p">.</span><span class="n">wait</span><span class="p">([</span><span class="n">isLiveList</span><span class="p">(),</span> <span class="n">getImages</span><span class="p">()]),</span>
-  <span class="nl">builder:</span> <span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">AsyncSnapshot</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="kt">dynamic</span><span class="o">&gt;&gt;</span> <span class="n">snapshot</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">if</span> <span class="p">(</span><span class="n">snapshot</span><span class="p">.</span><span class="n">hasData</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">final</span> <span class="n">liveList</span> <span class="o">=</span> <span class="n">snapshot</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
-    <span class="kd">final</span> <span class="n">adsList</span> <span class="o">=</span> <span class="n">snapshot</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="m">1</span><span class="p">];</span>
-    <span class="k">return</span> <span class="n">MainUI</span><span class="p">();</span> <span class="c1">// Omitted for brevity
-</span><span class="c1"></span>  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="n">loadingScreen</span><span class="p">();</span> <span class="c1">// Omitted for brevity
-</span><span class="c1"></span>  <span class="p">}</span>
-<span class="p">});</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="k">return</span> <span class="n">FutureBuilder</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="nl">future:</span> <span class="n">Future</span><span class="p">.</span><span class="n">wait</span><span class="p">([</span><span class="n">isLiveList</span><span class="p">(),</span> <span class="n">getImages</span><span class="p">()]),</span>
+</span></span><span class="line"><span class="cl">  <span class="nl">builder:</span> <span class="p">(</span><span class="n">context</span><span class="p">,</span> <span class="n">AsyncSnapshot</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="kt">dynamic</span><span class="o">&gt;&gt;</span> <span class="n">snapshot</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">snapshot</span><span class="p">.</span><span class="n">hasData</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">final</span> <span class="n">liveList</span> <span class="o">=</span> <span class="n">snapshot</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">final</span> <span class="n">adsList</span> <span class="o">=</span> <span class="n">snapshot</span><span class="p">.</span><span class="n">data</span><span class="p">[</span><span class="m">1</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">MainUI</span><span class="p">();</span> <span class="c1">// Omitted for brevity
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">loadingScreen</span><span class="p">();</span> <span class="c1">// Omitted for brevity
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="expansionlist-and-swiper">ExpansionList and Swiper</h3>
 <p>Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&rsquo;s on the database - now it&rsquo;s based off a .json file.</p>
@@ -550,22 +569,22 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="n">Future</span><span class="o">&lt;</span><span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">dynamic</span><span class="o">&gt;&gt;</span> <span class="n">getImages</span><span class="p">()</span> <span class="kd">async</span> <span class="p">{</span>
-  <span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">dynamic</span><span class="o">&gt;</span> <span class="n">values</span><span class="p">;</span>
-  <span class="kd">final</span> <span class="n">response</span> <span class="o">=</span> <span class="kd">await</span> <span class="n">http</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="n">Uri</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&#34;https://...ads.json&#34;</span><span class="p">));</span>
-  <span class="k">if</span> <span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">statusCode</span> <span class="o">==</span> <span class="m">200</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">// If the call to the server was successful, parse the JSON
-</span><span class="c1"></span>    <span class="n">values</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="n">decode</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">body</span><span class="p">);</span>
-    <span class="k">return</span> <span class="n">values</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="n">Future</span><span class="o">&lt;</span><span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">dynamic</span><span class="o">&gt;&gt;</span> <span class="n">getImages</span><span class="p">()</span> <span class="kd">async</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Map</span><span class="o">&lt;</span><span class="kt">String</span><span class="p">,</span> <span class="kt">dynamic</span><span class="o">&gt;</span> <span class="n">values</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">final</span> <span class="n">response</span> <span class="o">=</span> <span class="kd">await</span> <span class="n">http</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="n">Uri</span><span class="p">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&#34;https://...ads.json&#34;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">statusCode</span> <span class="o">==</span> <span class="m">200</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// If the call to the server was successful, parse the JSON
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">values</span> <span class="o">=</span> <span class="n">json</span><span class="p">.</span><span class="n">decode</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">body</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">values</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Before adding the view though, I thought heavily on where to put it avoiding the user to a second page. Somehow this is what I went for:</p>
-<figure><img src="img/sponsors-control.png"
-         alt="Sponsors View using ExpansionTile and Swiper" width="40%"/><figcaption>
-            <p>Sponsors View using ExpansionTile and Swiper</p>
-        </figcaption>
+<figure><img src="/updating-rpnradio-mobile-app/img/sponsors-control.png"
+    alt="Sponsors View using ExpansionTile and Swiper" width="40%"><figcaption>
+      <p>Sponsors View using ExpansionTile and Swiper</p>
+    </figcaption>
 </figure>
 
 <p>Sponsors View using ExpansionTile and Swiper</p>
@@ -607,39 +626,39 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">32
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="n">ExpansionTile</span><span class="p">(</span>
-  <span class="nl">title:</span> <span class="n">Text</span><span class="p">(</span>
-    <span class="s1">&#39;Sponsors&#39;</span><span class="p">,</span>
-  <span class="p">),</span>
-  <span class="nl">textColor:</span> <span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span>
-  <span class="nl">collapsedTextColor:</span>
-    <span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span>
-  <span class="nl">iconColor:</span> <span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span>
-  <span class="nl">children:</span> <span class="p">[</span>
-    <span class="n">Padding</span><span class="p">(</span>
-      <span class="nl">padding:</span>
-        <span class="n">EdgeInsets</span><span class="p">.</span><span class="n">only</span><span class="p">(</span><span class="nl">bottom:</span> <span class="m">20.0</span><span class="p">),</span>
-          <span class="nl">child:</span>
-            <span class="n">ConstrainedBox</span><span class="p">(</span>
-                <span class="nl">constraints:</span> <span class="k">new</span> <span class="n">BoxConstraints</span><span class="p">.</span><span class="n">loose</span><span class="p">(</span>
-                   <span class="k">new</span> <span class="n">Size</span><span class="p">(</span><span class="n">MediaQuery</span><span class="p">.</span><span class="n">of</span><span class="p">(</span><span class="n">context</span><span class="p">).</span><span class="n">size</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="m">280.0</span><span class="p">)),</span>
-                <span class="nl">child:</span>
-                <span class="k">new</span> <span class="n">Swiper</span><span class="p">(</span>
-                  <span class="nl">autoplay:</span> <span class="kc">true</span><span class="p">,</span>
-                  <span class="nl">autoplayDelay:</span> <span class="m">10000</span><span class="p">,</span>
-                  <span class="nl">itemBuilder:</span> <span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">,</span> <span class="kt">int</span> <span class="n">index</span><span class="p">)</span> <span class="p">{</span>
-                    <span class="k">return</span> <span class="n">CachedNetworkImage</span><span class="p">(</span>
-                      <span class="nl">imageUrl:</span> <span class="n">imageUrl</span><span class="p">,</span>
-                      <span class="nl">fit:</span> <span class="n">BoxFit</span><span class="p">.</span><span class="n">fitHeight</span><span class="p">,</span>
-                      <span class="nl">width:</span> <span class="n">MediaQuery</span><span class="p">.</span><span class="n">of</span><span class="p">(</span><span class="n">context</span><span class="p">).</span><span class="n">size</span><span class="p">.</span><span class="n">width</span> <span class="o">*</span> <span class="m">0.60</span><span class="p">,</span>
-                    <span class="p">);</span>
-                  <span class="p">},</span>
-                  <span class="nl">itemCount:</span> <span class="n">adsList</span><span class="p">[</span><span class="n">stationNames</span><span class="p">[</span><span class="n">_nowPlayingIndex</span><span class="p">]].</span><span class="n">length</span><span class="p">,</span>
-                  <span class="nl">pagination:</span> <span class="k">new</span> <span class="n">SwiperPagination</span><span class="p">(),</span>
-    <span class="p">))),</span>
-  <span class="p">],</span>
-<span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="n">ExpansionTile</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="nl">title:</span> <span class="n">Text</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;Sponsors&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">),</span>
+</span></span><span class="line"><span class="cl">  <span class="nl">textColor:</span> <span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nl">collapsedTextColor:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nl">iconColor:</span> <span class="n">Colors</span><span class="p">.</span><span class="n">white</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nl">children:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Padding</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="nl">padding:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">EdgeInsets</span><span class="p">.</span><span class="n">only</span><span class="p">(</span><span class="nl">bottom:</span> <span class="m">20.0</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">          <span class="nl">child:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">ConstrainedBox</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="nl">constraints:</span> <span class="k">new</span> <span class="n">BoxConstraints</span><span class="p">.</span><span class="n">loose</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                   <span class="k">new</span> <span class="n">Size</span><span class="p">(</span><span class="n">MediaQuery</span><span class="p">.</span><span class="n">of</span><span class="p">(</span><span class="n">context</span><span class="p">).</span><span class="n">size</span><span class="p">.</span><span class="n">width</span><span class="p">,</span> <span class="m">280.0</span><span class="p">)),</span>
+</span></span><span class="line"><span class="cl">                <span class="nl">child:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">new</span> <span class="n">Swiper</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                  <span class="nl">autoplay:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                  <span class="nl">autoplayDelay:</span> <span class="m">10000</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                  <span class="nl">itemBuilder:</span> <span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">,</span> <span class="kt">int</span> <span class="n">index</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">return</span> <span class="n">CachedNetworkImage</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                      <span class="nl">imageUrl:</span> <span class="n">imageUrl</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                      <span class="nl">fit:</span> <span class="n">BoxFit</span><span class="p">.</span><span class="n">fitHeight</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                      <span class="nl">width:</span> <span class="n">MediaQuery</span><span class="p">.</span><span class="n">of</span><span class="p">(</span><span class="n">context</span><span class="p">).</span><span class="n">size</span><span class="p">.</span><span class="n">width</span> <span class="o">*</span> <span class="m">0.60</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">                  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">                  <span class="nl">itemCount:</span> <span class="n">adsList</span><span class="p">[</span><span class="n">stationNames</span><span class="p">[</span><span class="n">_nowPlayingIndex</span><span class="p">]].</span><span class="n">length</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                  <span class="nl">pagination:</span> <span class="k">new</span> <span class="n">SwiperPagination</span><span class="p">(),</span>
+</span></span><span class="line"><span class="cl">    <span class="p">))),</span>
+</span></span><span class="line"><span class="cl">  <span class="p">],</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="to-do">To-Do</h2>
 <p>It&rsquo;s hard work but I would look to further clean and optimize the code.</p>
@@ -776,7 +795,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <a href="/tags/android/">Android</a>
     
-    <a href="/tags/ios/">iOS</a>
+    <a href="/tags/ios/">IOS</a>
     
     <a href="/tags/vs-code/">VS Code</a>
     

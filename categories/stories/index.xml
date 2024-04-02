@@ -5,8 +5,41 @@
         <link>https://reddavid.me/categories/stories/</link>
         <description>Recent content in Stories on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sat, 16 Mar 2024 04:41:29 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/stories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Tue, 02 Apr 2024 14:10:27 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/stories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My Firsts While Reviewing for the A&#43; Core 1 Certification</title>
+        <link>https://reddavid.me/my-firsts-while-reviewing-for-the-a-core-1-certification/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/my-firsts-while-reviewing-for-the-a-core-1-certification/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/studying-a&#43;-core1.png" alt="Featured image of post My Firsts While Reviewing for the A&#43; Core 1 Certification" /&gt;&lt;p&gt;(This post will get updated from time to time adding new learning.)&lt;/p&gt;
+&lt;p&gt;Welp, in a decade of handling computers - hardware and software, I never really took any professional certifications of proving my tech skills. And this year hopefully, I can get into at least one.&lt;/p&gt;
+&lt;p&gt;First, I was never really surrounded by tech people, personally or in the workplace, so the &lt;em&gt;pressure&lt;/em&gt; or &lt;em&gt;need&lt;/em&gt; to have one never really occurred to me despite knowing their existence and importance.&lt;/p&gt;
+&lt;p&gt;Second, I already had an Engineer license and felt that’s enough.&lt;/p&gt;
+&lt;p&gt;Lastly, I can’t afford the exams. 🫣&lt;/p&gt;
+&lt;p&gt;This blog post will contain any &lt;em&gt;new&lt;/em&gt; learning and other things I am yet to put my hands on (for a quick glance to help remembering).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There’s actually &lt;em&gt;numbered&lt;/em&gt; steps in IT troubleshooting.
+&lt;ul&gt;
+&lt;li&gt;I am pretty much comfortable in troubleshooting and basically do the steps unknowingly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bit/Bytes measurement follows the International System (SI). 1Kbps = 1,000 bps.&lt;/li&gt;
+&lt;li&gt;A half byte is a nibble.&lt;/li&gt;
+&lt;li&gt;Understood Multi-channel Memory.&lt;/li&gt;
+&lt;li&gt;Newer motherboards still call it BIOS despite being UEFI.&lt;/li&gt;
+&lt;li&gt;RAID disks (never got to practice this).&lt;/li&gt;
+&lt;li&gt;Containerization.&lt;/li&gt;
+&lt;li&gt;Further Cloud Computing.&lt;/li&gt;
+&lt;li&gt;There’s a word APIPA.&lt;/li&gt;
+&lt;li&gt;VLAN-ing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;📸: Photo by &lt;a href=&#34;https://unsplash.com/@jeshoots?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;JESHOOTS.COM&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/an-open-empty-notebook-on-a-white-desk-next-to-an-iphone-and-a-macbook-pUAM5hPaCRI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>9 and Over</title>
         <link>https://reddavid.me/9-and-over/</link>
         <pubDate>Sat, 16 Mar 2024 04:41:29 +0800</pubDate>
@@ -63,25 +96,25 @@ Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_c
     &gt;hardware virtualization&lt;/a&gt; like Virtual Machines, Android emulators, etc.&lt;/p&gt;
 &lt;h2 id=&#34;good-rest&#34;&gt;Good Rest&lt;/h2&gt;
 &lt;p&gt;I and the wife also took some time off work to unwind somewhere south. We went to a private resort and go for night swim, eat good food, and relaxed a bit with a super mediocre massage (which is, OMG, I wish to erase this memory on just being a crappy service 😂).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;fish-and-veggies-laong-laan.png&#34;
-         alt=&#34;Dinner at Laong Laan Restaurant&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Dinner at Laong Laan Restaurant&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/fish-and-veggies-laong-laan.png&#34;
+    alt=&#34;Dinner at Laong Laan Restaurant&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Dinner at Laong Laan Restaurant&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Fast forward a month, we visited Batangas for a day to celebrate Barangay &lt;em&gt;fiesta&lt;/em&gt; with the family, which means cheat day (in food, of course). We got to watch a very late night but fun Gay pageant. (Sorry, I can&amp;rsquo;t upload some pictures or videos because &amp;ldquo;lewd&amp;rdquo; 😂)&lt;/p&gt;
 &lt;p&gt;And just days later, I got to visit Intramuros, finally, together with the wife, my sister, and my mother. I always wanted to visit the place and never got to do it for a very long time. We got to see the “Walled City”, go inside Manila Cathedral, and visit Fort Santiago.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;inside-fort-santiago.png&#34;
-         alt=&#34;Inside Fort Santiago, Manila&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Inside Fort Santiago, Manila&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/inside-fort-santiago.png&#34;
+    alt=&#34;Inside Fort Santiago, Manila&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Inside Fort Santiago, Manila&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;After walking around Intramuros, we went ahead to Luneta Park to chill back until sunset.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;neth-in-rizal-park.png&#34;
-         alt=&#34;Me wife in Rizal Park&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Me wife in Rizal Park&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/neth-in-rizal-park.png&#34;
+    alt=&#34;Me wife in Rizal Park&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Me wife in Rizal Park&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;keep-learning&#34;&gt;Keep Learning&lt;/h2&gt;
@@ -90,10 +123,10 @@ Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_c
     &gt;OBS Masterclass&lt;/a&gt; which might help me learn more about the capabilities of &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OBS Studio&lt;/a&gt;, in streaming and recording, and other video stuff. I haven’t finished it all yet since I found it hard to track the course in &lt;a class=&#34;link&#34; href=&#34;https://gumroad.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Gumroad&lt;/a&gt; so I coded a simple website that has a jumplist to the chapters.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;custom-website.png&#34;
-         alt=&#34;Custom website for EposVox masterclass videos&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Custom website for EposVox masterclass videos&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/custom-website.png&#34;
+    alt=&#34;Custom website for EposVox masterclass videos&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Custom website for EposVox masterclass videos&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also completed courses in &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -114,16 +147,16 @@ Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_c
     &gt;ModernWPF&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://wpfui.lepo.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;WPF-UI&lt;/a&gt;. The latter lacks most controls but overshadowed by the use of the Mica effect for my WPF apps but I got the most out of it. Hopefully the package gets updated with more controls.&lt;/p&gt;
 &lt;p&gt;Here’s a GIF of the changes the apps went:&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;digiman-update.gif&#34;
-         alt=&#34;Digital Manager UI changes&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Digital Manager UI changes&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/digiman-update.gif&#34;
+    alt=&#34;Digital Manager UI changes&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Digital Manager UI changes&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;id-maker-update.gif&#34;
-         alt=&#34;ID Maker UI changes&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;ID Maker UI changes&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/id-maker-update.gif&#34;
+    alt=&#34;ID Maker UI changes&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;ID Maker UI changes&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;I also updated both to .NET Core.&lt;/p&gt;
@@ -144,16 +177,16 @@ Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_c
 &lt;p&gt;(But thankfully, I am not getting any bug checks or BSODs)&lt;/p&gt;
 &lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
 &lt;p&gt;I checked Windows Event Viewer for any logs and there it is!&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;nvlddmkm-error-event.png&#34;
-         alt=&#34;nvlddmkm Error in Windows Event Viewer&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;nvlddmkm Error in Windows Event Viewer&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/nvlddmkm-error-event.png&#34;
+    alt=&#34;nvlddmkm Error in Windows Event Viewer&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;nvlddmkm Error in Windows Event Viewer&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;event-error-details.png&#34;
-         alt=&#34;Error Details&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Error Details&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/event-error-details.png&#34;
+    alt=&#34;Error Details&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Error Details&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -183,30 +216,30 @@ Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_c
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
-		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
-	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
-	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
-  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Event&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.microsoft.com/win/2004/08/events/event&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;System&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Provider&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Name=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;nvlddmkm&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventID&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Qualifiers=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventID&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Version&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Version&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Level&amp;gt;&lt;/span&gt;2&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Level&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Task&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Task&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Opcode&amp;gt;&lt;/span&gt;0&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Opcode&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Keywords&amp;gt;&lt;/span&gt;0x80000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Keywords&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;TimeCreated&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;SystemTime=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;2023-02-09T15:15:31.3464479Z&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;EventRecordID&amp;gt;&lt;/span&gt;138086&lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventRecordID&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Correlation&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Execution&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ProcessID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;ThreadID=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;4588&amp;#34;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Channel&amp;gt;&lt;/span&gt;System&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Channel&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Computer&amp;gt;&lt;/span&gt;David-PC&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Computer&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Security&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/System&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nt&#34;&gt;&amp;lt;EventData&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;\Device\Video3&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Data&amp;gt;&lt;/span&gt;Error occurred on GPUID: 2b00&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Data&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	  &lt;span class=&#34;nt&#34;&gt;&amp;lt;Binary&amp;gt;&lt;/span&gt;00000000020030000000000000000000000000000000000000000000000000000000000000000000&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Binary&amp;gt;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;/EventData&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;solutions-from-the-web&#34;&gt;Solutions from the Web&lt;/h2&gt;
 &lt;p&gt;There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.&lt;/p&gt;
@@ -237,10 +270,10 @@ Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_c
 &lt;p&gt;I finished through the game at 112% in the coming weeks (or months? thanks Godhome!).&lt;/p&gt;
 &lt;p&gt;I also resumed coding - &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/updating-rpnradio-mobile-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;updating some apps&lt;/a&gt; and personal projects here and there.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;github-contributions-graph.png&#34;
-         alt=&#34;GitHub contributions graph&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;GitHub contributions graph&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/a-look-back-on-2022/github-contributions-graph.png&#34;
+    alt=&#34;GitHub contributions graph&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;GitHub contributions graph&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also got myself an &lt;a class=&#34;link&#34; href=&#34;https://www.elgato.com/en/stream-deck-mk2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -295,9 +328,9 @@ Featured Image: Photo by &lt;a href=&#34;https://unsplash.com/@wilstewart3?utm_c
 &lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
 &lt;p&gt;And the app needed a UI/UX refresh - well at least for the player part.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/12-22/rpnradio.png&#34;
-         alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;RPN Radio App UI before and after (Note: After image was taken when stations were offline)&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;RPN Radio App UI before and after (Note: After image was taken when stations were offline)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The app is now available to download for free on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -551,10 +584,10 @@ div#poem {
 &lt;p&gt;And just like going to the park, there were also traffic jams traveling to the mall.&lt;/p&gt;
 &lt;p&gt;Despite expecting a lot of people, the mall was huge enough to contain them, except for restaurants at that time that most are full.&lt;/p&gt;
 &lt;p&gt;After some time having to get dinner, we decided to go to the mall park to check and might try some rides. And that&amp;rsquo;s where we found that it&amp;rsquo;s also packed and they won&amp;rsquo;t let us enter anymore. Sadge, we went home and ended the day.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/moa-eye.png&#34;
-         alt=&#34;MOA Eye Crowd on December 25th&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;MOA Eye Crowd on December 25th&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/moa-eye.png&#34;
+    alt=&#34;MOA Eye Crowd on December 25th&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;MOA Eye Crowd on December 25th&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;before-the-year-ended&#34;&gt;Before the Year Ended&lt;/h3&gt;
@@ -563,25 +596,25 @@ div#poem {
 &lt;p&gt;I always try to go home days early to spend time with friends making the last few days actually spent time with the family.&lt;/p&gt;
 &lt;p&gt;Sadly again, we failed to meet up. And just like before, there&amp;rsquo;ll be a next time. Right?&lt;/p&gt;
 &lt;p&gt;On the 30th, the family went to Tondaligan Beach early in the morning as it would get really hot even at 9 in the morning.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/tondaligan-beach.png&#34;
-         alt=&#34;Tondaligan Beach&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;I 💗 Tondaligan Beach&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/tondaligan-beach.png&#34;
+    alt=&#34;Tondaligan Beach&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;I 💗 Tondaligan Beach&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;new-year-eve&#34;&gt;New Year Eve&lt;/h3&gt;
 &lt;p&gt;I don&amp;rsquo;t remember if I helped out in food preparations 😂.&lt;/p&gt;
 &lt;p&gt;The New Year&amp;rsquo;s Eve always start early by drinking liquor, listening to loud music, karaoke, etc.&lt;/p&gt;
 &lt;p&gt;There were lots of fireworks compared to last year and people looked a lot more hopeful for the coming year.
-&lt;figure&gt;&lt;img src=&#34;img/new-years-eve-food.png&#34;
-         alt=&#34;Food for New Year&amp;#39;s Eve&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Food for New Year&amp;rsquo;s Eve&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/new-years-eve-food.png&#34;
+    alt=&#34;Food for New Year&amp;#39;s Eve&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Food for New Year&amp;rsquo;s Eve&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;year-2021-part-2&#34;&gt;Year 2021 Part 2&lt;/h2&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://media.giphy.com/media/RirZ9781gEyu9sCHKy/giphy.gif&#34;
-         alt=&#34;Same shit, different year gif&#34; width=&#34;40%&#34;/&gt;
+    alt=&#34;Same shit, different year gif&#34; width=&#34;40%&#34;&gt;
 &lt;/figure&gt;
 
 Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in the first week included shortage of acetaminophen (paracetamol) in most drugstores, at least in the NCR.&lt;/p&gt;
@@ -598,18 +631,18 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;My appetite never changed drastically during the 3-4 days of being sick. I ate well and drank a lot of water, continued taking meds for mild head and body aches, vitamins for my immune system, and basic exercises whenever I can.&lt;/p&gt;
 &lt;p&gt;I am deeply grateful for her family that I am still alive right now. And I spent the rest of January in isolation playing Hollow Knight - which is an awesome game - and read a few books and watched online courses.&lt;/p&gt;
 &lt;h3 id=&#34;hollow-knight&#34;&gt;Hollow Knight&lt;/h3&gt;
-&lt;figure&gt;&lt;img src=&#34;img/transport-stag.gif&#34;
-         alt=&#34;Transport Stag in Hollow Knight GIF&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Transport Stag in Hollow Knight&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/transport-stag.gif&#34;
+    alt=&#34;Transport Stag in Hollow Knight GIF&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Transport Stag in Hollow Knight&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;This game is a metroidvania platformer which I actually played way before but gave up due to not having a proper gamepad controller - since the keyboard controls sucked for me.&lt;/p&gt;
 &lt;p&gt;The game started okay but when I finally met the bosses and how crazy the map navigation was, I was hooked. The game simply is not linear and you do have to explore the world for power ups and abilities that allows you to reach locations and do things you previously can&amp;rsquo;t on the way.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/hallownest.png&#34;
-         alt=&#34;Hallownest Map&#34; width=&#34;90%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Hallownest Map&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/hallownest.png&#34;
+    alt=&#34;Hallownest Map&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Hallownest Map&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;For more than two weeks of isolation, I actually 100-percented the game all that time in isolation, up until now I can&amp;rsquo;t still quite believe I passed White Castle.&lt;/p&gt;
@@ -625,18 +658,18 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;I ended the game&amp;rsquo;s main ending with 106% completion. But wait, there were still two endings: the True Ending - killing the actual Boss Radiance, and Godhome Ending - a final fight with all bosses and an upgraded Radiance.&lt;/p&gt;
 &lt;h3 id=&#34;atomic-habits&#34;&gt;Atomic Habits&lt;/h3&gt;
 &lt;p&gt;During isolation, I bought books online to read when Hollow Knight was hard enough that I take a few breaks. I rest my mind by reading James Clear&amp;rsquo;s Atomic Habits and also help me understand and change my habitual ways.
-&lt;figure&gt;&lt;img src=&#34;img/atomic-habits.png&#34;
-         alt=&#34;Atomic Habits by James Clear&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Atomic Habits by James Clear&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/atomic-habits.png&#34;
+    alt=&#34;Atomic Habits by James Clear&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Atomic Habits by James Clear&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;outliers&#34;&gt;Outliers&lt;/h3&gt;
 &lt;p&gt;Right in time going back to work, my next reading list was Malcolm Gladwell&amp;rsquo;s Outliers, I am half-way the book as of this writing.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/outliers.png&#34;
-         alt=&#34;Outliers by Malcolm Gladwell&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Outliers by Malcolm Gladwell&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/new-in-2022/img/outliers.png&#34;
+    alt=&#34;Outliers by Malcolm Gladwell&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Outliers by Malcolm Gladwell&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;no-codes&#34;&gt;No Codes&lt;/h3&gt;
@@ -697,9 +730,9 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;/ul&gt;
 &lt;p&gt;I recommend reading &lt;strong&gt;&amp;ldquo;Man&amp;rsquo;s Search for Meaning&amp;rdquo;&lt;/strong&gt; at least once in your life. 🙂&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1535419394l/4069._SY475_.jpg&#34;
-         alt=&#34;Man&amp;amp;rsquo;s Search for Meaning cover&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Man&amp;rsquo;s Search for Meaning cover&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Man&amp;amp;rsquo;s Search for Meaning cover&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Man&amp;rsquo;s Search for Meaning cover&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;online-courses&#34;&gt;Online Courses&lt;/h2&gt;
@@ -731,9 +764,9 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;So my last post was June 12, I celebrated my 29th birthday on the 14th and got myself an Elgato HD60S+ to achieve better mobile gaming mirroring but that still, I can&amp;rsquo;t keep my streaming schedule! AARGH (2)&lt;/p&gt;
 &lt;p&gt;I got the thingy not just to stream games but for future use - like recording &amp;ldquo;How to use this app&amp;rdquo; for YouTube or presentations, so it may be an expensive thing but I always think of them as an investment for my app development journey.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/elgato.jpg&#34;
-         alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Elgato HD60S+&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Elgato HD60S&amp;#43;&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Elgato HD60S+&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Speaking of streaming, I started streaming on Twitch! Right now, I planned on playing Minecraft, Left 4 Dead 2, and Call of Duty: Mobile. Also, I will try to stream on MWFS schedule playing those games or variety. &lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/aka1red&#34; target=&#34;_blank&#34;&gt;Give me a follow&lt;/a&gt; and get notified when I go live.&lt;/p&gt;
@@ -750,9 +783,9 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;Any more happened last week of June? Hmm. Yeah right, I released an update for RPN Radio app for both Android and iOS adding a call-to-action button to send the stations a message thru Facebook Messenger. This was after watching on Udemy that apps or any products always have a goal-in-mind - the stations should increase inquiries for advertisement or any other public service comments.&lt;/p&gt;
 &lt;p&gt;The app is still available for &lt;strong&gt;FREE&lt;/strong&gt; on Google Play Store, Huawei App Store, and iOS App Store. I created this simple app landing page for the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34; target=&#34;_blank&#34;&gt;links.&lt;/a&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-app-cta.jpg&#34;
-         alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Call-to-Action Button - RPN Radio App&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Call-to-Action Button - RPN Radio App&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also got to try the new &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/windows-11&#34; target=&#34;_blank&#34;&gt;Windows 11 Insider Preview&lt;/a&gt; on a VM. Tested on my main machine but I can&amp;rsquo;t risk the beta so I rolled back to Windows 10.&lt;/p&gt;
@@ -767,9 +800,9 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;h3 id=&#34;website-updates&#34;&gt;Website Updates&lt;/h3&gt;
 &lt;p&gt;With work, I updated the &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com&#34; target=&#34;_blank&#34;&gt;RPN website&lt;/a&gt; overall layout after migrating to a new hosting provider. And some minor updates to some if not all the online systems.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/rpnradio-website-mobile.png&#34;
-         alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;RPN Radio Website&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;RPN Radio Website&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;RPN Radio Website&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;rainy-vacay&#34;&gt;Rainy Vacay&lt;/h3&gt;
@@ -777,34 +810,34 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;I was so looking forward to at least visit a beach, see a sunset, feel the breeze of fresh air but UNLUCKILY the weather ahead was not well! I did not see the predictions that there will be a coming storm for the week. So the first few days were a bust, and I just stayed inside and chilled out with some beer.&lt;/p&gt;
 &lt;p&gt;The 20th was a holiday, and magically the weather was at least fine for us to go to Binmaley beach - don&amp;rsquo;t worry, there were no crowds so we can be safe, I think? The sun was peeping through the clouds and by the afternoon, a mild rain poured. Together with relatives, we spend some time there swimming, singing, EATING, and drinking booze until it&amp;rsquo;s time to go home.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/binmaley-beach.jpg&#34;
-         alt=&#34;Binmaley Beach&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Binmaley Beach&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Binmaley Beach&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Binmaley Beach&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/lumpiang-gulay.jpg&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;h4&gt;Lumpiang Gulay&lt;/h4&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;My other plans went down the drain as the weather became worse, Dagupan City was flooded (plus high tide) that light vehicles weren&amp;rsquo;t able to pass. Sadly, I can&amp;rsquo;t meet my &lt;del&gt;only&lt;/del&gt; city friends. There&amp;rsquo;s still next time right? Right?&lt;/p&gt;
 &lt;p&gt;I decided to extend my stay but continued checking some online responsibilities just to make sure they are still up even I&amp;rsquo;m not present in the office - though I failed to join our online meetings.&lt;/p&gt;
 &lt;p&gt;We also went to our grandfather&amp;rsquo;s brother to celebrate his 70th birthday. Then we spent some time (and over pizza) with my cousin to talk about tech and stuff.&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;/&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-selfie.jpg&#34; width=&#34;40%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/bday-damage.jpg&#34;
-         alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Selfie with Lolo and Cousin &amp;#43; Damaged Foods 🤣&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Selfie with Lolo and Cousin + Damaged Foods 🤣&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;Oh, I also got a haircut (question mark).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-21/roundup/haircut.jpg&#34;
-         alt=&#34;Haircut?&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Haircut?&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Haircut?&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Haircut?&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;br&gt;
@@ -843,16 +876,16 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;h3 id=&#34;trip-to-bgc-last-week&#34;&gt;Trip to BGC, last week&lt;/h3&gt;
 &lt;p&gt;This should be the last week of January and the KPop group Winner was doing a tour in Manila. I am not a KPop fan but my sister is that the 3 girls in our family went to SM Mall of Asia to watch them.&lt;/p&gt;
 &lt;!-- &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/baclaran-church.jpg&#34;
-         alt=&#34;Baclaran Church&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Baclaran Church&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Baclaran Church&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Baclaran Church&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
  --&gt;
 &lt;p&gt;The next day, we went to visit Baclaran church to give thanks to the Lord and went straight the infamous &lt;a class=&#34;link&#34; href=&#34;https://megaworld-lifestylemalls.com/mall/mckinley-hill/&#34;&gt;Venice Grand Canal Mall&lt;/a&gt; in Taguig, a Venice-inspired open-air mall.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/venice-grand-canal.jpg&#34;
-         alt=&#34;Venice Grand Canal Mall in Taguig&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Venice Grand Canal Mall in Taguig&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Venice Grand Canal Mall in Taguig&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Venice Grand Canal Mall in Taguig&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;After exhausting the whole place, we went down to Bonifacio High Grounds which is not that far from the canal mall. We just walked around the place, took some photos, and tried to visit a museum but unfortunately they were already closed.&lt;/p&gt;
@@ -874,28 +907,28 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;I went busy during these time, did some web and app development, went on to stream some games on &lt;a class=&#34;link&#34; href=&#34;https://facebook.gg/RedDavidGaming&#34; target=&#34;_blank&#34;&gt;Facebook Gaming&lt;/a&gt; and took some online courses &lt;a class=&#34;link&#34; href=&#34;https://linkedin.com/in/reddvid/&#34; target=&#34;_blank&#34;&gt;(view my LinkedIn profile here).&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;With all of these, I upgraded (again) my peripherals for my convenience (sorry Girlfried, 😂). I bought a over-the-head headset and an earbuds, for better Zoom meetings and streaming - the JBL Quantum 200 and the HyperX Cloud earbuds. I also got myself a wireless Logitech gaming mouse, the G304, which I reviewed &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/g304-review/&#34;&gt;here&lt;/a&gt; and a Tecware mechanical keyboard TKL, which you can read more about &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/new-keeb/&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/jbl-quantum.jpg&#34;
-         alt=&#34;JBL Quantum 200&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;JBL Quantum 200 (pardon the mess)&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;JBL Quantum 200&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;JBL Quantum 200 (pardon the mess)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/inside.jpg&#34;
-         alt=&#34;Logitech G304&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Logitech G304&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech G304&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Logitech G304&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/rgb.jpg&#34;
-         alt=&#34;Logitech G304&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Tecware Elite TKL&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech G304&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Tecware Elite TKL&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also went on to upgrade my work PC&amp;rsquo;s SSD for a better brand and higher storage, cheaper though - the XPG 8200. Also bought a JBL Go3 bluetooth speaker, and the Logitech C922 webcam, also for Zoom meetings 🤣. I blogged about the camera here: &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/the-logitech-c922/&#34;&gt;Finally! Logitech C922&lt;/a&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-20/c922/c922_camera.jpg&#34;
-         alt=&#34;Logitech C922&#34; width=&#34;65%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Logitech C922&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech C922&#34; width=&#34;65%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Logitech C922&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
@@ -904,9 +937,9 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;This might be the hardest Christmas and New Year we&amp;rsquo;ve all faced and celebrated, but lucky enough, I had the chance to take a break from the rat race and went home to celebrate the holidays with the family together with my father whom was also stuck in his workplace city due to quarantine and lockdown.&lt;/p&gt;
 &lt;p&gt;The shopping continues, I got myself the Razer Hammerhead Wireless earbuds and a yellow iPhone 11 for Christmas. I did not post a blog about the wireless earbuds since the unit I got was faulty (had it replaced now). And I prefer not to flaunt my new iPhone since there&amp;rsquo;s nothing special about it, my ultimate goal of buying one is to &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/developing-for-apple-soon/&#34;&gt;develop apps for iOS.&lt;/a&gt;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/01-21/year-in-review/tech-2020.jpg&#34;
-         alt=&#34;Logitech C922&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Razer BT Earbuds and Yellow iPhone 11&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech C922&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Razer BT Earbuds and Yellow iPhone 11&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;hr&gt;
@@ -931,49 +964,49 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;h2 id=&#34;whats-in-the-box&#34;&gt;What&amp;rsquo;s in the box?&lt;/h2&gt;
 &lt;p&gt;The box contains the wireless mouse itself, the usual manuals, Logitech Gaming promo leaflet, a blue G logo sticker, a Duracell AA battery, and a USB extension cord.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/box.jpg&#34;
-         alt=&#34;Logitech G304 box contents&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Box contents&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech G304 box contents&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Box contents&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;lets-get-physical&#34;&gt;Let&amp;rsquo;s get Physical!&lt;/h2&gt;
 &lt;h3 id=&#34;battery-compartment&#34;&gt;Battery compartment&lt;/h3&gt;
 &lt;p&gt;The mouse has no RGB strip like it&amp;rsquo;s cousins (G Pro/G203) but it has a single RGB LED that indicates colored DPI assignments in Logitech G Hub. The battery compartment and the USB receiver is accessed through the lower top part of the mouse - by sliding it off the body.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/inside.jpg&#34;
-         alt=&#34;G304 with battery&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Logitech G304&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 with battery&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Logitech G304&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;battery-included&#34;&gt;Battery included&lt;/h3&gt;
 &lt;p&gt;I currently use an Energizer Lithium AA battery which I believe is lighter but I still keep the free battery whenever I need a heavier setup.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/batt.jpg&#34;
-         alt=&#34;AA batteries&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;AA Batteries (front came with the product)&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;AA batteries&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;AA Batteries (front came with the product)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;bottom-switch&#34;&gt;Bottom Switch&lt;/h3&gt;
 &lt;p&gt;The power switch is located below the mouse with a red and blue color indicator for off and on state. The bottom also has an extra slide compared to the G Pro/G203.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/bottom.jpg&#34;
-         alt=&#34;G304 bottom&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Bottom view of grip&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 bottom&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Bottom view of grip&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;grip&#34;&gt;Grip&lt;/h3&gt;
 &lt;p&gt;The mouse shape fits perfectly in my hands and I can switch to the wired G Pro when I play some competitive games - not that this can&amp;rsquo;t do the job. But I often stick to this, G304, every time I stream my games (shameless plug - &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://fb.gg/RedDavidGaming/&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/hand-top.jpg&#34;
-         alt=&#34;G304 top grip&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Top view grip&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 top grip&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Top view grip&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304/hand-side.jpg&#34;
-         alt=&#34;G304 side grip&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Side view of grip&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G304 side grip&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Side view of grip&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;reliability&#34;&gt;Reliability&lt;/h2&gt;
@@ -996,34 +1029,34 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;h2 id=&#34;g302&#34;&gt;G302&lt;/h2&gt;
 &lt;p&gt;If I recall correctly, my first mouse from Logitech was the G302, it has the odd shape but it just fits nicely in my hand. I used it for almost 2 years until it went &amp;ldquo;double-clicking&amp;rdquo; due to playing Dota 2. I just scavenged some old A4tech mouse and took out the switches (Huanos?) to replace one on the G302. The G302 still works today but it has this rattling noise due to the broken plastics inside.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g302.jpg&#34;
-         alt=&#34;G302 still works this day&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;G302 still works this day&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;G302 still works this day&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;G302 still works this day&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;g203&#34;&gt;G203&lt;/h2&gt;
 &lt;p&gt;Then I bought a G203, a smaller mouse sporting with the new logo. I bought this to have an RGB mouse. This is when I started to jump on the &amp;ldquo;Logitech mouse hype&amp;rdquo;.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g203.jpg&#34;
-         alt=&#34;My G203 with brand new HyperX Fury mouse mat&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;My G203 with brand new HyperX Fury mouse mat&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;My G203 with brand new HyperX Fury mouse mat&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My G203 with brand new HyperX Fury mouse mat&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;impulse-buying-the-g403&#34;&gt;Impulse Buying the G403&lt;/h2&gt;
 &lt;p&gt;Being on the &amp;ldquo;hype train&amp;rdquo;, I impulse bought a G403 when it became available in my country despite my current G203 still works. The G403 was not comfortable for my hand - well, the shops before don&amp;rsquo;t have demo units - so I bought another G203 as I gave the old one to my GF for office use. The G403 is stored for now.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g403.jpg&#34;
-         alt=&#34;Logitech G403&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Impulse bought G403 😂&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Logitech G403&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Impulse bought G403 😂&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;After some time, GF&amp;rsquo;s workplace decided to renovate so I took the G203 back and decided to &amp;ldquo;mod&amp;rdquo; it and cut the wire too short making it unroutable to my home setup. This older G203 is now in my &amp;ldquo;junk box&amp;rdquo;.&lt;/p&gt;
 &lt;h2 id=&#34;gpro-on-discount&#34;&gt;GPro on Discount&lt;/h2&gt;
 &lt;p&gt;I think all through the year 2019, I was looking to buy their wireless mouse - the G304. It has the same shape as the G203 and has the new HERO sensor. And that one time when I decided to finally buy one, I first asked a salesperson if there were any Logitech promos and I was told that the G Pro was 50% off. Without hesitation, I bought it instead of the G304.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/gpro.jpg&#34;
-         alt=&#34;Half-priced G Pro, not a bad buy&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Half-priced G Pro, not a bad buy&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;Half-priced G Pro, not a bad buy&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Half-priced G Pro, not a bad buy&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;The G Pro is physically the same as G203 but has a braided cable, stiffer mouse wheel, and sporting the PMW3366 optical gaming sensor. I use this in the office with a cheap mouse bungee to keep the wire neat.&lt;/p&gt;
@@ -1031,9 +1064,9 @@ Some said it&amp;rsquo;s going to be another version of 2021 but worse. News in 
 &lt;p&gt;Fast forward March 2020, city-wide was on lockdown, knowing that I would be staying in the office for quite some time, I lend my laptop to my GF for her to use. I also lend her the (working) G203.&lt;/p&gt;
 &lt;p&gt;After some time staying in the office, I decided to neat up my desk and I found it a hassle for wires (with dual monitors, keyboards, USB cords, and whatnot) so I thought, &amp;ldquo;It&amp;rsquo;s time to check that G304 I wished for the longest time. And there&amp;rsquo;s a sale incoming too.&amp;rdquo;&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/g304.jpg&#34;
-         alt=&#34;28-day old G304&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;28-day old G304&lt;/p&gt;
-        &lt;/figcaption&gt;
+    alt=&#34;28-day old G304&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;28-day old G304&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I checked Lazada but I was skeptical to buy electronics from them – to avoid the hassle process of returning a defective product. This is when I learned that my &amp;ldquo;favorite&amp;rdquo; gaming store I bought my previous Logitech mice has a &amp;ldquo;better&amp;rdquo; website and I checked the G304 and it was cheaper compared to its store retail price. I bought it as a gift for myself this June.&lt;/p&gt;

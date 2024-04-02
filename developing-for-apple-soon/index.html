@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='App Developing for iOS'>
 <title>Developing for Apple Soon - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/developing-for-apple-soon/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='Developing for Apple Soon'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='Developing for Apple Soon'>
 <meta property='og:description' content='App Developing for iOS'>
 <meta property='og:url' content='https://reddavid.me/developing-for-apple-soon/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -16,7 +16,7 @@
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="Developing for Apple Soon">
 <meta name="twitter:description" content="App Developing for iOS"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/images/og/appstore.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -360,6 +360,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -473,9 +492,9 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <p>Yes, I gave in to use an Apple device. Well, I&rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&rsquo;s kiss. That&rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.</p>
 <p>I <em>loaned</em> for an iPhone 11 since the iPhone 12 is expensive and I like the 11&rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&rsquo;t stand out as a phone&rsquo;s color and I&rsquo;ve had too many black phones before.</p>
 <p><figure><img src="/images/02-21/iphone-11/iphone11back.jpg"
-         alt="Yellow iPhone 11" width="80%"/><figcaption>
-            <p>Yellow iPhone 11</p>
-        </figcaption>
+    alt="Yellow iPhone 11" width="80%"><figcaption>
+      <p>Yellow iPhone 11</p>
+    </figcaption>
 </figure>
 
 <br/></p>
@@ -483,9 +502,9 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <p>I&rsquo;m excited to learn new things and finally applying the cross-platform capabilities of <a class="link" href="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms">Xamarin.Forms</a> which I have used in some of my Android apps and it&rsquo;s <a class="link" href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">C#</a>. I also want to check out native code from Apple, <a class="link" href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a>.</p>
 <p>Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.</p>
 <figure><img src="/images/02-21/iphone-11/applibrary.jpg"
-         alt="iOS 14 App Library (is that TikTok? 😅)" width="50%"/><figcaption>
-            <p>iOS 14 App Library (is that TikTok? 😅)</p>
-        </figcaption>
+    alt="iOS 14 App Library (is that TikTok? 😅)" width="50%"><figcaption>
+      <p>iOS 14 App Library (is that TikTok? 😅)</p>
+    </figcaption>
 </figure>
 
 <p>So, to test things out, I would be putting my app <a class="link" href="/zipcodeph-android-dark-mode/">ZIP Code PH</a> on the App Store and might set a (very very small) price to support this costly Apple environment 😂.</p>
@@ -616,11 +635,11 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <a href="/tags/apps/">Apps</a>
     
-    <a href="/tags/software-development/">Software development</a>
+    <a href="/tags/software-development/">Software Development</a>
     
     <a href="/tags/apple/">Apple</a>
     
-    <a href="/tags/ios/">iOS</a>
+    <a href="/tags/ios/">IOS</a>
     
 </section>
 

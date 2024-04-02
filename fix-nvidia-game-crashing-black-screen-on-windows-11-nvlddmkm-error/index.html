@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Skip the bullsh*t, just show me your solution! (please)
 Some Background First I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.'>
@@ -8,7 +8,7 @@ Some Background First I couldn’t play (mid-tier) games long enough without the
 
 <link rel='canonical' href='https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)'>
 <meta property='og:description' content='Skip the bullsh*t, just show me your solution! (please)
 Some Background First I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.'>
 <meta property='og:url' content='https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/'>
@@ -19,7 +19,7 @@ Some Background First I couldn’t play (mid-tier) games long enough without the
 <meta name="twitter:description" content="Skip the bullsh*t, just show me your solution! (please)
 Some Background First I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things."><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/images/og/nvidia-error.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -363,6 +363,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -479,16 +498,16 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <p>(But thankfully, I am not getting any bug checks or BSODs)</p>
 <h2 id="the-problem">The Problem</h2>
 <p>I checked Windows Event Viewer for any logs and there it is!</p>
-<figure><img src="nvlddmkm-error-event.png"
-         alt="nvlddmkm Error in Windows Event Viewer"/><figcaption>
-            <p>nvlddmkm Error in Windows Event Viewer</p>
-        </figcaption>
+<figure><img src="/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/nvlddmkm-error-event.png"
+    alt="nvlddmkm Error in Windows Event Viewer"><figcaption>
+      <p>nvlddmkm Error in Windows Event Viewer</p>
+    </figcaption>
 </figure>
 
-<figure><img src="event-error-details.png"
-         alt="Error Details"/><figcaption>
-            <p>Error Details</p>
-        </figcaption>
+<figure><img src="/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/event-error-details.png"
+    alt="Error Details"><figcaption>
+      <p>Error Details</p>
+    </figcaption>
 </figure>
 
 <div class="highlight"><div class="chroma">
@@ -518,30 +537,30 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;Event</span> <span class="na">xmlns=</span><span class="s">&#34;http://schemas.microsoft.com/win/2004/08/events/event&#34;</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;System&gt;</span>
-		  <span class="nt">&lt;Provider</span> <span class="na">Name=</span><span class="s">&#34;nvlddmkm&#34;</span> <span class="nt">/&gt;</span> 
-		  <span class="nt">&lt;EventID</span> <span class="na">Qualifiers=</span><span class="s">&#34;0&#34;</span><span class="nt">&gt;</span>0<span class="nt">&lt;/EventID&gt;</span> 
-		  <span class="nt">&lt;Version&gt;</span>0<span class="nt">&lt;/Version&gt;</span> 
-		  <span class="nt">&lt;Level&gt;</span>2<span class="nt">&lt;/Level&gt;</span> 
-		  <span class="nt">&lt;Task&gt;</span>0<span class="nt">&lt;/Task&gt;</span> 
-		  <span class="nt">&lt;Opcode&gt;</span>0<span class="nt">&lt;/Opcode&gt;</span> 
-		  <span class="nt">&lt;Keywords&gt;</span>0x80000000000000<span class="nt">&lt;/Keywords&gt;</span> 
-		  <span class="nt">&lt;TimeCreated</span> <span class="na">SystemTime=</span><span class="s">&#34;2023-02-09T15:15:31.3464479Z&#34;</span> <span class="nt">/&gt;</span> 
-		  <span class="nt">&lt;EventRecordID&gt;</span>138086<span class="nt">&lt;/EventRecordID&gt;</span> 
-		  <span class="nt">&lt;Correlation</span> <span class="nt">/&gt;</span> 
-		  <span class="nt">&lt;Execution</span> <span class="na">ProcessID=</span><span class="s">&#34;4&#34;</span> <span class="na">ThreadID=</span><span class="s">&#34;4588&#34;</span> <span class="nt">/&gt;</span> 
-		  <span class="nt">&lt;Channel&gt;</span>System<span class="nt">&lt;/Channel&gt;</span> 
-		  <span class="nt">&lt;Computer&gt;</span>David-PC<span class="nt">&lt;/Computer&gt;</span> 
-		  <span class="nt">&lt;Security</span> <span class="nt">/&gt;</span> 
-	  <span class="nt">&lt;/System&gt;</span>
-	<span class="nt">&lt;EventData&gt;</span>
-	  <span class="nt">&lt;Data&gt;</span>\Device\Video3<span class="nt">&lt;/Data&gt;</span> 
-	  <span class="nt">&lt;Data&gt;</span>Error occurred on GPUID: 2b00<span class="nt">&lt;/Data&gt;</span> 
-	  <span class="nt">&lt;Binary&gt;</span>00000000020030000000000000000000000000000000000000000000000000000000000000000000<span class="nt">&lt;/Binary&gt;</span> 
-  <span class="nt">&lt;/EventData&gt;</span>
-<span class="nt">&lt;/Event&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;Event</span> <span class="na">xmlns=</span><span class="s">&#34;http://schemas.microsoft.com/win/2004/08/events/event&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;System&gt;</span>
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Provider</span> <span class="na">Name=</span><span class="s">&#34;nvlddmkm&#34;</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;EventID</span> <span class="na">Qualifiers=</span><span class="s">&#34;0&#34;</span><span class="nt">&gt;</span>0<span class="nt">&lt;/EventID&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Version&gt;</span>0<span class="nt">&lt;/Version&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Level&gt;</span>2<span class="nt">&lt;/Level&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Task&gt;</span>0<span class="nt">&lt;/Task&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Opcode&gt;</span>0<span class="nt">&lt;/Opcode&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Keywords&gt;</span>0x80000000000000<span class="nt">&lt;/Keywords&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;TimeCreated</span> <span class="na">SystemTime=</span><span class="s">&#34;2023-02-09T15:15:31.3464479Z&#34;</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;EventRecordID&gt;</span>138086<span class="nt">&lt;/EventRecordID&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Correlation</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Execution</span> <span class="na">ProcessID=</span><span class="s">&#34;4&#34;</span> <span class="na">ThreadID=</span><span class="s">&#34;4588&#34;</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Channel&gt;</span>System<span class="nt">&lt;/Channel&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Computer&gt;</span>David-PC<span class="nt">&lt;/Computer&gt;</span> 
+</span></span><span class="line"><span class="cl">		  <span class="nt">&lt;Security</span> <span class="nt">/&gt;</span> 
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;/System&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;EventData&gt;</span>
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;Data&gt;</span>\Device\Video3<span class="nt">&lt;/Data&gt;</span> 
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;Data&gt;</span>Error occurred on GPUID: 2b00<span class="nt">&lt;/Data&gt;</span> 
+</span></span><span class="line"><span class="cl">	  <span class="nt">&lt;Binary&gt;</span>00000000020030000000000000000000000000000000000000000000000000000000000000000000<span class="nt">&lt;/Binary&gt;</span> 
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/EventData&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/Event&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="solutions-from-the-web">Solutions from the Web</h2>
 <p>There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.</p>
@@ -679,13 +698,13 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <a href="/tags/nvidia/">NVIDIA</a>
     
-    <a href="/tags/how-to-fix/">How to fix</a>
+    <a href="/tags/how-to-fix/">How to Fix</a>
     
-    <a href="/tags/fix-nvlddmkm-error/">Fix nvlddmkm error</a>
+    <a href="/tags/fix-nvlddmkm-error/">Fix Nvlddmkm Error</a>
     
-    <a href="/tags/game-crash/">Game crash</a>
+    <a href="/tags/game-crash/">Game Crash</a>
     
-    <a href="/tags/black-screen/">Black screen</a>
+    <a href="/tags/black-screen/">Black Screen</a>
     
 </section>
 
@@ -772,6 +791,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
             
                 
 <article class="has-image">
+    <a href="/my-firsts-while-reviewing-for-the-a-core-1-certification/">
+
+        
+        <div class="article-image">
+            
+            <img src="/images/og/studying-a&#43;-core1.png" loading="lazy" data-key=""
+                data-hash="/images/og/studying-a&#43;-core1.png" />
+            
+        </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">My Firsts While Reviewing for the A&#43; Core 1 Certification</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
     <a href="/9-and-over/">
 
         
@@ -785,25 +823,6 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 
         <div class="article-details">
             <h2 class="article-title">9 and Over</h2>
-        </div>
-    </a>
-</article>
-            
-                
-<article class="has-image">
-    <a href="/i-am-here/">
-
-        
-        <div class="article-image">
-            
-            <img src="/images/og/new-post.png" loading="lazy" data-key=""
-                data-hash="/images/og/new-post.png" />
-            
-        </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">I Am Here</h2>
         </div>
     </a>
 </article>

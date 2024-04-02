@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/amd-6700-xt/</link>
         <description>Recent content in AMD 6700 XT on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Sun, 23 Jul 2023 22:33:34 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/amd-6700-xt/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>I Am Here</title>
         <link>https://reddavid.me/i-am-here/</link>
@@ -37,25 +37,25 @@
     &gt;hardware virtualization&lt;/a&gt; like Virtual Machines, Android emulators, etc.&lt;/p&gt;
 &lt;h2 id=&#34;good-rest&#34;&gt;Good Rest&lt;/h2&gt;
 &lt;p&gt;I and the wife also took some time off work to unwind somewhere south. We went to a private resort and go for night swim, eat good food, and relaxed a bit with a super mediocre massage (which is, OMG, I wish to erase this memory on just being a crappy service 😂).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;fish-and-veggies-laong-laan.png&#34;
-         alt=&#34;Dinner at Laong Laan Restaurant&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Dinner at Laong Laan Restaurant&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/fish-and-veggies-laong-laan.png&#34;
+    alt=&#34;Dinner at Laong Laan Restaurant&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Dinner at Laong Laan Restaurant&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Fast forward a month, we visited Batangas for a day to celebrate Barangay &lt;em&gt;fiesta&lt;/em&gt; with the family, which means cheat day (in food, of course). We got to watch a very late night but fun Gay pageant. (Sorry, I can&amp;rsquo;t upload some pictures or videos because &amp;ldquo;lewd&amp;rdquo; 😂)&lt;/p&gt;
 &lt;p&gt;And just days later, I got to visit Intramuros, finally, together with the wife, my sister, and my mother. I always wanted to visit the place and never got to do it for a very long time. We got to see the “Walled City”, go inside Manila Cathedral, and visit Fort Santiago.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;inside-fort-santiago.png&#34;
-         alt=&#34;Inside Fort Santiago, Manila&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Inside Fort Santiago, Manila&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/inside-fort-santiago.png&#34;
+    alt=&#34;Inside Fort Santiago, Manila&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Inside Fort Santiago, Manila&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;After walking around Intramuros, we went ahead to Luneta Park to chill back until sunset.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;neth-in-rizal-park.png&#34;
-         alt=&#34;Me wife in Rizal Park&#34; width=&#34;60%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Me wife in Rizal Park&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/neth-in-rizal-park.png&#34;
+    alt=&#34;Me wife in Rizal Park&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Me wife in Rizal Park&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;keep-learning&#34;&gt;Keep Learning&lt;/h2&gt;
@@ -64,10 +64,10 @@
     &gt;OBS Masterclass&lt;/a&gt; which might help me learn more about the capabilities of &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OBS Studio&lt;/a&gt;, in streaming and recording, and other video stuff. I haven’t finished it all yet since I found it hard to track the course in &lt;a class=&#34;link&#34; href=&#34;https://gumroad.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Gumroad&lt;/a&gt; so I coded a simple website that has a jumplist to the chapters.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;custom-website.png&#34;
-         alt=&#34;Custom website for EposVox masterclass videos&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Custom website for EposVox masterclass videos&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/custom-website.png&#34;
+    alt=&#34;Custom website for EposVox masterclass videos&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Custom website for EposVox masterclass videos&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;I also completed courses in &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -88,16 +88,16 @@
     &gt;ModernWPF&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://wpfui.lepo.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;WPF-UI&lt;/a&gt;. The latter lacks most controls but overshadowed by the use of the Mica effect for my WPF apps but I got the most out of it. Hopefully the package gets updated with more controls.&lt;/p&gt;
 &lt;p&gt;Here’s a GIF of the changes the apps went:&lt;/p&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;digiman-update.gif&#34;
-         alt=&#34;Digital Manager UI changes&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Digital Manager UI changes&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/digiman-update.gif&#34;
+    alt=&#34;Digital Manager UI changes&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Digital Manager UI changes&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;id-maker-update.gif&#34;
-         alt=&#34;ID Maker UI changes&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;ID Maker UI changes&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/id-maker-update.gif&#34;
+    alt=&#34;ID Maker UI changes&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;ID Maker UI changes&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;I also updated both to .NET Core.&lt;/p&gt;

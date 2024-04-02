@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='I built a WPF app with a bunch of tools to automate my workflow'>
 <title>More Work Automation by Building a WPF App - David Ballesteros</title>
@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://reddavid.me/more-work-automation-by-building-a-wpf-app/'>
 
-<link rel="stylesheet" href="/scss/style.min.d02b8df922ed3bd6ec7b938f91c38aeba4849b8f617843db5fb6b098e4e3ca46.css"><meta property='og:title' content='More Work Automation by Building a WPF App'>
+<link rel="stylesheet" href="/scss/style.min.727c909a7b62f2a469fa51d4fdcf8b35db0d4138b68188e56bab6684f1733df4.css"><meta property='og:title' content='More Work Automation by Building a WPF App'>
 <meta property='og:description' content='I built a WPF app with a bunch of tools to automate my workflow'>
 <meta property='og:url' content='https://reddavid.me/more-work-automation-by-building-a-wpf-app/'>
 <meta property='og:site_name' content='David Ballesteros'>
@@ -16,7 +16,7 @@
 <meta name="twitter:creator" content="@reddvid"><meta name="twitter:title" content="More Work Automation by Building a WPF App">
 <meta name="twitter:description" content="I built a WPF app with a bunch of tools to automate my workflow"><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content='https://reddavid.me/images/og/work-automation.png' />
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -360,6 +360,25 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
         
 
         <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://reddavid.me/" selected>English</option>
+                        
+                    </select>
+                </li>
+            
             
             
                 <li id="dark-mode-toggle">
@@ -474,7 +493,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <h2 id="counting-wordpress-posts">Counting WordPress Posts</h2>
 <p>First up is to check which stations have posted content on the news website. Since I also have the access to cPanel, thus I can whitelist the office’s IP address in phpMyAdmin to access the MySQL database then.</p>
 <p>The app connects to the WordPress database, checks if a station has any existing posts on a specific date, then builds a <em>calendar-like</em> layout, as shown below:</p>
-<figure><img src="posts-activity-page.png"/>
+<figure><img src="/more-work-automation-by-building-a-wpf-app/posts-activity-page.png">
 </figure>
 
 <p>I know a little bit of SQL querying but with how WordPress database works, it took me a while to learn about <em>joining</em>.</p>
@@ -493,17 +512,17 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="s2">&#34;SELECT p.ID, p.post_date, p.post_title, t.term_id &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;FROM wpku_posts p &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;LEFT JOIN wpku_term_relationships rel ON rel.object_id = p.ID &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;LEFT JOIN wpku_term_taxonomy tax ON tax.term_taxonomy_id = rel.term_taxonomy_id &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;LEFT JOIN wpku_terms t ON t.term_id = tax.term_id &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;WHERE p.post_type = &#39;post&#39; &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;AND p.post_status = &#39;publish&#39; &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;AND t.term_id NOT LIKE &#39;14&#39; &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;AND (p.post_date LIKE &#39;%&#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">NOW_YEAR</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&#34;%&#39; OR p.post_date LIKE &#39;%&#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">LAST_YEAR</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&#34;%&#39;) &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
-</span><span class="w"></span><span class="s2">&#34;ORDER BY `p`.`post_date` DESC&#34;</span><span class="p">;</span><span class="w">
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="s2">&#34;SELECT p.ID, p.post_date, p.post_title, t.term_id &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;FROM wpku_posts p &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;LEFT JOIN wpku_term_relationships rel ON rel.object_id = p.ID &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;LEFT JOIN wpku_term_taxonomy tax ON tax.term_taxonomy_id = rel.term_taxonomy_id &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;LEFT JOIN wpku_terms t ON t.term_id = tax.term_id &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;WHERE p.post_type = &#39;post&#39; &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;AND p.post_status = &#39;publish&#39; &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;AND t.term_id NOT LIKE &#39;14&#39; &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;AND (p.post_date LIKE &#39;%&#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">NOW_YEAR</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&#34;%&#39; OR p.post_date LIKE &#39;%&#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">LAST_YEAR</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&#34;%&#39;) &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s2">&#34;ORDER BY `p`.`post_date` DESC&#34;</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>The query will then be created into a PostActivity object which requires the StationName, Month, Day, and Year properties.</p>
 <div class="highlight"><div class="chroma">
@@ -520,17 +539,17 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">while</span> <span class="p">(</span><span class="n">dataReader</span><span class="p">.</span><span class="n">Read</span><span class="p">())</span>
-<span class="p">{</span>
-    <span class="n">PostActivityData</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span> <span class="n">PostActivity</span><span class="p">()</span>
-    <span class="p">{</span>
-        <span class="n">StationName</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToInt32</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;term_id&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()),</span>
-        <span class="n">Month</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;post_date&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()).</span><span class="n">Month</span><span class="p">,</span>
-        <span class="n">Day</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;post_date&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()).</span><span class="n">Day</span><span class="p">,</span>
-        <span class="n">Year</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;post_date&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()).</span><span class="n">Year</span>
-    <span class="p">});</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">while</span> <span class="p">(</span><span class="n">dataReader</span><span class="p">.</span><span class="n">Read</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">PostActivityData</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="k">new</span> <span class="n">PostActivity</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">StationName</span> <span class="p">=</span> <span class="n">Convert</span><span class="p">.</span><span class="n">ToInt32</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;term_id&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()),</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Month</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;post_date&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()).</span><span class="n">Month</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Day</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;post_date&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()).</span><span class="n">Day</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Year</span> <span class="p">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">dataReader</span><span class="p">[</span><span class="s">&#34;post_date&#34;</span><span class="p">].</span><span class="n">ToString</span><span class="p">()).</span><span class="n">Year</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Finally, it is now time to display the data into a Calendar for viewing. The view will depend on the selected station from a dropdown (key).</p>
 <div class="highlight"><div class="chroma">
@@ -611,87 +630,87 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">74
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">private</span> <span class="k">async</span> <span class="n">Task</span> <span class="n">DisplayActivityCalendar</span><span class="p">(</span><span class="kt">int</span> <span class="n">key</span><span class="p">,</span> <span class="kt">int</span> <span class="n">year</span><span class="p">)</span>
-<span class="p">{</span>
-	<span class="kt">string</span> <span class="n">layoutBuilder</span> <span class="p">=</span> <span class="n">Environment</span><span class="p">.</span><span class="n">NewLine</span><span class="p">;</span>
-	<span class="kt">int</span> <span class="n">week</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
-
-	<span class="k">if</span> <span class="p">(</span><span class="n">PostsActivityData</span> <span class="p">==</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="p">(</span><span class="n">PostsActivityData</span><span class="p">?.</span><span class="n">Count</span><span class="p">)</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span>
-	<span class="p">{</span>
-		<span class="m">_</span> <span class="p">=</span> <span class="k">await</span> <span class="k">new</span> <span class="n">ContentDialog</span><span class="p">()</span>
-		<span class="p">{</span>
-			<span class="n">Title</span> <span class="p">=</span> <span class="s">&#34;Error Displaying Posts Activity&#34;</span><span class="p">,</span>
-			<span class="n">Content</span> <span class="p">=</span> <span class="s">&#34;SQL data not loaded properly&#34;</span><span class="p">,</span>
-			<span class="n">CloseButtonText</span> <span class="p">=</span> <span class="s">&#34;OK&#34;</span><span class="p">,</span>
-		<span class="p">}</span>
-		<span class="p">.</span><span class="n">ShowAsync</span><span class="p">();</span>
-
-		<span class="k">return</span><span class="p">;</span>
-	<span class="p">}</span>
-
-	<span class="kt">var</span> <span class="n">stationData</span> <span class="p">=</span> <span class="n">PostsActivityData</span><span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">s</span> <span class="p">=&gt;</span> <span class="n">s</span><span class="p">.</span><span class="n">StationName</span> <span class="p">==</span> <span class="n">key</span><span class="p">);</span>
-	<span class="kt">var</span> <span class="n">panelOne</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StackPanel</span><span class="p">()</span> <span class="p">{</span> <span class="n">Orientation</span> <span class="p">=</span> <span class="n">Orientation</span><span class="p">.</span><span class="n">Horizontal</span><span class="p">,</span> <span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">20</span><span class="p">)</span> <span class="p">};</span>
-	<span class="kt">var</span> <span class="n">panelTwo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StackPanel</span><span class="p">()</span> <span class="p">{</span> <span class="n">Orientation</span> <span class="p">=</span> <span class="n">Orientation</span><span class="p">.</span><span class="n">Horizontal</span><span class="p">,</span> <span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">20</span><span class="p">)</span> <span class="p">};</span>
-	<span class="kt">var</span> <span class="n">panelThree</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StackPanel</span><span class="p">()</span> <span class="p">{</span> <span class="n">Orientation</span> <span class="p">=</span> <span class="n">Orientation</span><span class="p">.</span><span class="n">Horizontal</span><span class="p">,</span> <span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">20</span><span class="p">)</span> <span class="p">};</span>
-	
-	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">month</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">month</span> <span class="p">&lt;=</span> <span class="m">12</span><span class="p">;</span> <span class="n">month</span><span class="p">++)</span>
-	<span class="p">{</span>
-		<span class="n">layoutBuilder</span> <span class="p">=</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">;</span>
-		<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="s">$&#34;{StringHelper.ShowMonthName(month)} ({stationData.Where(x =&gt; x.Month == month &amp;&amp; x.Year == year).Count()} posts) {Environment.NewLine}&#34;</span><span class="p">;</span>
-
-		<span class="n">week</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
-
-		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">day</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">day</span> <span class="p">&lt;=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">DaysInMonth</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="n">month</span><span class="p">);</span> <span class="n">day</span><span class="p">++)</span>
-		<span class="p">{</span>
-			<span class="kt">int</span> <span class="n">space</span> <span class="p">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">$&#34;{year} {month} {day}&#34;</span><span class="p">).</span><span class="n">DayOfWeek</span><span class="p">;</span>
-			<span class="n">week</span><span class="p">++;</span>
-
-			<span class="k">if</span> <span class="p">(</span><span class="n">space</span> <span class="p">&gt;</span> <span class="m">0</span> <span class="p">&amp;&amp;</span> <span class="n">day</span> <span class="p">==</span> <span class="m">1</span><span class="p">)</span>
-			<span class="p">{</span>
-				<span class="n">week</span> <span class="p">+=</span> <span class="n">space</span><span class="p">;</span>
-				<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="n">StringHelper</span><span class="p">.</span><span class="n">GenerateSpaces</span><span class="p">(</span><span class="n">space</span><span class="p">);</span>
-			<span class="p">}</span>
-
-			<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="n">stationData</span><span class="p">.</span><span class="n">Any</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Month</span> <span class="p">==</span> <span class="n">month</span> <span class="p">&amp;&amp;</span> <span class="n">x</span><span class="p">.</span><span class="n">Day</span> <span class="p">==</span> <span class="n">day</span> <span class="p">&amp;&amp;</span> <span class="n">x</span><span class="p">.</span><span class="n">Year</span> <span class="p">==</span> <span class="n">year</span><span class="p">)</span> <span class="p">?</span> <span class="s">&#34;✅&#34;</span> <span class="p">:</span> <span class="s">&#34;✖️&#34;</span><span class="p">;</span>
-
-			<span class="k">if</span> <span class="p">(</span><span class="n">week</span> <span class="p">%</span> <span class="m">7</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span>
-			<span class="p">{</span>
-				<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="n">Environment</span><span class="p">.</span><span class="n">NewLine</span><span class="p">;</span>
-			<span class="p">}</span>
-		<span class="p">}</span>
-
-		<span class="kt">var</span> <span class="n">tb</span> <span class="p">=</span> <span class="k">new</span> <span class="n">TextBlock</span><span class="p">()</span>
-		<span class="p">{</span>
-			<span class="n">Text</span> <span class="p">=</span> <span class="n">layoutBuilder</span><span class="p">,</span>
-			<span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">28</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span>
-			<span class="n">FontFamily</span> <span class="p">=</span> <span class="k">new</span> <span class="n">FontFamily</span><span class="p">(</span><span class="s">&#34;Segoe UI&#34;</span><span class="p">),</span>
-		<span class="p">};</span>
-
-		<span class="k">if</span> <span class="p">(</span><span class="n">month</span> <span class="p">&lt;=</span> <span class="m">4</span><span class="p">)</span>
-		<span class="p">{</span>
-			<span class="n">panelOne</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">tb</span><span class="p">);</span>
-		<span class="p">}</span> 
-		<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">month</span> <span class="p">&lt;=</span> <span class="m">8</span><span class="p">)</span>
-		<span class="p">{</span>
-			<span class="n">panelTwo</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">tb</span><span class="p">);</span>
-		<span class="p">}</span>
-		<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">month</span> <span class="p">&lt;=</span> <span class="m">12</span><span class="p">)</span>
-		<span class="p">{</span>
-			<span class="n">panelThree</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">tb</span><span class="p">);</span>
-		<span class="p">}</span>
-	<span class="p">}</span>
-
-	<span class="n">ContentRoot</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">panelOne</span><span class="p">);</span>
-	<span class="n">ContentRoot</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">panelTwo</span><span class="p">);</span>
-	<span class="n">ContentRoot</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">panelThree</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">private</span> <span class="kd">async</span> <span class="n">Task</span> <span class="n">DisplayActivityCalendar</span><span class="p">(</span><span class="kt">int</span> <span class="n">key</span><span class="p">,</span> <span class="kt">int</span> <span class="n">year</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">string</span> <span class="n">layoutBuilder</span> <span class="p">=</span> <span class="n">Environment</span><span class="p">.</span><span class="n">NewLine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">int</span> <span class="n">week</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="n">PostsActivityData</span> <span class="p">==</span> <span class="kc">null</span> <span class="p">&amp;&amp;</span> <span class="p">(</span><span class="n">PostsActivityData</span><span class="p">?.</span><span class="n">Count</span><span class="p">)</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">_</span> <span class="p">=</span> <span class="k">await</span> <span class="k">new</span> <span class="n">ContentDialog</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Title</span> <span class="p">=</span> <span class="s">&#34;Error Displaying Posts Activity&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Content</span> <span class="p">=</span> <span class="s">&#34;SQL data not loaded properly&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="n">CloseButtonText</span> <span class="p">=</span> <span class="s">&#34;OK&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">.</span><span class="n">ShowAsync</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="kt">var</span> <span class="n">stationData</span> <span class="p">=</span> <span class="n">PostsActivityData</span><span class="p">.</span><span class="n">Where</span><span class="p">(</span><span class="n">s</span> <span class="p">=&gt;</span> <span class="n">s</span><span class="p">.</span><span class="n">StationName</span> <span class="p">==</span> <span class="n">key</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">var</span> <span class="n">panelOne</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StackPanel</span><span class="p">()</span> <span class="p">{</span> <span class="n">Orientation</span> <span class="p">=</span> <span class="n">Orientation</span><span class="p">.</span><span class="n">Horizontal</span><span class="p">,</span> <span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">20</span><span class="p">)</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">var</span> <span class="n">panelTwo</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StackPanel</span><span class="p">()</span> <span class="p">{</span> <span class="n">Orientation</span> <span class="p">=</span> <span class="n">Orientation</span><span class="p">.</span><span class="n">Horizontal</span><span class="p">,</span> <span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">20</span><span class="p">)</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">var</span> <span class="n">panelThree</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StackPanel</span><span class="p">()</span> <span class="p">{</span> <span class="n">Orientation</span> <span class="p">=</span> <span class="n">Orientation</span><span class="p">.</span><span class="n">Horizontal</span><span class="p">,</span> <span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">20</span><span class="p">)</span> <span class="p">};</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">month</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">month</span> <span class="p">&lt;=</span> <span class="m">12</span><span class="p">;</span> <span class="n">month</span><span class="p">++)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="n">layoutBuilder</span> <span class="p">=</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">		<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="s">$&#34;{StringHelper.ShowMonthName(month)} ({stationData.Where(x =&gt; x.Month == month &amp;&amp; x.Year == year).Count()} posts) {Environment.NewLine}&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="n">week</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">day</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">day</span> <span class="p">&lt;=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">DaysInMonth</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="n">month</span><span class="p">);</span> <span class="n">day</span><span class="p">++)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="kt">int</span> <span class="n">space</span> <span class="p">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">DateTime</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="s">$&#34;{year} {month} {day}&#34;</span><span class="p">).</span><span class="n">DayOfWeek</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="n">week</span><span class="p">++;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">space</span> <span class="p">&gt;</span> <span class="m">0</span> <span class="p">&amp;&amp;</span> <span class="n">day</span> <span class="p">==</span> <span class="m">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="n">week</span> <span class="p">+=</span> <span class="n">space</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">				<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="n">StringHelper</span><span class="p">.</span><span class="n">GenerateSpaces</span><span class="p">(</span><span class="n">space</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="n">stationData</span><span class="p">.</span><span class="n">Any</span><span class="p">(</span><span class="n">x</span> <span class="p">=&gt;</span> <span class="n">x</span><span class="p">.</span><span class="n">Month</span> <span class="p">==</span> <span class="n">month</span> <span class="p">&amp;&amp;</span> <span class="n">x</span><span class="p">.</span><span class="n">Day</span> <span class="p">==</span> <span class="n">day</span> <span class="p">&amp;&amp;</span> <span class="n">x</span><span class="p">.</span><span class="n">Year</span> <span class="p">==</span> <span class="n">year</span><span class="p">)</span> <span class="p">?</span> <span class="s">&#34;✅&#34;</span> <span class="p">:</span> <span class="s">&#34;✖️&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">			<span class="k">if</span> <span class="p">(</span><span class="n">week</span> <span class="p">%</span> <span class="m">7</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">			<span class="p">{</span>
+</span></span><span class="line"><span class="cl">				<span class="n">layoutBuilder</span> <span class="p">+=</span> <span class="n">Environment</span><span class="p">.</span><span class="n">NewLine</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="kt">var</span> <span class="n">tb</span> <span class="p">=</span> <span class="k">new</span> <span class="n">TextBlock</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Text</span> <span class="p">=</span> <span class="n">layoutBuilder</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">			<span class="n">Margin</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Thickness</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">28</span><span class="p">,</span> <span class="m">0</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">			<span class="n">FontFamily</span> <span class="p">=</span> <span class="k">new</span> <span class="n">FontFamily</span><span class="p">(</span><span class="s">&#34;Segoe UI&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">		<span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="p">(</span><span class="n">month</span> <span class="p">&lt;=</span> <span class="m">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">panelOne</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">tb</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span> 
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">month</span> <span class="p">&lt;=</span> <span class="m">8</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">panelTwo</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">tb</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">		<span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">month</span> <span class="p">&lt;=</span> <span class="m">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="p">{</span>
+</span></span><span class="line"><span class="cl">			<span class="n">panelThree</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">tb</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">		<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">ContentRoot</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">panelOne</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">ContentRoot</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">panelTwo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">ContentRoot</span><span class="p">.</span><span class="n">Children</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">panelThree</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>The <em>layoutBuilder</em> is a cheeky code I played around to craft a calendar with a check or “x” mark whether a post exists on that date.</p>
 <p>The ContentRoot is a StackPanel in XAML and will hold the three new StackPanels created from the code above.</p>
 <h2 id="social-media-numbers">Social Media Numbers</h2>
 <p>This next one really needs an automation tool. This tool will log the 12 stations’ Facebook Pages, Twitter, and YouTube numbers (likes, followers, and channel subscribers).</p>
-<figure><img src="social-media-page.png"/>
+<figure><img src="/more-work-automation-by-building-a-wpf-app/social-media-page.png">
 </figure>
 
 <h3 id="facebook">Facebook</h3>
@@ -743,47 +762,47 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">40
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">string</span> <span class="n">jsonData</span><span class="p">;</span>
-
-<span class="k">try</span>
-<span class="p">{</span>
-    <span class="kt">var</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HttpClient</span><span class="p">();</span>
-    <span class="n">client</span><span class="p">.</span><span class="n">DefaultRequestHeaders</span><span class="p">.</span><span class="n">Authorization</span> <span class="p">=</span> <span class="k">new</span> <span class="n">AuthenticationHeaderValue</span><span class="p">(</span><span class="s">&#34;Bearer&#34;</span><span class="p">,</span> <span class="n">Settings</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">TwitterBearerToken</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">$&#34;https://api.twitter.com/2/users/by/username/{twitterUsername}&#34;</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">responseContent</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">Content</span><span class="p">;</span>
-
-    <span class="c1">/// Convert username (Screen Name) to Twitter Id First
-</span><span class="c1"></span>    <span class="c1">/// since the API for getting followers
-</span><span class="c1"></span>    <span class="c1">/// requires the Id instead of the username
-</span><span class="c1"></span>    <span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">dataReader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="k">await</span> <span class="n">responseContent</span><span class="p">.</span><span class="n">ReadAsStreamAsync</span><span class="p">()))</span>
-    <span class="p">{</span>
-        <span class="kt">string</span> <span class="n">json</span> <span class="p">=</span> <span class="k">await</span> <span class="n">dataReader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
-
-        <span class="kt">var</span> <span class="n">data</span> <span class="p">=</span> <span class="n">JsonConvert</span><span class="p">.</span><span class="n">DeserializeObject</span><span class="p">&lt;</span><span class="n">TwitterData</span><span class="p">&gt;(</span><span class="n">json</span><span class="p">).</span><span class="n">Data</span><span class="p">;</span>
-        <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">$&#34;https://api.twitter.com/2/users/{data.Id}/followers&#34;</span><span class="p">);</span>
-        <span class="n">responseContent</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">Content</span><span class="p">;</span>
-
-        <span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">datumReader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="k">await</span> <span class="n">responseContent</span><span class="p">.</span><span class="n">ReadAsStreamAsync</span><span class="p">()))</span>
-        <span class="p">{</span>
-            <span class="n">jsonData</span> <span class="p">=</span> <span class="k">await</span> <span class="n">datumReader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
-        <span class="p">}</span>
-
-        <span class="k">if</span> <span class="p">(</span><span class="n">jsonData</span><span class="p">.</span><span class="n">Contains</span><span class="p">(</span><span class="s">&#34;Too Many&#34;</span><span class="p">))</span>
-        <span class="p">{</span>
-            <span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;API Request too many requests&#34;</span><span class="p">);</span>
-            <span class="k">return</span> <span class="s">&#34;-&#34;</span><span class="p">;</span>
-        <span class="p">}</span>
-    <span class="p">}</span>
-
-    <span class="kt">var</span> <span class="n">followers</span> <span class="p">=</span> <span class="n">JsonConvert</span><span class="p">.</span><span class="n">DeserializeObject</span><span class="p">&lt;</span><span class="n">TwitterDatum</span><span class="p">&gt;(</span><span class="n">jsonData</span><span class="p">).</span><span class="n">Meta</span><span class="p">.</span><span class="n">Result_count</span><span class="p">;</span>
-    <span class="k">return</span> <span class="n">followers</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
-<span class="p">}</span>
-<span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">ex</span><span class="p">.</span><span class="n">Message</span><span class="p">);</span>
-    <span class="k">return</span> <span class="s">&#34;-&#34;</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kt">string</span> <span class="n">jsonData</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">try</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HttpClient</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">client</span><span class="p">.</span><span class="n">DefaultRequestHeaders</span><span class="p">.</span><span class="n">Authorization</span> <span class="p">=</span> <span class="k">new</span> <span class="n">AuthenticationHeaderValue</span><span class="p">(</span><span class="s">&#34;Bearer&#34;</span><span class="p">,</span> <span class="n">Settings</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">TwitterBearerToken</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">$&#34;https://api.twitter.com/2/users/by/username/{twitterUsername}&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">responseContent</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">Content</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="cs">/// Convert username (Screen Name) to Twitter Id First</span>
+</span></span><span class="line"><span class="cl">    <span class="cs">/// since the API for getting followers</span>
+</span></span><span class="line"><span class="cl">    <span class="cs">/// requires the Id instead of the username</span>
+</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">dataReader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="k">await</span> <span class="n">responseContent</span><span class="p">.</span><span class="n">ReadAsStreamAsync</span><span class="p">()))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">string</span> <span class="n">json</span> <span class="p">=</span> <span class="k">await</span> <span class="n">dataReader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">data</span> <span class="p">=</span> <span class="n">JsonConvert</span><span class="p">.</span><span class="n">DeserializeObject</span><span class="p">&lt;</span><span class="n">TwitterData</span><span class="p">&gt;(</span><span class="n">json</span><span class="p">).</span><span class="n">Data</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">$&#34;https://api.twitter.com/2/users/{data.Id}/followers&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">responseContent</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">Content</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">datumReader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="k">await</span> <span class="n">responseContent</span><span class="p">.</span><span class="n">ReadAsStreamAsync</span><span class="p">()))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">jsonData</span> <span class="p">=</span> <span class="k">await</span> <span class="n">datumReader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">jsonData</span><span class="p">.</span><span class="n">Contains</span><span class="p">(</span><span class="s">&#34;Too Many&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;API Request too many requests&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="s">&#34;-&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">followers</span> <span class="p">=</span> <span class="n">JsonConvert</span><span class="p">.</span><span class="n">DeserializeObject</span><span class="p">&lt;</span><span class="n">TwitterDatum</span><span class="p">&gt;(</span><span class="n">jsonData</span><span class="p">).</span><span class="n">Meta</span><span class="p">.</span><span class="n">Result_count</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">followers</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">ex</span><span class="p">.</span><span class="n">Message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="s">&#34;-&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>I used json2csharp to convert Twitter response to TwitterData object.</p>
 <h3 id="youtube">YouTube</h3>
@@ -814,34 +833,34 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">try</span>
-<span class="p">{</span>
-    <span class="kt">var</span> <span class="n">uri</span> <span class="p">=</span> <span class="s">$&#34;https://www.googleapis.com/youtube/v3/channels?part=statistics&amp;id={channelId}&amp;key={Settings.Default.YouTubeApiKey}&#34;</span><span class="p">;</span>
-    <span class="kt">var</span> <span class="n">request</span> <span class="p">=</span> <span class="p">(</span><span class="n">HttpWebRequest</span><span class="p">)</span><span class="n">WebRequest</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">uri</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="p">(</span><span class="n">HttpWebResponse</span><span class="p">)</span><span class="n">request</span><span class="p">.</span><span class="n">GetResponse</span><span class="p">();</span>
-    <span class="kt">var</span> <span class="n">responseStream</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">GetResponseStream</span><span class="p">();</span>
-
-    <span class="kt">string</span> <span class="n">subscribers</span><span class="p">;</span>
-    <span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">reader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="n">responseStream</span><span class="p">))</span>
-    <span class="p">{</span>
-        <span class="kt">string</span> <span class="n">content</span> <span class="p">=</span> <span class="k">await</span> <span class="n">reader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
-        <span class="n">subscribers</span> <span class="p">=</span> <span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="s">@&#34;subscriberCount&#34;&#34;:.&#34;&#34;(\d+)&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="c1">// Format to add thousands separator
-</span><span class="c1"></span>    <span class="k">return</span> <span class="n">String</span><span class="p">.</span><span class="n">Format</span><span class="p">(</span><span class="s">&#34;{0:n0}&#34;</span><span class="p">,</span> <span class="kt">double</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">subscribers</span><span class="p">));</span>
-<span class="p">}</span>
-<span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">ex</span><span class="p">.</span><span class="n">Message</span><span class="p">);</span>
-    <span class="k">return</span> <span class="s">&#34;-&#34;</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">try</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">uri</span> <span class="p">=</span> <span class="s">$&#34;https://www.googleapis.com/youtube/v3/channels?part=statistics&amp;id={channelId}&amp;key={Settings.Default.YouTubeApiKey}&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">request</span> <span class="p">=</span> <span class="p">(</span><span class="n">HttpWebRequest</span><span class="p">)</span><span class="n">WebRequest</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">uri</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="p">(</span><span class="n">HttpWebResponse</span><span class="p">)</span><span class="n">request</span><span class="p">.</span><span class="n">GetResponse</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">responseStream</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">GetResponseStream</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kt">string</span> <span class="n">subscribers</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">reader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="n">responseStream</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">string</span> <span class="n">content</span> <span class="p">=</span> <span class="k">await</span> <span class="n">reader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">subscribers</span> <span class="p">=</span> <span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="s">@&#34;subscriberCount&#34;&#34;:.&#34;&#34;(\d+)&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// Format to add thousands separator</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">String</span><span class="p">.</span><span class="n">Format</span><span class="p">(</span><span class="s">&#34;{0:n0}&#34;</span><span class="p">,</span> <span class="kt">double</span><span class="p">.</span><span class="n">Parse</span><span class="p">(</span><span class="n">subscribers</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">catch</span> <span class="p">(</span><span class="n">Exception</span> <span class="n">ex</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">ex</span><span class="p">.</span><span class="n">Message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="s">&#34;-&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Then the numbers are placed into an object to then be <em>databound</em> and listed into a DataGrid in XAML.</p>
 <h2 id="centovacast-audio-streams">CentovaCast Audio Streams</h2>
 <p>This third tool lists the stations’ current status of their audio server whether it is off or on, their stream status - online or offline, and current listeners.</p>
-<figure><img src="servers-page.png"/>
+<figure><img src="/more-work-automation-by-building-a-wpf-app/servers-page.png">
 </figure>
 
 <p>Getting the server data using CentovaCast API and cast to an object and can be easily <em>databound</em> to a DataGrid.</p>
@@ -869,27 +888,27 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">string</span> <span class="n">json</span><span class="p">;</span>
-			
-<span class="kt">var</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HttpClient</span><span class="p">();</span>
-<span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">&#34;http://&#34;</span> <span class="p">+</span> <span class="n">url</span> <span class="p">+</span> <span class="s">&#34;/api.php?xm=server.getstatus&amp;f=json&amp;a[username]=&#34;</span> <span class="p">+</span> <span class="n">user</span> <span class="p">+</span> <span class="s">&#34;&amp;a[password]=&#34;</span> <span class="p">+</span> <span class="n">Settings</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">CentovaPassword</span><span class="p">);</span> <span class="c1">// Don&#39;t add port, instead change the username to stations&#39; username (eg. dxdx)
-</span><span class="c1"></span><span class="kt">var</span> <span class="n">responseContent</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">Content</span><span class="p">;</span>
-<span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">reader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="k">await</span> <span class="n">responseContent</span><span class="p">.</span><span class="n">ReadAsStreamAsync</span><span class="p">()))</span>
-<span class="p">{</span>
-	<span class="n">json</span> <span class="p">=</span> <span class="k">await</span> <span class="n">reader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
-<span class="p">}</span>
-
-<span class="kt">var</span> <span class="n">stats</span> <span class="p">=</span> <span class="n">JsonConvert</span><span class="p">.</span><span class="n">DeserializeObject</span><span class="p">&lt;</span><span class="n">StationStat</span><span class="p">&gt;(</span><span class="n">json</span><span class="p">);</span>
-
-<span class="k">return</span> <span class="k">new</span> <span class="kt">string</span><span class="p">[]</span>
-<span class="p">{</span>
-	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Listenercount</span><span class="p">.</span><span class="n">ToString</span><span class="p">(),</span>
-	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Serverstate</span><span class="p">.</span><span class="n">ToString</span><span class="p">(),</span>
-	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Bitrate</span> <span class="p">+</span> <span class="s">&#34; kbps&#34;</span><span class="p">,</span>
-	<span class="s">&#34;Source IP: &#34;</span> <span class="p">+</span> <span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Sourceip</span><span class="p">,</span>
-	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Sourceconnected</span><span class="p">.</span><span class="n">ToString</span><span class="p">()</span>
-<span class="p">};</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kt">string</span> <span class="n">json</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">			
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HttpClient</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">&#34;http://&#34;</span> <span class="p">+</span> <span class="n">url</span> <span class="p">+</span> <span class="s">&#34;/api.php?xm=server.getstatus&amp;f=json&amp;a[username]=&#34;</span> <span class="p">+</span> <span class="n">user</span> <span class="p">+</span> <span class="s">&#34;&amp;a[password]=&#34;</span> <span class="p">+</span> <span class="n">Settings</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">CentovaPassword</span><span class="p">);</span> <span class="c1">// Don&#39;t add port, instead change the username to stations&#39; username (eg. dxdx)</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">responseContent</span> <span class="p">=</span> <span class="n">response</span><span class="p">.</span><span class="n">Content</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">reader</span> <span class="p">=</span> <span class="k">new</span> <span class="n">StreamReader</span><span class="p">(</span><span class="k">await</span> <span class="n">responseContent</span><span class="p">.</span><span class="n">ReadAsStreamAsync</span><span class="p">()))</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">json</span> <span class="p">=</span> <span class="k">await</span> <span class="n">reader</span><span class="p">.</span><span class="n">ReadToEndAsync</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">stats</span> <span class="p">=</span> <span class="n">JsonConvert</span><span class="p">.</span><span class="n">DeserializeObject</span><span class="p">&lt;</span><span class="n">StationStat</span><span class="p">&gt;(</span><span class="n">json</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">return</span> <span class="k">new</span> <span class="kt">string</span><span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Listenercount</span><span class="p">.</span><span class="n">ToString</span><span class="p">(),</span>
+</span></span><span class="line"><span class="cl">	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Serverstate</span><span class="p">.</span><span class="n">ToString</span><span class="p">(),</span>
+</span></span><span class="line"><span class="cl">	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Bitrate</span> <span class="p">+</span> <span class="s">&#34; kbps&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;Source IP: &#34;</span> <span class="p">+</span> <span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Sourceip</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="n">stats</span><span class="p">.</span><span class="n">Response</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="n">Status</span><span class="p">.</span><span class="n">Sourceconnected</span><span class="p">.</span><span class="n">ToString</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>The DataGrid also includes a context menu to quickly control the selected station’s server.</p>
 <div class="highlight"><div class="chroma">
@@ -897,14 +916,14 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">&#34;http://&#34;</span><span class="p">+</span> <span class="n">url</span> <span class="p">+</span> <span class="s">&#34;/api.php?xm=server.&#34;</span> <span class="p">+</span> <span class="n">command</span> <span class="p">+</span> <span class="s">&#34;&amp;f=json&amp;a[username]=&#34;</span> <span class="p">+</span> <span class="n">radioStation</span><span class="p">.</span><span class="n">CallSign</span><span class="p">.</span><span class="n">ToLower</span><span class="p">()</span> <span class="p">+</span> <span class="s">&#34;&amp;a[password]=&#34;</span> <span class="p">+</span> <span class="n">Settings</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">CentovaPassword</span><span class="p">);</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">&#34;http://&#34;</span><span class="p">+</span> <span class="n">url</span> <span class="p">+</span> <span class="s">&#34;/api.php?xm=server.&#34;</span> <span class="p">+</span> <span class="n">command</span> <span class="p">+</span> <span class="s">&#34;&amp;f=json&amp;a[username]=&#34;</span> <span class="p">+</span> <span class="n">radioStation</span><span class="p">.</span><span class="n">CallSign</span><span class="p">.</span><span class="n">ToLower</span><span class="p">()</span> <span class="p">+</span> <span class="s">&#34;&amp;a[password]=&#34;</span> <span class="p">+</span> <span class="n">Settings</span><span class="p">.</span><span class="n">Default</span><span class="p">.</span><span class="n">CentovaPassword</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><em>Commands: restart, reload, stop. The Stream menu item will navigate to the stream page.</em></p>
 <h2 id="text-case-changer">Text Case Changer</h2>
 <p>We now go back to WordPress content. I sometimes post news content to the website, and some news write-ups don’t follow the standards - like the title in all-caps, in Unicode characters, etc.</p>
 <p>Prior to this, I tried writing my own logic but I was not satisfied until I used DevToys code.</p>
-<figure><img src="text-case-changer-page.png"/>
+<figure><img src="/more-work-automation-by-building-a-wpf-app/text-case-changer-page.png">
 </figure>
 
 <p>Prior to this, my logic includes a list of exception words - which will ignore any case change or follow a certain case - like proper nouns.</p>
@@ -913,7 +932,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <h2 id="url-shortener">URL Shortener</h2>
 <p>There was this Yourls app in cPanel/Softaculous that allows me to create short URLs but it stopped working one day. And WordPress already has one.</p>
 <p>This tool should be renamed as URL Styler, which just styles <em>accepted</em> URL input into a custom Viber <em>message</em> - we repost news to our Viber community members.</p>
-<figure><img src="url-shortener-page.png"/>
+<figure><img src="/more-work-automation-by-building-a-wpf-app/url-shortener-page.png">
 </figure>
 
 <p>The Customize button is enabled/disabled through ViewModel if the URL is a vaild rpnradio.com or wp.me shortlink.</p>
@@ -922,8 +941,8 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="n">Regex</span><span class="p">.</span><span class="n">IsMatch</span><span class="p">(</span><span class="m">_</span><span class="n">inputUrl</span><span class="p">,</span> <span class="s">@&#34;^http(s)?://([rpnradio|wp]+.)+[com|me-]+(/[\w- ./?%&amp;=]+)?(/)?$&#34;</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="n">Regex</span><span class="p">.</span><span class="n">IsMatch</span><span class="p">(</span><span class="n">_inputUrl</span><span class="p">,</span> <span class="s">@&#34;^http(s)?://([rpnradio|wp]+.)+[com|me-]+(/[\w- ./?%&amp;=]+)?(/)?$&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Next is we’ll use the HtmlDecode and RegEx capturing to get the details from the link’s page source (e.g. title, featured image URL, and shortlink if the input is not one).</p>
 <div class="highlight"><div class="chroma">
@@ -937,14 +956,14 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="p">...</span>
-
-<span class="kt">string</span> <span class="n">pageContent</span> <span class="p">=</span> <span class="k">await</span> <span class="n">page</span><span class="p">.</span><span class="n">GetContentAsync</span><span class="p">();</span>
-
-<span class="kt">var</span> <span class="n">title</span> <span class="p">=</span> <span class="n">HttpUtility</span><span class="p">.</span><span class="n">HtmlDecode</span><span class="p">(</span><span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">pageContent</span><span class="p">,</span> <span class="s">@&#34;&lt;title&gt;(.+)&lt;/title&gt;&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">.</span><span class="n">Replace</span><span class="p">(</span><span class="s">&#34;- Radio Philippines Network&#34;</span><span class="p">,</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">).</span><span class="n">Trim</span><span class="p">());</span>
-<span class="kt">var</span> <span class="n">shortLink</span> <span class="p">=</span> <span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">pageContent</span><span class="p">,</span> <span class="s">@&#34;&lt;link rel=&#34;&#34;shortlink&#34;&#34; href=&#34;&#34;(https\:\/\/wp\.me\/.+)&#34;&#34;&gt;&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">;</span>
-<span class="kt">var</span> <span class="n">imagePath</span> <span class="p">=</span> <span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">pageContent</span><span class="p">,</span> <span class="s">@&#34;og:image&#34;&#34; content=&#34;&#34;(.+)&#34;&#34;&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="p">...</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">string</span> <span class="n">pageContent</span> <span class="p">=</span> <span class="k">await</span> <span class="n">page</span><span class="p">.</span><span class="n">GetContentAsync</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">title</span> <span class="p">=</span> <span class="n">HttpUtility</span><span class="p">.</span><span class="n">HtmlDecode</span><span class="p">(</span><span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">pageContent</span><span class="p">,</span> <span class="s">@&#34;&lt;title&gt;(.+)&lt;/title&gt;&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">.</span><span class="n">Replace</span><span class="p">(</span><span class="s">&#34;- Radio Philippines Network&#34;</span><span class="p">,</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">).</span><span class="n">Trim</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">shortLink</span> <span class="p">=</span> <span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">pageContent</span><span class="p">,</span> <span class="s">@&#34;&lt;link rel=&#34;&#34;shortlink&#34;&#34; href=&#34;&#34;(https\:\/\/wp\.me\/.+)&#34;&#34;&gt;&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">imagePath</span> <span class="p">=</span> <span class="n">Regex</span><span class="p">.</span><span class="n">Match</span><span class="p">(</span><span class="n">pageContent</span><span class="p">,</span> <span class="s">@&#34;og:image&#34;&#34; content=&#34;&#34;(.+)&#34;&#34;&#34;</span><span class="p">).</span><span class="n">Groups</span><span class="p">[</span><span class="m">1</span><span class="p">].</span><span class="n">Value</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>The tool will finally create a custom text to the Clipboard and ready to be pasted in Viber.</p>
 <h2 id="wip-shortcuts">(WIP) Shortcuts</h2>
@@ -1076,7 +1095,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <a href="/tags/wpf/">WPF</a>
     
-    <a href="/tags/c#/">C#</a>
+    <a href="/tags/c">C#</a>
     
     <a href="/tags/visual-studio/">Visual Studio</a>
     
@@ -1090,7 +1109,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <a href="/tags/fluent/">Fluent</a>
     
-    <a href="/tags/software-development/">Software development</a>
+    <a href="/tags/software-development/">Software Development</a>
     
     <a href="/tags/automation/">Automation</a>
     

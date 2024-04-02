@@ -5,8 +5,48 @@
         <link>https://reddavid.me/tags/</link>
         <description>Recent content in Tags on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Mon, 25 Mar 2024 17:56:45 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Tue, 02 Apr 2024 14:10:27 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>A&#43;</title>
+        <link>https://reddavid.me/tags/a&#43;/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/a&#43;/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>CompTIA</title>
+        <link>https://reddavid.me/tags/comptia/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/comptia/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Core 1</title>
+        <link>https://reddavid.me/tags/core-1/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/core-1/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>IT</title>
+        <link>https://reddavid.me/tags/it/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/it/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Study</title>
+        <link>https://reddavid.me/tags/study/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/tags/study/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Hyper-V</title>
         <link>https://reddavid.me/tags/hyper-v/</link>
         <pubDate>Mon, 25 Mar 2024 17:56:45 +0800</pubDate>
@@ -119,7 +159,7 @@
         <description></description>
         </item>
         <item>
-        <title>MSI motherboard</title>
+        <title>MSI Motherboard</title>
         <link>https://reddavid.me/tags/msi-motherboard/</link>
         <pubDate>Sun, 23 Jul 2023 22:33:34 +0800</pubDate>
         
@@ -135,7 +175,7 @@
         <description></description>
         </item>
         <item>
-        <title>RAM compatibility</title>
+        <title>RAM Compatibility</title>
         <link>https://reddavid.me/tags/ram-compatibility/</link>
         <pubDate>Sun, 23 Jul 2023 22:33:34 +0800</pubDate>
         
@@ -176,14 +216,14 @@
         </item>
         <item>
         <title>C#</title>
-        <link>https://reddavid.me/tags/c#/</link>
+        <link>https://reddavid.me/tags/c</link>
         <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
         
-        <guid>https://reddavid.me/tags/c#/</guid>
+        <guid>https://reddavid.me/tags/c</guid>
         <description></description>
         </item>
         <item>
-        <title>Console app</title>
+        <title>Console App</title>
         <link>https://reddavid.me/tags/console-app/</link>
         <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
         
@@ -199,7 +239,7 @@
         <description></description>
         </item>
         <item>
-        <title>dotNet</title>
+        <title>DotNet</title>
         <link>https://reddavid.me/tags/dotnet/</link>
         <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
         
@@ -207,7 +247,7 @@
         <description></description>
         </item>
         <item>
-        <title>online radio</title>
+        <title>Online Radio</title>
         <link>https://reddavid.me/tags/online-radio/</link>
         <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
         
@@ -223,7 +263,7 @@
         <description></description>
         </item>
         <item>
-        <title>Software development</title>
+        <title>Software Development</title>
         <link>https://reddavid.me/tags/software-development/</link>
         <pubDate>Mon, 20 Feb 2023 17:03:47 +0800</pubDate>
         
@@ -247,7 +287,7 @@
         <description></description>
         </item>
         <item>
-        <title>Black screen</title>
+        <title>Black Screen</title>
         <link>https://reddavid.me/tags/black-screen/</link>
         <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
         
@@ -255,7 +295,7 @@
         <description></description>
         </item>
         <item>
-        <title>Fix nvlddmkm error</title>
+        <title>Fix Nvlddmkm Error</title>
         <link>https://reddavid.me/tags/fix-nvlddmkm-error/</link>
         <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
         
@@ -263,7 +303,7 @@
         <description></description>
         </item>
         <item>
-        <title>Game crash</title>
+        <title>Game Crash</title>
         <link>https://reddavid.me/tags/game-crash/</link>
         <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
         
@@ -271,7 +311,7 @@
         <description></description>
         </item>
         <item>
-        <title>How to fix</title>
+        <title>How to Fix</title>
         <link>https://reddavid.me/tags/how-to-fix/</link>
         <pubDate>Fri, 10 Feb 2023 04:30:05 +0800</pubDate>
         
@@ -607,7 +647,7 @@
         <description></description>
         </item>
         <item>
-        <title>iOS Beta</title>
+        <title>IOS Beta</title>
         <link>https://reddavid.me/tags/ios-beta/</link>
         <pubDate>Wed, 06 Apr 2022 01:30:32 +0800</pubDate>
         
@@ -775,7 +815,7 @@
         <description></description>
         </item>
         <item>
-        <title>iOS</title>
+        <title>IOS</title>
         <link>https://reddavid.me/tags/ios/</link>
         <pubDate>Thu, 31 Mar 2022 00:44:04 +0800</pubDate>
         
@@ -927,7 +967,7 @@
         <description></description>
         </item>
         <item>
-        <title>Covid-19</title>
+        <title>COVID-19</title>
         <link>https://reddavid.me/tags/covid-19/</link>
         <pubDate>Wed, 16 Mar 2022 02:43:53 +0800</pubDate>
         
@@ -967,7 +1007,7 @@
         <description></description>
         </item>
         <item>
-        <title>iPhone</title>
+        <title>IPhone</title>
         <link>https://reddavid.me/tags/iphone/</link>
         <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
         
@@ -1047,7 +1087,7 @@
         <description></description>
         </item>
         <item>
-        <title>Self-development</title>
+        <title>Self-Development</title>
         <link>https://reddavid.me/tags/self-development/</link>
         <pubDate>Tue, 05 Oct 2021 23:13:11 +0800</pubDate>
         
@@ -1465,7 +1505,7 @@
         <item>
         <title>UI/UX</title>
         <link>https://reddavid.me/tags/ui/ux/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 14 Mar 2019 15:28:37 +0800</pubDate>
         
         <guid>https://reddavid.me/tags/ui/ux/</guid>
         <description></description>

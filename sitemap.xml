@@ -3,10 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://reddavid.me/</loc>
-    <lastmod>2024-03-25T17:56:45+08:00</lastmod>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/a&#43;/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/categories/</loc>
-    <lastmod>2024-03-25T17:56:45+08:00</lastmod>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/comptia/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/core-1/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/it/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/my-firsts-while-reviewing-for-the-a-core-1-certification/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/post/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/categories/stories/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/study/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/tags/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
+  </url><url>
+    <loc>https://reddavid.me/categories/tech/</loc>
+    <lastmod>2024-04-02T14:10:27+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/categories/how-to/</loc>
     <lastmod>2024-03-25T17:56:45+08:00</lastmod>
@@ -17,16 +47,7 @@
     <loc>https://reddavid.me/tags/hyper-v/</loc>
     <lastmod>2024-03-25T17:56:45+08:00</lastmod>
   </url><url>
-    <loc>https://reddavid.me/post/</loc>
-    <lastmod>2024-03-25T17:56:45+08:00</lastmod>
-  </url><url>
     <loc>https://reddavid.me/tags/stream-deck/</loc>
-    <lastmod>2024-03-25T17:56:45+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/tags/</loc>
-    <lastmod>2024-03-25T17:56:45+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/categories/tech/</loc>
     <lastmod>2024-03-25T17:56:45+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/virtual-machines/</loc>
@@ -45,9 +66,6 @@
     <lastmod>2024-03-16T04:41:29+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/job-hunting/</loc>
-    <lastmod>2024-03-16T04:41:29+08:00</lastmod>
-  </url><url>
-    <loc>https://reddavid.me/categories/stories/</loc>
     <lastmod>2024-03-16T04:41:29+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/.net/</loc>
@@ -98,7 +116,7 @@
     <loc>https://reddavid.me/tags/altacast/</loc>
     <lastmod>2023-02-20T17:03:47+08:00</lastmod>
   </url><url>
-    <loc>https://reddavid.me/tags/c#/</loc>
+    <loc>https://reddavid.me/tags/c</loc>
     <lastmod>2023-02-20T17:03:47+08:00</lastmod>
   </url><url>
     <loc>https://reddavid.me/tags/console-app/</loc>
@@ -773,6 +791,9 @@
     <loc>https://reddavid.me/rpn-news-radio-gets-a-new-ui/</loc>
     <lastmod>2019-03-14T15:28:37+08:00</lastmod>
   </url><url>
+    <loc>https://reddavid.me/tags/ui/ux/</loc>
+    <lastmod>2019-03-14T15:28:37+08:00</lastmod>
+  </url><url>
     <loc>https://reddavid.me/a-story-of-self-taught-coding/</loc>
     <lastmod>2020-02-23T00:22:42+08:00</lastmod>
   </url><url>
@@ -785,7 +806,5 @@
     <loc>https://reddavid.me/search/</loc>
   </url><url>
     <loc>https://reddavid.me/gcash/</loc>
-  </url><url>
-    <loc>https://reddavid.me/tags/ui/ux/</loc>
   </url>
 </urlset>

@@ -5,30 +5,30 @@
         <link>https://reddavid.me/categories/</link>
         <description>Recent content in Categories on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Mon, 25 Mar 2024 17:56:45 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Tue, 02 Apr 2024 14:10:27 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Stories</title>
+        <link>https://reddavid.me/categories/stories/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/stories/</guid>
+        <description>&lt;img src="https://reddavid.me/categories/stories/feat-stories.png" alt="Featured image of post Stories" /&gt;</description>
+        </item>
+        <item>
+        <title>Tech</title>
+        <link>https://reddavid.me/categories/tech/</link>
+        <pubDate>Tue, 02 Apr 2024 14:10:27 +0800</pubDate>
+        
+        <guid>https://reddavid.me/categories/tech/</guid>
+        <description>&lt;img src="https://reddavid.me/categories/tech/feat-tech.png" alt="Featured image of post Tech" /&gt;</description>
+        </item>
+        <item>
         <title>How To</title>
         <link>https://reddavid.me/categories/how-to/</link>
         <pubDate>Mon, 25 Mar 2024 17:56:45 +0800</pubDate>
         
         <guid>https://reddavid.me/categories/how-to/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>Tech</title>
-        <link>https://reddavid.me/categories/tech/</link>
-        <pubDate>Mon, 25 Mar 2024 17:56:45 +0800</pubDate>
-        
-        <guid>https://reddavid.me/categories/tech/</guid>
-        <description>&lt;img src="https://reddavid.me/categories/tech/feat-tech.png" alt="Featured image of post Tech" /&gt;</description>
-        </item>
-        <item>
-        <title>Stories</title>
-        <link>https://reddavid.me/categories/stories/</link>
-        <pubDate>Sat, 16 Mar 2024 04:41:29 +0800</pubDate>
-        
-        <guid>https://reddavid.me/categories/stories/</guid>
-        <description>&lt;img src="https://reddavid.me/categories/stories/feat-stories.png" alt="Featured image of post Stories" /&gt;</description>
         </item>
         <item>
         <title>Coding</title>

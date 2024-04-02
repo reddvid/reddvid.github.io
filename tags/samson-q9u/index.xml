@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/samson-q9u/</link>
         <description>Recent content in Samson Q9U on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Tue, 22 Mar 2022 01:32:24 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/samson-q9u/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Amateur Recording</title>
         <link>https://reddavid.me/amateur-recording/</link>
@@ -49,44 +49,44 @@
     &gt;Samson — Q9U&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://musictech.com/reviews/studio-recording-gear/review-samson-q9u/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Review: Samson Q9U | MusicTech&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;pictures&#34;&gt;Pictures&lt;/h3&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;img/samson-q9u.png&#34;
-         alt=&#34;Samson Q9U&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Samson Q9U&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/amateur-recording/img/samson-q9u.png&#34;
+    alt=&#34;Samson Q9U&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Samson Q9U&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;img/samson-q9u-bottom.png&#34;
-         alt=&#34;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&#34; width=&#34;50%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/amateur-recording/img/samson-q9u-bottom.png&#34;
+    alt=&#34;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Samson Q9U Bottom View (Pass Filter Switches) (Sorry for the braid cable)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
 &lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
 &lt;p&gt;I use a cheap boom arm to hold the mic and reduce table vibration noise. The mic is connected with a third-party Type-C to Type-A braided cable to the PC and shows as Samson Q9U on Windows. I left the wind foam to further reduce noise.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/q9u-windows.png&#34;
-         alt=&#34;Samson Q9U on Windows&#34; width=&#34;40%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Samson Q9U on Windows&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/amateur-recording/img/q9u-windows.png&#34;
+    alt=&#34;Samson Q9U on Windows&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Samson Q9U on Windows&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
 &lt;p&gt;I use the donationware app &lt;a class=&#34;link&#34; href=&#34;https://voicemeeter.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Voicemeeter&lt;/a&gt; to control my input and output audio devices on Windows, and also use the “Cassette” recorder to select the devices to record.&lt;/p&gt;
 &lt;p&gt;I mainly use this as recording instead of Audacity to monitor each input.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/voicemeeter.png&#34;
-         alt=&#34;Voicemeeter Banana&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Voicemeeter Banana&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/amateur-recording/img/voicemeeter.png&#34;
+    alt=&#34;Voicemeeter Banana&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Voicemeeter Banana&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;editing&#34;&gt;Editing&lt;/h2&gt;
 &lt;p&gt;I edit my recorded audio using &lt;a class=&#34;link&#34; href=&#34;https://www.audacityteam.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Audacity&lt;/a&gt;. I mostly reduce unwanted noise without affecting the guitar tones too much. I also add a few effects like Reverb, and Delay. And sometimes, I do add tracks directly to record overlay guitar solos.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;img/audacity.png&#34;
-         alt=&#34;Audacity (Currently Editing Dahan)&#34; width=&#34;80%&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Audacity (Currently Editing Dahan)&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/amateur-recording/img/audacity.png&#34;
+    alt=&#34;Audacity (Currently Editing Dahan)&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Audacity (Currently Editing Dahan)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;samples&#34;&gt;Samples&lt;/h2&gt;

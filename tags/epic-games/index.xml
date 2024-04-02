@@ -5,7 +5,7 @@
         <link>https://reddavid.me/tags/epic-games/</link>
         <description>Recent content in Epic Games on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <lastBuildDate>Wed, 06 Apr 2022 01:30:32 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/epic-games/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tech News April</title>
         <link>https://reddavid.me/tech-news-april/</link>
@@ -40,9 +40,6 @@
     &gt;&lt;strong&gt;Mozilla Firefox&lt;/strong&gt;&lt;/a&gt; is now releasing their 100th version, quoting there first 3-digit Firefox on their Beta channel.&lt;/p&gt;
 &lt;div style=&#34;display: flex;
 justify-content: center;&#34;&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Firefox 100 beta 1 is out, yes our first 3 digits Firefox! &lt;a href=&#34;https://t.co/m5qQFFo9Os&#34;&gt;pic.twitter.com/m5qQFFo9Os&lt;/a&gt;&lt;/p&gt;&amp;mdash; Firefox Beta (@firefoxbeta) &lt;a href=&#34;https://twitter.com/firefoxbeta/status/1511376525597237255?ref_src=twsrc%5Etfw&#34;&gt;April 5, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
 
 &lt;/div&gt;
 &lt;h2 id=&#34;unreal-engine-5&#34;&gt;Unreal Engine 5&lt;/h2&gt;
@@ -59,7 +56,7 @@ justify-content: center;&#34;&gt;
 &lt;h2 id=&#34;apple-ios-155-developer-beta&#34;&gt;Apple iOS 15.5 Developer Beta&lt;/h2&gt;
 &lt;p&gt;After a long break of not releasing a new beta build, the wait is now over. The download size is 5.66GB on an iPhone 11 15.4.1.&lt;/p&gt;
 &lt;p&gt;This beta&amp;rsquo;s release notes are just SDK updates and includes some small Universal Control issues.
-&lt;figure&gt;&lt;img src=&#34;ios15.5beta.png&#34; width=&#34;60%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/tech-news-april/ios15.5beta.png&#34; width=&#34;60%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 </description>

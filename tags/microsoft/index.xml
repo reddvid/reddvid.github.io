@@ -12,8 +12,10 @@
         <pubDate>Wed, 06 Apr 2022 01:30:32 +0800</pubDate>
         
         <guid>https://reddavid.me/tech-news-april/</guid>
-        <description>&lt;img src="https://reddavid.me/tech-news-april/technews.png" alt="Featured image of post Tech News April" /&gt;&lt;h2 id=&#34;windows-live-recorded-event&#34;&gt;Windows Live Recorded Event&lt;/h2&gt;
-&lt;p&gt;I was just anticipating a single event at 11PM and it was Microsoft&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/business/event&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://reddavid.me/tech-news-april/technews.png" alt="Featured image of post Tech News April" /&gt;&lt;h2 id=&#34;windows-live-recorded-event&#34;&gt;
+    &lt;a href=&#34;#windows-live-recorded-event&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Windows Live Recorded Event
+&lt;/h2&gt;&lt;p&gt;I was just anticipating a single event at 11PM and it was Microsoft&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/windows/business/event&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Windows Powers the Future of Hybrid Work&lt;/strong&gt;&lt;/a&gt; live (recorded) event.&lt;/p&gt;
 &lt;p&gt;They announced security improvements and new features coming later this year focused first on businesses. Here are some I got from the stream:&lt;/p&gt;
 &lt;ul&gt;
@@ -35,15 +37,18 @@
 &lt;/div&gt;
 
 &lt;p&gt;And checking Twitter after the stream, there were a lot more announced that time apparently.&lt;/p&gt;
-&lt;h2 id=&#34;firefox-100&#34;&gt;Firefox 100&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;firefox-100&#34;&gt;
+    &lt;a href=&#34;#firefox-100&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Firefox 100
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mozilla.org/en-US/firefox/new/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Mozilla Firefox&lt;/strong&gt;&lt;/a&gt; is now releasing their 100th version, quoting there first 3-digit Firefox on their Beta channel.&lt;/p&gt;
 &lt;div style=&#34;display: flex;
 justify-content: center;&#34;&gt;
-
 &lt;/div&gt;
-&lt;h2 id=&#34;unreal-engine-5&#34;&gt;Unreal Engine 5&lt;/h2&gt;
-&lt;p&gt;Can we even differentiate reality to &lt;a class=&#34;link&#34; href=&#34;https://www.unrealengine.com/en-US/unreal-engine-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;unreal-engine-5&#34;&gt;
+    &lt;a href=&#34;#unreal-engine-5&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Unreal Engine 5
+&lt;/h2&gt;&lt;p&gt;Can we even differentiate reality to &lt;a class=&#34;link&#34; href=&#34;https://www.unrealengine.com/en-US/unreal-engine-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Unreal Engine 5&lt;/strong&gt;&lt;/a&gt; graphics anymore?&lt;/p&gt;
 &lt;figure&gt;
    &lt;video class=&#34;video-shortcode&#34; preload=&#34;auto&#34; controls width=&#34;90%&#34;&gt;
@@ -53,8 +58,10 @@ justify-content: center;&#34;&gt;
    &lt;/video&gt;
    &lt;figcaption&gt;Unreal Engine 5 City Sample&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2 id=&#34;apple-ios-155-developer-beta&#34;&gt;Apple iOS 15.5 Developer Beta&lt;/h2&gt;
-&lt;p&gt;After a long break of not releasing a new beta build, the wait is now over. The download size is 5.66GB on an iPhone 11 15.4.1.&lt;/p&gt;
+&lt;h2 id=&#34;apple-ios-155-developer-beta&#34;&gt;
+    &lt;a href=&#34;#apple-ios-155-developer-beta&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Apple iOS 15.5 Developer Beta
+&lt;/h2&gt;&lt;p&gt;After a long break of not releasing a new beta build, the wait is now over. The download size is 5.66GB on an iPhone 11 15.4.1.&lt;/p&gt;
 &lt;p&gt;This beta&amp;rsquo;s release notes are just SDK updates and includes some small Universal Control issues.
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/tech-news-april/ios15.5beta.png&#34; width=&#34;60%&#34;&gt;
 &lt;/figure&gt;
@@ -75,14 +82,17 @@ justify-content: center;&#34;&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;who-exports-at-480p-give-us-1080p-please&#34;&gt;Who Exports at 480p? Give us 1080p, Please!&lt;/h2&gt;
-&lt;p&gt;Yes, who does? And surprisingly, Clichamp offers free users to ONLY export their video projects into 480p.&lt;/p&gt;
+&lt;h2 id=&#34;who-exports-at-480p-give-us-1080p-please&#34;&gt;
+    &lt;a href=&#34;#who-exports-at-480p-give-us-1080p-please&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Who Exports at 480p? Give us 1080p, Please!
+&lt;/h2&gt;&lt;p&gt;Yes, who does? And surprisingly, Clichamp offers free users to ONLY export their video projects into 480p.&lt;/p&gt;
 &lt;div style=&#34;display: flex;
 justify-content: center;&#34;&gt;
-
 &lt;/div&gt;
-&lt;h3 id=&#34;good-news&#34;&gt;Good News!&lt;/h3&gt;
-&lt;p&gt;What a shame, but as of this writing I got an email from Clipchamp that 1080p exports is now available for everyone.&lt;/p&gt;
+&lt;h3 id=&#34;good-news&#34;&gt;
+    &lt;a href=&#34;#good-news&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Good News!
+&lt;/h3&gt;&lt;p&gt;What a shame, but as of this writing I got an email from Clipchamp that 1080p exports is now available for everyone.&lt;/p&gt;
 &lt;p&gt;1080p exports is now the base resolution for all tiers of plans:
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/clipchamp-1080p-exports-is-now-free/img/clipchamp-plans.png&#34;
     alt=&#34;Clipchamp plans&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;

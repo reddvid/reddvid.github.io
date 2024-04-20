@@ -455,7 +455,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-            <time class="article-time--published">Feb 16, 2021</time>
+            <time class="article-time--published">Feb 16, 2021 20:30 PHST</time>
         </div>
         
 
@@ -470,7 +470,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 
 
             <time class="article-time--reading">
-                3 minute read
+                4 minute read
             </time>
         </div>
         
@@ -489,15 +489,21 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     
     <p>I updated the tune-in website for RPN. This post will detail the changes, what&rsquo;s new or removed, and how the update went.</p>
-<h2 id="mainpage-and-mobile-first-design">MainPage and Mobile-First Design</h2>
-<p>The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a class="link" href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a class="link" href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a></p>
+<h2 id="mainpage-and-mobile-first-design">
+    <a href="#mainpage-and-mobile-first-design" class="header-anchor">#</a>
+    MainPage and Mobile-First Design
+</h2><p>The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for <a class="link" href="https://www.marksimonson.com/fonts/view/proxima-nova" target="_blank">Proxima Nova</a> and fallback to Arial Nova or other <a class="link" href="https://en.wikipedia.org/wiki/Sans-serif" target="_blank">sans serif fonts.</a></p>
 <p>Then I cleaned up my CSS file to make the whole website <a class="link" href="https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00" target="_blank">&ldquo;mobile-first&rdquo;.</a>
 <br/>
 <br/></p>
-<h2 id="now-playing-station-pages">Now Playing Station Pages</h2>
-<p>The tune-in or now playing page received most of the update. I&rsquo;ve broken some of them below:</p>
-<h3 id="back-button">Back Button</h3>
-<p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
+<h2 id="now-playing-station-pages">
+    <a href="#now-playing-station-pages" class="header-anchor">#</a>
+    Now Playing Station Pages
+</h2><p>The tune-in or now playing page received most of the update. I&rsquo;ve broken some of them below:</p>
+<h3 id="back-button">
+    <a href="#back-button" class="header-anchor">#</a>
+    Back Button
+</h3><p>The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the <code>&lt;a&gt;</code> tag attribute <code>href=&quot;/&quot;</code>.</p>
 <p>Now, it&rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -525,14 +531,20 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </div>
 </div><p>This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.</p>
 <p>Now the back button takes you to home page when started with a station page.</p>
-<h3 id="navigation-menu">Navigation Menu</h3>
-<p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
+<h3 id="navigation-menu">
+    <a href="#navigation-menu" class="header-anchor">#</a>
+    Navigation Menu
+</h3><p>The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.</p>
 <p>Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.</p>
-<h2 id="security">Security</h2>
-<p>The website was also SSL-enabled - <a class="link" href="https://www.websecurity.digicert.com/security-topics/https-everywhere" target="_blank">HTTPS Everywhere.</a></p>
+<h2 id="security">
+    <a href="#security" class="header-anchor">#</a>
+    Security
+</h2><p>The website was also SSL-enabled - <a class="link" href="https://www.websecurity.digicert.com/security-topics/https-everywhere" target="_blank">HTTPS Everywhere.</a></p>
 <p>This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.</p>
-<h2 id="open-graph-metadata">Open Graph Metadata</h2>
-<p>Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.</p>
+<h2 id="open-graph-metadata">
+    <a href="#open-graph-metadata" class="header-anchor">#</a>
+    Open Graph Metadata
+</h2><p>Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.</p>
 <p>Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:</p>
 <figure class="image">
 <img src="/images/02-21/tunein/ogrpn.png" alt="Tune In Open Graph Image for Homepage" style="width: 60%; ">
@@ -542,17 +554,23 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <figcaption>Twitter Open Graph Preview</figcaption>
 </figure>
 Creating the metadata tags was made easy by using <a class="link" href="https://metatags.io/" target="_blank">Metatags.io</a>.
-<h2 id="site-icons">Site Icons</h2>
-<p>I went on to also update the website&rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:</p>
+<h2 id="site-icons">
+    <a href="#site-icons" class="header-anchor">#</a>
+    Site Icons
+</h2><p>I went on to also update the website&rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:</p>
 <figure>
 <img src="/images/02-21/tunein/radio_app.png" alt="Tune In Open Graph Image for Homepage" style="width: 20%; ">
 <figcaption>Website Favicon</figcaption>
 </figure>
-<h2 id="google-ads">Google Ads</h2>
-<p>I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.</p>
+<h2 id="google-ads">
+    <a href="#google-ads" class="header-anchor">#</a>
+    Google Ads
+</h2><p>I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.</p>
 <p>We all hate ads but this is the only modest way to profit for most websites.</p>
-<h2 id="htaccess-to-remove-html">.htaccess to Remove .html</h2>
-<p>I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: <pre><small>tunein.rpnradio.com/batac.html</small></pre>
+<h2 id="htaccess-to-remove-html">
+    <a href="#htaccess-to-remove-html" class="header-anchor">#</a>
+    .htaccess to Remove .html
+</h2><p>I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: <pre><small>tunein.rpnradio.com/batac.html</small></pre>
 Some rules were added to the .htaccess file to make it <pre><small>tunein.rpnradio.com/batac</small></pre></p>
 <p>.htaccess file:</p>
 <pre><code>RewriteEngine On 
@@ -564,10 +582,14 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 </code></pre>
-<h2 id="footer-finally">Footer Finally</h2>
-<p>I added a subtle footer to the whole website. That&rsquo;s it. :)</p>
-<h2 id="final-words">Final Words</h2>
-<p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a class="link" href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a class="link" href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations&rsquo; broadcast anytime and anywhere in the world.</p>
+<h2 id="footer-finally">
+    <a href="#footer-finally" class="header-anchor">#</a>
+    Footer Finally
+</h2><p>I added a subtle footer to the whole website. That&rsquo;s it. :)</p>
+<h2 id="final-words">
+    <a href="#final-words" class="header-anchor">#</a>
+    Final Words
+</h2><p>This website is another medium for the company&rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - <a class="link" href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&hl=en&gl=US" target="_blank">Google Play Store</a> and <a class="link" href="https://appgallery.huawei.com/#/app/C103076031" target="_blank">Huawei App Gallery</a>), the website also serves a means for our audiences to access our stations&rsquo; broadcast anytime and anywhere in the world.</p>
 <p>You can visit the website here: <a class="link" href="https://tunein.rpnradio.com/" target="_blank">Tune In — RPN Radio.</a></p>
 <p>You may also want to check my blog post about the RPN Radio App here:<br/><a class="link" href="/rpnradio-android/">RPN Radio: Streaming App for Android.</a></p>
 

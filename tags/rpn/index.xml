@@ -12,22 +12,32 @@
         <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
         
         <guid>https://reddavid.me/rpnnews-mobile-app/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;Update #2&lt;/h2&gt;
-&lt;p&gt;RPN News mobile app is now also available to download from Huawei AppGallery. Check the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; for the links!&lt;/p&gt;
-&lt;h2 id=&#34;update-1&#34;&gt;Update #1&lt;/h2&gt;
-&lt;p&gt;The app is now available for iPhone on the App Store. See the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; below.&lt;/p&gt;
+        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;
+    &lt;a href=&#34;#update-2&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Update #2
+&lt;/h2&gt;&lt;p&gt;RPN News mobile app is now also available to download from Huawei AppGallery. Check the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; for the links!&lt;/p&gt;
+&lt;h2 id=&#34;update-1&#34;&gt;
+    &lt;a href=&#34;#update-1&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Update #1
+&lt;/h2&gt;&lt;p&gt;The app is now available for iPhone on the App Store. See the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; below.&lt;/p&gt;
 &lt;hr &gt;
 &lt;p&gt;It&amp;rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.&lt;/p&gt;
-&lt;h2 id=&#34;delays&#34;&gt;Delays&lt;/h2&gt;
-&lt;p&gt;The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).&lt;/p&gt;
+&lt;h2 id=&#34;delays&#34;&gt;
+    &lt;a href=&#34;#delays&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Delays
+&lt;/h2&gt;&lt;p&gt;The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).&lt;/p&gt;
 &lt;p&gt;I apologize for the delay but I just made sure these features are working for production.&lt;/p&gt;
-&lt;h2 id=&#34;app-details&#34;&gt;App Details&lt;/h2&gt;
-&lt;p&gt;Most brands nowadays accompany their line of business with a mobile app, beside the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;app-details&#34;&gt;
+    &lt;a href=&#34;#app-details&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    App Details
+&lt;/h2&gt;&lt;p&gt;Most brands nowadays accompany their line of business with a mobile app, beside the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN Radio app&lt;/a&gt; which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.&lt;/p&gt;
 &lt;p&gt;Right now, the app is a feed for the provincial news as visible on &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com/category/provincial-news/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN website&lt;/a&gt;. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.&lt;/p&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;
-&lt;p&gt;It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).&lt;/p&gt;
+&lt;h2 id=&#34;screenshots&#34;&gt;
+    &lt;a href=&#34;#screenshots&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Screenshots
+&lt;/h2&gt;&lt;p&gt;It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).&lt;/p&gt;
 &lt;!-- &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-1.png&#34; alt=&#34;News feed (iPhone)&#34; /&gt;
 &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-2.png&#34; alt=&#34;News details (iPhone)&#34;  /&gt;
 &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-3.png&#34; alt=&#34;About page (iPhone)&#34; /&gt; --&gt;
@@ -54,26 +64,34 @@
    &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-3.png&#34; alt=&#34;About page (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
    &lt;figcaption&gt;About page (Android)&lt;/figcaption&gt;
 &lt;/figure&gt; --&gt;
-&lt;h2 id=&#34;download-here&#34;&gt;Download Here&lt;/h2&gt;
-&lt;p&gt;The app is available now on the Google Play Store: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;download-here&#34;&gt;
+    &lt;a href=&#34;#download-here&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Download Here
+&lt;/h2&gt;&lt;p&gt;The app is available now on the Google Play Store: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN News - Apps on Google Play&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Update #1: Download for iPhone here: &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/app/id1590143546&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN News on the App Store&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Update #2: Download from Huawei AppGallery: &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/app/C105053423&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN News on Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;As for Huawei devices (AppGallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&amp;rsquo;re approved.&lt;/del&gt;&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next&lt;/h2&gt;
-&lt;p&gt;Here are the milestones I am looking forward to bring:&lt;/p&gt;
-&lt;h3 id=&#34;milestone-22&#34;&gt;Milestone 2.2+&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h2 id=&#34;whats-next&#34;&gt;
+    &lt;a href=&#34;#whats-next&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    What&amp;rsquo;s Next
+&lt;/h2&gt;&lt;p&gt;Here are the milestones I am looking forward to bring:&lt;/p&gt;
+&lt;h3 id=&#34;milestone-22&#34;&gt;
+    &lt;a href=&#34;#milestone-22&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Milestone 2.2+
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;News Filter (by Station or tags)&lt;/li&gt;
 &lt;li&gt;Search&lt;/li&gt;
 &lt;li&gt;National and International news (courtesy of BusinessMirror news)&lt;/li&gt;
 &lt;li&gt;Customizable fonts&lt;/li&gt;
 &lt;li&gt;Read aloud&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;milestone-30&#34;&gt;Milestone 3.0&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h3 id=&#34;milestone-30&#34;&gt;
+    &lt;a href=&#34;#milestone-30&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Milestone 3.0
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Integrate stations&amp;rsquo; live videos (YouTube)&lt;/li&gt;
 &lt;li&gt;Integrate stations&amp;rsquo; VODs (video-on-demand)&lt;/li&gt;
 &lt;/ul&gt;
@@ -88,8 +106,10 @@
         
         <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/rpnradio-ui.jpeg" alt="Featured image of post RPN Radio UI Overhaul" /&gt;&lt;p&gt;Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.&lt;/p&gt;
-&lt;h2 id=&#34;old-look&#34;&gt;Old Look&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s take a look at what the app looked like before the update:&lt;/p&gt;
+&lt;h2 id=&#34;old-look&#34;&gt;
+    &lt;a href=&#34;#old-look&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Old Look
+&lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s take a look at what the app looked like before the update:&lt;/p&gt;
 &lt;figure class=&#34;image&#34;&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/stationlist.png&#34; alt=&#34;RPN Radio Stations&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/playingview.png&#34; alt=&#34;RPN Radio Streaming&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
@@ -100,12 +120,16 @@
 &lt;blockquote&gt;
 &lt;p&gt;What am I supposed to do?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;overhaul&#34;&gt;Overhaul&lt;/h2&gt;
-&lt;figure&gt;&lt;img src=&#34;https://media.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif&#34;&gt;
+&lt;h2 id=&#34;overhaul&#34;&gt;
+    &lt;a href=&#34;#overhaul&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Overhaul
+&lt;/h2&gt;&lt;figure&gt;&lt;img src=&#34;https://media.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif&#34;&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;menu-list&#34;&gt;Menu List&lt;/h3&gt;
-&lt;p&gt;At first glance of a first-time user, the stations list does NOT show that it is &amp;ldquo;clickable&amp;rdquo;. So the first UI update was to change the 4x3 grid to a simple list.&lt;/p&gt;
+&lt;h3 id=&#34;menu-list&#34;&gt;
+    &lt;a href=&#34;#menu-list&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Menu List
+&lt;/h3&gt;&lt;p&gt;At first glance of a first-time user, the stations list does NOT show that it is &amp;ldquo;clickable&amp;rdquo;. So the first UI update was to change the 4x3 grid to a simple list.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/menu-list-bna.png&#34;
     alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
       &lt;h4&gt;Station Menu Item Before and After&lt;/h4&gt;
@@ -113,8 +137,10 @@
 &lt;/figure&gt;
 
 &lt;p&gt;This subtle change provides the user a hint of &amp;ldquo;click me&amp;rdquo; by giving the list item a design of a button. It also gave a space for the station&amp;rsquo;s detail to be added - station&amp;rsquo;s location and live/offline status.&lt;/p&gt;
-&lt;h3 id=&#34;header-and-controls&#34;&gt;Header and Controls&lt;/h3&gt;
-&lt;p&gt;Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.&lt;/p&gt;
+&lt;h3 id=&#34;header-and-controls&#34;&gt;
+    &lt;a href=&#34;#header-and-controls&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Header and Controls
+&lt;/h3&gt;&lt;p&gt;Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/head-controls-bna.png&#34;
     alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
       &lt;h4&gt;Header &amp;amp; Controls Before and After&lt;/h4&gt;
@@ -122,20 +148,26 @@
 &lt;/figure&gt;
 
 &lt;p&gt;I also changed the text that shows the current stations into a simpler one and updated the share icon.&lt;/p&gt;
-&lt;h3 id=&#34;new-font&#34;&gt;New Font&lt;/h3&gt;
-&lt;p&gt;I like &lt;a class=&#34;link&#34; href=&#34;https://fonts.google.com/specimen/Poppins&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;new-font&#34;&gt;
+    &lt;a href=&#34;#new-font&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    New Font
+&lt;/h3&gt;&lt;p&gt;I like &lt;a class=&#34;link&#34; href=&#34;https://fonts.google.com/specimen/Poppins&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Poppins&lt;/a&gt;.
 &lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
-&lt;p&gt;Besides the UI updates mentioned above, I added an &amp;ldquo;About&amp;rdquo; page. It is a simple about and external links of RPN.&lt;/p&gt;
+&lt;h3 id=&#34;about&#34;&gt;
+    &lt;a href=&#34;#about&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    About
+&lt;/h3&gt;&lt;p&gt;Besides the UI updates mentioned above, I added an &amp;ldquo;About&amp;rdquo; page. It is a simple about and external links of RPN.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/rpnradio-about.png&#34;
     alt=&#34;RPN Radio About&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
       &lt;h4&gt;About page&lt;/h4&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
-&lt;p&gt;These are my to-do list for the app, which we will see soon on future updates:&lt;/p&gt;
+&lt;h2 id=&#34;roadmap&#34;&gt;
+    &lt;a href=&#34;#roadmap&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Roadmap
+&lt;/h2&gt;&lt;p&gt;These are my to-do list for the app, which we will see soon on future updates:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;No internet connection status&lt;/li&gt;
 &lt;li&gt;Bottom player controls (Priority)&lt;/li&gt;
@@ -143,8 +175,10 @@
 &lt;li&gt;Rate and review prompt&lt;/li&gt;
 &lt;li&gt;Links to station email/messaging&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
-&lt;p&gt;As always, the app is still available for Android and really soon for iOS.&lt;/p&gt;
+&lt;h2 id=&#34;downloads&#34;&gt;
+    &lt;a href=&#34;#downloads&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Downloads
+&lt;/h2&gt;&lt;p&gt;As always, the app is still available for Android and really soon for iOS.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google Play Store&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -158,15 +192,21 @@
         
         <guid>https://reddavid.me/tunein-update/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/rpn-tunein.png" alt="Featured image of post Tune In RPN Radio Update" /&gt;&lt;p&gt;I updated the tune-in website for RPN. This post will detail the changes, what&amp;rsquo;s new or removed, and how the update went.&lt;/p&gt;
-&lt;h2 id=&#34;mainpage-and-mobile-first-design&#34;&gt;MainPage and Mobile-First Design&lt;/h2&gt;
-&lt;p&gt;The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for &lt;a class=&#34;link&#34; href=&#34;https://www.marksimonson.com/fonts/view/proxima-nova&#34; target=&#34;_blank&#34;&gt;Proxima Nova&lt;/a&gt; and fallback to Arial Nova or other &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Sans-serif&#34; target=&#34;_blank&#34;&gt;sans serif fonts.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mainpage-and-mobile-first-design&#34;&gt;
+    &lt;a href=&#34;#mainpage-and-mobile-first-design&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    MainPage and Mobile-First Design
+&lt;/h2&gt;&lt;p&gt;The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for &lt;a class=&#34;link&#34; href=&#34;https://www.marksimonson.com/fonts/view/proxima-nova&#34; target=&#34;_blank&#34;&gt;Proxima Nova&lt;/a&gt; and fallback to Arial Nova or other &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Sans-serif&#34; target=&#34;_blank&#34;&gt;sans serif fonts.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Then I cleaned up my CSS file to make the whole website &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;mobile-first&amp;rdquo;.&lt;/a&gt;
 &lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;
-&lt;h2 id=&#34;now-playing-station-pages&#34;&gt;Now Playing Station Pages&lt;/h2&gt;
-&lt;p&gt;The tune-in or now playing page received most of the update. I&amp;rsquo;ve broken some of them below:&lt;/p&gt;
-&lt;h3 id=&#34;back-button&#34;&gt;Back Button&lt;/h3&gt;
-&lt;p&gt;The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag attribute &lt;code&gt;href=&amp;quot;/&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;now-playing-station-pages&#34;&gt;
+    &lt;a href=&#34;#now-playing-station-pages&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Now Playing Station Pages
+&lt;/h2&gt;&lt;p&gt;The tune-in or now playing page received most of the update. I&amp;rsquo;ve broken some of them below:&lt;/p&gt;
+&lt;h3 id=&#34;back-button&#34;&gt;
+    &lt;a href=&#34;#back-button&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Back Button
+&lt;/h3&gt;&lt;p&gt;The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag attribute &lt;code&gt;href=&amp;quot;/&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now, it&amp;rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -194,14 +234,20 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.&lt;/p&gt;
 &lt;p&gt;Now the back button takes you to home page when started with a station page.&lt;/p&gt;
-&lt;h3 id=&#34;navigation-menu&#34;&gt;Navigation Menu&lt;/h3&gt;
-&lt;p&gt;The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.&lt;/p&gt;
+&lt;h3 id=&#34;navigation-menu&#34;&gt;
+    &lt;a href=&#34;#navigation-menu&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Navigation Menu
+&lt;/h3&gt;&lt;p&gt;The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.&lt;/p&gt;
 &lt;p&gt;Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.&lt;/p&gt;
-&lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;
-&lt;p&gt;The website was also SSL-enabled - &lt;a class=&#34;link&#34; href=&#34;https://www.websecurity.digicert.com/security-topics/https-everywhere&#34; target=&#34;_blank&#34;&gt;HTTPS Everywhere.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;security&#34;&gt;
+    &lt;a href=&#34;#security&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Security
+&lt;/h2&gt;&lt;p&gt;The website was also SSL-enabled - &lt;a class=&#34;link&#34; href=&#34;https://www.websecurity.digicert.com/security-topics/https-everywhere&#34; target=&#34;_blank&#34;&gt;HTTPS Everywhere.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.&lt;/p&gt;
-&lt;h2 id=&#34;open-graph-metadata&#34;&gt;Open Graph Metadata&lt;/h2&gt;
-&lt;p&gt;Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.&lt;/p&gt;
+&lt;h2 id=&#34;open-graph-metadata&#34;&gt;
+    &lt;a href=&#34;#open-graph-metadata&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Open Graph Metadata
+&lt;/h2&gt;&lt;p&gt;Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.&lt;/p&gt;
 &lt;p&gt;Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:&lt;/p&gt;
 &lt;figure class=&#34;image&#34;&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/tunein/ogrpn.png&#34; alt=&#34;Tune In Open Graph Image for Homepage&#34; style=&#34;width: 60%; &#34;&gt;
@@ -211,17 +257,23 @@
 &lt;figcaption&gt;Twitter Open Graph Preview&lt;/figcaption&gt;
 &lt;/figure&gt;
 Creating the metadata tags was made easy by using &lt;a class=&#34;link&#34; href=&#34;https://metatags.io/&#34; target=&#34;_blank&#34;&gt;Metatags.io&lt;/a&gt;.
-&lt;h2 id=&#34;site-icons&#34;&gt;Site Icons&lt;/h2&gt;
-&lt;p&gt;I went on to also update the website&amp;rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:&lt;/p&gt;
+&lt;h2 id=&#34;site-icons&#34;&gt;
+    &lt;a href=&#34;#site-icons&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Site Icons
+&lt;/h2&gt;&lt;p&gt;I went on to also update the website&amp;rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/tunein/radio_app.png&#34; alt=&#34;Tune In Open Graph Image for Homepage&#34; style=&#34;width: 20%; &#34;&gt;
 &lt;figcaption&gt;Website Favicon&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2 id=&#34;google-ads&#34;&gt;Google Ads&lt;/h2&gt;
-&lt;p&gt;I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.&lt;/p&gt;
+&lt;h2 id=&#34;google-ads&#34;&gt;
+    &lt;a href=&#34;#google-ads&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Google Ads
+&lt;/h2&gt;&lt;p&gt;I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.&lt;/p&gt;
 &lt;p&gt;We all hate ads but this is the only modest way to profit for most websites.&lt;/p&gt;
-&lt;h2 id=&#34;htaccess-to-remove-html&#34;&gt;.htaccess to Remove .html&lt;/h2&gt;
-&lt;p&gt;I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: &lt;pre&gt;&lt;small&gt;tunein.rpnradio.com/batac.html&lt;/small&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;htaccess-to-remove-html&#34;&gt;
+    &lt;a href=&#34;#htaccess-to-remove-html&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    .htaccess to Remove .html
+&lt;/h2&gt;&lt;p&gt;I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: &lt;pre&gt;&lt;small&gt;tunein.rpnradio.com/batac.html&lt;/small&gt;&lt;/pre&gt;
 Some rules were added to the .htaccess file to make it &lt;pre&gt;&lt;small&gt;tunein.rpnradio.com/batac&lt;/small&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;.htaccess file:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;RewriteEngine On 
@@ -233,10 +285,14 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;footer-finally&#34;&gt;Footer Finally&lt;/h2&gt;
-&lt;p&gt;I added a subtle footer to the whole website. That&amp;rsquo;s it. :)&lt;/p&gt;
-&lt;h2 id=&#34;final-words&#34;&gt;Final Words&lt;/h2&gt;
-&lt;p&gt;This website is another medium for the company&amp;rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;hl=en&amp;gl=US&#34; target=&#34;_blank&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34; target=&#34;_blank&#34;&gt;Huawei App Gallery&lt;/a&gt;), the website also serves a means for our audiences to access our stations&amp;rsquo; broadcast anytime and anywhere in the world.&lt;/p&gt;
+&lt;h2 id=&#34;footer-finally&#34;&gt;
+    &lt;a href=&#34;#footer-finally&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Footer Finally
+&lt;/h2&gt;&lt;p&gt;I added a subtle footer to the whole website. That&amp;rsquo;s it. :)&lt;/p&gt;
+&lt;h2 id=&#34;final-words&#34;&gt;
+    &lt;a href=&#34;#final-words&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    Final Words
+&lt;/h2&gt;&lt;p&gt;This website is another medium for the company&amp;rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;hl=en&amp;gl=US&#34; target=&#34;_blank&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34; target=&#34;_blank&#34;&gt;Huawei App Gallery&lt;/a&gt;), the website also serves a means for our audiences to access our stations&amp;rsquo; broadcast anytime and anywhere in the world.&lt;/p&gt;
 &lt;p&gt;You can visit the website here: &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/&#34; target=&#34;_blank&#34;&gt;Tune In — RPN Radio.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You may also want to check my blog post about the RPN Radio App here:&lt;br/&gt;&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpnradio-android/&#34;&gt;RPN Radio: Streaming App for Android.&lt;/a&gt;&lt;/p&gt;
 </description>

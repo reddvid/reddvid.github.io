@@ -490,9 +490,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <p>As I mentioned in my previous blog post, I do some online broadcasting/content duties which include posting on the website, monitoring and logging 12 stations’ social media and audio servers, and any particular aspect of it.</p>
 <p>Having to monitor the 12 stations’ analytics and statistics, one will always come to the point where they would need to automate their workflow. And that’s what I did.</p>
-<h2 id="counting-wordpress-posts">
-    <a href="#counting-wordpress-posts" class="header-anchor">#</a>
-    Counting WordPress Posts
+<h2 id="counting-wordpress-posts">Counting WordPress Posts
 </h2><p>First up is to check which stations have posted content on the news website. Since I also have the access to cPanel, thus I can whitelist the office’s IP address in phpMyAdmin to access the MySQL database then.</p>
 <p>The app connects to the WordPress database, checks if a station has any existing posts on a specific date, then builds a <em>calendar-like</em> layout, as shown below:</p>
 <figure><img src="/more-work-automation-by-building-a-wpf-app/posts-activity-page.png">
@@ -710,21 +708,15 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </div>
 </div><p>The <em>layoutBuilder</em> is a cheeky code I played around to craft a calendar with a check or “x” mark whether a post exists on that date.</p>
 <p>The ContentRoot is a StackPanel in XAML and will hold the three new StackPanels created from the code above.</p>
-<h2 id="social-media-numbers">
-    <a href="#social-media-numbers" class="header-anchor">#</a>
-    Social Media Numbers
+<h2 id="social-media-numbers">Social Media Numbers
 </h2><p>This next one really needs an automation tool. This tool will log the 12 stations’ Facebook Pages, Twitter, and YouTube numbers (likes, followers, and channel subscribers).</p>
 <figure><img src="/more-work-automation-by-building-a-wpf-app/social-media-page.png">
 </figure>
 
-<h3 id="facebook">
-    <a href="#facebook" class="header-anchor">#</a>
-    Facebook
+<h3 id="facebook">Facebook
 </h3><p>Too bad I can’t get around an API for Facebook Pages to get the number of likes and followers so I ended up with web scraping, which I posted <a class="link" href="https://reddavid.me/scraping-facebook-pages-to-get-number-of-likes-and-followers/"  target="_blank" rel="noopener"
     >here</a>.</p>
-<h3 id="twitter">
-    <a href="#twitter" class="header-anchor">#</a>
-    Twitter
+<h3 id="twitter">Twitter
 </h3><p>I used Twitter’s API to get the accounts’ number of followers, although there is a step which I still have to get the account’s ID from the username:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -813,9 +805,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>I used json2csharp to convert Twitter response to TwitterData object.</p>
-<h3 id="youtube">
-    <a href="#youtube" class="header-anchor">#</a>
-    YouTube
+<h3 id="youtube">YouTube
 </h3><p>As for YouTube, we also get to use an API which will require an API key from Google. And I simply scraped off the response to get the number of subscribers instead of using an object.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -868,9 +858,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Then the numbers are placed into an object to then be <em>databound</em> and listed into a DataGrid in XAML.</p>
-<h2 id="centovacast-audio-streams">
-    <a href="#centovacast-audio-streams" class="header-anchor">#</a>
-    CentovaCast Audio Streams
+<h2 id="centovacast-audio-streams">CentovaCast Audio Streams
 </h2><p>This third tool lists the stations’ current status of their audio server whether it is off or on, their stream status - online or offline, and current listeners.</p>
 <figure><img src="/more-work-automation-by-building-a-wpf-app/servers-page.png">
 </figure>
@@ -932,9 +920,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><em>Commands: restart, reload, stop. The Stream menu item will navigate to the stream page.</em></p>
-<h2 id="text-case-changer">
-    <a href="#text-case-changer" class="header-anchor">#</a>
-    Text Case Changer
+<h2 id="text-case-changer">Text Case Changer
 </h2><p>We now go back to WordPress content. I sometimes post news content to the website, and some news write-ups don’t follow the standards - like the title in all-caps, in Unicode characters, etc.</p>
 <p>Prior to this, I tried writing my own logic but I was not satisfied until I used DevToys code.</p>
 <figure><img src="/more-work-automation-by-building-a-wpf-app/text-case-changer-page.png">
@@ -943,9 +929,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <p>Prior to this, my logic includes a list of exception words - which will ignore any case change or follow a certain case - like proper nouns.</p>
 <p><a class="link" href="https://github.com/veler/DevToys"  target="_blank" rel="noopener"
     >DevToys is open source in GitHub.</a></p>
-<h2 id="url-shortener">
-    <a href="#url-shortener" class="header-anchor">#</a>
-    URL Shortener
+<h2 id="url-shortener">URL Shortener
 </h2><p>There was this Yourls app in cPanel/Softaculous that allows me to create short URLs but it stopped working one day. And WordPress already has one.</p>
 <p>This tool should be renamed as URL Styler, which just styles <em>accepted</em> URL input into a custom Viber <em>message</em> - we repost news to our Viber community members.</p>
 <figure><img src="/more-work-automation-by-building-a-wpf-app/url-shortener-page.png">
@@ -982,9 +966,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The tool will finally create a custom text to the Clipboard and ready to be pasted in Viber.</p>
-<h2 id="wip-shortcuts">
-    <a href="#wip-shortcuts" class="header-anchor">#</a>
-    (WIP) Shortcuts
+<h2 id="wip-shortcuts">(WIP) Shortcuts
 </h2><p>I used an Elgato Stream Deck before to launch most-used URLs and I am currently working to integrate this to the app.</p>
 <p>Unfortunately, the code repo is not publicly available but will try to “hide” some confidential details before making it public.</p>
 

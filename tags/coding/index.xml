@@ -14,9 +14,7 @@
         <guid>https://reddavid.me/more-work-automation-by-building-a-wpf-app/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/work-automation.png" alt="Featured image of post More Work Automation by Building a WPF App" /&gt;&lt;p&gt;As I mentioned in my previous blog post, I do some online broadcasting/content duties which include posting on the website, monitoring and logging 12 stations’ social media and audio servers, and any particular aspect of it.&lt;/p&gt;
 &lt;p&gt;Having to monitor the 12 stations’ analytics and statistics, one will always come to the point where they would need to automate their workflow. And that’s what I did.&lt;/p&gt;
-&lt;h2 id=&#34;counting-wordpress-posts&#34;&gt;
-    &lt;a href=&#34;#counting-wordpress-posts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Counting WordPress Posts
+&lt;h2 id=&#34;counting-wordpress-posts&#34;&gt;Counting WordPress Posts
 &lt;/h2&gt;&lt;p&gt;First up is to check which stations have posted content on the news website. Since I also have the access to cPanel, thus I can whitelist the office’s IP address in phpMyAdmin to access the MySQL database then.&lt;/p&gt;
 &lt;p&gt;The app connects to the WordPress database, checks if a station has any existing posts on a specific date, then builds a &lt;em&gt;calendar-like&lt;/em&gt; layout, as shown below:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/posts-activity-page.png&#34;&gt;
@@ -234,21 +232,15 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The &lt;em&gt;layoutBuilder&lt;/em&gt; is a cheeky code I played around to craft a calendar with a check or “x” mark whether a post exists on that date.&lt;/p&gt;
 &lt;p&gt;The ContentRoot is a StackPanel in XAML and will hold the three new StackPanels created from the code above.&lt;/p&gt;
-&lt;h2 id=&#34;social-media-numbers&#34;&gt;
-    &lt;a href=&#34;#social-media-numbers&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Social Media Numbers
+&lt;h2 id=&#34;social-media-numbers&#34;&gt;Social Media Numbers
 &lt;/h2&gt;&lt;p&gt;This next one really needs an automation tool. This tool will log the 12 stations’ Facebook Pages, Twitter, and YouTube numbers (likes, followers, and channel subscribers).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/social-media-page.png&#34;&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;facebook&#34;&gt;
-    &lt;a href=&#34;#facebook&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Facebook
+&lt;h3 id=&#34;facebook&#34;&gt;Facebook
 &lt;/h3&gt;&lt;p&gt;Too bad I can’t get around an API for Facebook Pages to get the number of likes and followers so I ended up with web scraping, which I posted &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/scraping-facebook-pages-to-get-number-of-likes-and-followers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;twitter&#34;&gt;
-    &lt;a href=&#34;#twitter&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Twitter
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter
 &lt;/h3&gt;&lt;p&gt;I used Twitter’s API to get the accounts’ number of followers, although there is a step which I still have to get the account’s ID from the username:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -337,9 +329,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;I used json2csharp to convert Twitter response to TwitterData object.&lt;/p&gt;
-&lt;h3 id=&#34;youtube&#34;&gt;
-    &lt;a href=&#34;#youtube&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    YouTube
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube
 &lt;/h3&gt;&lt;p&gt;As for YouTube, we also get to use an API which will require an API key from Google. And I simply scraped off the response to get the number of subscribers instead of using an object.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -392,9 +382,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Then the numbers are placed into an object to then be &lt;em&gt;databound&lt;/em&gt; and listed into a DataGrid in XAML.&lt;/p&gt;
-&lt;h2 id=&#34;centovacast-audio-streams&#34;&gt;
-    &lt;a href=&#34;#centovacast-audio-streams&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    CentovaCast Audio Streams
+&lt;h2 id=&#34;centovacast-audio-streams&#34;&gt;CentovaCast Audio Streams
 &lt;/h2&gt;&lt;p&gt;This third tool lists the stations’ current status of their audio server whether it is off or on, their stream status - online or offline, and current listeners.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/servers-page.png&#34;&gt;
 &lt;/figure&gt;
@@ -456,9 +444,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;em&gt;Commands: restart, reload, stop. The Stream menu item will navigate to the stream page.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;text-case-changer&#34;&gt;
-    &lt;a href=&#34;#text-case-changer&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Text Case Changer
+&lt;h2 id=&#34;text-case-changer&#34;&gt;Text Case Changer
 &lt;/h2&gt;&lt;p&gt;We now go back to WordPress content. I sometimes post news content to the website, and some news write-ups don’t follow the standards - like the title in all-caps, in Unicode characters, etc.&lt;/p&gt;
 &lt;p&gt;Prior to this, I tried writing my own logic but I was not satisfied until I used DevToys code.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/text-case-changer-page.png&#34;&gt;
@@ -467,9 +453,7 @@
 &lt;p&gt;Prior to this, my logic includes a list of exception words - which will ignore any case change or follow a certain case - like proper nouns.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/veler/DevToys&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DevToys is open source in GitHub.&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;url-shortener&#34;&gt;
-    &lt;a href=&#34;#url-shortener&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    URL Shortener
+&lt;h2 id=&#34;url-shortener&#34;&gt;URL Shortener
 &lt;/h2&gt;&lt;p&gt;There was this Yourls app in cPanel/Softaculous that allows me to create short URLs but it stopped working one day. And WordPress already has one.&lt;/p&gt;
 &lt;p&gt;This tool should be renamed as URL Styler, which just styles &lt;em&gt;accepted&lt;/em&gt; URL input into a custom Viber &lt;em&gt;message&lt;/em&gt; - we repost news to our Viber community members.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/url-shortener-page.png&#34;&gt;
@@ -506,9 +490,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The tool will finally create a custom text to the Clipboard and ready to be pasted in Viber.&lt;/p&gt;
-&lt;h2 id=&#34;wip-shortcuts&#34;&gt;
-    &lt;a href=&#34;#wip-shortcuts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    (WIP) Shortcuts
+&lt;h2 id=&#34;wip-shortcuts&#34;&gt;(WIP) Shortcuts
 &lt;/h2&gt;&lt;p&gt;I used an Elgato Stream Deck before to launch most-used URLs and I am currently working to integrate this to the app.&lt;/p&gt;
 &lt;p&gt;Unfortunately, the code repo is not publicly available but will try to “hide” some confidential details before making it public.&lt;/p&gt;
 </description>
@@ -521,9 +503,7 @@
         <guid>https://reddavid.me/automating-obs-recording-with-winforms-app/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/automate-obs.png" alt="Featured image of post Automating OBS Recording With WinForms App" /&gt;&lt;p&gt;There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.&lt;/p&gt;
 &lt;p&gt;I was asked if this was possible, and I said &lt;em&gt;yes&lt;/em&gt;, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.&lt;/p&gt;
-&lt;h2 id=&#34;obs-layout&#34;&gt;
-    &lt;a href=&#34;#obs-layout&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    OBS Layout
+&lt;h2 id=&#34;obs-layout&#34;&gt;OBS Layout
 &lt;/h2&gt;&lt;p&gt;So I began setting up the layout that will help distinguish the date and time of the streams being recorded:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add a Text source and Used a datetime.lua script:&lt;/li&gt;
@@ -830,9 +810,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;obs-recording-settings&#34;&gt;
-    &lt;a href=&#34;#obs-recording-settings&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    OBS Recording Settings
+&lt;h2 id=&#34;obs-recording-settings&#34;&gt;OBS Recording Settings
 &lt;/h2&gt;&lt;p&gt;After arranging the tracks to determine their order:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Set Advanced Audio Properties to separate audio to each track&lt;/li&gt;
@@ -864,14 +842,10 @@
 &lt;ul&gt;
 &lt;li&gt;Finally, I set the settings to record at just 10kbps to decrease the output filesize.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;automation&#34;&gt;
-    &lt;a href=&#34;#automation&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Automation
+&lt;h2 id=&#34;automation&#34;&gt;Automation
 &lt;/h2&gt;&lt;p&gt;After setting up the recording system, it is now a challenge on how to run OBS and start recording at the required times: 3:00am to 10:00pm.&lt;/p&gt;
 &lt;p&gt;Turning off the system at 10:00pm is not a problem but starting it at 3:00am is a challenge. And it is also not an option to run the system 24/7 since we need &lt;em&gt;daily&lt;/em&gt; &lt;em&gt;traffic&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;task-scheduler-and-powershell-script&#34;&gt;
-    &lt;a href=&#34;#task-scheduler-and-powershell-script&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Task Scheduler and PowerShell Script
+&lt;h3 id=&#34;task-scheduler-and-powershell-script&#34;&gt;Task Scheduler and PowerShell Script
 &lt;/h3&gt;&lt;p&gt;I first chose this method since I know that most programs use this as well to run at a specific setting (e.g. Startup, definite time). So I get to code two files: an XML for the task to be imported, and a PowerShell script which the task will run:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;obs-launch-record.ps1&lt;/li&gt;
@@ -1048,9 +1022,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;These two files works but despite the users being technical, this method seems daunting by using an uncommon app, Task Scheduler, and it is inefficient when changing the xml code or script (when changing time, obs.exe location, etc.)&lt;/p&gt;
-&lt;h3 id=&#34;building-a-winforms-app&#34;&gt;
-    &lt;a href=&#34;#building-a-winforms-app&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Building a WinForms App
+&lt;h3 id=&#34;building-a-winforms-app&#34;&gt;Building a WinForms App
 &lt;/h3&gt;&lt;p&gt;To simplify and solve some major problems of the Task Scheduler method, I decided to use a GUI by developing a System Tray app using WinForms.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/automating-obs-recording-with-winforms-app/app-gui.png&#34;
     alt=&#34;App GUI&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
@@ -1068,9 +1040,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The app basically runs 24/7 on the system and checks if it is time to start or stop the executable. An option to auto-run it at startup, and an executable file browser to ensure OBS exists.&lt;/p&gt;
-&lt;h2 id=&#34;monitor-recordings-in-vlc&#34;&gt;
-    &lt;a href=&#34;#monitor-recordings-in-vlc&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Monitor Recordings in VLC
+&lt;h2 id=&#34;monitor-recordings-in-vlc&#34;&gt;Monitor Recordings in VLC
 &lt;/h2&gt;&lt;p&gt;Now that everything is automated and works as intended, assigned personnel can now review recorded files on VLC - we tried other players but they can NOT handle the filesize (over 13GB each).&lt;/p&gt;
 &lt;p&gt;VLC can easily read .MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/automating-obs-recording-with-winforms-app/vlc-audio-tracks.png&#34;
@@ -1079,9 +1049,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;final-thoughts&#34;&gt;
-    &lt;a href=&#34;#final-thoughts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Final Thoughts
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts
 &lt;/h2&gt;&lt;p&gt;It has been working since 2020-ish? See the full code of this app, &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/rpn-traffic-control&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;repo&lt;/a&gt; is available on my GitHub.&lt;/p&gt;
 </description>
@@ -1143,18 +1111,12 @@
         
         <guid>https://reddavid.me/life-updates/</guid>
         <description>&lt;img src="https://reddavid.me/life-updates/life-update.png" alt="Featured image of post Life Updates" /&gt;&lt;p&gt;As you might have noticed, I haven&amp;rsquo;t blogged in more than a month (since April 27th). So here are some highlights and what has happened:&lt;/p&gt;
-&lt;h2 id=&#34;outing-before-may&#34;&gt;
-    &lt;a href=&#34;#outing-before-may&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Outing before May
+&lt;h2 id=&#34;outing-before-may&#34;&gt;Outing before May
 &lt;/h2&gt;&lt;p&gt;First week I got to join an outing to a private pool to unwind. The travel is quite a pain since it was on a Friday night. It was a simple company get-together but so glad I came.&lt;/p&gt;
-&lt;h2 id=&#34;election-season&#34;&gt;
-    &lt;a href=&#34;#election-season&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Election Season
+&lt;h2 id=&#34;election-season&#34;&gt;Election Season
 &lt;/h2&gt;&lt;p&gt;We are yet again elect the two of the highest positions of the government and I got a week off from work (too bad they won&amp;rsquo;t let me have a laptop - so I could at least check back when needed). I got to spend my mom&amp;rsquo;s 50th birthday (again on a location with a pool) where I emcee&amp;rsquo;d for a bit.&lt;/p&gt;
 &lt;p&gt;Going home also means I got to eat better and healthier. So sad I spent most inside since it was extremely hot on our place - so I got to continue reading some books.&lt;/p&gt;
-&lt;h2 id=&#34;reading-books&#34;&gt;
-    &lt;a href=&#34;#reading-books&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Reading Books
+&lt;h2 id=&#34;reading-books&#34;&gt;Reading Books
 &lt;/h2&gt;&lt;p&gt;As said on a &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/new-in-2022/&#34; &gt;previous blog post&lt;/a&gt;, I finished Atomic Habits and finished another two books: Outliers and Essentialism. Reading this three books made me make some changes in my life especially with Essentialism which particularly affected my focus - in work, play, and life.&lt;/p&gt;
 &lt;p&gt;I began journaling daily activities, avoid doing &amp;ldquo;unessential&amp;rdquo; things, and take and &amp;ldquo;think&amp;rdquo; things slow.&lt;/p&gt;
 &lt;p&gt;My reading list as of now:&lt;/p&gt;
@@ -1165,21 +1127,13 @@
 &lt;li&gt;Designing for Work&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;My reading is on and off to &amp;ldquo;accommodate&amp;rdquo; other things like taking short online courses on Udemy, doing some coding courses, and of course doing essential work.&lt;/p&gt;
-&lt;h2 id=&#34;plans&#34;&gt;
-    &lt;a href=&#34;#plans&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Plans?
+&lt;h2 id=&#34;plans&#34;&gt;Plans?
 &lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ll go ahead and say I might not be posting again anytime soon (or maybe if motivation comes) since I am keeping my self busy with work, and &amp;ldquo;essential&amp;rdquo; activities. I also stopped playing video games which is sad but it also means I get to read books or code.&lt;/p&gt;
-&lt;h3 id=&#34;mastering-dotnet&#34;&gt;
-    &lt;a href=&#34;#mastering-dotnet&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Mastering dotnet
+&lt;h3 id=&#34;mastering-dotnet&#34;&gt;Mastering dotnet
 &lt;/h3&gt;&lt;p&gt;Took so long but I think I really get to at least master .NET and C#.&lt;/p&gt;
-&lt;h3 id=&#34;manage-myself&#34;&gt;
-    &lt;a href=&#34;#manage-myself&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Manage Myself
+&lt;h3 id=&#34;manage-myself&#34;&gt;Manage Myself
 &lt;/h3&gt;&lt;p&gt;Just think about it yourself.&lt;/p&gt;
-&lt;h3 id=&#34;tie-the-knot&#34;&gt;
-    &lt;a href=&#34;#tie-the-knot&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Tie the Knot
+&lt;h3 id=&#34;tie-the-knot&#34;&gt;Tie the Knot
 &lt;/h3&gt;&lt;p&gt;Getting closer to October for a new chapter.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;That&amp;rsquo;s it for me, May went by so fast and it&amp;rsquo;s now June, I&amp;rsquo;m getting older in a few days.&lt;/p&gt;
@@ -1193,33 +1147,21 @@
         <guid>https://reddavid.me/building-my-own-discord-bot/</guid>
         <description>&lt;img src="https://reddavid.me/building-my-own-discord-bot/alfred-bot.png" alt="Featured image of post Building My Own Discord Bot" /&gt;&lt;p&gt;A new coding adventure begins! I always wanted to get deep with JavaScript specifically NodeJS to build apps and I never got into it due to confusion into what it is, what it can do, what UI framework to use. Though in this phase of learning NodeJS, I skipped building the UI since the bot is all code.&lt;/p&gt;
 &lt;p&gt;Let’s get into it!&lt;/p&gt;
-&lt;h2 id=&#34;intro&#34;&gt;
-    &lt;a href=&#34;#intro&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Intro
+&lt;h2 id=&#34;intro&#34;&gt;Intro
 &lt;/h2&gt;&lt;p&gt;Why build a bot from scratch? Most free Discord bots out there does a wide-range of tasks from automessaging, ping/share Twitch links, play music, XP level system, but the features are somehow pay-to-use and managing more than 2 bots is somehow distracting for my small server.&lt;/p&gt;
 &lt;p&gt;I also was encouraged after building a very simple NodeJS app that changes my custom status on Discord with a single button using Flutter and Discord user token.&lt;/p&gt;
-&lt;h2 id=&#34;building-with-discordjs&#34;&gt;
-    &lt;a href=&#34;#building-with-discordjs&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Building with DiscordJS
+&lt;h2 id=&#34;building-with-discordjs&#34;&gt;Building with DiscordJS
 &lt;/h2&gt;&lt;p&gt;Before doing the actual code, I got overwhelmed with more coding jargons like OAuth, tokens, intents, etc. - since I haven’t really used them in my personal projects. And ever since coding with C# and/or Flutter/Dart, building apps with their respective documentation, examples, and &lt;em&gt;playground&lt;/em&gt; makes it easier, which then means that getting started with &lt;a class=&#34;link&#34; href=&#34;https://discord.js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DiscordJS&lt;/a&gt; somewhat confused me at first.&lt;/p&gt;
-&lt;h3 id=&#34;create-a-bot-and-get-its-token&#34;&gt;
-    &lt;a href=&#34;#create-a-bot-and-get-its-token&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Create a Bot and Get It’s Token
+&lt;h3 id=&#34;create-a-bot-and-get-its-token&#34;&gt;Create a Bot and Get It’s Token
 &lt;/h3&gt;&lt;p&gt;This should be fairly easy to get, head over to &lt;a class=&#34;link&#34; href=&#34;https://discord.com/developers/applications&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Discord Developer Portal&lt;/a&gt; and build an application/bot. Note: The tutorials online might be a little outdated from what the settings.&lt;/p&gt;
-&lt;h3 id=&#34;install-nodejs&#34;&gt;
-    &lt;a href=&#34;#install-nodejs&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Install NodeJS
+&lt;h3 id=&#34;install-nodejs&#34;&gt;Install NodeJS
 &lt;/h3&gt;&lt;p&gt;This should be included in Windows installation really but they have &lt;a class=&#34;link&#34; href=&#34;https://nodejs.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;guide online&lt;/a&gt;. Be careful, installing node may produce errors on terminal due to a bug in setting environment path.&lt;/p&gt;
-&lt;h3 id=&#34;use-vscode&#34;&gt;
-    &lt;a href=&#34;#use-vscode&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Use VSCode
+&lt;h3 id=&#34;use-vscode&#34;&gt;Use VSCode
 &lt;/h3&gt;&lt;p&gt;Please.&lt;/p&gt;
-&lt;h3 id=&#34;bot-capabilities&#34;&gt;
-    &lt;a href=&#34;#bot-capabilities&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Bot Capabilities
+&lt;h3 id=&#34;bot-capabilities&#34;&gt;Bot Capabilities
 &lt;/h3&gt;&lt;p&gt;As of this writing, here are a few capabilities I put on my Discord bot:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Welcome message to new members&lt;/li&gt;
@@ -1230,18 +1172,12 @@
 &lt;li&gt;Few slash commands&lt;/li&gt;
 &lt;li&gt;XP and Level system&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;heroku-deployment&#34;&gt;
-    &lt;a href=&#34;#heroku-deployment&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Heroku Deployment
+&lt;h2 id=&#34;heroku-deployment&#34;&gt;Heroku Deployment
 &lt;/h2&gt;&lt;p&gt;Running the app locally works but it’s not good practice so I once learned a new platform/service with &lt;a class=&#34;link&#34; href=&#34;https://www.heroku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Heroku&lt;/a&gt;, it hosts and deploys NodeJS apps for free which allows my bot to run online.&lt;/p&gt;
-&lt;h2 id=&#34;codes&#34;&gt;
-    &lt;a href=&#34;#codes&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Codes?
+&lt;h2 id=&#34;codes&#34;&gt;Codes?
 &lt;/h2&gt;&lt;p&gt;I will share the codes/tutorial soon but this post will just serve as an announcement or invitation to share what I have been doing lately.&lt;/p&gt;
-&lt;h2 id=&#34;try-it-out&#34;&gt;
-    &lt;a href=&#34;#try-it-out&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Try It Out
+&lt;h2 id=&#34;try-it-out&#34;&gt;Try It Out
 &lt;/h2&gt;&lt;p&gt;Shamelessly, you can join our Discord community, it now houses people who watches my gaming streams, likes my coding, and just a place to hangout for friends and family.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.gg/5dNqkjcTxZ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Join our Discord Community, Bahay ni Kuya&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1253,9 +1189,7 @@
         <pubDate>Tue, 16 Mar 2021 01:28:15 +0800</pubDate>
         
         <guid>https://reddavid.me/zipcodeph-ios/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h2 id=&#34;now-available&#34;&gt;
-    &lt;a href=&#34;#now-available&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Now Available
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h2 id=&#34;now-available&#34;&gt;Now Available
 &lt;/h2&gt;&lt;p&gt;You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&amp;rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.&lt;/p&gt;
 &lt;p&gt;Get the app below:&lt;/p&gt;
 &lt;center&gt;
@@ -1263,18 +1197,12 @@
 &lt;br&gt;&lt;img src=&#34;https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/a1b53b4233734ce37673d9f70803db74/47cd37c9-fb35-4a15-b8b8-958219968ea0.png&#34; width=&#34;200px&#34;&gt;
 &lt;/center&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;lets-go&#34;&gt;
-    &lt;a href=&#34;#lets-go&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Let&amp;rsquo;s Go
+&lt;h2 id=&#34;lets-go&#34;&gt;Let&amp;rsquo;s Go
 &lt;/h2&gt;&lt;p&gt;For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&amp;rsquo;s native language SwiftUI.&lt;/p&gt;
 &lt;p&gt;Using a Mac is not that hard anymore since I&amp;rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.&lt;/p&gt;
 &lt;p&gt;And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.&lt;/p&gt;
-&lt;h2 id=&#34;development&#34;&gt;
-    &lt;a href=&#34;#development&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Development
-&lt;/h2&gt;&lt;h3 id=&#34;main-and-about-page&#34;&gt;
-    &lt;a href=&#34;#main-and-about-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Main and About Page
+&lt;h2 id=&#34;development&#34;&gt;Development
+&lt;/h2&gt;&lt;h3 id=&#34;main-and-about-page&#34;&gt;Main and About Page
 &lt;/h3&gt;&lt;p&gt;I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&amp;rsquo;t consume a lot of code-behind.&lt;/p&gt;
 &lt;p&gt;The Main Page took a lot of iterations but below is the final view (as of this writing):&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/mainpage.png&#34;
@@ -1290,9 +1218,7 @@
 &lt;figcaption&gt;Help &amp; About Page&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br/&gt;
-&lt;h3 id=&#34;search-page&#34;&gt;
-    &lt;a href=&#34;#search-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Search Page
+&lt;h3 id=&#34;search-page&#34;&gt;Search Page
 &lt;/h3&gt;&lt;p&gt;Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.&lt;/p&gt;
 &lt;p&gt;I didn&amp;rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/searchbar.png&#34;
@@ -1402,9 +1328,7 @@
   &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/searchpage.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;p&gt;I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅&lt;/p&gt;
-&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;
-    &lt;a href=&#34;#menu-and-area-list-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Menu and Area List Page
+&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;Menu and Area List Page
 &lt;/h2&gt;&lt;p&gt;After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/area.png&#34;
     alt=&#34;City and Area Pages&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
@@ -1412,18 +1336,14 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;favorites&#34;&gt;
-    &lt;a href=&#34;#favorites&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Favorites
+&lt;h2 id=&#34;favorites&#34;&gt;Favorites
 &lt;/h2&gt;&lt;p&gt;Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.&lt;/p&gt;
 &lt;p&gt;After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)&lt;/p&gt;
 &lt;video muted width=&#34;280&#34; controls style=&#34;display:block;margin-left:auto;margin-right:auto;&#34;&gt;
   &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/favorite.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;showcase&#34;&gt;
-    &lt;a href=&#34;#showcase&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Showcase
+&lt;h2 id=&#34;showcase&#34;&gt;Showcase
 &lt;/h2&gt;&lt;p&gt;Below are the app showcase which you can see on the App Store as soon as the app is available&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Light and Dark Mode&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
 	data-flex-basis=&#34;110px&#34; &gt;
@@ -1439,9 +1359,7 @@
 	data-flex-basis=&#34;110px&#34; &gt;
 &lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Mindanao&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
 	data-flex-basis=&#34;110px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;downloads&#34;&gt;
-    &lt;a href=&#34;#downloads&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Downloads
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads
 &lt;/h2&gt;&lt;p&gt;(Now Available!) &lt;a class=&#34;link&#34; href=&#34;https://apple.co/3lrnrBO&#34; target=&#34;_blank&#34;&gt;Get the app&lt;/a&gt; on App Store for iPhone and iPad.&lt;/p&gt;
 &lt;p&gt;The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.&lt;/p&gt;
 &lt;p&gt;For the meantime, the app is still available for Android and Windows 10.&lt;/p&gt;
@@ -1459,17 +1377,13 @@
         <pubDate>Mon, 17 Aug 2020 19:56:25 +0800</pubDate>
         
         <guid>https://reddavid.me/new-keeb/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/tecware.jpg" alt="Featured image of post New Keeb in Town" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;
-    &lt;a href=&#34;#foreword&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Foreword
+        <description>&lt;img src="https://reddavid.me/images/feat/tecware.jpg" alt="Featured image of post New Keeb in Town" /&gt;&lt;h2 id=&#34;foreword&#34;&gt;Foreword
 &lt;/h2&gt;&lt;p&gt;This is a simple review and unboxing post for my newly bought keyboard today. It is the Tecware Phantom Elite TKL with Gateron brown switches. I am using it to write this post.&lt;/p&gt;
 &lt;p&gt;I have used a number of mechanical keyboards in the past, the first one was an Aula one with Outemu blues. Then a TKL with blue Gateron switches, I forgot the brand, but it&amp;rsquo;s also Chinese. And my slightly premium keyboards, the Logitech G403 and the G810.&lt;/p&gt;
 &lt;p&gt;The G810 was a stay-at-home keyboard for my laptop and the G403 lives in the office. And guess what, both are defective with unresponsive and ghosting keys, respectively. I thought of delaying buying a new one for &amp;ldquo;budget&amp;rdquo; reasons but coding with keyboard issues is a definitely a pain in the ass with constant deleting doubling keys and characters. I am looking for several &amp;ldquo;budget&amp;rdquo; keyboards out there, including the TNC Icarus one with Cherry MXs but the delivery time was so bad that I had to settle down with this one.&lt;/p&gt;
 &lt;p&gt;Coming from Logitech, I almost passed on this one for its &amp;ldquo;gamer&amp;rdquo; font which I don&amp;rsquo;t think is &lt;em&gt;clean&lt;/em&gt; for my desk, but my wallet said &amp;ldquo;it&amp;rsquo;s okay, you can live with that&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;I bought one with brown switches since the old ones I had had Romer-Gs with a &amp;ldquo;mushy-tactile&amp;rdquo; feel on keypress so I don&amp;rsquo;t have to worry much about them on the long run.&lt;/p&gt;
-&lt;h2 id=&#34;unboxing&#34;&gt;
-    &lt;a href=&#34;#unboxing&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Unboxing
+&lt;h2 id=&#34;unboxing&#34;&gt;Unboxing
 &lt;/h2&gt;&lt;p&gt;The box looks premium with minimal print of the logo and keyboard model on the center.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/box.jpg&#34;
     alt=&#34;Tecware Phantom TKL box&#34;&gt;&lt;figcaption&gt;
@@ -1490,9 +1404,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;tkl&#34;&gt;
-    &lt;a href=&#34;#tkl&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    TKL
+&lt;h3 id=&#34;tkl&#34;&gt;TKL
 &lt;/h3&gt;&lt;p&gt;The keyboard has a TKL layout, with software-customizable RGB setting, and replaceable switches (modular). It costs php2,500, slightly costier than their Tecware Phantoms - I&amp;rsquo;m yet to investigate why.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/tecware-rgb-software.png&#34;
     alt=&#34;Tecware software for RGB modes&#34;&gt;&lt;figcaption&gt;
@@ -1507,9 +1419,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;rgb&#34;&gt;
-    &lt;a href=&#34;#rgb&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    RGB
+&lt;h3 id=&#34;rgb&#34;&gt;RGB
 &lt;/h3&gt;&lt;p&gt;The RGB lighting is good with bunch of built-in modes which can be visualized and edited using their software. Here&amp;rsquo;s what it looks like in an unlit office desk.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/08-20/new-kb/rgb.jpg&#34;
     alt=&#34;Box contents&#34;&gt;&lt;figcaption&gt;
@@ -1519,9 +1429,7 @@
 
 &lt;p&gt;I went ahead for a typing test and got a 76wpm results with no mistyped words. But let&amp;rsquo;s see how long this budget badboy keyboard lasts.&lt;/p&gt;
 &lt;p&gt;That&amp;rsquo;s all, just a short review and unboxing post for the internet people to see. If you want me to have a typing test and sound test for it, let me know.&lt;/p&gt;
-&lt;h2 id=&#34;support-me&#34;&gt;
-    &lt;a href=&#34;#support-me&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Support Me
+&lt;h2 id=&#34;support-me&#34;&gt;Support Me
 &lt;/h2&gt;&lt;p&gt;Also, my apps are still available in the &lt;a class=&#34;link&#34; href=&#34;ms-windows-store:publisher?name=Red David&#34; target=&#34;_blank&#34;&gt;Microsoft Store&lt;/a&gt; and some in the &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/dev?id=5465762079490576029&#34; target=&#34;_blank&#34;&gt;Google Play Store&lt;/a&gt;, where I mostly get my funds for buying these stuff. You can always check them out, they&amp;rsquo;re free to download and use, you don&amp;rsquo;t have to buy or pay the the listed price - unless you want to.&lt;/p&gt;
 </description>
         </item>

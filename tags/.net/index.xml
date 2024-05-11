@@ -14,18 +14,14 @@
         <guid>https://reddavid.me/i-am-here/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/new-post.png" alt="Featured image of post I Am Here" /&gt;&lt;p&gt;Well, how about that? I think I just had the longest time without posting anything here. Maybe I just posted thrice within February just to escape the next ones. 🥲&lt;/p&gt;
 &lt;p&gt;Okay, so what alibis do I have to tell you this time? Hmm 🤔&lt;/p&gt;
-&lt;h2 id=&#34;i-learned-a-new-thing-about-computer-hardware&#34;&gt;
-    &lt;a href=&#34;#i-learned-a-new-thing-about-computer-hardware&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    I Learned a New Thing about Computer Hardware
+&lt;h2 id=&#34;i-learned-a-new-thing-about-computer-hardware&#34;&gt;I Learned a New Thing about Computer Hardware
 &lt;/h2&gt;&lt;p&gt;I have this &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;post&lt;/a&gt; about my Nvidia GPU issue on games crashing and black screens and &lt;em&gt;somehow&lt;/em&gt; fixing it? It might have been because my motherboard is &lt;strong&gt;NOT&lt;/strong&gt; compatible with my RAM.&lt;/p&gt;
 &lt;p&gt;Apparently, PC hardware in 2022-2023 is not at all just buy the &lt;em&gt;right&lt;/em&gt; parts you can afford and just build as I assumed it to be. My last PC build I did was waaaaay back 2012-ish, no fancy RGBs, heavy metal cases, no flashy cable-management, and they somehow work.&lt;/p&gt;
 &lt;div class=&#34;tenor-gif-embed&#34; data-postid=&#34;7555951312549958006&#34; data-share-method=&#34;host&#34; data-aspect-ratio=&#34;1.33333&#34; data-width=&#34;100%&#34;&gt;&lt;a href=&#34;https://tenor.com/view/tv-family-guy-pepperidge-farm-remember-gif-7555951312549958006&#34;&gt;Tv Family Guy GIF&lt;/a&gt;from &lt;a href=&#34;https://tenor.com/search/tv-gifs&#34;&gt;Tv GIFs&lt;/a&gt;&lt;/div&gt; &lt;script type=&#34;text/javascript&#34; async src=&#34;https://tenor.com/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt;The &lt;em&gt;workaround&lt;/em&gt; worked for a while until I felt the need to play newer games, especially the day-one releases on my &lt;a class=&#34;link&#34; href=&#34;https://www.xbox.com/en-US/xbox-game-pass&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Xbox Game Pass for PC&lt;/a&gt; subscription.&lt;/p&gt;
-&lt;h3 id=&#34;i-jumped-shipped-to-amd&#34;&gt;
-    &lt;a href=&#34;#i-jumped-shipped-to-amd&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    I jumped shipped to AMD
+&lt;h3 id=&#34;i-jumped-shipped-to-amd&#34;&gt;I jumped shipped to AMD
 &lt;/h3&gt;&lt;p&gt;After a month of checking out some GPUs (which I can afford) to replace the current one, it only seemed that I can only get an AMD card. I chose to end with an ASUS 6700XT which seems powerful enough for the games&lt;/p&gt;
 &lt;p&gt;It has 12GB of VRAM which I am yet to &lt;em&gt;fully&lt;/em&gt; utilize. More detailed specs can be seen from the product page &lt;a class=&#34;link&#34; href=&#34;https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx6700xt-12g/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -33,17 +29,13 @@
 &lt;p&gt;Remember the issues I had months prior to upgrading? Well, it was much worse, and I once again assumed that “AMD still has some driver issues these days, huh?”, since driver &lt;em&gt;workaround&lt;/em&gt; does not seem to fix whatever is happening.&lt;/p&gt;
 &lt;p&gt;Besides games crashing, I also began getting random black screens, and even total PC shutdown. I also thought of losing the “silicon lottery” or even my PSU is not enough for the system.&lt;/p&gt;
 &lt;p&gt;Not until I &lt;em&gt;finally&lt;/em&gt; bothered myself checking my motherboard’s support website for Memory Compatibility. And guess what, I did find my RAMs’ brand and model from the list but what was NOT compatible was putting four sticks in - which I recently did to get 32gigs of memory.&lt;/p&gt;
-&lt;h3 id=&#34;going-64gb-for-games&#34;&gt;
-    &lt;a href=&#34;#going-64gb-for-games&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Going 64GB for Games?
+&lt;h3 id=&#34;going-64gb-for-games&#34;&gt;Going 64GB for Games?
 &lt;/h3&gt;&lt;p&gt;Spent weeks not gaming just to avoid the issues until I found some RAM deals online that I got myself 64GB of, ehem, &lt;em&gt;compatible&lt;/em&gt; memory sticks for my motherboard. Well, I hoped.&lt;/p&gt;
 &lt;p&gt;After my order arrived, I spent no time installing the new RAM sticks and fingers-crossed on launching a game where I definitely faced a crash. Tested on more games to finally tell that there were no more problems.&lt;/p&gt;
 &lt;p&gt;I played High on Life and Atomic Heart just to name a few. And they are on my YouTube gaming channel.&lt;/p&gt;
 &lt;p&gt;I went over to get 64GB not just for games but for &lt;a class=&#34;link&#34; href=&#34;https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hardware virtualization&lt;/a&gt; like Virtual Machines, Android emulators, etc.&lt;/p&gt;
-&lt;h2 id=&#34;good-rest&#34;&gt;
-    &lt;a href=&#34;#good-rest&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Good Rest
+&lt;h2 id=&#34;good-rest&#34;&gt;Good Rest
 &lt;/h2&gt;&lt;p&gt;I and the wife also took some time off work to unwind somewhere south. We went to a private resort and go for night swim, eat good food, and relaxed a bit with a super mediocre massage (which is, OMG, I wish to erase this memory on just being a crappy service 😂).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/fish-and-veggies-laong-laan.png&#34;
     alt=&#34;Dinner at Laong Laan Restaurant&#34;&gt;&lt;figcaption&gt;
@@ -66,9 +58,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;keep-learning&#34;&gt;
-    &lt;a href=&#34;#keep-learning&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Keep Learning
+&lt;h2 id=&#34;keep-learning&#34;&gt;Keep Learning
 &lt;/h2&gt;&lt;p&gt;I recently bought &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/c/EposVox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;EposVox&lt;/a&gt;’s &lt;a class=&#34;link&#34; href=&#34;https://eposvox.gumroad.com/l/obs-definitive-guide-2023-eposvox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OBS Masterclass&lt;/a&gt; which might help me learn more about the capabilities of &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -83,9 +73,7 @@
 &lt;p&gt;I also completed courses in &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Udemy&lt;/a&gt; in IT Management where I learned some insightful tips if I ever go further in this IT journey and career. Also found some $1 video courses on HumbleBundle about Cybersecurity, which I plan to watch and learn from soon.&lt;/p&gt;
 &lt;p&gt;There are a couple more sources and materials I tend to read and watch from time-to-time for me to not &lt;em&gt;waste time&lt;/em&gt; of just consuming content but actually learning. Which point to lesser time on…&lt;/p&gt;
-&lt;h2 id=&#34;games&#34;&gt;
-    &lt;a href=&#34;#games&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Games
+&lt;h2 id=&#34;games&#34;&gt;Games
 &lt;/h2&gt;&lt;p&gt;After upgrading my GPU, I actually finished playing Atomic Heart and found myself tired so I went to playing shorter games as I browse Xbox Game Pass. I played short games (~3 or ~4 hours) which I enjoyed playing on &lt;em&gt;free&lt;/em&gt; time. Also played a bit online with my friend overseas.&lt;/p&gt;
 &lt;p&gt;And one night, while drunk (and while Steam Summer Sale is on-going), I purchased &lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/546560/HalfLife_Alyx/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Half-Life: Alyx&lt;/a&gt; knowing that it is a VR game and I HAVE NO VR headset (sorry for the caps). I just thought of adding it to my “backlog” of games until I have a VR kit, but checking the &lt;a class=&#34;link&#34; href=&#34;https://github.com/bfeber/HLA-NoVR&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -94,9 +82,7 @@
 &lt;p&gt;I know the game on mouse and keyboard is not as immersive as &lt;em&gt;in-your-face&lt;/em&gt; VR but WOW, I am playing a new Half-Life game after how many years.&lt;/p&gt;
 &lt;p&gt;I faced a few bugs and missed out on some things and &lt;em&gt;innovations&lt;/em&gt; I saw circulating online back then but overall I am amazed how they actually did it. The full playthrough is on YouTube.&lt;/p&gt;
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/videoseries?list=PLwC47NQhSu5xDoW5kwv0Pc5-x71Dvmj2Y&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h2 id=&#34;coding&#34;&gt;
-    &lt;a href=&#34;#coding&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Coding
+&lt;h2 id=&#34;coding&#34;&gt;Coding
 &lt;/h2&gt;&lt;p&gt;With the lack of energy to play games, I spent more time on coding being inspired by new modern design by Microsoft for Windows apps. Which I recently updated two of my apps I use mostly to help we “work”.&lt;/p&gt;
 &lt;p&gt;Both apps got some code improvements and their UI were updated from &lt;a class=&#34;link&#34; href=&#34;https://github.com/Kinnara/ModernWpf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ModernWPF&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://wpfui.lepo.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -127,9 +113,7 @@
         <guid>https://reddavid.me/more-work-automation-by-building-a-wpf-app/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/work-automation.png" alt="Featured image of post More Work Automation by Building a WPF App" /&gt;&lt;p&gt;As I mentioned in my previous blog post, I do some online broadcasting/content duties which include posting on the website, monitoring and logging 12 stations’ social media and audio servers, and any particular aspect of it.&lt;/p&gt;
 &lt;p&gt;Having to monitor the 12 stations’ analytics and statistics, one will always come to the point where they would need to automate their workflow. And that’s what I did.&lt;/p&gt;
-&lt;h2 id=&#34;counting-wordpress-posts&#34;&gt;
-    &lt;a href=&#34;#counting-wordpress-posts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Counting WordPress Posts
+&lt;h2 id=&#34;counting-wordpress-posts&#34;&gt;Counting WordPress Posts
 &lt;/h2&gt;&lt;p&gt;First up is to check which stations have posted content on the news website. Since I also have the access to cPanel, thus I can whitelist the office’s IP address in phpMyAdmin to access the MySQL database then.&lt;/p&gt;
 &lt;p&gt;The app connects to the WordPress database, checks if a station has any existing posts on a specific date, then builds a &lt;em&gt;calendar-like&lt;/em&gt; layout, as shown below:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/posts-activity-page.png&#34;&gt;
@@ -347,21 +331,15 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The &lt;em&gt;layoutBuilder&lt;/em&gt; is a cheeky code I played around to craft a calendar with a check or “x” mark whether a post exists on that date.&lt;/p&gt;
 &lt;p&gt;The ContentRoot is a StackPanel in XAML and will hold the three new StackPanels created from the code above.&lt;/p&gt;
-&lt;h2 id=&#34;social-media-numbers&#34;&gt;
-    &lt;a href=&#34;#social-media-numbers&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Social Media Numbers
+&lt;h2 id=&#34;social-media-numbers&#34;&gt;Social Media Numbers
 &lt;/h2&gt;&lt;p&gt;This next one really needs an automation tool. This tool will log the 12 stations’ Facebook Pages, Twitter, and YouTube numbers (likes, followers, and channel subscribers).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/social-media-page.png&#34;&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;facebook&#34;&gt;
-    &lt;a href=&#34;#facebook&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Facebook
+&lt;h3 id=&#34;facebook&#34;&gt;Facebook
 &lt;/h3&gt;&lt;p&gt;Too bad I can’t get around an API for Facebook Pages to get the number of likes and followers so I ended up with web scraping, which I posted &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/scraping-facebook-pages-to-get-number-of-likes-and-followers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;twitter&#34;&gt;
-    &lt;a href=&#34;#twitter&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Twitter
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter
 &lt;/h3&gt;&lt;p&gt;I used Twitter’s API to get the accounts’ number of followers, although there is a step which I still have to get the account’s ID from the username:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -450,9 +428,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;I used json2csharp to convert Twitter response to TwitterData object.&lt;/p&gt;
-&lt;h3 id=&#34;youtube&#34;&gt;
-    &lt;a href=&#34;#youtube&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    YouTube
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube
 &lt;/h3&gt;&lt;p&gt;As for YouTube, we also get to use an API which will require an API key from Google. And I simply scraped off the response to get the number of subscribers instead of using an object.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -505,9 +481,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Then the numbers are placed into an object to then be &lt;em&gt;databound&lt;/em&gt; and listed into a DataGrid in XAML.&lt;/p&gt;
-&lt;h2 id=&#34;centovacast-audio-streams&#34;&gt;
-    &lt;a href=&#34;#centovacast-audio-streams&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    CentovaCast Audio Streams
+&lt;h2 id=&#34;centovacast-audio-streams&#34;&gt;CentovaCast Audio Streams
 &lt;/h2&gt;&lt;p&gt;This third tool lists the stations’ current status of their audio server whether it is off or on, their stream status - online or offline, and current listeners.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/servers-page.png&#34;&gt;
 &lt;/figure&gt;
@@ -569,9 +543,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;em&gt;Commands: restart, reload, stop. The Stream menu item will navigate to the stream page.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;text-case-changer&#34;&gt;
-    &lt;a href=&#34;#text-case-changer&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Text Case Changer
+&lt;h2 id=&#34;text-case-changer&#34;&gt;Text Case Changer
 &lt;/h2&gt;&lt;p&gt;We now go back to WordPress content. I sometimes post news content to the website, and some news write-ups don’t follow the standards - like the title in all-caps, in Unicode characters, etc.&lt;/p&gt;
 &lt;p&gt;Prior to this, I tried writing my own logic but I was not satisfied until I used DevToys code.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/text-case-changer-page.png&#34;&gt;
@@ -580,9 +552,7 @@
 &lt;p&gt;Prior to this, my logic includes a list of exception words - which will ignore any case change or follow a certain case - like proper nouns.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/veler/DevToys&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DevToys is open source in GitHub.&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;url-shortener&#34;&gt;
-    &lt;a href=&#34;#url-shortener&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    URL Shortener
+&lt;h2 id=&#34;url-shortener&#34;&gt;URL Shortener
 &lt;/h2&gt;&lt;p&gt;There was this Yourls app in cPanel/Softaculous that allows me to create short URLs but it stopped working one day. And WordPress already has one.&lt;/p&gt;
 &lt;p&gt;This tool should be renamed as URL Styler, which just styles &lt;em&gt;accepted&lt;/em&gt; URL input into a custom Viber &lt;em&gt;message&lt;/em&gt; - we repost news to our Viber community members.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/url-shortener-page.png&#34;&gt;
@@ -619,9 +589,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The tool will finally create a custom text to the Clipboard and ready to be pasted in Viber.&lt;/p&gt;
-&lt;h2 id=&#34;wip-shortcuts&#34;&gt;
-    &lt;a href=&#34;#wip-shortcuts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    (WIP) Shortcuts
+&lt;h2 id=&#34;wip-shortcuts&#34;&gt;(WIP) Shortcuts
 &lt;/h2&gt;&lt;p&gt;I used an Elgato Stream Deck before to launch most-used URLs and I am currently working to integrate this to the app.&lt;/p&gt;
 &lt;p&gt;Unfortunately, the code repo is not publicly available but will try to “hide” some confidential details before making it public.&lt;/p&gt;
 </description>
@@ -634,9 +602,7 @@
         <guid>https://reddavid.me/automating-obs-recording-with-winforms-app/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/automate-obs.png" alt="Featured image of post Automating OBS Recording With WinForms App" /&gt;&lt;p&gt;There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.&lt;/p&gt;
 &lt;p&gt;I was asked if this was possible, and I said &lt;em&gt;yes&lt;/em&gt;, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.&lt;/p&gt;
-&lt;h2 id=&#34;obs-layout&#34;&gt;
-    &lt;a href=&#34;#obs-layout&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    OBS Layout
+&lt;h2 id=&#34;obs-layout&#34;&gt;OBS Layout
 &lt;/h2&gt;&lt;p&gt;So I began setting up the layout that will help distinguish the date and time of the streams being recorded:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add a Text source and Used a datetime.lua script:&lt;/li&gt;
@@ -943,9 +909,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;obs-recording-settings&#34;&gt;
-    &lt;a href=&#34;#obs-recording-settings&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    OBS Recording Settings
+&lt;h2 id=&#34;obs-recording-settings&#34;&gt;OBS Recording Settings
 &lt;/h2&gt;&lt;p&gt;After arranging the tracks to determine their order:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Set Advanced Audio Properties to separate audio to each track&lt;/li&gt;
@@ -977,14 +941,10 @@
 &lt;ul&gt;
 &lt;li&gt;Finally, I set the settings to record at just 10kbps to decrease the output filesize.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;automation&#34;&gt;
-    &lt;a href=&#34;#automation&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Automation
+&lt;h2 id=&#34;automation&#34;&gt;Automation
 &lt;/h2&gt;&lt;p&gt;After setting up the recording system, it is now a challenge on how to run OBS and start recording at the required times: 3:00am to 10:00pm.&lt;/p&gt;
 &lt;p&gt;Turning off the system at 10:00pm is not a problem but starting it at 3:00am is a challenge. And it is also not an option to run the system 24/7 since we need &lt;em&gt;daily&lt;/em&gt; &lt;em&gt;traffic&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;task-scheduler-and-powershell-script&#34;&gt;
-    &lt;a href=&#34;#task-scheduler-and-powershell-script&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Task Scheduler and PowerShell Script
+&lt;h3 id=&#34;task-scheduler-and-powershell-script&#34;&gt;Task Scheduler and PowerShell Script
 &lt;/h3&gt;&lt;p&gt;I first chose this method since I know that most programs use this as well to run at a specific setting (e.g. Startup, definite time). So I get to code two files: an XML for the task to be imported, and a PowerShell script which the task will run:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;obs-launch-record.ps1&lt;/li&gt;
@@ -1161,9 +1121,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;These two files works but despite the users being technical, this method seems daunting by using an uncommon app, Task Scheduler, and it is inefficient when changing the xml code or script (when changing time, obs.exe location, etc.)&lt;/p&gt;
-&lt;h3 id=&#34;building-a-winforms-app&#34;&gt;
-    &lt;a href=&#34;#building-a-winforms-app&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Building a WinForms App
+&lt;h3 id=&#34;building-a-winforms-app&#34;&gt;Building a WinForms App
 &lt;/h3&gt;&lt;p&gt;To simplify and solve some major problems of the Task Scheduler method, I decided to use a GUI by developing a System Tray app using WinForms.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/automating-obs-recording-with-winforms-app/app-gui.png&#34;
     alt=&#34;App GUI&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
@@ -1181,9 +1139,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The app basically runs 24/7 on the system and checks if it is time to start or stop the executable. An option to auto-run it at startup, and an executable file browser to ensure OBS exists.&lt;/p&gt;
-&lt;h2 id=&#34;monitor-recordings-in-vlc&#34;&gt;
-    &lt;a href=&#34;#monitor-recordings-in-vlc&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Monitor Recordings in VLC
+&lt;h2 id=&#34;monitor-recordings-in-vlc&#34;&gt;Monitor Recordings in VLC
 &lt;/h2&gt;&lt;p&gt;Now that everything is automated and works as intended, assigned personnel can now review recorded files on VLC - we tried other players but they can NOT handle the filesize (over 13GB each).&lt;/p&gt;
 &lt;p&gt;VLC can easily read .MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/automating-obs-recording-with-winforms-app/vlc-audio-tracks.png&#34;
@@ -1192,9 +1148,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;final-thoughts&#34;&gt;
-    &lt;a href=&#34;#final-thoughts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Final Thoughts
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts
 &lt;/h2&gt;&lt;p&gt;It has been working since 2020-ish? See the full code of this app, &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/rpn-traffic-control&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;repo&lt;/a&gt; is available on my GitHub.&lt;/p&gt;
 </description>
@@ -1206,18 +1160,12 @@
         
         <guid>https://reddavid.me/life-updates/</guid>
         <description>&lt;img src="https://reddavid.me/life-updates/life-update.png" alt="Featured image of post Life Updates" /&gt;&lt;p&gt;As you might have noticed, I haven&amp;rsquo;t blogged in more than a month (since April 27th). So here are some highlights and what has happened:&lt;/p&gt;
-&lt;h2 id=&#34;outing-before-may&#34;&gt;
-    &lt;a href=&#34;#outing-before-may&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Outing before May
+&lt;h2 id=&#34;outing-before-may&#34;&gt;Outing before May
 &lt;/h2&gt;&lt;p&gt;First week I got to join an outing to a private pool to unwind. The travel is quite a pain since it was on a Friday night. It was a simple company get-together but so glad I came.&lt;/p&gt;
-&lt;h2 id=&#34;election-season&#34;&gt;
-    &lt;a href=&#34;#election-season&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Election Season
+&lt;h2 id=&#34;election-season&#34;&gt;Election Season
 &lt;/h2&gt;&lt;p&gt;We are yet again elect the two of the highest positions of the government and I got a week off from work (too bad they won&amp;rsquo;t let me have a laptop - so I could at least check back when needed). I got to spend my mom&amp;rsquo;s 50th birthday (again on a location with a pool) where I emcee&amp;rsquo;d for a bit.&lt;/p&gt;
 &lt;p&gt;Going home also means I got to eat better and healthier. So sad I spent most inside since it was extremely hot on our place - so I got to continue reading some books.&lt;/p&gt;
-&lt;h2 id=&#34;reading-books&#34;&gt;
-    &lt;a href=&#34;#reading-books&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Reading Books
+&lt;h2 id=&#34;reading-books&#34;&gt;Reading Books
 &lt;/h2&gt;&lt;p&gt;As said on a &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/new-in-2022/&#34; &gt;previous blog post&lt;/a&gt;, I finished Atomic Habits and finished another two books: Outliers and Essentialism. Reading this three books made me make some changes in my life especially with Essentialism which particularly affected my focus - in work, play, and life.&lt;/p&gt;
 &lt;p&gt;I began journaling daily activities, avoid doing &amp;ldquo;unessential&amp;rdquo; things, and take and &amp;ldquo;think&amp;rdquo; things slow.&lt;/p&gt;
 &lt;p&gt;My reading list as of now:&lt;/p&gt;
@@ -1228,21 +1176,13 @@
 &lt;li&gt;Designing for Work&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;My reading is on and off to &amp;ldquo;accommodate&amp;rdquo; other things like taking short online courses on Udemy, doing some coding courses, and of course doing essential work.&lt;/p&gt;
-&lt;h2 id=&#34;plans&#34;&gt;
-    &lt;a href=&#34;#plans&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Plans?
+&lt;h2 id=&#34;plans&#34;&gt;Plans?
 &lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ll go ahead and say I might not be posting again anytime soon (or maybe if motivation comes) since I am keeping my self busy with work, and &amp;ldquo;essential&amp;rdquo; activities. I also stopped playing video games which is sad but it also means I get to read books or code.&lt;/p&gt;
-&lt;h3 id=&#34;mastering-dotnet&#34;&gt;
-    &lt;a href=&#34;#mastering-dotnet&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Mastering dotnet
+&lt;h3 id=&#34;mastering-dotnet&#34;&gt;Mastering dotnet
 &lt;/h3&gt;&lt;p&gt;Took so long but I think I really get to at least master .NET and C#.&lt;/p&gt;
-&lt;h3 id=&#34;manage-myself&#34;&gt;
-    &lt;a href=&#34;#manage-myself&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Manage Myself
+&lt;h3 id=&#34;manage-myself&#34;&gt;Manage Myself
 &lt;/h3&gt;&lt;p&gt;Just think about it yourself.&lt;/p&gt;
-&lt;h3 id=&#34;tie-the-knot&#34;&gt;
-    &lt;a href=&#34;#tie-the-knot&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Tie the Knot
+&lt;h3 id=&#34;tie-the-knot&#34;&gt;Tie the Knot
 &lt;/h3&gt;&lt;p&gt;Getting closer to October for a new chapter.&lt;/p&gt;
 &lt;br&gt;
 &lt;p&gt;That&amp;rsquo;s it for me, May went by so fast and it&amp;rsquo;s now June, I&amp;rsquo;m getting older in a few days.&lt;/p&gt;

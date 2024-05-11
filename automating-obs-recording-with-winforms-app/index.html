@@ -489,9 +489,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     
     <p>There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.</p>
 <p>I was asked if this was possible, and I said <em>yes</em>, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.</p>
-<h2 id="obs-layout">
-    <a href="#obs-layout" class="header-anchor">#</a>
-    OBS Layout
+<h2 id="obs-layout">OBS Layout
 </h2><p>So I began setting up the layout that will help distinguish the date and time of the streams being recorded:</p>
 <ul>
 <li>Add a Text source and Used a datetime.lua script:</li>
@@ -798,9 +796,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     </figcaption>
 </figure>
 
-<h2 id="obs-recording-settings">
-    <a href="#obs-recording-settings" class="header-anchor">#</a>
-    OBS Recording Settings
+<h2 id="obs-recording-settings">OBS Recording Settings
 </h2><p>After arranging the tracks to determine their order:</p>
 <ul>
 <li>Set Advanced Audio Properties to separate audio to each track</li>
@@ -832,14 +828,10 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 <ul>
 <li>Finally, I set the settings to record at just 10kbps to decrease the output filesize.</li>
 </ul>
-<h2 id="automation">
-    <a href="#automation" class="header-anchor">#</a>
-    Automation
+<h2 id="automation">Automation
 </h2><p>After setting up the recording system, it is now a challenge on how to run OBS and start recording at the required times: 3:00am to 10:00pm.</p>
 <p>Turning off the system at 10:00pm is not a problem but starting it at 3:00am is a challenge. And it is also not an option to run the system 24/7 since we need <em>daily</em> <em>traffic</em>.</p>
-<h3 id="task-scheduler-and-powershell-script">
-    <a href="#task-scheduler-and-powershell-script" class="header-anchor">#</a>
-    Task Scheduler and PowerShell Script
+<h3 id="task-scheduler-and-powershell-script">Task Scheduler and PowerShell Script
 </h3><p>I first chose this method since I know that most programs use this as well to run at a specific setting (e.g. Startup, definite time). So I get to code two files: an XML for the task to be imported, and a PowerShell script which the task will run:</p>
 <ul>
 <li>obs-launch-record.ps1</li>
@@ -1016,9 +1008,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>These two files works but despite the users being technical, this method seems daunting by using an uncommon app, Task Scheduler, and it is inefficient when changing the xml code or script (when changing time, obs.exe location, etc.)</p>
-<h3 id="building-a-winforms-app">
-    <a href="#building-a-winforms-app" class="header-anchor">#</a>
-    Building a WinForms App
+<h3 id="building-a-winforms-app">Building a WinForms App
 </h3><p>To simplify and solve some major problems of the Task Scheduler method, I decided to use a GUI by developing a System Tray app using WinForms.</p>
 <figure><img src="/automating-obs-recording-with-winforms-app/app-gui.png"
     alt="App GUI" width="50%"><figcaption>
@@ -1036,9 +1026,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The app basically runs 24/7 on the system and checks if it is time to start or stop the executable. An option to auto-run it at startup, and an executable file browser to ensure OBS exists.</p>
-<h2 id="monitor-recordings-in-vlc">
-    <a href="#monitor-recordings-in-vlc" class="header-anchor">#</a>
-    Monitor Recordings in VLC
+<h2 id="monitor-recordings-in-vlc">Monitor Recordings in VLC
 </h2><p>Now that everything is automated and works as intended, assigned personnel can now review recorded files on VLC - we tried other players but they can NOT handle the filesize (over 13GB each).</p>
 <p>VLC can easily read .MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):</p>
 <figure><img src="/automating-obs-recording-with-winforms-app/vlc-audio-tracks.png"
@@ -1047,9 +1035,7 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     </figcaption>
 </figure>
 
-<h2 id="final-thoughts">
-    <a href="#final-thoughts" class="header-anchor">#</a>
-    Final Thoughts
+<h2 id="final-thoughts">Final Thoughts
 </h2><p>It has been working since 2020-ish? See the full code of this app, <a class="link" href="https://github.com/reddvid/rpn-traffic-control"  target="_blank" rel="noopener"
     >repo</a> is available on my GitHub.</p>
 

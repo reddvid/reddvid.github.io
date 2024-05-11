@@ -6,20 +6,33 @@
         <description>Recent content in How To on David Ballesteros</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 25 Mar 2024 17:56:45 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/how-to/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 May 2024 18:41:28 +0800</lastBuildDate><atom:link href="https://reddavid.me/categories/how-to/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to Use Both Output Jacks to Play a Single Audio Realtek</title>
+        <link>https://reddavid.me/combine-front-and-rear-output-jacks-realtek/</link>
+        <pubDate>Sat, 11 May 2024 18:41:28 +0800</pubDate>
+        
+        <guid>https://reddavid.me/combine-front-and-rear-output-jacks-realtek/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/combine-output-realtek.png" alt="Featured image of post How to Use Both Output Jacks to Play a Single Audio Realtek" /&gt;&lt;p&gt;On supported motherboards and having the Realtek Driver installed, the Realtek Audio Control should be pre-installed (on my case it has the MSI branding).&lt;/p&gt;
+&lt;p&gt;Just set the settings as seen from the screenshot below:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/combine-front-and-rear-output-jacks-realtek/realtek-audio-control-setting.png&#34;
+    alt=&#34;Realtek Audio Control Settings&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Realtek Audio Control Settings&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now hopefully you can hear the same audio from two devices, otherwise check your device output settings.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)</title>
         <link>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</link>
         <pubDate>Mon, 25 Mar 2024 17:56:45 +0800</pubDate>
         
         <guid>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</guid>
-        <description>&lt;img src="https://reddavid.me/images/og/vm-shortcut-og.png" alt="Featured image of post How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)" /&gt;&lt;h3 id=&#34;update-326-adding-a-guide-for-openingconnecting-to-vm-using-stream-deck&#34;&gt;
-    &lt;a href=&#34;#update-326-adding-a-guide-for-openingconnecting-to-vm-using-stream-deck&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update 3/26: Adding a guide for opening/connecting to VM using Stream Deck.
+        <description>&lt;img src="https://reddavid.me/images/og/vm-shortcut-og.png" alt="Featured image of post How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)" /&gt;&lt;h3 id=&#34;update-326-adding-a-guide-for-openingconnecting-to-vm-using-stream-deck&#34;&gt;Update 3/26: Adding a guide for opening/connecting to VM using Stream Deck.
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#using-stream-deck-to-open-vm-connection&#34; &gt;&lt;strong&gt;Jump to guide&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;shortcut-for-windows-11&#34;&gt;
-    &lt;a href=&#34;#shortcut-for-windows-11&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Shortcut for Windows 11
+&lt;h2 id=&#34;shortcut-for-windows-11&#34;&gt;Shortcut for Windows 11
 &lt;/h2&gt;&lt;p&gt;Ever want to launch a VM directly without opening the main Hyper-V app first?
 Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;ol&gt;
@@ -90,9 +103,7 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;using-stream-deck-to-open-vm-connection&#34;&gt;
-    &lt;a href=&#34;#using-stream-deck-to-open-vm-connection&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Using Stream Deck to open VM Connection
+&lt;h2 id=&#34;using-stream-deck-to-open-vm-connection&#34;&gt;Using Stream Deck to open VM Connection
 &lt;/h2&gt;&lt;p&gt;The shortcut created above can be used as the &lt;strong&gt;App/File&lt;/strong&gt; for the &lt;strong&gt;Open&lt;/strong&gt; function of the bundled &lt;strong&gt;System&lt;/strong&gt; plugin for StreamDeck. As seen below:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/open-shortcut-streamdeck.png&#34;
     alt=&#34;VM Shortcut in Stream Deck&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
@@ -100,9 +111,7 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;using-barraiders-advanced-launcher&#34;&gt;
-    &lt;a href=&#34;#using-barraiders-advanced-launcher&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Using BarRaider&amp;rsquo;s Advanced Launcher
+&lt;h3 id=&#34;using-barraiders-advanced-launcher&#34;&gt;Using BarRaider&amp;rsquo;s Advanced Launcher
 &lt;/h3&gt;&lt;p&gt;This requires installing the above-mentioned plugin, found here: &lt;a class=&#34;link&#34; href=&#34;https://marketplace.elgato.com/product/advanced-launcher-d9a289e4-9f61-4613-9f86-0069f5897125&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Marketplace&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://apps.elgato.com/plugins/com.barraider.advancedlauncher&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Old Plugins Page&lt;/a&gt; (note: both are version 1.8 as of this writing).&lt;/p&gt;

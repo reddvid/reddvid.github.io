@@ -12,9 +12,7 @@
         <pubDate>Tue, 16 Mar 2021 01:28:15 +0800</pubDate>
         
         <guid>https://reddavid.me/zipcodeph-ios/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h2 id=&#34;now-available&#34;&gt;
-    &lt;a href=&#34;#now-available&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Now Available
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h2 id=&#34;now-available&#34;&gt;Now Available
 &lt;/h2&gt;&lt;p&gt;You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&amp;rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.&lt;/p&gt;
 &lt;p&gt;Get the app below:&lt;/p&gt;
 &lt;center&gt;
@@ -22,18 +20,12 @@
 &lt;br&gt;&lt;img src=&#34;https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/a1b53b4233734ce37673d9f70803db74/47cd37c9-fb35-4a15-b8b8-958219968ea0.png&#34; width=&#34;200px&#34;&gt;
 &lt;/center&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;lets-go&#34;&gt;
-    &lt;a href=&#34;#lets-go&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Let&amp;rsquo;s Go
+&lt;h2 id=&#34;lets-go&#34;&gt;Let&amp;rsquo;s Go
 &lt;/h2&gt;&lt;p&gt;For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&amp;rsquo;s native language SwiftUI.&lt;/p&gt;
 &lt;p&gt;Using a Mac is not that hard anymore since I&amp;rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.&lt;/p&gt;
 &lt;p&gt;And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.&lt;/p&gt;
-&lt;h2 id=&#34;development&#34;&gt;
-    &lt;a href=&#34;#development&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Development
-&lt;/h2&gt;&lt;h3 id=&#34;main-and-about-page&#34;&gt;
-    &lt;a href=&#34;#main-and-about-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Main and About Page
+&lt;h2 id=&#34;development&#34;&gt;Development
+&lt;/h2&gt;&lt;h3 id=&#34;main-and-about-page&#34;&gt;Main and About Page
 &lt;/h3&gt;&lt;p&gt;I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&amp;rsquo;t consume a lot of code-behind.&lt;/p&gt;
 &lt;p&gt;The Main Page took a lot of iterations but below is the final view (as of this writing):&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/mainpage.png&#34;
@@ -49,9 +41,7 @@
 &lt;figcaption&gt;Help &amp; About Page&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br/&gt;
-&lt;h3 id=&#34;search-page&#34;&gt;
-    &lt;a href=&#34;#search-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Search Page
+&lt;h3 id=&#34;search-page&#34;&gt;Search Page
 &lt;/h3&gt;&lt;p&gt;Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.&lt;/p&gt;
 &lt;p&gt;I didn&amp;rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/searchbar.png&#34;
@@ -161,9 +151,7 @@
   &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/searchpage.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;p&gt;I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅&lt;/p&gt;
-&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;
-    &lt;a href=&#34;#menu-and-area-list-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Menu and Area List Page
+&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;Menu and Area List Page
 &lt;/h2&gt;&lt;p&gt;After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/area.png&#34;
     alt=&#34;City and Area Pages&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
@@ -171,18 +159,14 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;favorites&#34;&gt;
-    &lt;a href=&#34;#favorites&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Favorites
+&lt;h2 id=&#34;favorites&#34;&gt;Favorites
 &lt;/h2&gt;&lt;p&gt;Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.&lt;/p&gt;
 &lt;p&gt;After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)&lt;/p&gt;
 &lt;video muted width=&#34;280&#34; controls style=&#34;display:block;margin-left:auto;margin-right:auto;&#34;&gt;
   &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/favorite.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;showcase&#34;&gt;
-    &lt;a href=&#34;#showcase&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Showcase
+&lt;h2 id=&#34;showcase&#34;&gt;Showcase
 &lt;/h2&gt;&lt;p&gt;Below are the app showcase which you can see on the App Store as soon as the app is available&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Light and Dark Mode&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
 	data-flex-basis=&#34;110px&#34; &gt;
@@ -198,9 +182,7 @@
 	data-flex-basis=&#34;110px&#34; &gt;
 &lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Mindanao&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
 	data-flex-basis=&#34;110px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;downloads&#34;&gt;
-    &lt;a href=&#34;#downloads&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Downloads
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads
 &lt;/h2&gt;&lt;p&gt;(Now Available!) &lt;a class=&#34;link&#34; href=&#34;https://apple.co/3lrnrBO&#34; target=&#34;_blank&#34;&gt;Get the app&lt;/a&gt; on App Store for iPhone and iPad.&lt;/p&gt;
 &lt;p&gt;The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.&lt;/p&gt;
 &lt;p&gt;For the meantime, the app is still available for Android and Windows 10.&lt;/p&gt;

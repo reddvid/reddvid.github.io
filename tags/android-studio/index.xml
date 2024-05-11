@@ -12,9 +12,7 @@
         <pubDate>Thu, 31 Mar 2022 00:44:04 +0800</pubDate>
         
         <guid>https://reddavid.me/updating-rpnradio-mobile-app/</guid>
-        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;
-    &lt;a href=&#34;#update-1&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update 1
+        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;Update 1
 &lt;/h2&gt;&lt;p&gt;&lt;small&gt;2022-03-31&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;I just refactored the FutureBuilder by separating the future tasks to where they are actually used in the UI - to prevent long startup and show the main UI at launch instead of a loading screen.&lt;/p&gt;
 &lt;p&gt;Version 2.0.1 is now on open testing for Android on Google Play Store.&lt;/p&gt;
@@ -22,17 +20,13 @@
     &gt;RPN Radio for Android (Beta)&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;It&amp;rsquo;s been a while since I coded and updated my apps, it just somehow began again when I felt the urge to refresh my website&amp;rsquo;s looks. Now I am aiming to light up every Github contribution grid block whenever I can.&lt;/p&gt;
-&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;
-    &lt;a href=&#34;#updating-flutter-packages&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Updating Flutter Packages
+&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;Updating Flutter Packages
 &lt;/h2&gt;&lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Then most are already outdated and forced some to major versions with&lt;code&gt;flutter pub upgrade &amp;ndash;major-versions&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.&lt;/p&gt;
 &lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it&amp;rsquo;s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can&amp;rsquo;t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.&lt;/p&gt;
-&lt;h2 id=&#34;new-code&#34;&gt;
-    &lt;a href=&#34;#new-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New Code
+&lt;h2 id=&#34;new-code&#34;&gt;New Code
 &lt;/h2&gt;&lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/updating-rpnradio-mobile-app/img/refactoring-files.png&#34;
     alt=&#34;Refactoring files to folders&#34;&gt;&lt;figcaption&gt;
@@ -42,9 +36,7 @@
 &lt;/p&gt;
 &lt;p&gt;Upgrading packages with at least 3 versions above since the app&amp;rsquo;s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flutter Audio Service Demo&lt;/a&gt;)&lt;/strong&gt; from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.&lt;/p&gt;
-&lt;h3 id=&#34;futures&#34;&gt;
-    &lt;a href=&#34;#futures&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Futures
+&lt;h3 id=&#34;futures&#34;&gt;Futures
 &lt;/h3&gt;&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;JSON&lt;/a&gt; to fetch the data. I faced a problem decoding it when I faced this unfamiliar type &lt;code&gt;Map&amp;lt;String, dynamic&amp;gt;&lt;/code&gt; coming from a C# perspective.&lt;/p&gt;
 &lt;p&gt;I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables &lt;code&gt;null&lt;/code&gt; when they are still being done, making some unwanted behaviors.&lt;/p&gt;
@@ -77,9 +69,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;
-    &lt;a href=&#34;#expansionlist-and-swiper&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    ExpansionList and Swiper
+&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper
 &lt;/h3&gt;&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
 &lt;p&gt;As stated above, I don&amp;rsquo;t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -186,9 +176,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;
-    &lt;a href=&#34;#to-do&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    To-Do
+&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do
 &lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do not use Swiper when image list is only 1&lt;/li&gt;
@@ -206,32 +194,24 @@
         <description>&lt;img src="https://reddavid.me/images/feat/android-love-flutter.png" alt="Featured image of post Flutter Coding" /&gt;&lt;p&gt;I&amp;rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.&lt;/p&gt;
 &lt;p&gt;As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.&lt;/p&gt;
 &lt;p&gt;Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &amp;ldquo;native world&amp;rdquo;.&lt;/p&gt;
-&lt;h2 id=&#34;android-and-bad-java-code&#34;&gt;
-    &lt;a href=&#34;#android-and-bad-java-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Android and Bad (Java) Code
+&lt;h2 id=&#34;android-and-bad-java-code&#34;&gt;Android and Bad (Java) Code
 &lt;/h2&gt;&lt;p&gt;The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.&lt;/p&gt;
 &lt;p&gt;To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.&lt;/p&gt;
 &lt;p&gt;Ever since March started, I started reading about Flutter and did some basic UI.&lt;/p&gt;
 &lt;p&gt;But first, let me tell you how I installed Flutter on Windows.&lt;/p&gt;
-&lt;h2 id=&#34;pre-installation-pre-requisites&#34;&gt;
-    &lt;a href=&#34;#pre-installation-pre-requisites&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Pre-installation (Pre-requisites?)
+&lt;h2 id=&#34;pre-installation-pre-requisites&#34;&gt;Pre-installation (Pre-requisites?)
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Make sure you have Git on your device. I installed Git for Windows&lt;/li&gt;
 &lt;li&gt;I&amp;rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.&lt;/li&gt;
 &lt;li&gt;Some Android SDKs and;&lt;/li&gt;
 &lt;li&gt;Google Chrome browser.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;installation&#34;&gt;
-    &lt;a href=&#34;#installation&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Installation
+&lt;h2 id=&#34;installation&#34;&gt;Installation
 &lt;/h2&gt;&lt;p&gt;I pretty much followed the recommended guide as stated here: &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/docs/get-started/install/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Install Flutter (Windows)&lt;/a&gt;. But instead of &lt;code&gt;C:\src\flutter&lt;/code&gt;, I put it a level higher like this: &lt;code&gt;C:\flutter&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Then added environment variable to Path. &amp;lt;- This part is important if you want to run flutter commands in the command line&lt;/p&gt;
 &lt;p&gt;Ran &lt;code&gt;flutter doctor&lt;/code&gt; until all requirements are check out&lt;/p&gt;
-&lt;h2 id=&#34;ide-wait&#34;&gt;
-    &lt;a href=&#34;#ide-wait&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    IDE, wait&amp;hellip;
+&lt;h2 id=&#34;ide-wait&#34;&gt;IDE, wait&amp;hellip;
 &lt;/h2&gt;&lt;p&gt;My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.&lt;/p&gt;
 &lt;p&gt;Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!&lt;/p&gt;
 &lt;p&gt;Even though &lt;code&gt;flutter doctor&lt;/code&gt; checked everything, I was disappointed that I can&amp;rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&amp;rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.&lt;/p&gt;
@@ -249,9 +229,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;hello-world&#34;&gt;
-    &lt;a href=&#34;#hello-world&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Hello, World
+&lt;h2 id=&#34;hello-world&#34;&gt;Hello, World
 &lt;/h2&gt;&lt;p&gt;Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.&lt;/p&gt;
 &lt;p&gt;I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.&lt;/p&gt;
 &lt;p&gt;Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!&lt;/p&gt;

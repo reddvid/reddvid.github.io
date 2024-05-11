@@ -20,16 +20,12 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;who-exports-at-480p-give-us-1080p-please&#34;&gt;
-    &lt;a href=&#34;#who-exports-at-480p-give-us-1080p-please&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Who Exports at 480p? Give us 1080p, Please!
+&lt;h2 id=&#34;who-exports-at-480p-give-us-1080p-please&#34;&gt;Who Exports at 480p? Give us 1080p, Please!
 &lt;/h2&gt;&lt;p&gt;Yes, who does? And surprisingly, Clichamp offers free users to ONLY export their video projects into 480p.&lt;/p&gt;
 &lt;div style=&#34;display: flex;
 justify-content: center;&#34;&gt;
 &lt;/div&gt;
-&lt;h3 id=&#34;good-news&#34;&gt;
-    &lt;a href=&#34;#good-news&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Good News!
+&lt;h3 id=&#34;good-news&#34;&gt;Good News!
 &lt;/h3&gt;&lt;p&gt;What a shame, but as of this writing I got an email from Clipchamp that 1080p exports is now available for everyone.&lt;/p&gt;
 &lt;p&gt;1080p exports is now the base resolution for all tiers of plans:
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/clipchamp-1080p-exports-is-now-free/img/clipchamp-plans.png&#34;
@@ -49,9 +45,7 @@ justify-content: center;&#34;&gt;
         <pubDate>Thu, 31 Mar 2022 00:44:04 +0800</pubDate>
         
         <guid>https://reddavid.me/updating-rpnradio-mobile-app/</guid>
-        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;
-    &lt;a href=&#34;#update-1&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update 1
+        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;Update 1
 &lt;/h2&gt;&lt;p&gt;&lt;small&gt;2022-03-31&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;I just refactored the FutureBuilder by separating the future tasks to where they are actually used in the UI - to prevent long startup and show the main UI at launch instead of a loading screen.&lt;/p&gt;
 &lt;p&gt;Version 2.0.1 is now on open testing for Android on Google Play Store.&lt;/p&gt;
@@ -59,17 +53,13 @@ justify-content: center;&#34;&gt;
     &gt;RPN Radio for Android (Beta)&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;It&amp;rsquo;s been a while since I coded and updated my apps, it just somehow began again when I felt the urge to refresh my website&amp;rsquo;s looks. Now I am aiming to light up every Github contribution grid block whenever I can.&lt;/p&gt;
-&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;
-    &lt;a href=&#34;#updating-flutter-packages&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Updating Flutter Packages
+&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;Updating Flutter Packages
 &lt;/h2&gt;&lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Then most are already outdated and forced some to major versions with&lt;code&gt;flutter pub upgrade &amp;ndash;major-versions&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.&lt;/p&gt;
 &lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it&amp;rsquo;s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can&amp;rsquo;t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.&lt;/p&gt;
-&lt;h2 id=&#34;new-code&#34;&gt;
-    &lt;a href=&#34;#new-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New Code
+&lt;h2 id=&#34;new-code&#34;&gt;New Code
 &lt;/h2&gt;&lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/updating-rpnradio-mobile-app/img/refactoring-files.png&#34;
     alt=&#34;Refactoring files to folders&#34;&gt;&lt;figcaption&gt;
@@ -79,9 +69,7 @@ justify-content: center;&#34;&gt;
 &lt;/p&gt;
 &lt;p&gt;Upgrading packages with at least 3 versions above since the app&amp;rsquo;s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flutter Audio Service Demo&lt;/a&gt;)&lt;/strong&gt; from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.&lt;/p&gt;
-&lt;h3 id=&#34;futures&#34;&gt;
-    &lt;a href=&#34;#futures&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Futures
+&lt;h3 id=&#34;futures&#34;&gt;Futures
 &lt;/h3&gt;&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;JSON&lt;/a&gt; to fetch the data. I faced a problem decoding it when I faced this unfamiliar type &lt;code&gt;Map&amp;lt;String, dynamic&amp;gt;&lt;/code&gt; coming from a C# perspective.&lt;/p&gt;
 &lt;p&gt;I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables &lt;code&gt;null&lt;/code&gt; when they are still being done, making some unwanted behaviors.&lt;/p&gt;
@@ -114,9 +102,7 @@ justify-content: center;&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;
-    &lt;a href=&#34;#expansionlist-and-swiper&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    ExpansionList and Swiper
+&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper
 &lt;/h3&gt;&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
 &lt;p&gt;As stated above, I don&amp;rsquo;t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -223,9 +209,7 @@ justify-content: center;&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;
-    &lt;a href=&#34;#to-do&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    To-Do
+&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do
 &lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do not use Swiper when image list is only 1&lt;/li&gt;
@@ -240,31 +224,21 @@ justify-content: center;&#34;&gt;
         <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
         
         <guid>https://reddavid.me/rpnnews-mobile-app/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;
-    &lt;a href=&#34;#update-2&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update #2
+        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;Update #2
 &lt;/h2&gt;&lt;p&gt;RPN News mobile app is now also available to download from Huawei AppGallery. Check the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; for the links!&lt;/p&gt;
-&lt;h2 id=&#34;update-1&#34;&gt;
-    &lt;a href=&#34;#update-1&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update #1
+&lt;h2 id=&#34;update-1&#34;&gt;Update #1
 &lt;/h2&gt;&lt;p&gt;The app is now available for iPhone on the App Store. See the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; below.&lt;/p&gt;
 &lt;hr &gt;
 &lt;p&gt;It&amp;rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.&lt;/p&gt;
-&lt;h2 id=&#34;delays&#34;&gt;
-    &lt;a href=&#34;#delays&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Delays
+&lt;h2 id=&#34;delays&#34;&gt;Delays
 &lt;/h2&gt;&lt;p&gt;The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).&lt;/p&gt;
 &lt;p&gt;I apologize for the delay but I just made sure these features are working for production.&lt;/p&gt;
-&lt;h2 id=&#34;app-details&#34;&gt;
-    &lt;a href=&#34;#app-details&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    App Details
+&lt;h2 id=&#34;app-details&#34;&gt;App Details
 &lt;/h2&gt;&lt;p&gt;Most brands nowadays accompany their line of business with a mobile app, beside the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN Radio app&lt;/a&gt; which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.&lt;/p&gt;
 &lt;p&gt;Right now, the app is a feed for the provincial news as visible on &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com/category/provincial-news/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN website&lt;/a&gt;. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.&lt;/p&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;
-    &lt;a href=&#34;#screenshots&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Screenshots
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots
 &lt;/h2&gt;&lt;p&gt;It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).&lt;/p&gt;
 &lt;!-- &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-1.png&#34; alt=&#34;News feed (iPhone)&#34; /&gt;
 &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-2.png&#34; alt=&#34;News details (iPhone)&#34;  /&gt;
@@ -292,9 +266,7 @@ justify-content: center;&#34;&gt;
    &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-3.png&#34; alt=&#34;About page (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
    &lt;figcaption&gt;About page (Android)&lt;/figcaption&gt;
 &lt;/figure&gt; --&gt;
-&lt;h2 id=&#34;download-here&#34;&gt;
-    &lt;a href=&#34;#download-here&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Download Here
+&lt;h2 id=&#34;download-here&#34;&gt;Download Here
 &lt;/h2&gt;&lt;p&gt;The app is available now on the Google Play Store: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN News - Apps on Google Play&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Update #1: Download for iPhone here: &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/app/id1590143546&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -302,13 +274,9 @@ justify-content: center;&#34;&gt;
 &lt;p&gt;Update #2: Download from Huawei AppGallery: &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/app/C105053423&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN News on Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;As for Huawei devices (AppGallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&amp;rsquo;re approved.&lt;/del&gt;&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;
-    &lt;a href=&#34;#whats-next&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    What&amp;rsquo;s Next
+&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next
 &lt;/h2&gt;&lt;p&gt;Here are the milestones I am looking forward to bring:&lt;/p&gt;
-&lt;h3 id=&#34;milestone-22&#34;&gt;
-    &lt;a href=&#34;#milestone-22&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Milestone 2.2+
+&lt;h3 id=&#34;milestone-22&#34;&gt;Milestone 2.2+
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;News Filter (by Station or tags)&lt;/li&gt;
 &lt;li&gt;Search&lt;/li&gt;
@@ -316,9 +284,7 @@ justify-content: center;&#34;&gt;
 &lt;li&gt;Customizable fonts&lt;/li&gt;
 &lt;li&gt;Read aloud&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;milestone-30&#34;&gt;
-    &lt;a href=&#34;#milestone-30&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Milestone 3.0
+&lt;h3 id=&#34;milestone-30&#34;&gt;Milestone 3.0
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Integrate stations&amp;rsquo; live videos (YouTube)&lt;/li&gt;
 &lt;li&gt;Integrate stations&amp;rsquo; VODs (video-on-demand)&lt;/li&gt;
@@ -338,9 +304,7 @@ justify-content: center;&#34;&gt;
 &lt;center&gt;
 &lt;/center&gt;
 &lt;p&gt;I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches &lt;a class=&#34;link&#34; href=&#34;https://dota2.fandom.com/wiki/IceFrog&#34; target=&#34;_blank&#34;&gt;IceFrog&lt;/a&gt; brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn &lt;a class=&#34;link&#34; href=&#34;https://liquipedia.net/dota2/Dota_Pro_Circuit&#34; target=&#34;_blank&#34;&gt;DPC points&lt;/a&gt; for entering the prestigious TI.&lt;/p&gt;
-&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;
-    &lt;a href=&#34;#ten-days-of-dota&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Ten Days of DOTA
+&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;Ten Days of DOTA
 &lt;/h2&gt;&lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
 &lt;center&gt;
 &lt;/center&gt;
@@ -350,16 +314,12 @@ justify-content: center;&#34;&gt;
 
 &lt;p&gt;Thanks to &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/wykrhm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wykrhm Reddy (@wykrhm)&lt;/a&gt; for being such a good Dota Community Man.&lt;/p&gt;
-&lt;h2 id=&#34;the-secret&#34;&gt;
-    &lt;a href=&#34;#the-secret&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    The Secret
+&lt;h2 id=&#34;the-secret&#34;&gt;The Secret
 &lt;/h2&gt;&lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
 &lt;center&gt;
 &lt;/center&gt;
 &lt;p&gt;I follow the games by watching &lt;a class=&#34;link&#34; href=&#34;https://www.twitch.tv/singsing&#34; target=&#34;_blank&#34;&gt;singsing&amp;rsquo;s Twitch stream&lt;/a&gt; as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.&lt;/p&gt;
-&lt;h2 id=&#34;coding-and-appdates&#34;&gt;
-    &lt;a href=&#34;#coding-and-appdates&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Coding and Appdates
+&lt;h2 id=&#34;coding-and-appdates&#34;&gt;Coding and Appdates
 &lt;/h2&gt;&lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
 &lt;p&gt;My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/samsung-a71.png&#34;
@@ -375,9 +335,7 @@ justify-content: center;&#34;&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Items Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
 	data-flex-basis=&#34;108px&#34; &gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Detail Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
 	data-flex-basis=&#34;108px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;
-    &lt;a href=&#34;#get-into-the-beta-test&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Get into the Beta Test
+&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;Get into the Beta Test
 &lt;/h3&gt;&lt;p&gt;The app is available for testing and I welcome your feedback after getting the app here from &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/2YVpJC9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google Play Store&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://apple.co/2XaMBNl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apple TestFlight&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
@@ -421,14 +379,10 @@ justify-content: center;&#34;&gt;
 &lt;/div&gt;
 
 &lt;br&gt;
-&lt;h2 id=&#34;undo--redo&#34;&gt;
-    &lt;a href=&#34;#undo--redo&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Undo &amp;amp; Redo
+&lt;h2 id=&#34;undo--redo&#34;&gt;Undo &amp;amp; Redo
 &lt;/h2&gt;&lt;p&gt;At last! No more annoyances when you just ACCIDENTALLY move something on the canvas. Undo and redo is here for every change you do in your sources and scenes - not sure for all filters though. And that&amp;rsquo;s 5000 actions.&lt;/p&gt;
 &lt;p&gt;Though I mostly use OBS for game streaming (no facecam), I move things around only to notice that it was not the source I wanted to move! This surely helps users out and always had been the most requested feature.&lt;/p&gt;
-&lt;h2 id=&#34;files-where&#34;&gt;
-    &lt;a href=&#34;#files-where&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Files, where?
+&lt;h2 id=&#34;files-where&#34;&gt;Files, where?
 &lt;/h2&gt;&lt;p&gt;Version 27 also added a missing files window prompt on launch that allows us to relocate or ignore the missing files. Nice addition so we don&amp;rsquo;t go start streaming only to have the files missing.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/06-21/obs/obs_missing_files_warning.png&#34;
     alt=&#34;Missing Files Warning Window&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
@@ -436,15 +390,11 @@ justify-content: center;&#34;&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;no-more-noise&#34;&gt;
-    &lt;a href=&#34;#no-more-noise&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    No More Noise
+&lt;h2 id=&#34;no-more-noise&#34;&gt;No More Noise
 &lt;/h2&gt;&lt;p&gt;OBS v27 for Windows now adds NVIDIA Noise Removal as an option to audio Noise Suppression filter &lt;del&gt;when the &lt;a class=&#34;link&#34; href=&#34;https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-sdk/resources/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;NVIDIA Audio Effects SDK&lt;/a&gt; is installed. Oh, also you need an NVIDIA RTX GPU for that - so no screenshots from me.&lt;/del&gt;&lt;/p&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;improvements&#34;&gt;
-    &lt;a href=&#34;#improvements&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Improvements
+&lt;h2 id=&#34;improvements&#34;&gt;Improvements
 &lt;/h2&gt;&lt;p&gt;Thanks for these 2 new improvements among others:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Browser Source interact button (toolbar)&lt;/li&gt;
@@ -462,9 +412,7 @@ justify-content: center;&#34;&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h2 id=&#34;final-thoughts&#34;&gt;
-    &lt;a href=&#34;#final-thoughts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Final Thoughts
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts
 &lt;/h2&gt;&lt;p&gt;This new version of OBS Studio definitely helps with the new added features. Now I want a selective record feature.&lt;/p&gt;
 &lt;p&gt;I use OBS Studio together with &lt;a class=&#34;link&#34; href=&#34;https://streamelements.com/&#34; target=&#34;_blank&#34;&gt;StreamElements&lt;/a&gt; OBS Live to simplify my stream setup to Facebook Gaming. I now have 1,019 followers (as of this writing) and why not check me out there? Maybe talk about gaming, life, or programming? &lt;a class=&#34;link&#34; href=&#34;https://fb.gg/RedDavidGaming/&#34; target=&#34;_blank&#34;&gt;RedDavidGaming on Facebook Gaming&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I dedicate the starwall page for my stars-sender. Thanks and make sure to check out OBS Studio&amp;rsquo;s latest release &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34; target=&#34;_blank&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;

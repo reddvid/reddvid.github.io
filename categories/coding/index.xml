@@ -14,18 +14,14 @@
         <guid>https://reddavid.me/i-am-here/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/new-post.png" alt="Featured image of post I Am Here" /&gt;&lt;p&gt;Well, how about that? I think I just had the longest time without posting anything here. Maybe I just posted thrice within February just to escape the next ones. 🥲&lt;/p&gt;
 &lt;p&gt;Okay, so what alibis do I have to tell you this time? Hmm 🤔&lt;/p&gt;
-&lt;h2 id=&#34;i-learned-a-new-thing-about-computer-hardware&#34;&gt;
-    &lt;a href=&#34;#i-learned-a-new-thing-about-computer-hardware&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    I Learned a New Thing about Computer Hardware
+&lt;h2 id=&#34;i-learned-a-new-thing-about-computer-hardware&#34;&gt;I Learned a New Thing about Computer Hardware
 &lt;/h2&gt;&lt;p&gt;I have this &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;post&lt;/a&gt; about my Nvidia GPU issue on games crashing and black screens and &lt;em&gt;somehow&lt;/em&gt; fixing it? It might have been because my motherboard is &lt;strong&gt;NOT&lt;/strong&gt; compatible with my RAM.&lt;/p&gt;
 &lt;p&gt;Apparently, PC hardware in 2022-2023 is not at all just buy the &lt;em&gt;right&lt;/em&gt; parts you can afford and just build as I assumed it to be. My last PC build I did was waaaaay back 2012-ish, no fancy RGBs, heavy metal cases, no flashy cable-management, and they somehow work.&lt;/p&gt;
 &lt;div class=&#34;tenor-gif-embed&#34; data-postid=&#34;7555951312549958006&#34; data-share-method=&#34;host&#34; data-aspect-ratio=&#34;1.33333&#34; data-width=&#34;100%&#34;&gt;&lt;a href=&#34;https://tenor.com/view/tv-family-guy-pepperidge-farm-remember-gif-7555951312549958006&#34;&gt;Tv Family Guy GIF&lt;/a&gt;from &lt;a href=&#34;https://tenor.com/search/tv-gifs&#34;&gt;Tv GIFs&lt;/a&gt;&lt;/div&gt; &lt;script type=&#34;text/javascript&#34; async src=&#34;https://tenor.com/embed.js&#34;&gt;&lt;/script&gt;
 &lt;p&gt;The &lt;em&gt;workaround&lt;/em&gt; worked for a while until I felt the need to play newer games, especially the day-one releases on my &lt;a class=&#34;link&#34; href=&#34;https://www.xbox.com/en-US/xbox-game-pass&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Xbox Game Pass for PC&lt;/a&gt; subscription.&lt;/p&gt;
-&lt;h3 id=&#34;i-jumped-shipped-to-amd&#34;&gt;
-    &lt;a href=&#34;#i-jumped-shipped-to-amd&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    I jumped shipped to AMD
+&lt;h3 id=&#34;i-jumped-shipped-to-amd&#34;&gt;I jumped shipped to AMD
 &lt;/h3&gt;&lt;p&gt;After a month of checking out some GPUs (which I can afford) to replace the current one, it only seemed that I can only get an AMD card. I chose to end with an ASUS 6700XT which seems powerful enough for the games&lt;/p&gt;
 &lt;p&gt;It has 12GB of VRAM which I am yet to &lt;em&gt;fully&lt;/em&gt; utilize. More detailed specs can be seen from the product page &lt;a class=&#34;link&#34; href=&#34;https://www.asus.com/motherboards-components/graphics-cards/dual/dual-rx6700xt-12g/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -33,17 +29,13 @@
 &lt;p&gt;Remember the issues I had months prior to upgrading? Well, it was much worse, and I once again assumed that “AMD still has some driver issues these days, huh?”, since driver &lt;em&gt;workaround&lt;/em&gt; does not seem to fix whatever is happening.&lt;/p&gt;
 &lt;p&gt;Besides games crashing, I also began getting random black screens, and even total PC shutdown. I also thought of losing the “silicon lottery” or even my PSU is not enough for the system.&lt;/p&gt;
 &lt;p&gt;Not until I &lt;em&gt;finally&lt;/em&gt; bothered myself checking my motherboard’s support website for Memory Compatibility. And guess what, I did find my RAMs’ brand and model from the list but what was NOT compatible was putting four sticks in - which I recently did to get 32gigs of memory.&lt;/p&gt;
-&lt;h3 id=&#34;going-64gb-for-games&#34;&gt;
-    &lt;a href=&#34;#going-64gb-for-games&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Going 64GB for Games?
+&lt;h3 id=&#34;going-64gb-for-games&#34;&gt;Going 64GB for Games?
 &lt;/h3&gt;&lt;p&gt;Spent weeks not gaming just to avoid the issues until I found some RAM deals online that I got myself 64GB of, ehem, &lt;em&gt;compatible&lt;/em&gt; memory sticks for my motherboard. Well, I hoped.&lt;/p&gt;
 &lt;p&gt;After my order arrived, I spent no time installing the new RAM sticks and fingers-crossed on launching a game where I definitely faced a crash. Tested on more games to finally tell that there were no more problems.&lt;/p&gt;
 &lt;p&gt;I played High on Life and Atomic Heart just to name a few. And they are on my YouTube gaming channel.&lt;/p&gt;
 &lt;p&gt;I went over to get 64GB not just for games but for &lt;a class=&#34;link&#34; href=&#34;https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;hardware virtualization&lt;/a&gt; like Virtual Machines, Android emulators, etc.&lt;/p&gt;
-&lt;h2 id=&#34;good-rest&#34;&gt;
-    &lt;a href=&#34;#good-rest&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Good Rest
+&lt;h2 id=&#34;good-rest&#34;&gt;Good Rest
 &lt;/h2&gt;&lt;p&gt;I and the wife also took some time off work to unwind somewhere south. We went to a private resort and go for night swim, eat good food, and relaxed a bit with a super mediocre massage (which is, OMG, I wish to erase this memory on just being a crappy service 😂).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/i-am-here/fish-and-veggies-laong-laan.png&#34;
     alt=&#34;Dinner at Laong Laan Restaurant&#34;&gt;&lt;figcaption&gt;
@@ -66,9 +58,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;keep-learning&#34;&gt;
-    &lt;a href=&#34;#keep-learning&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Keep Learning
+&lt;h2 id=&#34;keep-learning&#34;&gt;Keep Learning
 &lt;/h2&gt;&lt;p&gt;I recently bought &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/c/EposVox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;EposVox&lt;/a&gt;’s &lt;a class=&#34;link&#34; href=&#34;https://eposvox.gumroad.com/l/obs-definitive-guide-2023-eposvox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;OBS Masterclass&lt;/a&gt; which might help me learn more about the capabilities of &lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -83,9 +73,7 @@
 &lt;p&gt;I also completed courses in &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Udemy&lt;/a&gt; in IT Management where I learned some insightful tips if I ever go further in this IT journey and career. Also found some $1 video courses on HumbleBundle about Cybersecurity, which I plan to watch and learn from soon.&lt;/p&gt;
 &lt;p&gt;There are a couple more sources and materials I tend to read and watch from time-to-time for me to not &lt;em&gt;waste time&lt;/em&gt; of just consuming content but actually learning. Which point to lesser time on…&lt;/p&gt;
-&lt;h2 id=&#34;games&#34;&gt;
-    &lt;a href=&#34;#games&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Games
+&lt;h2 id=&#34;games&#34;&gt;Games
 &lt;/h2&gt;&lt;p&gt;After upgrading my GPU, I actually finished playing Atomic Heart and found myself tired so I went to playing shorter games as I browse Xbox Game Pass. I played short games (~3 or ~4 hours) which I enjoyed playing on &lt;em&gt;free&lt;/em&gt; time. Also played a bit online with my friend overseas.&lt;/p&gt;
 &lt;p&gt;And one night, while drunk (and while Steam Summer Sale is on-going), I purchased &lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/546560/HalfLife_Alyx/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Half-Life: Alyx&lt;/a&gt; knowing that it is a VR game and I HAVE NO VR headset (sorry for the caps). I just thought of adding it to my “backlog” of games until I have a VR kit, but checking the &lt;a class=&#34;link&#34; href=&#34;https://github.com/bfeber/HLA-NoVR&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -94,9 +82,7 @@
 &lt;p&gt;I know the game on mouse and keyboard is not as immersive as &lt;em&gt;in-your-face&lt;/em&gt; VR but WOW, I am playing a new Half-Life game after how many years.&lt;/p&gt;
 &lt;p&gt;I faced a few bugs and missed out on some things and &lt;em&gt;innovations&lt;/em&gt; I saw circulating online back then but overall I am amazed how they actually did it. The full playthrough is on YouTube.&lt;/p&gt;
 &lt;iframe width=&#34;100%&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/videoseries?list=PLwC47NQhSu5xDoW5kwv0Pc5-x71Dvmj2Y&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h2 id=&#34;coding&#34;&gt;
-    &lt;a href=&#34;#coding&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Coding
+&lt;h2 id=&#34;coding&#34;&gt;Coding
 &lt;/h2&gt;&lt;p&gt;With the lack of energy to play games, I spent more time on coding being inspired by new modern design by Microsoft for Windows apps. Which I recently updated two of my apps I use mostly to help we “work”.&lt;/p&gt;
 &lt;p&gt;Both apps got some code improvements and their UI were updated from &lt;a class=&#34;link&#34; href=&#34;https://github.com/Kinnara/ModernWpf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ModernWPF&lt;/a&gt; to &lt;a class=&#34;link&#34; href=&#34;https://wpfui.lepo.co/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -130,9 +116,7 @@
 &lt;p&gt;This “dead air” not only affects the usability of streaming apps but also prevents users who differ in time zones. These users will be deprived of any content thus affecting possible audiences for the station.&lt;/p&gt;
 &lt;p&gt;I recently brought up to the team by letting our stations utilize the audio servers 24/7 by adding program replays during off-air hours. The servers, which use CentovaOS, allow uploading audio files to be played during “off-stream” called AutoDJ. The stations can also let their PCs run 24/7 but the cost, manpower, and effort to implement such system seem to be a struggle as operations differ from each station.&lt;/p&gt;
 &lt;p&gt;Since I have been letting my work PC “on” all of the time, I proceeded to make it as a client to stream filler programs at times all stations are off-the-air.&lt;/p&gt;
-&lt;h2 id=&#34;multi-port-stream-with-altacast&#34;&gt;
-    &lt;a href=&#34;#multi-port-stream-with-altacast&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Multi-port Stream with AltaCast
+&lt;h2 id=&#34;multi-port-stream-with-altacast&#34;&gt;Multi-port Stream with AltaCast
 &lt;/h2&gt;&lt;p&gt;We’ve been using &lt;a class=&#34;link&#34; href=&#34;https://sourceforge.net/projects/butt/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;butt (broadcast using this tool)&lt;/a&gt;  and/or &lt;a class=&#34;link&#34; href=&#34;https://directory.shoutcast.com/Winamp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;WinAmp Shoutcast DSP&lt;/a&gt; to upload a single stream to the servers (each station) - and running 12 instances of it is highly unrecommended.&lt;/p&gt;
@@ -144,22 +128,16 @@
 &lt;p&gt;The only problem is that there is no way to rename the configurations as to which is which.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/altacast.png&#34; width=&#34;427&#34;  height=&#34;513&#34;  srcset=&#34;https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/altacast_huaff34419b29a0e75cfbbefb387166c6b_14018_480x0_resize_box_3.png 480w, https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/altacast_huaff34419b29a0e75cfbbefb387166c6b_14018_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;AltaCast&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;83&#34;
 	data-flex-basis=&#34;199px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;virtual-cable&#34;&gt;
-    &lt;a href=&#34;#virtual-cable&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Virtual Cable
+&lt;h2 id=&#34;virtual-cable&#34;&gt;Virtual Cable
 &lt;/h2&gt;&lt;p&gt;There should be nothing wrong to use the desktop audio to stream, but to avoid any unwanted noise/audio, I installed &lt;a class=&#34;link&#34; href=&#34;https://vb-audio.com/Cable/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VB Virtual Audio Cable&lt;/a&gt; which installed a virtual audio I/O on Windows to re-route certain apps’ audio.&lt;/p&gt;
 &lt;p&gt;I used the VB Cable Output as the input for two instances of AltaCast.&lt;/p&gt;
-&lt;h2 id=&#34;media-playback&#34;&gt;
-    &lt;a href=&#34;#media-playback&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Media Playback
+&lt;h2 id=&#34;media-playback&#34;&gt;Media Playback
 &lt;/h2&gt;&lt;p&gt;I will be using &lt;a class=&#34;link&#34; href=&#34;https://www.videolan.org/vlc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VLC&lt;/a&gt; as the media player since it supports network streams. Right now, I will be “hooking-up” to &lt;a class=&#34;link&#34; href=&#34;https://www.dwiz882am.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DWIZ 882&lt;/a&gt; (one of our affiliate station) programs upto 12 midnight. Then use &lt;a class=&#34;link&#34; href=&#34;https://cnnphilippines.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CNN Philippines&lt;/a&gt; programs 12-3am.&lt;/p&gt;
-&lt;h2 id=&#34;programming-a-console-app&#34;&gt;
-    &lt;a href=&#34;#programming-a-console-app&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Programming a Console App
+&lt;h2 id=&#34;programming-a-console-app&#34;&gt;Programming a Console App
 &lt;/h2&gt;&lt;p&gt;This app will be a timer to check set times:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;10PM - Start Client Stream&lt;/li&gt;
@@ -399,9 +377,7 @@
 &lt;p&gt;I’ve only tested it for a day and made some fixes to continue the app running.&lt;/p&gt;
 &lt;p&gt;You can tune in at &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://tunein.rpnradio.com/&lt;/a&gt; and we’ll debug any errors. 😀&lt;/p&gt;
-&lt;h2 id=&#34;future-plans&#34;&gt;
-    &lt;a href=&#34;#future-plans&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Future Plans
+&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
 &lt;/h2&gt;&lt;p&gt;As of now, stations’ broadcast hours differ (sign on and sign off) and I want the app to be dynamic. Some plans for the app:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Detect actual “dead air” time&lt;/li&gt;
@@ -419,9 +395,7 @@
         <guid>https://reddavid.me/more-work-automation-by-building-a-wpf-app/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/work-automation.png" alt="Featured image of post More Work Automation by Building a WPF App" /&gt;&lt;p&gt;As I mentioned in my previous blog post, I do some online broadcasting/content duties which include posting on the website, monitoring and logging 12 stations’ social media and audio servers, and any particular aspect of it.&lt;/p&gt;
 &lt;p&gt;Having to monitor the 12 stations’ analytics and statistics, one will always come to the point where they would need to automate their workflow. And that’s what I did.&lt;/p&gt;
-&lt;h2 id=&#34;counting-wordpress-posts&#34;&gt;
-    &lt;a href=&#34;#counting-wordpress-posts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Counting WordPress Posts
+&lt;h2 id=&#34;counting-wordpress-posts&#34;&gt;Counting WordPress Posts
 &lt;/h2&gt;&lt;p&gt;First up is to check which stations have posted content on the news website. Since I also have the access to cPanel, thus I can whitelist the office’s IP address in phpMyAdmin to access the MySQL database then.&lt;/p&gt;
 &lt;p&gt;The app connects to the WordPress database, checks if a station has any existing posts on a specific date, then builds a &lt;em&gt;calendar-like&lt;/em&gt; layout, as shown below:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/posts-activity-page.png&#34;&gt;
@@ -639,21 +613,15 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The &lt;em&gt;layoutBuilder&lt;/em&gt; is a cheeky code I played around to craft a calendar with a check or “x” mark whether a post exists on that date.&lt;/p&gt;
 &lt;p&gt;The ContentRoot is a StackPanel in XAML and will hold the three new StackPanels created from the code above.&lt;/p&gt;
-&lt;h2 id=&#34;social-media-numbers&#34;&gt;
-    &lt;a href=&#34;#social-media-numbers&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Social Media Numbers
+&lt;h2 id=&#34;social-media-numbers&#34;&gt;Social Media Numbers
 &lt;/h2&gt;&lt;p&gt;This next one really needs an automation tool. This tool will log the 12 stations’ Facebook Pages, Twitter, and YouTube numbers (likes, followers, and channel subscribers).&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/social-media-page.png&#34;&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;facebook&#34;&gt;
-    &lt;a href=&#34;#facebook&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Facebook
+&lt;h3 id=&#34;facebook&#34;&gt;Facebook
 &lt;/h3&gt;&lt;p&gt;Too bad I can’t get around an API for Facebook Pages to get the number of likes and followers so I ended up with web scraping, which I posted &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/scraping-facebook-pages-to-get-number-of-likes-and-followers/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;twitter&#34;&gt;
-    &lt;a href=&#34;#twitter&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Twitter
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter
 &lt;/h3&gt;&lt;p&gt;I used Twitter’s API to get the accounts’ number of followers, although there is a step which I still have to get the account’s ID from the username:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -742,9 +710,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;I used json2csharp to convert Twitter response to TwitterData object.&lt;/p&gt;
-&lt;h3 id=&#34;youtube&#34;&gt;
-    &lt;a href=&#34;#youtube&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    YouTube
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube
 &lt;/h3&gt;&lt;p&gt;As for YouTube, we also get to use an API which will require an API key from Google. And I simply scraped off the response to get the number of subscribers instead of using an object.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -797,9 +763,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Then the numbers are placed into an object to then be &lt;em&gt;databound&lt;/em&gt; and listed into a DataGrid in XAML.&lt;/p&gt;
-&lt;h2 id=&#34;centovacast-audio-streams&#34;&gt;
-    &lt;a href=&#34;#centovacast-audio-streams&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    CentovaCast Audio Streams
+&lt;h2 id=&#34;centovacast-audio-streams&#34;&gt;CentovaCast Audio Streams
 &lt;/h2&gt;&lt;p&gt;This third tool lists the stations’ current status of their audio server whether it is off or on, their stream status - online or offline, and current listeners.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/servers-page.png&#34;&gt;
 &lt;/figure&gt;
@@ -861,9 +825,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;em&gt;Commands: restart, reload, stop. The Stream menu item will navigate to the stream page.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;text-case-changer&#34;&gt;
-    &lt;a href=&#34;#text-case-changer&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Text Case Changer
+&lt;h2 id=&#34;text-case-changer&#34;&gt;Text Case Changer
 &lt;/h2&gt;&lt;p&gt;We now go back to WordPress content. I sometimes post news content to the website, and some news write-ups don’t follow the standards - like the title in all-caps, in Unicode characters, etc.&lt;/p&gt;
 &lt;p&gt;Prior to this, I tried writing my own logic but I was not satisfied until I used DevToys code.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/text-case-changer-page.png&#34;&gt;
@@ -872,9 +834,7 @@
 &lt;p&gt;Prior to this, my logic includes a list of exception words - which will ignore any case change or follow a certain case - like proper nouns.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/veler/DevToys&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DevToys is open source in GitHub.&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;url-shortener&#34;&gt;
-    &lt;a href=&#34;#url-shortener&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    URL Shortener
+&lt;h2 id=&#34;url-shortener&#34;&gt;URL Shortener
 &lt;/h2&gt;&lt;p&gt;There was this Yourls app in cPanel/Softaculous that allows me to create short URLs but it stopped working one day. And WordPress already has one.&lt;/p&gt;
 &lt;p&gt;This tool should be renamed as URL Styler, which just styles &lt;em&gt;accepted&lt;/em&gt; URL input into a custom Viber &lt;em&gt;message&lt;/em&gt; - we repost news to our Viber community members.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/more-work-automation-by-building-a-wpf-app/url-shortener-page.png&#34;&gt;
@@ -911,9 +871,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The tool will finally create a custom text to the Clipboard and ready to be pasted in Viber.&lt;/p&gt;
-&lt;h2 id=&#34;wip-shortcuts&#34;&gt;
-    &lt;a href=&#34;#wip-shortcuts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    (WIP) Shortcuts
+&lt;h2 id=&#34;wip-shortcuts&#34;&gt;(WIP) Shortcuts
 &lt;/h2&gt;&lt;p&gt;I used an Elgato Stream Deck before to launch most-used URLs and I am currently working to integrate this to the app.&lt;/p&gt;
 &lt;p&gt;Unfortunately, the code repo is not publicly available but will try to “hide” some confidential details before making it public.&lt;/p&gt;
 </description>
@@ -926,9 +884,7 @@
         <guid>https://reddavid.me/automating-obs-recording-with-winforms-app/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/automate-obs.png" alt="Featured image of post Automating OBS Recording With WinForms App" /&gt;&lt;p&gt;There was a requirement at work (not mine) that requires to record the 12 radio stations’ broadcast traffic to be monitored later for any discrepancies and whatnot.&lt;/p&gt;
 &lt;p&gt;I was asked if this was possible, and I said &lt;em&gt;yes&lt;/em&gt;, there’s a solution for the current setup we have onsite. With the knowledge that OBS can record 6 separate audio tracks at once, I suggested allocating two desktop PCs to record each 6 “online audio streams” - we cater online live streaming, and since the audio service DOES NOT record hence save backups.&lt;/p&gt;
-&lt;h2 id=&#34;obs-layout&#34;&gt;
-    &lt;a href=&#34;#obs-layout&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    OBS Layout
+&lt;h2 id=&#34;obs-layout&#34;&gt;OBS Layout
 &lt;/h2&gt;&lt;p&gt;So I began setting up the layout that will help distinguish the date and time of the streams being recorded:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Add a Text source and Used a datetime.lua script:&lt;/li&gt;
@@ -1235,9 +1191,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;obs-recording-settings&#34;&gt;
-    &lt;a href=&#34;#obs-recording-settings&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    OBS Recording Settings
+&lt;h2 id=&#34;obs-recording-settings&#34;&gt;OBS Recording Settings
 &lt;/h2&gt;&lt;p&gt;After arranging the tracks to determine their order:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Set Advanced Audio Properties to separate audio to each track&lt;/li&gt;
@@ -1269,14 +1223,10 @@
 &lt;ul&gt;
 &lt;li&gt;Finally, I set the settings to record at just 10kbps to decrease the output filesize.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;automation&#34;&gt;
-    &lt;a href=&#34;#automation&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Automation
+&lt;h2 id=&#34;automation&#34;&gt;Automation
 &lt;/h2&gt;&lt;p&gt;After setting up the recording system, it is now a challenge on how to run OBS and start recording at the required times: 3:00am to 10:00pm.&lt;/p&gt;
 &lt;p&gt;Turning off the system at 10:00pm is not a problem but starting it at 3:00am is a challenge. And it is also not an option to run the system 24/7 since we need &lt;em&gt;daily&lt;/em&gt; &lt;em&gt;traffic&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;task-scheduler-and-powershell-script&#34;&gt;
-    &lt;a href=&#34;#task-scheduler-and-powershell-script&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Task Scheduler and PowerShell Script
+&lt;h3 id=&#34;task-scheduler-and-powershell-script&#34;&gt;Task Scheduler and PowerShell Script
 &lt;/h3&gt;&lt;p&gt;I first chose this method since I know that most programs use this as well to run at a specific setting (e.g. Startup, definite time). So I get to code two files: an XML for the task to be imported, and a PowerShell script which the task will run:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;obs-launch-record.ps1&lt;/li&gt;
@@ -1453,9 +1403,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;These two files works but despite the users being technical, this method seems daunting by using an uncommon app, Task Scheduler, and it is inefficient when changing the xml code or script (when changing time, obs.exe location, etc.)&lt;/p&gt;
-&lt;h3 id=&#34;building-a-winforms-app&#34;&gt;
-    &lt;a href=&#34;#building-a-winforms-app&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Building a WinForms App
+&lt;h3 id=&#34;building-a-winforms-app&#34;&gt;Building a WinForms App
 &lt;/h3&gt;&lt;p&gt;To simplify and solve some major problems of the Task Scheduler method, I decided to use a GUI by developing a System Tray app using WinForms.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/automating-obs-recording-with-winforms-app/app-gui.png&#34;
     alt=&#34;App GUI&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
@@ -1473,9 +1421,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The app basically runs 24/7 on the system and checks if it is time to start or stop the executable. An option to auto-run it at startup, and an executable file browser to ensure OBS exists.&lt;/p&gt;
-&lt;h2 id=&#34;monitor-recordings-in-vlc&#34;&gt;
-    &lt;a href=&#34;#monitor-recordings-in-vlc&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Monitor Recordings in VLC
+&lt;h2 id=&#34;monitor-recordings-in-vlc&#34;&gt;Monitor Recordings in VLC
 &lt;/h2&gt;&lt;p&gt;Now that everything is automated and works as intended, assigned personnel can now review recorded files on VLC - we tried other players but they can NOT handle the filesize (over 13GB each).&lt;/p&gt;
 &lt;p&gt;VLC can easily read .MKV files which includes the 6 audio tracks and can be selected in VLC audio track (which shows the track name we did when setting up OBS Audio settings):&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/automating-obs-recording-with-winforms-app/vlc-audio-tracks.png&#34;
@@ -1484,9 +1430,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;final-thoughts&#34;&gt;
-    &lt;a href=&#34;#final-thoughts&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Final Thoughts
+&lt;h2 id=&#34;final-thoughts&#34;&gt;Final Thoughts
 &lt;/h2&gt;&lt;p&gt;It has been working since 2020-ish? See the full code of this app, &lt;a class=&#34;link&#34; href=&#34;https://github.com/reddvid/rpn-traffic-control&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;repo&lt;/a&gt; is available on my GitHub.&lt;/p&gt;
 </description>
@@ -1500,9 +1444,7 @@
         <description>&lt;img src="https://reddavid.me/images/og/scraping.png" alt="Featured image of post Scraping Facebook Pages to Get Number of Likes and Followers" /&gt;&lt;p&gt;Ever since Facebook’s New Page Experience update, my app that logs several Facebook pages’ number of likes and followers have been broken.&lt;/p&gt;
 &lt;p&gt;Prior to that, I was using a simple HttpClient to receive a page response content and scrape off content (HTML element) that holds the values for the likes and followers, respectively, using Nodes() from HtmlDocument().&lt;/p&gt;
 &lt;p&gt;Everything works just fine then the update happened.&lt;/p&gt;
-&lt;h2 id=&#34;old-way&#34;&gt;
-    &lt;a href=&#34;#old-way&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Old Way
+&lt;h2 id=&#34;old-way&#34;&gt;Old Way
 &lt;/h2&gt;&lt;p&gt;Before getting into my &lt;em&gt;working&lt;/em&gt; method, let me show you the old code (redacted as much as possible):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1562,9 +1504,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;As seen on the comment above, the HTML XPath code changes sometimes, and I also faced where the XPath isn’t unique for the twelve pages I log - for monthly statistics.&lt;/p&gt;
 &lt;p&gt;And besides the New Page Experience update, not all 12 pages got it. So I scoured thru &lt;em&gt;source-inspecting&lt;/em&gt; and debugging on what differs from the NPE and Classic Pages (as of this writing):&lt;/p&gt;
-&lt;h2 id=&#34;new-response-source-code&#34;&gt;
-    &lt;a href=&#34;#new-response-source-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New Response Source Code
+&lt;h2 id=&#34;new-response-source-code&#34;&gt;New Response Source Code
 &lt;/h2&gt;&lt;p&gt;Upon &lt;em&gt;inspecting&lt;/em&gt; the http response, I saw particular lines from the Classic page:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Number of likes&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1603,9 +1543,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;XXX followers&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;regular-expressions&#34;&gt;
-    &lt;a href=&#34;#regular-expressions&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Regular Expressions
+&lt;/div&gt;&lt;h2 id=&#34;regular-expressions&#34;&gt;Regular Expressions
 &lt;/h2&gt;&lt;p&gt;With these unique lines, it is now time to scrape the values out from them. And what a wonderful way to &lt;em&gt;capture&lt;/em&gt; them? &lt;strong&gt;Regex&lt;/strong&gt;, everyone’s favorite! (Sarcasm)&lt;/p&gt;
 &lt;p&gt;I tested the regex using &lt;a class=&#34;link&#34; href=&#34;https://devtoys.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;DevToys&lt;/strong&gt; on Windows 11&lt;/a&gt;, and the pattern is as literal &lt;del&gt;simple&lt;/del&gt; as possible (it just works!):&lt;/p&gt;
@@ -1633,9 +1571,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;em&gt;Edit: Actually added literal &amp;ldquo;text&amp;rdquo; so it avoids inconsistent code and text from page source&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The regex pattern for the NPE was a little bit tricky since it changed how the numbers are shown - instead of the full numerical amount (e.g. 48,321), Facebook shortened it to 48.3K.&lt;/p&gt;
-&lt;h2 id=&#34;full-scraping-code&#34;&gt;
-    &lt;a href=&#34;#full-scraping-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Full Scraping Code
+&lt;h2 id=&#34;full-scraping-code&#34;&gt;Full Scraping Code
 &lt;/h2&gt;&lt;p&gt;I also changed how I get the response code, using &lt;strong&gt;PuppeteerSharp&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1808,24 +1744,18 @@
         <guid>https://reddavid.me/and...-its-december/</guid>
         <description>&lt;p&gt;How many times have I apologized for not posting on my blog? 😅&lt;/p&gt;
 &lt;p&gt;Let’s just recap, shall we?&lt;/p&gt;
-&lt;h2 id=&#34;i-got-married&#34;&gt;
-    &lt;a href=&#34;#i-got-married&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    I Got Married
+&lt;h2 id=&#34;i-got-married&#34;&gt;I Got Married
 &lt;/h2&gt;&lt;p&gt;Yes, people still marry despite the hardships in this f-ing country, and I am one of them last October. We both felt it is time after 8 years of being together.&lt;/p&gt;
 &lt;p&gt;The prior months were not all wedding-preparations as I read and took some online courses and learning programs - more about &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flutter&lt;/a&gt;, and leadership/project management.&lt;/p&gt;
-&lt;h2 id=&#34;learning-in-depth-flutter&#34;&gt;
-    &lt;a href=&#34;#learning-in-depth-flutter&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Learning In-Depth Flutter
+&lt;h2 id=&#34;learning-in-depth-flutter&#34;&gt;Learning In-Depth Flutter
 &lt;/h2&gt;&lt;p&gt;The infamous Angela Yu’s Flutter bootcamp course on &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Udemy&lt;/a&gt; has been sitting on my learning for a few months and I finally decided to take it on since I really really have to update and improve my Flutter/Dart coding - and to update some apps.&lt;/p&gt;
 &lt;p&gt;I faced some problems with the course since it was outdated to the current Flutter version but it all went good, thanks for the updated documentation of Flutter and &lt;a class=&#34;link&#34; href=&#34;http://pub.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;pub.dev&lt;/a&gt; packages.&lt;/p&gt;
 &lt;p&gt;I learned DRY (&lt;strong&gt;d&lt;/strong&gt;on’t &lt;strong&gt;r&lt;/strong&gt;epeat &lt;strong&gt;y&lt;/strong&gt;ourself) - again - especially with Flutter’s all code UI. So, learning to convert most reusable Widgets to “components” is fun.&lt;/p&gt;
 &lt;p&gt;I also learned a few techniques and best practices.&lt;/p&gt;
-&lt;h2 id=&#34;updating-rpn-radio-app&#34;&gt;
-    &lt;a href=&#34;#updating-rpn-radio-app&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Updating RPN Radio App
+&lt;h2 id=&#34;updating-rpn-radio-app&#34;&gt;Updating RPN Radio App
 &lt;/h2&gt;&lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
 &lt;p&gt;And the app needed a UI/UX refresh - well at least for the player part.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/12-22/rpnradio.png&#34;
@@ -1837,15 +1767,11 @@
 &lt;p&gt;The app is now available to download for free on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apple App Store&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;next&#34;&gt;
-    &lt;a href=&#34;#next&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Next?
+&lt;h2 id=&#34;next&#34;&gt;Next?
 &lt;/h2&gt;&lt;p&gt;I also tested Flutter’s web app by building a working web version of my simple app, &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ZIP Code PH&lt;/a&gt;. It’s really really simple as of this moment.&lt;/p&gt;
 &lt;p&gt;I will be also going in-depth with Firebase and Firebase Auth to improve the mobile apps.&lt;/p&gt;
-&lt;h2 id=&#34;gaming-and-streaming&#34;&gt;
-    &lt;a href=&#34;#gaming-and-streaming&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Gaming and Streaming
+&lt;h2 id=&#34;gaming-and-streaming&#34;&gt;Gaming and Streaming
 &lt;/h2&gt;&lt;p&gt;Sadly, after coming back from the break, I felt no energy to play games - continue playing Assassin’s Creed: Odyssey or any other games on my Xbox PC game pass. And whenever I start a new game, I feel bored can’t motivate myself to continue playing.&lt;/p&gt;
 &lt;p&gt;I tried to play Dead Space, Battlefield 4, and VALORANT this November but also felt nothing.&lt;/p&gt;
 &lt;p&gt;But there is this game called 7 Days to Die on Steam that I am currently playing (not regularly, though) and I’ll see if it’s worth playing through.&lt;/p&gt;
@@ -1862,33 +1788,21 @@
         <guid>https://reddavid.me/building-my-own-discord-bot/</guid>
         <description>&lt;img src="https://reddavid.me/building-my-own-discord-bot/alfred-bot.png" alt="Featured image of post Building My Own Discord Bot" /&gt;&lt;p&gt;A new coding adventure begins! I always wanted to get deep with JavaScript specifically NodeJS to build apps and I never got into it due to confusion into what it is, what it can do, what UI framework to use. Though in this phase of learning NodeJS, I skipped building the UI since the bot is all code.&lt;/p&gt;
 &lt;p&gt;Let’s get into it!&lt;/p&gt;
-&lt;h2 id=&#34;intro&#34;&gt;
-    &lt;a href=&#34;#intro&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Intro
+&lt;h2 id=&#34;intro&#34;&gt;Intro
 &lt;/h2&gt;&lt;p&gt;Why build a bot from scratch? Most free Discord bots out there does a wide-range of tasks from automessaging, ping/share Twitch links, play music, XP level system, but the features are somehow pay-to-use and managing more than 2 bots is somehow distracting for my small server.&lt;/p&gt;
 &lt;p&gt;I also was encouraged after building a very simple NodeJS app that changes my custom status on Discord with a single button using Flutter and Discord user token.&lt;/p&gt;
-&lt;h2 id=&#34;building-with-discordjs&#34;&gt;
-    &lt;a href=&#34;#building-with-discordjs&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Building with DiscordJS
+&lt;h2 id=&#34;building-with-discordjs&#34;&gt;Building with DiscordJS
 &lt;/h2&gt;&lt;p&gt;Before doing the actual code, I got overwhelmed with more coding jargons like OAuth, tokens, intents, etc. - since I haven’t really used them in my personal projects. And ever since coding with C# and/or Flutter/Dart, building apps with their respective documentation, examples, and &lt;em&gt;playground&lt;/em&gt; makes it easier, which then means that getting started with &lt;a class=&#34;link&#34; href=&#34;https://discord.js.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DiscordJS&lt;/a&gt; somewhat confused me at first.&lt;/p&gt;
-&lt;h3 id=&#34;create-a-bot-and-get-its-token&#34;&gt;
-    &lt;a href=&#34;#create-a-bot-and-get-its-token&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Create a Bot and Get It’s Token
+&lt;h3 id=&#34;create-a-bot-and-get-its-token&#34;&gt;Create a Bot and Get It’s Token
 &lt;/h3&gt;&lt;p&gt;This should be fairly easy to get, head over to &lt;a class=&#34;link&#34; href=&#34;https://discord.com/developers/applications&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Discord Developer Portal&lt;/a&gt; and build an application/bot. Note: The tutorials online might be a little outdated from what the settings.&lt;/p&gt;
-&lt;h3 id=&#34;install-nodejs&#34;&gt;
-    &lt;a href=&#34;#install-nodejs&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Install NodeJS
+&lt;h3 id=&#34;install-nodejs&#34;&gt;Install NodeJS
 &lt;/h3&gt;&lt;p&gt;This should be included in Windows installation really but they have &lt;a class=&#34;link&#34; href=&#34;https://nodejs.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;guide online&lt;/a&gt;. Be careful, installing node may produce errors on terminal due to a bug in setting environment path.&lt;/p&gt;
-&lt;h3 id=&#34;use-vscode&#34;&gt;
-    &lt;a href=&#34;#use-vscode&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Use VSCode
+&lt;h3 id=&#34;use-vscode&#34;&gt;Use VSCode
 &lt;/h3&gt;&lt;p&gt;Please.&lt;/p&gt;
-&lt;h3 id=&#34;bot-capabilities&#34;&gt;
-    &lt;a href=&#34;#bot-capabilities&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Bot Capabilities
+&lt;h3 id=&#34;bot-capabilities&#34;&gt;Bot Capabilities
 &lt;/h3&gt;&lt;p&gt;As of this writing, here are a few capabilities I put on my Discord bot:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Welcome message to new members&lt;/li&gt;
@@ -1899,18 +1813,12 @@
 &lt;li&gt;Few slash commands&lt;/li&gt;
 &lt;li&gt;XP and Level system&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;heroku-deployment&#34;&gt;
-    &lt;a href=&#34;#heroku-deployment&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Heroku Deployment
+&lt;h2 id=&#34;heroku-deployment&#34;&gt;Heroku Deployment
 &lt;/h2&gt;&lt;p&gt;Running the app locally works but it’s not good practice so I once learned a new platform/service with &lt;a class=&#34;link&#34; href=&#34;https://www.heroku.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Heroku&lt;/a&gt;, it hosts and deploys NodeJS apps for free which allows my bot to run online.&lt;/p&gt;
-&lt;h2 id=&#34;codes&#34;&gt;
-    &lt;a href=&#34;#codes&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Codes?
+&lt;h2 id=&#34;codes&#34;&gt;Codes?
 &lt;/h2&gt;&lt;p&gt;I will share the codes/tutorial soon but this post will just serve as an announcement or invitation to share what I have been doing lately.&lt;/p&gt;
-&lt;h2 id=&#34;try-it-out&#34;&gt;
-    &lt;a href=&#34;#try-it-out&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Try It Out
+&lt;h2 id=&#34;try-it-out&#34;&gt;Try It Out
 &lt;/h2&gt;&lt;p&gt;Shamelessly, you can join our Discord community, it now houses people who watches my gaming streams, likes my coding, and just a place to hangout for friends and family.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.gg/5dNqkjcTxZ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Join our Discord Community, Bahay ni Kuya&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1922,9 +1830,7 @@
         <pubDate>Thu, 31 Mar 2022 00:44:04 +0800</pubDate>
         
         <guid>https://reddavid.me/updating-rpnradio-mobile-app/</guid>
-        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;
-    &lt;a href=&#34;#update-1&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update 1
+        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;Update 1
 &lt;/h2&gt;&lt;p&gt;&lt;small&gt;2022-03-31&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;I just refactored the FutureBuilder by separating the future tasks to where they are actually used in the UI - to prevent long startup and show the main UI at launch instead of a loading screen.&lt;/p&gt;
 &lt;p&gt;Version 2.0.1 is now on open testing for Android on Google Play Store.&lt;/p&gt;
@@ -1932,17 +1838,13 @@
     &gt;RPN Radio for Android (Beta)&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;It&amp;rsquo;s been a while since I coded and updated my apps, it just somehow began again when I felt the urge to refresh my website&amp;rsquo;s looks. Now I am aiming to light up every Github contribution grid block whenever I can.&lt;/p&gt;
-&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;
-    &lt;a href=&#34;#updating-flutter-packages&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Updating Flutter Packages
+&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;Updating Flutter Packages
 &lt;/h2&gt;&lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Then most are already outdated and forced some to major versions with&lt;code&gt;flutter pub upgrade &amp;ndash;major-versions&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.&lt;/p&gt;
 &lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it&amp;rsquo;s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can&amp;rsquo;t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.&lt;/p&gt;
-&lt;h2 id=&#34;new-code&#34;&gt;
-    &lt;a href=&#34;#new-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New Code
+&lt;h2 id=&#34;new-code&#34;&gt;New Code
 &lt;/h2&gt;&lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/updating-rpnradio-mobile-app/img/refactoring-files.png&#34;
     alt=&#34;Refactoring files to folders&#34;&gt;&lt;figcaption&gt;
@@ -1952,9 +1854,7 @@
 &lt;/p&gt;
 &lt;p&gt;Upgrading packages with at least 3 versions above since the app&amp;rsquo;s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flutter Audio Service Demo&lt;/a&gt;)&lt;/strong&gt; from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.&lt;/p&gt;
-&lt;h3 id=&#34;futures&#34;&gt;
-    &lt;a href=&#34;#futures&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Futures
+&lt;h3 id=&#34;futures&#34;&gt;Futures
 &lt;/h3&gt;&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;JSON&lt;/a&gt; to fetch the data. I faced a problem decoding it when I faced this unfamiliar type &lt;code&gt;Map&amp;lt;String, dynamic&amp;gt;&lt;/code&gt; coming from a C# perspective.&lt;/p&gt;
 &lt;p&gt;I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables &lt;code&gt;null&lt;/code&gt; when they are still being done, making some unwanted behaviors.&lt;/p&gt;
@@ -1987,9 +1887,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;
-    &lt;a href=&#34;#expansionlist-and-swiper&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    ExpansionList and Swiper
+&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper
 &lt;/h3&gt;&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
 &lt;p&gt;As stated above, I don&amp;rsquo;t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2096,9 +1994,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;
-    &lt;a href=&#34;#to-do&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    To-Do
+&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do
 &lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do not use Swiper when image list is only 1&lt;/li&gt;
@@ -2113,31 +2009,21 @@
         <pubDate>Sat, 04 Dec 2021 03:22:25 +0800</pubDate>
         
         <guid>https://reddavid.me/rpnnews-mobile-app/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;
-    &lt;a href=&#34;#update-2&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update #2
+        <description>&lt;img src="https://reddavid.me/images/feat/rpn-news.png" alt="Featured image of post (Update: Now Available on 3 Major App Stores) RPN News Mobile App" /&gt;&lt;h2 id=&#34;update-2&#34;&gt;Update #2
 &lt;/h2&gt;&lt;p&gt;RPN News mobile app is now also available to download from Huawei AppGallery. Check the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; for the links!&lt;/p&gt;
-&lt;h2 id=&#34;update-1&#34;&gt;
-    &lt;a href=&#34;#update-1&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Update #1
+&lt;h2 id=&#34;update-1&#34;&gt;Update #1
 &lt;/h2&gt;&lt;p&gt;The app is now available for iPhone on the App Store. See the &lt;a class=&#34;link&#34; href=&#34;#download-here&#34;&gt;download section&lt;/a&gt; below.&lt;/p&gt;
 &lt;hr &gt;
 &lt;p&gt;It&amp;rsquo;s been a while again since my last post but there were no significant updates lately - besides another week-long vacation. So let me introduce this new mobile app from RPN that I developed and releasing now.&lt;/p&gt;
-&lt;h2 id=&#34;delays&#34;&gt;
-    &lt;a href=&#34;#delays&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Delays
+&lt;h2 id=&#34;delays&#34;&gt;Delays
 &lt;/h2&gt;&lt;p&gt;The app had a working beta for Android devices for awhile now with bare experience and a better update has been in the works. I took the time to work out the database functions, UI and UX, and some other features (mobile ads, and customized links).&lt;/p&gt;
 &lt;p&gt;I apologize for the delay but I just made sure these features are working for production.&lt;/p&gt;
-&lt;h2 id=&#34;app-details&#34;&gt;
-    &lt;a href=&#34;#app-details&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    App Details
+&lt;h2 id=&#34;app-details&#34;&gt;App Details
 &lt;/h2&gt;&lt;p&gt;Most brands nowadays accompany their line of business with a mobile app, beside the &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN Radio app&lt;/a&gt; which was released so much earlier, I am now finally be able to bring news mobile app for Android devices, and iPhones.&lt;/p&gt;
 &lt;p&gt;Right now, the app is a feed for the provincial news as visible on &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com/category/provincial-news/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN website&lt;/a&gt;. The news are gathered by our provincial/regional news stations that you can read from the website or from the app - for much easier reading and sharing.&lt;/p&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;
-    &lt;a href=&#34;#screenshots&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Screenshots
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots
 &lt;/h2&gt;&lt;p&gt;It took too long to release the app that the version is now at 2.1. Below are screenshots (store previews for iPhone and Android).&lt;/p&gt;
 &lt;!-- &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-1.png&#34; alt=&#34;News feed (iPhone)&#34; /&gt;
 &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpn-news-apple-2.png&#34; alt=&#34;News details (iPhone)&#34;  /&gt;
@@ -2165,9 +2051,7 @@
    &lt;img src=&#34;https://reddavid.me/images/12-21/rpn-news/rpnnews-store-3.png&#34; alt=&#34;About page (Android)&#34; width=&#34;40%&#34; height=&#34;auto&#34; /&gt;
    &lt;figcaption&gt;About page (Android)&lt;/figcaption&gt;
 &lt;/figure&gt; --&gt;
-&lt;h2 id=&#34;download-here&#34;&gt;
-    &lt;a href=&#34;#download-here&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Download Here
+&lt;h2 id=&#34;download-here&#34;&gt;Download Here
 &lt;/h2&gt;&lt;p&gt;The app is available now on the Google Play Store: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.news&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN News - Apps on Google Play&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Update #1: Download for iPhone here: &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/app/id1590143546&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2175,13 +2059,9 @@
 &lt;p&gt;Update #2: Download from Huawei AppGallery: &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/app/C105053423&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN News on Huawei AppGallery&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;As for Huawei devices (AppGallery) and iPhone App Store, the app is still under review for each platform. Will add the links as soon as they&amp;rsquo;re approved.&lt;/del&gt;&lt;/p&gt;
-&lt;h2 id=&#34;whats-next&#34;&gt;
-    &lt;a href=&#34;#whats-next&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    What&amp;rsquo;s Next
+&lt;h2 id=&#34;whats-next&#34;&gt;What&amp;rsquo;s Next
 &lt;/h2&gt;&lt;p&gt;Here are the milestones I am looking forward to bring:&lt;/p&gt;
-&lt;h3 id=&#34;milestone-22&#34;&gt;
-    &lt;a href=&#34;#milestone-22&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Milestone 2.2+
+&lt;h3 id=&#34;milestone-22&#34;&gt;Milestone 2.2+
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;News Filter (by Station or tags)&lt;/li&gt;
 &lt;li&gt;Search&lt;/li&gt;
@@ -2189,9 +2069,7 @@
 &lt;li&gt;Customizable fonts&lt;/li&gt;
 &lt;li&gt;Read aloud&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;milestone-30&#34;&gt;
-    &lt;a href=&#34;#milestone-30&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Milestone 3.0
+&lt;h3 id=&#34;milestone-30&#34;&gt;Milestone 3.0
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Integrate stations&amp;rsquo; live videos (YouTube)&lt;/li&gt;
 &lt;li&gt;Integrate stations&amp;rsquo; VODs (video-on-demand)&lt;/li&gt;
@@ -2211,9 +2089,7 @@
 &lt;center&gt;
 &lt;/center&gt;
 &lt;p&gt;I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches &lt;a class=&#34;link&#34; href=&#34;https://dota2.fandom.com/wiki/IceFrog&#34; target=&#34;_blank&#34;&gt;IceFrog&lt;/a&gt; brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn &lt;a class=&#34;link&#34; href=&#34;https://liquipedia.net/dota2/Dota_Pro_Circuit&#34; target=&#34;_blank&#34;&gt;DPC points&lt;/a&gt; for entering the prestigious TI.&lt;/p&gt;
-&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;
-    &lt;a href=&#34;#ten-days-of-dota&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Ten Days of DOTA
+&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;Ten Days of DOTA
 &lt;/h2&gt;&lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
 &lt;center&gt;
 &lt;/center&gt;
@@ -2223,16 +2099,12 @@
 
 &lt;p&gt;Thanks to &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/wykrhm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wykrhm Reddy (@wykrhm)&lt;/a&gt; for being such a good Dota Community Man.&lt;/p&gt;
-&lt;h2 id=&#34;the-secret&#34;&gt;
-    &lt;a href=&#34;#the-secret&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    The Secret
+&lt;h2 id=&#34;the-secret&#34;&gt;The Secret
 &lt;/h2&gt;&lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
 &lt;center&gt;
 &lt;/center&gt;
 &lt;p&gt;I follow the games by watching &lt;a class=&#34;link&#34; href=&#34;https://www.twitch.tv/singsing&#34; target=&#34;_blank&#34;&gt;singsing&amp;rsquo;s Twitch stream&lt;/a&gt; as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.&lt;/p&gt;
-&lt;h2 id=&#34;coding-and-appdates&#34;&gt;
-    &lt;a href=&#34;#coding-and-appdates&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Coding and Appdates
+&lt;h2 id=&#34;coding-and-appdates&#34;&gt;Coding and Appdates
 &lt;/h2&gt;&lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
 &lt;p&gt;My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/samsung-a71.png&#34;
@@ -2248,9 +2120,7 @@
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Items Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
 	data-flex-basis=&#34;108px&#34; &gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Detail Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
 	data-flex-basis=&#34;108px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;
-    &lt;a href=&#34;#get-into-the-beta-test&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Get into the Beta Test
+&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;Get into the Beta Test
 &lt;/h3&gt;&lt;p&gt;The app is available for testing and I welcome your feedback after getting the app here from &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/2YVpJC9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google Play Store&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://apple.co/2XaMBNl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apple TestFlight&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
@@ -2290,17 +2160,13 @@
 &lt;figcaption&gt;App Screenshots&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br&gt;
-&lt;h2 id=&#34;roadmap&#34;&gt;
-    &lt;a href=&#34;#roadmap&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Roadmap
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap
 &lt;/h2&gt;&lt;p&gt;The app is set to receive further updates, especially with station details. The list below shows the top priority updates:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Detailed station page (operating hours, location, and contact numbers)&lt;/li&gt;
 &lt;li&gt;Better player view&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;download&#34;&gt;
-    &lt;a href=&#34;#download&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Download
+&lt;h2 id=&#34;download&#34;&gt;Download
 &lt;/h2&gt;&lt;p&gt;The app is FREE TO DOWNLOAD here:&lt;/p&gt;
 &lt;center&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396?itsct=apps_box_badge&amp;amp;itscg=30200e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2321,9 +2187,7 @@
         
         <guid>https://reddavid.me/rpnradio-ui-overhaul/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/rpnradio-ui.jpeg" alt="Featured image of post RPN Radio UI Overhaul" /&gt;&lt;p&gt;Browsing Instagram on my account now floods me with several UI/UX tips and practices, making me inspired to update and retouch my apps with some latest trends in mobile designs.&lt;/p&gt;
-&lt;h2 id=&#34;old-look&#34;&gt;
-    &lt;a href=&#34;#old-look&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Old Look
+&lt;h2 id=&#34;old-look&#34;&gt;Old Look
 &lt;/h2&gt;&lt;p&gt;Let&amp;rsquo;s take a look at what the app looked like before the update:&lt;/p&gt;
 &lt;figure class=&#34;image&#34;&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/stationlist.png&#34; alt=&#34;RPN Radio Stations&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
@@ -2335,15 +2199,11 @@
 &lt;blockquote&gt;
 &lt;p&gt;What am I supposed to do?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;overhaul&#34;&gt;
-    &lt;a href=&#34;#overhaul&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Overhaul
+&lt;h2 id=&#34;overhaul&#34;&gt;Overhaul
 &lt;/h2&gt;&lt;figure&gt;&lt;img src=&#34;https://media.giphy.com/media/xZsLh7B3KMMyUptD9D/giphy.gif&#34;&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;menu-list&#34;&gt;
-    &lt;a href=&#34;#menu-list&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Menu List
+&lt;h3 id=&#34;menu-list&#34;&gt;Menu List
 &lt;/h3&gt;&lt;p&gt;At first glance of a first-time user, the stations list does NOT show that it is &amp;ldquo;clickable&amp;rdquo;. So the first UI update was to change the 4x3 grid to a simple list.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/menu-list-bna.png&#34;
     alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
@@ -2352,9 +2212,7 @@
 &lt;/figure&gt;
 
 &lt;p&gt;This subtle change provides the user a hint of &amp;ldquo;click me&amp;rdquo; by giving the list item a design of a button. It also gave a space for the station&amp;rsquo;s detail to be added - station&amp;rsquo;s location and live/offline status.&lt;/p&gt;
-&lt;h3 id=&#34;header-and-controls&#34;&gt;
-    &lt;a href=&#34;#header-and-controls&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Header and Controls
+&lt;h3 id=&#34;header-and-controls&#34;&gt;Header and Controls
 &lt;/h3&gt;&lt;p&gt;Ok, this area will look crammed especially on small-screen devices. Before this update though, I repositioned the buttons below the controls and were still crammed. This update allowed the horizontal list to be scrolled.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/head-controls-bna.png&#34;
     alt=&#34;RPN Radio Stations&#34; width=&#34;90%&#34;&gt;&lt;figcaption&gt;
@@ -2363,15 +2221,11 @@
 &lt;/figure&gt;
 
 &lt;p&gt;I also changed the text that shows the current stations into a simpler one and updated the share icon.&lt;/p&gt;
-&lt;h3 id=&#34;new-font&#34;&gt;
-    &lt;a href=&#34;#new-font&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New Font
+&lt;h3 id=&#34;new-font&#34;&gt;New Font
 &lt;/h3&gt;&lt;p&gt;I like &lt;a class=&#34;link&#34; href=&#34;https://fonts.google.com/specimen/Poppins&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Poppins&lt;/a&gt;.
 &lt;br&gt;&lt;/p&gt;
-&lt;h3 id=&#34;about&#34;&gt;
-    &lt;a href=&#34;#about&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    About
+&lt;h3 id=&#34;about&#34;&gt;About
 &lt;/h3&gt;&lt;p&gt;Besides the UI updates mentioned above, I added an &amp;ldquo;About&amp;rdquo; page. It is a simple about and external links of RPN.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/05-21/rpnradio-newui/rpnradio-about.png&#34;
     alt=&#34;RPN Radio About&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
@@ -2379,9 +2233,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;roadmap&#34;&gt;
-    &lt;a href=&#34;#roadmap&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Roadmap
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap
 &lt;/h2&gt;&lt;p&gt;These are my to-do list for the app, which we will see soon on future updates:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;No internet connection status&lt;/li&gt;
@@ -2390,9 +2242,7 @@
 &lt;li&gt;Rate and review prompt&lt;/li&gt;
 &lt;li&gt;Links to station email/messaging&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;downloads&#34;&gt;
-    &lt;a href=&#34;#downloads&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Downloads
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads
 &lt;/h2&gt;&lt;p&gt;As always, the app is still available for Android and really soon for iOS.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google Play Store&lt;/a&gt;&lt;/p&gt;
@@ -2407,13 +2257,9 @@
         
         <guid>https://reddavid.me/app-landing-page-for-zip-code-ph/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-applanding.png" alt="Featured image of post App Landing Page for ZIP Code PH" /&gt;&lt;p&gt;Now that ZIP Code PH is available for both Android and iOS, I wanted to build a landing page for it.&lt;/p&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;
-    &lt;a href=&#34;#inspiration&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Inspiration
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration
 &lt;/h2&gt;&lt;p&gt;I viewed some designs online and found inspiration from &lt;a class=&#34;link&#34; href=&#34;https://get-thrive.app/&#34; target=&#34;_blank&#34;&gt;Thrive&lt;/a&gt;, which I never heard of - thanks anyway!&lt;/p&gt;
-&lt;h2 id=&#34;launch-and-land&#34;&gt;
-    &lt;a href=&#34;#launch-and-land&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Launch and Land
+&lt;h2 id=&#34;launch-and-land&#34;&gt;Launch and Land
 &lt;/h2&gt;&lt;p&gt;The webpage is available &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app&#34; target=&#34;_blank&#34;&gt;HERE&lt;/a&gt;. The page is still a link to my website but will soon acquire a domain for it soon. Also, the page is still a basic design but complete with the download links, which I will improve soon.&lt;/p&gt;
 &lt;p&gt;Will keep you updated!&lt;/p&gt;
 </description>
@@ -2424,9 +2270,7 @@
         <pubDate>Tue, 16 Mar 2021 01:28:15 +0800</pubDate>
         
         <guid>https://reddavid.me/zipcodeph-ios/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h2 id=&#34;now-available&#34;&gt;
-    &lt;a href=&#34;#now-available&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Now Available
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-ios.png" alt="Featured image of post [Update: NOW AVAILABLE] ZIP Code PH for iOS" /&gt;&lt;h2 id=&#34;now-available&#34;&gt;Now Available
 &lt;/h2&gt;&lt;p&gt;You can get the app from App Store (iPhone and iPad) for only Php49 (US$0.99) - sorry for the paywall. I&amp;rsquo;m still a struggling developer and just to let you know, developing for Apple costs more compared to Windows and Google Play Store.&lt;/p&gt;
 &lt;p&gt;Get the app below:&lt;/p&gt;
 &lt;center&gt;
@@ -2434,18 +2278,12 @@
 &lt;br&gt;&lt;img src=&#34;https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/a1b53b4233734ce37673d9f70803db74/47cd37c9-fb35-4a15-b8b8-958219968ea0.png&#34; width=&#34;200px&#34;&gt;
 &lt;/center&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;lets-go&#34;&gt;
-    &lt;a href=&#34;#lets-go&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Let&amp;rsquo;s Go
+&lt;h2 id=&#34;lets-go&#34;&gt;Let&amp;rsquo;s Go
 &lt;/h2&gt;&lt;p&gt;For the last few weeks, I spent my free time building my app, ZIP Code PH, for iOS using Apple&amp;rsquo;s native language SwiftUI.&lt;/p&gt;
 &lt;p&gt;Using a Mac is not that hard anymore since I&amp;rsquo;ve test ran macOS Catalina on VirtualBox. I managed to run XCode and tried to tinker with the language, and built some UI mockups.&lt;/p&gt;
 &lt;p&gt;And luckily, the workplace has acquired a mac mini to cater Apple users for our apps (which is coming as soon as possible). I will also be the one developing the iOS apps, so check them out soon.&lt;/p&gt;
-&lt;h2 id=&#34;development&#34;&gt;
-    &lt;a href=&#34;#development&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Development
-&lt;/h2&gt;&lt;h3 id=&#34;main-and-about-page&#34;&gt;
-    &lt;a href=&#34;#main-and-about-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Main and About Page
+&lt;h2 id=&#34;development&#34;&gt;Development
+&lt;/h2&gt;&lt;h3 id=&#34;main-and-about-page&#34;&gt;Main and About Page
 &lt;/h3&gt;&lt;p&gt;I am fairly new to SwiftUI so converting? the codes I used for Windows and Xamarin Android app - XAML and C# - will be useless. It took a few days to build the bare UI. I started with the Main Page and the Help page since they don&amp;rsquo;t consume a lot of code-behind.&lt;/p&gt;
 &lt;p&gt;The Main Page took a lot of iterations but below is the final view (as of this writing):&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/mainpage.png&#34;
@@ -2461,9 +2299,7 @@
 &lt;figcaption&gt;Help &amp; About Page&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br/&gt;
-&lt;h3 id=&#34;search-page&#34;&gt;
-    &lt;a href=&#34;#search-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Search Page
+&lt;h3 id=&#34;search-page&#34;&gt;Search Page
 &lt;/h3&gt;&lt;p&gt;Next up is the Search Page, I coded this before the menus since the code-behind logic is much simpler since we will use all the zip codes instead of filtering them to areas.&lt;/p&gt;
 &lt;p&gt;I didn&amp;rsquo;t explorer SwiftUI that much but I found this code to build the Search bar iOS-style:&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/searchbar.png&#34;
@@ -2573,9 +2409,7 @@
   &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/searchpage.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;p&gt;I spent a few times making the search (filtering) logic work the way I wanted that I almost gave up with SwiftUI programming 😅&lt;/p&gt;
-&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;
-    &lt;a href=&#34;#menu-and-area-list-page&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Menu and Area List Page
+&lt;h2 id=&#34;menu-and-area-list-page&#34;&gt;Menu and Area List Page
 &lt;/h2&gt;&lt;p&gt;After understanding the filtering code while developing the Search Page, it is time to code the Menu and Area pages. The UI looks a lot like the Android counterpart but the built-in Title style for iOS makes the UI better by collapsing the title to inline when scrolled. This is how it looks like on version 1.0.4&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/zipcodeph-ios/area.png&#34;
     alt=&#34;City and Area Pages&#34; width=&#34;40%&#34;&gt;&lt;figcaption&gt;
@@ -2583,18 +2417,14 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;favorites&#34;&gt;
-    &lt;a href=&#34;#favorites&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Favorites
+&lt;h2 id=&#34;favorites&#34;&gt;Favorites
 &lt;/h2&gt;&lt;p&gt;Now the challenge begins, how to implement favorites - saving and loading data - while making the UI flexible when an item is added to favorites.&lt;/p&gt;
 &lt;p&gt;After more than a week of mind-bending development, I made it to work with the help of stackoverflow 😅. (Every developer use it, right? Right?)&lt;/p&gt;
 &lt;video muted width=&#34;280&#34; controls style=&#34;display:block;margin-left:auto;margin-right:auto;&#34;&gt;
   &lt;source src=&#34;https://reddavid.me/videos/03-21/zipcodeph-ios/favorite.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;showcase&#34;&gt;
-    &lt;a href=&#34;#showcase&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Showcase
+&lt;h2 id=&#34;showcase&#34;&gt;Showcase
 &lt;/h2&gt;&lt;p&gt;Below are the app showcase which you can see on the App Store as soon as the app is available&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/color-mode_hueb06254b11f64778b9083793ad52c942_1956051_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Light and Dark Mode&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
 	data-flex-basis=&#34;110px&#34; &gt;
@@ -2610,9 +2440,7 @@
 	data-flex-basis=&#34;110px&#34; &gt;
 &lt;img src=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao.png&#34; width=&#34;1242&#34;  height=&#34;2688&#34;  srcset=&#34;https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_480x0_resize_box_3.png 480w, https://reddavid.me/zipcodeph-ios/img/gallery/mindanao_hu6d5681e58f4c68a3e122d66935f7f64e_745417_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;Mindanao&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;46&#34;
 	data-flex-basis=&#34;110px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;downloads&#34;&gt;
-    &lt;a href=&#34;#downloads&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Downloads
+&lt;h2 id=&#34;downloads&#34;&gt;Downloads
 &lt;/h2&gt;&lt;p&gt;(Now Available!) &lt;a class=&#34;link&#34; href=&#34;https://apple.co/3lrnrBO&#34; target=&#34;_blank&#34;&gt;Get the app&lt;/a&gt; on App Store for iPhone and iPad.&lt;/p&gt;
 &lt;p&gt;The app can be tested and I will share the TestFlight link soon. I am still fixing some minor issues and will announce the availability on a new blog post.&lt;/p&gt;
 &lt;p&gt;For the meantime, the app is still available for Android and Windows 10.&lt;/p&gt;
@@ -2633,32 +2461,24 @@
         <description>&lt;img src="https://reddavid.me/images/feat/android-love-flutter.png" alt="Featured image of post Flutter Coding" /&gt;&lt;p&gt;I&amp;rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.&lt;/p&gt;
 &lt;p&gt;As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.&lt;/p&gt;
 &lt;p&gt;Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &amp;ldquo;native world&amp;rdquo;.&lt;/p&gt;
-&lt;h2 id=&#34;android-and-bad-java-code&#34;&gt;
-    &lt;a href=&#34;#android-and-bad-java-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Android and Bad (Java) Code
+&lt;h2 id=&#34;android-and-bad-java-code&#34;&gt;Android and Bad (Java) Code
 &lt;/h2&gt;&lt;p&gt;The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.&lt;/p&gt;
 &lt;p&gt;To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.&lt;/p&gt;
 &lt;p&gt;Ever since March started, I started reading about Flutter and did some basic UI.&lt;/p&gt;
 &lt;p&gt;But first, let me tell you how I installed Flutter on Windows.&lt;/p&gt;
-&lt;h2 id=&#34;pre-installation-pre-requisites&#34;&gt;
-    &lt;a href=&#34;#pre-installation-pre-requisites&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Pre-installation (Pre-requisites?)
+&lt;h2 id=&#34;pre-installation-pre-requisites&#34;&gt;Pre-installation (Pre-requisites?)
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Make sure you have Git on your device. I installed Git for Windows&lt;/li&gt;
 &lt;li&gt;I&amp;rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.&lt;/li&gt;
 &lt;li&gt;Some Android SDKs and;&lt;/li&gt;
 &lt;li&gt;Google Chrome browser.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;installation&#34;&gt;
-    &lt;a href=&#34;#installation&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Installation
+&lt;h2 id=&#34;installation&#34;&gt;Installation
 &lt;/h2&gt;&lt;p&gt;I pretty much followed the recommended guide as stated here: &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/docs/get-started/install/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Install Flutter (Windows)&lt;/a&gt;. But instead of &lt;code&gt;C:\src\flutter&lt;/code&gt;, I put it a level higher like this: &lt;code&gt;C:\flutter&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Then added environment variable to Path. &amp;lt;- This part is important if you want to run flutter commands in the command line&lt;/p&gt;
 &lt;p&gt;Ran &lt;code&gt;flutter doctor&lt;/code&gt; until all requirements are check out&lt;/p&gt;
-&lt;h2 id=&#34;ide-wait&#34;&gt;
-    &lt;a href=&#34;#ide-wait&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    IDE, wait&amp;hellip;
+&lt;h2 id=&#34;ide-wait&#34;&gt;IDE, wait&amp;hellip;
 &lt;/h2&gt;&lt;p&gt;My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.&lt;/p&gt;
 &lt;p&gt;Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!&lt;/p&gt;
 &lt;p&gt;Even though &lt;code&gt;flutter doctor&lt;/code&gt; checked everything, I was disappointed that I can&amp;rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&amp;rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.&lt;/p&gt;
@@ -2676,9 +2496,7 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;hello-world&#34;&gt;
-    &lt;a href=&#34;#hello-world&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Hello, World
+&lt;h2 id=&#34;hello-world&#34;&gt;Hello, World
 &lt;/h2&gt;&lt;p&gt;Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.&lt;/p&gt;
 &lt;p&gt;I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.&lt;/p&gt;
 &lt;p&gt;Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!&lt;/p&gt;
@@ -2692,20 +2510,14 @@
         
         <guid>https://reddavid.me/tunein-update/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/rpn-tunein.png" alt="Featured image of post Tune In RPN Radio Update" /&gt;&lt;p&gt;I updated the tune-in website for RPN. This post will detail the changes, what&amp;rsquo;s new or removed, and how the update went.&lt;/p&gt;
-&lt;h2 id=&#34;mainpage-and-mobile-first-design&#34;&gt;
-    &lt;a href=&#34;#mainpage-and-mobile-first-design&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    MainPage and Mobile-First Design
+&lt;h2 id=&#34;mainpage-and-mobile-first-design&#34;&gt;MainPage and Mobile-First Design
 &lt;/h2&gt;&lt;p&gt;The main page remains got a few changes, starting with the font face and size. Before the update, the font family forced to check for &lt;a class=&#34;link&#34; href=&#34;https://www.marksimonson.com/fonts/view/proxima-nova&#34; target=&#34;_blank&#34;&gt;Proxima Nova&lt;/a&gt; and fallback to Arial Nova or other &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Sans-serif&#34; target=&#34;_blank&#34;&gt;sans serif fonts.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Then I cleaned up my CSS file to make the whole website &lt;a class=&#34;link&#34; href=&#34;https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;mobile-first&amp;rdquo;.&lt;/a&gt;
 &lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;
-&lt;h2 id=&#34;now-playing-station-pages&#34;&gt;
-    &lt;a href=&#34;#now-playing-station-pages&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Now Playing Station Pages
+&lt;h2 id=&#34;now-playing-station-pages&#34;&gt;Now Playing Station Pages
 &lt;/h2&gt;&lt;p&gt;The tune-in or now playing page received most of the update. I&amp;rsquo;ve broken some of them below:&lt;/p&gt;
-&lt;h3 id=&#34;back-button&#34;&gt;
-    &lt;a href=&#34;#back-button&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Back Button
+&lt;h3 id=&#34;back-button&#34;&gt;Back Button
 &lt;/h3&gt;&lt;p&gt;The back button got a lot of love with some logic. At first, the button always takes you to the home (main) page with the &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag attribute &lt;code&gt;href=&amp;quot;/&amp;quot;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now, it&amp;rsquo;s got a javascript code that checks for an open navigation menu, and whether the history came from the tunein.rpnradio.com domain.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2734,19 +2546,13 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;This logic was finalized when I opened a page link on my iPhone then the back button took me to the previous page - other site.&lt;/p&gt;
 &lt;p&gt;Now the back button takes you to home page when started with a station page.&lt;/p&gt;
-&lt;h3 id=&#34;navigation-menu&#34;&gt;
-    &lt;a href=&#34;#navigation-menu&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Navigation Menu
+&lt;h3 id=&#34;navigation-menu&#34;&gt;Navigation Menu
 &lt;/h3&gt;&lt;p&gt;The station pages got a navigation menu that resembles the home page. This is to give the listener a continuous audio stream playback whilst needing to change a station.&lt;/p&gt;
 &lt;p&gt;Note: The navigation drawer will not work on browser back button - as I learned with other sites. The browser just simply go back to the previous page.&lt;/p&gt;
-&lt;h2 id=&#34;security&#34;&gt;
-    &lt;a href=&#34;#security&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Security
+&lt;h2 id=&#34;security&#34;&gt;Security
 &lt;/h2&gt;&lt;p&gt;The website was also SSL-enabled - &lt;a class=&#34;link&#34; href=&#34;https://www.websecurity.digicert.com/security-topics/https-everywhere&#34; target=&#34;_blank&#34;&gt;HTTPS Everywhere.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This also means that the old stream URLs will not work. Thankfully, the audio servers have secured stream URLs for secure websites.&lt;/p&gt;
-&lt;h2 id=&#34;open-graph-metadata&#34;&gt;
-    &lt;a href=&#34;#open-graph-metadata&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Open Graph Metadata
+&lt;h2 id=&#34;open-graph-metadata&#34;&gt;Open Graph Metadata
 &lt;/h2&gt;&lt;p&gt;Social Media sites are the places where websites get the most referrers. So having metadata for them not just makes the website Facebook- or Twitter-friendly but it is a great addition to how it would look like when shared.&lt;/p&gt;
 &lt;p&gt;Making the images took waaaaay longer than I expected. I decided to add 3 mockup devices that shows the website on these devices. You can see the share preview below:&lt;/p&gt;
 &lt;figure class=&#34;image&#34;&gt;
@@ -2757,22 +2563,16 @@
 &lt;figcaption&gt;Twitter Open Graph Preview&lt;/figcaption&gt;
 &lt;/figure&gt;
 Creating the metadata tags was made easy by using &lt;a class=&#34;link&#34; href=&#34;https://metatags.io/&#34; target=&#34;_blank&#34;&gt;Metatags.io&lt;/a&gt;.
-&lt;h2 id=&#34;site-icons&#34;&gt;
-    &lt;a href=&#34;#site-icons&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Site Icons
+&lt;h2 id=&#34;site-icons&#34;&gt;Site Icons
 &lt;/h2&gt;&lt;p&gt;I went on to also update the website&amp;rsquo;s favicons, to differentiate tunein to the news website. It now has the Android app icon below:&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/tunein/radio_app.png&#34; alt=&#34;Tune In Open Graph Image for Homepage&#34; style=&#34;width: 20%; &#34;&gt;
 &lt;figcaption&gt;Website Favicon&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2 id=&#34;google-ads&#34;&gt;
-    &lt;a href=&#34;#google-ads&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Google Ads
+&lt;h2 id=&#34;google-ads&#34;&gt;Google Ads
 &lt;/h2&gt;&lt;p&gt;I replaced the part suggesting other methods to tunein (Zeno app, Radio Garden and our native Android app) with a Google Auto ad.&lt;/p&gt;
 &lt;p&gt;We all hate ads but this is the only modest way to profit for most websites.&lt;/p&gt;
-&lt;h2 id=&#34;htaccess-to-remove-html&#34;&gt;
-    &lt;a href=&#34;#htaccess-to-remove-html&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    .htaccess to Remove .html
+&lt;h2 id=&#34;htaccess-to-remove-html&#34;&gt;.htaccess to Remove .html
 &lt;/h2&gt;&lt;p&gt;I finally made it to work, shorten the address for site navigation. Instead of showing the full file name: &lt;pre&gt;&lt;small&gt;tunein.rpnradio.com/batac.html&lt;/small&gt;&lt;/pre&gt;
 Some rules were added to the .htaccess file to make it &lt;pre&gt;&lt;small&gt;tunein.rpnradio.com/batac&lt;/small&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;.htaccess file:&lt;/p&gt;
@@ -2785,13 +2585,9 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;footer-finally&#34;&gt;
-    &lt;a href=&#34;#footer-finally&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Footer Finally
+&lt;h2 id=&#34;footer-finally&#34;&gt;Footer Finally
 &lt;/h2&gt;&lt;p&gt;I added a subtle footer to the whole website. That&amp;rsquo;s it. :)&lt;/p&gt;
-&lt;h2 id=&#34;final-words&#34;&gt;
-    &lt;a href=&#34;#final-words&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Final Words
+&lt;h2 id=&#34;final-words&#34;&gt;Final Words
 &lt;/h2&gt;&lt;p&gt;This website is another medium for the company&amp;rsquo;s aim for a greater reach by expanding to Digital Media. In addition to our native apps (which is available for Android - &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;hl=en&amp;gl=US&#34; target=&#34;_blank&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34; target=&#34;_blank&#34;&gt;Huawei App Gallery&lt;/a&gt;), the website also serves a means for our audiences to access our stations&amp;rsquo; broadcast anytime and anywhere in the world.&lt;/p&gt;
 &lt;p&gt;You can visit the website here: &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/&#34; target=&#34;_blank&#34;&gt;Tune In — RPN Radio.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You may also want to check my blog post about the RPN Radio App here:&lt;br/&gt;&lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/rpnradio-android/&#34;&gt;RPN Radio: Streaming App for Android.&lt;/a&gt;&lt;/p&gt;
@@ -2803,9 +2599,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
         <pubDate>Sat, 06 Feb 2021 00:40:14 +0800</pubDate>
         
         <guid>https://reddavid.me/developing-for-apple-soon/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/appstore.png" alt="Featured image of post Developing for Apple Soon" /&gt;&lt;h2 id=&#34;me--apple-user&#34;&gt;
-    &lt;a href=&#34;#me--apple-user&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Me = Apple User?
+        <description>&lt;img src="https://reddavid.me/images/feat/appstore.png" alt="Featured image of post Developing for Apple Soon" /&gt;&lt;h2 id=&#34;me--apple-user&#34;&gt;Me = Apple User?
 &lt;/h2&gt;&lt;p&gt;Yes, I gave in to use an Apple device. Well, I&amp;rsquo;ve tried an iPhone XS before, and I must admit, having a device with software dedicated to its hardware is chef&amp;rsquo;s kiss. That&amp;rsquo;s what I liked about Apple, the hardware and software work along each other, and like most people, the price-tag for their phones held me back until December.&lt;/p&gt;
 &lt;p&gt;I &lt;em&gt;loaned&lt;/em&gt; for an iPhone 11 since the iPhone 12 is expensive and I like the 11&amp;rsquo;s grip instead of the sharp edges of the new design. I got a yellow one since the black sold out. Then I realized black, though very simple, is such a generic color that it doesn&amp;rsquo;t stand out as a phone&amp;rsquo;s color and I&amp;rsquo;ve had too many black phones before.&lt;/p&gt;
 &lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/iphone11back.jpg&#34;
@@ -2815,9 +2609,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 &lt;/figure&gt;
 
 &lt;br/&gt;&lt;/p&gt;
-&lt;h2 id=&#34;developing-apps-for-ios-soon&#34;&gt;
-    &lt;a href=&#34;#developing-apps-for-ios-soon&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Developing Apps for iOS Soon
+&lt;h2 id=&#34;developing-apps-for-ios-soon&#34;&gt;Developing Apps for iOS Soon
 &lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m excited to learn new things and finally applying the cross-platform capabilities of &lt;a class=&#34;link&#34; href=&#34;https://dotnet.microsoft.com/apps/xamarin/xamarin-forms&#34;&gt;Xamarin.Forms&lt;/a&gt; which I have used in some of my Android apps and it&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/&#34;&gt;C#&lt;/a&gt;. I also want to check out native code from Apple, &lt;a class=&#34;link&#34; href=&#34;https://developer.apple.com/xcode/swiftui/&#34;&gt;SwiftUI&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Developing for Apple is quite costly, that you need to own a Mac (or rent online) and ₱4450 ($99) for an individual to publish to the App Store. And it is YEARLY.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/02-21/iphone-11/applibrary.jpg&#34;
@@ -2827,9 +2619,7 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 &lt;/figure&gt;
 
 &lt;p&gt;So, to test things out, I would be putting my app &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-android-dark-mode/&#34;&gt;ZIP Code PH&lt;/a&gt; on the App Store and might set a (very very small) price to support this costly Apple environment 😂.&lt;/p&gt;
-&lt;h2 id=&#34;in-the-meantime&#34;&gt;
-    &lt;a href=&#34;#in-the-meantime&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    In the meantime&amp;hellip;
+&lt;h2 id=&#34;in-the-meantime&#34;&gt;In the meantime&amp;hellip;
 &lt;/h2&gt;&lt;p&gt;Go ahead and check out my apps on the &lt;a class=&#34;link&#34; href=&#34;ms-windows-store://publisher?name=Red David&#34;&gt;Windows 10 Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/dev?id=5465762079490576029&#34;&gt;Google Play Store&lt;/a&gt; both under Red David.&lt;/p&gt;
 &lt;p&gt;See you soon!&lt;/p&gt;
 </description>
@@ -2840,26 +2630,18 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
         <pubDate>Fri, 05 Feb 2021 23:17:22 +0800</pubDate>
         
         <guid>https://reddavid.me/zipcodeph-android-dark-mode/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-android.png" alt="Featured image of post ZIP Code PH for Android gets Dark Mode" /&gt;&lt;h2 id=&#34;the-pandemic-and-night-owls&#34;&gt;
-    &lt;a href=&#34;#the-pandemic-and-night-owls&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    The Pandemic and Night Owls
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph-android.png" alt="Featured image of post ZIP Code PH for Android gets Dark Mode" /&gt;&lt;h2 id=&#34;the-pandemic-and-night-owls&#34;&gt;The Pandemic and Night Owls
 &lt;/h2&gt;&lt;p&gt;My app, ZIP Code PH, has been available on Google Play Store for more than a year now and because of the pandemic, more and more people are staying at home and are mostly &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Night_owl_(person)&#34;&gt;night-owls&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And app and software developers are now giving their projects dark mode - not just to follow accessibility standards but offer an option for people to reduce or avoid eye strain.&lt;/p&gt;
-&lt;h2 id=&#34;heres-dark-mode-for-ya&#34;&gt;
-    &lt;a href=&#34;#heres-dark-mode-for-ya&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Here&amp;rsquo;s Dark Mode for ya
+&lt;h2 id=&#34;heres-dark-mode-for-ya&#34;&gt;Here&amp;rsquo;s Dark Mode for ya
 &lt;/h2&gt;&lt;p&gt;So here I am, picking up again on coding (for my apps) and started giving some apps a dark flavor. It almost took me a month to develop and test since available Xamarin Forms documentation didn&amp;rsquo;t suit my liking.&lt;/p&gt;
-&lt;h2 id=&#34;quick-app-features&#34;&gt;
-    &lt;a href=&#34;#quick-app-features&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Quick App Features
+&lt;h2 id=&#34;quick-app-features&#34;&gt;Quick App Features
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Toggle light and dark mode&lt;/li&gt;
 &lt;li&gt;Quick search Philippine ZIP codes&lt;/li&gt;
 &lt;li&gt;Favorite (Bookmark) selected ZIP codes for easy reference&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;
-    &lt;a href=&#34;#screenshots&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Screenshots
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots
 &lt;/h2&gt;&lt;p&gt;See for yourself the light and dark mode for the app below.&lt;/p&gt;
 &lt;figure class=&#34;image&#34;&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/zipcode-darkmode/main-light.png&#34; alt=&#34;ZIP Code PH - Main Menu on Light Mode&#34; style=&#34;display: inline; width: 30%;&#34;&gt;
@@ -2874,17 +2656,13 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 &lt;figcaption&gt;ZIP Code PH - List&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;I chose &lt;code&gt;#222222&lt;/code&gt; as the background color for darkmode so it is easier in the eyes (at least for me and some design posts I read somewhere). If someone requests an option for a darker color, I&amp;rsquo;d be glad to add it. (Themes, maybe? 🤔)&lt;/p&gt;
-&lt;h2 id=&#34;make-me-happy-download&#34;&gt;
-    &lt;a href=&#34;#make-me-happy-download&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Make Me Happy, Download
+&lt;h2 id=&#34;make-me-happy-download&#34;&gt;Make Me Happy, Download
 &lt;/h2&gt;&lt;p&gt;Yes, please. Make me happy by downloading the app, write a review and give a rating of 5 stars. The app is available for Android, on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103245343&#34;&gt;Huawei App Gallery.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;It is free to download and I hope you welcome ads that earns a me a little. Thank you and until next app!&lt;/p&gt;
 &lt;center&gt;
 &lt;a class=&#34;link&#34; href=&#39;https://play.google.com/store/apps/details?id=xyz.reddvid.zipcodeph&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&#39;&gt;&lt;img alt=&#39;Get it on Google Play&#39; src=&#39;https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png&#39; style=&#34;width: 50%&#34;/&gt;&lt;/a&gt;
 &lt;/center&gt;
-&lt;h2 id=&#34;looking-for-a-windows-10-version&#34;&gt;
-    &lt;a href=&#34;#looking-for-a-windows-10-version&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Looking for a Windows 10 version?
+&lt;h2 id=&#34;looking-for-a-windows-10-version&#34;&gt;Looking for a Windows 10 version?
 &lt;/h2&gt;&lt;p&gt;Check out &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-new-ui/&#34;&gt;this old blog post&lt;/a&gt; about the Windows 10 app.&lt;/p&gt;
 </description>
         </item>
@@ -2895,32 +2673,22 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
         
         <guid>https://reddavid.me/rpnradio-android/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/rpnradio.png" alt="Featured image of post RPN Radio: Streaming App for Android" /&gt;&lt;p&gt;This should just be a short post to promote and showcase this Android app I developed for my job.&lt;/p&gt;
-&lt;h2 id=&#34;am-radio-in-your-pocket&#34;&gt;
-    &lt;a href=&#34;#am-radio-in-your-pocket&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    AM Radio in your Pocket
+&lt;h2 id=&#34;am-radio-in-your-pocket&#34;&gt;AM Radio in your Pocket
 &lt;/h2&gt;&lt;p&gt;Choose from RPN&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://rpnradio.com/&#34; target=&#34;_blank&#34;&gt;(Radio Philippines Network)&lt;/a&gt; 12 regional AM stations to tune into. Just connect to the internet and be updated to the latest news, talks, and enjoy some old and new tunes.&lt;/p&gt;
-&lt;h2 id=&#34;development&#34;&gt;
-    &lt;a href=&#34;#development&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Development
+&lt;h2 id=&#34;development&#34;&gt;Development
 &lt;/h2&gt;&lt;p&gt;I tried making this app using Xamarin.Forms but the new Android implementation of the media notification sucked a** that I made the app in pure &lt;a class=&#34;link&#34; href=&#34;https://developer.android.com/guide&#34;&gt;Android Java code&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;app-description&#34;&gt;
-    &lt;a href=&#34;#app-description&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    App Description
+&lt;h2 id=&#34;app-description&#34;&gt;App Description
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;RPN&amp;rsquo;s 12 radio stations are situated among the three major parts of the Philippines - in Luzon, we have DZRL Batac and DZBS Baguio that will give you the latest news, updates, music and other events happening in the North in Ilocano; and DZKI Iriga to offer them in Rinkonada Bikol and/or Bikolano. Next in Visayas, DYKC Cebu and DYKB Bacolod operates in the heart of Cebu City and neighboring Bacolod City, respectively. DYKC Cebu provides an programming format that will surely make all Cebuanos and Bisaya all around the world miss home. While DYKB Bacolod gives you the most important news and talkshows in Hiligaynon and/or Ilonggo. Lastly, Mindanao holds most of our stations : DXKS Surigao, DXKO Cagayan de Oro, DXDX General Santos, DXKP Pagadian, DXXX Zamboanga, and DXKT Davao.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;
-    &lt;a href=&#34;#screenshots&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Screenshots
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots
 &lt;/h2&gt;&lt;figure class=&#34;image&#34;&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/stationlist.png&#34; alt=&#34;RPN Radio Stations&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
 &lt;img src=&#34;https://reddavid.me/images/02-21/rpnradio/playingview.png&#34; alt=&#34;RPN Radio Streaming&#34; style=&#34;display: inline; width: 40%;&#34;&gt;
 &lt;figcaption&gt;RPN Radio App for Android&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;br/&gt;
-&lt;h2 id=&#34;download&#34;&gt;
-    &lt;a href=&#34;#download&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Download
+&lt;h2 id=&#34;download&#34;&gt;Download
 &lt;/h2&gt;&lt;p&gt;The app is available to download for &lt;strong&gt;FREE&lt;/strong&gt; from &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&#34;&gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://appgallery.huawei.com/#/app/C103076031&#34;&gt;Huawei App Store.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The app will be available soon on iOS.&lt;/p&gt;
 </description>
@@ -2931,23 +2699,17 @@ RewriteRule ^ %{REQUEST_URI}.html [NC,L]
         <pubDate>Sun, 16 Aug 2020 22:02:34 +0800</pubDate>
         
         <guid>https://reddavid.me/zipcodeph-new-ui/</guid>
-        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph.png" alt="Featured image of post ZIP Code PH Gets Refreshed UI" /&gt;&lt;h2 id=&#34;foreword-and-inspiration&#34;&gt;
-    &lt;a href=&#34;#foreword-and-inspiration&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Foreword and Inspiration
+        <description>&lt;img src="https://reddavid.me/images/feat/zipcodeph.png" alt="Featured image of post ZIP Code PH Gets Refreshed UI" /&gt;&lt;h2 id=&#34;foreword-and-inspiration&#34;&gt;Foreword and Inspiration
 &lt;/h2&gt;&lt;p&gt;Over these past few months, I have been checking on some fluent design concepts and app updates over Twitter and other design sites like, Dribbble, Behance, and even Medium.
 Also, I have been busy gaming and doing some reading on my spare time that I missed coding and updating some of my apps.&lt;/p&gt;
 &lt;p&gt;Then one time, I just found the urge to update it after seeing Michael West&amp;rsquo;s concept layouts over Dribbble. He created a UI concept for Windows 10&amp;rsquo;s App settings panel as seen &lt;a class=&#34;link&#34; href=&#34;https://dribbble.com/shots/6404804-Apps-features-Microsoft-Edge-style&#34; target=&#34;_blank&#34;&gt;here on his Dribbble post&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I started coding at once, cleaning up some codes on the app starting with the UI. And came up with the final layout.&lt;/p&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;
-    &lt;a href=&#34;#screenshots&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Screenshots
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots
 &lt;/h2&gt;&lt;p&gt;Here are some screenshots of the updated app version 4.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph/full.png&#34;    loading=&#34;lazy&#34;  alt=&#34;Fluent Design UI&#34;  &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph/dark.png&#34;    loading=&#34;lazy&#34;  alt=&#34;Dark mode&#34;  &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/zipcodeph/light.png&#34;    loading=&#34;lazy&#34;  alt=&#34;Search Page in Light mode&#34;  &gt;&lt;/p&gt;
-&lt;h2 id=&#34;download&#34;&gt;
-    &lt;a href=&#34;#download&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Download
+&lt;h2 id=&#34;download&#34;&gt;Download
 &lt;/h2&gt;&lt;p&gt;You can check the &lt;em&gt;free&lt;/em&gt; app here in the Microsoft Store.&lt;/p&gt;
 &lt;center&gt;
 &lt;a class=&#34;link&#34; href=&#39;//www.microsoft.com/store/apps/9nblggh5gft6?cid=storebadge&amp;ocid=badge&#39;&gt;&lt;img src=&#39;https://reddavid.me/images/English_get-it-from-MS.png&#39; alt=&#39;English badge&#39; width=&#34;200px&#34;/&gt;&lt;/a&gt;
@@ -2962,12 +2724,8 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
         <guid>https://reddavid.me/your-phone-tray-v2/</guid>
         <description>&lt;img src="https://reddavid.me/images/feat/your-phone.jpg" alt="Featured image of post Your Phone Tray V2" /&gt;&lt;p&gt;Your Phone Tray UWP app just got updated.&lt;/p&gt;
 &lt;p&gt;Version 2.0 brings few UI changes, some improvements and a breaking change.&lt;/p&gt;
-&lt;h2 id=&#34;improvements&#34;&gt;
-    &lt;a href=&#34;#improvements&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Improvements
-&lt;/h2&gt;&lt;h3 id=&#34;new-context-menu&#34;&gt;
-    &lt;a href=&#34;#new-context-menu&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New Context Menu
+&lt;h2 id=&#34;improvements&#34;&gt;Improvements
+&lt;/h2&gt;&lt;h3 id=&#34;new-context-menu&#34;&gt;New Context Menu
 &lt;/h3&gt;&lt;p&gt;To improve the app, I updated the tray icon context menu to show that it should be running on Startup (see Task Manager Start up)
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/07-20/yourphonetray/ypt-contextmenu.png&#34;
     alt=&#34;Context Menu of Your Phone Tray app&#34; width=&#34;50%&#34;&gt;&lt;figcaption&gt;
@@ -2975,18 +2733,12 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
-&lt;h4 id=&#34;shortcut-key&#34;&gt;
-    &lt;a href=&#34;#shortcut-key&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Shortcut Key
+&lt;h4 id=&#34;shortcut-key&#34;&gt;Shortcut Key
 &lt;/h4&gt;&lt;p&gt;You can also see a new menu item &lt;strong&gt;Enable Ctrl+Y Hotkey&lt;/strong&gt;. If enabled, the app silently picks up the &lt;code&gt;Ctrl+Y&lt;/code&gt; shortcut to open Your Phone app. It can be toggled if the shortcut key messes up some of your programs.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;breaking-change&#34;&gt;
-    &lt;a href=&#34;#breaking-change&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Breaking change
+&lt;h2 id=&#34;breaking-change&#34;&gt;Breaking change
 &lt;/h2&gt;&lt;p&gt;Microsoft&amp;rsquo;s Your Phone app has been updated several times that launching it directly to the photos section shows a blank UI. For the meantime, all shortcuts to open the app will direct to messages.&lt;/p&gt;
-&lt;h2 id=&#34;download&#34;&gt;
-    &lt;a href=&#34;#download&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Download
+&lt;h2 id=&#34;download&#34;&gt;Download
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/UrPhoneTray&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Download the app here&lt;/strong&gt;&lt;/a&gt; for Windows 10&lt;/p&gt;
 </description>
         </item>
@@ -3020,21 +2772,15 @@ Also, I have been busy gaming and doing some reading on my spare time that I mis
         <pubDate>Sun, 12 May 2019 15:47:52 +0800</pubDate>
         
         <guid>https://reddavid.me/rf-tools-gets-multi-window-support/</guid>
-        <description>&lt;img src="https://reddavid.me/images/rftools.png" alt="Featured image of post RF Tools Gets Multi-Window Support" /&gt;&lt;h2 id=&#34;new-sdk-features&#34;&gt;
-    &lt;a href=&#34;#new-sdk-features&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New SDK Features
+        <description>&lt;img src="https://reddavid.me/images/rftools.png" alt="Featured image of post RF Tools Gets Multi-Window Support" /&gt;&lt;h2 id=&#34;new-sdk-features&#34;&gt;New SDK Features
 &lt;/h2&gt;&lt;p&gt;UWP SDK recently released support for Multi-windowing.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://docs.microsoft.com/en-us/windows/uwp/design/layout/images/multi-view.gif&#34;    loading=&#34;lazy&#34;  alt=&#34;&amp;ldquo;UWP multiview&amp;rdquo;&#34;  &gt;&lt;/p&gt;
 &lt;p&gt;Then I thought of which of my apps should I implement this with, there&amp;rsquo;s nothing better than RF Tools, a calculator app for engineers and enthusiasts of radio frequency.&lt;/p&gt;
 &lt;p&gt;This should improve the user&amp;rsquo;s experience by doing multiple calculations visible at once; to compare and serve as a history.&lt;/p&gt;
-&lt;h2 id=&#34;screenshots&#34;&gt;
-    &lt;a href=&#34;#screenshots&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Screenshots
+&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots
 &lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://store-images.s-microsoft.com/image/apps.60377.13510798887994336.0ea597cf-9876-450a-a556-970e65ee2c51.fb038e62-7867-47a6-bab5-f147dbc3fc88?w=1399&amp;amp;h=787&amp;amp;q=90&amp;amp;format=jpg&#34;    loading=&#34;lazy&#34;  alt=&#34;RF Tools split view&#34;  &gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://store-images.s-microsoft.com/image/apps.52167.13510798887994336.0ea597cf-9876-450a-a556-970e65ee2c51.1e574b1f-3491-4f87-b7e1-ad518a098b1f?w=1399&amp;amp;h=787&amp;amp;q=90&amp;amp;format=jpg&#34;    loading=&#34;lazy&#34;  alt=&#34;RF Tools multi window&#34;  &gt;&lt;/p&gt;
-&lt;h2 id=&#34;download&#34;&gt;
-    &lt;a href=&#34;#download&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Download
+&lt;h2 id=&#34;download&#34;&gt;Download
 &lt;/h2&gt;&lt;p&gt;You can &lt;a class=&#34;link&#34; href=&#34;https://www.microsoft.com/en-us/p/rf-tools/9nblggh41btt&#34; target=&#34;_blank&#34;&gt;download the app here&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>

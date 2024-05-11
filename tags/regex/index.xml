@@ -15,9 +15,7 @@
         <description>&lt;img src="https://reddavid.me/images/og/scraping.png" alt="Featured image of post Scraping Facebook Pages to Get Number of Likes and Followers" /&gt;&lt;p&gt;Ever since Facebook’s New Page Experience update, my app that logs several Facebook pages’ number of likes and followers have been broken.&lt;/p&gt;
 &lt;p&gt;Prior to that, I was using a simple HttpClient to receive a page response content and scrape off content (HTML element) that holds the values for the likes and followers, respectively, using Nodes() from HtmlDocument().&lt;/p&gt;
 &lt;p&gt;Everything works just fine then the update happened.&lt;/p&gt;
-&lt;h2 id=&#34;old-way&#34;&gt;
-    &lt;a href=&#34;#old-way&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Old Way
+&lt;h2 id=&#34;old-way&#34;&gt;Old Way
 &lt;/h2&gt;&lt;p&gt;Before getting into my &lt;em&gt;working&lt;/em&gt; method, let me show you the old code (redacted as much as possible):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -77,9 +75,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;As seen on the comment above, the HTML XPath code changes sometimes, and I also faced where the XPath isn’t unique for the twelve pages I log - for monthly statistics.&lt;/p&gt;
 &lt;p&gt;And besides the New Page Experience update, not all 12 pages got it. So I scoured thru &lt;em&gt;source-inspecting&lt;/em&gt; and debugging on what differs from the NPE and Classic Pages (as of this writing):&lt;/p&gt;
-&lt;h2 id=&#34;new-response-source-code&#34;&gt;
-    &lt;a href=&#34;#new-response-source-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    New Response Source Code
+&lt;h2 id=&#34;new-response-source-code&#34;&gt;New Response Source Code
 &lt;/h2&gt;&lt;p&gt;Upon &lt;em&gt;inspecting&lt;/em&gt; the http response, I saw particular lines from the Classic page:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Number of likes&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -118,9 +114,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;text&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;XXX followers&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;regular-expressions&#34;&gt;
-    &lt;a href=&#34;#regular-expressions&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Regular Expressions
+&lt;/div&gt;&lt;h2 id=&#34;regular-expressions&#34;&gt;Regular Expressions
 &lt;/h2&gt;&lt;p&gt;With these unique lines, it is now time to scrape the values out from them. And what a wonderful way to &lt;em&gt;capture&lt;/em&gt; them? &lt;strong&gt;Regex&lt;/strong&gt;, everyone’s favorite! (Sarcasm)&lt;/p&gt;
 &lt;p&gt;I tested the regex using &lt;a class=&#34;link&#34; href=&#34;https://devtoys.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;DevToys&lt;/strong&gt; on Windows 11&lt;/a&gt;, and the pattern is as literal &lt;del&gt;simple&lt;/del&gt; as possible (it just works!):&lt;/p&gt;
@@ -148,9 +142,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;em&gt;Edit: Actually added literal &amp;ldquo;text&amp;rdquo; so it avoids inconsistent code and text from page source&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The regex pattern for the NPE was a little bit tricky since it changed how the numbers are shown - instead of the full numerical amount (e.g. 48,321), Facebook shortened it to 48.3K.&lt;/p&gt;
-&lt;h2 id=&#34;full-scraping-code&#34;&gt;
-    &lt;a href=&#34;#full-scraping-code&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Full Scraping Code
+&lt;h2 id=&#34;full-scraping-code&#34;&gt;Full Scraping Code
 &lt;/h2&gt;&lt;p&gt;I also changed how I get the response code, using &lt;strong&gt;PuppeteerSharp&lt;/strong&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

@@ -14,19 +14,19 @@
         <guid>https://reddavid.me/and...-its-december/</guid>
         <description>&lt;p&gt;How many times have I apologized for not posting on my blog? 😅&lt;/p&gt;
 &lt;p&gt;Let’s just recap, shall we?&lt;/p&gt;
-&lt;h2 id=&#34;i-got-married&#34;&gt;I Got Married
-&lt;/h2&gt;&lt;p&gt;Yes, people still marry despite the hardships in this f-ing country, and I am one of them last October. We both felt it is time after 8 years of being together.&lt;/p&gt;
+&lt;h2 id=&#34;i-got-married&#34;&gt;I Got Married&lt;/h2&gt;
+&lt;p&gt;Yes, people still marry despite the hardships in this f-ing country, and I am one of them last October. We both felt it is time after 8 years of being together.&lt;/p&gt;
 &lt;p&gt;The prior months were not all wedding-preparations as I read and took some online courses and learning programs - more about &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flutter&lt;/a&gt;, and leadership/project management.&lt;/p&gt;
-&lt;h2 id=&#34;learning-in-depth-flutter&#34;&gt;Learning In-Depth Flutter
-&lt;/h2&gt;&lt;p&gt;The infamous Angela Yu’s Flutter bootcamp course on &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;learning-in-depth-flutter&#34;&gt;Learning In-Depth Flutter&lt;/h2&gt;
+&lt;p&gt;The infamous Angela Yu’s Flutter bootcamp course on &lt;a class=&#34;link&#34; href=&#34;https://www.udemy.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Udemy&lt;/a&gt; has been sitting on my learning for a few months and I finally decided to take it on since I really really have to update and improve my Flutter/Dart coding - and to update some apps.&lt;/p&gt;
 &lt;p&gt;I faced some problems with the course since it was outdated to the current Flutter version but it all went good, thanks for the updated documentation of Flutter and &lt;a class=&#34;link&#34; href=&#34;http://pub.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;pub.dev&lt;/a&gt; packages.&lt;/p&gt;
 &lt;p&gt;I learned DRY (&lt;strong&gt;d&lt;/strong&gt;on’t &lt;strong&gt;r&lt;/strong&gt;epeat &lt;strong&gt;y&lt;/strong&gt;ourself) - again - especially with Flutter’s all code UI. So, learning to convert most reusable Widgets to “components” is fun.&lt;/p&gt;
 &lt;p&gt;I also learned a few techniques and best practices.&lt;/p&gt;
-&lt;h2 id=&#34;updating-rpn-radio-app&#34;&gt;Updating RPN Radio App
-&lt;/h2&gt;&lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
+&lt;h2 id=&#34;updating-rpn-radio-app&#34;&gt;Updating RPN Radio App&lt;/h2&gt;
+&lt;p&gt;After my “wedding” break from the office, I came back with the motivation to update this app. Before updating, there was a “downgrade” with the app logic which disabled viewing stations’ &lt;em&gt;live&lt;/em&gt; and &lt;em&gt;offline&lt;/em&gt; status.&lt;/p&gt;
 &lt;p&gt;And the app needed a UI/UX refresh - well at least for the player part.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/12-22/rpnradio.png&#34;
     alt=&#34;RPN Radio App UI before and after&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
@@ -37,12 +37,12 @@
 &lt;p&gt;The app is now available to download for free on &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google Play Store&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://apps.apple.com/us/app/rpn-radio/id1571699396&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apple App Store&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;next&#34;&gt;Next?
-&lt;/h2&gt;&lt;p&gt;I also tested Flutter’s web app by building a working web version of my simple app, &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;next&#34;&gt;Next?&lt;/h2&gt;
+&lt;p&gt;I also tested Flutter’s web app by building a working web version of my simple app, &lt;a class=&#34;link&#34; href=&#34;https://reddavid.me/zipcodeph-app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ZIP Code PH&lt;/a&gt;. It’s really really simple as of this moment.&lt;/p&gt;
 &lt;p&gt;I will be also going in-depth with Firebase and Firebase Auth to improve the mobile apps.&lt;/p&gt;
-&lt;h2 id=&#34;gaming-and-streaming&#34;&gt;Gaming and Streaming
-&lt;/h2&gt;&lt;p&gt;Sadly, after coming back from the break, I felt no energy to play games - continue playing Assassin’s Creed: Odyssey or any other games on my Xbox PC game pass. And whenever I start a new game, I feel bored can’t motivate myself to continue playing.&lt;/p&gt;
+&lt;h2 id=&#34;gaming-and-streaming&#34;&gt;Gaming and Streaming&lt;/h2&gt;
+&lt;p&gt;Sadly, after coming back from the break, I felt no energy to play games - continue playing Assassin’s Creed: Odyssey or any other games on my Xbox PC game pass. And whenever I start a new game, I feel bored can’t motivate myself to continue playing.&lt;/p&gt;
 &lt;p&gt;I tried to play Dead Space, Battlefield 4, and VALORANT this November but also felt nothing.&lt;/p&gt;
 &lt;p&gt;But there is this game called 7 Days to Die on Steam that I am currently playing (not regularly, though) and I’ll see if it’s worth playing through.&lt;/p&gt;
 &lt;p&gt;Catch me on &lt;a class=&#34;link&#34; href=&#34;https://www.facebook.com/RedDavidGG&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -56,22 +56,22 @@
         <pubDate>Thu, 31 Mar 2022 00:44:04 +0800</pubDate>
         
         <guid>https://reddavid.me/updating-rpnradio-mobile-app/</guid>
-        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;Update 1
-&lt;/h2&gt;&lt;p&gt;&lt;small&gt;2022-03-31&lt;/small&gt;&lt;/p&gt;
+        <description>&lt;img src="https://reddavid.me/updating-rpnradio-mobile-app/rpnradio-updates-feat.png" alt="Featured image of post Updating RPN Radio Mobile App" /&gt;&lt;h2 id=&#34;update-1&#34;&gt;Update 1&lt;/h2&gt;
+&lt;p&gt;&lt;small&gt;2022-03-31&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;I just refactored the FutureBuilder by separating the future tasks to where they are actually used in the UI - to prevent long startup and show the main UI at launch instead of a loading screen.&lt;/p&gt;
 &lt;p&gt;Version 2.0.1 is now on open testing for Android on Google Play Store.&lt;/p&gt;
 &lt;p&gt;Download link: &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;amp;hl=en&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RPN Radio for Android (Beta)&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;It&amp;rsquo;s been a while since I coded and updated my apps, it just somehow began again when I felt the urge to refresh my website&amp;rsquo;s looks. Now I am aiming to light up every Github contribution grid block whenever I can.&lt;/p&gt;
-&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;Updating Flutter Packages
-&lt;/h2&gt;&lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;updating-flutter-packages&#34;&gt;Updating Flutter Packages&lt;/h2&gt;
+&lt;p&gt;The first thing I did was to check for updated packages from pub.dev by using &lt;code&gt;flutter pub upgrade&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Then most are already outdated and forced some to major versions with&lt;code&gt;flutter pub upgrade &amp;ndash;major-versions&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.&lt;/p&gt;
 &lt;p&gt;Like the usual &lt;code&gt;Alt + Shift + F&lt;/code&gt; to format code, now I have to use two hands for &lt;code&gt;Ctrl + Shift + L&lt;/code&gt;. Also the shortcut for navigating to implementations &lt;code&gt;F12&lt;/code&gt; on VS Code, it&amp;rsquo;s now &lt;code&gt;Ctrl + Alt + B&lt;/code&gt;. Heck, I can&amp;rsquo;t be bothered wasting time to remap those shortcut keys&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.&lt;/p&gt;
-&lt;h2 id=&#34;new-code&#34;&gt;New Code
-&lt;/h2&gt;&lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
+&lt;h2 id=&#34;new-code&#34;&gt;New Code&lt;/h2&gt;
+&lt;p&gt;My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a &lt;code&gt;model&lt;/code&gt; folder, services to &lt;code&gt;services&lt;/code&gt; folder, etc.
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/updating-rpnradio-mobile-app/img/refactoring-files.png&#34;
     alt=&#34;Refactoring files to folders&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Refactoring files to folders&lt;/p&gt;
@@ -80,8 +80,8 @@
 &lt;/p&gt;
 &lt;p&gt;Upgrading packages with at least 3 versions above since the app&amp;rsquo;s last update brought so much changes. Honestly I followed this open source project &lt;strong&gt;(&lt;a class=&#34;link&#34; href=&#34;https://github.com/suragch/flutter_audio_service_demo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flutter Audio Service Demo&lt;/a&gt;)&lt;/strong&gt; from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.&lt;/p&gt;
-&lt;h3 id=&#34;futures&#34;&gt;Futures
-&lt;/h3&gt;&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;futures&#34;&gt;Futures&lt;/h3&gt;
+&lt;p&gt;I also updated the app with a new feature to fetch sponsors&amp;rsquo; ad placement images from a URL then view them when they are actually &lt;em&gt;present&lt;/em&gt; in the contract - I used &lt;a class=&#34;link&#34; href=&#34;https://www.json.org/json-en.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;JSON&lt;/a&gt; to fetch the data. I faced a problem decoding it when I faced this unfamiliar type &lt;code&gt;Map&amp;lt;String, dynamic&amp;gt;&lt;/code&gt; coming from a C# perspective.&lt;/p&gt;
 &lt;p&gt;I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables &lt;code&gt;null&lt;/code&gt; when they are still being done, making some unwanted behaviors.&lt;/p&gt;
 &lt;p&gt;Then I finally used a &lt;strong&gt;&lt;em&gt;Future Builder,&lt;/em&gt;&lt;/strong&gt; it basically waits my tasks to finish fetching data before showing the main UI preventing further actions that require the variables.&lt;/p&gt;
@@ -113,8 +113,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper
-&lt;/h3&gt;&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
+&lt;/div&gt;&lt;h3 id=&#34;expansionlist-and-swiper&#34;&gt;ExpansionList and Swiper&lt;/h3&gt;
+&lt;p&gt;Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&amp;rsquo;s on the database - now it&amp;rsquo;s based off a .json file.&lt;/p&gt;
 &lt;p&gt;As stated above, I don&amp;rsquo;t know if Flutter/Dart preferred indexing a &lt;code&gt;List&lt;/code&gt; by using a &lt;code&gt;Map&lt;/code&gt; and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -220,8 +220,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do
-&lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
+&lt;/div&gt;&lt;h2 id=&#34;to-do&#34;&gt;To-Do&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s hard work but I would look to further clean and optimize the code.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do not use Swiper when image list is only 1&lt;/li&gt;
 &lt;li&gt;Improve loading screen during FutureBuilder&lt;/li&gt;
@@ -240,8 +240,8 @@
 &lt;center&gt;
 &lt;/center&gt;
 &lt;p&gt;I only play the game against custom BOT scripts 🤣 just to past time or just to be updated with what patches &lt;a class=&#34;link&#34; href=&#34;https://dota2.fandom.com/wiki/IceFrog&#34; target=&#34;_blank&#34;&gt;IceFrog&lt;/a&gt; brings to the game. What I mostly do is watch major tournaments especially those when teams need to earn &lt;a class=&#34;link&#34; href=&#34;https://liquipedia.net/dota2/Dota_Pro_Circuit&#34; target=&#34;_blank&#34;&gt;DPC points&lt;/a&gt; for entering the prestigious TI.&lt;/p&gt;
-&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;Ten Days of DOTA
-&lt;/h2&gt;&lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
+&lt;h2 id=&#34;ten-days-of-dota&#34;&gt;Ten Days of DOTA&lt;/h2&gt;
+&lt;p&gt;#TI10 started on October 7th with 18 qualified teams playing playoffs on the group stage to determine their position either on the upper or lower bracket; and where two teams: Thunder Predator and SG, in the end, bid farewell for the Main Stage and championship.&lt;/p&gt;
 &lt;center&gt;
 &lt;/center&gt;
 &lt;p&gt;Now, as of this writing, we just ended Day 3 of the Main Stage and I&amp;rsquo;ve followed and watched most of the games. Fnatic, a SEA team with 2 Pinoy players, got eliminated on Day 2 just after getting past a heart-wrenching Best-of-One&amp;rsquo;s on the Lower Bracket the day before. The last SEA representative, T1, would have to give their best on their lower bracket run.&lt;/p&gt;
@@ -250,13 +250,13 @@
 
 &lt;p&gt;Thanks to &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/wykrhm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Wykrhm Reddy (@wykrhm)&lt;/a&gt; for being such a good Dota Community Man.&lt;/p&gt;
-&lt;h2 id=&#34;the-secret&#34;&gt;The Secret
-&lt;/h2&gt;&lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
+&lt;h2 id=&#34;the-secret&#34;&gt;The Secret&lt;/h2&gt;
+&lt;p&gt;Watching all games and supporting SEA teams, my heart still goes to Team Secret for all their TI runs. Right now, they already secured Top 3 finish for the semifinals game against PSG.LGD.&lt;/p&gt;
 &lt;center&gt;
 &lt;/center&gt;
 &lt;p&gt;I follow the games by watching &lt;a class=&#34;link&#34; href=&#34;https://www.twitch.tv/singsing&#34; target=&#34;_blank&#34;&gt;singsing&amp;rsquo;s Twitch stream&lt;/a&gt; as he and his (pepega) friends cast and analyze the stream - chill and fun. This way I can watch (or listen) while doing app coding.&lt;/p&gt;
-&lt;h2 id=&#34;coding-and-appdates&#34;&gt;Coding and Appdates
-&lt;/h2&gt;&lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
+&lt;h2 id=&#34;coding-and-appdates&#34;&gt;Coding and Appdates&lt;/h2&gt;
+&lt;p&gt;This 10-day tournament meant a break from me streaming (to catch the games) which then allowed me time to code for RPN News mobile app.&lt;/p&gt;
 &lt;p&gt;My job (finally) provided me a Samsung A71 Android phone to test the app (and for work-related stuff) after my old personal phone went bust; though I still use my iPhone 11 to test the iOS code - maybe soon? 🤣&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/10-21/appdates/samsung-a71.png&#34;
     alt=&#34;Samsung A71&#34; height=&#34;400px&#34;&gt;&lt;figcaption&gt;
@@ -271,8 +271,8 @@
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen1_hu283bceba71b441f6d3b69bfe938dc6d3_113134_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Items Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
 	data-flex-basis=&#34;108px&#34; &gt;&lt;img src=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2.png&#34; width=&#34;256&#34;  height=&#34;568&#34;  srcset=&#34;https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_480x0_resize_box_3.png 480w, https://reddavid.me/ti10-and-appdates/img/news-screen2_hu9a669cb032b0d020d176d373546593cb_119729_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;News Detail Page&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;45&#34;
 	data-flex-basis=&#34;108px&#34; &gt;&lt;/p&gt;
-&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;Get into the Beta Test
-&lt;/h3&gt;&lt;p&gt;The app is available for testing and I welcome your feedback after getting the app here from &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/2YVpJC9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;get-into-the-beta-test&#34;&gt;Get into the Beta Test&lt;/h3&gt;
+&lt;p&gt;The app is available for testing and I welcome your feedback after getting the app here from &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://bit.ly/2YVpJC9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Google Play Store&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://apple.co/2XaMBNl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apple TestFlight&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Or scan the QR code/s below:&lt;/p&gt;
@@ -303,25 +303,25 @@
         <description>&lt;img src="https://reddavid.me/images/feat/android-love-flutter.png" alt="Featured image of post Flutter Coding" /&gt;&lt;p&gt;I&amp;rsquo;ve heard about Flutter a long time ago but never actually used it or read in-depth about it. But I knew it was a UI framework from Google which uses a single code-base for mobile and web apps.&lt;/p&gt;
 &lt;p&gt;As you may know now, I developed some apps for Android and iOS using their native languages - Java and SwiftUI - and not a single-codebase language like Flutter. But I did try to code the RPN Radio app using Xamarin.Forms but the implementation of the Audio Players s*cks a$$ to be honest.&lt;/p&gt;
 &lt;p&gt;Coding with their native languages was just a personal challenge for me being tech-savvy and wanted to experiment and dive myself to their &amp;ldquo;native world&amp;rdquo;.&lt;/p&gt;
-&lt;h2 id=&#34;android-and-bad-java-code&#34;&gt;Android and Bad (Java) Code
-&lt;/h2&gt;&lt;p&gt;The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.&lt;/p&gt;
+&lt;h2 id=&#34;android-and-bad-java-code&#34;&gt;Android and Bad (Java) Code&lt;/h2&gt;
+&lt;p&gt;The Android Java code stuff was working - well, not that well - the implementation of the player was frequently bugged that it causes the app to crash. I tried several work arounds to the code to prevent the nasties, until I realized this is bad code.&lt;/p&gt;
 &lt;p&gt;To satisfy myself, and the users, I challenged myself to rebuild the app using Flutter.&lt;/p&gt;
 &lt;p&gt;Ever since March started, I started reading about Flutter and did some basic UI.&lt;/p&gt;
 &lt;p&gt;But first, let me tell you how I installed Flutter on Windows.&lt;/p&gt;
-&lt;h2 id=&#34;pre-installation-pre-requisites&#34;&gt;Pre-installation (Pre-requisites?)
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h2 id=&#34;pre-installation-pre-requisites&#34;&gt;Pre-installation (Pre-requisites?)&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Make sure you have Git on your device. I installed Git for Windows&lt;/li&gt;
 &lt;li&gt;I&amp;rsquo;ve had Android Studio installed on my system ever since I coded for Android, which is also a recommended IDE for Flutter.&lt;/li&gt;
 &lt;li&gt;Some Android SDKs and;&lt;/li&gt;
 &lt;li&gt;Google Chrome browser.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation
-&lt;/h2&gt;&lt;p&gt;I pretty much followed the recommended guide as stated here: &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/docs/get-started/install/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;I pretty much followed the recommended guide as stated here: &lt;a class=&#34;link&#34; href=&#34;https://flutter.dev/docs/get-started/install/windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Install Flutter (Windows)&lt;/a&gt;. But instead of &lt;code&gt;C:\src\flutter&lt;/code&gt;, I put it a level higher like this: &lt;code&gt;C:\flutter&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Then added environment variable to Path. &amp;lt;- This part is important if you want to run flutter commands in the command line&lt;/p&gt;
 &lt;p&gt;Ran &lt;code&gt;flutter doctor&lt;/code&gt; until all requirements are check out&lt;/p&gt;
-&lt;h2 id=&#34;ide-wait&#34;&gt;IDE, wait&amp;hellip;
-&lt;/h2&gt;&lt;p&gt;My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.&lt;/p&gt;
+&lt;h2 id=&#34;ide-wait&#34;&gt;IDE, wait&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;My IDE of choice is Android Studio, so I can use the emulators I already created and to avoid any additional setup when choosing another.&lt;/p&gt;
 &lt;p&gt;Upon opening the IDE, it was said that creating a new Flutter project should be there on the menu screen but it was missing!&lt;/p&gt;
 &lt;p&gt;Even though &lt;code&gt;flutter doctor&lt;/code&gt; checked everything, I was disappointed that I can&amp;rsquo;t start right away. Scraping the internet for solutions, I checked Android Studio&amp;rsquo;s configuration and there, I downloaded some Flutter and Dart plugins which after a software restart, I can now create a new Flutter project.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/images/03-21/flutter/android-studio-flutter.png&#34;
@@ -338,8 +338,8 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&#34;hello-world&#34;&gt;Hello, World
-&lt;/h2&gt;&lt;p&gt;Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.&lt;/p&gt;
+&lt;h2 id=&#34;hello-world&#34;&gt;Hello, World&lt;/h2&gt;
+&lt;p&gt;Being the beginner, again, I am on my way to building to much more with Flutter with prettier code and nicer implementations.&lt;/p&gt;
 &lt;p&gt;I am now reading some books and watching some tutorials on YouTube to help me advance a little more each day.&lt;/p&gt;
 &lt;p&gt;Ever since February began, I have been active to coding again. Learning new stuff that I do enjoy!&lt;/p&gt;
 &lt;p&gt;Thanks for reading my blog post, and will share some updates on how I would use Flutter sometime soon! Always take care peeps!&lt;/p&gt;

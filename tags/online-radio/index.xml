@@ -17,8 +17,8 @@
 &lt;p&gt;This “dead air” not only affects the usability of streaming apps but also prevents users who differ in time zones. These users will be deprived of any content thus affecting possible audiences for the station.&lt;/p&gt;
 &lt;p&gt;I recently brought up to the team by letting our stations utilize the audio servers 24/7 by adding program replays during off-air hours. The servers, which use CentovaOS, allow uploading audio files to be played during “off-stream” called AutoDJ. The stations can also let their PCs run 24/7 but the cost, manpower, and effort to implement such system seem to be a struggle as operations differ from each station.&lt;/p&gt;
 &lt;p&gt;Since I have been letting my work PC “on” all of the time, I proceeded to make it as a client to stream filler programs at times all stations are off-the-air.&lt;/p&gt;
-&lt;h2 id=&#34;multi-port-stream-with-altacast&#34;&gt;Multi-port Stream with AltaCast
-&lt;/h2&gt;&lt;p&gt;We’ve been using &lt;a class=&#34;link&#34; href=&#34;https://sourceforge.net/projects/butt/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;multi-port-stream-with-altacast&#34;&gt;Multi-port Stream with AltaCast&lt;/h2&gt;
+&lt;p&gt;We’ve been using &lt;a class=&#34;link&#34; href=&#34;https://sourceforge.net/projects/butt/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;butt (broadcast using this tool)&lt;/a&gt;  and/or &lt;a class=&#34;link&#34; href=&#34;https://directory.shoutcast.com/Winamp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;WinAmp Shoutcast DSP&lt;/a&gt; to upload a single stream to the servers (each station) - and running 12 instances of it is highly unrecommended.&lt;/p&gt;
 &lt;p&gt;My internet search led me to a program called &lt;a class=&#34;link&#34; href=&#34;http://www.altacast.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -29,17 +29,17 @@
 &lt;p&gt;The only problem is that there is no way to rename the configurations as to which is which.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/altacast.png&#34; width=&#34;427&#34;  height=&#34;513&#34;  srcset=&#34;https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/altacast_huaff34419b29a0e75cfbbefb387166c6b_14018_480x0_resize_box_3.png 480w, https://reddavid.me/console-app-to-automate-stream-with-altacast-vlc-vb-virtual-cable/img/altacast_huaff34419b29a0e75cfbbefb387166c6b_14018_1024x0_resize_box_3.png 1024w&#34;  loading=&#34;lazy&#34;  alt=&#34;AltaCast&#34;   class=&#34;gallery-image&#34; data-flex-grow=&#34;83&#34;
 	data-flex-basis=&#34;199px&#34; &gt;&lt;/p&gt;
-&lt;h2 id=&#34;virtual-cable&#34;&gt;Virtual Cable
-&lt;/h2&gt;&lt;p&gt;There should be nothing wrong to use the desktop audio to stream, but to avoid any unwanted noise/audio, I installed &lt;a class=&#34;link&#34; href=&#34;https://vb-audio.com/Cable/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;virtual-cable&#34;&gt;Virtual Cable&lt;/h2&gt;
+&lt;p&gt;There should be nothing wrong to use the desktop audio to stream, but to avoid any unwanted noise/audio, I installed &lt;a class=&#34;link&#34; href=&#34;https://vb-audio.com/Cable/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VB Virtual Audio Cable&lt;/a&gt; which installed a virtual audio I/O on Windows to re-route certain apps’ audio.&lt;/p&gt;
 &lt;p&gt;I used the VB Cable Output as the input for two instances of AltaCast.&lt;/p&gt;
-&lt;h2 id=&#34;media-playback&#34;&gt;Media Playback
-&lt;/h2&gt;&lt;p&gt;I will be using &lt;a class=&#34;link&#34; href=&#34;https://www.videolan.org/vlc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;media-playback&#34;&gt;Media Playback&lt;/h2&gt;
+&lt;p&gt;I will be using &lt;a class=&#34;link&#34; href=&#34;https://www.videolan.org/vlc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;VLC&lt;/a&gt; as the media player since it supports network streams. Right now, I will be “hooking-up” to &lt;a class=&#34;link&#34; href=&#34;https://www.dwiz882am.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DWIZ 882&lt;/a&gt; (one of our affiliate station) programs upto 12 midnight. Then use &lt;a class=&#34;link&#34; href=&#34;https://cnnphilippines.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;CNN Philippines&lt;/a&gt; programs 12-3am.&lt;/p&gt;
-&lt;h2 id=&#34;programming-a-console-app&#34;&gt;Programming a Console App
-&lt;/h2&gt;&lt;p&gt;This app will be a timer to check set times:&lt;/p&gt;
+&lt;h2 id=&#34;programming-a-console-app&#34;&gt;Programming a Console App&lt;/h2&gt;
+&lt;p&gt;This app will be a timer to check set times:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;10PM - Start Client Stream&lt;/li&gt;
 &lt;li&gt;12MN - Change Media Source&lt;/li&gt;
@@ -278,8 +278,8 @@
 &lt;p&gt;I’ve only tested it for a day and made some fixes to continue the app running.&lt;/p&gt;
 &lt;p&gt;You can tune in at &lt;a class=&#34;link&#34; href=&#34;https://tunein.rpnradio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://tunein.rpnradio.com/&lt;/a&gt; and we’ll debug any errors. 😀&lt;/p&gt;
-&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans
-&lt;/h2&gt;&lt;p&gt;As of now, stations’ broadcast hours differ (sign on and sign off) and I want the app to be dynamic. Some plans for the app:&lt;/p&gt;
+&lt;h2 id=&#34;future-plans&#34;&gt;Future Plans&lt;/h2&gt;
+&lt;p&gt;As of now, stations’ broadcast hours differ (sign on and sign off) and I want the app to be dynamic. Some plans for the app:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Detect actual “dead air” time&lt;/li&gt;
 &lt;li&gt;Detect actual “on air” time&lt;/li&gt;

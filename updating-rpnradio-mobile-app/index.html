@@ -504,22 +504,22 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
     <section class="article-content">
     
     
-    <h2 id="update-1">Update 1
-</h2><p><small>2022-03-31</small></p>
+    <h2 id="update-1">Update 1</h2>
+<p><small>2022-03-31</small></p>
 <p>I just refactored the FutureBuilder by separating the future tasks to where they are actually used in the UI - to prevent long startup and show the main UI at launch instead of a loading screen.</p>
 <p>Version 2.0.1 is now on open testing for Android on Google Play Store.</p>
 <p>Download link: <a class="link" href="https://play.google.com/store/apps/details?id=com.rpnradio.radiov1&amp;hl=en&amp;gl=US"  target="_blank" rel="noopener"
     >RPN Radio for Android (Beta)</a></p>
 <hr>
 <p>It&rsquo;s been a while since I coded and updated my apps, it just somehow began again when I felt the urge to refresh my website&rsquo;s looks. Now I am aiming to light up every Github contribution grid block whenever I can.</p>
-<h2 id="updating-flutter-packages">Updating Flutter Packages
-</h2><p>The first thing I did was to check for updated packages from pub.dev by using <code>flutter pub upgrade</code></p>
+<h2 id="updating-flutter-packages">Updating Flutter Packages</h2>
+<p>The first thing I did was to check for updated packages from pub.dev by using <code>flutter pub upgrade</code></p>
 <p>Then most are already outdated and forced some to major versions with<code>flutter pub upgrade &ndash;major-versions</code></p>
 <p>Also, I tried to use Android Studio for Flutter programming and it took a little while again to get used to keyboard shortcuts coming from VS Code.</p>
 <p>Like the usual <code>Alt + Shift + F</code> to format code, now I have to use two hands for <code>Ctrl + Shift + L</code>. Also the shortcut for navigating to implementations <code>F12</code> on VS Code, it&rsquo;s now <code>Ctrl + Alt + B</code>. Heck, I can&rsquo;t be bothered wasting time to remap those shortcut keys&hellip;</p>
 <p>Despite the hassle above, Flutter coding in Android Studio also has awesome perks like: better debugging, better error checking by highlighting files with errors, faster navigation to files, assets manager and Intellisense. Though Android SDK management is still a pain in the a**. Change my mind.</p>
-<h2 id="new-code">New Code
-</h2><p>My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a <code>model</code> folder, services to <code>services</code> folder, etc.
+<h2 id="new-code">New Code</h2>
+<p>My project files were all over the place, so I finally bothered to refactor some files to proper folders like putting model classes to a <code>model</code> folder, services to <code>services</code> folder, etc.
 <figure><img src="/updating-rpnradio-mobile-app/img/refactoring-files.png"
     alt="Refactoring files to folders"><figcaption>
       <p>Refactoring files to folders</p>
@@ -528,8 +528,8 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </p>
 <p>Upgrading packages with at least 3 versions above since the app&rsquo;s last update brought so much changes. Honestly I followed this open source project <strong>(<a class="link" href="https://github.com/suragch/flutter_audio_service_demo"  target="_blank" rel="noopener"
     >Flutter Audio Service Demo</a>)</strong> from GitHub and slightly modified/refactor the codes to minimize and actually use the code my app will only use.</p>
-<h3 id="futures">Futures
-</h3><p>I also updated the app with a new feature to fetch sponsors&rsquo; ad placement images from a URL then view them when they are actually <em>present</em> in the contract - I used <a class="link" href="https://www.json.org/json-en.html"  target="_blank" rel="noopener"
+<h3 id="futures">Futures</h3>
+<p>I also updated the app with a new feature to fetch sponsors&rsquo; ad placement images from a URL then view them when they are actually <em>present</em> in the contract - I used <a class="link" href="https://www.json.org/json-en.html"  target="_blank" rel="noopener"
     >JSON</a> to fetch the data. I faced a problem decoding it when I faced this unfamiliar type <code>Map&lt;String, dynamic&gt;</code> coming from a C# perspective.</p>
 <p>I managed to get it to work but a new issue appeared, two tasks are being awaited even the UI is now visible which made two variables <code>null</code> when they are still being done, making some unwanted behaviors.</p>
 <p>Then I finally used a <strong><em>Future Builder,</em></strong> it basically waits my tasks to finish fetching data before showing the main UI preventing further actions that require the variables.</p>
@@ -561,8 +561,8 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span><span class="line"><span class="cl"><span class="p">});</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="expansionlist-and-swiper">ExpansionList and Swiper
-</h3><p>Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&rsquo;s on the database - now it&rsquo;s based off a .json file.</p>
+</div><h3 id="expansionlist-and-swiper">ExpansionList and Swiper</h3>
+<p>Now I need to add a feature for the app to show a carousel/auto-scrolling of images after being checked if it&rsquo;s on the database - now it&rsquo;s based off a .json file.</p>
 <p>As stated above, I don&rsquo;t know if Flutter/Dart preferred indexing a <code>List</code> by using a <code>Map</code> and not a number-index. So I poorly crammed the codes online to fetch the json, decode to objects, index, and list the image names.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -668,8 +668,8 @@ height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="non
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="to-do">To-Do
-</h2><p>It&rsquo;s hard work but I would look to further clean and optimize the code.</p>
+</div><h2 id="to-do">To-Do</h2>
+<p>It&rsquo;s hard work but I would look to further clean and optimize the code.</p>
 <ul>
 <li>Do not use Swiper when image list is only 1</li>
 <li>Improve loading screen during FutureBuilder</li>

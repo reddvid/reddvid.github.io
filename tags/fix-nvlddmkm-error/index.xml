@@ -13,12 +13,12 @@
         
         <guid>https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/</guid>
         <description>&lt;img src="https://reddavid.me/images/og/nvidia-error.png" alt="Featured image of post Fix NVIDIA Game Crashing &amp; Black Screen on Windows 11 (nvlddmkm Error)" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#solution-for-me-at-least&#34; &gt;Skip the bullsh*t, just show me your solution! (please)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;some-background-first&#34;&gt;Some Background First
-&lt;/h2&gt;&lt;p&gt;I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.&lt;/p&gt;
+&lt;h2 id=&#34;some-background-first&#34;&gt;Some Background First&lt;/h2&gt;
+&lt;p&gt;I couldn’t play (mid-tier) games long enough without them crashing after 30-minutes, or worse is just about 10-minutes - which happens when I am just casually playing Dota 2 AI scripts to waste some time. I thought there was just a problem (again) with my RAM sticks but two memory checker programs reported no errors on them. Then I just went and accepted the crashes so I could use my time doing more important things.&lt;/p&gt;
 &lt;p&gt;But the crashes happened with other games like High on Life, Control, and CODMW. And after trying to watch some Dota 2 match in-game, the crash happened - and I am fed up.&lt;/p&gt;
 &lt;p&gt;(But thankfully, I am not getting any bug checks or BSODs)&lt;/p&gt;
-&lt;h2 id=&#34;the-problem&#34;&gt;The Problem
-&lt;/h2&gt;&lt;p&gt;I checked Windows Event Viewer for any logs and there it is!&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;I checked Windows Event Viewer for any logs and there it is!&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://reddavid.me/fix-nvidia-game-crashing-black-screen-on-windows-11-nvlddmkm-error/nvlddmkm-error-event.png&#34;
     alt=&#34;nvlddmkm Error in Windows Event Viewer&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;nvlddmkm Error in Windows Event Viewer&lt;/p&gt;
@@ -83,13 +83,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Event&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;solutions-from-the-web&#34;&gt;Solutions from the Web
-&lt;/h2&gt;&lt;p&gt;There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.&lt;/p&gt;
+&lt;/div&gt;&lt;h2 id=&#34;solutions-from-the-web&#34;&gt;Solutions from the Web&lt;/h2&gt;
+&lt;p&gt;There are a BUUUNNCH of users experiencing this issue, and some solutions vary from re-installing GPU drivers, cleaning the GPU from dust, putting heat sink to RAM sticks, changing the PSU, replacing the GPU, and even not mixing AMD CPU and NVIDIA GPU on the same system.&lt;/p&gt;
 &lt;p&gt;As of my situation, I can’t do most of the above advised solutions, though I tried re-installing my graphics driver using &lt;a class=&#34;link&#34; href=&#34;https://www.guru3d.com/files-details/display-driver-uninstaller-download.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;DDU&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;But there was one reply among them which they tried rolling back their driver and fixed their issue.&lt;/p&gt;
-&lt;h2 id=&#34;solution-for-me-at-least&#34;&gt;Solution (for me, at least)
-&lt;/h2&gt;&lt;p&gt;I rolled back/re-installed my graphics drivers to the last known working one - which is NVIDIA’s December 8 Game Ready Driver 527.56 update.&lt;/p&gt;
+&lt;h2 id=&#34;solution-for-me-at-least&#34;&gt;Solution (for me, at least)&lt;/h2&gt;
+&lt;p&gt;I rolled back/re-installed my graphics drivers to the last known working one - which is NVIDIA’s December 8 Game Ready Driver 527.56 update.&lt;/p&gt;
 &lt;p&gt;You can try to roll back yours by downloading your last working driver &lt;a class=&#34;link&#34; href=&#34;https://www.nvidia.com/Download/Find.aspx?lang=en-us&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This was the driver where I played Assassin’s Creed Odyssey without a hiccup and I’ve tested it by watching an hour-long Dota 2 game.&lt;/p&gt;

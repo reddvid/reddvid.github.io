@@ -8,19 +8,15 @@
         <language>en</language>
         <lastBuildDate>Tue, 05 Apr 2022 00:49:48 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/mobile-app-development/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Can .NET MAUI Make Me Switch?</title>
-        <link>http://localhost:1313/can-dotnet-maui-make-me-go-back/</link>
+        <link>http://localhost:1313/p/can-dotnet-maui-make-me-go-back/</link>
         <pubDate>Tue, 05 Apr 2022 00:49:48 +0800</pubDate>
         
-        <guid>http://localhost:1313/can-dotnet-maui-make-me-go-back/</guid>
+        <guid>http://localhost:1313/p/can-dotnet-maui-make-me-go-back/</guid>
         <description>&lt;img src="http://localhost:1313/images/feat/" alt="Featured image of post Can .NET MAUI Make Me Switch?" /&gt;&lt;p&gt;I started as a XAML/C#.NET developer for Windows apps, ranging from Windows Phone 7 and 10, and currently for Windows 10/11. But with the death of Microsoft&amp;rsquo;s promise of unified development (UWP) - no more mobile platform, I thought of shifting to learn Xamarin to cover cross-platform development.&lt;/p&gt;
 &lt;p&gt;Albeit the countless Xamarin developers and community for help, I faced a lot of issues everytime the framework is updated which made my workflow a hassle. And I believed that UI widgets are far basic yet complicated to control.&lt;/p&gt;
-&lt;h2 id=&#34;flutter&#34;&gt;
-    &lt;a href=&#34;#flutter&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Flutter
+&lt;h2 id=&#34;flutter&#34;&gt;Flutter
 &lt;/h2&gt;&lt;p&gt;So more than 2 years now, I had to develop mobile apps using Flutter/Dart and I enjoyed the adjustments I have to make were to familiarize with Dart language and Flutter&amp;rsquo;s UI framework. It was also a challenge to do UI with full-code base compared to XAML designer but I felt Flutter development was quicker and more supported with various packages.&lt;/p&gt;
-&lt;h2 id=&#34;microsofts-own-cross-platform-ui-framework&#34;&gt;
-    &lt;a href=&#34;#microsofts-own-cross-platform-ui-framework&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    Microsoft&amp;rsquo;s Own Cross-platform UI Framework
+&lt;h2 id=&#34;microsofts-own-cross-platform-ui-framework&#34;&gt;Microsoft&amp;rsquo;s Own Cross-platform UI Framework
 &lt;/h2&gt;&lt;p&gt;.NET MAUI (Multi-platform App UI) allows building apps that targets mobile, tablet, web? and desktop using C#.NET and XAML. It is progressing impressively fast with their latest Preview 14 with the help of amazing contributors in the public repo.&lt;/p&gt;
 &lt;p&gt;Though I have a short time with Xamarin.Forms,&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/2022-04-05-01-04-37.png&#34;    loading=&#34;lazy&#34;  &gt;&lt;/p&gt;

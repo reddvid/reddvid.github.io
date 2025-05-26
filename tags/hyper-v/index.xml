@@ -8,20 +8,20 @@
         <language>en</language>
         <lastBuildDate>Mon, 25 Mar 2024 17:56:45 +0800</lastBuildDate><atom:link href="https://reddavid.me/tags/hyper-v/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)</title>
-        <link>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</link>
+        <link>https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</link>
         <pubDate>Mon, 25 Mar 2024 17:56:45 +0800</pubDate>
         
-        <guid>https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</guid>
-        <description>&lt;img src="https://reddavid.me/images/og/vm-shortcut-og.png" alt="Featured image of post How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)" /&gt;&lt;h3 id=&#34;update-326-adding-a-guide-for-openingconnecting-to-vm-using-stream-deck&#34;&gt;Update 3/26: Adding a guide for opening/connecting to VM using Stream Deck.&lt;/h3&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#using-stream-deck-to-open-vm-connection&#34; &gt;&lt;strong&gt;Jump to guide&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+        <guid>https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/</guid>
+        <description>&lt;img src="https://reddavid.me/images/og/vm-shortcut-og.png" alt="Featured image of post How To Add Hyper-V Virtual Machine Shortcut on Windows 11 (and Stream Deck)" /&gt;&lt;h3 id=&#34;update-326-adding-a-guide-for-openingconnecting-to-vm-using-stream-deck&#34;&gt;Update 3/26: Adding a guide for opening/connecting to VM using Stream Deck.
+&lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#using-stream-deck-to-open-vm-connection&#34; &gt;&lt;strong&gt;Jump to guide&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;shortcut-for-windows-11&#34;&gt;Shortcut for Windows 11&lt;/h2&gt;
-&lt;p&gt;Ever want to launch a VM directly without opening the main Hyper-V app first?
+&lt;h2 id=&#34;shortcut-for-windows-11&#34;&gt;Shortcut for Windows 11
+&lt;/h2&gt;&lt;p&gt;Ever want to launch a VM directly without opening the main Hyper-V app first?
 Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;In your selected directory, right-click on an empty space to open the context menu. Within &lt;strong&gt;New&lt;/strong&gt;, select &lt;strong&gt;Shortcut&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/add-new-shortcut-context-menu.png&#34;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/add-new-shortcut-context-menu.png&#34;
     alt=&#34;Create New Shortcut&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Create New Shortcut&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -38,7 +38,7 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    vmconnect.exe &amp;lt;Hyper-V Server IP Address&amp;gt; &amp;#34;&amp;lt;Name of VM&amp;gt;&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-target-settings.png&#34;
+&lt;/div&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-target-settings.png&#34;
     alt=&#34;Shortcut Target Settings&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Shortcut Target Settings&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -48,14 +48,14 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Click &lt;strong&gt;Next&lt;/strong&gt;, and give your shortcut a name:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-name.png&#34;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-name.png&#34;
     alt=&#34;Giving the shortcut a name&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Giving the shortcut a name&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Below is an example of a shortcut for my Pop!_OS VM in my local machine (Shortcut Properties), where &lt;em&gt;&lt;strong&gt;Pop!&lt;/strong&gt;&lt;/em&gt; is the name of my Virtual Machine.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-properties.png&#34;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-properties.png&#34;
     alt=&#34;Sample of my VM&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Sample of my VM&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -64,10 +64,10 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;Before opening the shortcut though, we need to make it to &lt;strong&gt;Run as administrator&lt;/strong&gt;. Instead of right-clicking and manually running as admin each time, let&amp;rsquo;s change the shortcut&amp;rsquo;s &lt;strong&gt;Advanced&lt;/strong&gt; properties:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-advanced-properties.png&#34; width=&#34;60%&#34;&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-advanced-properties.png&#34; width=&#34;60%&#34;&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-to-run-as-admin.png&#34;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/shortcut-to-run-as-admin.png&#34;
     alt=&#34;Changing Advanced properties&#34; width=&#34;60%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Changing Advanced properties&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -86,16 +86,16 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;using-stream-deck-to-open-vm-connection&#34;&gt;Using Stream Deck to open VM Connection&lt;/h2&gt;
-&lt;p&gt;The shortcut created above can be used as the &lt;strong&gt;App/File&lt;/strong&gt; for the &lt;strong&gt;Open&lt;/strong&gt; function of the bundled &lt;strong&gt;System&lt;/strong&gt; plugin for StreamDeck. As seen below:&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/open-shortcut-streamdeck.png&#34;
+&lt;h2 id=&#34;using-stream-deck-to-open-vm-connection&#34;&gt;Using Stream Deck to open VM Connection
+&lt;/h2&gt;&lt;p&gt;The shortcut created above can be used as the &lt;strong&gt;App/File&lt;/strong&gt; for the &lt;strong&gt;Open&lt;/strong&gt; function of the bundled &lt;strong&gt;System&lt;/strong&gt; plugin for StreamDeck. As seen below:&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/open-shortcut-streamdeck.png&#34;
     alt=&#34;VM Shortcut in Stream Deck&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;VM Shortcut in Stream Deck&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&#34;using-barraiders-advanced-launcher&#34;&gt;Using BarRaider&amp;rsquo;s Advanced Launcher&lt;/h3&gt;
-&lt;p&gt;This requires installing the above-mentioned plugin, found here: &lt;a class=&#34;link&#34; href=&#34;https://marketplace.elgato.com/product/advanced-launcher-d9a289e4-9f61-4613-9f86-0069f5897125&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h3 id=&#34;using-barraiders-advanced-launcher&#34;&gt;Using BarRaider&amp;rsquo;s Advanced Launcher
+&lt;/h3&gt;&lt;p&gt;This requires installing the above-mentioned plugin, found here: &lt;a class=&#34;link&#34; href=&#34;https://marketplace.elgato.com/product/advanced-launcher-d9a289e4-9f61-4613-9f86-0069f5897125&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Marketplace&lt;/a&gt; or &lt;a class=&#34;link&#34; href=&#34;https://apps.elgato.com/plugins/com.barraider.advancedlauncher&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Old Plugins Page&lt;/a&gt; (note: both are version 1.8 as of this writing).&lt;/p&gt;
 &lt;p&gt;Once installed, add an &lt;strong&gt;Advanced Launcher&lt;/strong&gt; button into your Stream Deck and do the following:&lt;/p&gt;
@@ -111,7 +111,7 @@ Follow this steps to create a Virtual Machine connection shortcut.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Max Instances: 1&lt;/strong&gt; (since launching it will force disconnect previous instances)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Bring to front: Checked&lt;/strong&gt; (Stream Deck will try to make the VM window to front - or flash the taskbar icon)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/advanced-launcher-vm-streamdeck.png&#34;
+&lt;figure&gt;&lt;img src=&#34;https://reddavid.me/p/how-to-add-hyper-v-virtual-machine-shortcut-on-windows-11-and-stream-deck/advanced-launcher-vm-streamdeck.png&#34;
     alt=&#34;VM launcher using Advanced Launcher&#34; width=&#34;80%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;VM launcher using Advanced Launcher&lt;/p&gt;
     &lt;/figcaption&gt;

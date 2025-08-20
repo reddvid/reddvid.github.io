@@ -1,9 +1,9 @@
 {
   "models": {
-    "banking": ["hello", ""],
+    "banking": [],
     "oil": [],
     "food": [],
     "trophies": [],
-    "people": [""]
+    "people": ["cesca-talia", "geneva"]
   }
 }

@@ -1,0 +1,9 @@
+{
+  "models": {
+    "banking": ["hello", ""],
+    "oil": [],
+    "food": [],
+    "trophies": [],
+    "people": [""]
+  }
+}

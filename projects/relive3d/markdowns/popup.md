@@ -35,14 +35,14 @@ As the pioneer of pop-up 3D scanning in the Philippines, we're committed to brin
 
 Limited slots available for 2025! Contact us to secure your booking and be among the first in the Philippines to experience this revolutionary technology.
 
-Email: [info@popup3dstudio.ph](mailto:info@popup3dstudio.ph)
+Email: [hello@relive3d.com](mailto:hello@relive3d.com)
 
-Phone: +63 (2) 8123-4567
+Phone: +639273055510
 
-Website: [www.popup3dstudio.ph](http://www.popup3dstudio.ph)
+Website: [www.relive3d.com](https://www.relive3d.com)
 
 📱 Follow us on social media for updates and special promotions!
 
-Facebook | Instagram | TikTok: @popup3dstudioPH
+Facebook | Instagram | TikTok: @relive3dstudio
 
 Transform the way you capture memories with the Philippines' first Pop-Up 3D Scanner Studio!

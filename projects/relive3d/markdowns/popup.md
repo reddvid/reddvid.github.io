@@ -1,48 +1,65 @@
-# 📸 Introducing the First Pop-Up 3D Studio in the Philippines! 📸
+# Introducing the First Pop-Up 3D Studio in the Philippines!
 
-We're excited to announce the launch of the Philippines' first-ever Pop-Up 3D Scanner Studio – a revolutionary way to capture and preserve your most precious memories in stunning three-dimensional detail!
+## The Pop-Up 3D Studio Experience That Captures Moments in Motion
 
-## 🌟 What Makes Our Pop-Up 3D Studio Special?
+Turn your events into unforgettable experiences with Re:Live 3D. The Philippines’ first Pop-Up 3D Studio where guests don’t just take photos, they get _immortalized in 3D!_
 
-Our state-of-the-art portable 3D scanning facility brings professional-grade technology directly to you! Whether it's a shopping mall, corporate event, school fair, or private function, we can set up our studio anywhere to create lifelike 3D models of people, pets, and objects.
+From corporate parties and weddings to events activations and expos, our portable 3D scanning studio brings futuristic technology right to your venue. Engaging guests, creating buzz, and giving them one-of-a-kind personalized keepsakes they’ll never forget.
 
-### 🚀 Industry-Leading Technology
+### Perfect For
 
-- High-resolution photogrammetry capturing millions of data points
-- Advanced AI-powered software for perfect 3D reconstruction
-- Full-color texturing with incredible detail
-- Quick scanning process (just 1-2 minutes per subject!)
+- **Weddings & Celebrations** – Turn once-in-a-lifetime moments into tangible memories with lifelike 3D models of couples, guests, or entire entourages.
+- **Corporate & Brand Events** – Elevate your activations, trade shows, and parties with interactive 3D scanning experiences and exclusive event souvenirs that guests will never forget.
+- **Collectibles (Singers/Athletes/Icons)** – Bring your favorite personalities to life with collectible-grade 3D figures—perfect for fans, memorabilia, and limited-edition releases.
+- **Product Displays** – Present your merchandise in captivating 3D form for exhibits, online stores, or brand campaigns that demand attention.
+- **Family Keepsakes** – Immortalize your loved ones and capture your children’s growth through the years in stunning 3D detail.
 
-### 🎁 Perfect For:
+## How It Works — Pop-Up 3D Experience
 
-- Family keepsakes - capture your children at various ages
-- Wedding memories - 3D models of the couple or entire wedding party
-- Corporate events - unique promotional content
-- School graduations - a modern alternative to traditional photos
-- Product displays - showcase your merchandise in 3D
+**1. We Set Up at Your Event**
 
-## 💫 How It Works
+Our portable 3D studio is installed right at your venue — perfect for weddings, corporate parties, conventions, and more.
 
-1. **Book our pop-up studio** - We'll bring our equipment to your location
-2. **Quick scan session** - Our team handles everything from capture to processing
-3. **Receive your digital 3D model** - View on any device or order a physical 3D print
+**2. Guests Get Scanned**
 
-## 🔍 Why Choose Us?
+Each guest steps into the booth for a quick 3D scan — fast, fun, and photorealistic!
+
+**3. Preview in the App**
+
+After scanning, guests can instantly preview their 3D model using our mobile app.
+
+**4. Choose Size & Quantity**
+
+Select your preferred figurine size and number of copies directly in the app.
+
+**5. Add to Cart & Checkout**
+
+Proceed with secure payment through debit, credit, or e-wallet options.
+
+**6. Get Live Updates**
+
+Customers receive real-time notifications and order updates via the app until delivery.
+
+## Why Choose Us?
 
 As the pioneer of pop-up 3D scanning in the Philippines, we're committed to bringing this cutting-edge technology to Filipinos everywhere. No more need to visit permanent studios or invest in expensive equipment – we bring the future of photography directly to you!
 
-## 📅 Book Your Pop-Up 3D Studio Experience Today!
+## Book Your Pop-Up 3D Studio Experience Today!
 
 Limited slots available for 2025! Contact us to secure your booking and be among the first in the Philippines to experience this revolutionary technology.
 
-Email: [hello@relive3d.com](mailto:hello@relive3d.com)
+Email: hello@relive3d.com
 
-Phone: +639273055510
+Phone: +63976-3270048 | +63960-3343253
 
-Website: [www.relive3d.com](https://www.relive3d.com)
+Website: [www.relive3d.com](https://relive3d.com)
 
-📱 Follow us on social media for updates and special promotions!
+**Follow us on social media for updates and special promotions!**
 
-Facebook | Instagram | TikTok: @relive3dstudio
+Facebook: [Re:Live 3D](https://facebook.com/relive3dstudio)
+
+Instagram: [relive3d_studio](https://instagram.com/relive3d_studio)
+
+TikTok: [@relive3dstudio](https://tiktok.com/@relive3dstudio)
 
 Transform the way you capture memories with the Philippines' first Pop-Up 3D Scanner Studio!
